@@ -1,0 +1,14 @@
+{
+    "extends": ["tslint-eslint-rules", "tslint-microsoft-contrib"],
+    "rules": {
+        "eofline": false,
+        "linebreak-style": [true, "CRLF"],
+        "missing-jsdoc": false,
+        "no-any": false,
+        "no-import-side-effect": [true, { "ignore-module": "\\.scss$" }],
+        "no-relative-imports": false,
+        "object-curly-spacing": [true, "always"],
+        "quotemark": [true, "double"],
+        "typedef": [true, "call-signature"]
+    }
+}
