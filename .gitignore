@@ -1,0 +1,9 @@
+# Editor generated files
+.vscode
+
+# Node generated files
+node_modules
+npm-debug.log
+
+# Webpack output
+dist
