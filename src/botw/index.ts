@@ -1,5 +1,7 @@
 import "./style.scss";
+import * as $ from "jquery";
 import * as L from "leaflet";
+import * as Schema from "common/JSONSchema";
 import * as ZDCRS from "common/ZDCRS";
 import { params } from "common/QueryParameters";
 
@@ -42,6 +44,16 @@ window.onload = () => {
             map.unproject([MAP_SIZE, 0], MAX_ZOOM)),
         noWrap: true
     }).addTo(map);
+
+    $.getJSON("treasures.json", (categories: Schema.Category[]) => {
+        categories.forEach(c => {
+            const markers = <L.Marker[]>[];
+            c.markers.forEach(m => {
+                markers.push(L.marker(m.coords));
+            });
+            L.layerGroup(markers).addTo(map);
+        });
+    });
 
 /*
     L.marker([0, 0]).addTo(map)

@@ -3,6 +3,7 @@
     "rules": {
         "eofline": false,
         "export-name": false,
+        "interface-name": false,
         "linebreak-style": [true, "CRLF"],
         "missing-jsdoc": false,
         "no-any": false,

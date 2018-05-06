@@ -9,6 +9,7 @@
     "noUnusedLocals": true,
     "skipLibCheck": true,
     "sourceMap": true,
-    "strictNullChecks": true,
-  }
+    "strictNullChecks": true
+  },
+  "exclude": ["node_modules"]
 }
