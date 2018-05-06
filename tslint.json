@@ -2,13 +2,19 @@
     "extends": ["tslint-eslint-rules", "tslint-microsoft-contrib"],
     "rules": {
         "eofline": false,
+        "export-name": false,
         "linebreak-style": [true, "CRLF"],
         "missing-jsdoc": false,
         "no-any": false,
+        "no-implicit-dependencies": false,
         "no-import-side-effect": [true, { "ignore-module": "\\.scss$" }],
         "no-relative-imports": false,
+        "no-submodule-imports": false,
         "object-curly-spacing": [true, "always"],
+        "ordered-imports": false,
         "quotemark": [true, "double"],
+        "sort-imports": true,
+        "triple-equals": [true, "allow-undefined-check"],
         "typedef": [true, "call-signature"]
     }
 }
