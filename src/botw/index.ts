@@ -35,7 +35,7 @@ window.onload = () => {
             L.latLng(MAP_SIZE, MAP_SIZE))
     });
 
-    L.tileLayer("https://www.zeldadungeon.net/Zelda16/Map/{z}j/{x}-{y}.jpg", {
+    L.tileLayer("https://www.zeldadungeon.net/maps/botw/tiles/{z}/{x}_{y}.jpg", {
         tileSize: TILE_SIZE,
         minZoom: MIN_ZOOM,
         maxZoom: MAX_ZOOM,
