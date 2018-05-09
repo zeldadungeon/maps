@@ -2,13 +2,10 @@ import "./style.scss";
 import * as $ from "jquery";
 import * as L from "leaflet";
 import * as Schema from "common/JSONSchema";
-import * as ZDCRS from "common/ZDCRS";
+import { Category } from "common/Category";
+import { Map } from "common/Map";
+import { Marker } from "common/Marker";
 import { params } from "common/QueryParameters";
-
-const MAP_SIZE = 24000;
-const TILE_SIZE = 750;
-const MIN_ZOOM = 0;
-const MAX_ZOOM = Math.log(MAP_SIZE / TILE_SIZE) * Math.LOG2E;
 
 // lets webpack serve the marker icon
 delete (<any>L.Icon.Default.prototype)._getIconUrl;
@@ -19,39 +16,24 @@ L.Icon.Default.mergeOptions({
 });
 
 window.onload = () => {
-    let initLat = Number(params.x);
-    if (isNaN(initLat)) { initLat = Number(params.lat); }
-    if (isNaN(initLat)) { initLat = -4580; }
-    let initLng = Number(params.y);
-    if (isNaN(initLng)) { initLng = Number(params.lng); }
-    if (isNaN(initLng)) { initLng = -2000; }
+let initLat = Number(params.x);
+if (isNaN(initLat)) { initLat = Number(params.lat); }
+if (isNaN(initLat)) { initLat = -3750; }
+let initLng = Number(params.y);
+if (isNaN(initLng)) { initLng = Number(params.lng); }
+if (isNaN(initLng)) { initLng = -1900; }
 
-    const map = L.map("map", {
-        crs: ZDCRS.create(MAP_SIZE, TILE_SIZE),
-        center: [initLat, initLng],
-        zoom: MAX_ZOOM - 1,
-        maxBounds: L.latLngBounds(
-            L.latLng(-MAP_SIZE, -MAP_SIZE),
-            L.latLng(MAP_SIZE, MAP_SIZE))
+const map = Map.create("botw", 24000, 750, {
+        center: [initLat, initLng]
     });
 
-    L.tileLayer("https://www.zeldadungeon.net/maps/botw/tiles/{z}/{x}_{y}.jpg", {
-        tileSize: TILE_SIZE,
-        minZoom: MIN_ZOOM,
-        maxZoom: MAX_ZOOM,
-        bounds: L.latLngBounds(
-            map.unproject([0, MAP_SIZE], MAX_ZOOM),
-            map.unproject([MAP_SIZE, 0], MAX_ZOOM)),
-        noWrap: true
-    }).addTo(map);
-
-    $.getJSON("treasures.json", (categories: Schema.Category[]) => {
+$.getJSON("markers/treasures.json", (categories: Schema.Category[]) => {
         categories.forEach(c => {
-            const markers = <L.Marker[]>[];
-            c.markers.forEach(m => {
-                markers.push(L.marker(m.coords));
+            const category = Category.fromJSON(c).addTo(map);
+            c.markers.map(Marker.fromJSON).forEach(m => {
+                m.addToCategory(category);
+                map.registerMarkerWithTiles(m);
             });
-            L.layerGroup(markers).addTo(map);
         });
     });
 
@@ -61,7 +43,7 @@ window.onload = () => {
         .openPopup();
 */
 
-    map.on("click", e => {
+map.on("click", e => {
         console.log((<any>e).latlng);
         map.panTo((<any>e).latlng);
     });
