@@ -27,12 +27,21 @@ window.onload = () => {
         center: [initLat, initLng]
     });
 
+    $.getJSON("markers/pins.json", (categories: Schema.Category[]) => {
+        categories.forEach(c => {
+            const category = Category.fromJSON(c);
+            map.addCategory(category);
+            c.markers.map(m => Marker.fromJSON(m, category)).forEach(m => {
+                map.registerMarkerWithTiles(m);
+            });
+        });
+    });
+
     $.getJSON("markers/treasures.json", (categories: Schema.Category[]) => {
         categories.forEach(c => {
             const category = Category.fromJSON(c);
             map.addCategory(category);
-            c.markers.map(Marker.fromJSON).forEach(m => {
-                m.addToCategory(category);
+            c.markers.map(m => Marker.fromJSON(m, category)).forEach(m => {
                 map.registerMarkerWithTiles(m);
             });
         });

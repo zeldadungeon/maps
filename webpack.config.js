@@ -23,7 +23,7 @@ module.exports = {
             chunks: ["botw"],
             filename: "botw/index.html"
         }),
-        new CopyWebpackPlugin(["**/*.json"])
+        new CopyWebpackPlugin(["**/*.json", "**/*.png"])
     ],
     resolve: {
         extensions: [".ts", ".tsx", ".js"],

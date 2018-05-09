@@ -10,25 +10,22 @@ export class Marker extends L.Marker {
     private tileContainers = <MarkerContainer[]>[];
     private containers = <MarkerContainer[]>[];
 
-    private constructor(id: string, name: string, coords: L.LatLngExpression) {
+    private constructor(id: string, name: string, coords: L.LatLngExpression, icon: L.Icon) {
         super(coords, {
-            title: name
+            title: name,
+            icon: icon
         });
         this.id = id;
         this.name = name;
     }
 
-    public static fromJSON(json: Schema.Marker): Marker {
-        return new Marker(json.id, name, json.coords);
-        // TODO handle link etc
-    }
+    public static fromJSON(json: Schema.Marker, category: Category): Marker {
+        const icon = category.icons[json.icon || 0];
+        const marker = new Marker(json.id, name, json.coords, icon);
+        marker.category = category;
+        marker.updateVisibility();
 
-    public addToCategory(category: Category): void {
-        if (this.category) {
-            this.category.removeLayer(this);
-        }
-        this.category = category;
-        this.updateVisibility();
+        return marker;
     }
 
     public addToTileContainer(container: MarkerContainer): void {

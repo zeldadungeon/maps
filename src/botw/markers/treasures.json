@@ -1,10 +1,14 @@
-[
-    {
-        "name": "Treasure",
-        "minZoom": 5,
-        "source": "summary",
-        "markers": [
-            {"coords":[-7730,-9294],"id":"Treasure0001","name":"Diamond","link":"Diamond"},
+[{
+    "name": "Treasure",
+    "minZoom": 5,
+    "source": "summary",
+    "icons": [{
+        "url": "treasure.png",
+        "width": 30,
+        "height": 26
+    }],
+    "markers": [
+{"coords":[-7730,-9294],"id":"Treasure0001","name":"Diamond","link":"Diamond"},
 {"coords":[-1887,-7238],"id":"Treasure0002","name":"Ruby","link":"Ruby"},
 {"coords":[-4739,8244],"id":"Treasure0003","name":"Ruby","link":"Ruby"},
 {"coords":[161,-7813],"id":"Treasure0004","name":"Sapphire","link":"Sapphire"},
@@ -1319,6 +1323,5 @@
 {"coords":[-3045,-1343],"id":"Treasure1313","name":"Ruby (DLC)","link":"Ruby"},
 {"coords":[-4056,-2903],"id":"Treasure1314","name":"Bomb Arrow x5 (DLC)","link":"Bomb Arrow"},
 {"coords":[7120,9310],"id":"Treasure1315","name":"Travel Medallion (DLC)","link":"Travel Medallion"}
-        ]
-    }
-]
+    ]
+}]
