@@ -2,6 +2,8 @@ import { LatLngTuple } from "leaflet";
 
 export interface Category {
     name: string;
+    minZoom?: number;
+    maxZoom?: number;
     source: string;
     markers: Marker[];
 }

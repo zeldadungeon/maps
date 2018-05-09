@@ -1,6 +1,7 @@
 [
     {
         "name": "Treasure",
+        "minZoom": 5,
         "source": "summary",
         "markers": [
             {"coords":[-7730,-9294],"id":"Treasure0001","name":"Diamond","link":"Diamond"},

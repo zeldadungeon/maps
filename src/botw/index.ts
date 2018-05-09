@@ -16,20 +16,21 @@ L.Icon.Default.mergeOptions({
 });
 
 window.onload = () => {
-let initLat = Number(params.x);
-if (isNaN(initLat)) { initLat = Number(params.lat); }
-if (isNaN(initLat)) { initLat = -3750; }
-let initLng = Number(params.y);
-if (isNaN(initLng)) { initLng = Number(params.lng); }
-if (isNaN(initLng)) { initLng = -1900; }
+    let initLat = Number(params.x);
+    if (isNaN(initLat)) { initLat = Number(params.lat); }
+    if (isNaN(initLat)) { initLat = -3750; }
+    let initLng = Number(params.y);
+    if (isNaN(initLng)) { initLng = Number(params.lng); }
+    if (isNaN(initLng)) { initLng = -1900; }
 
-const map = Map.create("botw", 24000, 750, {
+    const map = Map.create("botw", 24000, 750, {
         center: [initLat, initLng]
     });
 
-$.getJSON("markers/treasures.json", (categories: Schema.Category[]) => {
+    $.getJSON("markers/treasures.json", (categories: Schema.Category[]) => {
         categories.forEach(c => {
-            const category = Category.fromJSON(c).addTo(map);
+            const category = Category.fromJSON(c);
+            map.addCategory(category);
             c.markers.map(Marker.fromJSON).forEach(m => {
                 m.addToCategory(category);
                 map.registerMarkerWithTiles(m);
@@ -43,7 +44,7 @@ $.getJSON("markers/treasures.json", (categories: Schema.Category[]) => {
         .openPopup();
 */
 
-map.on("click", e => {
+    map.on("click", e => {
         console.log((<any>e).latlng);
         map.panTo((<any>e).latlng);
     });
