@@ -1,12 +1,13 @@
 [{
     "name": "Sheikah Tower",
     "source": "summary",
-    "icons": [{
-        "url": "tower.png",
-        "width": 28,
-        "height": 39
-    }],
-    "markers": [
+    "layers": [{
+        "icon": {
+            "url": "tower.png",
+            "width": 28,
+            "height": 39
+        },
+        "markers": [
 {"coords":[3000,6616],"id":"Akkala Tower","name":"Akkala Tower","link":"Akkala Tower"},
 {"coords":[-884,-1577],"id":"Central Tower","name":"Central Tower","link":"Central Tower"},
 {"coords":[-3428,2034],"id":"Dueling Peaks Tower","name":"Dueling Peaks Tower","link":"Dueling Peaks Tower"},
@@ -22,26 +23,19 @@
 {"coords":[1980,-7227],"id":"Tabantha Tower","name":"Tabantha Tower","link":"Tabantha Tower"},
 {"coords":[-4875,-4614],"id":"Wasteland Tower","name":"Wasteland Tower","link":"Wasteland Tower"},
 {"coords":[3211,1768],"id":"Woodland Tower","name":"Woodland Tower","link":"Woodland Tower"}
-    ]
+        ]
+    }]
 }, {
     "name": "Shrine",
-    "minZoom": 1,
     "source": "section",
-    "icons": [{
-        "url": "shrine.png",
-        "width": 26,
-        "height": 27
-    }, {
-        "url": "shrine_resurrection.png",
-        "width": 27,
-        "height": 26
-    }, {
-        "url": "shrine_dlc.png",
-        "width": 27,
-        "height": 26
-    }],
-    "markers": [
-{"coords":[-3760,-2205],"id":"Shrine of Resurrection","name":"Shrine of Resurrection","link":"Shrine of Resurrection","icon":1},
+    "layers": [{
+        "minZoom": 1,
+        "icon": {
+            "url": "shrine.png",
+            "width": 26,
+            "height": 27
+        },
+        "markers": [
 {"coords":[-6923,-3590],"id":"Dila Maag Shrine","name":"Dila Maag Shrine","link":"Dila Maag Shrine"},
 {"coords":[-3310,174],"id":"Bosh Kala Shrine","name":"Bosh Kala Shrine","link":"Bosh Kala Shrine"},
 {"coords":[-3980,-901],"id":"Ja Baij Shrine","name":"Ja Baij Shrine","link":"Ja Baij Shrine"},
@@ -161,7 +155,26 @@
 {"coords":[5110,-3435],"id":"Rin Oyaa Shrine","name":"Rin Oyaa Shrine","link":"Rin Oyaa Shrine"},
 {"coords":[-4840,-3589],"id":"Jee Noh Shrine","name":"Jee Noh Shrine","link":"Jee Noh Shrine"},
 {"coords":[1878,4607],"id":"Tah Muhl Shrine","name":"Tah Muhl Shrine","link":"Tah Muhl Shrine"},
-{"coords":[4079,4146],"id":"Kayra Mah Shrine","name":"Kayra Mah Shrine","link":"Kayra Mah Shrine"},
+{"coords":[4079,4146],"id":"Kayra Mah Shrine","name":"Kayra Mah Shrine","link":"Kayra Mah Shrine"}
+        ]
+    }, {
+        "minZoom": 1,
+        "icon": {
+            "url": "shrine_resurrection.png",
+            "width": 27,
+            "height": 26
+        },
+        "markers": [
+{"coords":[-3760,-2205],"id":"Shrine of Resurrection","name":"Shrine of Resurrection","link":"Shrine of Resurrection","icon":1}
+        ]
+    }, {
+        "minZoom": 1,
+        "icon": {
+            "url": "shrine_dlc.png",
+            "width": 27,
+            "height": 26
+        },
+        "markers": [
 {"coords":[-4311,-9791],"id":"Takama Shiri Shrine","name":"Takama Shiri Shrine (DLC)","link":"Takama Shiri Shrine","icon":2},
 {"coords":[4622,-7641],"id":"Noe Rajee Shrine","name":"Noe Rajee Shrine (DLC)","link":"Noe Rajee Shrine","icon":2},
 {"coords":[-2696,-6782],"id":"Kihiro Moh Shrine","name":"Kihiro Moh Shrine (DLC)","link":"Kihiro Moh Shrine","icon":2},
@@ -178,30 +191,34 @@
 {"coords":[1666,6206],"id":"Sato Koda Shrine","name":"Sato Koda Shrine (DLC)","link":"Sato Koda Shrine","icon":2},
 {"coords":[1293,7524],"id":"Mah Eliya Shrine","name":"Mah Eliya Shrine (DLC)","link":"Mah Eliya Shrine","icon":2},
 {"coords":[2005,9870],"id":"Kee Dafunia Shrine","name":"Kee Dafunia Shrine (DLC)","link":"Kee Dafunia Shrine","icon":2}
-    ]
+        ]
+    }]
 }, {
     "name": "Tech Lab",
-    "minZoom": 1,
     "source": "summary",
-    "icons": [{
-        "url": "lab.png",
-        "width": 31,
-        "height": 25
-    }],
-    "markers": [
+    "layers": [{
+        "minZoom": 1,
+        "icon": {
+            "url": "lab.png",
+            "width": 31,
+            "height": 25
+        },
+        "markers": [
 {"coords":[-4251,7557],"id":"Hateno Ancient Tech Lab","name":"Hateno Ancient Tech Lab","link":"Hateno Ancient Tech Lab"},
 {"coords":[6329,9031],"id":"Akkala Ancient Tech Lab","name":"Akkala Ancient Tech Lab","link":"Akkala Ancient Tech Lab"}
-    ]
+        ]
+    }]
 }, {
     "name": "Stable",
-    "minZoom": 2,
     "source": "subpage",
-    "icons": [{
-        "url": "stable.png",
-        "width": 30,
-        "height": 30
-    }],
-    "markers": [
+    "layers": [{
+        "minZoom": 2,
+        "icon": {
+            "url": "stable.png",
+            "width": 30,
+            "height": 30
+        },
+        "markers": [
 {"coords":[3515,-6511],"id":"Rito Stable","name":"Rito Stable","link":"Rito Stable"},
 {"coords":[1095,-5863],"id":"Tabantha Stable","name":"Tabantha Stable","link":"Tabantha Stable"},
 {"coords":[-4452,-5608],"id":"Gerudo Canyon Stable","name":"Gerudo Canyon Stable","link":"Gerudo Canyon Stable"},
@@ -217,27 +234,20 @@
 {"coords":[2287,5227],"id":"Foothill Stable","name":"Foothill Stable","link":"Foothill Stable"},
 {"coords":[3385,6300],"id":"South Akkala Stable","name":"South Akkala Stable","link":"South Akkala Stable"},
 {"coords":[5496,8456],"id":"East Akkala Stable","name":"East Akkala Stable","link":"East Akkala Stable"}
-    ]
+        ]
+    }]
 }, {
     "name": "Village",
-    "minZoom": 1,
-    "maxZoom": 4,
     "source": "summary",
-    "icons": [{
-        "url": "village.png",
-        "width": 30,
-        "height": 30
-    }, {
-        "url": "castle.png",
-        "width": 30,
-        "height": 30
-    }, {
-        "url": "settlement.png",
-        "width": 27,
-        "height": 27
-    }],
-    "markers": [
-{"coords":[1223,-508],"id":"Hyrule Castle","name":"Hyrule Castle","link":"Hyrule Castle","icon":1},
+    "layers": [{
+        "minZoom": 1,
+        "maxZoom": 4,
+        "icon": {
+            "url": "village.png",
+            "width": 30,
+            "height": 30
+        },
+        "markers": [
 {"coords":[-5830,-7670],"id":"Gerudo Town","name":"Gerudo Town","link":"Gerudo Town"},
 {"coords":[4935,3370],"id":"Goron City","name":"Goron City","link":"Goron City"},
 {"coords":[-4244,7186],"id":"Hateno Village","name":"Hateno Village","link":"Hateno Village"},
@@ -246,24 +256,45 @@
 {"coords":[3230,7930],"id":"Tarrey Town","name":"Tarrey Town","link":"Tarrey Town"},
 {"coords":[4275,856],"id":"Korok Forest","name":"Korok Forest","link":"Korok Forest"},
 {"coords":[803,6544],"id":"Zora's Domain","name":"Zora's Domain","link":"Zora's Domain"},
-{"coords":[-6953,6016],"id":"Lurelin Village","name":"Lurelin Village","link":"Lurelin Village"},
+{"coords":[-6953,6016],"id":"Lurelin Village","name":"Lurelin Village","link":"Lurelin Village"}
+        ]
+    }, {
+        "minZoom": 1,
+        "icon": {
+            "url": "castle.png",
+            "width": 30,
+            "height": 30
+        },
+        "markers": [
+{"coords":[1223,-508],"id":"Hyrule Castle","name":"Hyrule Castle","link":"Hyrule Castle","icon":1}
+        ]
+    }, {
+        "minZoom": 1,
+        "icon": {
+            "url": "settlement.png",
+            "width": 27,
+            "height": 27
+        },
+        "markers": [
 {"coords":[-2761,-7185],"id":"Yiga Clan Hideout","name":"Yiga Clan Hideout","link":"Yiga Clan Hideout","icon":2},
 {"coords":[4616,-2777],"id":"Forgotten Temple","name":"Forgotten Temple","link":"Forgotten Temple","icon":2},
 {"coords":[3948,3316],"id":"Southern Mine","name":"Southern Mine","link":"Southern Mine","icon":2},
 {"coords":[4578,-7704],"id":"Flight Range","name":"Flight Range","link":"Flight Range","icon":2},
 {"coords":[5595,3288],"id":"Abandoned North Mine","name":"Abandoned North Mine","link":"Abandoned North Mine","icon":2},
 {"coords":[-5116,-6476],"id":"Kara Kara Bazaar","name":"Kara Kara Bazaar","link":"Kara Kara Bazaar","icon":2}
-    ]
+        ]
+    }]
 }, {
     "name": "Memory",
-    "minZoom": 3,
     "source": "section",
-    "icons": [{
-        "url": "memory.png",
-        "width": 30,
-        "height": 28
-    }],
-    "markers": [
+    "layers": [{
+        "minZoom": 3,
+        "icon": {
+            "url": "memory.png",
+            "width": 30,
+            "height": 28
+        },
+        "markers": [
 {"coords":[196,-508],"id":"Memory01","name":"Recovered Memory #1 - Subdued Ceremony (Picture 1)","link":"Recovered Memory#Memory01"},
 {"coords":[-2448,-1362],"id":"Memory03","name":"Recovered Memory #3 - Resolve and Grief (Picture 2)","link":"Recovered Memory#Memory03"},
 {"coords":[843,-7002],"id":"Memory05","name":"Recovered Memory #5 - Zelda's Resentment (Picture 3)","link":"Recovered Memory#Memory05"},
@@ -277,21 +308,24 @@
 {"coords":[-2297,6287],"id":"Memory15","name":"Recovered Memory #15 - Return of Calamity Ganon (Picture 11)","link":"Recovered Memory#Memory15"},
 {"coords":[-869,1401],"id":"Memory16","name":"Recovered Memory #16 - Despair (Picture 12)","link":"Recovered Memory#Memory16"},
 {"coords":[-3825,3968],"id":"Memory17","name":"Recovered Memory #17 - Zelda's Awakening (Picture 13)","link":"Recovered Memory#Memory17"}
-    ]
+        ]
+    }]
 }, {
     "name": "Great Fairy",
-    "minZoom": 2,
     "source": "summary",
-    "icons": [{
-        "url": "fountain.png",
-        "width": 29,
-        "height": 29
-    }],
-    "markers": [
+    "layers": [{
+        "minZoom": 2,
+        "icon": {
+            "url": "fountain.png",
+            "width": 29,
+            "height": 29
+        },
+        "markers": [
 {"coords":[-1692,3952],"id":"Great Fairy Cotera","name":"Great Fairy Cotera","link":"Great Fairy Cotera"},
 {"coords":[1492,-7077],"id":"Great Fairy Kaysa","name":"Great Fairy Kaysa","link":"Great Fairy Kaysa"},
 {"coords":[2755,8222],"id":"Great Fairy Mija","name":"Great Fairy Mija","link":"Great Fairy Mija"},
 {"coords":[-7652,-9742],"id":"Great Fairy Tera","name":"Great Fairy Tera","link":"Great Fairy Tera"},
 {"coords":[-7440,1604],"id":"Horse God Malanya","name":"Horse God Malanya","link":"Horse God Malanya"}
-    ]
+        ]
+    }]
 }]

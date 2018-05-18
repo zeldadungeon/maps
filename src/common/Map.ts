@@ -1,12 +1,10 @@
 import * as L from "leaflet";
 import * as ZDCRS from "common/ZDCRS";
-import { Category } from "Category";
 import { Marker } from "Marker";
 import { TileLayer } from "common/TileLayer";
 
 export class Map extends L.Map {
     private tileLayer: TileLayer;
-    private categories = <Category[]>[];
 
     private constructor(element: string | HTMLElement, options?: L.MapOptions) {
         super(element, options);
@@ -32,25 +30,7 @@ export class Map extends L.Map {
         const map = new Map("map", options);
         map.tileLayer = tileLayer;
 
-        map.on("zoom", e => {
-            const zoom = map.getZoom();
-            map.categories.forEach(c => {
-                if (c.shouldBeVisible(zoom)) {
-                    c.addTo(map);
-                } else {
-                    c.removeFrom(map);
-                }
-            });
-        });
-
         return map;
-    }
-
-    public addCategory(category: Category): void {
-        this.categories.push(category);
-        if (category.shouldBeVisible(this.getZoom())) {
-            category.addTo(this);
-        }
     }
 
     public registerMarkerWithTiles(marker: Marker): void {

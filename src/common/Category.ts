@@ -1,33 +1,24 @@
-import * as L from "leaflet";
 import * as Schema from "JSONSchema";
+import { Layer } from "common/Layer";
+import { Map } from "Map";
 
-export class Category extends L.LayerGroup {
-    public name: string;
-    public icons: L.Icon[];
-
-    private minZoom = 0;
-    private maxZoom = Number.MAX_VALUE;
+export class Category {
+    private name: string;
+    private layers: Layer[];
     private infoSource: string;
 
-    private constructor() {
-        super();
-    }
+    private constructor() {}
 
     public static fromJSON(json: Schema.Category): Category {
         const category = new Category();
         category.name = json.name;
-        category.icons = json.icons.map(i => L.icon({
-            iconUrl: `markers/${i.url}`,
-            iconSize: [i.width, i.height]
-        }));
-        if (json.minZoom != undefined) { category.minZoom = json.minZoom; }
-        if (json.maxZoom != undefined) { category.maxZoom = json.maxZoom; }
         category.infoSource = json.source;
+        category.layers = json.layers.map(l => Layer.fromJSON(l));
 
         return category;
     }
 
-    public shouldBeVisible(zoom: number): boolean {
-        return zoom >= this.minZoom && zoom <= this.maxZoom;
+    public addToMap(map: Map): void {
+        this.layers.forEach(l => l.addToMap(map));
     }
 }

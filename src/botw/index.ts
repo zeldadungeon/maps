@@ -1,19 +1,9 @@
 import "./style.scss";
 import * as $ from "jquery";
-import * as L from "leaflet";
 import * as Schema from "common/JSONSchema";
 import { Category } from "common/Category";
 import { Map } from "common/Map";
-import { Marker } from "common/Marker";
 import { params } from "common/QueryParameters";
-
-// lets webpack serve the marker icon
-delete (<any>L.Icon.Default.prototype)._getIconUrl;
-L.Icon.Default.mergeOptions({
-    iconRetinaUrl: require("leaflet/dist/images/marker-icon-2x.png"), // tslint:disable-line no-require-imports no-submodule-imports
-    iconUrl: require("leaflet/dist/images/marker-icon.png"), // tslint:disable-line no-require-imports no-submodule-imports
-    shadowUrl: require("leaflet/dist/images/marker-shadow.png") // tslint:disable-line no-require-imports no-submodule-imports
-});
 
 window.onload = () => {
     let initLat = Number(params.x);
@@ -28,30 +18,12 @@ window.onload = () => {
     });
 
     $.getJSON("markers/pins.json", (categories: Schema.Category[]) => {
-        categories.forEach(c => {
-            const category = Category.fromJSON(c);
-            map.addCategory(category);
-            c.markers.map(m => Marker.fromJSON(m, category)).forEach(m => {
-                map.registerMarkerWithTiles(m);
-            });
-        });
+        categories.forEach(c => Category.fromJSON(c).addToMap(map));
     });
 
     $.getJSON("markers/treasures.json", (categories: Schema.Category[]) => {
-        categories.forEach(c => {
-            const category = Category.fromJSON(c);
-            map.addCategory(category);
-            c.markers.map(m => Marker.fromJSON(m, category)).forEach(m => {
-                map.registerMarkerWithTiles(m);
-            });
-        });
+        categories.forEach(c => Category.fromJSON(c).addToMap(map));
     });
-
-/*
-    L.marker([0, 0]).addTo(map)
-        .bindPopup("A pretty CSS3 popup.<br> Easily customizable.")
-        .openPopup();
-*/
 
     map.on("click", e => {
         console.log((<any>e).latlng);
