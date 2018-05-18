@@ -21,7 +21,26 @@ window.onload = () => {
         categories.forEach(c => Category.fromJSON(c).addToMap(map));
     });
 
+    $.getJSON("markers/seeds.json", (categories: Schema.Category[]) => {
+        // took some shortcuts to reduce file size, gotta fix them
+        const layer = categories[0].layers[0];
+        layer.markers = layer.markers.map((m: any) => {
+            return {
+                coords: m.coords[0],
+                id: m.id,
+                name: categories[0].name,
+                link: `${m.loc}#${m.id}`
+            };
+        });
+        // TODO map paths
+        categories.forEach(c => Category.fromJSON(c).addToMap(map));
+    });
+
     $.getJSON("markers/treasures.json", (categories: Schema.Category[]) => {
+        categories.forEach(c => Category.fromJSON(c).addToMap(map));
+    });
+
+    $.getJSON("markers/wiki.json", (categories: Schema.Category[]) => {
         categories.forEach(c => Category.fromJSON(c).addToMap(map));
     });
 

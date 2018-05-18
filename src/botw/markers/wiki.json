@@ -1,0 +1,347 @@
+[{
+    "name": "Main Quest",
+    "source": "subpage",
+    "layers": [{
+        "minZoom": 3,
+        "icon": {
+            "url": "mainquest.png",
+            "width": 50,
+            "height": 30
+        },
+        "markers": [
+{"coords":[-3618,-2054],"id":"Follow the Sheikah Slate","name":"Follow the Sheikah Slate","link":"Follow the Sheikah Slate"},
+{"coords":[-3395,-1145],"id":"The Isolated Plateau","name":"The Isolated Plateau","link":"The Isolated Plateau"},
+{"coords":[-3928,-1622],"id":"Destroy Ganon","name":"Destroy Ganon","link":"Destroy Ganon"},
+{"coords":[-3928,-1622],"id":"Seek Out Impa","name":"Seek Out Impa","link":"Seek Out Impa"},
+{"coords":[-1968,3550],"id":"Free the Divine Beasts","name":"Free the Divine Beasts","link":"Free the Divine Beasts"},
+{"coords":[-1968,3550],"id":"Locked Mementos","name":"Locked Mementos","link":"Locked Mementos"},
+{"coords":[-1968,3550],"id":"Captured Memories","name":"Captured Memories","link":"Captured Memories"},
+{"coords":[-5648,-7611],"id":"Forbidden City Entry","name":"Forbidden City Entry","link":"Forbidden City Entry"},
+{"coords":[4224,866],"id":"The Hero's Sword","name":"The Hero's Sword","link":"The Hero's Sword"},
+{"coords":[-1980,3658],"id":"Find the Fairy Fountain","name":"Find the Fairy Fountain","link":"Find the Fairy Fountain"},
+{"coords":[539,4657],"id":"Reach Zora's Domain","name":"Reach Zora's Domain","link":"Reach Zora's Domain"},
+{"coords":[1101,6675],"id":"Divine Beast Vah Ruta","name":"Divine Beast Vah Ruta","link":"Divine Beast Vah Ruta"},
+{"coords":[4900,3420],"id":"Divine Beast Vah Rudania","name":"Divine Beast Vah Rudania","link":"Divine Beast Vah Rudania"},
+{"coords":[-5930,-7769],"id":"Divine Beast Vah Naboris","name":"Divine Beast Vah Naboris","link":"Divine Beast Vah Naboris"},
+{"coords":[3662,-7243],"id":"Divine Beast Vah Medoh","name":"Divine Beast Vah Medoh","link":"Divine Beast Vah Medoh"},
+{"coords":[-3739,-2221],"id":"EX Champions' Ballad","name":"EX Champions' Ballad","link":"EX Champions' Ballad"},
+{"coords":[-5858,-3074],"id":"EX Champion Urbosa's Song","name":"EX Champion Urbosa's Song","link":"EX Champion Urbosa's Song"},
+{"coords":[4569,2809],"id":"EX Champion Daruk's Song","name":"EX Champion Daruk's Song","link":"EX Champion Daruk's Song"},
+{"coords":[-111,7479],"id":"EX Champion Mipha's Song","name":"EX Champion Mipha's Song","link":"EX Champion Mipha's Song"},
+{"coords":[2639,-7334],"id":"EX Champion Revali's Song","name":"EX Champion Revali's Song","link":"EX Champion Revali's Song"}
+        ]
+    }]
+}, {
+    "name": "Side Quest",
+    "source": "subpage",
+    "layers": [{
+        "minZoom": 4,
+        "icon": {
+            "url": "sidequest.png",
+            "width": 30,
+            "height": 23
+        },
+        "markers": [
+{"coords":[-3844,3541],"id":"Misko, the Great Bandit","name":"Misko, the Great Bandit","link":"Misko, the Great Bandit"},
+{"coords":[-2854,4128],"id":"The Priceless Maracas","name":"The Priceless Maracas","link":"The Priceless Maracas"},
+{"coords":[-3849,3499],"id":"Wild Horses","name":"Wild Horses","link":"Wild Horses"},
+{"coords":[-1933,3667],"id":"Flown the Coop","name":"Flown the Coop","link":"Flown the Coop"},
+{"coords":[-2082,3648],"id":"Arrows of Burning Heat","name":"Arrows of Burning Heat","link":"Arrows of Burning Heat"},
+{"coords":[-2038,3599],"id":"Koko's Specialty","name":"Koko's Specialty","link":"Koko's Specialty"},
+{"coords":[-2038,3599],"id":"Koko Cuisine","name":"Koko Cuisine","link":"Koko Cuisine"},
+{"coords":[-2038,3599],"id":"Cooking with Koko","name":"Cooking with Koko","link":"Cooking with Koko"},
+{"coords":[-2038,3599],"id":"Koko's Kitchen","name":"Koko's Kitchen","link":"Koko's Kitchen"},
+{"coords":[-2062,3802],"id":"By Firefly's Light","name":"By Firefly's Light","link":"By Firefly's Light"},
+{"coords":[-7091,5177],"id":"A Gift of Nightshade","name":"A Gift of Nightshade","link":"A Gift of Nightshade"},
+{"coords":[-4399,6568],"id":"The Statue's Bargain","name":"The Statue's Bargain","link":"The Statue's Bargain"},
+{"coords":[-4567,6640],"id":"Hylian Homeowner","name":"Hylian Homeowner","link":"Hylian Homeowner"},
+{"coords":[3203,7840],"id":"Hobbies of the Rich","name":"Hobbies of the Rich","link":"Hobbies of the Rich"},
+{"coords":[-4275,6768],"id":"The Weapon Connoisseur","name":"The Weapon Connoisseur","link":"The Weapon Connoisseur"},
+{"coords":[-4243,6892],"id":"A Gift for My Beloved","name":"A Gift for My Beloved","link":"A Gift for My Beloved"},
+{"coords":[-4203,7246],"id":"The Sheep Rustlers","name":"The Sheep Rustlers","link":"The Sheep Rustlers"},
+{"coords":[-4280,7558],"id":"Robbie's Research","name":"Robbie's Research","link":"Robbie's Research"},
+{"coords":[-4280,7558],"id":"Slated for Upgrades","name":"Slated for Upgrades","link":"Slated for Upgrades"},
+{"coords":[-4231,7570],"id":"Sunshroom Sensing","name":"Sunshroom Sensing","link":"Sunshroom Sensing"},
+{"coords":[-5259,7488],"id":"The Hero's Cache","name":"The Hero's Cache","link":"The Hero's Cache"},
+{"coords":[-4560,6668],"id":"From the Ground Up","name":"From the Ground Up","link":"From the Ground Up"},
+{"coords":[-1924,3737],"id":"Playtime with Cottla","name":"Playtime with Cottla","link":"Playtime with Cottla"},
+{"coords":[171,5517],"id":"Special Delivery","name":"Special Delivery","link":"Special Delivery"},
+{"coords":[1038,6596],"id":"Diving is Beauty!","name":"Diving is Beauty!","link":"Diving is Beauty!"},
+{"coords":[1024,6699],"id":"Lynel Safari","name":"Lynel Safari","link":"Lynel Safari"},
+{"coords":[933,6629],"id":"Frog Catching","name":"Frog Catching","link":"Frog Catching"},
+{"coords":[1101,6629],"id":"The Giant of Ralis Pond","name":"The Giant of Ralis Pond","link":"The Giant of Ralis Pond"},
+{"coords":[898,6577],"id":"Luminous Stone Gathering","name":"Luminous Stone Gathering","link":"Luminous Stone Gathering"},
+{"coords":[1080,6708],"id":"A Wife Washed Away","name":"A Wife Washed Away","link":"A Wife Washed Away"},
+{"coords":[-258,1675],"id":"Riverbed Reward","name":"Riverbed Reward","link":"Riverbed Reward"},
+{"coords":[1124,6687],"id":"Zora Stone Monuments","name":"Zora Stone Monuments","link":"Zora Stone Monuments"},
+{"coords":[-5890,-7476],"id":"The Eighth Heroine","name":"The Eighth Heroine","link":"The Eighth Heroine"},
+{"coords":[-3739,-4060],"id":"Good-Sized Horse","name":"Good-Sized Horse","link":"Good-Sized Horse"},
+{"coords":[-4481,-5623],"id":"Missing in Action","name":"Missing in Action","link":"Missing in Action"},
+{"coords":[-4443,-5588],"id":"Rushroom Rush!","name":"Rushroom Rush!","link":"Rushroom Rush!"},
+{"coords":[-5149,-6476],"id":"An Ice Guy","name":"An Ice Guy","link":"An Ice Guy"},
+{"coords":[-5781,-7655],"id":"Tools of the Trade","name":"Tools of the Trade","link":"Tools of the Trade"},
+{"coords":[-5876,-7567],"id":"The Secret Club's Secret","name":"The Secret Club's Secret","link":"The Secret Club's Secret"},
+{"coords":[-5828,-7814],"id":"Medicinal Molduga","name":"Medicinal Molduga","link":"Medicinal Molduga"},
+{"coords":[1115,-5842],"id":"A Gift for the Great Fairy","name":"A Gift for the Great Fairy","link":"A Gift for the Great Fairy"},
+{"coords":[-5937,-7776],"id":"The Thunder Helm","name":"The Thunder Helm","link":"The Thunder Helm"},
+{"coords":[-5709,-7665],"id":"The Mystery Polluter","name":"The Mystery Polluter","link":"The Mystery Polluter"},
+{"coords":[-5860,-7823],"id":"The Search for Barta","name":"The Search for Barta","link":"The Search for Barta"},
+{"coords":[-6818,5778],"id":"What's for Dinner?","name":"What's for Dinner?","link":"What's for Dinner?"},
+{"coords":[-6988,5773],"id":"Sunken Treasure","name":"Sunken Treasure","link":"Sunken Treasure"},
+{"coords":[-6806,5766],"id":"Take Back the Sea","name":"Take Back the Sea","link":"Take Back the Sea"},
+{"coords":[-7074,3077],"id":"Thunder Magnet","name":"Thunder Magnet","link":"Thunder Magnet"},
+{"coords":[4273,866],"id":"The Korok Trials","name":"The Korok Trials","link":"The Korok Trials"},
+{"coords":[4259,845],"id":"A Freezing Rod","name":"A Freezing Rod","link":"A Freezing Rod"},
+{"coords":[4264,894],"id":"Legendary Rabbit Trial","name":"Legendary Rabbit Trial","link":"Legendary Rabbit Trial"},
+{"coords":[3583,-3086],"id":"Leviathan Bones","name":"Leviathan Bones","link":"Leviathan Bones"},
+{"coords":[2252,2169],"id":"Balloon Flight","name":"Balloon Flight","link":"Balloon Flight"},
+{"coords":[-2570,-2885],"id":"The Royal White Stallion","name":"The Royal White Stallion","link":"The Royal White Stallion"},
+{"coords":[-2553,-2881],"id":"A Rare Find","name":"A Rare Find","link":"A Rare Find"},
+{"coords":[-2558,-2769],"id":"My Hero","name":"My Hero","link":"My Hero"},
+{"coords":[3380,6253],"id":"Little Sister's Big Request","name":"Little Sister's Big Request","link":"Little Sister's Big Request"},
+{"coords":[5471,8472],"id":"A Shady Customer","name":"A Shady Customer","link":"A Shady Customer"},
+{"coords":[-6981,-425],"id":"Hunt for the Giant Horse","name":"Hunt for the Giant Horse","link":"Hunt for the Giant Horse"},
+{"coords":[-6934,1050],"id":"The Horseback Hoodlums","name":"The Horseback Hoodlums","link":"The Horseback Hoodlums"},
+{"coords":[-5767,-7525],"id":"The Forgotten Sword","name":"The Forgotten Sword","link":"The Forgotten Sword"},
+{"coords":[3546,-6534],"id":"Curry for What Ails You","name":"Curry for What Ails You","link":"Curry for What Ails You"},
+{"coords":[3660,-7236],"id":"The Apple of My Eye","name":"The Apple of My Eye","link":"The Apple of My Eye"},
+{"coords":[3704,-7201],"id":"The Spark of Romance","name":"The Spark of Romance","link":"The Spark of Romance"},
+{"coords":[3122,7950],"id":"A Parent's Love","name":"A Parent's Love","link":"A Parent's Love"},
+{"coords":[3537,-7341],"id":"Find Kheel","name":"Find Kheel","link":"Find Kheel"},
+{"coords":[3609,-6621],"id":"Face the Frost Talus","name":"Face the Frost Talus","link":"Face the Frost Talus"},
+{"coords":[-2164,680],"id":"The Royal Guard's Gear","name":"The Royal Guard's Gear","link":"The Royal Guard's Gear"},
+{"coords":[-2185,645],"id":"A Royal Recipe","name":"A Royal Recipe","link":"A Royal Recipe"},
+{"coords":[3912,3308],"id":"Fireproof Lizard Roundup","name":"Fireproof Lizard Roundup","link":"Fireproof Lizard Roundup"},
+{"coords":[5038,3415],"id":"The Road to Respect","name":"The Road to Respect","link":"The Road to Respect"},
+{"coords":[4492,3581],"id":"Death Mountain's Secret","name":"Death Mountain's Secret","link":"Death Mountain's Secret"},
+{"coords":[4893,3343],"id":"The Jewel Trade","name":"The Jewel Trade","link":"The Jewel Trade"},
+{"coords":[5163,-3319],"id":"Stalhorse: Pictured!","name":"Stalhorse: Pictured!","link":"Stalhorse: Pictured!"},
+{"coords":[4359,834],"id":"Riddles of Hyrule","name":"Riddles of Hyrule","link":"Riddles of Hyrule"},
+{"coords":[5394,-2121],"id":"A Gift from the Monks","name":"A Gift from the Monks","link":"A Gift from the Monks"},
+{"coords":[4224,866],"id":"EX Trial of the Sword","name":"EX Trial of the Sword","link":"EX Trial of the Sword"},
+{"coords":[-6913,1060],"id":"EX Ancient Horse Rumors","name":"EX Ancient Horse Rumors","link":"EX Ancient Horse Rumors"},
+{"coords":[-2194,680],"id":"EX Royal Guard Rumors","name":"EX Royal Guard Rumors","link":"EX Royal Guard Rumors"},
+{"coords":[-3921,889],"id":"EX Treasure: Merchant Hood","name":"EX Treasure: Merchant Hood","link":"EX Treasure: Merchant Hood"},
+{"coords":[-3921,889],"id":"EX Treasure: Garb of Winds","name":"EX Treasure: Garb of Winds","link":"EX Treasure: Garb of Winds"},
+{"coords":[-3921,889],"id":"EX Treasure: Usurper King","name":"EX Treasure: Usurper King","link":"EX Treasure: Usurper King"},
+{"coords":[-3921,889],"id":"EX Treasure: Dark Armor","name":"EX Treasure: Dark Armor","link":"EX Treasure: Dark Armor"},
+{"coords":[2278,2131],"id":"EX Strange Mask Rumors","name":"EX Strange Mask Rumors","link":"EX Strange Mask Rumors"},
+{"coords":[3380,6300],"id":"EX Teleportation Rumors","name":"EX Teleportation Rumors","link":"EX Teleportation Rumors"},
+{"coords":[-3474,-544],"id":"EX Treasure: Ancient Mask","name":"EX Treasure: Ancient Mask","link":"EX Treasure: Ancient Mask"},
+{"coords":[-3474,-544],"id":"EX Treasure: Fairy Clothes","name":"EX Treasure: Fairy Clothes","link":"EX Treasure: Fairy Clothes"},
+{"coords":[-3474,-544],"id":"EX Treasure: Twilight Relic","name":"EX Treasure: Twilight Relic","link":"EX Treasure: Twilight Relic"},
+{"coords":[-3474,-544],"id":"EX Treasure: Phantasma","name":"EX Treasure: Phantasma","link":"EX Treasure: Phantasma"}
+        ]
+    }]
+}, {
+    "name": "Shrine Quest",
+    "source": "subpage",
+    "layers": [{
+        "minZoom": 4,
+        "icon": {
+            "url": "shrinequest.png",
+            "width": 30,
+            "height": 30
+        },
+        "markers": [
+{"coords":[-1968,3562],"id":"The Stolen Heirloom","name":"The Stolen Heirloom","link":"Lakna Rokee Shrine#The Stolen Heirloom"},
+{"coords":[3660,9252],"id":"Into the Vortex","name":"Into the Vortex","link":"Ritaag Zumo Shrine#Into the Vortex"},
+{"coords":[-6683,6894],"id":"A Fragmented Monument","name":"A Fragmented Monument","link":"Kah Yah Shrine#A Fragmented Monument"},
+{"coords":[-1691,1644],"id":"Watch Out for the Flowers","name":"Watch Out for the Flowers","link":"Hila Rao Shrine#Watch Out for the Flowers"},
+{"coords":[-3483,-4011],"id":"Test of Will","name":"Test of Will","link":"Joloo Nah Shrine#Test of Will"},
+{"coords":[-887,5179],"id":"The Crowned Beast","name":"The Crowned Beast","link":"Mezza Lo Shrine#The Crowned Beast"},
+{"coords":[-4327,6852],"id":"Secret of the Cedars","name":"Secret of the Cedars","link":"Tahno O'ah Shrine#Secret of the Cedars"},
+{"coords":[-4180,6785],"id":"The Spring of Wisdom","name":"The Spring of Wisdom","link":"Jitan Sa'mi Shrine#The Spring of Wisdom"},
+{"coords":[-3674,4797],"id":"The Cursed Statue","name":"The Cursed Statue","link":"Kam Urog Shrine#The Cursed Statue"},
+{"coords":[-689,8306],"id":"Master of the Wind","name":"Master of the Wind","link":"Shai Yota Shrine#Master of the Wind"},
+{"coords":[-5692,5305],"id":"The Three Giant Brothers","name":"The Three Giant Brothers","link":"Tawa Jinn Shrine#The Three Giant Brothers"},
+{"coords":[931,6603],"id":"The Ceremonial Song","name":"The Ceremonial Song","link":"Dagah Keek Shrine#The Ceremonial Song"},
+{"coords":[-106,-3365],"id":"The Two Rings","name":"The Two Rings","link":"Sheem Dagoze Shrine#The Two Rings"},
+{"coords":[-5082,-6567],"id":"The Eye of the Sandstorm","name":"The Eye of the Sandstorm","link":"Dako Tah Shrine#The Eye of the Sandstorm"},
+{"coords":[-6990,-2774],"id":"Secret of the Snowy Peaks","name":"Secret of the Snowy Peaks","link":"Suma Sahma Shrine#Secret of the Snowy Peaks"},
+{"coords":[-5753,-7830],"id":"The Silent Swordswomen","name":"The Silent Swordswomen","link":"Kema Zoos Shrine#The Silent Swordswomen"},
+{"coords":[-6233,-7522],"id":"The Undefeated Champ","name":"The Undefeated Champ","link":"Raqa Zunzo Shrine#The Undefeated Champ"},
+{"coords":[-6694,-3589],"id":"The Desert Labyrinth","name":"The Desert Labyrinth","link":"Dila Maag Shrine#The Desert Labyrinth"},
+{"coords":[-5762,-7751],"id":"The Seven Heroines","name":"The Seven Heroines","link":"Korsh O'hu Shrine#The Seven Heroines"},
+{"coords":[-7550,-5936],"id":"The Perfect Drink","name":"The Perfect Drink","link":"Misae Suma Shrine#The Perfect Drink"},
+{"coords":[1001,-5901],"id":"Cliffside Etchings","name":"Cliffside Etchings","link":"Keeha Yoog Shrine#Cliffside Etchings"},
+{"coords":[-430,-5528],"id":"Under a Red Moon","name":"Under a Red Moon","link":"Mijah Rokee Shrine#Under a Red Moon"},
+{"coords":[-6447,4163],"id":"A Song of Storms","name":"A Song of Storms","link":"Qukah Nata Shrine#A Song of Storms"},
+{"coords":[-7023,8984],"id":"Stranded on Eventide","name":"Stranded on Eventide","link":"Korgu Chideh Shrine#Stranded on Eventide"},
+{"coords":[3956,500],"id":"Trial of Second Sight","name":"Trial of Second Sight","link":"Kuhn Sidajj Shrine#Trial of Second Sight"},
+{"coords":[4448,514],"id":"The Lost Pilgrimage","name":"The Lost Pilgrimage","link":"Daag Chokah Shrine#The Lost Pilgrimage"},
+{"coords":[4336,1129],"id":"The Test of Wood","name":"The Test of Wood","link":"Maag Halan Shrine#The Test of Wood"},
+{"coords":[6203,759],"id":"Shrouded Shrine","name":"Shrouded Shrine","link":"Ketoh Wawai Shrine#Shrouded Shrine"},
+{"coords":[1616,-4360],"id":"Trial of Thunder","name":"Trial of Thunder","link":"Toh Yahsa Shrine#Trial of Thunder"},
+{"coords":[-6128,1626],"id":"The Serpent's Jaws","name":"The Serpent's Jaws","link":"Shae Katha Shrine#The Serpent's Jaws"},
+{"coords":[2294,5226],"id":"A Landscape of a Stable","name":"A Landscape of a Stable","link":"Tah Muhl Shrine#A Landscape of a Stable"},
+{"coords":[-7624,209],"id":"Guardian Slideshow","name":"Guardian Slideshow","link":"Shoqa Tatone Shrine#Guardian Slideshow"},
+{"coords":[6345,9019],"id":"The Skull's Eye","name":"The Skull's Eye","link":"Zuna Kai Shrine#The Skull's Eye"},
+{"coords":[5508,8460],"id":"The Spring of Power","name":"The Spring of Power","link":"Tutsuwa Nima Shrine#The Spring of Power"},
+{"coords":[7107,9308],"id":"Trial of the Labyrinth","name":"Trial of the Labyrinth","link":"Tu Ka'loh Shrine#Trial of the Labyrinth"},
+{"coords":[7070,-1890],"id":"Trial on the Cliff","name":"Trial on the Cliff","link":"Qaza Tokki Shrine#Trial on the Cliff"},
+{"coords":[3492,-7963],"id":"Recital at Warbler's Nest","name":"Recital at Warbler's Nest","link":"Voo Lota Shrine#Recital at Warbler's Nest"},
+{"coords":[-3688,-7308],"id":"Sign of the Shadow","name":"Sign of the Shadow","link":"Sasa Kai Shrine#Sign of the Shadow"},
+{"coords":[3590,-7182],"id":"The Ancient Rito Song","name":"The Ancient Rito Song","link":"Bareeda Naag Shrine#The Ancient Rito Song"},
+{"coords":[4940,3296],"id":"A Brother's Roast","name":"A Brother's Roast","link":"Kayra Mah Shrine#A Brother's Roast"},
+{"coords":[6925,5326],"id":"The Gut Check Challenge","name":"The Gut Check Challenge","link":"Gorae Torr Shrine#The Gut Check Challenge"},
+{"coords":[3660,-7266],"id":"The Bird in the Mountains","name":"The Bird in the Mountains","link":"Mozo Shenno Shrine#The Bird in the Mountains"}
+        ]
+    }]
+}, {
+    "name": "Quest Objective",
+    "source": "subpage",
+    "layers": [{
+        "minZoom": 5,
+        "icon": {
+            "url": "objective.png",
+            "width": 20,
+            "height": 20
+        },
+        "markers": [
+{"coords":[2066,-509],"id":"Destroy Ganon objective","name":"Destroy Ganon","link":"Destroy Ganon#Destroy Ganon objective"},
+{"coords":[4224,866],"id":"Obtain the Master Sword objective","name":"Obtain the Master Sword","link":"Obtain the Master Sword#Obtain the Master Sword objective"},
+{"coords":[-1968,3550],"id":"Seek Out Impa objective","name":"Seek Out Impa","link":"Seek Out Impa#Seek Out Impa objective"},
+{"coords":[684,7190],"id":"Divine Beast Vah Ruta Prince Sidon","name":"Divine Beast Vah Ruta","link":"Divine Beast Vah Ruta#Divine Beast Vah Ruta Prince Sidon"},
+{"coords":[5287,3278],"id":"Divine Beast Vah Rudania Drak","name":"Divine Beast Vah Rudania","link":"Divine Beast Vah Rudania#Divine Beast Vah Rudania Drak"},
+{"coords":[5884,3262],"id":"Divine Beast Vah Rudania Yunobo","name":"Divine Beast Vah Rudania","link":"Divine Beast Vah Rudania#Divine Beast Vah Rudania Yunobo"},
+{"coords":[4590,4317],"id":"Divine Beast Vah Rudania Bridge of Eldin","name":"Divine Beast Vah Rudania","link":"Divine Beast Vah Rudania#Divine Beast Vah Rudania Bridge of Eldin"},
+{"coords":[-6256,-6858],"id":"Divine Beast Vah Naboris Lookout Tower","name":"Divine Beast Vah Naboris","link":"Divine Beast Vah Naboris#Divine Beast Vah Naboris Lookout Tower"},
+{"coords":[4630,-7599],"id":"Divine Beast Vah Medoh Flight Range","name":"Divine Beast Vah Medoh","link":"Divine Beast Vah Medoh#Divine Beast Vah Medoh Flight Range"},
+{"coords":[-6732,7069],"id":"A Fragmented Monument Objective 1","name":"A Fragmented Monument","link":"A Fragmented Monument#A Fragmented Monument Objective 1"},
+{"coords":[-6962,6787],"id":"A Fragmented Monument Objective 2","name":"A Fragmented Monument","link":"A Fragmented Monument#A Fragmented Monument Objective 2"},
+{"coords":[-7223,7596],"id":"A Fragmented Monument Objective 3","name":"A Fragmented Monument","link":"A Fragmented Monument#A Fragmented Monument Objective 3"},
+{"coords":[430,4951],"id":"The Weapon Connoisseur Objective 1","name":"The Weapon Connoisseur","link":"The Weapon Connoisseur#The Weapon Connoisseur Objective 1"},
+{"coords":[-374,5678],"id":"Zora Stone Monuments Objective 1","name":"Zora Stone Monuments","link":"Zora Stone Monuments#Zora Stone Monuments Objective 1"},
+{"coords":[57,5752],"id":"Zora Stone Monuments Objective 2","name":"Zora Stone Monuments","link":"Zora Stone Monuments#Zora Stone Monuments Objective 2"},
+{"coords":[139,5734],"id":"Zora Stone Monuments Objective 3","name":"Zora Stone Monuments","link":"Zora Stone Monuments#Zora Stone Monuments Objective 3"},
+{"coords":[-141,6200],"id":"Zora Stone Monuments Objective 4","name":"Zora Stone Monuments","link":"Zora Stone Monuments#Zora Stone Monuments Objective 4"},
+{"coords":[-78,6531],"id":"Zora Stone Monuments Objective 5","name":"Zora Stone Monuments","link":"Zora Stone Monuments#Zora Stone Monuments Objective 5"},
+{"coords":[-104,6787],"id":"Zora Stone Monuments Objective 6","name":"Zora Stone Monuments","link":"Zora Stone Monuments#Zora Stone Monuments Objective 6"},
+{"coords":[292,6519],"id":"Zora Stone Monuments Objective 7","name":"Zora Stone Monuments","link":"Zora Stone Monuments#Zora Stone Monuments Objective 7"},
+{"coords":[425,6137],"id":"Zora Stone Monuments Objective 8","name":"Zora Stone Monuments","link":"Zora Stone Monuments#Zora Stone Monuments Objective 8"},
+{"coords":[1472,6412],"id":"Zora Stone Monuments Objective 9","name":"Zora Stone Monuments","link":"Zora Stone Monuments#Zora Stone Monuments Objective 9"},
+{"coords":[1064,7437],"id":"Zora Stone Monuments Objective 10","name":"Zora Stone Monuments","link":"Zora Stone Monuments#Zora Stone Monuments Objective 10"},
+{"coords":[-1034,-8746],"id":"The Eighth Heroine Objective 1","name":"The Eighth Heroine","link":"The Eighth Heroine#The Eighth Heroine Objective 1"},
+{"coords":[-4970,-4349],"id":"The Weapon Connoisseur Objective 2","name":"The Weapon Connoisseur","link":"The Weapon Connoisseur#The Weapon Connoisseur Objective 2"},
+{"coords":[1737,6270],"id":"The Weapon Connoisseur Objective 3","name":"The Weapon Connoisseur","link":"The Weapon Connoisseur#The Weapon Connoisseur Objective 3"},
+{"coords":[-3320,-8557],"id":"The Weapon Connoisseur Objective 4","name":"The Weapon Connoisseur","link":"The Weapon Connoisseur#The Weapon Connoisseur Objective 4"},
+{"coords":[-3965,6890],"id":"Locked Mementos Ancient Furnace","name":"Locked Mementos","link":"Locked Mementos#Locked Mementos Ancient Furnace"},
+{"coords":[3201,7978],"id":"From the Ground Up Objective 1","name":"From the Ground Up","link":"From the Ground Up#From the Ground Up Objective 1"},
+{"coords":[-5138,-460],"id":"A Wife Washed Away Objective 1","name":"A Wife Washed Away","link":"A Wife Washed Away#A Wife Washed Away Objective 1"},
+{"coords":[-1938,-7975],"id":"The Forgotten Sword Objective 1","name":"The Forgotten Sword","link":"The Forgotten Sword#The Forgotten Sword Objective 1"},
+{"coords":[159,3553],"id":"Special Delivery Objective 1","name":"Special Delivery","link":"Special Delivery#Special Delivery Objective 1"},
+{"coords":[-5296,-2443],"id":"Hunt for the Giant Horse Objective 1","name":"Hunt for the Giant Horse","link":"Hunt for the Giant Horse#Hunt for the Giant Horse Objective 1"}
+        ]
+    }]
+}, {
+    "name": "Inn",
+    "source": "summary",
+    "layers": [{
+        "minZoom": 5,
+        "icon": {
+            "url": "inn.png",
+            "width": 30,
+            "height": 30
+        },
+        "markers": [
+{"coords":[1015,6591],"id":"Seabed Inn","name":"Seabed Inn","link":"Seabed Inn"},
+{"coords":[3704,-7220],"id":"Swallow's Roost","name":"Swallow's Roost","link":"Swallow's Roost"},
+{"coords":[-2043,3674],"id":"Shuteye Inn","name":"Shuteye Inn","link":"Shuteye Inn"},
+{"coords":[-5222,-6537],"id":"Inn01","name":"Inn","link":"Inn"},
+{"coords":[-6874,5890],"id":"Inn02","name":"Inn","link":"Inn"},
+{"coords":[4839,3362],"id":"Rollin' Inn","name":"Rollin' Inn","link":"Rollin' Inn"},
+{"coords":[-5779,-7697],"id":"Hotel Oasis","name":"Hotel Oasis","link":"Hotel Oasis"},
+{"coords":[3185,8001],"id":"Inn03","name":"Inn","link":"Inn"},
+{"coords":[-4227,6948],"id":"The Great Ton Pu Inn","name":"The Great Ton Pu Inn","link":"The Great Ton Pu Inn"},
+{"coords":[4357,817],"id":"Great Deku Tree's Navel","name":"Great Deku Tree's Navel","link":"Great Deku Tree's Navel"}
+        ]
+    }]
+}, {
+    "name": "General Store",
+    "source": "summary",
+    "layers": [{
+        "minZoom": 5,
+        "icon": {
+            "url": "store.png",
+            "width": 30,
+            "height": 30
+        },
+        "markers": [
+{"coords":[-5205,-6525],"id":"Store01","name":"General Store","link":"General Store"},
+{"coords":[4923,3369],"id":"Goron Gusto Shop","name":"Goron Gusto Shop","link":"Goron Gusto Shop"},
+{"coords":[-5853,-7639],"id":"Store02","name":"General Store","link":"General Store"},
+{"coords":[4935,3337],"id":"Protein Palace","name":"Protein Palace","link":"Protein Palace"},
+{"coords":[-5823,-7718],"id":"Store03","name":"General Store","link":"General Store"},
+{"coords":[-5807,-7697],"id":"Store04","name":"General Store","link":"General Store"},
+{"coords":[-5753,-7639],"id":"Store05","name":"General Store","link":"General Store"},
+{"coords":[-2059,3588],"id":"High Spirits Produce","name":"High Spirits Produce","link":"High Spirits Produce"},
+{"coords":[978,6645],"id":"Coral Reef","name":"Coral Reef","link":"Coral Reef"},
+{"coords":[-2082,3655],"id":"The Curious Quiver","name":"The Curious Quiver","link":"The Curious Quiver"},
+{"coords":[3634,-7289],"id":"Slippery Falcon","name":"Slippery Falcon","link":"Slippery Falcon"},
+{"coords":[-4343,6727],"id":"East Wind","name":"East Wind","link":"East Wind"},
+{"coords":[3187,7901],"id":"Slippery Falcon (Tarrey Town Branch)","name":"Slippery Falcon (Tarrey Town Branch)","link":"Slippery Falcon (Tarrey Town Branch)"},
+{"coords":[-5058,-6486],"id":"Store06","name":"General Store","link":"General Store"},
+{"coords":[4369,875],"id":"General Shoppe","name":"General Shoppe","link":"General Shoppe"},
+{"coords":[4390,838],"id":"Spore Store","name":"Spore Store","link":"Spore Store"},
+{"coords":[-5135,-6546],"id":"Store07","name":"General Store","link":"General Store"},
+{"coords":[4175,-7227],"id":"FnB1","name":"Fang and Bone","link":"Fang and Bone"},
+{"coords":[-2087,3450],"id":"FnB2","name":"Fang and Bone","link":"Fang and Bone"},
+{"coords":[-7342,5944],"id":"FnB3","name":"Fang and Bone","link":"Fang and Bone"},
+{"coords":[744,6358],"id":"FnB4","name":"Fang and Bone","link":"Fang and Bone"},
+{"coords":[-3879,6675],"id":"FnB6","name":"Fang and Bone","link":"Fang and Bone"},
+{"coords":[-5401,-8033],"id":"FnB7","name":"Fang and Bone","link":"Fang and Bone"},
+{"coords":[3199,8311],"id":"FnB8","name":"Fang and Bone","link":"Fang and Bone"},
+{"coords":[-6988,5920],"id":"Store08","name":"General Store","link":"General Store"},
+{"coords":[-5874,-7646],"id":"Store09","name":"General Store","link":"General Store"}
+        ]
+    }]
+}, {
+    "name": "Armor Shop",
+    "source": "summary",
+    "layers": [{
+        "minZoom": 5,
+        "icon": {
+            "url": "armor.png",
+            "width": 30,
+            "height": 30
+        },
+        "markers": [
+{"coords":[3567,-7259],"id":"Brazen Beak","name":"Brazen Beak","link":"Brazen Beak"},
+{"coords":[-1964,3709],"id":"Enchanted","name":"Enchanted","link":"Enchanted"},
+{"coords":[4816,3285],"id":"Ripped and Shredded","name":"Ripped and Shredded","link":"Ripped and Shredded"},
+{"coords":[-4259,6717],"id":"Ventest Clothing Boutique","name":"Ventest Clothing Boutique","link":"Ventest Clothing Boutique"},
+{"coords":[-5816,-7606],"id":"Fashion Passion","name":"Fashion Passion","link":"Fashion Passion"},
+{"coords":[3276,7915],"id":"Rhondson Armor Boutique","name":"Rhondson Armor Boutique","link":"Rhondson Armor Boutique"}
+        ]
+    }]
+}, {
+    "name": "Dye Shop",
+    "source": "summary",
+    "layers": [{
+        "minZoom": 5,
+        "icon": {
+            "url": "dye.png",
+            "width": 30,
+            "height": 30
+        },
+        "markers": [
+{"coords":[-4303,6808],"id":"Kochi Dye Shop","name":"Kochi Dye Shop","link":"Kochi Dye Shop"}
+        ]
+    }]
+}, {
+    "name": "Jewelry Shop",
+    "source": "summary",
+    "layers": [{
+        "minZoom": 5,
+        "icon": {
+            "url": "jewelry.png",
+            "width": 30,
+            "height": 30
+        },
+        "markers": [
+{"coords":[3255,7903],"id":"Ore and More","name":"Ore and More","link":"Ore and More"},
+{"coords":[-5765,-7667],"id":"Starlight Memories","name":"Starlight Memories","link":"Starlight Memories"}
+        ]
+    }]
+}]

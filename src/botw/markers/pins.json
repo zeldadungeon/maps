@@ -295,19 +295,25 @@
             "height": 28
         },
         "markers": [
-{"coords":[196,-508],"id":"Memory01","name":"Recovered Memory #1 - Subdued Ceremony (Picture 1)","link":"Recovered Memory#Memory01"},
-{"coords":[-2448,-1362],"id":"Memory03","name":"Recovered Memory #3 - Resolve and Grief (Picture 2)","link":"Recovered Memory#Memory03"},
-{"coords":[843,-7002],"id":"Memory05","name":"Recovered Memory #5 - Zelda's Resentment (Picture 3)","link":"Recovered Memory#Memory05"},
-{"coords":[-5072,-6387],"id":"Memory07","name":"Recovered Memory #7 - Blades of the Yiga (Picture 4)","link":"Recovered Memory#Memory07"},
-{"coords":[3076,2835],"id":"Memory08","name":"Recovered Memory #8 - A Premonition (Picture 5)","link":"Recovered Memory#Memory08"},
-{"coords":[2603,-2182],"id":"Memory09","name":"Recovered Memory #9 - Silent Princess (Picture 6)","link":"Recovered Memory#Memory09"},
-{"coords":[-3871,346],"id":"Memory11","name":"Recovered Memory #11 - Shelter from the Storm (Picture 7)","link":"Recovered Memory#Memory11"},
-{"coords":[1992,-729],"id":"Memory12","name":"Recovered Memory #12 - Father and Daughter (Picture 8)","link":"Recovered Memory#Memory12"},
-{"coords":[5312,7488],"id":"Memory13","name":"Recovered Memory #13 - Slumbering Power (Picture 9)","link":"Recovered Memory#Memory13"},
-{"coords":[-1376,-3225],"id":"Memory14","name":"Recovered Memory #14 - To Mount Lanayru (Picture 10)","link":"Recovered Memory#Memory14"},
-{"coords":[-2297,6287],"id":"Memory15","name":"Recovered Memory #15 - Return of Calamity Ganon (Picture 11)","link":"Recovered Memory#Memory15"},
-{"coords":[-869,1401],"id":"Memory16","name":"Recovered Memory #16 - Despair (Picture 12)","link":"Recovered Memory#Memory16"},
-{"coords":[-3825,3968],"id":"Memory17","name":"Recovered Memory #17 - Zelda's Awakening (Picture 13)","link":"Recovered Memory#Memory17"}
+{"coords":[196,-508],"id":"Memory01","name":"Recovered Memory #1 - Subdued Ceremony (Picture 1)","link":"Recovered Memory#Recovered Memory #1 - Subdued Ceremony"},
+{"coords":[-2448,-1362],"id":"Memory03","name":"Recovered Memory #3 - Resolve and Grief (Picture 2)","link":"Recovered Memory#Recovered Memory #3 - Resolve and Grief"},
+{"coords":[843,-7002],"id":"Memory05","name":"Recovered Memory #5 - Zelda's Resentment (Picture 3)","link":"Recovered Memory#Recovered Memory #5 - Zelda's Resentment"},
+{"coords":[-5072,-6387],"id":"Memory07","name":"Recovered Memory #7 - Blades of the Yiga (Picture 4)","link":"Recovered Memory#Recovered Memory #7 - Blades of the Yiga"},
+{"coords":[3076,2835],"id":"Memory08","name":"Recovered Memory #8 - A Premonition (Picture 5)","link":"Recovered Memory#Recovered Memory #8 - A Premonition"},
+{"coords":[2603,-2182],"id":"Memory09","name":"Recovered Memory #9 - Silent Princess (Picture 6)","link":"Recovered Memory#Recovered Memory #9 - Silent Princess"},
+{"coords":[-3871,346],"id":"Memory11","name":"Recovered Memory #11 - Shelter from the Storm (Picture 7)","link":"Recovered Memory#Recovered Memory #11 - Shelter from the Storm"},
+{"coords":[1992,-729],"id":"Memory12","name":"Recovered Memory #12 - Father and Daughter (Picture 8)","link":"Recovered Memory#Recovered Memory #12 - Father and Daughter"},
+{"coords":[5312,7488],"id":"Memory13","name":"Recovered Memory #13 - Slumbering Power (Picture 9)","link":"Recovered Memory#Recovered Memory #13 - Slumbering Power"},
+{"coords":[-1376,-3225],"id":"Memory14","name":"Recovered Memory #14 - To Mount Lanayru (Picture 10)","link":"Recovered Memory#Recovered Memory #14 - To Mount Lanayru"},
+{"coords":[-2297,6287],"id":"Memory15","name":"Recovered Memory #15 - Return of Calamity Ganon (Picture 11)","link":"Recovered Memory#Recovered Memory #15 - Return of Calamity Ganon"},
+{"coords":[-869,1401],"id":"Memory16","name":"Recovered Memory #16 - Despair (Picture 12)","link":"Recovered Memory#Recovered Memory #16 - Despair"},
+{"coords":[-3825,3968],"id":"Memory17","name":"Recovered Memory #17 - Zelda's Awakening (Picture 13)","link":"Recovered Memory#Recovered Memory #17 - Zelda's Awakening"},
+{"coords":[3634,-7213],"id":"Memory02","name":"Recovered Memory #2 - Revali's Flap","link":"Recovered Memory#Recovered Memory #2 - Revali's Flap"},
+{"coords":[4888,3422],"id":"Memory04","name":"Recovered Memory #4 - Daruk's Mettle","link":"Recovered Memory#Recovered Memory #4 - Daruk's Mettle"},
+{"coords":[-5895,-7739],"id":"Memory06","name":"Recovered Memory #6 - Urbosa's Hand","link":"Recovered Memory#Recovered Memory #6 - Urbosa's Hand"},
+{"coords":[950,6612],"id":"Memory10","name":"Recovered Memory #10 - Mipha's Touch","link":"Recovered Memory#Recovered Memory #10 - Mipha's Touch"},
+{"coords":[4212,866],"id":"Memory18","name":"Recovered Memory #18 - The Master Sword","link":"Recovered Memory#Recovered Memory #18 - The Master Sword"},
+{"coords":[-281,5911],"id":"MemoryEX03","name":"EX Recovered Memory #3 - Champion Mipha's Song","link":"Recovered Memory#Recovered Memory #3 - Champion Mipha's Song"}
         ]
     }]
 }, {
