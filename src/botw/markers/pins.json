@@ -313,7 +313,11 @@
 {"coords":[-5895,-7739],"id":"Memory06","name":"Recovered Memory #6 - Urbosa's Hand","link":"Recovered Memory#Recovered Memory #6 - Urbosa's Hand"},
 {"coords":[950,6612],"id":"Memory10","name":"Recovered Memory #10 - Mipha's Touch","link":"Recovered Memory#Recovered Memory #10 - Mipha's Touch"},
 {"coords":[4212,866],"id":"Memory18","name":"Recovered Memory #18 - The Master Sword","link":"Recovered Memory#Recovered Memory #18 - The Master Sword"},
-{"coords":[-281,5911],"id":"MemoryEX03","name":"EX Recovered Memory #3 - Champion Mipha's Song","link":"Recovered Memory#Recovered Memory #3 - Champion Mipha's Song"}
+{"coords":[3630,-7244],"id":"MemoryEX01","name":"EX Recovered Memory #1 - Champion Revali's Song","link":"Recovered Memory#EX Recovered Memory #1 - Champion Revali's Song"},
+{"coords":[4977,5058],"id":"MemoryEX02","name":"EX Recovered Memory #2 - Champion Daruk's Song","link":"Recovered Memory#EX Recovered Memory #2 - Champion Daruk's Song"},
+{"coords":[-281,5911],"id":"MemoryEX03","name":"EX Recovered Memory #3 - Champion Mipha's Song","link":"Recovered Memory#EX Recovered Memory #3 - Champion Mipha's Song"},
+{"coords":[-5262,-4124],"id":"MemoryEX04","name":"EX Recovered Memory #4 - Champion Urbosa's Song","link":"Recovered Memory#EX Recovered Memory #4 - Champion Urbosa's Song"},
+{"coords":[-3598,-2050],"id":"MemoryEX05","name":"EX Recovered Memory #5 - The Champions' Ballad","link":"Recovered Memory#EX Recovered Memory #5 - The Champion's Ballad"}
         ]
     }]
 }, {

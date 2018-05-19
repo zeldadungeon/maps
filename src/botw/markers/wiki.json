@@ -249,10 +249,10 @@
 {"coords":[3704,-7220],"id":"Swallow's Roost","name":"Swallow's Roost","link":"Swallow's Roost"},
 {"coords":[-2043,3674],"id":"Shuteye Inn","name":"Shuteye Inn","link":"Shuteye Inn"},
 {"coords":[-5222,-6537],"id":"Inn01","name":"Inn","link":"Inn"},
-{"coords":[-6874,5890],"id":"Inn02","name":"Inn","link":"Inn"},
+{"coords":[-6874,5890],"id":"Fishing Resort","name":"Fishing Resort","link":"Fishing Resort"},
 {"coords":[4839,3362],"id":"Rollin' Inn","name":"Rollin' Inn","link":"Rollin' Inn"},
 {"coords":[-5779,-7697],"id":"Hotel Oasis","name":"Hotel Oasis","link":"Hotel Oasis"},
-{"coords":[3185,8001],"id":"Inn03","name":"Inn","link":"Inn"},
+{"coords":[3185,8001],"id":"Inn02","name":"Inn","link":"Inn"},
 {"coords":[-4227,6948],"id":"The Great Ton Pu Inn","name":"The Great Ton Pu Inn","link":"The Great Ton Pu Inn"},
 {"coords":[4357,817],"id":"Great Deku Tree's Navel","name":"Great Deku Tree's Navel","link":"Great Deku Tree's Navel"}
         ]
@@ -274,7 +274,7 @@
 {"coords":[4935,3337],"id":"Protein Palace","name":"Protein Palace","link":"Protein Palace"},
 {"coords":[-5823,-7718],"id":"Store03","name":"General Store","link":"General Store"},
 {"coords":[-5807,-7697],"id":"Store04","name":"General Store","link":"General Store"},
-{"coords":[-5753,-7639],"id":"Store05","name":"General Store","link":"General Store"},
+{"coords":[-5753,-7639],"id":"Lorn's Fruit Stand","name":"Lorn's Fruit Stand","link":"Lorn's Fruit Stand"},
 {"coords":[-2059,3588],"id":"High Spirits Produce","name":"High Spirits Produce","link":"High Spirits Produce"},
 {"coords":[978,6645],"id":"Coral Reef","name":"Coral Reef","link":"Coral Reef"},
 {"coords":[-2082,3655],"id":"The Curious Quiver","name":"The Curious Quiver","link":"The Curious Quiver"},
