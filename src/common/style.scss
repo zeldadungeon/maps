@@ -39,6 +39,10 @@ html, body {
     background: #000000;
 }
 
+.leaflet-tooltip-pane {
+    z-index: 550; /* put location text labels underneath markers */
+}
+
 .leaflet-tooltip.zd-location-label {
     background-color: transparent;
     border: transparent;
