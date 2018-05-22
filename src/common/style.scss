@@ -1,0 +1,49 @@
+@import "~leaflet/dist/leaflet.css";
+
+/// Stroke font-character
+/// @param  {Integer} $stroke - Stroke width
+/// @param  {Color}   $color  - Stroke color
+/// @return {List}            - text-shadow list
+@function stroke($stroke, $color) {
+    $shadow: ();
+    $from: $stroke*-1;
+    @for $i from $from through $stroke {
+        @for $j from $from through $stroke {
+            $shadow: append($shadow, $i*1px $j*1px 0 $color, comma);
+        }
+    }
+    @return $shadow;
+}
+
+/// Stroke font-character
+/// @param  {Integer} $stroke - Stroke width
+/// @param  {Color}   $color  - Stroke color
+/// @return {Style}           - text-shadow
+@mixin stroke($stroke, $color) {
+    text-shadow: stroke($stroke, $color);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.leaflet-container {
+    background: #000000;
+}
+
+.leaflet-tooltip.zd-location-label {
+    background-color: transparent;
+    border: transparent;
+    box-shadow: none;
+    font-size: 24px;
+    color: #f8efae;
+    @include stroke(2, #977f41);
+}

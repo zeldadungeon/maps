@@ -1,4 +1,4 @@
-import "./style.scss";
+import "common/style.scss";
 import * as $ from "jquery";
 import * as Schema from "common/JSONSchema";
 import { Category } from "common/Category";
@@ -15,6 +15,10 @@ window.onload = () => {
 
     const map = Map.create("botw", 24000, 750, {
         center: [initLat, initLng]
+    });
+
+    $.getJSON("markers/locations.json", (categories: Schema.Category[]) => {
+        categories.forEach(c => Category.fromJSON(c).addToMap(map));
     });
 
     $.getJSON("markers/pins.json", (categories: Schema.Category[]) => {

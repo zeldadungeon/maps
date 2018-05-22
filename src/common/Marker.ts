@@ -21,9 +21,19 @@ export class Marker extends L.Marker {
     }
 
     public static fromJSON(json: Schema.Marker, layer: Layer): Marker {
-        const icon = layer.icon;
+        const icon = layer.icon || L.divIcon({
+            className: "zd-void-icon"
+        });
         const marker = new Marker(json.id, json.name, json.coords, icon);
         marker.layer = layer;
+
+        if (!layer.icon) {
+            marker.bindTooltip(json.name, {
+                permanent: true,
+                direction: "center",
+                className: "zd-location-label"
+            }).openTooltip();
+        }
 
         if (json.path) {
             marker.path = L.polyline(json.path, {

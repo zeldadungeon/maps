@@ -16,10 +16,12 @@ export class Layer extends L.LayerGroup {
 
     public static fromJSON(json: Schema.Layer): Layer {
         const layer = new Layer();
-        layer.icon = L.icon({
-            iconUrl: `markers/${json.icon.url}`,
-            iconSize: [json.icon.width, json.icon.height]
-        });
+        if (json.icon) {
+            layer.icon = L.icon({
+                iconUrl: `markers/${json.icon.url}`,
+                iconSize: [json.icon.width, json.icon.height]
+            });
+        }
 
         if (json.minZoom != undefined) { layer.minZoom = json.minZoom; }
         if (json.maxZoom != undefined) { layer.maxZoom = json.maxZoom; }
