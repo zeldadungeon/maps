@@ -29,10 +29,10 @@ window.onload = () => {
                 coords: m.coords[0],
                 id: m.id,
                 name: categories[0].name,
-                link: `${m.loc}#${m.id}`
+                link: `${m.loc}#${m.id}`,
+                path: m.coords
             };
         });
-        // TODO map paths
         categories.forEach(c => Category.fromJSON(c).addToMap(map));
     });
 

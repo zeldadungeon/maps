@@ -9,6 +9,7 @@ export class Marker extends L.Marker {
     private layer: Layer;
     private tileContainers = <MarkerContainer[]>[];
     private containers = <MarkerContainer[]>[];
+    private path: L.Polyline;
 
     private constructor(id: string, name: string, coords: L.LatLngExpression, icon: L.Icon) {
         super(coords, {
@@ -24,6 +25,12 @@ export class Marker extends L.Marker {
         const marker = new Marker(json.id, json.name, json.coords, icon);
         marker.layer = layer;
 
+        if (json.path) {
+            marker.path = L.polyline(json.path, {
+                color: "#ffffff"
+            });
+        }
+
         return marker;
     }
 
@@ -35,8 +42,10 @@ export class Marker extends L.Marker {
     public updateVisibility(): void {
         if (this.layer && this.tileContainers.some(c => c.isVisible()) && this.containers.every(c => c.isVisible())) {
             this.addTo(this.layer);
+            if (this.path) { this.path.addTo(this.layer); }
         } else if (this.layer) {
             this.layer.removeLayer(this); // removeFrom only takes Map for some reason?
+            if (this.path) { this.layer.removeLayer(this.path); }
         }
     }
 }
