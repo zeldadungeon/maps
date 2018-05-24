@@ -39,6 +39,53 @@ html, body {
     background: #000000;
 }
 
+/* CONTROLS */
+
+.leaflet-right {
+    height: 100%;
+}
+
+.zd-control {
+    background-color: rgba(0,0,0,.4);
+    color: white;
+    font-size: 1.5em;
+    height: 100%;
+    overflow: auto;
+}
+
+.zd-legend {
+    display: none;
+}
+
+.leaflet-right .zd-legend {
+    margin-right: 0;
+}
+
+.leaflet-top .zd-legend {
+    margin-top: 0;
+}
+
+@media screen and (orientation:landscape) and (min-width:768px) {
+    .zd-legend {
+        display: flex;
+    }
+}
+
+.zd-legend__categories {
+    list-style: none;
+    margin: auto;
+    padding: 5px;
+}
+
+.zd-legend__category {
+    margin: -10px 0;
+    padding: 5px 0;
+    padding-left: 50px;
+    height: 30px;
+}
+
+/* LOCATION TEXT LABELS */
+
 .leaflet-tooltip-pane {
     z-index: 550; /* put location text labels underneath markers */
 }

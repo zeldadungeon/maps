@@ -1,6 +1,7 @@
 [{
     "name": "Main Quest",
     "source": "subpage",
+    "displayOrderLarge": 30,
     "layers": [{
         "minZoom": 3,
         "icon": {
@@ -32,8 +33,65 @@
         ]
     }]
 }, {
+    "name": "Shrine Quest",
+    "source": "subpage",
+    "displayOrderLarge": 31,
+    "layers": [{
+        "minZoom": 4,
+        "icon": {
+            "url": "shrinequest.png",
+            "width": 30,
+            "height": 30
+        },
+        "markers": [
+{"coords":[-1968,3562],"id":"The Stolen Heirloom","name":"The Stolen Heirloom","link":"Lakna Rokee Shrine#The Stolen Heirloom"},
+{"coords":[3660,9252],"id":"Into the Vortex","name":"Into the Vortex","link":"Ritaag Zumo Shrine#Into the Vortex"},
+{"coords":[-6683,6894],"id":"A Fragmented Monument","name":"A Fragmented Monument","link":"Kah Yah Shrine#A Fragmented Monument"},
+{"coords":[-1691,1644],"id":"Watch Out for the Flowers","name":"Watch Out for the Flowers","link":"Hila Rao Shrine#Watch Out for the Flowers"},
+{"coords":[-3483,-4011],"id":"Test of Will","name":"Test of Will","link":"Joloo Nah Shrine#Test of Will"},
+{"coords":[-887,5179],"id":"The Crowned Beast","name":"The Crowned Beast","link":"Mezza Lo Shrine#The Crowned Beast"},
+{"coords":[-4327,6852],"id":"Secret of the Cedars","name":"Secret of the Cedars","link":"Tahno O'ah Shrine#Secret of the Cedars"},
+{"coords":[-4180,6785],"id":"The Spring of Wisdom","name":"The Spring of Wisdom","link":"Jitan Sa'mi Shrine#The Spring of Wisdom"},
+{"coords":[-3674,4797],"id":"The Cursed Statue","name":"The Cursed Statue","link":"Kam Urog Shrine#The Cursed Statue"},
+{"coords":[-689,8306],"id":"Master of the Wind","name":"Master of the Wind","link":"Shai Yota Shrine#Master of the Wind"},
+{"coords":[-5692,5305],"id":"The Three Giant Brothers","name":"The Three Giant Brothers","link":"Tawa Jinn Shrine#The Three Giant Brothers"},
+{"coords":[931,6603],"id":"The Ceremonial Song","name":"The Ceremonial Song","link":"Dagah Keek Shrine#The Ceremonial Song"},
+{"coords":[-106,-3365],"id":"The Two Rings","name":"The Two Rings","link":"Sheem Dagoze Shrine#The Two Rings"},
+{"coords":[-5082,-6567],"id":"The Eye of the Sandstorm","name":"The Eye of the Sandstorm","link":"Dako Tah Shrine#The Eye of the Sandstorm"},
+{"coords":[-6990,-2774],"id":"Secret of the Snowy Peaks","name":"Secret of the Snowy Peaks","link":"Suma Sahma Shrine#Secret of the Snowy Peaks"},
+{"coords":[-5753,-7830],"id":"The Silent Swordswomen","name":"The Silent Swordswomen","link":"Kema Zoos Shrine#The Silent Swordswomen"},
+{"coords":[-6233,-7522],"id":"The Undefeated Champ","name":"The Undefeated Champ","link":"Raqa Zunzo Shrine#The Undefeated Champ"},
+{"coords":[-6694,-3589],"id":"The Desert Labyrinth","name":"The Desert Labyrinth","link":"Dila Maag Shrine#The Desert Labyrinth"},
+{"coords":[-5762,-7751],"id":"The Seven Heroines","name":"The Seven Heroines","link":"Korsh O'hu Shrine#The Seven Heroines"},
+{"coords":[-7550,-5936],"id":"The Perfect Drink","name":"The Perfect Drink","link":"Misae Suma Shrine#The Perfect Drink"},
+{"coords":[1001,-5901],"id":"Cliffside Etchings","name":"Cliffside Etchings","link":"Keeha Yoog Shrine#Cliffside Etchings"},
+{"coords":[-430,-5528],"id":"Under a Red Moon","name":"Under a Red Moon","link":"Mijah Rokee Shrine#Under a Red Moon"},
+{"coords":[-6447,4163],"id":"A Song of Storms","name":"A Song of Storms","link":"Qukah Nata Shrine#A Song of Storms"},
+{"coords":[-7023,8984],"id":"Stranded on Eventide","name":"Stranded on Eventide","link":"Korgu Chideh Shrine#Stranded on Eventide"},
+{"coords":[3956,500],"id":"Trial of Second Sight","name":"Trial of Second Sight","link":"Kuhn Sidajj Shrine#Trial of Second Sight"},
+{"coords":[4448,514],"id":"The Lost Pilgrimage","name":"The Lost Pilgrimage","link":"Daag Chokah Shrine#The Lost Pilgrimage"},
+{"coords":[4336,1129],"id":"The Test of Wood","name":"The Test of Wood","link":"Maag Halan Shrine#The Test of Wood"},
+{"coords":[6203,759],"id":"Shrouded Shrine","name":"Shrouded Shrine","link":"Ketoh Wawai Shrine#Shrouded Shrine"},
+{"coords":[1616,-4360],"id":"Trial of Thunder","name":"Trial of Thunder","link":"Toh Yahsa Shrine#Trial of Thunder"},
+{"coords":[-6128,1626],"id":"The Serpent's Jaws","name":"The Serpent's Jaws","link":"Shae Katha Shrine#The Serpent's Jaws"},
+{"coords":[2294,5226],"id":"A Landscape of a Stable","name":"A Landscape of a Stable","link":"Tah Muhl Shrine#A Landscape of a Stable"},
+{"coords":[-7624,209],"id":"Guardian Slideshow","name":"Guardian Slideshow","link":"Shoqa Tatone Shrine#Guardian Slideshow"},
+{"coords":[6345,9019],"id":"The Skull's Eye","name":"The Skull's Eye","link":"Zuna Kai Shrine#The Skull's Eye"},
+{"coords":[5508,8460],"id":"The Spring of Power","name":"The Spring of Power","link":"Tutsuwa Nima Shrine#The Spring of Power"},
+{"coords":[7107,9308],"id":"Trial of the Labyrinth","name":"Trial of the Labyrinth","link":"Tu Ka'loh Shrine#Trial of the Labyrinth"},
+{"coords":[7070,-1890],"id":"Trial on the Cliff","name":"Trial on the Cliff","link":"Qaza Tokki Shrine#Trial on the Cliff"},
+{"coords":[3492,-7963],"id":"Recital at Warbler's Nest","name":"Recital at Warbler's Nest","link":"Voo Lota Shrine#Recital at Warbler's Nest"},
+{"coords":[-3688,-7308],"id":"Sign of the Shadow","name":"Sign of the Shadow","link":"Sasa Kai Shrine#Sign of the Shadow"},
+{"coords":[3590,-7182],"id":"The Ancient Rito Song","name":"The Ancient Rito Song","link":"Bareeda Naag Shrine#The Ancient Rito Song"},
+{"coords":[4940,3296],"id":"A Brother's Roast","name":"A Brother's Roast","link":"Kayra Mah Shrine#A Brother's Roast"},
+{"coords":[6925,5326],"id":"The Gut Check Challenge","name":"The Gut Check Challenge","link":"Gorae Torr Shrine#The Gut Check Challenge"},
+{"coords":[3660,-7266],"id":"The Bird in the Mountains","name":"The Bird in the Mountains","link":"Mozo Shenno Shrine#The Bird in the Mountains"}
+        ]
+    }]
+}, {
     "name": "Side Quest",
     "source": "subpage",
+    "displayOrderLarge": 32,
     "layers": [{
         "minZoom": 4,
         "icon": {
@@ -134,63 +192,9 @@
         ]
     }]
 }, {
-    "name": "Shrine Quest",
-    "source": "subpage",
-    "layers": [{
-        "minZoom": 4,
-        "icon": {
-            "url": "shrinequest.png",
-            "width": 30,
-            "height": 30
-        },
-        "markers": [
-{"coords":[-1968,3562],"id":"The Stolen Heirloom","name":"The Stolen Heirloom","link":"Lakna Rokee Shrine#The Stolen Heirloom"},
-{"coords":[3660,9252],"id":"Into the Vortex","name":"Into the Vortex","link":"Ritaag Zumo Shrine#Into the Vortex"},
-{"coords":[-6683,6894],"id":"A Fragmented Monument","name":"A Fragmented Monument","link":"Kah Yah Shrine#A Fragmented Monument"},
-{"coords":[-1691,1644],"id":"Watch Out for the Flowers","name":"Watch Out for the Flowers","link":"Hila Rao Shrine#Watch Out for the Flowers"},
-{"coords":[-3483,-4011],"id":"Test of Will","name":"Test of Will","link":"Joloo Nah Shrine#Test of Will"},
-{"coords":[-887,5179],"id":"The Crowned Beast","name":"The Crowned Beast","link":"Mezza Lo Shrine#The Crowned Beast"},
-{"coords":[-4327,6852],"id":"Secret of the Cedars","name":"Secret of the Cedars","link":"Tahno O'ah Shrine#Secret of the Cedars"},
-{"coords":[-4180,6785],"id":"The Spring of Wisdom","name":"The Spring of Wisdom","link":"Jitan Sa'mi Shrine#The Spring of Wisdom"},
-{"coords":[-3674,4797],"id":"The Cursed Statue","name":"The Cursed Statue","link":"Kam Urog Shrine#The Cursed Statue"},
-{"coords":[-689,8306],"id":"Master of the Wind","name":"Master of the Wind","link":"Shai Yota Shrine#Master of the Wind"},
-{"coords":[-5692,5305],"id":"The Three Giant Brothers","name":"The Three Giant Brothers","link":"Tawa Jinn Shrine#The Three Giant Brothers"},
-{"coords":[931,6603],"id":"The Ceremonial Song","name":"The Ceremonial Song","link":"Dagah Keek Shrine#The Ceremonial Song"},
-{"coords":[-106,-3365],"id":"The Two Rings","name":"The Two Rings","link":"Sheem Dagoze Shrine#The Two Rings"},
-{"coords":[-5082,-6567],"id":"The Eye of the Sandstorm","name":"The Eye of the Sandstorm","link":"Dako Tah Shrine#The Eye of the Sandstorm"},
-{"coords":[-6990,-2774],"id":"Secret of the Snowy Peaks","name":"Secret of the Snowy Peaks","link":"Suma Sahma Shrine#Secret of the Snowy Peaks"},
-{"coords":[-5753,-7830],"id":"The Silent Swordswomen","name":"The Silent Swordswomen","link":"Kema Zoos Shrine#The Silent Swordswomen"},
-{"coords":[-6233,-7522],"id":"The Undefeated Champ","name":"The Undefeated Champ","link":"Raqa Zunzo Shrine#The Undefeated Champ"},
-{"coords":[-6694,-3589],"id":"The Desert Labyrinth","name":"The Desert Labyrinth","link":"Dila Maag Shrine#The Desert Labyrinth"},
-{"coords":[-5762,-7751],"id":"The Seven Heroines","name":"The Seven Heroines","link":"Korsh O'hu Shrine#The Seven Heroines"},
-{"coords":[-7550,-5936],"id":"The Perfect Drink","name":"The Perfect Drink","link":"Misae Suma Shrine#The Perfect Drink"},
-{"coords":[1001,-5901],"id":"Cliffside Etchings","name":"Cliffside Etchings","link":"Keeha Yoog Shrine#Cliffside Etchings"},
-{"coords":[-430,-5528],"id":"Under a Red Moon","name":"Under a Red Moon","link":"Mijah Rokee Shrine#Under a Red Moon"},
-{"coords":[-6447,4163],"id":"A Song of Storms","name":"A Song of Storms","link":"Qukah Nata Shrine#A Song of Storms"},
-{"coords":[-7023,8984],"id":"Stranded on Eventide","name":"Stranded on Eventide","link":"Korgu Chideh Shrine#Stranded on Eventide"},
-{"coords":[3956,500],"id":"Trial of Second Sight","name":"Trial of Second Sight","link":"Kuhn Sidajj Shrine#Trial of Second Sight"},
-{"coords":[4448,514],"id":"The Lost Pilgrimage","name":"The Lost Pilgrimage","link":"Daag Chokah Shrine#The Lost Pilgrimage"},
-{"coords":[4336,1129],"id":"The Test of Wood","name":"The Test of Wood","link":"Maag Halan Shrine#The Test of Wood"},
-{"coords":[6203,759],"id":"Shrouded Shrine","name":"Shrouded Shrine","link":"Ketoh Wawai Shrine#Shrouded Shrine"},
-{"coords":[1616,-4360],"id":"Trial of Thunder","name":"Trial of Thunder","link":"Toh Yahsa Shrine#Trial of Thunder"},
-{"coords":[-6128,1626],"id":"The Serpent's Jaws","name":"The Serpent's Jaws","link":"Shae Katha Shrine#The Serpent's Jaws"},
-{"coords":[2294,5226],"id":"A Landscape of a Stable","name":"A Landscape of a Stable","link":"Tah Muhl Shrine#A Landscape of a Stable"},
-{"coords":[-7624,209],"id":"Guardian Slideshow","name":"Guardian Slideshow","link":"Shoqa Tatone Shrine#Guardian Slideshow"},
-{"coords":[6345,9019],"id":"The Skull's Eye","name":"The Skull's Eye","link":"Zuna Kai Shrine#The Skull's Eye"},
-{"coords":[5508,8460],"id":"The Spring of Power","name":"The Spring of Power","link":"Tutsuwa Nima Shrine#The Spring of Power"},
-{"coords":[7107,9308],"id":"Trial of the Labyrinth","name":"Trial of the Labyrinth","link":"Tu Ka'loh Shrine#Trial of the Labyrinth"},
-{"coords":[7070,-1890],"id":"Trial on the Cliff","name":"Trial on the Cliff","link":"Qaza Tokki Shrine#Trial on the Cliff"},
-{"coords":[3492,-7963],"id":"Recital at Warbler's Nest","name":"Recital at Warbler's Nest","link":"Voo Lota Shrine#Recital at Warbler's Nest"},
-{"coords":[-3688,-7308],"id":"Sign of the Shadow","name":"Sign of the Shadow","link":"Sasa Kai Shrine#Sign of the Shadow"},
-{"coords":[3590,-7182],"id":"The Ancient Rito Song","name":"The Ancient Rito Song","link":"Bareeda Naag Shrine#The Ancient Rito Song"},
-{"coords":[4940,3296],"id":"A Brother's Roast","name":"A Brother's Roast","link":"Kayra Mah Shrine#A Brother's Roast"},
-{"coords":[6925,5326],"id":"The Gut Check Challenge","name":"The Gut Check Challenge","link":"Gorae Torr Shrine#The Gut Check Challenge"},
-{"coords":[3660,-7266],"id":"The Bird in the Mountains","name":"The Bird in the Mountains","link":"Mozo Shenno Shrine#The Bird in the Mountains"}
-        ]
-    }]
-}, {
     "name": "Quest Objective",
     "source": "subpage",
+    "displayOrderLarge": 34,
     "layers": [{
         "minZoom": 5,
         "icon": {
@@ -237,6 +241,7 @@
 }, {
     "name": "Inn",
     "source": "summary",
+    "displayOrderLarge": 42,
     "layers": [{
         "minZoom": 5,
         "icon": {
@@ -260,6 +265,7 @@
 }, {
     "name": "General Store",
     "source": "summary",
+    "displayOrderLarge": 43,
     "layers": [{
         "minZoom": 5,
         "icon": {
@@ -299,6 +305,7 @@
 }, {
     "name": "Armor Shop",
     "source": "summary",
+    "displayOrderLarge": 44,
     "layers": [{
         "minZoom": 5,
         "icon": {
@@ -318,6 +325,7 @@
 }, {
     "name": "Dye Shop",
     "source": "summary",
+    "displayOrderLarge": 45,
     "layers": [{
         "minZoom": 5,
         "icon": {
@@ -332,6 +340,7 @@
 }, {
     "name": "Jewelry Shop",
     "source": "summary",
+    "displayOrderLarge": 46,
     "layers": [{
         "minZoom": 5,
         "icon": {

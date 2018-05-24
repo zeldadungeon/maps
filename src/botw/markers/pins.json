@@ -1,6 +1,7 @@
 [{
     "name": "Sheikah Tower",
     "source": "summary",
+    "displayOrderLarge": 10,
     "layers": [{
         "icon": {
             "url": "tower.png",
@@ -28,6 +29,7 @@
 }, {
     "name": "Shrine",
     "source": "section",
+    "displayOrderLarge": 11,
     "layers": [{
         "minZoom": 1,
         "icon": {
@@ -196,6 +198,7 @@
 }, {
     "name": "Tech Lab",
     "source": "summary",
+    "displayOrderLarge": 12,
     "layers": [{
         "minZoom": 1,
         "icon": {
@@ -211,6 +214,7 @@
 }, {
     "name": "Stable",
     "source": "subpage",
+    "displayOrderLarge": 40,
     "layers": [{
         "minZoom": 2,
         "icon": {
@@ -239,6 +243,7 @@
 }, {
     "name": "Village",
     "source": "summary",
+    "displayOrderLarge": 41,
     "layers": [{
         "minZoom": 1,
         "maxZoom": 4,
@@ -268,7 +273,12 @@
         "markers": [
 {"coords":[1223,-508],"id":"Hyrule Castle","name":"Hyrule Castle","link":"Hyrule Castle","icon":1}
         ]
-    }, {
+    }]
+}, {
+    "name": "Settlement",
+    "source": "summary",
+    "displayOrderLarge": 47,
+    "layers": [{
         "minZoom": 1,
         "icon": {
             "url": "settlement.png",
@@ -287,6 +297,7 @@
 }, {
     "name": "Memory",
     "source": "section",
+    "displayOrderLarge": 33,
     "layers": [{
         "minZoom": 3,
         "icon": {
@@ -323,6 +334,7 @@
 }, {
     "name": "Great Fairy",
     "source": "summary",
+    "displayOrderLarge": 50,
     "layers": [{
         "minZoom": 2,
         "icon": {
@@ -341,6 +353,7 @@
 }, {
     "name": "Stone Talus",
     "source": "summary",
+    "displayOrderLarge": 54,
     "layers": [{
         "minZoom": 2,
         "icon": {
@@ -394,6 +407,7 @@
 }, {
     "name": "Hinox",
     "source": "summary",
+    "displayOrderLarge": 55,
     "layers": [{
         "minZoom": 2,
         "icon": {
@@ -447,6 +461,7 @@
 }, {
     "name": "Lynel",
     "source": "summary",
+    "displayOrderLarge": 56,
     "layers": [{
         "minZoom": 2,
         "icon": {
@@ -482,6 +497,7 @@
 }, {
     "name": "Molduga",
     "source": "summary",
+    "displayOrderLarge": 57,
     "layers": [{
         "minZoom": 2,
         "icon": {
@@ -499,6 +515,7 @@
 }, {
     "name": "Guardian",
     "source": "summary",
+    "displayOrderLarge": 58,
     "layers": [{
         "minZoom": 4,
         "icon": {
@@ -660,6 +677,7 @@
 }, {
     "name": "Goddess Statue",
     "source": "",
+    "displayOrderLarge": 51,
     "layers": [{
         "minZoom": 2,
         "icon": {
@@ -686,6 +704,7 @@
 }, {
     "name": "Raft",
     "source": "",
+    "displayOrderLarge": 53,
     "layers": [{
         "minZoom": 3,
         "icon": {
@@ -745,6 +764,7 @@
 }, {
     "name": "Cooking Pot",
     "source": "",
+    "displayOrderLarge": 52,
     "layers": [{
         "minZoom": 3,
         "icon": {

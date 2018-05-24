@@ -1,6 +1,7 @@
 [{
     "name": "Korok Seed",
     "source": "section",
+    "displayOrderLarge": 20,
     "layers": [{
         "minZoom": 3,
         "icon": {

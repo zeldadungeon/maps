@@ -3,7 +3,9 @@ import { Layer } from "common/Layer";
 import { Map } from "Map";
 
 export class Category {
-    private name: string;
+    public name: string;
+    public displayOrder: number | undefined;
+    public displayOrderLarge: number | undefined;
     private layers: Layer[];
     private infoSource: string;
 
@@ -13,6 +15,8 @@ export class Category {
         const category = new Category();
         category.name = json.name;
         category.infoSource = json.source;
+        category.displayOrder = json.displayOrder;
+        category.displayOrderLarge = json.displayOrderLarge;
         category.layers = json.layers.map(l => Layer.fromJSON(l));
 
         return category;
@@ -20,5 +24,13 @@ export class Category {
 
     public addToMap(map: Map): void {
         this.layers.forEach(l => l.addToMap(map));
+    }
+
+    public getIconUrl(): string {
+        return this.layers[0].icon.options.iconUrl;
+    }
+
+    public getIconWidth(): number {
+        return (<L.PointTuple>this.layers[0].icon.options.iconSize)[0];
     }
 }

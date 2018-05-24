@@ -17,13 +17,13 @@ window.onload = () => {
         center: [initLat, initLng]
     });
 
-    $.getJSON("markers/locations.json", (categories: Schema.Category[]) => {
-        categories.forEach(c => Category.fromJSON(c).addToMap(map));
-    });
+    function addJson(categories: Schema.Category[]): void {
+        categories.forEach(c => map.addCategory(Category.fromJSON(c)));
+    }
 
-    $.getJSON("markers/pins.json", (categories: Schema.Category[]) => {
-        categories.forEach(c => Category.fromJSON(c).addToMap(map));
-    });
+    $.getJSON("markers/locations.json", addJson);
+
+    $.getJSON("markers/pins.json", addJson);
 
     $.getJSON("markers/seeds.json", (categories: Schema.Category[]) => {
         // took some shortcuts to reduce file size, gotta fix them
@@ -37,16 +37,12 @@ window.onload = () => {
                 path: m.coords
             };
         });
-        categories.forEach(c => Category.fromJSON(c).addToMap(map));
+        addJson(categories);
     });
 
-    $.getJSON("markers/treasures.json", (categories: Schema.Category[]) => {
-        categories.forEach(c => Category.fromJSON(c).addToMap(map));
-    });
+    $.getJSON("markers/treasures.json", addJson);
 
-    $.getJSON("markers/wiki.json", (categories: Schema.Category[]) => {
-        categories.forEach(c => Category.fromJSON(c).addToMap(map));
-    });
+    $.getJSON("markers/wiki.json", addJson);
 
     map.on("click", e => {
         console.log((<any>e).latlng);

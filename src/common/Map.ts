@@ -1,9 +1,12 @@
 import * as L from "leaflet";
 import * as ZDCRS from "common/ZDCRS";
-import { Marker } from "Marker";
+import { Category } from "common/Category";
+import { Legend } from "common/Legend";
+import { Marker } from "common/Marker";
 import { TileLayer } from "common/TileLayer";
 
 export class Map extends L.Map {
+    private legend: Legend;
     private tileLayer: TileLayer;
 
     private constructor(element: string | HTMLElement, options?: L.MapOptions) {
@@ -30,7 +33,17 @@ export class Map extends L.Map {
         const map = new Map("map", options);
         map.tileLayer = tileLayer;
 
+        map.legend = Legend.create({});
+        map.legend.addTo(map);
+
         return map;
+    }
+
+    public addCategory(category: Category): void {
+        category.addToMap(this);
+        if (category.displayOrderLarge != undefined) {
+            this.legend.addCategory(category, category.displayOrderLarge);
+        }
     }
 
     public registerMarkerWithTiles(marker: Marker): void {

@@ -1,6 +1,7 @@
 [{
     "name": "Treasure",
     "source": "summary",
+    "displayOrderLarge": 59,
     "layers": [{
         "minZoom": 5,
         "icon": {
