@@ -7,17 +7,15 @@ export class Category {
     public displayOrder: number | undefined;
     public displayOrderLarge: number | undefined;
     private layers: Layer[];
-    private infoSource: string;
 
     private constructor() {}
 
     public static fromJSON(json: Schema.Category): Category {
         const category = new Category();
         category.name = json.name;
-        category.infoSource = json.source;
         category.displayOrder = json.displayOrder;
         category.displayOrderLarge = json.displayOrderLarge;
-        category.layers = json.layers.map(l => Layer.fromJSON(l));
+        category.layers = json.layers.map(l => Layer.fromJSON(l, json.source));
 
         return category;
     }

@@ -5,6 +5,7 @@ import { Marker } from "common/Marker";
 
 export class Layer extends L.LayerGroup {
     public icon: L.Icon;
+    public infoSource: string;
 
     private minZoom = 0;
     private maxZoom = Number.MAX_VALUE;
@@ -14,8 +15,10 @@ export class Layer extends L.LayerGroup {
         super();
     }
 
-    public static fromJSON(json: Schema.Layer): Layer {
+    public static fromJSON(json: Schema.Layer, infoSource: string): Layer {
         const layer = new Layer();
+        layer.infoSource = infoSource;
+
         if (json.icon) {
             layer.icon = L.icon({
                 iconUrl: `markers/${json.icon.url}`,

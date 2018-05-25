@@ -34,7 +34,16 @@ module.exports = {
         rules: [
             { test: /\.tsx?$/, loader: "ts-loader" },
             { test: /\.scss$/, loaders: ["style-loader", "css-loader", "sass-loader"] },
-            { test: /\.(png|jpe?g|gif|svg)(\?.*)?$/, loader: "url-loader" }
+            { test: /\.(png|jpe?g|gif|svg)(\?.*)?$/, loader: "url-loader" },
+            {
+                test: /.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
+                use: [{
+                    loader: 'url-loader',
+                    options: {
+                        outputPath: 'fonts/',
+                    }
+                }]
+            }
         ]
     }
 };

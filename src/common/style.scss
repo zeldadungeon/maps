@@ -1,4 +1,6 @@
 @import "~leaflet/dist/leaflet.css";
+$fa-font-path: "~font-awesome/fonts";
+@import '~font-awesome/scss/font-awesome.scss';
 
 /// Stroke font-character
 /// @param  {Integer} $stroke - Stroke width
@@ -97,4 +99,41 @@ html, body {
     font-size: 24px;
     color: #f8efae;
     @include stroke(2, #977f41);
+}
+
+/* POPUPS */
+
+.zd-popup__controls {
+    text-align: center;
+    font-size: 18px;
+}
+
+.zd-popup__controls .zd-popup__control {
+    color: #b5b5b5;
+}
+
+.zd-popup__controls .zd-popup__control:hover {
+    color: #7f7f7f;
+    cursor: pointer;
+}
+
+.zd-popup__control + .zd-popup__control {
+    margin-left: 18px;
+}
+
+.zd-popup__control--uncomplete {
+    display: none;
+}
+
+.zd-popup__controls--completed .zd-popup__control--complete {
+    display: none;
+}
+
+.zd-popup__controls--completed .zd-popup__control--uncomplete {
+    display: inline-block;
+    margin-left: 0;
+}
+
+.zd-popup__controls--noedit .zd-popup__control--edit {
+    display: none;
 }

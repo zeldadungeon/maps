@@ -34,7 +34,7 @@ window.onload = () => {
                 id: m.id,
                 name: categories[0].name,
                 link: `${m.loc}#${m.id}`,
-                path: m.coords
+                path: m.coords.length > 1 ? m.coords : undefined
             };
         });
         addJson(categories);
