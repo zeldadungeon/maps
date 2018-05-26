@@ -1,6 +1,7 @@
 import * as L from "leaflet";
 import * as ZDCRS from "common/ZDCRS";
 import { Category } from "common/Category";
+import { Control } from "common/Control";
 import { Legend } from "common/Legend";
 import { Marker } from "common/Marker";
 import { TileLayer } from "common/TileLayer";
@@ -29,9 +30,23 @@ export class Map extends L.Map {
         options.crs = crs;
         options.maxBounds = bounds.pad(0.5);
         options.layers = [tileLayer];
+        options.zoomControl = false; // adding it later, below our own controls
 
         const map = new Map("map", options);
         map.tileLayer = tileLayer;
+
+        const searchControl = Control.create({
+            icon: "search"
+        }).addTo(map);
+        const settingsControl = Control.create({
+            icon: "cog"
+        }).addTo(map);
+        L.control.zoom({
+            position: "topleft"
+        }).addTo(map);
+
+        searchControl.onOpen(() => settingsControl.close());
+        settingsControl.onOpen(() => searchControl.close());
 
         map.legend = Legend.create({});
         map.legend.addTo(map);
