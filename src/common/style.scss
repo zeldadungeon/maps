@@ -121,11 +121,27 @@ html, body {
     padding: 5px;
 }
 
-.zd-legend__category {
-    margin: -10px 0;
-    padding: 5px 0;
-    padding-left: 50px;
+.zd-legend__all, .zd-legend__none, .zd-legend__category {
     height: 30px;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.zd-legend__all, .zd-legend__none {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+.zd-legend__category {
+/*    margin: -10px 0;
+    padding: 5px 0;*/
+    padding-left: 50px;
+    background-repeat: no-repeat;
+}
+
+.selected {
+    background-color: rgba(0,0,0,.7);
 }
 
 /* LOCATION TEXT LABELS */

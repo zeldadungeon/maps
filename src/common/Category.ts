@@ -31,4 +31,16 @@ export class Category {
     public getIconWidth(): number {
         return (<L.PointTuple>this.layers[0].icon.options.iconSize)[0];
     }
+
+    public forceShow(): void {
+        this.layers.forEach(l => l.forceShow());
+    }
+
+    public forceHide(): void {
+        this.layers.forEach(l => l.forceHide());
+    }
+
+    public resetVisibility(): void {
+        this.layers.forEach(l => l.resetVisibility());
+    }
 }

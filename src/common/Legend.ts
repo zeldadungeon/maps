@@ -1,21 +1,53 @@
 import * as L from "leaflet";
 import { Category } from "common/Category";
 
+interface LegendItem {
+    category: Category;
+    li: HTMLElement;
+}
+
 export class Legend extends L.Control {
     private container: HTMLElement;
     private categoryList: HTMLElement;
+    private all: HTMLElement;
+    private none: HTMLElement;
+    private categories = <LegendItem[]>[];
 
     private constructor(options: L.ControlOptions) {
         super(options);
+
         this.container = L.DomUtil.create("div", "zd-control zd-legend");
-        // TODO "Legend" title?
-        // TODO All/None buttons
-        this.categoryList = L.DomUtil.create("ul", "zd-legend__categories", this.container);
         L.DomEvent.disableClickPropagation(this.container);
-        // TODO test below on mobile
-        //if (!L.Browser.touch) {
         L.DomEvent.disableScrollPropagation(this.container);
-        //}
+
+        this.categoryList = L.DomUtil.create("ul", "zd-legend__categories", this.container);
+        const allNone = L.DomUtil.create("li", "", this.categoryList);
+        this.all = L.DomUtil.create("div", "zd-legend__all selected", allNone);
+        this.all.innerText = "All";
+        this.none = L.DomUtil.create("div", "zd-legend__none", allNone);
+        this.none.innerText = "None";
+
+        L.DomEvent.addListener(this.all, "click", () => {
+            if (!L.DomUtil.hasClass(this.all, "selected")) {
+                L.DomUtil.addClass(this.all, "selected");
+                L.DomUtil.removeClass(this.none, "selected");
+                this.categories.forEach(c => {
+                    L.DomUtil.removeClass(c.li, "selected");
+                    c.category.resetVisibility();
+                });
+            }
+        });
+
+        L.DomEvent.addListener(this.none, "click", () => {
+            if (!L.DomUtil.hasClass(this.none, "selected")) {
+                L.DomUtil.addClass(this.none, "selected");
+                L.DomUtil.removeClass(this.all, "selected");
+                this.categories.forEach(c => {
+                    L.DomUtil.removeClass(c.li, "selected");
+                    c.category.forceHide();
+                });
+            }
+        });
     }
 
     public static create(options: L.ControlOptions): Legend {
@@ -35,17 +67,40 @@ export class Legend extends L.Control {
         const li = L.DomUtil.create("li", "zd-legend__category");
         li.setAttribute("data-position", `${position}`);
         li.innerText = category.name;
-        li.style.background = `url(${category.getIconUrl()}) ${(50 - category.getIconWidth()) / 2}px center no-repeat`;
+        li.style.backgroundImage = `url(${category.getIconUrl()})`;
+        li.style.backgroundPosition = `${(50 - category.getIconWidth()) / 2}px center`;
+        this.categories.push({ category, li });
 
         // activate it
-        // TODO handler
         L.DomEvent.addListener(li, "click", () => {
-            console.log(`Clicked ${category.name}`);
+            if (L.DomUtil.hasClass(li, "selected")) {
+                L.DomUtil.removeClass(li, "selected");
+                category.forceHide();
+
+                // select "None" if no others are selected
+                if (this.categories.every(c => !L.DomUtil.hasClass(c.li, "selected"))) {
+                    L.DomUtil.addClass(this.none, "selected");
+                }
+            } else {
+                L.DomUtil.addClass(li, "selected");
+                category.forceShow();
+
+                // hide the others
+                if (L.DomUtil.hasClass(this.all, "selected")) {
+                    L.DomUtil.removeClass(this.all, "selected");
+                    this.categories.forEach(c => {
+                        if (!L.DomUtil.hasClass(c.li, "selected")) {
+                            c.category.forceHide();
+                        }
+                    });
+                }
+                L.DomUtil.removeClass(this.none, "selected");
+            }
         });
 
         // insert it
         const children = this.categoryList.children;
-        let index = 0;
+        let index = 1;
         while (index < children.length &&
             position >= Number(children[index].getAttribute("data-position"))) {
             index++;

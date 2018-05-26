@@ -3,12 +3,20 @@ import * as Schema from "JSONSchema";
 import { Map } from "Map";
 import { Marker } from "common/Marker";
 
+enum Visibility {
+    Off,
+    On,
+    Default
+}
+
 export class Layer extends L.LayerGroup {
     public icon: L.Icon;
     public infoSource: string;
 
     private minZoom = 0;
     private maxZoom = Number.MAX_VALUE;
+    private visibility = Visibility.Default;
+    private map: Map;
     private markers: Marker[];
 
     private constructor() {
@@ -35,18 +43,37 @@ export class Layer extends L.LayerGroup {
     }
 
     public addToMap(map: Map): void {
-        this.updateVisibility(map);
-        map.on("zoom", e => this.updateVisibility(map));
+        this.map = map;
+        this.updateVisibility();
+        map.on("zoom", e => this.updateVisibility());
 
         this.markers.forEach(m => map.registerMarkerWithTiles(m));
     }
 
-    private updateVisibility(map: Map): void {
-        const zoom = map.getZoom();
-        if (zoom >= this.minZoom && zoom <= this.maxZoom) {
-            this.addTo(map);
+    public forceShow(): void {
+        this.setVisibility(Visibility.On);
+    }
+
+    public forceHide(): void {
+        this.setVisibility(Visibility.Off);
+    }
+
+    public resetVisibility(): void {
+        this.setVisibility(Visibility.Default);
+    }
+
+    private setVisibility(visibility: Visibility): void {
+        this.visibility = visibility;
+        this.updateVisibility();
+    }
+
+    private updateVisibility(): void {
+        const zoom = this.map.getZoom();
+        if (this.visibility === Visibility.On ||
+            this.visibility === Visibility.Default && zoom >= this.minZoom && zoom <= this.maxZoom) {
+            this.addTo(this.map);
         } else {
-            this.removeFrom(map);
+            this.removeFrom(this.map);
         }
     }
 }
