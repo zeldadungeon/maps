@@ -77,7 +77,9 @@ export class Popup extends L.Popup {
             $.getJSON(`${API_URL}&action=query&prop=pageprops&titles=${encodeURIComponent(pageTitle)}&callback=?`)
                 .then(result => {
                     const pageId = Object.keys(result.query.pages)[0];
-                    this.loadContent(pageId === "-1" ? "" : `<p>${result.query.pages[pageId].pageprops.description}</p>`);
+                    const page = result.query.pages[pageId];
+                    this.loadContent(pageId === "-1" || !page.pageprops || !page.pageprops.description ?
+                        "" : `<p>${page.pageprops.description}</p>`);
                 });
         }
     }

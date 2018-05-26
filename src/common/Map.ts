@@ -5,6 +5,7 @@ import { Control } from "common/Control";
 import { Legend } from "common/Legend";
 import { Marker } from "common/Marker";
 import { TileLayer } from "common/TileLayer";
+import { params } from "common/QueryParameters";
 
 export class Map extends L.Map {
     private legend: Legend;
@@ -16,20 +17,29 @@ export class Map extends L.Map {
 
     public static create(directory: string, mapSize: number, tileSize: number, options: L.MapOptions = {}): Map {
         const maxZoom = Math.log(mapSize / tileSize) * Math.LOG2E;
+        if (options.zoom == undefined) { options.zoom = maxZoom - 2; }
+
+        let initLat = Number(params.x);
+        if (isNaN(initLat)) { initLat = Number(params.lat); }
+        let initLng = Number(params.y);
+        if (isNaN(initLng)) { initLng = Number(params.lng); }
+        if (!isNaN(initLat) && !isNaN(initLng)) { options.center = [initLat, initLng]; }
+
         const crs = ZDCRS.create(mapSize, tileSize);
+        options.crs = crs;
+
         const bounds = L.latLngBounds(
             crs.pointToLatLng(L.point(0, mapSize), maxZoom),
             crs.pointToLatLng(L.point(mapSize, 0), maxZoom));
+        options.maxBounds = bounds.pad(0.5);
+
         const tileLayer = TileLayer.create(
             `https://www.zeldadungeon.net/maps/${directory}/tiles/{z}/{x}_{y}.jpg`,
             tileSize,
             maxZoom,
             bounds);
-
-        if (options.zoom == undefined) { options.zoom = maxZoom - 2; }
-        options.crs = crs;
-        options.maxBounds = bounds.pad(0.5);
         options.layers = [tileLayer];
+
         options.zoomControl = false; // adding it later, below our own controls
 
         const map = new Map("map", options);
@@ -53,10 +63,9 @@ export class Map extends L.Map {
                     result.innerText = m.name;
                     result.style.backgroundImage = `url(${m.getIconUrl()})`;
                     result.style.backgroundPosition = `${(50 - m.getIconWidth()) / 2}px center`;
-                    L.DomEvent.addListener(result, "click", evt => {
+                    L.DomEvent.addListener(result, "click", () => {
                         searchControl.close();
-                        map.panTo(m.getLatLng());
-                        m.openPopupWhenLoaded();
+                        map.focusOn(m);
                     });
                 });
             }
@@ -98,5 +107,14 @@ export class Map extends L.Map {
 
     public registerMarkerWithTiles(marker: Marker): void {
         this.tileLayer.registerMarkerWithTiles(marker, this.project(marker.getLatLng(), 0));
+        if (params.id === marker.id) {
+            this.focusOn(marker);
+        }
+    }
+
+    private focusOn(marker: Marker): void {
+        this.legend.reset();
+        this.setView(marker.getLatLng(), Math.max(marker.getMinZoom(), this.getZoom()));
+        marker.openPopupWhenLoaded();
     }
 }

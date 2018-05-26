@@ -111,4 +111,8 @@ export class Legend extends L.Control {
             this.categoryList.insertBefore(li, children[index]);
         }
     }
+
+    public reset(): void {
+        this.all.click();
+    }
 }

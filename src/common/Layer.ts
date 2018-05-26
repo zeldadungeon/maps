@@ -58,6 +58,14 @@ export class Layer extends L.LayerGroup {
         return this.icon && (<L.PointTuple>this.icon.options.iconSize)[0] || 0;
     }
 
+    public getMinZoom(): number {
+        return this.minZoom;
+    }
+
+    public isVisible(): boolean {
+        return this.map.hasLayer(this);
+    }
+
     public forceShow(): void {
         this.setVisibility(Visibility.On);
     }

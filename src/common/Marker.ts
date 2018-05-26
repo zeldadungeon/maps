@@ -94,14 +94,21 @@ export class Marker extends L.Marker {
     }
 
     public openPopupWhenLoaded(): void {
-        const open = () => {
-            this.openPopup();
-            this.off("add", open);
-        };
-        if (this.layer.hasLayer(this)) {
+        if (this.layer.hasLayer(this) && this.layer.isVisible()) {
             this.openPopup();
         } else {
-            this.on("add", open);
+            const func = () => {
+                this.off("add", func);
+                this.layer.off("add", func);
+                if (!this.layer.hasLayer(this)) {
+                    this.on("add", func);
+                } else if (!this.layer.isVisible()) {
+                    this.layer.on("add", func);
+                } else {
+                    this.openPopup();
+                }
+            };
+            func();
         }
     }
 
@@ -111,5 +118,9 @@ export class Marker extends L.Marker {
 
     public getIconWidth(): number {
         return this.layer.getIconWidth();
+    }
+
+    public getMinZoom(): number {
+        return this.layer.getMinZoom();
     }
 }
