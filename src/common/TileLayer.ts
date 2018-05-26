@@ -51,4 +51,9 @@ export class TileLayer extends L.TileLayer {
             this.tileMarkerContainers[z][x][y].addMarker(marker);
         }
     }
+
+    public findMarkers(searchRegex: RegExp): Marker[] {
+        // [0][0][0] is the top-level/min-zoom/one-tile container that contains all markers
+        return this.tileMarkerContainers[0][0][0].findMarkers(searchRegex);
+    }
 }

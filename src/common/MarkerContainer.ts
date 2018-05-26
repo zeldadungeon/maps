@@ -32,4 +32,10 @@ export class MarkerContainer {
     public isVisible(): boolean {
         return this.visible;
     }
+
+    public findMarkers(searchRegex: RegExp): Marker[] {
+        return Object.keys(this.markers)
+            .map(k => this.markers[k])
+            .filter(m => searchRegex.test(m.name));
+    }
 }

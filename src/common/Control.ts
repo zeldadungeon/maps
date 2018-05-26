@@ -6,6 +6,7 @@ const OPEN_CLASS = "zd-control__content--open";
 
 export interface Options extends L.ControlOptions {
     icon: string;
+    content: HTMLElement;
 }
 
 export class Control extends L.Control {
@@ -21,18 +22,16 @@ export class Control extends L.Control {
         const button = L.DomUtil.create("div", "zd-control__button", this.container);
         L.DomUtil.create("i", `fa fa-${options.icon}`, button);
         L.DomEvent.disableClickPropagation(button);
-        // TODO test below on mobile
-        //if (!L.Browser.touch) {
-        L.DomEvent.disableScrollPropagation(button);
-        //}
+        if (!L.Browser.touch) {
+            L.DomEvent.disableScrollPropagation(button);
+        }
 
         this.content = L.DomUtil.create("div", "zd-control__content", this.container);
         L.DomEvent.disableClickPropagation(this.content);
-        // TODO test below on mobile
-        //if (!L.Browser.touch) {
-        L.DomEvent.disableScrollPropagation(this.content);
-        //}
-        this.content.innerText = "TODO"; // TODO
+        if (!L.Browser.touch) {
+            L.DomEvent.disableScrollPropagation(this.content);
+        }
+        this.content.appendChild(options.content);
 
         L.DomEvent.addListener(button, "click", () => L.DomUtil.hasClass(this.content, OPEN_CLASS) ? this.close() : this.open());
     }

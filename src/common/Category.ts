@@ -25,11 +25,11 @@ export class Category {
     }
 
     public getIconUrl(): string {
-        return this.layers[0].icon.options.iconUrl;
+        return this.layers[0].getIconUrl();
     }
 
     public getIconWidth(): number {
-        return (<L.PointTuple>this.layers[0].icon.options.iconSize)[0];
+        return this.layers[0].getIconWidth();
     }
 
     public forceShow(): void {

@@ -6,6 +6,7 @@ import { Popup } from "common/Popup";
 
 export class Marker extends L.Marker {
     public id: string;
+    public name: string;
     private layer: Layer;
     private tileContainers = <MarkerContainer[]>[];
     private containers = <MarkerContainer[]>[];
@@ -17,6 +18,7 @@ export class Marker extends L.Marker {
             icon: icon
         });
         this.id = id;
+        this.name = name;
     }
 
     public static fromJSON(json: Schema.Marker, layer: Layer): Marker {
@@ -89,5 +91,25 @@ export class Marker extends L.Marker {
             this.layer.removeLayer(this); // removeFrom only takes Map for some reason?
             if (this.path) { this.layer.removeLayer(this.path); }
         }
+    }
+
+    public openPopupWhenLoaded(): void {
+        const open = () => {
+            this.openPopup();
+            this.off("add", open);
+        };
+        if (this.layer.hasLayer(this)) {
+            this.openPopup();
+        } else {
+            this.on("add", open);
+        }
+    }
+
+    public getIconUrl(): string {
+        return this.layer.getIconUrl();
+    }
+
+    public getIconWidth(): number {
+        return this.layer.getIconWidth();
     }
 }

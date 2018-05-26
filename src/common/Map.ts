@@ -35,12 +35,47 @@ export class Map extends L.Map {
         const map = new Map("map", options);
         map.tileLayer = tileLayer;
 
+        const searchContent = L.DomUtil.create("div", "zd-search");
+        const searchBox = <HTMLInputElement>L.DomUtil.create("input", "zd-search__searchbox", searchContent);
+        searchBox.setAttribute("type", "text");
+        searchBox.setAttribute("placeholder", "Search");
+        const results = L.DomUtil.create("ul", "zd-search__results", searchContent);
+        let searchVal = "";
+        L.DomEvent.addListener(searchBox, "input", e => {
+            L.DomUtil.empty(results);
+            const searchStr = searchBox.value;
+            // length > 2 and either value changed or on focus
+            if (searchStr && searchStr.length > 2 && (searchVal !== searchStr || e.type === "focus")) {
+                // regex (escape regex chars)
+                const searchRegex = new RegExp(searchStr.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&"), "i");
+                tileLayer.findMarkers(searchRegex).forEach(m => {
+                    const result = L.DomUtil.create("li", "zd-search__result", results);
+                    result.innerText = m.name;
+                    result.style.backgroundImage = `url(${m.getIconUrl()})`;
+                    result.style.backgroundPosition = `${(50 - m.getIconWidth()) / 2}px center`;
+                    L.DomEvent.addListener(result, "click", evt => {
+                        searchControl.close();
+                        map.panTo(m.getLatLng());
+                        m.openPopupWhenLoaded();
+                    });
+                });
+            }
+            // save current value
+            searchVal = searchStr || "";
+        });
+
         const searchControl = Control.create({
-            icon: "search"
+            icon: "search",
+            content: searchContent
         }).addTo(map);
+
+        const settingsContent = L.DomUtil.create("div");
+        settingsContent.innerText = "TODO"; // TODO
         const settingsControl = Control.create({
-            icon: "cog"
+            icon: "cog",
+            content: settingsContent
         }).addTo(map);
+
         L.control.zoom({
             position: "topleft"
         }).addTo(map);

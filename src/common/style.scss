@@ -91,6 +91,31 @@ html, body {
     width: 300px;
 }
 
+.zd-search__searchbox {
+    box-sizing: border-box;
+    height: 34px;
+    width: 100%;
+    font-size: inherit;
+}
+
+.zd-search__results {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+}
+
+.zd-search__result {
+    cursor: pointer;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+}
+
+.zd-search__result + .zd-search__result {
+    border-top: 1px solid gray;
+}
+
+/* LEGEND */
+
 .leaflet-right {
     height: 100%;
 }

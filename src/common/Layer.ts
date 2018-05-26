@@ -50,6 +50,14 @@ export class Layer extends L.LayerGroup {
         this.markers.forEach(m => map.registerMarkerWithTiles(m));
     }
 
+    public getIconUrl(): string {
+        return this.icon && this.icon.options.iconUrl || "";
+    }
+
+    public getIconWidth(): number {
+        return this.icon && (<L.PointTuple>this.icon.options.iconSize)[0] || 0;
+    }
+
     public forceShow(): void {
         this.setVisibility(Visibility.On);
     }
