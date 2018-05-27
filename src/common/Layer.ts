@@ -47,7 +47,7 @@ export class Layer extends L.LayerGroup {
         this.updateVisibility();
         map.on("zoom", e => this.updateVisibility());
 
-        this.markers.forEach(m => map.registerMarkerWithTiles(m));
+        this.markers.forEach(m => map.addMarker(m));
     }
 
     public getIconUrl(): string {

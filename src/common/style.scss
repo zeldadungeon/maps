@@ -240,3 +240,8 @@ html, body {
 .zd-popup__controls--noedit .zd-popup__control--edit {
     display: none;
 }
+
+.internal-link {
+    border-bottom: 1px dashed black;
+    cursor: pointer;
+  }

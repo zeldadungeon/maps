@@ -49,7 +49,12 @@ export class TileLayer extends L.TileLayer {
             const x = Math.floor(point.x * Math.pow(2, z) / this.tileSize);
             const y = Math.floor(point.y * Math.pow(2, z) / this.tileSize);
             this.tileMarkerContainers[z][x][y].addMarker(marker);
+            marker.addToTileContainer(this.tileMarkerContainers[z][x][y]);
         }
+    }
+
+    public getMarkerById(id: string): Marker {
+        return this.tileMarkerContainers[0][0][0].getMarker(id);
     }
 
     public findMarkers(searchRegex: RegExp): Marker[] {

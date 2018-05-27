@@ -13,9 +13,9 @@ interface Options extends L.MapOptions {
 }
 
 export class Map extends L.Map {
+    public taggedMarkers = <{[key: string]: MarkerContainer}>{};
     private legend: Legend;
     private tileLayer: TileLayer;
-    private taggedMarkers = <{[key: string]: MarkerContainer}>{};
 
     private constructor(element: string | HTMLElement, options?: Options) {
         super(element, options);
@@ -154,10 +154,22 @@ export class Map extends L.Map {
         }
     }
 
-    public registerMarkerWithTiles(marker: Marker): void {
+    public addMarker(marker: Marker): void {
+        marker.addToMap(this);
         this.tileLayer.registerMarkerWithTiles(marker, this.project(marker.getLatLng(), 0));
-        marker.addToTagContainers(this.taggedMarkers);
+        marker.tags.forEach(tag => {
+            if (this.taggedMarkers[tag]) {
+                this.taggedMarkers[tag].addMarker(marker);
+            }
+        });
         if (params.id === marker.id) {
+            this.focusOn(marker);
+        }
+    }
+
+    public navigatToMarkerById(id: string): void {
+        const marker = this.tileLayer.getMarkerById(id);
+        if (marker) {
             this.focusOn(marker);
         }
     }

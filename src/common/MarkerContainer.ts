@@ -12,7 +12,6 @@ export class MarkerContainer {
 
     public addMarker(marker: Marker): void {
         this.markers[marker.id] = marker;
-        marker.addToTileContainer(this);
     }
 
     public removeMarker(marker: Marker): void {
@@ -31,6 +30,10 @@ export class MarkerContainer {
 
     public isVisible(): boolean {
         return this.visible;
+    }
+
+    public getMarker(id: string): Marker {
+        return this.markers[id];
     }
 
     public findMarkers(searchRegex: RegExp): Marker[] {

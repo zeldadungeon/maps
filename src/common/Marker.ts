@@ -1,16 +1,17 @@
 import * as L from "leaflet";
 import * as Schema from "JSONSchema";
 import { Layer } from "Layer";
+import { Map } from "Map";
 import { MarkerContainer } from "MarkerContainer";
 import { Popup } from "common/Popup";
 
 export class Marker extends L.Marker {
     public id: string;
     public name: string;
+    public tags: string[];
+    private map: Map;
     private layer: Layer;
     private tileContainers = <MarkerContainer[]>[];
-    private containers: {[key: string]: MarkerContainer};
-    private tags: string[];
     private path: L.Polyline;
 
     private constructor(id: string, name: string, coords: L.LatLngExpression, icon: L.Icon) {
@@ -47,6 +48,9 @@ export class Marker extends L.Marker {
                 },
                 uncomplete: () => {
                     console.log(`Uncompleted ${json.name}`);
+                },
+                linkClicked: target => {
+                    marker.map.navigatToMarkerById(target);
                 }
             });
             marker.bindPopup(popup);
@@ -85,19 +89,14 @@ export class Marker extends L.Marker {
         this.updateVisibility();
     }
 
-    public addToTagContainers(containers: {[key: string]: MarkerContainer}): void {
-        this.containers = containers;
-        this.tags.forEach(tag => {
-            if (containers[tag]) {
-                containers[tag].addMarker(this);
-            }
-        });
+    public addToMap(map: Map): void {
+        this.map = map;
         this.updateVisibility();
     }
 
     public updateVisibility(): void {
         if (this.layer && this.tileContainers.some(c => c.isVisible()) && this.tags.every(tag =>
-            !this.containers || !this.containers[tag] || this.containers[tag].isVisible())) {
+            !this.map.taggedMarkers[tag] || this.map.taggedMarkers[tag].isVisible())) {
             this.addTo(this.layer);
             if (this.path) { this.path.addTo(this.layer); }
         } else if (this.layer) {

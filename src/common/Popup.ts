@@ -16,9 +16,11 @@ export interface Options extends L.PopupOptions {
     editLink?: string;
     complete(): void;
     uncomplete(): void;
+    linkClicked(target: string): void;
 }
 
 export class Popup extends L.Popup {
+    public options: Options;
     private container: HTMLElement;
     private body: HTMLElement;
     private contentState = ContentState.Initial;
@@ -123,14 +125,16 @@ export class Popup extends L.Popup {
 
     private loadContent(content: string): void {
         this.body.innerHTML = content;
-        // TODO wire up internal links
-        // $('.internal-link').click(function(event) {
-        //     center({
-        //       target: $(event.target).data('target'),
-        //       lat: $(event.target).data('lat'),
-        //       lng: $(event.target).data('lng')
-        //     });
-        //   });
+        const internalLinks = this.body.getElementsByClassName("internal-link");
+        for (let i = 0; i < internalLinks.length; ++i) {
+            const link = <HTMLElement>internalLinks[i];
+            L.DomEvent.addListener(link, "click", () => {
+                const id = link.getAttribute("data-target");
+                if (id) {
+                    this.options.linkClicked(id);
+                }
+            });
+        }
         this.setContent(this.container); // force it to resize and recenter
         this.contentState = ContentState.Loaded;
     }

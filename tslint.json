@@ -25,6 +25,7 @@
         "no-submodule-imports": false,
         "object-curly-spacing": [true, "always"],
         "ordered-imports": false,
+        "prefer-for-of": false,
         "quotemark": [true, "double"],
         "sort-imports": true,
         "triple-equals": [true, "allow-undefined-check"],
