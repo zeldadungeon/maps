@@ -138,8 +138,14 @@ export class Map extends L.Map {
             position: "topleft"
         }).addTo(map);
 
-        searchControl.onOpen(() => settingsControl.close());
-        settingsControl.onOpen(() => searchControl.close());
+        searchControl.onOpen(() => {
+            settingsControl.close();
+            searchBox.focus();
+        });
+        settingsControl.onOpen(() => {
+            searchControl.close();
+            searchBox.blur();
+        });
 
         map.legend = Legend.create({});
         map.legend.addTo(map);
