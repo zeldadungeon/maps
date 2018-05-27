@@ -4,18 +4,25 @@ import { Category } from "common/Category";
 import { Control } from "common/Control";
 import { Legend } from "common/Legend";
 import { Marker } from "common/Marker";
+import { MarkerContainer } from "common/MarkerContainer";
 import { TileLayer } from "common/TileLayer";
 import { params } from "common/QueryParameters";
+
+interface Options extends L.MapOptions {
+    tags?: string[];
+}
 
 export class Map extends L.Map {
     private legend: Legend;
     private tileLayer: TileLayer;
+    private taggedMarkers = <{[key: string]: MarkerContainer}>{};
 
-    private constructor(element: string | HTMLElement, options?: L.MapOptions) {
+    private constructor(element: string | HTMLElement, options?: Options) {
         super(element, options);
     }
 
-    public static create(directory: string, mapSize: number, tileSize: number, options: L.MapOptions = {}): Map {
+    // tslint:disable max-func-body-length TODO
+    public static create(directory: string, mapSize: number, tileSize: number, options: Options = {}): Map {
         const maxZoom = Math.log(mapSize / tileSize) * Math.LOG2E;
         if (options.zoom == undefined) { options.zoom = maxZoom - 2; }
 
@@ -78,8 +85,50 @@ export class Map extends L.Map {
             content: searchContent
         }).addTo(map);
 
-        const settingsContent = L.DomUtil.create("div");
-        settingsContent.innerText = "TODO"; // TODO
+        if (!options.tags) { options.tags = []; }
+        options.tags.push("Completed");
+
+        const settingsContent = L.DomUtil.create("table", "zd-settings");
+        options.tags.forEach(tag => {
+            map.taggedMarkers[tag] = MarkerContainer.create();
+            map.taggedMarkers[tag].show();
+
+            const row = L.DomUtil.create("tr", "zd-settings__setting", settingsContent);
+            const show = L.DomUtil.create("td", "zd-settings__button selectable selected", row);
+            show.innerText = "Show";
+            const hide = L.DomUtil.create("td", "zd-settings__button selectable", row);
+            hide.innerText = "Hide";
+            const label = L.DomUtil.create("th", "zd-settings__label", row);
+            label.innerText = tag;
+
+            L.DomEvent.addListener(show, "click", () => {
+                if (!L.DomUtil.hasClass(show, "selected")) {
+                    L.DomUtil.removeClass(hide, "selected");
+                    L.DomUtil.addClass(show, "selected");
+                    map.taggedMarkers[tag].show();
+                }
+            });
+            L.DomEvent.addListener(hide, "click", () => {
+                if (!L.DomUtil.hasClass(hide, "selected")) {
+                    L.DomUtil.removeClass(show, "selected");
+                    L.DomUtil.addClass(hide, "selected");
+                    map.taggedMarkers[tag].hide();
+                }
+            });
+        });
+        const clearCompletionDataRow = L.DomUtil.create("tr", "zd-settings__setting", settingsContent);
+        const clearCompletionData = L.DomUtil.create("td", "selectable", clearCompletionDataRow);
+        clearCompletionData.setAttribute("colspan", "3");
+        clearCompletionData.innerText = "Clear completion data";
+        L.DomEvent.addListener(clearCompletionData, "click", () => {
+            if (confirm("This will reset all pins that you've marked completed. Are you sure?")) {
+                // TODO
+                // clear marker container
+                // clear localstorage
+                // clear completed on any popup
+              }
+        });
+
         const settingsControl = Control.create({
             icon: "cog",
             content: settingsContent
@@ -107,6 +156,7 @@ export class Map extends L.Map {
 
     public registerMarkerWithTiles(marker: Marker): void {
         this.tileLayer.registerMarkerWithTiles(marker, this.project(marker.getLatLng(), 0));
+        marker.addToTagContainers(this.taggedMarkers);
         if (params.id === marker.id) {
             this.focusOn(marker);
         }

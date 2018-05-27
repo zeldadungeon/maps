@@ -6,7 +6,8 @@ import { Map } from "common/Map";
 
 window.onload = () => {
     const map = Map.create("botw", 24000, 750, {
-        center: [-3750, -1900]
+        center: [-3750, -1900],
+        tags: ["Master Mode", "DLC"]
     });
 
     function addJson(categories: Schema.Category[]): void {

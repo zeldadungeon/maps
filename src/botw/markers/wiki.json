@@ -25,11 +25,11 @@
 {"coords":[4900,3420],"id":"Divine Beast Vah Rudania","name":"Divine Beast Vah Rudania","link":"Divine Beast Vah Rudania"},
 {"coords":[-5930,-7769],"id":"Divine Beast Vah Naboris","name":"Divine Beast Vah Naboris","link":"Divine Beast Vah Naboris"},
 {"coords":[3662,-7243],"id":"Divine Beast Vah Medoh","name":"Divine Beast Vah Medoh","link":"Divine Beast Vah Medoh"},
-{"coords":[-3739,-2221],"id":"EX Champions' Ballad","name":"EX Champions' Ballad","link":"EX Champions' Ballad"},
-{"coords":[-5858,-3074],"id":"EX Champion Urbosa's Song","name":"EX Champion Urbosa's Song","link":"EX Champion Urbosa's Song"},
-{"coords":[4569,2809],"id":"EX Champion Daruk's Song","name":"EX Champion Daruk's Song","link":"EX Champion Daruk's Song"},
-{"coords":[-111,7479],"id":"EX Champion Mipha's Song","name":"EX Champion Mipha's Song","link":"EX Champion Mipha's Song"},
-{"coords":[2639,-7334],"id":"EX Champion Revali's Song","name":"EX Champion Revali's Song","link":"EX Champion Revali's Song"}
+{"coords":[-3739,-2221],"id":"EX Champions' Ballad","name":"EX Champions' Ballad","link":"EX Champions' Ballad","tags":["DLC"]},
+{"coords":[-5858,-3074],"id":"EX Champion Urbosa's Song","name":"EX Champion Urbosa's Song","link":"EX Champion Urbosa's Song","tags":["DLC"]},
+{"coords":[4569,2809],"id":"EX Champion Daruk's Song","name":"EX Champion Daruk's Song","link":"EX Champion Daruk's Song","tags":["DLC"]},
+{"coords":[-111,7479],"id":"EX Champion Mipha's Song","name":"EX Champion Mipha's Song","link":"EX Champion Mipha's Song","tags":["DLC"]},
+{"coords":[2639,-7334],"id":"EX Champion Revali's Song","name":"EX Champion Revali's Song","link":"EX Champion Revali's Song","tags":["DLC"]}
         ]
     }]
 }, {
@@ -176,19 +176,19 @@
 {"coords":[5163,-3319],"id":"Stalhorse: Pictured!","name":"Stalhorse: Pictured!","link":"Stalhorse: Pictured!"},
 {"coords":[4359,834],"id":"Riddles of Hyrule","name":"Riddles of Hyrule","link":"Riddles of Hyrule"},
 {"coords":[5394,-2121],"id":"A Gift from the Monks","name":"A Gift from the Monks","link":"A Gift from the Monks"},
-{"coords":[4224,866],"id":"EX Trial of the Sword","name":"EX Trial of the Sword","link":"EX Trial of the Sword"},
-{"coords":[-6913,1060],"id":"EX Ancient Horse Rumors","name":"EX Ancient Horse Rumors","link":"EX Ancient Horse Rumors"},
-{"coords":[-2194,680],"id":"EX Royal Guard Rumors","name":"EX Royal Guard Rumors","link":"EX Royal Guard Rumors"},
-{"coords":[-3921,889],"id":"EX Treasure: Merchant Hood","name":"EX Treasure: Merchant Hood","link":"EX Treasure: Merchant Hood"},
-{"coords":[-3921,889],"id":"EX Treasure: Garb of Winds","name":"EX Treasure: Garb of Winds","link":"EX Treasure: Garb of Winds"},
-{"coords":[-3921,889],"id":"EX Treasure: Usurper King","name":"EX Treasure: Usurper King","link":"EX Treasure: Usurper King"},
-{"coords":[-3921,889],"id":"EX Treasure: Dark Armor","name":"EX Treasure: Dark Armor","link":"EX Treasure: Dark Armor"},
-{"coords":[2278,2131],"id":"EX Strange Mask Rumors","name":"EX Strange Mask Rumors","link":"EX Strange Mask Rumors"},
-{"coords":[3380,6300],"id":"EX Teleportation Rumors","name":"EX Teleportation Rumors","link":"EX Teleportation Rumors"},
-{"coords":[-3474,-544],"id":"EX Treasure: Ancient Mask","name":"EX Treasure: Ancient Mask","link":"EX Treasure: Ancient Mask"},
-{"coords":[-3474,-544],"id":"EX Treasure: Fairy Clothes","name":"EX Treasure: Fairy Clothes","link":"EX Treasure: Fairy Clothes"},
-{"coords":[-3474,-544],"id":"EX Treasure: Twilight Relic","name":"EX Treasure: Twilight Relic","link":"EX Treasure: Twilight Relic"},
-{"coords":[-3474,-544],"id":"EX Treasure: Phantasma","name":"EX Treasure: Phantasma","link":"EX Treasure: Phantasma"}
+{"coords":[4224,866],"id":"EX Trial of the Sword","name":"EX Trial of the Sword","link":"EX Trial of the Sword","tags":["DLC"]},
+{"coords":[-6913,1060],"id":"EX Ancient Horse Rumors","name":"EX Ancient Horse Rumors","link":"EX Ancient Horse Rumors","tags":["DLC"]},
+{"coords":[-2194,680],"id":"EX Royal Guard Rumors","name":"EX Royal Guard Rumors","link":"EX Royal Guard Rumors","tags":["DLC"]},
+{"coords":[-3921,889],"id":"EX Treasure: Merchant Hood","name":"EX Treasure: Merchant Hood","link":"EX Treasure: Merchant Hood","tags":["DLC"]},
+{"coords":[-3921,889],"id":"EX Treasure: Garb of Winds","name":"EX Treasure: Garb of Winds","link":"EX Treasure: Garb of Winds","tags":["DLC"]},
+{"coords":[-3921,889],"id":"EX Treasure: Usurper King","name":"EX Treasure: Usurper King","link":"EX Treasure: Usurper King","tags":["DLC"]},
+{"coords":[-3921,889],"id":"EX Treasure: Dark Armor","name":"EX Treasure: Dark Armor","link":"EX Treasure: Dark Armor","tags":["DLC"]},
+{"coords":[2278,2131],"id":"EX Strange Mask Rumors","name":"EX Strange Mask Rumors","link":"EX Strange Mask Rumors","tags":["DLC"]},
+{"coords":[3380,6300],"id":"EX Teleportation Rumors","name":"EX Teleportation Rumors","link":"EX Teleportation Rumors","tags":["DLC"]},
+{"coords":[-3474,-544],"id":"EX Treasure: Ancient Mask","name":"EX Treasure: Ancient Mask","link":"EX Treasure: Ancient Mask","tags":["DLC"]},
+{"coords":[-3474,-544],"id":"EX Treasure: Fairy Clothes","name":"EX Treasure: Fairy Clothes","link":"EX Treasure: Fairy Clothes","tags":["DLC"]},
+{"coords":[-3474,-544],"id":"EX Treasure: Twilight Relic","name":"EX Treasure: Twilight Relic","link":"EX Treasure: Twilight Relic","tags":["DLC"]},
+{"coords":[-3474,-544],"id":"EX Treasure: Phantasma","name":"EX Treasure: Phantasma","link":"EX Treasure: Phantasma","tags":["DLC"]}
         ]
     }]
 }, {

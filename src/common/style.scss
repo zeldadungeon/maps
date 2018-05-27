@@ -43,6 +43,15 @@ html, body {
 
 /* CONTROLS */
 
+.selectable {
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.selected {
+    background-color: rgba(0,0,0,.7);
+}
+
 .zd-control {
     position: relative;
 }
@@ -114,6 +123,19 @@ html, body {
     border-top: 1px solid gray;
 }
 
+.zd-settings__setting {
+    height: 30px;
+}
+
+.zd-settings__label {
+    text-align: left;
+}
+
+.zd-settings__button {
+    width: 50px;
+    text-align: center;
+}
+
 /* LEGEND */
 
 .leaflet-right {
@@ -148,8 +170,6 @@ html, body {
 
 .zd-legend__all, .zd-legend__none, .zd-legend__category {
     height: 30px;
-    cursor: pointer;
-    transition: background-color .2s;
 }
 
 .zd-legend__all, .zd-legend__none {
@@ -163,10 +183,6 @@ html, body {
     padding: 5px 0;*/
     padding-left: 50px;
     background-repeat: no-repeat;
-}
-
-.selected {
-    background-color: rgba(0,0,0,.7);
 }
 
 /* LOCATION TEXT LABELS */

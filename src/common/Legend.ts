@@ -22,9 +22,9 @@ export class Legend extends L.Control {
 
         this.categoryList = L.DomUtil.create("ul", "zd-legend__categories", this.container);
         const allNone = L.DomUtil.create("li", "", this.categoryList);
-        this.all = L.DomUtil.create("div", "zd-legend__all selected", allNone);
+        this.all = L.DomUtil.create("div", "zd-legend__all selectable selected", allNone);
         this.all.innerText = "All";
-        this.none = L.DomUtil.create("div", "zd-legend__none", allNone);
+        this.none = L.DomUtil.create("div", "zd-legend__none selectable", allNone);
         this.none.innerText = "None";
 
         L.DomEvent.addListener(this.all, "click", () => {
@@ -64,7 +64,7 @@ export class Legend extends L.Control {
 
     public addCategory(category: Category, position: number): void {
         // make it
-        const li = L.DomUtil.create("li", "zd-legend__category");
+        const li = L.DomUtil.create("li", "zd-legend__category selectable");
         li.setAttribute("data-position", `${position}`);
         li.innerText = category.name;
         li.style.backgroundImage = `url(${category.getIconUrl()})`;

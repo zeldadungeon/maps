@@ -21,4 +21,5 @@ export interface Marker {
     name: string;
     link: string;
     path?: LatLngTuple[];
+    tags?: string[];
 }

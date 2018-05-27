@@ -9,7 +9,8 @@ export class Marker extends L.Marker {
     public name: string;
     private layer: Layer;
     private tileContainers = <MarkerContainer[]>[];
-    private containers = <MarkerContainer[]>[];
+    private containers: {[key: string]: MarkerContainer};
+    private tags: string[];
     private path: L.Polyline;
 
     private constructor(id: string, name: string, coords: L.LatLngExpression, icon: L.Icon) {
@@ -27,6 +28,7 @@ export class Marker extends L.Marker {
         });
         const marker = new Marker(json.id, json.name, json.coords, icon);
         marker.layer = layer;
+        marker.tags = json.tags || [];
         const linkParts = json.link ? json.link.split("#") : [];
         const editLink = `${
             layer.infoSource === "summary" || layer.infoSource === "section" || !layer.infoSource ? linkParts[0] :
@@ -83,8 +85,19 @@ export class Marker extends L.Marker {
         this.updateVisibility();
     }
 
+    public addToTagContainers(containers: {[key: string]: MarkerContainer}): void {
+        this.containers = containers;
+        this.tags.forEach(tag => {
+            if (containers[tag]) {
+                containers[tag].addMarker(this);
+            }
+        });
+        this.updateVisibility();
+    }
+
     public updateVisibility(): void {
-        if (this.layer && this.tileContainers.some(c => c.isVisible()) && this.containers.every(c => c.isVisible())) {
+        if (this.layer && this.tileContainers.some(c => c.isVisible()) && this.tags.every(tag =>
+            !this.containers || !this.containers[tag] || this.containers[tag].isVisible())) {
             this.addTo(this.layer);
             if (this.path) { this.path.addTo(this.layer); }
         } else if (this.layer) {

@@ -167,7 +167,7 @@
             "height": 26
         },
         "markers": [
-{"coords":[-3760,-2205],"id":"Shrine of Resurrection","name":"Shrine of Resurrection","link":"Shrine of Resurrection","icon":1}
+{"coords":[-3760,-2205],"id":"Shrine of Resurrection","name":"Shrine of Resurrection","link":"Shrine of Resurrection"}
         ]
     }, {
         "minZoom": 1,
@@ -177,22 +177,22 @@
             "height": 26
         },
         "markers": [
-{"coords":[-4311,-9791],"id":"Takama Shiri Shrine","name":"Takama Shiri Shrine (DLC)","link":"Takama Shiri Shrine","icon":2},
-{"coords":[4622,-7641],"id":"Noe Rajee Shrine","name":"Noe Rajee Shrine (DLC)","link":"Noe Rajee Shrine","icon":2},
-{"coords":[-2696,-6782],"id":"Kihiro Moh Shrine","name":"Kihiro Moh Shrine (DLC)","link":"Kihiro Moh Shrine","icon":2},
-{"coords":[6377,-4311],"id":"Kiah Toza Shrine","name":"Kiah Toza Shrine (DLC)","link":"Kiah Toza Shrine","icon":2},
-{"coords":[2766,-4754],"id":"Shira Gomar Shrine","name":"Shira Gomar Shrine (DLC)","link":"Shira Gomar Shrine","icon":2},
-{"coords":[-7803,-4679],"id":"Keive Tala Shrine","name":"Keive Tala Shrine (DLC)","link":"Keive Tala Shrine","icon":2},
-{"coords":[-4220,-2432],"id":"Etsu Korima Shrine","name":"Etsu Korima Shrine (DLC)","link":"Etsu Korima Shrine","icon":2},
-{"coords":[-3597,-1034],"id":"Rohta Chigah Shrine","name":"Rohta Chigah Shrine (DLC)","link":"Rohta Chigah Shrine","icon":2},
-{"coords":[-3345,-1882],"id":"Yowaka Ita Shrine","name":"Yowaka Ita Shrine (DLC)","link":"Yowaka Ita Shrine","icon":2},
-{"coords":[-4290,-1669],"id":"Ruvo Korbah Shrine","name":"Ruvo Korbah Shrine (DLC)","link":"Ruvo Korbah Shrine","icon":2},
-{"coords":[6458,4257],"id":"Kamia Omuna Shrine","name":"Kamia Omuna Shrine (DLC)","link":"Kamia Omuna Shrine","icon":2},
-{"coords":[3991,4483],"id":"Rinu Honika Shrine","name":"Rinu Honika Shrine (DLC)","link":"Rinu Honika Shrine","icon":2},
-{"coords":[4836,5866],"id":"Sharo Lun Shrine","name":"Sharo Lun Shrine (DLC)","link":"Sharo Lun Shrine","icon":2},
-{"coords":[1666,6206],"id":"Sato Koda Shrine","name":"Sato Koda Shrine (DLC)","link":"Sato Koda Shrine","icon":2},
-{"coords":[1293,7524],"id":"Mah Eliya Shrine","name":"Mah Eliya Shrine (DLC)","link":"Mah Eliya Shrine","icon":2},
-{"coords":[2005,9870],"id":"Kee Dafunia Shrine","name":"Kee Dafunia Shrine (DLC)","link":"Kee Dafunia Shrine","icon":2}
+{"coords":[-4311,-9791],"id":"Takama Shiri Shrine","name":"Takama Shiri Shrine (DLC)","link":"Takama Shiri Shrine","tags":["DLC"]},
+{"coords":[4622,-7641],"id":"Noe Rajee Shrine","name":"Noe Rajee Shrine (DLC)","link":"Noe Rajee Shrine","tags":["DLC"]},
+{"coords":[-2696,-6782],"id":"Kihiro Moh Shrine","name":"Kihiro Moh Shrine (DLC)","link":"Kihiro Moh Shrine","tags":["DLC"]},
+{"coords":[6377,-4311],"id":"Kiah Toza Shrine","name":"Kiah Toza Shrine (DLC)","link":"Kiah Toza Shrine","tags":["DLC"]},
+{"coords":[2766,-4754],"id":"Shira Gomar Shrine","name":"Shira Gomar Shrine (DLC)","link":"Shira Gomar Shrine","tags":["DLC"]},
+{"coords":[-7803,-4679],"id":"Keive Tala Shrine","name":"Keive Tala Shrine (DLC)","link":"Keive Tala Shrine","tags":["DLC"]},
+{"coords":[-4220,-2432],"id":"Etsu Korima Shrine","name":"Etsu Korima Shrine (DLC)","link":"Etsu Korima Shrine","tags":["DLC"]},
+{"coords":[-3597,-1034],"id":"Rohta Chigah Shrine","name":"Rohta Chigah Shrine (DLC)","link":"Rohta Chigah Shrine","tags":["DLC"]},
+{"coords":[-3345,-1882],"id":"Yowaka Ita Shrine","name":"Yowaka Ita Shrine (DLC)","link":"Yowaka Ita Shrine","tags":["DLC"]},
+{"coords":[-4290,-1669],"id":"Ruvo Korbah Shrine","name":"Ruvo Korbah Shrine (DLC)","link":"Ruvo Korbah Shrine","tags":["DLC"]},
+{"coords":[6458,4257],"id":"Kamia Omuna Shrine","name":"Kamia Omuna Shrine (DLC)","link":"Kamia Omuna Shrine","tags":["DLC"]},
+{"coords":[3991,4483],"id":"Rinu Honika Shrine","name":"Rinu Honika Shrine (DLC)","link":"Rinu Honika Shrine","tags":["DLC"]},
+{"coords":[4836,5866],"id":"Sharo Lun Shrine","name":"Sharo Lun Shrine (DLC)","link":"Sharo Lun Shrine","tags":["DLC"]},
+{"coords":[1666,6206],"id":"Sato Koda Shrine","name":"Sato Koda Shrine (DLC)","link":"Sato Koda Shrine","tags":["DLC"]},
+{"coords":[1293,7524],"id":"Mah Eliya Shrine","name":"Mah Eliya Shrine (DLC)","link":"Mah Eliya Shrine","tags":["DLC"]},
+{"coords":[2005,9870],"id":"Kee Dafunia Shrine","name":"Kee Dafunia Shrine (DLC)","link":"Kee Dafunia Shrine","tags":["DLC"]}
         ]
     }]
 }, {
@@ -271,7 +271,7 @@
             "height": 30
         },
         "markers": [
-{"coords":[1223,-508],"id":"Hyrule Castle","name":"Hyrule Castle","link":"Hyrule Castle","icon":1}
+{"coords":[1223,-508],"id":"Hyrule Castle","name":"Hyrule Castle","link":"Hyrule Castle"}
         ]
     }]
 }, {
@@ -286,12 +286,12 @@
             "height": 27
         },
         "markers": [
-{"coords":[-2761,-7185],"id":"Yiga Clan Hideout","name":"Yiga Clan Hideout","link":"Yiga Clan Hideout","icon":2},
-{"coords":[4616,-2777],"id":"Forgotten Temple","name":"Forgotten Temple","link":"Forgotten Temple","icon":2},
-{"coords":[3948,3316],"id":"Southern Mine","name":"Southern Mine","link":"Southern Mine","icon":2},
-{"coords":[4578,-7704],"id":"Flight Range","name":"Flight Range","link":"Flight Range","icon":2},
-{"coords":[5595,3288],"id":"Abandoned North Mine","name":"Abandoned North Mine","link":"Abandoned North Mine","icon":2},
-{"coords":[-5116,-6476],"id":"Kara Kara Bazaar","name":"Kara Kara Bazaar","link":"Kara Kara Bazaar","icon":2}
+{"coords":[-2761,-7185],"id":"Yiga Clan Hideout","name":"Yiga Clan Hideout","link":"Yiga Clan Hideout"},
+{"coords":[4616,-2777],"id":"Forgotten Temple","name":"Forgotten Temple","link":"Forgotten Temple"},
+{"coords":[3948,3316],"id":"Southern Mine","name":"Southern Mine","link":"Southern Mine"},
+{"coords":[4578,-7704],"id":"Flight Range","name":"Flight Range","link":"Flight Range"},
+{"coords":[5595,3288],"id":"Abandoned North Mine","name":"Abandoned North Mine","link":"Abandoned North Mine"},
+{"coords":[-5116,-6476],"id":"Kara Kara Bazaar","name":"Kara Kara Bazaar","link":"Kara Kara Bazaar"}
         ]
     }]
 }, {
@@ -324,11 +324,11 @@
 {"coords":[-5895,-7739],"id":"Memory06","name":"Recovered Memory #6 - Urbosa's Hand","link":"Recovered Memory#Recovered Memory #6 - Urbosa's Hand"},
 {"coords":[950,6612],"id":"Memory10","name":"Recovered Memory #10 - Mipha's Touch","link":"Recovered Memory#Recovered Memory #10 - Mipha's Touch"},
 {"coords":[4212,866],"id":"Memory18","name":"Recovered Memory #18 - The Master Sword","link":"Recovered Memory#Recovered Memory #18 - The Master Sword"},
-{"coords":[3630,-7244],"id":"MemoryEX01","name":"EX Recovered Memory #1 - Champion Revali's Song","link":"Recovered Memory#EX Recovered Memory #1 - Champion Revali's Song"},
-{"coords":[4977,5058],"id":"MemoryEX02","name":"EX Recovered Memory #2 - Champion Daruk's Song","link":"Recovered Memory#EX Recovered Memory #2 - Champion Daruk's Song"},
-{"coords":[-281,5911],"id":"MemoryEX03","name":"EX Recovered Memory #3 - Champion Mipha's Song","link":"Recovered Memory#EX Recovered Memory #3 - Champion Mipha's Song"},
-{"coords":[-5262,-4124],"id":"MemoryEX04","name":"EX Recovered Memory #4 - Champion Urbosa's Song","link":"Recovered Memory#EX Recovered Memory #4 - Champion Urbosa's Song"},
-{"coords":[-3598,-2050],"id":"MemoryEX05","name":"EX Recovered Memory #5 - The Champions' Ballad","link":"Recovered Memory#EX Recovered Memory #5 - The Champion's Ballad"}
+{"coords":[3630,-7244],"id":"MemoryEX01","name":"EX Recovered Memory #1 - Champion Revali's Song","link":"Recovered Memory#EX Recovered Memory #1 - Champion Revali's Song","tags":["DLC"]},
+{"coords":[4977,5058],"id":"MemoryEX02","name":"EX Recovered Memory #2 - Champion Daruk's Song","link":"Recovered Memory#EX Recovered Memory #2 - Champion Daruk's Song","tags":["DLC"]},
+{"coords":[-281,5911],"id":"MemoryEX03","name":"EX Recovered Memory #3 - Champion Mipha's Song","link":"Recovered Memory#EX Recovered Memory #3 - Champion Mipha's Song","tags":["DLC"]},
+{"coords":[-5262,-4124],"id":"MemoryEX04","name":"EX Recovered Memory #4 - Champion Urbosa's Song","link":"Recovered Memory#EX Recovered Memory #4 - Champion Urbosa's Song","tags":["DLC"]},
+{"coords":[-3598,-2050],"id":"MemoryEX05","name":"EX Recovered Memory #5 - The Champions' Ballad","link":"Recovered Memory#EX Recovered Memory #5 - The Champion's Ballad","tags":["DLC"]}
         ]
     }]
 }, {
