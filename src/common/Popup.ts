@@ -23,6 +23,7 @@ export class Popup extends L.Popup {
     public options: Options;
     private container: HTMLElement;
     private body: HTMLElement;
+    private controls: HTMLElement;
     private contentState = ContentState.Initial;
 
     private constructor(options: Options) {
@@ -42,24 +43,30 @@ export class Popup extends L.Popup {
 
         this.body = L.DomUtil.create("div", "zd-popup__body", this.container);
 
-        const controls = L.DomUtil.create("div", "zd-popup__controls", this.container);
+        this.controls = L.DomUtil.create("div", "zd-popup__controls", this.container);
 
-        const completeButton = L.DomUtil.create("a", "zd-popup__control zd-popup__control--complete", controls);
+        const completeButton = L.DomUtil.create("a", "zd-popup__control zd-popup__control--complete", this.controls);
         L.DomUtil.create("i", "fa fa-check", completeButton).title = "Mark completed";
-        L.DomEvent.addListener(completeButton, "click", options.complete);
+        L.DomEvent.addListener(completeButton, "click", () => {
+            L.DomUtil.addClass(this.controls, "zd-popup__controls--completed");
+            options.complete();
+        });
 
-        const uncompleteButton = L.DomUtil.create("a", "zd-popup__control zd-popup__control--uncomplete", controls);
+        const uncompleteButton = L.DomUtil.create("a", "zd-popup__control zd-popup__control--uncomplete", this.controls);
         L.DomUtil.create("i", "fa fa-undo", uncompleteButton).title = "Mark not completed";
-        L.DomEvent.addListener(uncompleteButton, "click", options.uncomplete);
+        L.DomEvent.addListener(uncompleteButton, "click", () => {
+            L.DomUtil.removeClass(this.controls, "zd-popup__controls--completed");
+            options.uncomplete();
+        });
 
         if (options.editLink) {
-            const editButton = L.DomUtil.create("a", "zd-popup__control zd-popup__control--edit", controls);
+            const editButton = L.DomUtil.create("a", "zd-popup__control zd-popup__control--edit", this.controls);
             editButton.setAttribute("target", "_blank");
             editButton.setAttribute("href", `/wiki/index.php?action=edit&title=${encodeURIComponent(options.editLink)}`);
             L.DomUtil.create("i", "fa fa-edit", editButton).title = "Edit";
         }
 
-        const linkButton = L.DomUtil.create("a", "zd-popup__control zd-popup__control--permalink", controls);
+        const linkButton = L.DomUtil.create("a", "zd-popup__control zd-popup__control--permalink", this.controls);
         linkButton.setAttribute("href", `?id=${options.id}`);
         L.DomUtil.create("i", "fa fa-link", linkButton).title = "Permalink";
 
@@ -71,6 +78,10 @@ export class Popup extends L.Popup {
         if (options.maxWidth == undefined) { options.maxWidth = 300; }
 
         return new Popup(options);
+    }
+
+    public markCompleted(): void {
+        L.DomUtil.addClass(this.controls, "zd-popup__controls--completed");
     }
 
     public loadContentFromSummary(pageTitle: string): void {

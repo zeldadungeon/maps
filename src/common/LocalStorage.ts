@@ -6,7 +6,8 @@ export class LocalStorage {
     private constructor(key: string) {
         // TODO check if localstorage is supported and allowed, else provide cookie shim
         // https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API#Feature-detecting_localStorage
-        const data = localStorage.getItem(this.key);
+        this.key = key;
+        const data = localStorage.getItem(key);
         this.data = data ? JSON.parse(data) : {};
     }
 

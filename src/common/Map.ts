@@ -136,8 +136,9 @@ export class Map extends L.Map {
         L.DomEvent.addListener(clearCompletionData, "click", () => {
             if (confirm("This will reset all pins that you've marked completed. Are you sure?")) {
                 // TODO
-                // clear marker container
                 // clear localstorage
+                // clear marker container
+                // clear tag from all markers
                 // clear completed on any popup
               }
         });

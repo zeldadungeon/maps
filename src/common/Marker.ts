@@ -13,6 +13,7 @@ export class Marker extends L.Marker {
     private layer: Layer;
     private tileContainers = <MarkerContainer[]>[];
     private path: L.Polyline;
+    private popup: Popup;
 
     private constructor(id: string, name: string, coords: L.LatLngExpression, icon: L.Icon) {
         super(coords, {
@@ -38,33 +39,42 @@ export class Marker extends L.Marker {
         }`;
 
         if (layer.icon) {
-            const popup = Popup.create({
+            marker.popup = Popup.create({
                 id: json.id,
                 name: json.name,
                 link: json.link,
                 editLink: editLink,
                 complete: () => {
-                    console.log(`Completed ${json.name}`);
+                    marker.map.completionStore.setItem(marker.id, true);
+                    marker.map.taggedMarkers.Completed.addMarker(marker);
+                    marker.tags.push("Completed");
+                    marker.updateVisibility();
                 },
                 uncomplete: () => {
-                    console.log(`Uncompleted ${json.name}`);
+                    marker.map.completionStore.setItem(marker.id, false);
+                    marker.map.taggedMarkers.Completed.removeMarker(marker);
+                    const tag = marker.tags.indexOf("Completed");
+                    if (tag > -1) {
+                        marker.tags.splice(tag, 1);
+                    }
+                    marker.updateVisibility();
                 },
                 linkClicked: target => {
                     marker.map.navigatToMarkerById(target);
                 }
             });
-            marker.bindPopup(popup);
+            marker.bindPopup(marker.popup);
             marker.on("popupopen", () => {
                 if (layer.infoSource === "summary") {
-                    popup.loadContentFromSummary(linkParts[0]);
+                    marker.popup.loadContentFromSummary(linkParts[0]);
                 } else if (layer.infoSource === "section") {
-                    popup.loadContentFromSection(
+                    marker.popup.loadContentFromSection(
                         linkParts[0],
                         json.id.match(/^Seed\d{3}$/) ? `${json.id}summary` : linkParts[1] || "summary");
                 } else if (layer.infoSource === "subpage") {
-                    popup.loadContentFromSubpage(linkParts[0], linkParts[1]);
+                    marker.popup.loadContentFromSubpage(linkParts[0], linkParts[1]);
                 } else if (layer.infoSource) {
-                    popup.loadContentFromPage(layer.infoSource);
+                    marker.popup.loadContentFromPage(layer.infoSource);
                 }
             });
         } else {
@@ -91,6 +101,11 @@ export class Marker extends L.Marker {
 
     public addToMap(map: Map): void {
         this.map = map;
+        if (this.popup && this.map.completionStore.getItem(this.id) === true) {
+            this.popup.markCompleted();
+            this.map.taggedMarkers.Completed.addMarker(this);
+            this.tags.push("Completed");
+        }
         this.updateVisibility();
     }
 
