@@ -3,6 +3,7 @@ import * as ZDCRS from "common/ZDCRS";
 import { Category } from "common/Category";
 import { Control } from "common/Control";
 import { Legend } from "common/Legend";
+import { LocalStorage } from "common/LocalStorage";
 import { Marker } from "common/Marker";
 import { MarkerContainer } from "common/MarkerContainer";
 import { TileLayer } from "common/TileLayer";
@@ -14,6 +15,8 @@ interface Options extends L.MapOptions {
 
 export class Map extends L.Map {
     public taggedMarkers = <{[key: string]: MarkerContainer}>{};
+    public completionStore: LocalStorage;
+    private settingsStore: LocalStorage;
     private legend: Legend;
     private tileLayer: TileLayer;
 
@@ -87,25 +90,34 @@ export class Map extends L.Map {
 
         if (!options.tags) { options.tags = []; }
         options.tags.push("Completed");
+        map.completionStore = LocalStorage.getStore(directory, "completion");
+        map.settingsStore = LocalStorage.getStore(directory, "settings");
 
         const settingsContent = L.DomUtil.create("table", "zd-settings");
         options.tags.forEach(tag => {
             map.taggedMarkers[tag] = MarkerContainer.create();
-            map.taggedMarkers[tag].show();
 
             const row = L.DomUtil.create("tr", "zd-settings__setting", settingsContent);
-            const show = L.DomUtil.create("td", "zd-settings__button selectable selected", row);
+            const show = L.DomUtil.create("td", "zd-settings__button selectable", row);
             show.innerText = "Show";
             const hide = L.DomUtil.create("td", "zd-settings__button selectable", row);
             hide.innerText = "Hide";
             const label = L.DomUtil.create("th", "zd-settings__label", row);
             label.innerText = tag;
 
+            if (map.settingsStore.getItem(`show-${tag}`) === false) {
+                L.DomUtil.addClass(hide, "selected");
+            } else {
+                map.taggedMarkers[tag].show();
+                L.DomUtil.addClass(show, "selected");
+            }
+
             L.DomEvent.addListener(show, "click", () => {
                 if (!L.DomUtil.hasClass(show, "selected")) {
                     L.DomUtil.removeClass(hide, "selected");
                     L.DomUtil.addClass(show, "selected");
                     map.taggedMarkers[tag].show();
+                    map.settingsStore.setItem(`show-${tag}`, true);
                 }
             });
             L.DomEvent.addListener(hide, "click", () => {
@@ -113,6 +125,7 @@ export class Map extends L.Map {
                     L.DomUtil.removeClass(show, "selected");
                     L.DomUtil.addClass(hide, "selected");
                     map.taggedMarkers[tag].hide();
+                    map.settingsStore.setItem(`show-${tag}`, false);
                 }
             });
         });
