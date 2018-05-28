@@ -29,6 +29,11 @@ export class LocalStorage {
         this.save();
     }
 
+    public clear(): void {
+        this.data = {};
+        this.save();
+    }
+
     private save(): void {
         localStorage.setItem(this.key, JSON.stringify(this.data));
     }

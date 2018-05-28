@@ -48,14 +48,14 @@ export class Popup extends L.Popup {
         const completeButton = L.DomUtil.create("a", "zd-popup__control zd-popup__control--complete", this.controls);
         L.DomUtil.create("i", "fa fa-check", completeButton).title = "Mark completed";
         L.DomEvent.addListener(completeButton, "click", () => {
-            L.DomUtil.addClass(this.controls, "zd-popup__controls--completed");
+            this.markCompleted();
             options.complete();
         });
 
         const uncompleteButton = L.DomUtil.create("a", "zd-popup__control zd-popup__control--uncomplete", this.controls);
         L.DomUtil.create("i", "fa fa-undo", uncompleteButton).title = "Mark not completed";
         L.DomEvent.addListener(uncompleteButton, "click", () => {
-            L.DomUtil.removeClass(this.controls, "zd-popup__controls--completed");
+            this.markUncompleted();
             options.uncomplete();
         });
 
@@ -82,6 +82,10 @@ export class Popup extends L.Popup {
 
     public markCompleted(): void {
         L.DomUtil.addClass(this.controls, "zd-popup__controls--completed");
+    }
+
+    public markUncompleted(): void {
+        L.DomUtil.removeClass(this.controls, "zd-popup__controls--completed");
     }
 
     public loadContentFromSummary(pageTitle: string): void {

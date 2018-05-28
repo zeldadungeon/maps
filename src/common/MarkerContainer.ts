@@ -18,6 +18,15 @@ export class MarkerContainer {
         delete this.markers[marker.id];
     }
 
+    public clear(): void {
+        const keys = Object.keys(this.markers);
+        for (let i = 0; i < keys.length; ++i) {
+            const marker = this.markers[keys[i]];
+            marker.clearCompletion();
+            this.removeMarker(marker);
+        }
+    }
+
     public show(): void {
         this.visible = true;
         Object.keys(this.markers).forEach(m => this.markers[m].updateVisibility());

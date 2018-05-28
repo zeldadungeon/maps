@@ -109,6 +109,15 @@ export class Marker extends L.Marker {
         this.updateVisibility();
     }
 
+    public clearCompletion(): void {
+        const tag = this.tags.indexOf("Completed");
+        if (tag > -1) {
+            this.tags.splice(tag, 1);
+        }
+        this.popup.markUncompleted();
+        this.updateVisibility();
+    }
+
     public updateVisibility(): void {
         if (this.layer && this.tileContainers.some(c => c.isVisible()) && this.tags.every(tag =>
             !this.map.taggedMarkers[tag] || this.map.taggedMarkers[tag].isVisible())) {
