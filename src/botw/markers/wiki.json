@@ -1,7 +1,7 @@
 [{
     "name": "Main Quest",
     "source": "subpage",
-    "displayOrderLarge": 30,
+    "displayOrder": 30,
     "layers": [{
         "minZoom": 3,
         "icon": {
@@ -35,7 +35,7 @@
 }, {
     "name": "Shrine Quest",
     "source": "section",
-    "displayOrderLarge": 31,
+    "displayOrder": 31,
     "layers": [{
         "minZoom": 4,
         "icon": {
@@ -91,7 +91,7 @@
 }, {
     "name": "Side Quest",
     "source": "subpage",
-    "displayOrderLarge": 32,
+    "displayOrder": 32,
     "layers": [{
         "minZoom": 4,
         "icon": {
@@ -194,7 +194,7 @@
 }, {
     "name": "Quest Objective",
     "source": "subpage",
-    "displayOrderLarge": 34,
+    "displayOrder": 34,
     "layers": [{
         "minZoom": 5,
         "icon": {
@@ -241,7 +241,7 @@
 }, {
     "name": "Inn",
     "source": "summary",
-    "displayOrderLarge": 42,
+    "displayOrder": 42,
     "layers": [{
         "minZoom": 5,
         "icon": {
@@ -265,7 +265,7 @@
 }, {
     "name": "General Store",
     "source": "summary",
-    "displayOrderLarge": 43,
+    "displayOrder": 43,
     "layers": [{
         "minZoom": 5,
         "icon": {
@@ -305,7 +305,7 @@
 }, {
     "name": "Armor Shop",
     "source": "summary",
-    "displayOrderLarge": 44,
+    "displayOrder": 44,
     "layers": [{
         "minZoom": 5,
         "icon": {
@@ -325,7 +325,7 @@
 }, {
     "name": "Dye Shop",
     "source": "summary",
-    "displayOrderLarge": 45,
+    "displayOrder": 45,
     "layers": [{
         "minZoom": 5,
         "icon": {
@@ -340,7 +340,7 @@
 }, {
     "name": "Jewelry Shop",
     "source": "summary",
-    "displayOrderLarge": 46,
+    "displayOrder": 46,
     "layers": [{
         "minZoom": 5,
         "icon": {

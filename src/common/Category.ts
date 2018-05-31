@@ -5,7 +5,6 @@ import { Map } from "Map";
 export class Category {
     public name: string;
     public displayOrder: number | undefined;
-    public displayOrderLarge: number | undefined;
     private layers: Layer[];
 
     private constructor() {}
@@ -14,7 +13,6 @@ export class Category {
         const category = new Category();
         category.name = json.name;
         category.displayOrder = json.displayOrder;
-        category.displayOrderLarge = json.displayOrderLarge;
         category.layers = json.layers.map(l => Layer.fromJSON(l, json.source));
 
         return category;

@@ -4,7 +4,6 @@ export interface Category {
     name: string;
     source: string;
     displayOrder?: number;
-    displayOrderLarge?: number;
     layers: Layer[];
 }
 

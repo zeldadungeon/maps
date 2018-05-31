@@ -18,6 +18,7 @@ export class Map extends L.Map {
     public completionStore: LocalStorage;
     private settingsStore: LocalStorage;
     private legend: Legend;
+    private legendLandscape: Legend;
     private tileLayer: TileLayer;
 
     private constructor(element: string | HTMLElement, options?: Options) {
@@ -51,6 +52,7 @@ export class Map extends L.Map {
         options.layers = [tileLayer];
 
         options.zoomControl = false; // adding it later, below our own controls
+        options.attributionControl = false; // would like to keep this but breaks bottom legend. maybe find a better place to put it later
 
         const map = new Map("map", options);
         map.tileLayer = tileLayer;
@@ -158,16 +160,17 @@ export class Map extends L.Map {
             searchBox.blur();
         });
 
-        map.legend = Legend.create({});
-        map.legend.addTo(map);
+        map.legend = Legend.createPortrait().addTo(map);
+        map.legendLandscape = Legend.createLandscape().addTo(map);
 
         return map;
     }
 
     public addCategory(category: Category): void {
         category.addToMap(this);
-        if (category.displayOrderLarge != undefined) {
-            this.legend.addCategory(category, category.displayOrderLarge);
+        if (category.displayOrder != undefined) {
+            this.legend.addCategory(category, category.displayOrder);
+            this.legendLandscape.addCategory(category, category.displayOrder);
         }
     }
 
@@ -193,6 +196,7 @@ export class Map extends L.Map {
 
     private focusOn(marker: Marker): void {
         this.legend.reset();
+        this.legendLandscape.reset();
         this.setView(marker.getLatLng(), Math.max(marker.getMinZoom(), this.getZoom()));
         marker.openPopupWhenLoaded();
     }

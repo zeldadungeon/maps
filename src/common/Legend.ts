@@ -13,12 +13,25 @@ export class Legend extends L.Control {
     private none: HTMLElement;
     private categories = <LegendItem[]>[];
 
-    private constructor(options: L.ControlOptions) {
+    private constructor(options?: L.ControlOptions) {
         super(options);
+        const bottom = options && options.position === "bottomright";
 
-        this.container = L.DomUtil.create("div", "zd-control zd-legend");
+        this.container = L.DomUtil.create("div", `zd-control zd-legend zd-legend--${bottom ? "portrait" : "landscape"}`);
         L.DomEvent.disableClickPropagation(this.container);
         L.DomEvent.disableScrollPropagation(this.container);
+
+        if (bottom) {
+            const header = L.DomUtil.create("h3", "zd-legend__header", this.container);
+            header.innerText = "Legend";
+            L.DomEvent.addListener(header, "click", () => {
+                if (L.DomUtil.hasClass(this.categoryList, "zd-legend__categories--show")) {
+                    L.DomUtil.removeClass(this.categoryList, "zd-legend__categories--show");
+                } else {
+                    L.DomUtil.addClass(this.categoryList, "zd-legend__categories--show");
+                }
+            });
+        }
 
         this.categoryList = L.DomUtil.create("ul", "zd-legend__categories", this.container);
         const allNone = L.DomUtil.create("li", "", this.categoryList);
@@ -50,8 +63,14 @@ export class Legend extends L.Control {
         });
     }
 
-    public static create(options: L.ControlOptions): Legend {
-        return new Legend(options);
+    public static createPortrait(): Legend {
+        return new Legend({
+            position: "bottomright"
+        });
+    }
+
+    public static createLandscape(): Legend {
+        return new Legend();
     }
 
     public onAdd(map: L.Map): HTMLElement {
