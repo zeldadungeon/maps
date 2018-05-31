@@ -11,7 +11,7 @@
     "strictNullChecks": true,
     "baseUrl": ".",
     "paths": {
-      "@fortawesome/*": ["node_modules/@fortawesome/*"]
+      "@fortawesome/*": ["node_modules/@fortawesome/*/index.d.ts", "node_modules/@fortawesome/*"]
     }
   },
   "exclude": ["node_modules"]
