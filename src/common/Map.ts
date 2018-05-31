@@ -1,5 +1,6 @@
 import * as L from "leaflet";
 import * as ZDCRS from "common/ZDCRS";
+import { dom, library } from "@fortawesome/fontawesome-svg-core";
 import { Category } from "common/Category";
 import { Control } from "common/Control";
 import { Legend } from "common/Legend";
@@ -7,7 +8,12 @@ import { LocalStorage } from "common/LocalStorage";
 import { Marker } from "common/Marker";
 import { MarkerContainer } from "common/MarkerContainer";
 import { TileLayer } from "common/TileLayer";
+import { faCog } from "@fortawesome/free-solid-svg-icons/faCog";
+import { faSearch } from "@fortawesome/free-solid-svg-icons/faSearch";
 import { params } from "common/QueryParameters";
+
+library.add(faSearch, faCog);
+dom.watch();
 
 interface Options extends L.MapOptions {
     tags?: string[];

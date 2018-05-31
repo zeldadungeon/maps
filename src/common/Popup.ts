@@ -1,5 +1,14 @@
 import * as $ from "jquery";
 import * as L from "leaflet";
+import { dom, library } from "@fortawesome/fontawesome-svg-core";
+import { faCheck } from "@fortawesome/free-solid-svg-icons/faCheck";
+import { faCircleNotch } from "@fortawesome/free-solid-svg-icons/faCircleNotch";
+import { faEdit } from "@fortawesome/free-solid-svg-icons/faEdit";
+import { faLink } from "@fortawesome/free-solid-svg-icons/faLink";
+import { faUndo } from "@fortawesome/free-solid-svg-icons/faUndo";
+
+library.add(faCheck, faUndo, faEdit, faLink, faCircleNotch);
+dom.watch();
 
 const API_URL = "https://www.zeldadungeon.net/wiki/api.php?format=json";
 
@@ -46,14 +55,14 @@ export class Popup extends L.Popup {
         this.controls = L.DomUtil.create("div", "zd-popup__controls", this.container);
 
         const completeButton = L.DomUtil.create("a", "zd-popup__control zd-popup__control--complete", this.controls);
-        L.DomUtil.create("i", "fa fa-check", completeButton).title = "Mark completed";
+        L.DomUtil.create("i", "fas fa-check", completeButton).title = "Mark completed";
         L.DomEvent.addListener(completeButton, "click", () => {
             this.markCompleted();
             options.complete();
         });
 
         const uncompleteButton = L.DomUtil.create("a", "zd-popup__control zd-popup__control--uncomplete", this.controls);
-        L.DomUtil.create("i", "fa fa-undo", uncompleteButton).title = "Mark not completed";
+        L.DomUtil.create("i", "fas fa-undo", uncompleteButton).title = "Mark not completed";
         L.DomEvent.addListener(uncompleteButton, "click", () => {
             this.markUncompleted();
             options.uncomplete();
@@ -63,12 +72,12 @@ export class Popup extends L.Popup {
             const editButton = L.DomUtil.create("a", "zd-popup__control zd-popup__control--edit", this.controls);
             editButton.setAttribute("target", "_blank");
             editButton.setAttribute("href", `/wiki/index.php?action=edit&title=${encodeURIComponent(options.editLink)}`);
-            L.DomUtil.create("i", "fa fa-edit", editButton).title = "Edit";
+            L.DomUtil.create("i", "fas fa-edit", editButton).title = "Edit";
         }
 
         const linkButton = L.DomUtil.create("a", "zd-popup__control zd-popup__control--permalink", this.controls);
         linkButton.setAttribute("href", `?id=${options.id}`);
-        L.DomUtil.create("i", "fa fa-link", linkButton).title = "Permalink";
+        L.DomUtil.create("i", "fas fa-link", linkButton).title = "Permalink";
 
         this.setContent(this.container);
     }
@@ -135,7 +144,7 @@ export class Popup extends L.Popup {
     private startLoading(): void {
         this.contentState = ContentState.Loading;
         const loading = L.DomUtil.create("div", "zd-popup__loading-indicator", this.body);
-        L.DomUtil.create("i", "fa fa-circle-o-notch fa-spin fa-3x fa-fw", loading);
+        L.DomUtil.create("i", "fas fa-circle-notch fa-spin fa-3x fa-fw", loading);
     }
 
     private loadContent(content: string): void {
