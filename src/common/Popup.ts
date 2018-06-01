@@ -1,4 +1,3 @@
-import * as $ from "jquery";
 import * as L from "leaflet";
 import { dom, library } from "@fortawesome/fontawesome-svg-core";
 import { faCheck } from "@fortawesome/free-solid-svg-icons/faCheck";
@@ -100,7 +99,8 @@ export class Popup extends L.Popup {
     public loadContentFromSummary(pageTitle: string): void {
         if (this.contentState === ContentState.Initial) {
             this.startLoading();
-            $.getJSON(`${API_URL}&action=query&prop=pageprops&titles=${encodeURIComponent(pageTitle)}&callback=?`)
+            fetch(`${API_URL}&action=query&prop=pageprops&titles=${encodeURIComponent(pageTitle)}`)
+                .then(r => r.json())
                 .then(result => {
                     const pageId = Object.keys(result.query.pages)[0];
                     const page = result.query.pages[pageId];
@@ -114,7 +114,8 @@ export class Popup extends L.Popup {
         if (this.contentState === ContentState.Initial) {
             this.startLoading();
             const textToParse = encodeURIComponent(`{{#lst:${pageTitle}|${sectionName}}}`);
-            $.getJSON(`${API_URL}&action=parse&prop=text&contentmodel=wikitext&text=${textToParse}&callback=?`)
+            fetch(`${API_URL}&action=parse&prop=text&contentmodel=wikitext&text=${textToParse}`)
+                .then(r => r.json())
                 .then(result => {
                     let content = result.parse.text["*"];
                     content = content.replace(/\s*<!--[\s\S]*-->\s*/g, "");
@@ -134,7 +135,8 @@ export class Popup extends L.Popup {
     public loadContentFromPage(pageTitle: string): void {
         if (this.contentState === ContentState.Initial) {
             this.startLoading();
-            $.getJSON(`${API_URL}&action=parse&page=${encodeURIComponent(pageTitle)}&callback=?`)
+            fetch(`${API_URL}&action=parse&page=${encodeURIComponent(pageTitle)}`)
+                .then(r => r.json())
                 .then(result => {
                     this.loadContent(result.parse && result.parse.text["*"] || "");
                 });

@@ -169,6 +169,11 @@ export class Map extends L.Map {
         map.legend = Legend.createPortrait().addTo(map);
         map.legendLandscape = Legend.createLandscape().addTo(map);
 
+        map.on("click", e => {
+            console.log((<any>e).latlng);
+            map.panTo((<any>e).latlng);
+        });
+
         return map;
     }
 

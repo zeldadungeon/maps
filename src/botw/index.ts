@@ -1,5 +1,4 @@
 import "common/style.scss";
-import * as $ from "jquery";
 import * as Schema from "common/JSONSchema";
 import { Category } from "common/Category";
 import { Map } from "common/Map";
@@ -14,11 +13,9 @@ window.onload = () => {
         categories.forEach(c => map.addCategory(Category.fromJSON(c)));
     }
 
-    $.getJSON("markers/locations.json", addJson);
-
-    $.getJSON("markers/pins.json", addJson);
-
-    $.getJSON("markers/seeds.json", (categories: Schema.Category[]) => {
+    fetch("markers/locations.json").then(r => r.json()).then(addJson);
+    fetch("markers/pins.json").then(r => r.json()).then(addJson);
+    fetch("markers/seeds.json").then(r => r.json()).then((categories: Schema.Category[]) => {
         // took some shortcuts to reduce file size, gotta fix them
         const layer = categories[0].layers[0];
         layer.markers = layer.markers.map((m: any) => {
@@ -32,13 +29,6 @@ window.onload = () => {
         });
         addJson(categories);
     });
-
-    $.getJSON("markers/treasures.json", addJson);
-
-    $.getJSON("markers/wiki.json", addJson);
-
-    map.on("click", e => {
-        console.log((<any>e).latlng);
-        map.panTo((<any>e).latlng);
-    });
+    fetch("markers/treasures.json").then(r => r.json()).then(addJson);
+    fetch("markers/wiki.json").then(r => r.json()).then(addJson);
 };
