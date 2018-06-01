@@ -83,6 +83,7 @@ export class Popup extends L.Popup {
 
     public static create(options: Options): Popup {
         if (options.autoPan == undefined) { options.autoPan = true; }
+        if (options.minWidth == undefined) { options.minWidth = 100; }
         if (options.maxWidth == undefined) { options.maxWidth = 300; }
 
         return new Popup(options);
