@@ -20,6 +20,12 @@ export class LocalStorage {
         return LocalStorage.instances[key];
     }
 
+    public static getLegacyItem(key: string): any {
+        const val = localStorage.getItem(key);
+
+        return val ? JSON.parse(val) : undefined;
+    }
+
     public getItem(key: string): any {
         return this.data[key];
     }
