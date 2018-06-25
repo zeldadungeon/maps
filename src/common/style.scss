@@ -43,11 +43,13 @@ html, body {
 
 .selectable {
     cursor: pointer;
+    box-sizing: border-box;
     transition: background-color .2s;
 }
 
 .selected {
     background-color: rgba(0,0,0,.7);
+    border: 1px solid white;
 }
 
 .zd-control {
@@ -166,6 +168,7 @@ html, body {
 .zd-legend--landscape {
     display: none;
     height: 100%;
+    width: 210px;
     overflow: auto;
 }
 
