@@ -8,7 +8,8 @@ module.exports = {
     mode: "production",
     context: path.resolve(__dirname, "./src"),
     entry: {
-        botw: "./botw/index.ts"
+        botw: "./botw/index.ts",
+        ss: "./ss/index.ts"
     },
     output: {
         path: path.resolve(__dirname, "./dist"),
@@ -22,6 +23,13 @@ module.exports = {
             template: "template.html",
             chunks: ["botw"],
             filename: "botw/index.html"
+        }),
+        new HtmlWebpackPlugin({
+            title: "Skyward Sword Interactive Map",
+            description: "Interactive, searchable map of Hyrule with locations, descriptions, guides, and more.",
+            template: "template.html",
+            chunks: ["ss"],
+            filename: "ss/index.html"
         }),
         new CopyWebpackPlugin(["**/*.json", "**/*.png"])
     ],
