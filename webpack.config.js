@@ -9,6 +9,8 @@ module.exports = {
     context: path.resolve(__dirname, "./src"),
     entry: {
         botw: "./botw/index.ts",
+        la: "./la/index.ts",
+        botw2: "./botw2/index.ts",
         ss: "./ss/index.ts"
     },
     output: {
@@ -23,6 +25,20 @@ module.exports = {
             template: "template.html",
             chunks: ["botw"],
             filename: "botw/index.html"
+        }),
+        new HtmlWebpackPlugin({
+            title: "Link's Awakening Interactive Map",
+            description: "Interactive, searchable map of Koholint with locations, descriptions, guides, and more.",
+            template: "template.html",
+            chunks: ["la"],
+            filename: "la/index.html"
+        }),
+        new HtmlWebpackPlugin({
+            title: "Breath of the Wild Sequel Interactive Map",
+            description: "Interactive, searchable map of Hyrule with locations, descriptions, guides, and more.",
+            template: "template.html",
+            chunks: ["botw2"],
+            filename: "botw2/index.html"
         }),
         new HtmlWebpackPlugin({
             title: "Skyward Sword Interactive Map",
