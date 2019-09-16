@@ -1,6 +1,6 @@
 import * as L from "leaflet";
 
-type OnOpenHandler = () => void;
+type EventHandler = () => void;
 
 const OPEN_CLASS = "zd-control__content--open";
 
@@ -9,10 +9,14 @@ export interface Options extends L.ControlOptions {
     content: HTMLElement;
 }
 
+/**
+ * Control box with togglable visibility
+ */
 export class Control extends L.Control {
     private container: HTMLElement;
     private content: HTMLElement;
-    private onOpenHandlers = <OnOpenHandler[]>[];
+    private onOpenHandlers = <EventHandler[]>[];
+    private onClosedHandlers = <EventHandler[]>[];
 
     private constructor(options: Options) {
         super(options);
@@ -50,8 +54,12 @@ export class Control extends L.Control {
         // doesn't happen
     }
 
-    public onOpen(handler: OnOpenHandler): void {
+    public onOpen(handler: EventHandler): void {
         this.onOpenHandlers.push(handler);
+    }
+
+    public onClosed(handler: EventHandler): void {
+        this.onClosedHandlers.push(handler);
     }
 
     public open(): void {
@@ -60,6 +68,7 @@ export class Control extends L.Control {
     }
 
     public close(): void {
+        this.onClosedHandlers.forEach(h => h());
         L.DomUtil.removeClass(this.content, OPEN_CLASS);
     }
 }

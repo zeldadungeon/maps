@@ -19,10 +19,15 @@ interface Options extends L.MapOptions {
     tags?: string[];
 }
 
+/**
+ * Base class for all Zelda maps
+ */
 export class Map extends L.Map {
     public taggedMarkers = <{[key: string]: MarkerContainer}>{};
     public completionStore: LocalStorage;
     private settingsStore: LocalStorage;
+    private searchControl: Control;
+    private settingsControl: Control;
     private legend: Legend;
     private legendLandscape: Legend;
     private tileLayer: TileLayer;
@@ -31,7 +36,6 @@ export class Map extends L.Map {
         super(element, options);
     }
 
-    // tslint:disable max-func-body-length TODO
     public static create(directory: string, mapSize: number, tileSize: number, options: Options = {}): Map {
         const maxZoom = Math.log(mapSize / tileSize) * Math.LOG2E;
         if (options.zoom == undefined) { options.zoom = maxZoom - 2; }
@@ -63,115 +67,25 @@ export class Map extends L.Map {
         const map = new Map("map", options);
         map.tileLayer = tileLayer;
 
-        const searchContent = L.DomUtil.create("div", "zd-search");
-        const searchBox = <HTMLInputElement>L.DomUtil.create("input", "zd-search__searchbox", searchContent);
-        searchBox.setAttribute("type", "text");
-        searchBox.setAttribute("placeholder", "Search");
-        const results = L.DomUtil.create("ul", "zd-search__results", searchContent);
-        let searchVal = "";
-        L.DomEvent.addListener(searchBox, "input", e => {
-            L.DomUtil.empty(results);
-            const searchStr = searchBox.value;
-            // length > 2 and either value changed or on focus
-            if (searchStr && searchStr.length > 2 && (searchVal !== searchStr || e.type === "focus")) {
-                // regex (escape regex chars)
-                const searchRegex = new RegExp(searchStr.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&"), "i");
-                tileLayer.findMarkers(searchRegex).forEach(m => {
-                    const result = L.DomUtil.create("li", "zd-search__result", results);
-                    result.innerText = m.name;
-                    result.style.backgroundImage = `url(${m.getIconUrl()})`;
-                    result.style.backgroundPosition = `${(50 - m.getIconWidth()) / 2}px center`;
-                    L.DomEvent.addListener(result, "click", () => {
-                        searchControl.close();
-                        map.focusOn(m);
-                    });
-                });
-            }
-            // save current value
-            searchVal = searchStr || "";
-        });
-
-        const searchControl = Control.create({
-            icon: "search",
-            content: searchContent
-        }).addTo(map);
-
         if (!options.tags) { options.tags = []; }
         options.tags.push("Completed");
+
+        map.initializeSearchControl();
+        map.initializeSettingsControl(options.tags);
+
         map.completionStore = LocalStorage.getStore(directory, "completion");
         map.settingsStore = LocalStorage.getStore(directory, "settings");
-
-        const settingsContent = L.DomUtil.create("table", "zd-settings");
-        options.tags.forEach(tag => {
-            map.taggedMarkers[tag] = MarkerContainer.create();
-
-            const row = L.DomUtil.create("tr", "zd-settings__setting", settingsContent);
-            const show = L.DomUtil.create("td", "zd-settings__button selectable", row);
-            show.innerText = "Show";
-            const hide = L.DomUtil.create("td", "zd-settings__button selectable", row);
-            hide.innerText = "Hide";
-            const label = L.DomUtil.create("th", "zd-settings__label", row);
-            label.innerText = tag;
-
-            if (map.settingsStore.getItem(`show-${tag}`) === false) {
-                L.DomUtil.addClass(hide, "selected");
-            } else {
-                map.taggedMarkers[tag].show();
-                L.DomUtil.addClass(show, "selected");
-            }
-
-            L.DomEvent.addListener(show, "click", () => {
-                if (!L.DomUtil.hasClass(show, "selected")) {
-                    L.DomUtil.removeClass(hide, "selected");
-                    L.DomUtil.addClass(show, "selected");
-                    map.taggedMarkers[tag].show();
-                    map.settingsStore.setItem(`show-${tag}`, true);
-                }
-            });
-            L.DomEvent.addListener(hide, "click", () => {
-                if (!L.DomUtil.hasClass(hide, "selected")) {
-                    L.DomUtil.removeClass(show, "selected");
-                    L.DomUtil.addClass(hide, "selected");
-                    map.taggedMarkers[tag].hide();
-                    map.settingsStore.setItem(`show-${tag}`, false);
-                }
-            });
-        });
-        const clearCompletionDataRow = L.DomUtil.create("tr", "zd-settings__setting", settingsContent);
-        const clearCompletionData = L.DomUtil.create("td", "selectable", clearCompletionDataRow);
-        clearCompletionData.setAttribute("colspan", "3");
-        clearCompletionData.innerText = "Clear completion data";
-        L.DomEvent.addListener(clearCompletionData, "click", () => {
-            if (confirm("This will reset all pins that you've marked completed. Are you sure?")) {
-                map.completionStore.clear();
-                map.taggedMarkers.Completed.clear();
-              }
-        });
-
-        const settingsControl = Control.create({
-            icon: "cog",
-            content: settingsContent
-        }).addTo(map);
 
         L.control.zoom({
             position: "topleft"
         }).addTo(map);
 
-        searchControl.onOpen(() => {
-            settingsControl.close();
-            searchBox.focus();
-        });
-        settingsControl.onOpen(() => {
-            searchControl.close();
-            searchBox.blur();
-        });
-
         map.legend = Legend.createPortrait().addTo(map);
         map.legendLandscape = Legend.createLandscape().addTo(map);
 
         map.on("click", e => {
-            console.log((<any>e).latlng);
-            map.panTo((<any>e).latlng);
+            console.log((<any>e).latlng); // tslint:disable-line no-console // this is a feature :)
+            map.panTo((<any>e).latlng); // tslint:disable-line no-unsafe-any // issue in Leaflet typings
         });
 
         return map;
@@ -203,6 +117,109 @@ export class Map extends L.Map {
         if (marker) {
             this.focusOn(marker);
         }
+    }
+
+    private initializeSearchControl(): void {
+        const searchContent = L.DomUtil.create("div", "zd-search");
+        const searchBox = <HTMLInputElement>L.DomUtil.create("input", "zd-search__searchbox", searchContent);
+        searchBox.setAttribute("type", "text");
+        searchBox.setAttribute("placeholder", "Search");
+        const results = L.DomUtil.create("ul", "zd-search__results", searchContent);
+
+        this.searchControl = Control.create({
+            icon: "search",
+            content: searchContent
+        }).addTo(this);
+
+        let searchVal = "";
+        L.DomEvent.addListener(searchBox, "input", e => {
+            L.DomUtil.empty(results);
+            const searchStr = searchBox.value;
+            // length > 2 and either value changed or on focus
+            if (searchStr && searchStr.length > 2 && (searchVal !== searchStr || e.type === "focus")) {
+                // regex (escape regex chars)
+                const searchRegex = new RegExp(searchStr.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&"), "i");
+                this.tileLayer.findMarkers(searchRegex).forEach((m: Marker) => {
+                    const result = L.DomUtil.create("li", "zd-search__result", results);
+                    result.innerText = m.name;
+                    result.style.backgroundImage = `url(${m.getIconUrl()})`;
+                    result.style.backgroundPosition = `${(50 - m.getIconWidth()) / 2}px center`;
+                    L.DomEvent.addListener(result, "click", () => {
+                        this.searchControl.close();
+                        this.focusOn(m);
+                    });
+                });
+            }
+            // save current value
+            searchVal = searchStr || "";
+        });
+
+        this.searchControl.onOpen(() => {
+            this.settingsControl.close();
+            searchBox.focus();
+        });
+
+        this.searchControl.onClosed(() => {
+            searchBox.blur();
+        });
+    }
+
+    private initializeSettingsControl(tags: string[]): void {
+        const settingsContent = L.DomUtil.create("table", "zd-settings");
+        tags.forEach(tag => {
+            this.taggedMarkers[tag] = MarkerContainer.create();
+
+            const row = L.DomUtil.create("tr", "zd-settings__setting", settingsContent);
+            const show = L.DomUtil.create("td", "zd-settings__button selectable", row);
+            show.innerText = "Show";
+            const hide = L.DomUtil.create("td", "zd-settings__button selectable", row);
+            hide.innerText = "Hide";
+            const label = L.DomUtil.create("th", "zd-settings__label", row);
+            label.innerText = tag;
+
+            if (this.settingsStore.getItem(`show-${tag}`) === false) {
+                L.DomUtil.addClass(hide, "selected");
+            } else {
+                this.taggedMarkers[tag].show();
+                L.DomUtil.addClass(show, "selected");
+            }
+
+            L.DomEvent.addListener(show, "click", () => {
+                if (!L.DomUtil.hasClass(show, "selected")) {
+                    L.DomUtil.removeClass(hide, "selected");
+                    L.DomUtil.addClass(show, "selected");
+                    this.taggedMarkers[tag].show();
+                    this.settingsStore.setItem(`show-${tag}`, true);
+                }
+            });
+            L.DomEvent.addListener(hide, "click", () => {
+                if (!L.DomUtil.hasClass(hide, "selected")) {
+                    L.DomUtil.removeClass(show, "selected");
+                    L.DomUtil.addClass(hide, "selected");
+                    this.taggedMarkers[tag].hide();
+                    this.settingsStore.setItem(`show-${tag}`, false);
+                }
+            });
+        });
+        const clearCompletionDataRow = L.DomUtil.create("tr", "zd-settings__setting", settingsContent);
+        const clearCompletionData = L.DomUtil.create("td", "selectable", clearCompletionDataRow);
+        clearCompletionData.setAttribute("colspan", "3");
+        clearCompletionData.innerText = "Clear completion data";
+        L.DomEvent.addListener(clearCompletionData, "click", () => {
+            if (confirm("This will reset all pins that you've marked completed. Are you sure?")) {
+                this.completionStore.clear();
+                this.taggedMarkers.Completed.clear();
+              }
+        });
+
+        this.settingsControl = Control.create({
+            icon: "cog",
+            content: settingsContent
+        }).addTo(this);
+
+        this.settingsControl.onOpen(() => {
+            this.searchControl.close();
+        });
     }
 
     private focusOn(marker: Marker): void {

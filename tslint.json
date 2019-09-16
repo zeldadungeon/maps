@@ -21,13 +21,16 @@
         "no-import-side-effect": [true, { "ignore-module": "\\.scss$" }],
         "no-increment-decrement": false,
         "no-object-literal-type-assertion": false,
+        "no-parameter-reassignment": false, // rule's broken
         "no-relative-imports": false,
         "no-submodule-imports": false,
+        "no-void-expression": false,
         "object-curly-spacing": [true, "always"],
         "ordered-imports": false,
         "prefer-for-of": false,
         "quotemark": [true, "double"],
         "sort-imports": true,
+        "strict-boolean-expressions": false,
         "triple-equals": [true, "allow-undefined-check"],
         "typedef": [true, "call-signature"]
     }
