@@ -5,7 +5,7 @@ import { Map } from "common/Map";
 
 window.onload = async () => {
 
-    const map = Map.create("la", 1000, 125, {
+    const map = Map.create("la", 3280, 205, {
         center: [0, 0],
         zoom: 2
     });
