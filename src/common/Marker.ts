@@ -45,13 +45,11 @@ export class Marker extends L.Marker {
                 link: json.link,
                 editLink: editLink,
                 complete: () => {
-                    marker.map.completionStore.setItem(marker.id, true);
-                    marker.map.taggedMarkers.Completed.addMarker(marker);
-                    marker.tags.push("Completed");
-                    marker.updateVisibility();
+                    marker.map.wiki.complete(marker.id);
+                    marker.complete();
                 },
                 uncomplete: () => {
-                    marker.map.completionStore.setItem(marker.id, false);
+                    marker.map.wiki.uncomplete(marker.id);
                     marker.map.taggedMarkers.Completed.removeMarker(marker);
                     const tag = marker.tags.indexOf("Completed");
                     if (tag > -1) {
@@ -60,7 +58,7 @@ export class Marker extends L.Marker {
                     marker.updateVisibility();
                 },
                 linkClicked: target => {
-                    marker.map.navigatToMarkerById(target);
+                    marker.map.navigateToMarkerById(target);
                 }
             });
             marker.bindPopup(marker.popup);
@@ -101,11 +99,13 @@ export class Marker extends L.Marker {
 
     public addToMap(map: Map): void {
         this.map = map;
-        if (this.popup && this.map.completionStore.getItem(this.id) === true) {
-            this.popup.markCompleted();
-            this.map.taggedMarkers.Completed.addMarker(this);
-            this.tags.push("Completed");
-        }
+        this.updateVisibility();
+    }
+
+    public complete(): void {
+        this.map.taggedMarkers.Completed.addMarker(this);
+        this.tags.push("Completed");
+        this.popup.markCompleted();
         this.updateVisibility();
     }
 

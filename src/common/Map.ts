@@ -3,11 +3,13 @@ import * as ZDCRS from "common/ZDCRS";
 import { dom, library } from "@fortawesome/fontawesome-svg-core";
 import { Category } from "common/Category";
 import { Control } from "common/Control";
+import { Dialog } from "./Dialog";
 import { Legend } from "common/Legend";
 import { LocalStorage } from "common/LocalStorage";
 import { Marker } from "common/Marker";
 import { MarkerContainer } from "common/MarkerContainer";
 import { TileLayer } from "common/TileLayer";
+import { WikiConnector } from "./WikiConnector";
 import { faCog } from "@fortawesome/free-solid-svg-icons/faCog";
 import { faSearch } from "@fortawesome/free-solid-svg-icons/faSearch";
 import { params } from "common/QueryParameters";
@@ -24,20 +26,21 @@ interface Options extends L.MapOptions {
  */
 export class Map extends L.Map {
     public taggedMarkers = <{[key: string]: MarkerContainer}>{};
-    public completionStore: LocalStorage;
+    public wiki: WikiConnector;
     private settingsStore: LocalStorage;
     private searchControl: Control;
     private settingsControl: Control;
     private legend: Legend;
     private legendLandscape: Legend;
     private tileLayer: TileLayer;
+    private loginFn: (username: string) => void;
 
     private constructor(element: string | HTMLElement, options?: Options) {
         super(element, options);
     }
 
     public static create(directory: string, mapSize: number, tileSize: number, options: Options = {}): Map {
-        const maxZoom = Math.log(mapSize / tileSize) * Math.LOG2E;
+        const maxZoom = Math.round(Math.log(mapSize / tileSize) * Math.LOG2E);
         if (options.zoom == undefined) { options.zoom = maxZoom - 2; }
 
         let initLat = Number(params.x);
@@ -70,11 +73,11 @@ export class Map extends L.Map {
         if (!options.tags) { options.tags = []; }
         options.tags.push("Completed");
 
+        map.settingsStore = LocalStorage.getStore(directory, "settings");
+        map.wiki = new WikiConnector(directory, new Dialog(map));
+
         map.initializeSearchControl();
         map.initializeSettingsControl(options.tags);
-
-        map.completionStore = LocalStorage.getStore(directory, "completion");
-        map.settingsStore = LocalStorage.getStore(directory, "settings");
 
         L.control.zoom({
             position: "topleft"
@@ -89,6 +92,19 @@ export class Map extends L.Map {
         });
 
         return map;
+    }
+
+    public async initializeWikiConnector(): Promise<void> {
+        await this.wiki.getLoggedInUser();
+
+        if (this.loginFn && this.wiki.user) {
+            this.loginFn(this.wiki.user.name);
+        }
+
+        const completedMarkers = await this.wiki.getCompletedMarkers();
+        for (let i = 0; i < completedMarkers.length; ++i) {
+            this.tileLayer.getMarkerById(completedMarkers[i]).complete();
+        }
     }
 
     public addCategory(category: Category): void {
@@ -112,7 +128,7 @@ export class Map extends L.Map {
         }
     }
 
-    public navigatToMarkerById(id: string): void {
+    public navigateToMarkerById(id: string): void {
         const marker = this.tileLayer.getMarkerById(id);
         if (marker) {
             this.focusOn(marker);
@@ -166,6 +182,27 @@ export class Map extends L.Map {
 
     private initializeSettingsControl(tags: string[]): void {
         const settingsContent = L.DomUtil.create("table", "zd-settings");
+        const userRow = L.DomUtil.create("tr", "zd-settings__setting", settingsContent);
+        const userCell = L.DomUtil.create("td", "", userRow);
+        userCell.setAttribute("colspan", "3");
+        const loginButton = L.DomUtil.create("div", "selectable", userCell);
+        loginButton.innerText = "Login";
+        L.DomEvent.addListener(loginButton, "click", () => {
+            this.wiki.login();
+        });
+
+        this.loginFn = (username: string) => {
+            L.DomUtil.empty(userCell);
+            const logoutButton = L.DomUtil.create("div", "selectable", userCell);
+            logoutButton.style.cssFloat = "right";
+            logoutButton.innerText = "Logout";
+            L.DomEvent.addListener(logoutButton, "click", () => {
+                this.wiki.logout();
+            });
+            const usernameLabel = L.DomUtil.create("div", "", userCell);
+            usernameLabel.innerText = username;
+        };
+
         tags.forEach(tag => {
             this.taggedMarkers[tag] = MarkerContainer.create();
 
@@ -177,7 +214,8 @@ export class Map extends L.Map {
             const label = L.DomUtil.create("th", "zd-settings__label", row);
             label.innerText = tag;
 
-            if (this.settingsStore.getItem(`show-${tag}`) === false) {
+            const settingValue = this.settingsStore.getItem(`show-${tag}`);
+            if (settingValue === false || tag === "Completed" && settingValue !== true) { // Completed is hidden by default
                 L.DomUtil.addClass(hide, "selected");
             } else {
                 this.taggedMarkers[tag].show();
@@ -207,7 +245,7 @@ export class Map extends L.Map {
         clearCompletionData.innerText = "Clear completion data";
         L.DomEvent.addListener(clearCompletionData, "click", () => {
             if (confirm("This will reset all pins that you've marked completed. Are you sure?")) {
-                this.completionStore.clear();
+                this.wiki.clearCompletion();
                 this.taggedMarkers.Completed.clear();
               }
         });

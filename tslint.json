@@ -21,6 +21,7 @@
         "no-import-side-effect": [true, { "ignore-module": "\\.scss$" }],
         "no-increment-decrement": false,
         "no-object-literal-type-assertion": false,
+        "no-parameter-properties": false, // I like parameter properties
         "no-parameter-reassignment": false, // rule's broken
         "no-relative-imports": false,
         "no-submodule-imports": false,

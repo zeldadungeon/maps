@@ -26,6 +26,10 @@ export class LocalStorage {
         return val ? JSON.parse(val) : undefined;
     }
 
+    public getAllKeys(): string[] {
+        return Object.keys(this.data);
+    }
+
     public getItem(key: string): any {
         return this.data[key];
     }

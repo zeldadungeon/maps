@@ -47,7 +47,10 @@ module.exports = {
             chunks: ["ss"],
             filename: "ss/index.html"
         }),
-        new CopyWebpackPlugin(["**/*.json", "**/*.png"])
+        new CopyWebpackPlugin(["**/*.json", "**/*.png"]),
+        new webpack.ProvidePlugin({
+            Promise: ["es6-promise", "Promise"]
+        })
     ],
     resolve: {
         extensions: [".ts", ".tsx", ".js"],
@@ -57,7 +60,7 @@ module.exports = {
     module: {
         rules: [
             { test: /\.tsx?$/, loader: "ts-loader" },
-            { test: /\.scss$/, loaders: ["style-loader", "css-loader", "sass-loader"] },
+            { test: /\.s?css$/, loaders: ["style-loader", "css-loader", "sass-loader"] },
             { test: /\.(png|jpe?g|gif|svg)(\?.*)?$/, loader: "url-loader" }
         ]
     }
