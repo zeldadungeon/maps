@@ -1,0 +1,149 @@
+[{
+    "name": "Piece of Heart",
+    "source": "summary",
+    "displayOrder": 10,
+    "layers": [{
+        "minZoom": 3,
+        "icon": {
+            "url": "poh.png",
+            "width": 24,
+            "height": 20
+        },
+        "markers": [
+
+        ]
+    }]
+}, {
+    "name": "Secret Seashell",
+    "source": "summary",
+    "displayOrder": 11,
+    "layers": [{
+        "minZoom": 3,
+        "icon": {
+            "url": "shell.png",
+            "width": 16,
+            "height": 28
+        },
+        "markers": [
+
+        ]
+    }]
+}, {
+    "name": "Shop",
+    "source": "summary",
+    "displayOrder": 20,
+    "layers": [{
+        "minZoom": 2,
+        "icon": {
+            "url": "shop.png",
+            "width": 19,
+            "height": 25
+        },
+        "markers": [
+            {"coords":[-208,-894],"id":"Shop1","name":"Shop","link":"Shop"},
+            {"coords":[127,-498],"id":"Shop2","name":"Shop","link":"Shop"},
+            {"coords":[298,-418],"id":"Shop3","name":"Shop","link":"Shop"}
+        ]
+    }]
+}, {
+    "name": "Phonebooth",
+    "source": "summary",
+    "displayOrder": 21,
+    "layers": [{
+        "minZoom": 2,
+        "icon": {
+            "url": "hint.png",
+            "width": 28,
+            "height": 20
+        },
+        "markers": [
+            {"coords":[-377,-1072],"id":"Phonebooth1","name":"Phonebooth","link":"Phonebooth"},
+            {"coords":[391,-1260],"id":"Phonebooth2","name":"Phonebooth","link":"Phonebooth"},
+            {"coords":[-282,-715],"id":"Phonebooth3","name":"Phonebooth","link":"Phonebooth"},
+            {"coords":[-133,118],"id":"Phonebooth4","name":"Phonebooth","link":"Phonebooth"},
+            {"coords":[270,692],"id":"Phonebooth5","name":"Phonebooth","link":"Phonebooth"},
+            {"coords":[-594,751],"id":"Phonebooth6","name":"Phonebooth","link":"Phonebooth"},
+            {"coords":[-686,78],"id":"Phonebooth7","name":"Phonebooth","link":"Phonebooth"},
+            {"coords":[689,-1250],"id":"Phonebooth8","name":"Phonebooth","link":"Phonebooth"}
+        ]
+    }]
+}, {
+    "name": "House",
+    "source": "summary",
+    "displayOrder": 22,
+    "layers": [{
+        "minZoom": 2,
+        "icon": {
+            "url": "house.png",
+            "width": 30,
+            "height": 20
+        },
+        "markers": [
+            {"coords":[-378,-874],"id":"House1","name":"House","link":"House"},
+            {"coords":[-360,-1508],"id":"House2","name":"House","link":"House"},
+            {"coords":[-62,-1250],"id":"House3","name":"House","link":"House"},
+            {"coords":[401,-100],"id":"House4","name":"House","link":"House"},
+            {"coords":[400,1446],"id":"House5","name":"House","link":"House"}
+        ]
+    }]
+}, {
+    "name": "Dungeon",
+    "source": "summary",
+    "displayOrder": 30,
+    "layers": [{
+        "icon": {
+            "url": "dungeon.png",
+            "width": 30,
+            "height": 21
+        },
+        "markers": [
+            {"coords":[-550,-853],"id":"Tail Cave","name":"Tail Cave","link":"Tail Cave"},
+            {"coords":[505,-714],"id":"Bottle Grotto","name":"Bottle Grotto","link":"Bottle Grotto"},
+            {"coords":[-364,-458],"id":"Key Cavern","name":"Key Cavern","link":"Key Cavern"},
+            {"coords":[516,691],"id":"Angler's Tunnel","name":"Angler's Tunnel","link":"Angler's Tunnel"},
+            {"coords":[-595,316],"id":"Catfish's Maw","name":"Catfish's Maw","link":"Catfish's Maw"},
+            {"coords":[-90,873],"id":"Face Shrine","name":"Face Shrine","link":"Face Shrine"},
+            {"coords":[746,1310],"id":"Eagle's Tower","name":"Eagle's Tower","link":"Eagle's Tower"},
+            {"coords":[703,-1477],"id":"Turtle Rock","name":"Turtle Rock","link":"Turtle Rock"},
+            {"coords":[877,-278],"id":"Wind Fish's Egg","name":"Wind Fish's Egg","link":"Wind Fish's Egg"}
+        ]
+    }]
+}, {
+    "name": "Warp Point",
+    "source": "summary",
+    "displayOrder": 40,
+    "layers": [{
+        "icon": {
+            "url": "warp.png",
+            "width": 30,
+            "height": 30
+        },
+        "markers": [
+            {"coords":[-225,-458],"id":"Warp01","name":"Ukuku Prairie Warp Point","link":"Ukuku Prairie"},
+            {"coords":[244,-512],"id":"Warp02","name":"Manbo's Pond Warp Point","link":"Manbo's Pond"},
+            {"coords":[428,-159],"id":"Warp03","name":"Warp Point","link":""},
+            {"coords":[-135,614],"id":"Warp04","name":"Warp Point","link":""},
+            {"coords":[-709,930],"id":"Warp05","name":"Warp Point","link":""},
+            {"coords":[-728,-132],"id":"Warp06","name":"Warp Point","link":""},
+            {"coords":[442,930],"id":"Warp07","name":"Warp Point","link":""},
+            {"coords":[570,1530],"id":"Warp08","name":"Warp Point","link":""},
+            {"coords":[690,-860],"id":"Warp09","name":"Warp Point","link":""},
+            {"coords":[745,-1250],"id":"Warp10","name":"Warp Point","link":""}
+        ]
+    }]
+}, {
+    "name": "Treasure",
+    "source": "summary",
+    "displayOrder": 50,
+    "layers": [{
+        "minZoom": 4,
+        "icon": {
+            "url": "treasure.png",
+            "width": 20,
+            "height": 21
+        },
+        "markers": [
+            
+        ]
+    }]
+}]

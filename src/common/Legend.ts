@@ -88,6 +88,7 @@ export class Legend extends L.Control {
         li.innerText = category.name;
         li.style.backgroundImage = `url(${category.getIconUrl()})`;
         li.style.backgroundPosition = `${(50 - category.getIconWidth()) / 2}px center`;
+        li.style.backgroundSize = `${category.getIconWidth()}px`;
         this.categories.push({ category, li });
 
         // activate it

@@ -47,7 +47,7 @@ module.exports = {
             chunks: ["ss"],
             filename: "ss/index.html"
         }),
-        new CopyWebpackPlugin(["**/*.json", "**/*.png"]),
+        //new CopyWebpackPlugin(["**/*.json", "**/*.png"]),
         new webpack.ProvidePlugin({
             Promise: ["es6-promise", "Promise"]
         })

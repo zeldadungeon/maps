@@ -14,8 +14,10 @@ window.onload = async () => {
         categories.forEach(c => map.addCategory(Category.fromJSON(c)));
     }
 
-    const pins = await fetch("/la/markers/pins.json");
-    addJson(await pins.json());
+    try {
+        const pins = await fetch("markers/pins.json");
+        addJson(await pins.json());
+    } catch (ex) {}
 
     await map.initializeWikiConnector();
 };
