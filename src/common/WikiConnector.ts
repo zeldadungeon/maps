@@ -192,6 +192,10 @@ export class WikiConnector {
         return this.postWithRetry(`action=map_setcompletion&map=${this.mapid}&markers=${markers.join(",")}`);
     }
 
+    public async query<ResponseType>(query: string): Promise<ResponseType> {
+        return this.callApi<ResponseType>(query);
+    }
+
     private async postWithRetry<ResponseType>(query: string): Promise<void> {
         if (this.csrf) {
             const response1 = await this.post<ResponseType>(query);

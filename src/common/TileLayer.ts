@@ -11,8 +11,8 @@ export class TileLayer extends L.TileLayer {
         super(urlTemplate, options);
     }
 
-    public static create(urlTemplate: string, tileSize: number, maxZoom: number, bounds: L.LatLngBounds): TileLayer {
-        const tileLayer = new TileLayer(urlTemplate, {
+    public static create(mapid: string, tileSize: number, maxZoom: number, bounds: L.LatLngBounds): TileLayer {
+        const tileLayer = new TileLayer(`https://www.zeldadungeon.net/maps/${mapid}/tiles/{z}/{x}_{y}.jpg`, {
             tileSize: tileSize,
             minZoom: 0,
             maxZoom: maxZoom,

@@ -238,9 +238,18 @@ html, body {
     background-color: transparent;
     border: transparent;
     box-shadow: none;
+}
+
+.zd-map-botw .leaflet-tooltip.zd-location-label {
     font-size: 24px;
     color: #f8efae;
     @include stroke(2, #977f41);
+}
+
+.zd-map-la .leaflet-tooltip.zd-location-label {
+    font-size: 18px;
+    font-style: italic;
+    color: #fff6e6;
 }
 
 /* POPUPS */
@@ -287,4 +296,12 @@ html, body {
 .internal-link {
     border-bottom: 1px dashed black;
     cursor: pointer;
-  }
+}
+
+.zd-popup li.gallerybox {
+    display: block;
+}
+
+.zd-popup div.gallerytext {
+    text-align: left;
+}

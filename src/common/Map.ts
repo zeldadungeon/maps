@@ -58,7 +58,7 @@ export class Map extends L.Map {
         options.maxBounds = bounds.pad(0.5);
 
         const tileLayer = TileLayer.create(
-            `https://www.zeldadungeon.net/maps/${directory}/tiles/{z}/{x}_{y}.jpg`,
+            directory,
             tileSize,
             maxZoom,
             bounds);
@@ -69,6 +69,7 @@ export class Map extends L.Map {
 
         const map = new Map("map", options);
         map.tileLayer = tileLayer;
+        map.getContainer().classList.add(`zd-map-${directory}`);
 
         if (!options.tags) { options.tags = []; }
         options.tags.push("Completed");
@@ -103,7 +104,8 @@ export class Map extends L.Map {
 
         const completedMarkers = await this.wiki.getCompletedMarkers();
         for (let i = 0; i < completedMarkers.length; ++i) {
-            this.tileLayer.getMarkerById(completedMarkers[i]).complete();
+            const marker = this.tileLayer.getMarkerById(completedMarkers[i]);
+            if (marker) { marker.complete(); }
         }
     }
 

@@ -1,5 +1,6 @@
 import * as L from "leaflet";
 import { dom, library } from "@fortawesome/fontawesome-svg-core";
+import { WikiConnector } from "./WikiConnector";
 import { faCheck } from "@fortawesome/free-solid-svg-icons/faCheck";
 import { faCircleNotch } from "@fortawesome/free-solid-svg-icons/faCircleNotch";
 import { faEdit } from "@fortawesome/free-solid-svg-icons/faEdit";
@@ -22,11 +23,15 @@ export interface Options extends L.PopupOptions {
     name: string;
     link?: string;
     editLink?: string;
+    getWikiConnector(): WikiConnector;
     complete(): void;
     uncomplete(): void;
     linkClicked(target: string): void;
 }
 
+/**
+ * Popup that opens when clicking on a marker. Contains information and controls.
+ */
 export class Popup extends L.Popup {
     public options: Options;
     private container: HTMLElement;
@@ -100,9 +105,9 @@ export class Popup extends L.Popup {
     public loadContentFromSummary(pageTitle: string): void {
         if (this.contentState === ContentState.Initial) {
             this.startLoading();
-            fetch(`${API_URL}&action=query&prop=pageprops&titles=${encodeURIComponent(pageTitle)}`)
-                .then(r => r.json())
+            this.options.getWikiConnector().query<any>(`action=query&prop=pageprops&titles=${encodeURIComponent(pageTitle)}`)
                 .then(result => {
+                    // TODO move result parsing to WikiConnector
                     const pageId = Object.keys(result.query.pages)[0];
                     const page = result.query.pages[pageId];
                     this.loadContent(pageId === "-1" || !page.pageprops || !page.pageprops.description ?
@@ -115,9 +120,9 @@ export class Popup extends L.Popup {
         if (this.contentState === ContentState.Initial) {
             this.startLoading();
             const textToParse = encodeURIComponent(`{{#lst:${pageTitle}|${sectionName}}}`);
-            fetch(`${API_URL}&action=parse&prop=text&contentmodel=wikitext&text=${textToParse}`)
-                .then(r => r.json())
+            this.options.getWikiConnector().query<any>(`action=parse&prop=text&contentmodel=wikitext&text=${textToParse}`)
                 .then(result => {
+                    // TODO move result parsing to WikiConnector
                     let content = result.parse.text["*"];
                     content = content.replace(/\s*<!--[\s\S]*-->\s*/g, "");
                     if (content.match(/page does not exist/)) {
@@ -136,9 +141,9 @@ export class Popup extends L.Popup {
     public loadContentFromPage(pageTitle: string): void {
         if (this.contentState === ContentState.Initial) {
             this.startLoading();
-            fetch(`${API_URL}&action=parse&page=${encodeURIComponent(pageTitle)}`)
-                .then(r => r.json())
+            this.options.getWikiConnector().query<any>(`action=parse&page=${encodeURIComponent(pageTitle)}`)
                 .then(result => {
+                    // TODO move result parsing to WikiConnector
                     this.loadContent(result.parse && result.parse.text["*"] || "");
                 });
         }

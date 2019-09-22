@@ -1,6 +1,6 @@
 [{
     "name": "Piece of Heart",
-    "source": "summary",
+    "source": "section",
     "displayOrder": 10,
     "layers": [{
         "minZoom": 3,
@@ -10,7 +10,23 @@
             "height": 20
         },
         "markers": [
-
+            {"coords":[-326,-1468],"id":"Heart01","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
+            {"coords":[-410,-898],"id":"Heart02","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
+            {"coords":[-95,-1279],"id":"Heart03","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
+            {"coords":[-95,-1222],"id":"Heart04","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
+            {"coords":[269,-697],"id":"Heart05","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
+            {"coords":[303,-75],"id":"Heart06","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
+            {"coords":[193,-1410],"id":"Heart07","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
+            {"coords":[-238,-894],"id":"Heart08","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
+            {"coords":[-151,-596],"id":"Heart09","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
+            {"coords":[-155,514],"id":"Heart10","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
+            {"coords":[606,-120],"id":"Heart11","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
+            {"coords":[-447,-97],"id":"Heart12","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
+            {"coords":[-128,-347],"id":"Heart13","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
+            {"coords":[-493,810],"id":"Heart14","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
+            {"coords":[-475,1498],"id":"Heart15","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
+            {"coords":[359,-129],"id":"Heart16","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
+            {"coords":[-410,-846],"id":"Heart17","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"}
         ]
     }]
 }, {
@@ -40,37 +56,15 @@
             "height": 25
         },
         "markers": [
-            {"coords":[-208,-894],"id":"Shop1","name":"Shop","link":"Shop"},
-            {"coords":[127,-498],"id":"Shop2","name":"Shop","link":"Shop"},
-            {"coords":[298,-418],"id":"Shop3","name":"Shop","link":"Shop"}
-        ]
-    }]
-}, {
-    "name": "Phonebooth",
-    "source": "summary",
-    "displayOrder": 21,
-    "layers": [{
-        "minZoom": 2,
-        "icon": {
-            "url": "hint.png",
-            "width": 28,
-            "height": 20
-        },
-        "markers": [
-            {"coords":[-377,-1072],"id":"Phonebooth1","name":"Phonebooth","link":"Phonebooth"},
-            {"coords":[391,-1260],"id":"Phonebooth2","name":"Phonebooth","link":"Phonebooth"},
-            {"coords":[-282,-715],"id":"Phonebooth3","name":"Phonebooth","link":"Phonebooth"},
-            {"coords":[-133,118],"id":"Phonebooth4","name":"Phonebooth","link":"Phonebooth"},
-            {"coords":[270,692],"id":"Phonebooth5","name":"Phonebooth","link":"Phonebooth"},
-            {"coords":[-594,751],"id":"Phonebooth6","name":"Phonebooth","link":"Phonebooth"},
-            {"coords":[-686,78],"id":"Phonebooth7","name":"Phonebooth","link":"Phonebooth"},
-            {"coords":[689,-1250],"id":"Phonebooth8","name":"Phonebooth","link":"Phonebooth"}
+            {"coords":[-190,-894],"id":"Town Tool Shop","name":"Town Tool Shop","link":"Town Tool Shop"},
+            {"coords":[127,-498],"id":"Witch's Hut","name":"Witch's Hut","link":"Witch's Hut"},
+            {"coords":[320,-419],"id":"Crazy Tracy's Health Spa","name":"Crazy Tracy's Health Spa","link":"Crazy Tracy's Health Spa"}
         ]
     }]
 }, {
     "name": "House",
     "source": "summary",
-    "displayOrder": 22,
+    "displayOrder": 21,
     "layers": [{
         "minZoom": 2,
         "icon": {
@@ -79,11 +73,34 @@
             "height": 20
         },
         "markers": [
-            {"coords":[-378,-874],"id":"House1","name":"House","link":"House"},
-            {"coords":[-360,-1508],"id":"House2","name":"House","link":"House"},
-            {"coords":[-62,-1250],"id":"House3","name":"House","link":"House"},
-            {"coords":[401,-100],"id":"House4","name":"House","link":"House"},
-            {"coords":[400,1446],"id":"House5","name":"House","link":"House"}
+            {"coords":[-378,-874],"id":"Trendy Game","name":"Trendy Game","link":"Trendy Game"},
+            {"coords":[-360,-1508],"id":"Village Library","name":"Village Library","link":"Village Library"},
+            {"coords":[-62,-1250],"id":"Fishing Pond","name":"Fishing Pond","link":"Fishing Pond"},
+            {"coords":[401,-100],"id":"Dampé's Shack","name":"Dampé's Shack","link":"Dampé's Shack"},
+            {"coords":[-100,514],"id":"Seashell Mansion","name":"Seashell Mansion","link":"Seashell Mansion"},
+            {"coords":[400,1446],"id":"Raft Shop","name":"Raft Shop","link":"Raft Shop"}
+        ]
+    }]
+}, {
+    "name": "Telephone Booth",
+    "source": "summary",
+    "displayOrder": 22,
+    "layers": [{
+        "minZoom": 2,
+        "icon": {
+            "url": "hint.png",
+            "width": 28,
+            "height": 20
+        },
+        "markers": [
+            {"coords":[-377,-1072],"id":"Phone1","name":"Telephone Booth","link":"Telephone Booth"},
+            {"coords":[391,-1260],"id":"Phone2","name":"Telephone Booth","link":"Telephone Booth"},
+            {"coords":[-282,-715],"id":"Phone3","name":"Telephone Booth","link":"Telephone Booth"},
+            {"coords":[-133,118],"id":"Phone4","name":"Telephone Booth","link":"Telephone Booth"},
+            {"coords":[270,692],"id":"Phone5","name":"Telephone Booth","link":"Telephone Booth"},
+            {"coords":[-594,751],"id":"Phone6","name":"Telephone Booth","link":"Telephone Booth"},
+            {"coords":[-686,78],"id":"Phone7","name":"Telephone Booth","link":"Telephone Booth"},
+            {"coords":[689,-1250],"id":"Phone8","name":"Telephone Booth","link":"Telephone Booth"}
         ]
     }]
 }, {
@@ -105,7 +122,8 @@
             {"coords":[-90,873],"id":"Face Shrine","name":"Face Shrine","link":"Face Shrine"},
             {"coords":[746,1310],"id":"Eagle's Tower","name":"Eagle's Tower","link":"Eagle's Tower"},
             {"coords":[703,-1477],"id":"Turtle Rock","name":"Turtle Rock","link":"Turtle Rock"},
-            {"coords":[877,-278],"id":"Wind Fish's Egg","name":"Wind Fish's Egg","link":"Wind Fish's Egg"}
+            {"coords":[877,-278],"id":"Wind Fish's Egg","name":"Wind Fish's Egg","link":"Wind Fish's Egg"},
+            {"coords":[75,-42],"id":"Color Dungeon","name":"Color Dungeon","link":"Color Dungeon"}
         ]
     }]
 }, {
@@ -119,16 +137,16 @@
             "height": 30
         },
         "markers": [
-            {"coords":[-225,-458],"id":"Warp01","name":"Ukuku Prairie Warp Point","link":"Ukuku Prairie"},
-            {"coords":[244,-512],"id":"Warp02","name":"Manbo's Pond Warp Point","link":"Manbo's Pond"},
-            {"coords":[428,-159],"id":"Warp03","name":"Warp Point","link":""},
-            {"coords":[-135,614],"id":"Warp04","name":"Warp Point","link":""},
-            {"coords":[-709,930],"id":"Warp05","name":"Warp Point","link":""},
-            {"coords":[-728,-132],"id":"Warp06","name":"Warp Point","link":""},
-            {"coords":[442,930],"id":"Warp07","name":"Warp Point","link":""},
-            {"coords":[570,1530],"id":"Warp08","name":"Warp Point","link":""},
-            {"coords":[690,-860],"id":"Warp09","name":"Warp Point","link":""},
-            {"coords":[745,-1250],"id":"Warp10","name":"Warp Point","link":""}
+            {"coords":[-225,-458],"id":"Warp01","name":"Ukuku Prairie","link":"Ukuku Prairie"},
+            {"coords":[244,-512],"id":"Warp02","name":"Manbo's Pond","link":"Manbo's Pond"},
+            {"coords":[428,-159],"id":"Warp03","name":"Dampé's Shack","link":"Dampé's Shack"},
+            {"coords":[-135,614],"id":"Warp04","name":"Seashell Mansion","link":"Seashell Mansion"},
+            {"coords":[-709,930],"id":"Warp05","name":"Animal Village","link":"Animal Village"},
+            {"coords":[-728,-132],"id":"Warp06","name":"Martha's Bay","link":"Martha's Bay"},
+            {"coords":[442,930],"id":"Warp07","name":"Tal Tal Heights","link":"Tal Tal Heights"},
+            {"coords":[570,1530],"id":"Warp08","name":"Eastern Tal Tal Mountains","link":"Tal Tal Mountain Range"},
+            {"coords":[690,-860],"id":"Warp09","name":"Eastern Tal Tal Mountains","link":"Tal Tal Mountain Range"},
+            {"coords":[745,-1250],"id":"Warp10","name":"Turtle Rock","link":"Turtle Rock"}
         ]
     }]
 }, {
@@ -144,6 +162,32 @@
         },
         "markers": [
             
+        ]
+    }]
+}, {
+    "name": "Regions",
+    "source": "summary",
+    "layers": [{
+        "minZoom": 2,
+        "markers": [
+            {"coords":[-270,-1147],"id":"Mabe Village","name":"Mabe Village","link":"Mabe Village"},
+            {"coords":[-760,-890],"id":"Toronbo Shores","name":"Toronbo Shores","link":"Toronbo Shores"},
+            {"coords":[125,-1175],"id":"Mysterious Forest","name":"Mysterious Forest","link":"Mysterious Forest"},
+            {"coords":[230,-590],"id":"Koholint Prairie","name":"Koholint Prairie","link":"Koholint Prairie"},
+            {"coords":[395,-870],"id":"Goponga Swamp","name":"Goponga Swamp","link":"Goponga Swamp"},
+            {"coords":[286,-65],"id":"Tabahl Wasteland","name":"Tabahl Wasteland","link":"Tabahl Wasteland"},
+            {"coords":[-10,-190],"id":"Cemetary","name":"Cemetary","link":"Cemetary"},
+            {"coords":[-227,-107],"id":"Ukuku Prairie","name":"Ukuku Prairie","link":"Ukuku Prairie"},
+            {"coords":[-533,-180],"id":"Pothole Field","name":"Pothole Field","link":"Pothole Field"},
+            {"coords":[142,340],"id":"Kanalet Castle","name":"Kanalet Castle","link":"Kanalet Castle"},
+            {"coords":[-766,316],"id":"Martha's Bay","name":"Martha's Bay","link":"Martha's Bay"},
+            {"coords":[-544,1043],"id":"Animal Village","name":"Animal Village","link":"Animal Village"},
+            {"coords":[-655,1380],"id":"Yarna Desert","name":"Yarna Desert","link":"Yarna Desert"},
+            {"coords":[-370,1210],"id":"Ancient Ruins","name":"Ancient Ruins","link":"Ancient Ruins"},
+            {"coords":[400,640],"id":"Tal Tal Heights","name":"Tal Tal Heights","link":"Tal Tal Heights"},
+            {"coords":[129,1200],"id":"Rapids Ride","name":"Rapids Ride","link":"Rapids Ride"},
+            {"coords":[641,680],"id":"Tal Tal Mountain Range","name":"Tal Tal Mountain Range","link":"Tal Tal Mountain Range"},
+            {"coords":[761,-279],"id":"Mt. Tamaranch","name":"Mt. Tamaranch","link":"Mt. Tamaranch"}
         ]
     }]
 }]

@@ -44,6 +44,7 @@ export class Marker extends L.Marker {
                 name: json.name,
                 link: json.link,
                 editLink: editLink,
+                getWikiConnector: () => marker.map.wiki,
                 complete: () => {
                     marker.map.wiki.complete(marker.id);
                     marker.complete();
