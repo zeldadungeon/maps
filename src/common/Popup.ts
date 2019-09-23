@@ -119,7 +119,7 @@ export class Popup extends L.Popup {
     public loadContentFromSection(pageTitle: string, sectionName: string): void {
         if (this.contentState === ContentState.Initial) {
             this.startLoading();
-            const textToParse = encodeURIComponent(`{{#lst:${pageTitle}|${sectionName}}}`);
+            const textToParse = encodeURIComponent(`{{#vardefine:gsize|300}}{{#vardefine:galign|left}}{{#vardefine:gpad|0}}{{#lst:${pageTitle}|${sectionName}}}`);
             this.options.getWikiConnector().query<any>(`action=parse&prop=text&contentmodel=wikitext&text=${textToParse}`)
                 .then(result => {
                     // TODO move result parsing to WikiConnector

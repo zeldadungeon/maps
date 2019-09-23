@@ -11,22 +11,22 @@
         },
         "markers": [
             {"coords":[-326,-1468],"id":"Heart01","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
-            {"coords":[-410,-898],"id":"Heart02","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
-            {"coords":[-95,-1279],"id":"Heart03","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
-            {"coords":[-95,-1222],"id":"Heart04","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
-            {"coords":[269,-697],"id":"Heart05","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
-            {"coords":[303,-75],"id":"Heart06","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
-            {"coords":[193,-1410],"id":"Heart07","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
-            {"coords":[-238,-894],"id":"Heart08","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
-            {"coords":[-151,-596],"id":"Heart09","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
-            {"coords":[-155,514],"id":"Heart10","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
-            {"coords":[606,-120],"id":"Heart11","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
-            {"coords":[-447,-97],"id":"Heart12","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
-            {"coords":[-128,-347],"id":"Heart13","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
-            {"coords":[-493,810],"id":"Heart14","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
-            {"coords":[-475,1498],"id":"Heart15","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
-            {"coords":[359,-129],"id":"Heart16","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"},
-            {"coords":[-410,-846],"id":"Heart17","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart01"}
+            {"coords":[-410,-898],"id":"Heart02","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart02"},
+            {"coords":[-95,-1279],"id":"Heart03","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart03"},
+            {"coords":[-95,-1222],"id":"Heart04","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart04"},
+            {"coords":[269,-697],"id":"Heart05","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart05"},
+            {"coords":[303,-75],"id":"Heart06","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart06"},
+            {"coords":[193,-1410],"id":"Heart07","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart07"},
+            {"coords":[-238,-894],"id":"Heart08","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart08"},
+            {"coords":[-151,-596],"id":"Heart09","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart09"},
+            {"coords":[-155,514],"id":"Heart10","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart10"},
+            {"coords":[606,-120],"id":"Heart11","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart11"},
+            {"coords":[-447,-97],"id":"Heart12","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart12"},
+            {"coords":[-128,-347],"id":"Heart13","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart13"},
+            {"coords":[-493,810],"id":"Heart14","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart14"},
+            {"coords":[-475,1498],"id":"Heart15","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart15"},
+            {"coords":[359,-129],"id":"Heart16","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart16"},
+            {"coords":[-410,-846],"id":"Heart17","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart17"}
         ]
     }]
 }, {
@@ -145,7 +145,7 @@
             {"coords":[-728,-132],"id":"Warp06","name":"Martha's Bay","link":"Martha's Bay"},
             {"coords":[442,930],"id":"Warp07","name":"Tal Tal Heights","link":"Tal Tal Heights"},
             {"coords":[570,1530],"id":"Warp08","name":"Eastern Tal Tal Mountains","link":"Tal Tal Mountain Range"},
-            {"coords":[690,-860],"id":"Warp09","name":"Eastern Tal Tal Mountains","link":"Tal Tal Mountain Range"},
+            {"coords":[690,-860],"id":"Warp09","name":"Western Tal Tal Mountains","link":"Tal Tal Mountain Range"},
             {"coords":[745,-1250],"id":"Warp10","name":"Turtle Rock","link":"Turtle Rock"}
         ]
     }]
