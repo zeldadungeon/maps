@@ -27,7 +27,7 @@ module.exports = {
             filename: "botw/index.html"
         }),
         new HtmlWebpackPlugin({
-            title: "Link's Awakening Interactive Map",
+            title: "Link's Awakening Interactive Map (Nintendo Switch)",
             description: "Interactive, searchable map of Koholint with locations, descriptions, guides, and more.",
             template: "template.html",
             chunks: ["la"],
