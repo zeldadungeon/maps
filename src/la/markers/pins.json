@@ -30,12 +30,23 @@
             {"coords":[465,1308],"id":"Heart18","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart18"},
             {"coords":[-67,227],"id":"Heart19","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart19"},
             {"coords":[-747,338],"id":"Heart20","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart20"},
-            {"coords":[-814,355],"id":"Heart21","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart21"}
+            {"coords":[-814,355],"id":"Heart21","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart21"},
+            {"coords":[-347,574],"id":"Heart22","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart22"},
+            {"coords":[-489,1165],"id":"Heart23","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart23"},
+            {"coords":[271,-1111],"id":"Heart24","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart24"},
+            {"coords":[-16,-517],"id":"Heart25","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart25"},
+            {"coords":[360,-75],"id":"Heart26","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart26"},
+            {"coords":[-125,1384],"id":"Heart27","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart27"},
+            {"coords":[182,901],"id":"Heart28","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart28"},
+            {"coords":[366,1425],"id":"Heart29","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart29"},
+            {"coords":[691,-122],"id":"Heart30","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart30"},
+            {"coords":[550,-1205],"id":"Heart31","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart31"},
+            {"coords":[785,-1485],"id":"Heart32","name":"Piece of Heart","link":"Link's Awakening Heart Pieces#Heart32"}
         ]
     }]
 }, {
     "name": "Secret Seashell",
-    "source": "summary",
+    "source": "section",
     "displayOrder": 11,
     "layers": [{
         "minZoom": 3,
@@ -80,11 +91,21 @@
             {"coords":[-358,-844],"id":"Shell33","name":"Secret Seashell","link":"Link's Awakening Secret Seashells#Shell33"},
             {"coords":[-795,98],"id":"Shell34","name":"Secret Seashell","link":"Link's Awakening Secret Seashells#Shell34"},
             {"coords":[-511,1049],"id":"Shell35","name":"Secret Seashell","link":"Link's Awakening Secret Seashells#Shell35"},
-            {"coords":[695,383],"id":"Shell36","name":"Secret Seashell","link":"Link's Awakening Secret Seashells#Shell36"},
-            {"coords":[731,971],"id":"Shell37","name":"Secret Seashell","link":"Link's Awakening Secret Seashells#Shell37"},
+            {"coords":[-310,-259],"id":"Shell36","name":"Secret Seashell","link":"Link's Awakening Secret Seashells#Shell36"},
+            {"coords":[-513,1110],"id":"Shell37","name":"Secret Seashell","link":"Link's Awakening Secret Seashells#Shell37"},
             {"coords":[-94,59],"id":"Shell38","name":"Secret Seashell","link":"Link's Awakening Secret Seashells#Shell38"},
-            {"coords":[699,1310],"id":"Shell39","name":"Secret Seashell","link":"Link's Awakening Secret Seashells#Shell39"},
-            {"coords":[646,-1031],"id":"Shell40","name":"Secret Seashell","link":"Link's Awakening Secret Seashells#Shell40"}
+            {"coords":[149,1271],"id":"Shell39","name":"Secret Seashell","link":"Link's Awakening Secret Seashells#Shell39"},
+            {"coords":[366,1474],"id":"Shell40","name":"Secret Seashell","link":"Link's Awakening Secret Seashells#Shell40"},
+            {"coords":[68,873],"id":"Shell41","name":"Secret Seashell","link":"Link's Awakening Secret Seashells#Shell41"},
+            {"coords":[-39,-1276],"id":"Shell42","name":"Secret Seashell","link":"Link's Awakening Secret Seashells#Shell42"},
+            {"coords":[-39,-1223],"id":"Shell43","name":"Secret Seashell","link":"Link's Awakening Secret Seashells#Shell43"},
+            {"coords":[542,932],"id":"Shell44","name":"Secret Seashell","link":"Link's Awakening Secret Seashells#Shell44"},
+            {"coords":[695,383],"id":"Shell45","name":"Secret Seashell","link":"Link's Awakening Secret Seashells#Shell45"},
+            {"coords":[731,971],"id":"Shell46","name":"Secret Seashell","link":"Link's Awakening Secret Seashells#Shell46"},
+            {"coords":[599,1106],"id":"Shell47","name":"Secret Seashell","link":"Link's Awakening Secret Seashells#Shell47"},
+            {"coords":[699,1310],"id":"Shell48","name":"Secret Seashell","link":"Link's Awakening Secret Seashells#Shell48"},
+            {"coords":[703,-456],"id":"Shell49","name":"Secret Seashell","link":"Link's Awakening Secret Seashells#Shell49"},
+            {"coords":[646,-1031],"id":"Shell50","name":"Secret Seashell","link":"Link's Awakening Secret Seashells#Shell50"}
         ]
     }]
 }, {
