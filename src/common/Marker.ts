@@ -31,12 +31,12 @@ export class Marker extends L.Marker {
         const marker = new Marker(json.id, json.name, json.coords, icon);
         marker.layer = layer;
         marker.tags = json.tags || [];
-        const linkParts = json.link ? json.link.split("#") : [];
-        const editLink = `${
-            layer.infoSource === "summary" || layer.infoSource === "section" || !layer.infoSource ? linkParts[0] :
+        const linkParts = json.link && json.link !== "" ? json.link.split("#") : [];
+        const editLink =
+            layer.infoSource === "summary" || layer.infoSource === "section" ? linkParts[0] :
             layer.infoSource === "subpage" && linkParts[1] ? `${linkParts[0]}/Map/${linkParts[1]}` :
-            layer.infoSource === "subpage" ? `${linkParts[0]}/Map` : linkParts[0]
-        }`;
+            layer.infoSource === "subpage" ? `${linkParts[0]}/Map` :
+            linkParts[0];
 
         if (layer.icon) {
             marker.popup = Popup.create({

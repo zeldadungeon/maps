@@ -86,7 +86,7 @@ export class WikiConnector {
 
         const wikiCompletionResponse = (await this.callApi<CompletionResponse>(`action=query&list=map_userdata&zdm_map=${this.mapid}`))
             .query.map_userdata.completed;
-        let wikiCompletion = wikiCompletionResponse ? wikiCompletionResponse.split(",") : [];
+        let wikiCompletion = wikiCompletionResponse ? wikiCompletionResponse.split(",").map(m => m.replace("%2C", ",")) : [];
 
         if (localCompletion.length > 0 && wikiCompletion.length > 0) {
             const actionReplace = "Replace account data with local data";
@@ -152,6 +152,7 @@ export class WikiConnector {
     }
 
     public async complete(marker: string): Promise<void> {
+        marker = marker.replace(",", "%252C");
         if (this.user) {
             return this.postWithRetry(`action=map_complete&map=${this.mapid}&marker=${marker}`);
         }
@@ -174,6 +175,7 @@ export class WikiConnector {
     }
 
     public async uncomplete(marker: string): Promise<void> {
+        marker = marker.replace(",", "%252C");
         if (this.user) {
             return this.postWithRetry(`action=map_uncomplete&map=${this.mapid}&marker=${marker}`);
         } else {
@@ -189,7 +191,9 @@ export class WikiConnector {
     }
 
     public async setCompletion(markers: string[]): Promise<void> {
-        return this.postWithRetry(`action=map_setcompletion&map=${this.mapid}&markers=${markers.join(",")}`);
+        return this.postWithRetry(`action=map_setcompletion&map=${this.mapid}&markers=${
+            markers.map(m => m.replace(",", "%252C")).join(",") || "clear"
+        }`);
     }
 
     public async query<ResponseType>(query: string): Promise<ResponseType> {
