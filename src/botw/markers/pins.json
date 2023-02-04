@@ -491,7 +491,8 @@
 {"coords":[7114,-3379],"id":"Lynel19","name":"White-Maned Lynel","link":"White-Maned Lynel"},
 {"coords":[7257,-4057],"id":"Lynel20","name":"White-Maned Lynel","link":"White-Maned Lynel"},
 {"coords":[-1757,-8075],"id":"Lynel21","name":"White-Maned Lynel","link":"White-Maned Lynel"},
-{"coords":[-2553,-2292],"id":"Lynel22","name":"Silver Lynel","link":"Silver Lynel"}
+{"coords":[-2553,-2292],"id":"Lynel22","name":"Silver Lynel","link":"Silver Lynel"},
+{"coords":[-4161,-1340],"id":"Lynel23","name":"White-Maned Lynel","link":"White-Maned Lynel","tags":["Master Mode"]}
         ]
     }]
 }, {
@@ -698,7 +699,8 @@
 {"coords":[3222,7933],"id":"Statue10","name":"Goddess Statue","link":""},
 {"coords":[-4718,1750],"id":"Statue11","name":"Goddess Statue","link":""},
 {"coords":[5359,7521],"id":"Statue12","name":"Goddess Statue","link":""},
-{"coords":[-2657,7821],"id":"Statue13","name":"Goddess Statue","link":""}
+{"coords":[-2657,7821],"id":"Statue13","name":"Goddess Statue","link":""},
+{"coords":[5400,-2120],"id":"Statue14","name":"Goddess Statue","link":""}
         ]
     }]
 }, {
