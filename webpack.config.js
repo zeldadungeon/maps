@@ -10,7 +10,7 @@ module.exports = {
     entry: {
         botw: "./botw/index.ts",
         la: "./la/index.ts",
-        botw2: "./botw2/index.ts",
+        totk: "./totk/index.ts",
         ss: "./ss/index.ts"
     },
     output: {
@@ -37,8 +37,8 @@ module.exports = {
             title: "Breath of the Wild Sequel Interactive Map",
             description: "Interactive, searchable map of Hyrule with locations, descriptions, guides, and more.",
             template: "template.html",
-            chunks: ["botw2"],
-            filename: "botw2/index.html"
+            chunks: ["totk"],
+            filename: "totk/index.html"
         }),
         new HtmlWebpackPlugin({
             title: "Skyward Sword Interactive Map",

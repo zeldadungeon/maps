@@ -5,7 +5,7 @@ import { Map } from "common/Map";
 
 window.onload = () => {
 
-    const map = Map.create("botw2", 24000, 750, {
+    const map = Map.create("totk", 24000, 750, {
         center: [-3750, -1900]
     });
 
