@@ -245,7 +245,12 @@ export class WikiConnector {
 
     private async getToken(): Promise<void> {
         const response = await this.callApi<TokenResponse>("action=query&meta=tokens&type=csrf");
-        this.csrf = response.query.tokens.csrftoken;
+        const token = response.query.tokens.csrftoken;
+        if (token !== "\\+") {  // work around the API endpoint returning \+ instead of failure when no login
+            this.csrf = token;
+        } else {
+            this.csrf = undefined;
+        }
     }
     /*
 
