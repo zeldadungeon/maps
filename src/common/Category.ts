@@ -1,21 +1,20 @@
-import * as Schema from "JSONSchema";
-import { Layer } from "common/Layer";
-import { Map } from "Map";
+import * as Schema from "./JSONSchema";
+import { Layer } from "./Layer";
+import { Map } from "./Map";
 
 export class Category {
     public name: string;
     public displayOrder: number | undefined;
     private layers: Layer[];
 
-    private constructor() {}
+    private constructor(json: Schema.Category, directory: string) {
+        this.name = json.name;
+        this.displayOrder = json.displayOrder;
+        this.layers = json.layers.map(l => Layer.fromJSON(l, json.source, directory));
+    }
 
-    public static fromJSON(json: Schema.Category): Category {
-        const category = new Category();
-        category.name = json.name;
-        category.displayOrder = json.displayOrder;
-        category.layers = json.layers.map(l => Layer.fromJSON(l, json.source));
-
-        return category;
+    public static fromJSON(json: Schema.Category, directory: string): Category {
+        return new Category(json, directory);
     }
 
     public addToMap(map: Map): void {

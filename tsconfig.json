@@ -1,19 +1,26 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "AMD",
-    "lib": ["dom", "es5", "es2015.promise"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "lib": ["ESNext", "DOM"],
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
+    // TODO "noUnusedLocals": true,
+    // TODO "noUnusedParameters": true,
     "skipLibCheck": true,
     "sourceMap": true,
-    "strictNullChecks": true,
-    "baseUrl": ".",
+    "noEmit": true,
+    "baseUrl": "./src",
     "paths": {
       "@fortawesome/*": ["node_modules/@fortawesome/*/index.d.ts", "node_modules/@fortawesome/*"]
     }
   },
-  "exclude": ["node_modules"]
+  "include": ["src"]
 }

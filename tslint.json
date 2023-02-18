@@ -3,6 +3,7 @@
     "rules": {
         "eofline": false,
         "export-name": false,
+        "import-name": false,
         "function-name": [
             true,
             {
@@ -16,15 +17,18 @@
         "interface-name": false,
         "linebreak-style": [true, "CRLF"],
         "missing-jsdoc": false,
+        "newline-per-chained-call": false,
         "no-any": false,
         "no-implicit-dependencies": false,
         "no-import-side-effect": [true, { "ignore-module": "\\.scss$" }],
         "no-increment-decrement": false,
+        "no-non-null-assertion": false,
         "no-object-literal-type-assertion": false,
         "no-parameter-properties": false, // I like parameter properties
         "no-parameter-reassignment": false, // rule's broken
         "no-relative-imports": false,
         "no-submodule-imports": false,
+        "no-suspicious-comment": false,
         "no-void-expression": false,
         "object-curly-spacing": [true, "always"],
         "ordered-imports": false,

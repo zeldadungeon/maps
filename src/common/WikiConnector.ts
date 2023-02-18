@@ -1,7 +1,7 @@
 import { Dialog } from "./Dialog";
 import { LocalStorage } from "./LocalStorage";
 
-const LOCAL = location.hostname === "localhost";
+const LOCAL = location.hostname === "localhost" || location.hostname === "127.0.0.1";
 
 export interface User {
     id: number;
@@ -25,7 +25,7 @@ interface CompletionResponse {
 interface TokenResponse {
     query: {
         tokens: {
-            csrftoken: "d5a24d2c2d9e8214cd3aec87e7c494db5d7e58e4+\\";
+            csrftoken: string;
         };
     };
 }
@@ -45,8 +45,8 @@ function responseIsError(response: any): response is ErrorResponse {
  * Wiki connector for storing user data
  */
 export class WikiConnector {
-    public user: User;
-    private csrf: string;
+    public user?: User;
+    private csrf?: string;
     private completionStore: LocalStorage;
     private offline = false;
 
@@ -96,7 +96,10 @@ export class WikiConnector {
             const localSingle = localCompletion.length === 1;
             const wikiSingle = wikiCompletion.length === 1;
             const action = await this.dialog.showDialog(
-                `This device has ${localCompletion.length} completed marker${localSingle ? "" : "s"}, but your account already has ${wikiCompletion.length} completed marker${wikiSingle ? "" : "s"}. What would you like to do with the local data? If you choose to logout, you can login anytime from the settings menu on the left.`,
+                `This device has ${localCompletion.length} completed marker${localSingle ? "" : "s"}, \
+                but your account already has ${wikiCompletion.length} completed marker${wikiSingle ? "" : "s"}. \
+                What would you like to do with the local data? If you choose to logout, \
+                you can login anytime from the settings menu on the left.`,
                 [actionReplace, actionMerge, actionDelete, actionLogout]);
 
             if (action === actionLogout) {
@@ -134,7 +137,9 @@ export class WikiConnector {
             const actionLogout = "Logout and keep local data";
             const single = localCompletion.length === 1;
             const action = await this.dialog.showDialog(
-                `This device has ${localCompletion.length} completed marker${single ? "" : "s"}. Would you like to upload ${single ? "it" : "them"} to your account? If you choose to logout, you can login anytime from the settings menu on the left.`,
+                `This device has ${localCompletion.length} completed marker${single ? "" : "s"}. \
+                Would you like to upload ${single ? "it" : "them"} to your account? \
+                If you choose to logout, you can login anytime from the settings menu on the left.`,
                 [actionReplace, actionLogout]);
 
             if (action === actionLogout) {
@@ -161,7 +166,8 @@ export class WikiConnector {
             const actionLogin = "Login";
             const actionContinue = "Continue without logging in";
             const action = await this.dialog.showDialog(
-                `Logging into your Zelda Dungeon Wiki account allows you to access your completion data from any device. If you choose not to login now, you can login anytime from the settings menu on the left.`,
+                `Logging into your Zelda Dungeon Wiki account allows you to access your completion data from any device. \
+                If you choose not to login now, you can login anytime from the settings menu on the left.`,
                 [actionLogin, actionContinue]);
             if (action === actionLogin) {
                 this.login();
@@ -225,14 +231,14 @@ export class WikiConnector {
             headers: {
                 "Content-Type": "application/x-www-form-urlencoded"
             },
-            body: `token=${encodeURIComponent(this.csrf)}`
+            body: `token=${encodeURIComponent(this.csrf || "")}` // TODO refactor token handling to ensure it is not undefined here
         });
     }
 
     private async callApi<T>(query: string, settings?: RequestInit): Promise<T> {
         let endpoint = `/wiki/api.php?format=json&${query}`;
         if (LOCAL) {
-            endpoint = `https://www.zeldadungeon.net${endpoint}&origin=http://localhost:8080`;
+            endpoint = `https://www.zeldadungeon.net${endpoint}&origin=${location.origin}`;
         }
 
         const response = await fetch(endpoint, {
@@ -246,6 +252,7 @@ export class WikiConnector {
     private async getToken(): Promise<void> {
         const response = await this.callApi<TokenResponse>("action=query&meta=tokens&type=csrf");
         const token = response.query.tokens.csrftoken;
+        // tslint:disable-next-line:possible-timing-attack false positive
         if (token !== "\\+") {  // work around the API endpoint returning \+ instead of failure when no login
             this.csrf = token;
         } else {

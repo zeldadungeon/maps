@@ -1,7 +1,7 @@
-import "common/style.scss";
-import * as Schema from "common/JSONSchema";
-import { Category } from "common/Category";
-import { Map } from "common/Map";
+import "./common/style.scss";
+import * as Schema from "./common/JSONSchema";
+import { Category } from "./common/Category";
+import { Map } from "./common/Map";
 
 window.onload = async () => {
 
@@ -11,11 +11,11 @@ window.onload = async () => {
     });
 
     function addJson(categories: Schema.Category[]): void {
-        categories.forEach(c => map.addCategory(Category.fromJSON(c)));
+        categories.forEach(c => map.addCategory(Category.fromJSON(c, "la")));
     }
 
     try {
-        const pins = await fetch("markers/pins.json");
+        const pins = await fetch("/la/markers/pins.json");
         addJson(await pins.json());
     } catch (ex) {}
 

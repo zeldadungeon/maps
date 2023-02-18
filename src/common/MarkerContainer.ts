@@ -15,7 +15,7 @@ export class MarkerContainer {
     }
 
     public removeMarker(marker: Marker): void {
-        delete this.markers[marker.id];
+        delete this.markers[marker.id]; // tslint:disable-line:no-dynamic-delete TODO convert markers object to a js Map?
     }
 
     public clear(): void {

@@ -1,7 +1,7 @@
 import * as L from "leaflet";
-import * as Schema from "JSONSchema";
-import { Map } from "Map";
-import { Marker } from "common/Marker";
+import * as Schema from "./JSONSchema";
+import { Map } from "./Map";
+import { Marker } from "./Marker";
 
 enum Visibility {
     Off,
@@ -10,26 +10,26 @@ enum Visibility {
 }
 
 export class Layer extends L.LayerGroup {
-    public icon: L.Icon;
+    public icon?: L.Icon;
     public infoSource: string;
 
     private minZoom = 0;
     private maxZoom = Number.MAX_VALUE;
     private visibility = Visibility.Default;
-    private map: Map;
-    private markers: Marker[];
+    private map!: Map; // BUGBUG refactor to avoid having to suppress null checking
+    private markers!: Marker[]; // BUGBUG refactor to avoid having to suppress null checking
 
-    private constructor() {
+    private constructor(infoSource: string) {
         super();
+        this.infoSource = infoSource;
     }
 
-    public static fromJSON(json: Schema.Layer, infoSource: string): Layer {
-        const layer = new Layer();
-        layer.infoSource = infoSource;
+    public static fromJSON(json: Schema.Layer, infoSource: string, directory: string): Layer {
+        const layer = new Layer(infoSource);
 
         if (json.icon) {
             layer.icon = L.icon({
-                iconUrl: `markers/${json.icon.url}`,
+                iconUrl: `/${directory}/icons/${json.icon.url}`, // TODO find a better way to get directory
                 iconSize: [json.icon.width, json.icon.height]
             });
         }

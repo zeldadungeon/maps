@@ -1,29 +1,30 @@
 import * as L from "leaflet";
-import { Marker } from "Marker";
-import { MarkerContainer } from "common/MarkerContainer";
+import { Marker } from "./Marker";
+import { MarkerContainer } from "./MarkerContainer";
 
 export class TileLayer extends L.TileLayer {
-    private tileMarkerContainers: MarkerContainer[][][];
-    private tileSize: number;
-    private maxZoom: number;
+    private tileMarkerContainers: MarkerContainer[][][] = [];
 
-    private constructor(urlTemplate: string, options?: L.TileLayerOptions) {
+    private constructor(urlTemplate: string, private tileSize: number, private maxZoom: number, options?: L.TileLayerOptions) {
         super(urlTemplate, options);
     }
 
     public static create(mapid: string, tileSize: number, maxZoom: number, bounds: L.LatLngBounds): TileLayer {
-        const tileLayer = new TileLayer(`https://www.zeldadungeon.net/maps/${mapid}/tiles/{z}/{x}_{y}.jpg`, {
-            tileSize: tileSize,
-            minZoom: 0,
-            maxZoom: maxZoom,
-            bounds: bounds,
-            noWrap: true
-        });
+        const tileLayer = new TileLayer(
+            `https://www.zeldadungeon.net/maps/${mapid}/tiles/{z}/{x}_{y}.jpg`,
+            tileSize,
+            maxZoom,
+            {
+                tileSize: tileSize,
+                minZoom: 0,
+                maxZoom: maxZoom,
+                bounds: bounds,
+                noWrap: true
+            });
 
         tileLayer.tileSize = tileSize;
         tileLayer.maxZoom = maxZoom;
 
-        tileLayer.tileMarkerContainers = [];
         for (let z = 0; z <= maxZoom; ++z) {
             tileLayer.tileMarkerContainers[z] = [];
             for (let x = 0; x < Math.pow(2, z); ++x) {
@@ -34,11 +35,13 @@ export class TileLayer extends L.TileLayer {
             }
         }
 
-        tileLayer.on("tileload", (e: L.TileEvent) => {
-            tileLayer.tileMarkerContainers[(<any>e.coords).z][e.coords.x][e.coords.y].show();
+        tileLayer.on("tileload", (e: L.LeafletEvent) => {
+            const te = <L.TileEvent>e;
+            tileLayer.tileMarkerContainers[(<any>te.coords).z][te.coords.x][te.coords.y].show();
         });
-        tileLayer.on("tileunload", (e: L.TileEvent) => {
-            tileLayer.tileMarkerContainers[(<any>e.coords).z][e.coords.x][e.coords.y].hide();
+        tileLayer.on("tileunload", (e: L.LeafletEvent) => {
+            const te = <L.TileEvent>e;
+            tileLayer.tileMarkerContainers[(<any>te.coords).z][te.coords.x][te.coords.y].hide();
         });
 
         return tileLayer;

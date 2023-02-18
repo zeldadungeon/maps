@@ -1,36 +1,35 @@
 import * as L from "leaflet";
-import * as Schema from "JSONSchema";
-import { Layer } from "Layer";
-import { Map } from "Map";
-import { MarkerContainer } from "MarkerContainer";
-import { Popup } from "common/Popup";
+import * as Schema from "./JSONSchema";
+import { Layer } from "./Layer";
+import { Map } from "./Map";
+import { MarkerContainer } from "./MarkerContainer";
+import { Popup } from "./Popup";
 
 export class Marker extends L.Marker {
     public id: string;
     public name: string;
     public tags: string[];
-    private map: Map;
+    private map!: Map; // BUGBUG refactor to avoid having to suppress null checking
     private layer: Layer;
     private tileContainers = <MarkerContainer[]>[];
-    private path: L.Polyline;
-    private popup: Popup;
+    private path?: L.Polyline;
+    private popup?: Popup;
 
-    private constructor(id: string, name: string, coords: L.LatLngExpression, icon: L.Icon) {
+    private constructor(json: Schema.Marker, coords: L.LatLngExpression, layer: Layer) {
         super(coords, {
-            title: name,
-            icon: icon
+            title: json.name,
+            icon: layer.icon || L.divIcon({
+                className: "zd-void-icon"
+            })
         });
-        this.id = id;
-        this.name = name;
+        this.id = json.id;
+        this.name = json.name;
+        this.tags = json.tags || [];
+        this.layer = layer;
     }
 
     public static fromJSON(json: Schema.Marker, layer: Layer): Marker {
-        const icon = layer.icon || L.divIcon({
-            className: "zd-void-icon"
-        });
-        const marker = new Marker(json.id, json.name, json.coords, icon);
-        marker.layer = layer;
-        marker.tags = json.tags || [];
+        const marker = new Marker(json, json.coords, layer);
         const linkParts = json.link && json.link !== "" ? json.link.split("#") : [];
         const editLink =
             layer.infoSource === "summary" || layer.infoSource === "section" ? linkParts[0] :
@@ -65,15 +64,15 @@ export class Marker extends L.Marker {
             marker.bindPopup(marker.popup);
             marker.on("popupopen", () => {
                 if (layer.infoSource === "summary") {
-                    marker.popup.loadContentFromSummary(linkParts[0]);
+                    marker.popup!.loadContentFromSummary(linkParts[0]);
                 } else if (layer.infoSource === "section") {
-                    marker.popup.loadContentFromSection(
+                    marker.popup!.loadContentFromSection(
                         linkParts[0],
                         json.id.match(/^Seed\d{3}$/) ? `${json.id}summary` : linkParts[1] || "summary");
                 } else if (layer.infoSource === "subpage") {
-                    marker.popup.loadContentFromSubpage(linkParts[0], linkParts[1]);
+                    marker.popup!.loadContentFromSubpage(linkParts[0], linkParts[1]);
                 } else if (layer.infoSource) {
-                    marker.popup.loadContentFromPage(layer.infoSource);
+                    marker.popup!.loadContentFromPage(layer.infoSource);
                 }
             });
         } else {
@@ -106,7 +105,7 @@ export class Marker extends L.Marker {
     public complete(): void {
         this.map.taggedMarkers.Completed.addMarker(this);
         this.tags.push("Completed");
-        this.popup.markCompleted();
+        this.popup!.markCompleted();
         this.updateVisibility();
     }
 
@@ -115,7 +114,7 @@ export class Marker extends L.Marker {
         if (tag > -1) {
             this.tags.splice(tag, 1);
         }
-        this.popup.markUncompleted();
+        this.popup!.markUncompleted();
         this.updateVisibility();
     }
 

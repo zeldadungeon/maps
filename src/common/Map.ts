@@ -1,18 +1,18 @@
 import * as L from "leaflet";
-import * as ZDCRS from "common/ZDCRS";
+import * as ZDCRS from "./ZDCRS";
 import { dom, library } from "@fortawesome/fontawesome-svg-core";
-import { Category } from "common/Category";
-import { Control } from "common/Control";
+import { Category } from "./Category";
+import { Control } from "./Control";
 import { Dialog } from "./Dialog";
-import { Legend } from "common/Legend";
-import { LocalStorage } from "common/LocalStorage";
-import { Marker } from "common/Marker";
-import { MarkerContainer } from "common/MarkerContainer";
-import { TileLayer } from "common/TileLayer";
+import { Legend } from "./Legend";
+import { LocalStorage } from "./LocalStorage";
+import { Marker } from "./Marker";
+import { MarkerContainer } from "./MarkerContainer";
+import { TileLayer } from "./TileLayer";
 import { WikiConnector } from "./WikiConnector";
 import { faCog } from "@fortawesome/free-solid-svg-icons/faCog";
 import { faSearch } from "@fortawesome/free-solid-svg-icons/faSearch";
-import { params } from "common/QueryParameters";
+import { params } from "./QueryParameters";
 
 library.add(faSearch, faCog);
 dom.watch();
@@ -26,14 +26,15 @@ interface Options extends L.MapOptions {
  */
 export class Map extends L.Map {
     public taggedMarkers = <{[key: string]: MarkerContainer}>{};
-    public wiki: WikiConnector;
-    private settingsStore: LocalStorage;
-    private searchControl: Control;
-    private settingsControl: Control;
-    private legend: Legend;
-    private legendLandscape: Legend;
-    private tileLayer: TileLayer;
-    private loginFn: (username: string) => void;
+    // BUGBUG refactor to avoid having to suppress null checking
+    public wiki!: WikiConnector;
+    private settingsStore!: LocalStorage;
+    private searchControl!: Control;
+    private settingsControl!: Control;
+    private legend!: Legend;
+    private legendLandscape!: Legend;
+    private tileLayer!: TileLayer;
+    private loginFn!: (username: string) => void;
 
     private constructor(element: string | HTMLElement, options?: Options) {
         super(element, options);

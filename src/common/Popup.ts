@@ -10,8 +10,6 @@ import { faUndo } from "@fortawesome/free-solid-svg-icons/faUndo";
 library.add(faCheck, faUndo, faEdit, faLink, faCircleNotch);
 dom.watch();
 
-const API_URL = "https://www.zeldadungeon.net/wiki/api.php?format=json";
-
 enum ContentState {
     Initial,
     Loading,
@@ -33,7 +31,7 @@ export interface Options extends L.PopupOptions {
  * Popup that opens when clicking on a marker. Contains information and controls.
  */
 export class Popup extends L.Popup {
-    public options: Options;
+    public myOptions: Options;
     private container: HTMLElement;
     private body: HTMLElement;
     private controls: HTMLElement;
@@ -41,6 +39,7 @@ export class Popup extends L.Popup {
 
     private constructor(options: Options) {
         super(options);
+        this.myOptions = options;
 
         this.container = L.DomUtil.create("div", "zd-popup");
 
@@ -105,7 +104,7 @@ export class Popup extends L.Popup {
     public loadContentFromSummary(pageTitle: string): void {
         if (this.contentState === ContentState.Initial) {
             this.startLoading();
-            this.options.getWikiConnector().query<any>(`action=query&prop=pageprops&titles=${encodeURIComponent(pageTitle)}`)
+            this.myOptions.getWikiConnector().query<any>(`action=query&prop=pageprops&titles=${encodeURIComponent(pageTitle)}`)
                 .then(result => {
                     // TODO move result parsing to WikiConnector
                     const pageId = Object.keys(result.query.pages)[0];
@@ -119,8 +118,9 @@ export class Popup extends L.Popup {
     public loadContentFromSection(pageTitle: string, sectionName: string): void {
         if (this.contentState === ContentState.Initial) {
             this.startLoading();
+            // tslint:disable-next-line:max-line-length
             const textToParse = encodeURIComponent(`{{#vardefine:gsize|300}}{{#vardefine:galign|left}}{{#vardefine:gpad|0}}{{#vardefine:square|false}}{{#lst:${pageTitle}|${sectionName}}}`);
-            this.options.getWikiConnector().query<any>(`action=parse&prop=text&contentmodel=wikitext&text=${textToParse}`)
+            this.myOptions.getWikiConnector().query<any>(`action=parse&prop=text&contentmodel=wikitext&text=${textToParse}`)
                 .then(result => {
                     // TODO move result parsing to WikiConnector
                     let content = result.parse.text["*"];
@@ -141,7 +141,7 @@ export class Popup extends L.Popup {
     public loadContentFromPage(pageTitle: string): void {
         if (this.contentState === ContentState.Initial) {
             this.startLoading();
-            this.options.getWikiConnector().query<any>(`action=parse&page=${encodeURIComponent(pageTitle)}`)
+            this.myOptions.getWikiConnector().query<any>(`action=parse&page=${encodeURIComponent(pageTitle)}`)
                 .then(result => {
                     // TODO move result parsing to WikiConnector
                     this.loadContent(result.parse && result.parse.text["*"] || "");
@@ -156,6 +156,8 @@ export class Popup extends L.Popup {
     }
 
     private loadContent(content: string): void {
+        // BUGBUG sanitize this html that comes from the wiki. setHTML() which does sanitation doesn't have good browser support yet
+        // tslint:disable-next-line:no-inner-html
         this.body.innerHTML = content;
         const internalLinks = this.body.getElementsByClassName("internal-link");
         for (let i = 0; i < internalLinks.length; ++i) {
@@ -163,7 +165,7 @@ export class Popup extends L.Popup {
             L.DomEvent.addListener(link, "click", () => {
                 const id = link.getAttribute("data-target");
                 if (id) {
-                    this.options.linkClicked(id);
+                    this.myOptions.linkClicked(id);
                 }
             });
         }

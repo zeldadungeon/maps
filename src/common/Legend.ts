@@ -1,5 +1,5 @@
 import * as L from "leaflet";
-import { Category } from "common/Category";
+import { Category } from "./Category";
 
 interface LegendItem {
     category: Category;

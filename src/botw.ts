@@ -1,7 +1,7 @@
-import "common/style.scss";
-import * as Schema from "common/JSONSchema";
-import { Category } from "common/Category";
-import { Map } from "common/Map";
+import "./common/style.scss";
+import * as Schema from "./common/JSONSchema";
+import { Category } from "./common/Category";
+import { Map } from "./common/Map";
 
 window.onload = async () => {
     const map = Map.create("botw", 24000, 750, {
@@ -10,12 +10,12 @@ window.onload = async () => {
     });
 
     function addJson(categories: Schema.Category[]): void {
-        categories.forEach(c => map.addCategory(Category.fromJSON(c)));
+        categories.forEach(c => map.addCategory(Category.fromJSON(c, "botw")));
     }
 
-    const locations = fetch("markers/locations.json").then(r => r.json()).then(addJson);
-    const pins = fetch("markers/pins.json").then(r => r.json()).then(addJson);
-    const seeds = fetch("markers/seeds.json").then(r => r.json()).then((categories: Schema.Category[]) => {
+    const locations = fetch("/botw/markers/locations.json").then(r => r.json()).then(addJson);
+    const pins = fetch("/botw/markers/pins.json").then(r => r.json()).then(addJson);
+    const seeds = fetch("/botw/markers/seeds.json").then(r => r.json()).then((categories: Schema.Category[]) => {
         // took some shortcuts to reduce file size, gotta fix them
         const layer = categories[0].layers[0];
         layer.markers = layer.markers.map((m: any) => {
@@ -29,8 +29,8 @@ window.onload = async () => {
         });
         addJson(categories);
     });
-    const treasures = fetch("markers/treasures.json").then(r => r.json()).then(addJson);
-    const wiki = fetch("markers/wiki.json").then(r => r.json()).then(addJson);
+    const treasures = fetch("/botw/markers/treasures.json").then(r => r.json()).then(addJson);
+    const wiki = fetch("/botw/markers/wiki.json").then(r => r.json()).then(addJson);
 
     // await them all individually since allSettled isn't standard yet. they're still running in parallel.
     await locations.catch(() => {});
