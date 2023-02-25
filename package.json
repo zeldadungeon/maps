@@ -8,6 +8,7 @@
     "build": "tsc && vite build",
     "stage": "tsc && vite build --mode staging",
     "preview": "vite preview",
+    "format": "prettier --check .",
     "lint": "eslint -c .eslintrc.js --ext .ts ./src",
     "prepare": "husky install"
   },
