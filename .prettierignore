@@ -11,3 +11,6 @@ dist
 # Intermediate outputs
 src/**/*.js
 src/**/*.js.map
+
+# Public files are served as-is, thus they are already somewhat minified and don't need to be pretty.
+public

@@ -19,7 +19,10 @@
     "noEmit": true,
     "baseUrl": "./src",
     "paths": {
-      "@fortawesome/*": ["node_modules/@fortawesome/*/index.d.ts", "node_modules/@fortawesome/*"]
+      "@fortawesome/*": [
+        "node_modules/@fortawesome/*/index.d.ts",
+        "node_modules/@fortawesome/*"
+      ]
     }
   },
   "include": ["src"]

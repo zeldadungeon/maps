@@ -5,14 +5,14 @@
 /// @param  {Color}   $color  - Stroke color
 /// @return {List}            - text-shadow list
 @function stroke($stroke, $color) {
-    $shadow: ();
-    $from: $stroke*-1;
-    @for $i from $from through $stroke {
-        @for $j from $from through $stroke {
-            $shadow: append($shadow, $i*1px $j*1px 0 $color, comma);
-        }
+  $shadow: ();
+  $from: $stroke * -1;
+  @for $i from $from through $stroke {
+    @for $j from $from through $stroke {
+      $shadow: append($shadow, $i * 1px $j * 1px 0 $color, comma);
     }
-    @return $shadow;
+  }
+  @return $shadow;
 }
 
 /// Stroke font-character
@@ -20,40 +20,41 @@
 /// @param  {Color}   $color  - Stroke color
 /// @return {Style}           - text-shadow
 @mixin stroke($stroke, $color) {
-    text-shadow: stroke($stroke, $color);
+  text-shadow: stroke($stroke, $color);
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
 #map {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .leaflet-container {
-    background: #000000;
+  background: #000000;
 }
 
 /* CONTROLS */
 
 .selectable {
-    cursor: pointer;
-    box-sizing: border-box;
-    transition: background-color .2s;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: background-color 0.2s;
 }
 
 .selected {
-    background-color: rgba(0,0,0,.7);
-    border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 1px solid white;
 }
 
 .zd-control {
-    position: relative;
+  position: relative;
 }
 
 .leaflet-bar a,
@@ -61,243 +62,247 @@ html, body {
 .zd-control__button,
 .zd-control__content,
 .zd-legend {
-    background-color: rgba(0,0,0,.4);
-    color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
 }
 
 .leaflet-bar a.leaflet-disabled {
-    background-color: rgba(0,0,0,.8);
-    color: #bbb;
-    cursor: default;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #bbb;
+  cursor: default;
 }
 
 .zd-control__button {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    font-size: 22px;
-    text-align: center;
-    border: 2px solid rgba(0,0,0,0.2);
-    border-radius: 2px;
-    background-clip: padding-box;
-    cursor: pointer;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 22px;
+  text-align: center;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  background-clip: padding-box;
+  cursor: pointer;
 }
 
-.zd-control__content, .zd-legend {
-    font-size: 1.5em;
+.zd-control__content,
+.zd-legend {
+  font-size: 1.5em;
 }
 
 .zd-control__content {
-    position: absolute;
-    top: 0;
-    left: 34px;
-    width: 0;
-    overflow: hidden;
-    transition: width .2s;
+  position: absolute;
+  top: 0;
+  left: 34px;
+  width: 0;
+  overflow: hidden;
+  transition: width 0.2s;
 }
 
 .zd-control__content--open {
-    width: 300px;
+  width: 300px;
 }
 
 .zd-search__searchbox {
-    box-sizing: border-box;
-    height: 34px;
-    width: 100%;
-    font-size: inherit;
+  box-sizing: border-box;
+  height: 34px;
+  width: 100%;
+  font-size: inherit;
 }
 
 .zd-search__results {
-    list-style: none;
-    margin: auto;
-    padding: 0;
+  list-style: none;
+  margin: auto;
+  padding: 0;
 }
 
 .zd-search__result {
-    cursor: pointer;
-    padding-left: 50px;
-    background-repeat: no-repeat;
+  cursor: pointer;
+  padding-left: 50px;
+  background-repeat: no-repeat;
 }
 
 .zd-search__result + .zd-search__result {
-    border-top: 1px solid gray;
+  border-top: 1px solid gray;
 }
 
 .zd-settings__setting {
-    height: 30px;
+  height: 30px;
 }
 
 .zd-settings__label {
-    text-align: left;
+  text-align: left;
 }
 
 .zd-settings__button {
-    width: 50px;
-    text-align: center;
+  width: 50px;
+  text-align: center;
 }
 
 /* LEGEND */
 
 .leaflet-top.leaflet-right {
-    height: 100%;
+  height: 100%;
 }
 
 .leaflet-bottom.leaflet-right {
-    width: 100%;
-    max-height: 40%;
+  width: 100%;
+  max-height: 40%;
 }
 
 .leaflet-right .zd-legend {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .leaflet-top .zd-legend {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .leaflet-bottom .zd-legend {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .zd-legend--portrait {
-    width: 100%;
-    text-align: center;
-    overflow: hidden;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
 }
 
 .zd-legend--landscape {
-    display: none;
-    height: 100%;
-    width: 210px;
-    overflow: auto;
+  display: none;
+  height: 100%;
+  width: 210px;
+  overflow: auto;
 }
 
-@media screen and (orientation:landscape) and (min-width:768px) {
-    .zd-legend--landscape {
-        display: flex;
-    }
+@media screen and (orientation: landscape) and (min-width: 768px) {
+  .zd-legend--landscape {
+    display: flex;
+  }
 
-    .zd-legend--portrait {
-        display: none;
-    }
+  .zd-legend--portrait {
+    display: none;
+  }
 }
 
 .zd-legend__header {
-    margin: 0;
-    width: 100%;
+  margin: 0;
+  width: 100%;
 }
 
 .zd-legend__categories {
-    list-style: none;
-    margin: auto;
-    padding: 5px;
+  list-style: none;
+  margin: auto;
+  padding: 5px;
 }
 
 .zd-legend--portrait .zd-legend__categories {
-    padding: 0px;
-    height: 0px;
-    overflow: scroll;
-    transition: height .2s;
+  padding: 0px;
+  height: 0px;
+  overflow: scroll;
+  transition: height 0.2s;
 }
 
 .zd-legend--portrait .zd-legend__categories--show {
-    height: 190px;
+  height: 190px;
 }
 
 .zd-legend--portrait li {
-    display: inline-block;
-    width: 180px;
-    box-sizing: border-box;
-    text-align: left;
+  display: inline-block;
+  width: 180px;
+  box-sizing: border-box;
+  text-align: left;
 }
 
-.zd-legend__all, .zd-legend__none, .zd-legend__category {
-    height: 30px;
+.zd-legend__all,
+.zd-legend__none,
+.zd-legend__category {
+  height: 30px;
 }
 
-.zd-legend__all, .zd-legend__none {
-    display: inline-block;
-    width: 50%;
-    text-align: center;
+.zd-legend__all,
+.zd-legend__none {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
 }
 
 .zd-legend__category {
-/*    margin: -10px 0;
+  /*    margin: -10px 0;
     padding: 5px 0;*/
-    padding-left: 50px;
-    background-repeat: no-repeat;
+  padding-left: 50px;
+  background-repeat: no-repeat;
 }
 
 /* LOCATION TEXT LABELS */
 
 .leaflet-tooltip-pane {
-    z-index: 550; /* put location text labels underneath markers */
+  z-index: 550; /* put location text labels underneath markers */
 }
 
 .leaflet-tooltip.zd-location-label {
-    background-color: transparent;
-    border: transparent;
-    box-shadow: none;
+  background-color: transparent;
+  border: transparent;
+  box-shadow: none;
 }
 
 .zd-map-botw .leaflet-tooltip.zd-location-label {
-    font-size: 24px;
-    color: #f8efae;
-    @include stroke(2, #977f41);
+  font-size: 24px;
+  color: #f8efae;
+  @include stroke(2, #977f41);
 }
 
 .zd-map-la .leaflet-tooltip.zd-location-label {
-    font-size: 18px;
-    font-style: italic;
-    color: #fff6e6;
+  font-size: 18px;
+  font-style: italic;
+  color: #fff6e6;
 }
 
 /* POPUPS */
 
 .zd-popup__loading-indicator {
-    text-align: center;
+  text-align: center;
 }
 
 .zd-popup__controls {
-    text-align: center;
-    font-size: 18px;
+  text-align: center;
+  font-size: 18px;
 }
 
 .zd-popup__controls .zd-popup__control {
-    color: #b5b5b5;
+  color: #b5b5b5;
 }
 
 .zd-popup__controls .zd-popup__control:hover {
-    color: #7f7f7f;
-    cursor: pointer;
+  color: #7f7f7f;
+  cursor: pointer;
 }
 
 .zd-popup__control + .zd-popup__control {
-    margin-left: 18px;
+  margin-left: 18px;
 }
 
 .zd-popup__control--uncomplete {
-    display: none;
+  display: none;
 }
 
 .zd-popup__controls--completed .zd-popup__control--complete {
-    display: none;
+  display: none;
 }
 
 .zd-popup__controls--completed .zd-popup__control--uncomplete {
-    display: inline-block;
-    margin-left: 0;
+  display: inline-block;
+  margin-left: 0;
 }
 
 .zd-popup__controls--noedit .zd-popup__control--edit {
-    display: none;
+  display: none;
 }
 
 .internal-link {
-    border-bottom: 1px dashed black;
-    cursor: pointer;
+  border-bottom: 1px dashed black;
+  cursor: pointer;
 }
 
 .zd-popup li.gallerybox {
-    display: block;
+  display: block;
 }

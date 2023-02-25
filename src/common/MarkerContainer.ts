@@ -1,53 +1,58 @@
 import { Marker } from "common/Marker";
 
 export class MarkerContainer {
-    private markers = <{[key: string]: Marker }>{};
-    private visible = false;
+  private markers = <{ [key: string]: Marker }>{};
+  private visible = false;
 
-    private constructor() {}
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
+  private constructor() {}
 
-    public static create(): MarkerContainer {
-        return new MarkerContainer();
+  public static create(): MarkerContainer {
+    return new MarkerContainer();
+  }
+
+  public addMarker(marker: Marker): void {
+    this.markers[marker.id] = marker;
+  }
+
+  public removeMarker(marker: Marker): void {
+    delete this.markers[marker.id];
+  }
+
+  public clear(): void {
+    const keys = Object.keys(this.markers);
+    for (let i = 0; i < keys.length; ++i) {
+      const marker = this.markers[keys[i]];
+      marker.clearCompletion();
+      this.removeMarker(marker);
     }
+  }
 
-    public addMarker(marker: Marker): void {
-        this.markers[marker.id] = marker;
-    }
+  public show(): void {
+    this.visible = true;
+    Object.keys(this.markers).forEach((m) =>
+      this.markers[m].updateVisibility()
+    );
+  }
 
-    public removeMarker(marker: Marker): void {
-        delete this.markers[marker.id]; // tslint:disable-line:no-dynamic-delete TODO convert markers object to a js Map?
-    }
+  public hide(): void {
+    this.visible = false;
+    Object.keys(this.markers).forEach((m) =>
+      this.markers[m].updateVisibility()
+    );
+  }
 
-    public clear(): void {
-        const keys = Object.keys(this.markers);
-        for (let i = 0; i < keys.length; ++i) {
-            const marker = this.markers[keys[i]];
-            marker.clearCompletion();
-            this.removeMarker(marker);
-        }
-    }
+  public isVisible(): boolean {
+    return this.visible;
+  }
 
-    public show(): void {
-        this.visible = true;
-        Object.keys(this.markers).forEach(m => this.markers[m].updateVisibility());
-    }
+  public getMarker(id: string): Marker {
+    return this.markers[id];
+  }
 
-    public hide(): void {
-        this.visible = false;
-        Object.keys(this.markers).forEach(m => this.markers[m].updateVisibility());
-    }
-
-    public isVisible(): boolean {
-        return this.visible;
-    }
-
-    public getMarker(id: string): Marker {
-        return this.markers[id];
-    }
-
-    public findMarkers(searchRegex: RegExp): Marker[] {
-        return Object.keys(this.markers)
-            .map(k => this.markers[k])
-            .filter(m => searchRegex.test(m.name));
-    }
+  public findMarkers(searchRegex: RegExp): Marker[] {
+    return Object.keys(this.markers)
+      .map((k) => this.markers[k])
+      .filter((m) => searchRegex.test(m.name));
+  }
 }
