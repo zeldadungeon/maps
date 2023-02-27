@@ -13,13 +13,15 @@ window.onload = async () => {
     categories.forEach((c) => map.addCategory(Category.fromJSON(c, "botw")));
   }
 
-  const locations = fetch("/botw/markers/locations.json")
+  const locations = fetch(
+    `${import.meta.env.BASE_URL}botw/markers/locations.json`
+  )
     .then((r) => r.json())
     .then(addJson);
-  const pins = fetch("/botw/markers/pins.json")
+  const pins = fetch(`${import.meta.env.BASE_URL}botw/markers/pins.json`)
     .then((r) => r.json())
     .then(addJson);
-  const seeds = fetch("/botw/markers/seeds.json")
+  const seeds = fetch(`${import.meta.env.BASE_URL}botw/markers/seeds.json`)
     .then((r) => r.json())
     .then((categories: Schema.Category[]) => {
       // took some shortcuts to reduce file size, gotta fix them
@@ -36,13 +38,15 @@ window.onload = async () => {
       });
       addJson(categories);
     });
-  const treasures = fetch("/botw/markers/treasures.json")
+  const treasures = fetch(
+    `${import.meta.env.BASE_URL}botw/markers/treasures.json`
+  )
     .then((r) => r.json())
     .then(addJson);
-  const wiki = fetch("/botw/markers/wiki.json")
+  const wiki = fetch(`${import.meta.env.BASE_URL}botw/markers/wiki.json`)
     .then((r) => r.json())
     .then(addJson);
-
+  console.log(import.meta.env.BASE_URL);
   await Promise.allSettled([locations, pins, seeds, treasures, wiki]);
 
   await map.initializeWikiConnector();

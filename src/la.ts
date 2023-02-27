@@ -14,7 +14,7 @@ window.onload = async () => {
   }
 
   try {
-    const pins = await fetch("/la/markers/pins.json");
+    const pins = await fetch(`${import.meta.env.BASE_URL}la/markers/pins.json`);
     addJson(await pins.json());
   } catch (ex) {
     /* fail gracefully */
