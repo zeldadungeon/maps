@@ -33,7 +33,9 @@ export class Layer extends L.LayerGroup {
 
     if (json.icon) {
       layer.icon = L.icon({
-        iconUrl: `/${directory}/icons/${json.icon.url}`, // TODO find a better way to get directory
+        iconUrl: `${import.meta.env.BASE_URL}${directory}/icons/${
+          json.icon.url
+        }`, // TODO find a better way to get directory
         iconSize: [json.icon.width, json.icon.height],
       });
     }
