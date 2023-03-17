@@ -1,5 +1,5 @@
-import * as L from "leaflet";
-import { Map } from "./Map";
+import { Control, DomEvent, DomUtil } from "leaflet";
+import { ZDMap } from "./ZDMap";
 import "leaflet-control-window";
 import "leaflet-control-window/src/L.Control.Window.css";
 
@@ -14,9 +14,9 @@ export interface DialogOptions {
 export class Dialog {
   private dialog: any; // eslint-disable-line @typescript-eslint/no-explicit-any
 
-  constructor(map: Map) {
+  constructor(map: ZDMap) {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    this.dialog = (<any>L.control).window(map, {
+    this.dialog = new (<any>Control).Window(map, {
       modal: true,
       closeButton: false,
     });
@@ -37,9 +37,9 @@ export class Dialog {
           .join("")}`
       );
       actions.forEach((a) => {
-        L.DomEvent.addListener(
+        DomEvent.addListener(
           <HTMLElement>(
-            L.DomUtil.get(`dialog-action-${a.toLowerCase().replace(" ", "")}`)
+            DomUtil.get(`dialog-action-${a.toLowerCase().replace(" ", "")}`)
           ),
           "click",
           () => {

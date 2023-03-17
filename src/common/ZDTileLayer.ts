@@ -1,8 +1,8 @@
-import * as L from "leaflet";
-import { Marker } from "./Marker";
+import { TileLayer } from "leaflet";
+import { ZDMarker } from "./ZDMarker";
 import { MarkerContainer } from "./MarkerContainer";
 
-export class TileLayer extends L.TileLayer {
+export class ZDTileLayer extends TileLayer {
   private tileMarkerContainers: MarkerContainer[][][] = [];
 
   private constructor(
@@ -19,8 +19,8 @@ export class TileLayer extends L.TileLayer {
     tileSize: number,
     maxZoom: number,
     bounds: L.LatLngBounds
-  ): TileLayer {
-    const tileLayer = new TileLayer(
+  ): ZDTileLayer {
+    const tileLayer = new ZDTileLayer(
       `https://www.zeldadungeon.net/maps/${mapid}/tiles/{z}/{x}_{y}.jpg`,
       tileSize,
       maxZoom,
@@ -62,7 +62,7 @@ export class TileLayer extends L.TileLayer {
     return tileLayer;
   }
 
-  public registerMarkerWithTiles(marker: Marker, point: L.Point): void {
+  public registerMarkerWithTiles(marker: ZDMarker, point: L.Point): void {
     for (let z = 0; z <= this.maxZoom; ++z) {
       const x = Math.floor((point.x * Math.pow(2, z)) / this.tileSize);
       const y = Math.floor((point.y * Math.pow(2, z)) / this.tileSize);
@@ -71,11 +71,11 @@ export class TileLayer extends L.TileLayer {
     }
   }
 
-  public getMarkerById(id: string): Marker {
+  public getMarkerById(id: string): ZDMarker {
     return this.tileMarkerContainers[0][0][0].getMarker(id);
   }
 
-  public findMarkers(searchRegex: RegExp): Marker[] {
+  public findMarkers(searchRegex: RegExp): ZDMarker[] {
     // [0][0][0] is the top-level/min-zoom/one-tile container that contains all markers
     return this.tileMarkerContainers[0][0][0].findMarkers(searchRegex);
   }

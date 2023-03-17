@@ -1,6 +1,6 @@
 import * as Schema from "./JSONSchema";
 import { Layer } from "./Layer";
-import { Map } from "./Map";
+import { ZDMap } from "./ZDMap";
 
 export class Category {
   public name: string;
@@ -19,7 +19,7 @@ export class Category {
     return new Category(json, directory);
   }
 
-  public addToMap(map: Map): void {
+  public addToMap(map: ZDMap): void {
     this.layers.forEach((l) => l.addToMap(map));
   }
 

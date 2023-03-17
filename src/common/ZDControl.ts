@@ -1,4 +1,4 @@
-import * as L from "leaflet";
+import { Browser, Control, DomEvent, DomUtil } from "leaflet";
 
 type EventHandler = () => void;
 
@@ -12,7 +12,7 @@ export interface Options extends L.ControlOptions {
 /**
  * Control box with togglable visibility
  */
-export class Control extends L.Control {
+export class ZDControl extends Control {
   private container: HTMLElement;
   private content: HTMLElement;
   private onOpenHandlers = <EventHandler[]>[];
@@ -21,39 +21,31 @@ export class Control extends L.Control {
   private constructor(options: Options) {
     super(options);
 
-    this.container = L.DomUtil.create("div", "zd-control");
+    this.container = DomUtil.create("div", "zd-control");
 
-    const button = L.DomUtil.create(
-      "div",
-      "zd-control__button",
-      this.container
-    );
-    L.DomUtil.create("i", `fa fa-${options.icon}`, button);
-    L.DomEvent.disableClickPropagation(button);
-    if (!L.Browser.touch) {
-      L.DomEvent.disableScrollPropagation(button);
+    const button = DomUtil.create("div", "zd-control__button", this.container);
+    DomUtil.create("i", `fa fa-${options.icon}`, button);
+    DomEvent.disableClickPropagation(button);
+    if (!Browser.touch) {
+      DomEvent.disableScrollPropagation(button);
     }
 
-    this.content = L.DomUtil.create(
-      "div",
-      "zd-control__content",
-      this.container
-    );
-    L.DomEvent.disableClickPropagation(this.content);
-    if (!L.Browser.touch) {
-      L.DomEvent.disableScrollPropagation(this.content);
+    this.content = DomUtil.create("div", "zd-control__content", this.container);
+    DomEvent.disableClickPropagation(this.content);
+    if (!Browser.touch) {
+      DomEvent.disableScrollPropagation(this.content);
     }
     this.content.appendChild(options.content);
 
-    L.DomEvent.addListener(button, "click", () =>
-      L.DomUtil.hasClass(this.content, OPEN_CLASS) ? this.close() : this.open()
+    DomEvent.addListener(button, "click", () =>
+      DomUtil.hasClass(this.content, OPEN_CLASS) ? this.close() : this.open()
     );
   }
 
-  public static create(options: Options): Control {
+  public static create(options: Options): ZDControl {
     options.position = "topleft"; // only topleft is supported for now
 
-    return new Control(options);
+    return new ZDControl(options);
   }
 
   public onAdd(_map: L.Map): HTMLElement {
@@ -74,11 +66,11 @@ export class Control extends L.Control {
 
   public open(): void {
     this.onOpenHandlers.forEach((h) => h());
-    L.DomUtil.addClass(this.content, OPEN_CLASS);
+    DomUtil.addClass(this.content, OPEN_CLASS);
   }
 
   public close(): void {
     this.onClosedHandlers.forEach((h) => h());
-    L.DomUtil.removeClass(this.content, OPEN_CLASS);
+    DomUtil.removeClass(this.content, OPEN_CLASS);
   }
 }

@@ -1,7 +1,7 @@
-import { Marker } from "common/Marker";
+import { ZDMarker } from "common/ZDMarker";
 
 export class MarkerContainer {
-  private markers = <{ [key: string]: Marker }>{};
+  private markers = <{ [key: string]: ZDMarker }>{};
   private visible = false;
 
   // eslint-disable-next-line @typescript-eslint/no-empty-function
@@ -11,11 +11,11 @@ export class MarkerContainer {
     return new MarkerContainer();
   }
 
-  public addMarker(marker: Marker): void {
+  public addMarker(marker: ZDMarker): void {
     this.markers[marker.id] = marker;
   }
 
-  public removeMarker(marker: Marker): void {
+  public removeMarker(marker: ZDMarker): void {
     delete this.markers[marker.id];
   }
 
@@ -46,11 +46,11 @@ export class MarkerContainer {
     return this.visible;
   }
 
-  public getMarker(id: string): Marker {
+  public getMarker(id: string): ZDMarker {
     return this.markers[id];
   }
 
-  public findMarkers(searchRegex: RegExp): Marker[] {
+  public findMarkers(searchRegex: RegExp): ZDMarker[] {
     return Object.keys(this.markers)
       .map((k) => this.markers[k])
       .filter((m) => searchRegex.test(m.name));

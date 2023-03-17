@@ -1,8 +1,8 @@
 import "./common/style.scss";
-import { Map } from "./common/Map";
+import { ZDMap } from "./common/ZDMap";
 
 window.onload = () => {
-  Map.create("ss", 500, 125, {
+  ZDMap.create("ss", 500, 125, {
     center: [0, 0],
   });
 };

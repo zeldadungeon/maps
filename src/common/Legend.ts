@@ -1,4 +1,4 @@
-import * as L from "leaflet";
+import { Control, DomEvent, DomUtil } from "leaflet";
 import { Category } from "./Category";
 
 interface LegendItem {
@@ -6,7 +6,7 @@ interface LegendItem {
   li: HTMLElement;
 }
 
-export class Legend extends L.Control {
+export class Legend extends Control {
   private container: HTMLElement;
   private categoryList: HTMLElement;
   private all: HTMLElement;
@@ -17,66 +17,59 @@ export class Legend extends L.Control {
     super(options);
     const bottom = options && options.position === "bottomright";
 
-    this.container = L.DomUtil.create(
+    this.container = DomUtil.create(
       "div",
       `zd-control zd-legend zd-legend--${bottom ? "portrait" : "landscape"}`
     );
-    L.DomEvent.disableClickPropagation(this.container);
-    L.DomEvent.disableScrollPropagation(this.container);
+    DomEvent.disableClickPropagation(this.container);
+    DomEvent.disableScrollPropagation(this.container);
 
     if (bottom) {
-      const header = L.DomUtil.create(
-        "h3",
-        "zd-legend__header",
-        this.container
-      );
+      const header = DomUtil.create("h3", "zd-legend__header", this.container);
       header.innerText = "Legend";
-      L.DomEvent.addListener(header, "click", () => {
+      DomEvent.addListener(header, "click", () => {
         if (
-          L.DomUtil.hasClass(this.categoryList, "zd-legend__categories--show")
+          DomUtil.hasClass(this.categoryList, "zd-legend__categories--show")
         ) {
-          L.DomUtil.removeClass(
-            this.categoryList,
-            "zd-legend__categories--show"
-          );
+          DomUtil.removeClass(this.categoryList, "zd-legend__categories--show");
         } else {
-          L.DomUtil.addClass(this.categoryList, "zd-legend__categories--show");
+          DomUtil.addClass(this.categoryList, "zd-legend__categories--show");
         }
       });
     }
 
-    this.categoryList = L.DomUtil.create(
+    this.categoryList = DomUtil.create(
       "ul",
       "zd-legend__categories",
       this.container
     );
-    const allNone = L.DomUtil.create("li", "", this.categoryList);
-    this.all = L.DomUtil.create(
+    const allNone = DomUtil.create("li", "", this.categoryList);
+    this.all = DomUtil.create(
       "div",
       "zd-legend__all selectable selected",
       allNone
     );
     this.all.innerText = "All";
-    this.none = L.DomUtil.create("div", "zd-legend__none selectable", allNone);
+    this.none = DomUtil.create("div", "zd-legend__none selectable", allNone);
     this.none.innerText = "None";
 
-    L.DomEvent.addListener(this.all, "click", () => {
-      if (!L.DomUtil.hasClass(this.all, "selected")) {
-        L.DomUtil.addClass(this.all, "selected");
-        L.DomUtil.removeClass(this.none, "selected");
+    DomEvent.addListener(this.all, "click", () => {
+      if (!DomUtil.hasClass(this.all, "selected")) {
+        DomUtil.addClass(this.all, "selected");
+        DomUtil.removeClass(this.none, "selected");
         this.categories.forEach((c) => {
-          L.DomUtil.removeClass(c.li, "selected");
+          DomUtil.removeClass(c.li, "selected");
           c.category.resetVisibility();
         });
       }
     });
 
-    L.DomEvent.addListener(this.none, "click", () => {
-      if (!L.DomUtil.hasClass(this.none, "selected")) {
-        L.DomUtil.addClass(this.none, "selected");
-        L.DomUtil.removeClass(this.all, "selected");
+    DomEvent.addListener(this.none, "click", () => {
+      if (!DomUtil.hasClass(this.none, "selected")) {
+        DomUtil.addClass(this.none, "selected");
+        DomUtil.removeClass(this.all, "selected");
         this.categories.forEach((c) => {
-          L.DomUtil.removeClass(c.li, "selected");
+          DomUtil.removeClass(c.li, "selected");
           c.category.forceHide();
         });
       }
@@ -103,7 +96,7 @@ export class Legend extends L.Control {
 
   public addCategory(category: Category, position: number): void {
     // make it
-    const li = L.DomUtil.create("li", "zd-legend__category selectable");
+    const li = DomUtil.create("li", "zd-legend__category selectable");
     li.setAttribute("data-position", `${position}`);
     li.innerText = category.name;
     li.style.backgroundImage = `url(${category.getIconUrl()})`;
@@ -114,31 +107,29 @@ export class Legend extends L.Control {
     this.categories.push({ category, li });
 
     // activate it
-    L.DomEvent.addListener(li, "click", () => {
-      if (L.DomUtil.hasClass(li, "selected")) {
-        L.DomUtil.removeClass(li, "selected");
+    DomEvent.addListener(li, "click", () => {
+      if (DomUtil.hasClass(li, "selected")) {
+        DomUtil.removeClass(li, "selected");
         category.forceHide();
 
         // select "None" if no others are selected
-        if (
-          this.categories.every((c) => !L.DomUtil.hasClass(c.li, "selected"))
-        ) {
-          L.DomUtil.addClass(this.none, "selected");
+        if (this.categories.every((c) => !DomUtil.hasClass(c.li, "selected"))) {
+          DomUtil.addClass(this.none, "selected");
         }
       } else {
-        L.DomUtil.addClass(li, "selected");
+        DomUtil.addClass(li, "selected");
         category.forceShow();
 
         // hide the others
-        if (L.DomUtil.hasClass(this.all, "selected")) {
-          L.DomUtil.removeClass(this.all, "selected");
+        if (DomUtil.hasClass(this.all, "selected")) {
+          DomUtil.removeClass(this.all, "selected");
           this.categories.forEach((c) => {
-            if (!L.DomUtil.hasClass(c.li, "selected")) {
+            if (!DomUtil.hasClass(c.li, "selected")) {
               c.category.forceHide();
             }
           });
         }
-        L.DomUtil.removeClass(this.none, "selected");
+        DomUtil.removeClass(this.none, "selected");
       }
     });
 

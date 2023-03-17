@@ -1,19 +1,19 @@
-import * as L from "leaflet";
 import * as Schema from "./JSONSchema";
+import { DivIcon, Marker, Polyline } from "leaflet";
 import { Layer } from "./Layer";
-import { Map } from "./Map";
+import { ZDMap } from "./ZDMap";
 import { MarkerContainer } from "./MarkerContainer";
-import { Popup } from "./Popup";
+import { ZDPopup } from "./ZDPopup";
 
-export class Marker extends L.Marker {
+export class ZDMarker extends Marker {
   public id: string;
   public name: string;
   public tags: string[];
-  private map!: Map; // BUGBUG refactor to avoid having to suppress null checking
+  private map!: ZDMap; // BUGBUG refactor to avoid having to suppress null checking
   private layer: Layer;
   private tileContainers = <MarkerContainer[]>[];
   private path?: L.Polyline;
-  private popup?: Popup;
+  private popup?: ZDPopup;
 
   private constructor(
     json: Schema.Marker,
@@ -24,7 +24,7 @@ export class Marker extends L.Marker {
       title: json.name,
       icon:
         layer.icon ||
-        L.divIcon({
+        new DivIcon({
           className: "zd-void-icon",
         }),
     });
@@ -34,8 +34,8 @@ export class Marker extends L.Marker {
     this.layer = layer;
   }
 
-  public static fromJSON(json: Schema.Marker, layer: Layer): Marker {
-    const marker = new Marker(json, json.coords, layer);
+  public static fromJSON(json: Schema.Marker, layer: Layer): ZDMarker {
+    const marker = new ZDMarker(json, json.coords, layer);
     const linkParts = json.link && json.link !== "" ? json.link.split("#") : [];
     const editLink =
       layer.infoSource === "summary" || layer.infoSource === "section"
@@ -47,7 +47,7 @@ export class Marker extends L.Marker {
         : linkParts[0];
 
     if (layer.icon) {
-      marker.popup = Popup.create({
+      marker.popup = ZDPopup.create({
         id: json.id,
         name: json.name,
         link: json.link,
@@ -98,7 +98,7 @@ export class Marker extends L.Marker {
     }
 
     if (json.path) {
-      marker.path = L.polyline(json.path, {
+      marker.path = new Polyline(json.path, {
         color: "#ffffff",
       });
     }
@@ -111,7 +111,7 @@ export class Marker extends L.Marker {
     this.updateVisibility();
   }
 
-  public addToMap(map: Map): void {
+  public addToMap(map: ZDMap): void {
     this.map = map;
     this.updateVisibility();
   }

@@ -1,4 +1,4 @@
-import * as L from "leaflet";
+import { DomEvent, DomUtil, Popup } from "leaflet";
 import { dom, library } from "@fortawesome/fontawesome-svg-core";
 import { WikiConnector } from "./WikiConnector";
 import { faCheck } from "@fortawesome/free-solid-svg-icons/faCheck";
@@ -30,7 +30,7 @@ export interface Options extends L.PopupOptions {
 /**
  * Popup that opens when clicking on a marker. Contains information and controls.
  */
-export class Popup extends L.Popup {
+export class ZDPopup extends Popup {
   public myOptions: Options;
   private container: HTMLElement;
   private body: HTMLElement;
@@ -41,11 +41,11 @@ export class Popup extends L.Popup {
     super(options);
     this.myOptions = options;
 
-    this.container = L.DomUtil.create("div", "zd-popup");
+    this.container = DomUtil.create("div", "zd-popup");
 
-    const title = L.DomUtil.create("h3", "zd-popup__title", this.container);
+    const title = DomUtil.create("h3", "zd-popup__title", this.container);
     if (options.link) {
-      const link = L.DomUtil.create("a", "", title);
+      const link = DomUtil.create("a", "", title);
       link.setAttribute("target", "_blank");
       link.setAttribute("href", `/wiki/${encodeURIComponent(options.link)}`);
       link.innerText = options.name;
@@ -53,40 +53,36 @@ export class Popup extends L.Popup {
       title.innerText = options.name;
     }
 
-    this.body = L.DomUtil.create("div", "zd-popup__body", this.container);
+    this.body = DomUtil.create("div", "zd-popup__body", this.container);
 
-    this.controls = L.DomUtil.create(
-      "div",
-      "zd-popup__controls",
-      this.container
-    );
+    this.controls = DomUtil.create("div", "zd-popup__controls", this.container);
 
-    const completeButton = L.DomUtil.create(
+    const completeButton = DomUtil.create(
       "a",
       "zd-popup__control zd-popup__control--complete",
       this.controls
     );
-    L.DomUtil.create("i", "fas fa-check", completeButton).title =
+    DomUtil.create("i", "fas fa-check", completeButton).title =
       "Mark completed";
-    L.DomEvent.addListener(completeButton, "click", () => {
+    DomEvent.addListener(completeButton, "click", () => {
       this.markCompleted();
       options.complete();
     });
 
-    const uncompleteButton = L.DomUtil.create(
+    const uncompleteButton = DomUtil.create(
       "a",
       "zd-popup__control zd-popup__control--uncomplete",
       this.controls
     );
-    L.DomUtil.create("i", "fas fa-undo", uncompleteButton).title =
+    DomUtil.create("i", "fas fa-undo", uncompleteButton).title =
       "Mark not completed";
-    L.DomEvent.addListener(uncompleteButton, "click", () => {
+    DomEvent.addListener(uncompleteButton, "click", () => {
       this.markUncompleted();
       options.uncomplete();
     });
 
     if (options.editLink) {
-      const editButton = L.DomUtil.create(
+      const editButton = DomUtil.create(
         "a",
         "zd-popup__control zd-popup__control--edit",
         this.controls
@@ -98,21 +94,21 @@ export class Popup extends L.Popup {
           options.editLink
         )}`
       );
-      L.DomUtil.create("i", "fas fa-edit", editButton).title = "Edit";
+      DomUtil.create("i", "fas fa-edit", editButton).title = "Edit";
     }
 
-    const linkButton = L.DomUtil.create(
+    const linkButton = DomUtil.create(
       "a",
       "zd-popup__control zd-popup__control--permalink",
       this.controls
     );
     linkButton.setAttribute("href", `?id=${options.id}`);
-    L.DomUtil.create("i", "fas fa-link", linkButton).title = "Permalink";
+    DomUtil.create("i", "fas fa-link", linkButton).title = "Permalink";
 
     this.setContent(this.container);
   }
 
-  public static create(options: Options): Popup {
+  public static create(options: Options): ZDPopup {
     if (options.autoPan == undefined) {
       options.autoPan = true;
     }
@@ -123,15 +119,15 @@ export class Popup extends L.Popup {
       options.maxWidth = 300;
     }
 
-    return new Popup(options);
+    return new ZDPopup(options);
   }
 
   public markCompleted(): void {
-    L.DomUtil.addClass(this.controls, "zd-popup__controls--completed");
+    DomUtil.addClass(this.controls, "zd-popup__controls--completed");
   }
 
   public markUncompleted(): void {
-    L.DomUtil.removeClass(this.controls, "zd-popup__controls--completed");
+    DomUtil.removeClass(this.controls, "zd-popup__controls--completed");
   }
 
   public loadContentFromSummary(pageTitle: string): void {
@@ -202,12 +198,12 @@ export class Popup extends L.Popup {
 
   private startLoading(): void {
     this.contentState = ContentState.Loading;
-    const loading = L.DomUtil.create(
+    const loading = DomUtil.create(
       "div",
       "zd-popup__loading-indicator",
       this.body
     );
-    L.DomUtil.create("i", "fas fa-circle-notch fa-spin fa-3x fa-fw", loading);
+    DomUtil.create("i", "fas fa-circle-notch fa-spin fa-3x fa-fw", loading);
   }
 
   private loadContent(content: string): void {
@@ -215,7 +211,7 @@ export class Popup extends L.Popup {
     const internalLinks = this.body.getElementsByClassName("internal-link");
     for (let i = 0; i < internalLinks.length; ++i) {
       const link = <HTMLElement>internalLinks[i];
-      L.DomEvent.addListener(link, "click", () => {
+      DomEvent.addListener(link, "click", () => {
         const id = link.getAttribute("data-target");
         if (id) {
           this.myOptions.linkClicked(id);

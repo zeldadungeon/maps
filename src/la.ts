@@ -1,10 +1,10 @@
 import "./common/style.scss";
 import * as Schema from "./common/JSONSchema";
 import { Category } from "./common/Category";
-import { Map } from "./common/Map";
+import { ZDMap } from "./common/ZDMap";
 
 window.onload = async () => {
-  const map = Map.create("la", 3280, 205, {
+  const map = ZDMap.create("la", 3280, 205, {
     center: [0, 0],
     zoom: 2,
   });

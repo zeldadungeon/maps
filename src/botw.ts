@@ -1,10 +1,10 @@
 import "./common/style.scss";
 import * as Schema from "./common/JSONSchema";
 import { Category } from "./common/Category";
-import { Map } from "./common/Map";
+import { ZDMap } from "./common/ZDMap";
 
 window.onload = async () => {
-  const map = Map.create("botw", 24000, 750, {
+  const map = ZDMap.create("botw", 24000, 750, {
     center: [-3750, -1900],
     tags: ["Master Mode", "DLC"],
   });

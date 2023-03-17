@@ -1,7 +1,7 @@
-import * as L from "leaflet";
 import * as Schema from "./JSONSchema";
-import { Map } from "./Map";
-import { Marker } from "./Marker";
+import { Icon, LayerGroup } from "leaflet";
+import { ZDMap } from "./ZDMap";
+import { ZDMarker } from "./ZDMarker";
 
 enum Visibility {
   Off,
@@ -9,15 +9,15 @@ enum Visibility {
   Default,
 }
 
-export class Layer extends L.LayerGroup {
+export class Layer extends LayerGroup {
   public icon?: L.Icon;
   public infoSource: string;
 
   private minZoom = 0;
   private maxZoom = Number.MAX_VALUE;
   private visibility = Visibility.Default;
-  private map!: Map; // BUGBUG refactor to avoid having to suppress null checking
-  private markers!: Marker[]; // BUGBUG refactor to avoid having to suppress null checking
+  private map!: ZDMap; // BUGBUG refactor to avoid having to suppress null checking
+  private markers!: ZDMarker[]; // BUGBUG refactor to avoid having to suppress null checking
 
   private constructor(infoSource: string) {
     super();
@@ -32,7 +32,7 @@ export class Layer extends L.LayerGroup {
     const layer = new Layer(infoSource);
 
     if (json.icon) {
-      layer.icon = L.icon({
+      layer.icon = new Icon({
         iconUrl: `${import.meta.env.BASE_URL}${directory}/icons/${
           json.icon.url
         }`, // TODO find a better way to get directory
@@ -47,12 +47,12 @@ export class Layer extends L.LayerGroup {
       layer.maxZoom = json.maxZoom;
     }
 
-    layer.markers = json.markers.map((m) => Marker.fromJSON(m, layer));
+    layer.markers = json.markers.map((m) => ZDMarker.fromJSON(m, layer));
 
     return layer;
   }
 
-  public addToMap(map: Map): void {
+  public addToMap(map: ZDMap): void {
     this.map = map;
     this.updateVisibility();
     map.on("zoom", (_) => this.updateVisibility());
