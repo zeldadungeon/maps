@@ -8,6 +8,8 @@ window.onload = async () => {
     center: [0, 0],
     zoom: 2,
   });
+  map.addMapLayer("la");
+  map.addControls();
 
   function addJson(categories: Schema.Category[]): void {
     categories.forEach((c) => map.addCategory(Category.fromJSON(c, "la")));

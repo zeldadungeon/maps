@@ -6,8 +6,9 @@ import { ZDMap } from "./common/ZDMap";
 window.onload = async () => {
   const map = ZDMap.create("botw", 24000, 750, {
     center: [-3750, -1900],
-    tags: ["Master Mode", "DLC"],
   });
+  map.addMapLayer("botw");
+  map.addControls(["Master Mode", "DLC"]);
 
   function addJson(categories: Schema.Category[]): void {
     categories.forEach((c) => map.addCategory(Category.fromJSON(c, "botw")));
@@ -46,7 +47,6 @@ window.onload = async () => {
   const wiki = fetch(`${import.meta.env.BASE_URL}botw/markers/wiki.json`)
     .then((r) => r.json())
     .then(addJson);
-  console.log(import.meta.env.BASE_URL);
   await Promise.allSettled([locations, pins, seeds, treasures, wiki]);
 
   await map.initializeWikiConnector();

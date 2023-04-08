@@ -1,29 +1,21 @@
+import { LayerGroup } from "leaflet";
+import { MarkerContainer } from "./MarkerContainer";
 import { TileLayer } from "leaflet";
 import { ZDMarker } from "./ZDMarker";
-import { MarkerContainer } from "./MarkerContainer";
 
-export class ZDTileLayer extends TileLayer {
+export class MapLayer {
+  public tileLayer: TileLayer;
+  public markerLayer: LayerGroup; // TODO add markers here instead of directly on the map, and add this to the map
   private tileMarkerContainers: MarkerContainer[][][] = [];
 
-  private constructor(
-    urlTemplate: string,
+  public constructor(
+    directory: string,
     private tileSize: number,
     private maxZoom: number,
-    options?: L.TileLayerOptions
-  ) {
-    super(urlTemplate, options);
-  }
-
-  public static create(
-    mapid: string,
-    tileSize: number,
-    maxZoom: number,
     bounds: L.LatLngBounds
-  ): ZDTileLayer {
-    const tileLayer = new ZDTileLayer(
-      `https://www.zeldadungeon.net/maps/${mapid}/tiles/{z}/{x}_{y}.jpg`,
-      tileSize,
-      maxZoom,
+  ) {
+    this.tileLayer = new TileLayer(
+      `https://www.zeldadungeon.net/maps/${directory}/tiles/{z}/{x}_{y}.jpg`,
       {
         tileSize: tileSize,
         minZoom: 0,
@@ -33,33 +25,26 @@ export class ZDTileLayer extends TileLayer {
       }
     );
 
-    tileLayer.tileSize = tileSize;
-    tileLayer.maxZoom = maxZoom;
-
     for (let z = 0; z <= maxZoom; ++z) {
-      tileLayer.tileMarkerContainers[z] = [];
+      this.tileMarkerContainers[z] = [];
       for (let x = 0; x < Math.pow(2, z); ++x) {
-        tileLayer.tileMarkerContainers[z][x] = [];
+        this.tileMarkerContainers[z][x] = [];
         for (let y = 0; y < Math.pow(2, z); ++y) {
-          tileLayer.tileMarkerContainers[z][x][y] = MarkerContainer.create();
+          this.tileMarkerContainers[z][x][y] = MarkerContainer.create();
         }
       }
     }
 
-    tileLayer.on("tileload", (e: L.LeafletEvent) => {
+    this.tileLayer.on("tileload", (e: L.LeafletEvent) => {
       const te = <L.TileEvent>e;
-      tileLayer.tileMarkerContainers[te.coords.z][te.coords.x][
-        te.coords.y
-      ].show();
+      this.tileMarkerContainers[te.coords.z][te.coords.x][te.coords.y].show();
     });
-    tileLayer.on("tileunload", (e: L.LeafletEvent) => {
+    this.tileLayer.on("tileunload", (e: L.LeafletEvent) => {
       const te = <L.TileEvent>e;
-      tileLayer.tileMarkerContainers[te.coords.z][te.coords.x][
-        te.coords.y
-      ].hide();
+      this.tileMarkerContainers[te.coords.z][te.coords.x][te.coords.y].hide();
     });
 
-    return tileLayer;
+    this.markerLayer = new LayerGroup();
   }
 
   public registerMarkerWithTiles(marker: ZDMarker, point: L.Point): void {

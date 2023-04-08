@@ -57,8 +57,17 @@ body {
   position: relative;
 }
 
-.leaflet-bar a,
-.leaflet-bar a:hover,
+.leaflet-touch .leaflet-control-layers {
+  border: none;
+}
+
+.leaflet-control-layers {
+  background: none;
+}
+
+.leaflet-control a,
+.leaflet-control a:hover,
+.leaflet-control-layers-expanded,
 .zd-control__button,
 .zd-control__content,
 .zd-legend {
@@ -66,12 +75,13 @@ body {
   color: white;
 }
 
-.leaflet-bar a.leaflet-disabled {
+.leaflet-control a.leaflet-disabled {
   background-color: rgba(0, 0, 0, 0.8);
   color: #bbb;
   cursor: default;
 }
 
+.leaflet-control-layers a.leaflet-control-layers-toggle,
 .zd-control__button {
   width: 30px;
   height: 30px;

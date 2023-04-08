@@ -7,8 +7,8 @@ import { Dialog } from "./Dialog";
 import { Legend } from "./Legend";
 import { LocalStorage } from "./LocalStorage";
 import { ZDMarker } from "./ZDMarker";
+import { MapLayer } from "./MapLayer";
 import { MarkerContainer } from "./MarkerContainer";
-import { ZDTileLayer } from "./ZDTileLayer";
 import { WikiConnector } from "./WikiConnector";
 import { faCog } from "@fortawesome/free-solid-svg-icons/faCog";
 import { faSearch } from "@fortawesome/free-solid-svg-icons/faSearch";
@@ -16,10 +16,6 @@ import { params } from "./QueryParameters";
 
 library.add(faSearch, faCog);
 dom.watch();
-
-interface Options extends L.MapOptions {
-  tags?: string[];
-}
 
 /**
  * Base class for all Zelda maps
@@ -29,14 +25,17 @@ export class ZDMap extends Map {
   // BUGBUG refactor to avoid having to suppress null checking
   public wiki!: WikiConnector;
   private settingsStore!: LocalStorage;
-  private searchControl!: ZDControl;
-  private settingsControl!: ZDControl;
   private legend!: Legend;
   private legendLandscape!: Legend;
-  private tileLayer!: ZDTileLayer;
+  private layers = <{ [key: string]: MapLayer }>{};
   private loginFn!: (username: string) => void;
 
-  private constructor(element: string | HTMLElement, options?: Options) {
+  private constructor(
+    element: string | HTMLElement,
+    private tileSize: number,
+    private bounds: LatLngBounds,
+    options?: L.MapOptions
+  ) {
     super(element, options);
   }
 
@@ -44,9 +43,10 @@ export class ZDMap extends Map {
     directory: string,
     mapSize: number,
     tileSize: number,
-    options: Options = {}
+    options: L.MapOptions = {}
   ): ZDMap {
     const maxZoom = Math.round(Math.log(mapSize / tileSize) * Math.LOG2E);
+    options.maxZoom = maxZoom;
     if (options.zoom == undefined) {
       options.zoom = maxZoom - 2;
     }
@@ -72,30 +72,14 @@ export class ZDMap extends Map {
     );
     options.maxBounds = bounds.pad(0.5);
 
-    const tileLayer = ZDTileLayer.create(directory, tileSize, maxZoom, bounds);
-    options.layers = [tileLayer];
-
     options.zoomControl = false; // adding it later, below our own controls
     options.attributionControl = false; // would like to keep this but breaks bottom legend. maybe find a better place to put it later
 
-    const map = new ZDMap("map", options);
-    map.tileLayer = tileLayer;
+    const map = new ZDMap("map", tileSize, bounds, options);
     map.getContainer().classList.add(`zd-map-${directory}`);
-
-    if (!options.tags) {
-      options.tags = [];
-    }
-    options.tags.push("Completed");
 
     map.settingsStore = LocalStorage.getStore(directory, "settings");
     map.wiki = new WikiConnector(directory, new Dialog(map));
-
-    map.initializeSearchControl();
-    map.initializeSettingsControl(options.tags);
-
-    new Control.Zoom({
-      position: "topleft",
-    }).addTo(map);
 
     map.legend = Legend.createPortrait().addTo(map);
     map.legendLandscape = Legend.createLandscape().addTo(map);
@@ -108,6 +92,48 @@ export class ZDMap extends Map {
     return map;
   }
 
+  public addMapLayer(directory: string, layerName = "Default"): void {
+    const layer = new MapLayer(
+      directory,
+      this.tileSize,
+      this.getMaxZoom(),
+      this.bounds
+    );
+    this.layers[layerName] = layer;
+    this.addLayer(layer.tileLayer);
+    this.addLayer(layer.markerLayer);
+  }
+
+  public addControls(tags: string[] = []): void {
+    tags.push("Completed");
+    const searchControl = this.initializeSearchControl();
+    const settingsControl = this.initializeSettingsControl(tags);
+
+    // TODO custom layers control that takes MapLayer instead of TileLayer
+    const layerNames = Object.keys(this.layers);
+    if (layerNames.length > 1) {
+      const layersObject: Control.LayersObject = {};
+      for (const layerName of layerNames) {
+        layersObject[layerName] = this.layers[layerName].tileLayer;
+      }
+      new Control.Layers(layersObject, undefined, {
+        position: "topleft",
+      }).addTo(this);
+    }
+
+    new Control.Zoom({
+      position: "topleft",
+    }).addTo(this);
+
+    // When one control opens, close the others
+    searchControl.onOpen(() => {
+      settingsControl.close();
+    });
+    settingsControl.onOpen(() => {
+      searchControl.close();
+    });
+  }
+
   public async initializeWikiConnector(): Promise<void> {
     await this.wiki.getLoggedInUser();
 
@@ -115,11 +141,17 @@ export class ZDMap extends Map {
       this.loginFn(this.wiki.user.name);
     }
 
+    // load marker completion from wiki into marker layers
     const completedMarkers = await this.wiki.getCompletedMarkers();
     for (let i = 0; i < completedMarkers.length; ++i) {
-      const marker = this.tileLayer.getMarkerById(completedMarkers[i]);
-      if (marker) {
-        marker.complete();
+      for (const layerName of Object.keys(this.layers)) {
+        const marker = this.layers[layerName].getMarkerById(
+          completedMarkers[i]
+        );
+        if (marker) {
+          marker.complete();
+          break;
+        }
       }
     }
   }
@@ -134,7 +166,8 @@ export class ZDMap extends Map {
 
   public addMarker(marker: ZDMarker): void {
     marker.addToMap(this);
-    this.tileLayer.registerMarkerWithTiles(
+    // TODO move this whole function to MapLayer
+    this.layers["Default"]?.registerMarkerWithTiles(
       marker,
       this.project(marker.getLatLng(), 0)
     );
@@ -149,13 +182,16 @@ export class ZDMap extends Map {
   }
 
   public navigateToMarkerById(id: string): void {
-    const marker = this.tileLayer.getMarkerById(id);
-    if (marker) {
-      this.focusOn(marker);
+    // TODO get active layer
+    for (const layerName of Object.keys(this.layers)) {
+      const marker = this.layers[layerName].getMarkerById(id);
+      if (marker) {
+        this.focusOn(marker);
+      }
     }
   }
 
-  private initializeSearchControl(): void {
+  private initializeSearchControl(): ZDControl {
     const searchContent = DomUtil.create("div", "zd-search");
     const searchBox = <HTMLInputElement>(
       DomUtil.create("input", "zd-search__searchbox", searchContent)
@@ -164,7 +200,7 @@ export class ZDMap extends Map {
     searchBox.setAttribute("placeholder", "Search");
     const results = DomUtil.create("ul", "zd-search__results", searchContent);
 
-    this.searchControl = ZDControl.create({
+    const searchControl = ZDControl.create({
       icon: "search",
       content: searchContent,
     }).addTo(this);
@@ -184,34 +220,39 @@ export class ZDMap extends Map {
           searchStr.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&"),
           "i"
         );
-        this.tileLayer.findMarkers(searchRegex).forEach((m: ZDMarker) => {
-          const result = DomUtil.create("li", "zd-search__result", results);
-          result.innerText = m.name;
-          result.style.backgroundImage = `url(${m.getIconUrl()})`;
-          result.style.backgroundPosition = `${
-            (50 - m.getIconWidth()) / 2
-          }px center`;
-          DomEvent.addListener(result, "click", () => {
-            this.searchControl.close();
-            this.focusOn(m);
-          });
+        Object.keys(this.layers).forEach((layerName) => {
+          this.layers[layerName]
+            .findMarkers(searchRegex)
+            .forEach((m: ZDMarker) => {
+              const result = DomUtil.create("li", "zd-search__result", results);
+              result.innerText = m.name;
+              result.style.backgroundImage = `url(${m.getIconUrl()})`;
+              result.style.backgroundPosition = `${
+                (50 - m.getIconWidth()) / 2
+              }px center`;
+              DomEvent.addListener(result, "click", () => {
+                searchControl.close();
+                this.focusOn(m);
+              });
+            });
         });
       }
       // save current value
       searchVal = searchStr || "";
     });
 
-    this.searchControl.onOpen(() => {
-      this.settingsControl.close();
+    searchControl.onOpen(() => {
       searchBox.focus();
     });
 
-    this.searchControl.onClosed(() => {
+    searchControl.onClosed(() => {
       searchBox.blur();
     });
+
+    return searchControl;
   }
 
-  private initializeSettingsControl(tags: string[]): void {
+  private initializeSettingsControl(tags: string[]): ZDControl {
     const settingsContent = DomUtil.create("table", "zd-settings");
     const userRow = DomUtil.create(
       "tr",
@@ -300,14 +341,10 @@ export class ZDMap extends Map {
       }
     });
 
-    this.settingsControl = ZDControl.create({
+    return ZDControl.create({
       icon: "cog",
       content: settingsContent,
     }).addTo(this);
-
-    this.settingsControl.onOpen(() => {
-      this.searchControl.close();
-    });
   }
 
   private focusOn(marker: ZDMarker): void {
