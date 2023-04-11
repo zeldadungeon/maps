@@ -11,7 +11,7 @@ export class ZDMarker extends Marker {
   public tags: string[];
   private map!: ZDMap; // BUGBUG refactor to avoid having to suppress null checking
   private layer: Layer;
-  private tileContainers = <MarkerContainer[]>[];
+  public tileContainers = <MarkerContainer[]>[]; // TODO get rid of this. Let MapLayer handle it.
   private path?: L.Polyline;
   private popup?: ZDPopup;
 
@@ -59,12 +59,11 @@ export class ZDMarker extends Marker {
         },
         uncomplete: () => {
           marker.map.wiki.uncomplete(marker.id);
-          marker.map.taggedMarkers.Completed.removeMarker(marker);
           const tag = marker.tags.indexOf("Completed");
           if (tag > -1) {
             marker.tags.splice(tag, 1);
           }
-          marker.updateVisibility();
+          marker.fire("uncompleted");
         },
         linkClicked: (target) => {
           marker.map.navigateToMarkerById(target);
@@ -108,19 +107,16 @@ export class ZDMarker extends Marker {
 
   public addToTileContainer(container: MarkerContainer): void {
     this.tileContainers.push(container);
-    this.updateVisibility();
   }
 
   public addToMap(map: ZDMap): void {
     this.map = map;
-    this.updateVisibility();
   }
 
   public complete(): void {
-    this.map.taggedMarkers.Completed.addMarker(this);
     this.tags.push("Completed");
     this.popup?.markCompleted();
-    this.updateVisibility();
+    this.fire("completed");
   }
 
   public clearCompletion(): void {
@@ -129,25 +125,22 @@ export class ZDMarker extends Marker {
       this.tags.splice(tag, 1);
     }
     this.popup?.markUncompleted();
-    this.updateVisibility();
+    this.fire("uncompleted");
   }
 
-  public updateVisibility(): void {
-    if (
-      this.layer &&
-      this.tileContainers.some((c) => c.isVisible()) &&
-      this.tags.every(
-        (tag) =>
-          !this.map.taggedMarkers[tag] ||
-          this.map.taggedMarkers[tag].isVisible()
-      )
-    ) {
+  // TODO refactor Layer, marker shouldn't need a reference to it? layer should add/remove the marker itself.
+  public show(): void {
+    if (this.layer) {
+      // TODO is this check really needed?
       this.addTo(this.layer);
-      if (this.path) {
-        this.path.addTo(this.layer);
-      }
-    } else if (this.layer) {
-      this.layer.removeLayer(this); // removeFrom only takes Map for some reason?
+      this.path?.addTo(this.layer);
+    }
+  }
+
+  public hide(): void {
+    if (this.layer) {
+      // TODO is this check really needed?
+      this.layer.removeLayer(this); // this.removeFrom only takes Map for some reason?
       if (this.path) {
         this.layer.removeLayer(this.path);
       }

@@ -4,13 +4,6 @@ export class MarkerContainer {
   private markers = <{ [key: string]: ZDMarker }>{};
   private visible = false;
 
-  // eslint-disable-next-line @typescript-eslint/no-empty-function
-  private constructor() {}
-
-  public static create(): MarkerContainer {
-    return new MarkerContainer();
-  }
-
   public addMarker(marker: ZDMarker): void {
     this.markers[marker.id] = marker;
   }
@@ -30,16 +23,10 @@ export class MarkerContainer {
 
   public show(): void {
     this.visible = true;
-    Object.keys(this.markers).forEach((m) =>
-      this.markers[m].updateVisibility()
-    );
   }
 
   public hide(): void {
     this.visible = false;
-    Object.keys(this.markers).forEach((m) =>
-      this.markers[m].updateVisibility()
-    );
   }
 
   public isVisible(): boolean {
@@ -50,9 +37,11 @@ export class MarkerContainer {
     return this.markers[id];
   }
 
+  public getMarkers(): ZDMarker[] {
+    return Object.values(this.markers);
+  }
+
   public findMarkers(searchRegex: RegExp): ZDMarker[] {
-    return Object.keys(this.markers)
-      .map((k) => this.markers[k])
-      .filter((m) => searchRegex.test(m.name));
+    return this.getMarkers().filter((m) => searchRegex.test(m.name));
   }
 }

@@ -8,7 +8,6 @@ import { Legend } from "./Legend";
 import { LocalStorage } from "./LocalStorage";
 import { ZDMarker } from "./ZDMarker";
 import { MapLayer } from "./MapLayer";
-import { MarkerContainer } from "./MarkerContainer";
 import { WikiConnector } from "./WikiConnector";
 import { faCog } from "@fortawesome/free-solid-svg-icons/faCog";
 import { faSearch } from "@fortawesome/free-solid-svg-icons/faSearch";
@@ -21,13 +20,12 @@ dom.watch();
  * Base class for all Zelda maps
  */
 export class ZDMap extends Map {
-  public taggedMarkers = <{ [key: string]: MarkerContainer }>{};
   // BUGBUG refactor to avoid having to suppress null checking
   public wiki!: WikiConnector;
   private settingsStore!: LocalStorage;
   private legend!: Legend;
   private legendLandscape!: Legend;
-  private layers = <{ [key: string]: MapLayer }>{};
+  private layers = <MapLayer[]>[];
   private loginFn!: (username: string) => void;
 
   private constructor(
@@ -94,12 +92,13 @@ export class ZDMap extends Map {
 
   public addMapLayer(directory: string, layerName = "Default"): void {
     const layer = new MapLayer(
+      layerName,
       directory,
       this.tileSize,
       this.getMaxZoom(),
       this.bounds
     );
-    this.layers[layerName] = layer;
+    this.layers.push(layer);
     this.addLayer(layer.tileLayer);
     this.addLayer(layer.markerLayer);
   }
@@ -110,11 +109,10 @@ export class ZDMap extends Map {
     const settingsControl = this.initializeSettingsControl(tags);
 
     // TODO custom layers control that takes MapLayer instead of TileLayer
-    const layerNames = Object.keys(this.layers);
-    if (layerNames.length > 1) {
+    if (this.layers.length > 1) {
       const layersObject: Control.LayersObject = {};
-      for (const layerName of layerNames) {
-        layersObject[layerName] = this.layers[layerName].tileLayer;
+      for (const layer of this.layers) {
+        layersObject[layer.layerName] = layer.tileLayer;
       }
       new Control.Layers(layersObject, undefined, {
         position: "topleft",
@@ -144,10 +142,8 @@ export class ZDMap extends Map {
     // load marker completion from wiki into marker layers
     const completedMarkers = await this.wiki.getCompletedMarkers();
     for (let i = 0; i < completedMarkers.length; ++i) {
-      for (const layerName of Object.keys(this.layers)) {
-        const marker = this.layers[layerName].getMarkerById(
-          completedMarkers[i]
-        );
+      for (const layer of this.layers) {
+        const marker = layer.getMarkerById(completedMarkers[i]);
         if (marker) {
           marker.complete();
           break;
@@ -164,29 +160,26 @@ export class ZDMap extends Map {
     }
   }
 
+  // TODO move this whole function to MapLayer
   public addMarker(marker: ZDMarker): void {
-    marker.addToMap(this);
-    // TODO move this whole function to MapLayer
-    this.layers["Default"]?.registerMarkerWithTiles(
+    marker.addToMap(this); // TODO get rid of this call
+    this.layers[0]?.addMarker(
+      // TODO add to correct layer
       marker,
       this.project(marker.getLatLng(), 0)
     );
-    marker.tags.forEach((tag) => {
-      if (this.taggedMarkers[tag]) {
-        this.taggedMarkers[tag].addMarker(marker);
-      }
-    });
     if (params.id === marker.id) {
       this.focusOn(marker);
     }
   }
 
   public navigateToMarkerById(id: string): void {
-    // TODO get active layer
-    for (const layerName of Object.keys(this.layers)) {
-      const marker = this.layers[layerName].getMarkerById(id);
+    // TODO get (or set?) active layer
+    for (const layer of this.layers) {
+      const marker = layer.getMarkerById(id);
       if (marker) {
         this.focusOn(marker);
+        break;
       }
     }
   }
@@ -220,21 +213,19 @@ export class ZDMap extends Map {
           searchStr.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&"),
           "i"
         );
-        Object.keys(this.layers).forEach((layerName) => {
-          this.layers[layerName]
-            .findMarkers(searchRegex)
-            .forEach((m: ZDMarker) => {
-              const result = DomUtil.create("li", "zd-search__result", results);
-              result.innerText = m.name;
-              result.style.backgroundImage = `url(${m.getIconUrl()})`;
-              result.style.backgroundPosition = `${
-                (50 - m.getIconWidth()) / 2
-              }px center`;
-              DomEvent.addListener(result, "click", () => {
-                searchControl.close();
-                this.focusOn(m);
-              });
+        this.layers.forEach((layer) => {
+          layer.findMarkers(searchRegex).forEach((m: ZDMarker) => {
+            const result = DomUtil.create("li", "zd-search__result", results);
+            result.innerText = m.name;
+            result.style.backgroundImage = `url(${m.getIconUrl()})`;
+            result.style.backgroundPosition = `${
+              (50 - m.getIconWidth()) / 2
+            }px center`;
+            DomEvent.addListener(result, "click", () => {
+              searchControl.close();
+              this.focusOn(m);
             });
+          });
         });
       }
       // save current value
@@ -280,8 +271,6 @@ export class ZDMap extends Map {
     };
 
     tags.forEach((tag) => {
-      this.taggedMarkers[tag] = MarkerContainer.create();
-
       const row = DomUtil.create("tr", "zd-settings__setting", settingsContent);
       const show = DomUtil.create("td", "zd-settings__button selectable", row);
       show.innerText = "Show";
@@ -297,7 +286,7 @@ export class ZDMap extends Map {
       ) {
         DomUtil.addClass(hide, "selected");
       } else {
-        this.taggedMarkers[tag].show();
+        this.layers.forEach((l) => l.showTaggedMarkers(tag));
         DomUtil.addClass(show, "selected");
       }
 
@@ -305,7 +294,7 @@ export class ZDMap extends Map {
         if (!DomUtil.hasClass(show, "selected")) {
           DomUtil.removeClass(hide, "selected");
           DomUtil.addClass(show, "selected");
-          this.taggedMarkers[tag].show();
+          this.layers.forEach((l) => l.showTaggedMarkers(tag));
           this.settingsStore.setItem(`show-${tag}`, true);
         }
       });
@@ -313,7 +302,7 @@ export class ZDMap extends Map {
         if (!DomUtil.hasClass(hide, "selected")) {
           DomUtil.removeClass(show, "selected");
           DomUtil.addClass(hide, "selected");
-          this.taggedMarkers[tag].hide();
+          this.layers.forEach((l) => l.hideTaggedMarkers(tag));
           this.settingsStore.setItem(`show-${tag}`, false);
         }
       });
@@ -337,7 +326,7 @@ export class ZDMap extends Map {
         )
       ) {
         this.wiki.clearCompletion();
-        this.taggedMarkers.Completed.clear();
+        this.layers.forEach((l) => l.clearTaggedMarkers("Completed"));
       }
     });
 
