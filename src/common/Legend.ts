@@ -1,5 +1,6 @@
 import { Control, DomEvent, DomUtil } from "leaflet";
 import { Category } from "./Category";
+import { MapLayer } from "./MapLayer";
 
 interface LegendItem {
   category: Category;
@@ -13,7 +14,10 @@ export class Legend extends Control {
   private none: HTMLElement;
   private categories = <LegendItem[]>[];
 
-  private constructor(options?: L.ControlOptions) {
+  private constructor(
+    private mapLayers: MapLayer[],
+    options?: L.ControlOptions
+  ) {
     super(options);
     const bottom = options && options.position === "bottomright";
 
@@ -59,7 +63,9 @@ export class Legend extends Control {
         DomUtil.removeClass(this.none, "selected");
         this.categories.forEach((c) => {
           DomUtil.removeClass(c.li, "selected");
-          c.category.resetVisibility();
+          this.mapLayers.forEach((l) =>
+            l.resetCategoryVisibility(c.category.name)
+          );
         });
       }
     });
@@ -70,20 +76,20 @@ export class Legend extends Control {
         DomUtil.removeClass(this.all, "selected");
         this.categories.forEach((c) => {
           DomUtil.removeClass(c.li, "selected");
-          c.category.forceHide();
+          this.mapLayers.forEach((l) => l.hideCategory(c.category.name));
         });
       }
     });
   }
 
-  public static createPortrait(): Legend {
-    return new Legend({
+  public static createPortrait(mapLayers: MapLayer[]): Legend {
+    return new Legend(mapLayers, {
       position: "bottomright",
     });
   }
 
-  public static createLandscape(): Legend {
-    return new Legend();
+  public static createLandscape(mapLayers: MapLayer[]): Legend {
+    return new Legend(mapLayers);
   }
 
   public onAdd(_map: L.Map): HTMLElement {
@@ -110,7 +116,7 @@ export class Legend extends Control {
     DomEvent.addListener(li, "click", () => {
       if (DomUtil.hasClass(li, "selected")) {
         DomUtil.removeClass(li, "selected");
-        category.forceHide();
+        this.mapLayers.forEach((l) => l.hideCategory(category.name));
 
         // select "None" if no others are selected
         if (this.categories.every((c) => !DomUtil.hasClass(c.li, "selected"))) {
@@ -118,14 +124,14 @@ export class Legend extends Control {
         }
       } else {
         DomUtil.addClass(li, "selected");
-        category.forceShow();
+        this.mapLayers.forEach((l) => l.showCategory(category.name));
 
         // hide the others
         if (DomUtil.hasClass(this.all, "selected")) {
           DomUtil.removeClass(this.all, "selected");
           this.categories.forEach((c) => {
             if (!DomUtil.hasClass(c.li, "selected")) {
-              c.category.forceHide();
+              this.mapLayers.forEach((l) => l.hideCategory(c.category.name));
             }
           });
         }

@@ -1,9 +1,8 @@
 import * as Schema from "./JSONSchema";
 import { Icon, LayerGroup } from "leaflet";
-import { ZDMap } from "./ZDMap";
 import { ZDMarker } from "./ZDMarker";
 
-enum Visibility {
+export enum Visibility {
   Off,
   On,
   Default,
@@ -13,11 +12,10 @@ export class Layer extends LayerGroup {
   public icon?: L.Icon;
   public infoSource: string;
 
-  private minZoom = 0;
-  private maxZoom = Number.MAX_VALUE;
-  private visibility = Visibility.Default;
-  private map!: ZDMap; // BUGBUG refactor to avoid having to suppress null checking
-  private markers!: ZDMarker[]; // BUGBUG refactor to avoid having to suppress null checking
+  public minZoom = 0;
+  public maxZoom = Number.MAX_VALUE;
+  public visibility = Visibility.Default;
+  public markers!: ZDMarker[]; // BUGBUG refactor to avoid having to suppress null checking
 
   private constructor(infoSource: string) {
     super();
@@ -52,14 +50,6 @@ export class Layer extends LayerGroup {
     return layer;
   }
 
-  public addToMap(map: ZDMap): void {
-    this.map = map;
-    this.updateVisibility();
-    map.on("zoom", (_) => this.updateVisibility());
-
-    this.markers.forEach((m) => map.addMarker(m));
-  }
-
   public getIconUrl(): string {
     return (this.icon && this.icon.options.iconUrl) || "";
   }
@@ -70,10 +60,6 @@ export class Layer extends LayerGroup {
 
   public getMinZoom(): number {
     return this.minZoom;
-  }
-
-  public isVisible(): boolean {
-    return this.map.hasLayer(this);
   }
 
   public forceShow(): void {
@@ -90,20 +76,5 @@ export class Layer extends LayerGroup {
 
   private setVisibility(visibility: Visibility): void {
     this.visibility = visibility;
-    this.updateVisibility();
-  }
-
-  private updateVisibility(): void {
-    const zoom = this.map.getZoom();
-    if (
-      this.visibility === Visibility.On ||
-      (this.visibility === Visibility.Default &&
-        zoom >= this.minZoom &&
-        zoom <= this.maxZoom)
-    ) {
-      this.addTo(this.map);
-    } else {
-      this.removeFrom(this.map);
-    }
   }
 }

@@ -10,7 +10,7 @@ export class ZDMarker extends Marker {
   public name: string;
   public tags: string[];
   private map!: ZDMap; // BUGBUG refactor to avoid having to suppress null checking
-  private layer: Layer;
+  public layer: Layer;
   public tileContainers = <MarkerContainer[]>[]; // TODO get rid of this. Let MapLayer handle it.
   private path?: L.Polyline;
   private popup?: ZDPopup;
@@ -144,25 +144,6 @@ export class ZDMarker extends Marker {
       if (this.path) {
         this.layer.removeLayer(this.path);
       }
-    }
-  }
-
-  public openPopupWhenLoaded(): void {
-    if (this.layer.hasLayer(this) && this.layer.isVisible()) {
-      this.openPopup();
-    } else {
-      const func = () => {
-        this.off("add", func);
-        this.layer.off("add", func);
-        if (!this.layer.hasLayer(this)) {
-          this.on("add", func);
-        } else if (!this.layer.isVisible()) {
-          this.layer.on("add", func);
-        } else {
-          this.openPopup();
-        }
-      };
-      func();
     }
   }
 

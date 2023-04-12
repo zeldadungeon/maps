@@ -1,4 +1,6 @@
-import { LayerGroup } from "leaflet";
+import { Layer, Visibility } from "./Layer";
+import { Category } from "./Category";
+import { LatLngExpression, LayerGroup, Point } from "leaflet";
 import { MarkerContainer } from "./MarkerContainer";
 import { TileLayer } from "leaflet";
 import { ZDMarker } from "./ZDMarker";
@@ -6,8 +8,10 @@ import { ZDMarker } from "./ZDMarker";
 export class MapLayer {
   public tileLayer: TileLayer;
   public markerLayer: LayerGroup; // TODO add markers here instead of directly on the map, and add this to the map
+  private categories = <{ [key: string]: Layer[] }>{};
   private tileMarkerContainers: MarkerContainer[][][] = [];
   private taggedMarkerContainers = <{ [key: string]: MarkerContainer }>{};
+  private currentZoom = 0;
 
   public constructor(
     public layerName: string,
@@ -55,6 +59,21 @@ export class MapLayer {
     });
 
     this.taggedMarkerContainers["Completed"] = new MarkerContainer();
+  }
+
+  public addCategory(
+    category: Category,
+    projectFn: (latLng: LatLngExpression, zoom?: number) => Point,
+    addMarkerToMapFn: (marker: ZDMarker) => void
+  ): void {
+    this.categories[category.name] = category.layers;
+    category.layers.forEach((l) => {
+      this.updateLayerVisibility(l);
+      l.markers.forEach((m) => {
+        this.addMarker(m, projectFn(m.getLatLng(), 0));
+        addMarkerToMapFn(m);
+      });
+    });
   }
 
   public addMarker(marker: ZDMarker, point: L.Point): void {
@@ -121,8 +140,59 @@ export class MapLayer {
     container?.getMarkers().forEach(this.updateMarkerVisibility.bind(this));
   }
 
+  public showCategory(categoryName: string): void {
+    this.categories[categoryName]?.forEach((l) => {
+      l.forceShow();
+      this.updateLayerVisibility(l);
+    });
+  }
+
+  public hideCategory(categoryName: string): void {
+    this.categories[categoryName]?.forEach((l) => {
+      l.forceHide();
+      this.updateLayerVisibility(l);
+    });
+  }
+
+  public resetCategoryVisibility(categoryName: string): void {
+    this.categories[categoryName]?.forEach((l) => {
+      l.resetVisibility();
+      this.updateLayerVisibility(l);
+    });
+  }
+
   public clearTaggedMarkers(tag: string): void {
     this.taggedMarkerContainers[tag]?.clear();
+  }
+
+  public updateZoom(zoom: number): void {
+    this.currentZoom = zoom;
+    Object.values(this.categories).forEach((c) =>
+      c.forEach((l) => this.updateLayerVisibility(l))
+    );
+  }
+
+  // TODO refactor
+  public openPopupWhenLoaded(marker: ZDMarker): void {
+    if (
+      marker.layer.hasLayer(marker) &&
+      this.markerLayer.hasLayer(marker.layer)
+    ) {
+      marker.openPopup();
+    } else {
+      const func = () => {
+        marker.off("add", func);
+        marker.layer.off("add", func);
+        if (!marker.layer.hasLayer(marker)) {
+          marker.on("add", func);
+        } else if (!this.markerLayer.hasLayer(marker.layer)) {
+          marker.layer.on("add", func);
+        } else {
+          marker.openPopup();
+        }
+      };
+      func();
+    }
   }
 
   private getTaggedMarkerContainer(tag: string): MarkerContainer {
@@ -142,6 +212,19 @@ export class MapLayer {
       marker.show();
     } else {
       marker.hide();
+    }
+  }
+
+  private updateLayerVisibility(layer: Layer): void {
+    if (
+      layer.visibility === Visibility.On ||
+      (layer.visibility === Visibility.Default &&
+        this.currentZoom >= layer.minZoom &&
+        this.currentZoom <= layer.maxZoom)
+    ) {
+      this.markerLayer.addLayer(layer);
+    } else {
+      this.markerLayer.removeLayer(layer);
     }
   }
 }

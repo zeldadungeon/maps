@@ -79,8 +79,12 @@ export class ZDMap extends Map {
     map.settingsStore = LocalStorage.getStore(directory, "settings");
     map.wiki = new WikiConnector(directory, new Dialog(map));
 
-    map.legend = Legend.createPortrait().addTo(map);
-    map.legendLandscape = Legend.createLandscape().addTo(map);
+    map.legend = Legend.createPortrait(map.layers).addTo(map);
+    map.legendLandscape = Legend.createLandscape(map.layers).addTo(map);
+
+    map.on("zoom", (_) => {
+      map.layers.forEach((l) => l.updateZoom(map.getZoom()));
+    });
 
     map.on("click", (e) => {
       console.log(e.latlng);
@@ -98,6 +102,7 @@ export class ZDMap extends Map {
       this.getMaxZoom(),
       this.bounds
     );
+    layer.updateZoom(this.getZoom());
     this.layers.push(layer);
     this.addLayer(layer.tileLayer);
     this.addLayer(layer.markerLayer);
@@ -153,7 +158,11 @@ export class ZDMap extends Map {
   }
 
   public addCategory(category: Category): void {
-    category.addToMap(this);
+    this.layers[0]?.addCategory(
+      category,
+      this.project.bind(this),
+      this.addMarker.bind(this)
+    ); // TODO add to correct MapLayer
     if (category.displayOrder != undefined) {
       this.legend.addCategory(category, category.displayOrder);
       this.legendLandscape.addCategory(category, category.displayOrder);
@@ -163,11 +172,6 @@ export class ZDMap extends Map {
   // TODO move this whole function to MapLayer
   public addMarker(marker: ZDMarker): void {
     marker.addToMap(this); // TODO get rid of this call
-    this.layers[0]?.addMarker(
-      // TODO add to correct layer
-      marker,
-      this.project(marker.getLatLng(), 0)
-    );
     if (params.id === marker.id) {
       this.focusOn(marker);
     }
@@ -343,6 +347,6 @@ export class ZDMap extends Map {
       marker.getLatLng(),
       Math.max(marker.getMinZoom(), this.getZoom())
     );
-    marker.openPopupWhenLoaded();
+    this.layers[0]?.openPopupWhenLoaded(marker); // TODO support multiple layers
   }
 }
