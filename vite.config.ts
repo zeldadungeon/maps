@@ -46,7 +46,7 @@ const pages = createPages([
 
 // tslint:disable-next-line:no-default-export vite convention
 export default defineConfig(({ command, mode, ssrBuild }) => ({
-  base: mode === "production" ? "/maps/" : "/maps/beta/",
+  base: mode === "production" ? "/maps/" : "/maps-beta/",
   plugins: [
     createMpaPlugin({
       template: "src/template.html",
