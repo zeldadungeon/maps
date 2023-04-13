@@ -1,9 +1,9 @@
 import { Control, DomEvent, DomUtil } from "leaflet";
-import { Category } from "./Category";
+import { ICategory } from "./ICategory";
 import { MapLayer } from "./MapLayer";
 
 interface LegendItem {
-  category: Category;
+  category: ICategory;
   li: HTMLElement;
 }
 
@@ -100,16 +100,13 @@ export class Legend extends Control {
     // doesn't happen
   }
 
-  public addCategory(category: Category, position: number): void {
+  public addCategory(category: ICategory): void {
     // make it
     const li = DomUtil.create("li", "zd-legend__category selectable");
-    li.setAttribute("data-position", `${position}`);
     li.innerText = category.name;
-    li.style.backgroundImage = `url(${category.getIconUrl()})`;
-    li.style.backgroundPosition = `${
-      (50 - category.getIconWidth()) / 2
-    }px center`;
-    li.style.backgroundSize = `${category.getIconWidth()}px`;
+    li.style.backgroundImage = `url(${category.iconUrl})`;
+    li.style.backgroundPosition = `${(50 - category.iconWidth) / 2}px center`;
+    li.style.backgroundSize = `${category.iconWidth}px`;
     this.categories.push({ category, li });
 
     // activate it
@@ -140,19 +137,7 @@ export class Legend extends Control {
     });
 
     // insert it
-    const children = this.categoryList.children;
-    let index = 1;
-    while (
-      index < children.length &&
-      position >= Number(children[index].getAttribute("data-position"))
-    ) {
-      index++;
-    }
-    if (index >= children.length) {
-      this.categoryList.appendChild(li);
-    } else {
-      this.categoryList.insertBefore(li, children[index]);
-    }
+    this.categoryList.appendChild(li);
   }
 
   public reset(): void {

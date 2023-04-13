@@ -1,7 +1,7 @@
 import * as ZDCRS from "./ZDCRS";
 import { Control, DomEvent, DomUtil, LatLngBounds, Map, Point } from "leaflet";
 import { dom, library } from "@fortawesome/fontawesome-svg-core";
-import { Category } from "./Category";
+import { ICategory } from "./ICategory";
 import { ZDControl } from "./ZDControl";
 import { Dialog } from "./Dialog";
 import { Legend } from "./Legend";
@@ -12,6 +12,7 @@ import { WikiConnector } from "./WikiConnector";
 import { faCog } from "@fortawesome/free-solid-svg-icons/faCog";
 import { faSearch } from "@fortawesome/free-solid-svg-icons/faSearch";
 import { params } from "./QueryParameters";
+import { Layer } from "./Layer";
 
 library.add(faSearch, faCog);
 dom.watch();
@@ -23,8 +24,8 @@ export class ZDMap extends Map {
   // BUGBUG refactor to avoid having to suppress null checking
   public wiki!: WikiConnector;
   private settingsStore!: LocalStorage;
-  private legend!: Legend;
-  private legendLandscape!: Legend;
+  private legend?: Legend;
+  private legendLandscape?: Legend;
   private layers = <MapLayer[]>[];
   private loginFn!: (username: string) => void;
 
@@ -78,9 +79,6 @@ export class ZDMap extends Map {
 
     map.settingsStore = LocalStorage.getStore(directory, "settings");
     map.wiki = new WikiConnector(directory, new Dialog(map));
-
-    map.legend = Legend.createPortrait(map.layers).addTo(map);
-    map.legendLandscape = Legend.createLandscape(map.layers).addTo(map);
 
     map.on("zoom", (_) => {
       map.layers.forEach((l) => l.updateZoom(map.getZoom()));
@@ -137,6 +135,15 @@ export class ZDMap extends Map {
     });
   }
 
+  public addLegend(categories: ICategory[] = []): void {
+    this.legend = Legend.createPortrait(this.layers).addTo(this);
+    this.legendLandscape = Legend.createLandscape(this.layers).addTo(this);
+    for (const category of categories) {
+      this.legend.addCategory(category);
+      this.legendLandscape.addCategory(category);
+    }
+  }
+
   public async initializeWikiConnector(): Promise<void> {
     await this.wiki.getLoggedInUser();
 
@@ -157,16 +164,13 @@ export class ZDMap extends Map {
     }
   }
 
-  public addCategory(category: Category): void {
+  public addCategory(categoryName: string, layers: Layer[]): void {
     this.layers[0]?.addCategory(
-      category,
+      categoryName,
+      layers,
       this.project.bind(this),
       this.addMarker.bind(this)
     ); // TODO add to correct MapLayer
-    if (category.displayOrder != undefined) {
-      this.legend.addCategory(category, category.displayOrder);
-      this.legendLandscape.addCategory(category, category.displayOrder);
-    }
   }
 
   // TODO move this whole function to MapLayer
@@ -341,8 +345,8 @@ export class ZDMap extends Map {
   }
 
   private focusOn(marker: ZDMarker): void {
-    this.legend.reset();
-    this.legendLandscape.reset();
+    this.legend?.reset();
+    this.legendLandscape?.reset();
     this.setView(
       marker.getLatLng(),
       Math.max(marker.getMinZoom(), this.getZoom())

@@ -1,5 +1,4 @@
 import { Layer, Visibility } from "./Layer";
-import { Category } from "./Category";
 import { LatLngExpression, LayerGroup, Point } from "leaflet";
 import { MarkerContainer } from "./MarkerContainer";
 import { TileLayer } from "leaflet";
@@ -62,12 +61,13 @@ export class MapLayer {
   }
 
   public addCategory(
-    category: Category,
+    categoryName: string,
+    layers: Layer[],
     projectFn: (latLng: LatLngExpression, zoom?: number) => Point,
     addMarkerToMapFn: (marker: ZDMarker) => void
   ): void {
-    this.categories[category.name] = category.layers;
-    category.layers.forEach((l) => {
+    this.categories[categoryName] = layers;
+    layers.forEach((l) => {
       this.updateLayerVisibility(l);
       l.markers.forEach((m) => {
         this.addMarker(m, projectFn(m.getLatLng(), 0));
