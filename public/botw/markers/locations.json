@@ -540,11 +540,7 @@
 {"coords":[-3057,-737],"id":"Forest of Time","name":"Forest of Time","link":"Forest of Time"},
 {"coords":[4056,-2438],"id":"Rowan Plain","name":"Rowan Plain","link":"Rowan Plain"}
         ]
-    }]
-}, {
-    "name": "Landmark",
-    "source": "summary",
-    "layers": [{
+    }, {
         "minZoom": 5,
         "markers": [
 {"coords":[1539,-508],"id":"Observation Room","name":"Observation Room","link":"Observation Room"},
