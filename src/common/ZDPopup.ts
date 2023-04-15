@@ -21,9 +21,7 @@ export interface Options extends L.PopupOptions {
   name: string;
   link?: string;
   editLink?: string;
-  getWikiConnector(): WikiConnector;
-  complete(): void;
-  uncomplete(): void;
+  wiki: WikiConnector;
   linkClicked(target: string): void;
 }
 
@@ -66,7 +64,7 @@ export class ZDPopup extends Popup {
       "Mark completed";
     DomEvent.addListener(completeButton, "click", () => {
       this.markCompleted();
-      options.complete();
+      this.fire("complete");
     });
 
     const uncompleteButton = DomUtil.create(
@@ -78,7 +76,7 @@ export class ZDPopup extends Popup {
       "Mark not completed";
     DomEvent.addListener(uncompleteButton, "click", () => {
       this.markUncompleted();
-      options.uncomplete();
+      this.fire("uncomplete");
     });
 
     if (options.editLink) {
@@ -133,8 +131,7 @@ export class ZDPopup extends Popup {
   public loadContentFromSummary(pageTitle: string): void {
     if (this.contentState === ContentState.Initial) {
       this.startLoading();
-      this.myOptions
-        .getWikiConnector()
+      this.myOptions.wiki
         .query<any>( // eslint-disable-line @typescript-eslint/no-explicit-any
           `action=query&prop=pageprops&titles=${encodeURIComponent(pageTitle)}`
         )
@@ -157,8 +154,7 @@ export class ZDPopup extends Popup {
       const textToParse = encodeURIComponent(
         `{{#vardefine:gsize|300}}{{#vardefine:galign|left}}{{#vardefine:gpad|0}}{{#vardefine:square|false}}{{#lst:${pageTitle}|${sectionName}}}`
       );
-      this.myOptions
-        .getWikiConnector()
+      this.myOptions.wiki
         .query<any>( // eslint-disable-line @typescript-eslint/no-explicit-any
           `action=parse&prop=text&contentmodel=wikitext&text=${textToParse}`
         )
@@ -185,8 +181,7 @@ export class ZDPopup extends Popup {
   public loadContentFromPage(pageTitle: string): void {
     if (this.contentState === ContentState.Initial) {
       this.startLoading();
-      this.myOptions
-        .getWikiConnector()
+      this.myOptions.wiki
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         .query<any>(`action=parse&page=${encodeURIComponent(pageTitle)}`)
         .then((result) => {

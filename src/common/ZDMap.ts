@@ -175,7 +175,10 @@ export class ZDMap extends Map {
 
   // TODO move this whole function to MapLayer
   public addMarker(marker: ZDMarker): void {
-    marker.addToMap(this); // TODO get rid of this call
+    marker.on("internallinkclicked", (event) => {
+      console.log(event);
+      this.navigateToMarkerById(<string>(<any>event).linkTarget);
+    });
     if (params.id === marker.id) {
       this.focusOn(marker);
     }

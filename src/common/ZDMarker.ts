@@ -1,15 +1,14 @@
 import * as Schema from "./JSONSchema";
 import { DivIcon, Marker, Polyline } from "leaflet";
 import { Layer } from "./Layer";
-import { ZDMap } from "./ZDMap";
 import { MarkerContainer } from "./MarkerContainer";
+import { WikiConnector } from "./WikiConnector";
 import { ZDPopup } from "./ZDPopup";
 
 export class ZDMarker extends Marker {
   public id: string;
   public name: string;
   public tags: string[];
-  private map!: ZDMap; // BUGBUG refactor to avoid having to suppress null checking
   public layer: Layer;
   public tileContainers = <MarkerContainer[]>[]; // TODO get rid of this. Let MapLayer handle it.
   private path?: L.Polyline;
@@ -34,7 +33,11 @@ export class ZDMarker extends Marker {
     this.layer = layer;
   }
 
-  public static fromJSON(json: Schema.Marker, layer: Layer): ZDMarker {
+  public static fromJSON(
+    json: Schema.Marker,
+    layer: Layer,
+    wiki: WikiConnector
+  ): ZDMarker {
     const marker = new ZDMarker(json, json.coords, layer);
     const linkParts = json.link && json.link !== "" ? json.link.split("#") : [];
     const editLink =
@@ -51,23 +54,23 @@ export class ZDMarker extends Marker {
         id: json.id,
         name: json.name,
         link: json.link,
-        editLink: editLink,
-        getWikiConnector: () => marker.map.wiki,
-        complete: () => {
-          marker.map.wiki.complete(marker.id);
-          marker.complete();
-        },
-        uncomplete: () => {
-          marker.map.wiki.uncomplete(marker.id);
-          const tag = marker.tags.indexOf("Completed");
-          if (tag > -1) {
-            marker.tags.splice(tag, 1);
-          }
-          marker.fire("uncompleted");
-        },
+        editLink,
+        wiki,
         linkClicked: (target) => {
-          marker.map.navigateToMarkerById(target);
+          marker.fire("internallinkclicked", { linkTarget: target });
         },
+      });
+      marker.popup.on("complete", () => {
+        wiki.complete(marker.id);
+        marker.complete();
+      });
+      marker.popup.on("uncomplete", () => {
+        wiki.uncomplete(marker.id);
+        const tag = marker.tags.indexOf("Completed");
+        if (tag > -1) {
+          marker.tags.splice(tag, 1);
+        }
+        marker.fire("uncompleted");
       });
       marker.bindPopup(marker.popup);
       marker.on("popupopen", () => {
@@ -107,10 +110,6 @@ export class ZDMarker extends Marker {
 
   public addToTileContainer(container: MarkerContainer): void {
     this.tileContainers.push(container);
-  }
-
-  public addToMap(map: ZDMap): void {
-    this.map = map;
   }
 
   public complete(): void {

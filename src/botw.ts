@@ -182,7 +182,9 @@ window.onload = async () => {
     for (const category of categories) {
       map.addCategory(
         category.name,
-        category.layers.map((l) => Layer.fromJSON(l, category.source, "botw"))
+        category.layers.map((l) =>
+          Layer.fromJSON(l, category.source, "botw", map.wiki)
+        )
       );
     }
   }

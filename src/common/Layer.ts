@@ -1,5 +1,6 @@
 import * as Schema from "./JSONSchema";
 import { Icon, LayerGroup } from "leaflet";
+import { WikiConnector } from "./WikiConnector";
 import { ZDMarker } from "./ZDMarker";
 
 export enum Visibility {
@@ -25,7 +26,8 @@ export class Layer extends LayerGroup {
   public static fromJSON(
     json: Schema.Layer,
     infoSource: string,
-    directory: string
+    directory: string,
+    wiki: WikiConnector
   ): Layer {
     const layer = new Layer(infoSource);
 
@@ -45,7 +47,7 @@ export class Layer extends LayerGroup {
       layer.maxZoom = json.maxZoom;
     }
 
-    layer.markers = json.markers.map((m) => ZDMarker.fromJSON(m, layer));
+    layer.markers = json.markers.map((m) => ZDMarker.fromJSON(m, layer, wiki));
 
     return layer;
   }
