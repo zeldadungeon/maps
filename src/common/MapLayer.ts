@@ -1,7 +1,8 @@
 import { Layer, Visibility } from "./Layer";
-import { LatLngExpression, LayerGroup, Point } from "leaflet";
+import { LayerGroup } from "leaflet";
 import { MarkerContainer } from "./MarkerContainer";
 import { TileLayer } from "leaflet";
+import { ZDMap } from "./ZDMap";
 import { ZDMarker } from "./ZDMarker";
 
 export class MapLayer {
@@ -13,18 +14,20 @@ export class MapLayer {
   private currentZoom = 0;
 
   public constructor(
+    private map: ZDMap,
     public layerName: string,
-    directory: string,
+    tilePath: string | undefined,
     private tileSize: number,
     private maxZoom: number,
     bounds: L.LatLngBounds
   ) {
+    tilePath = tilePath ? `tiles/${tilePath}` : "tiles";
     this.tileLayer = new TileLayer(
-      `https://www.zeldadungeon.net/maps/${directory}/tiles/{z}/{x}_{y}.jpg`,
+      `https://www.zeldadungeon.net/maps/${map.directory}/${tilePath}/{z}/{x}_{y}.jpg`,
       {
         tileSize: tileSize,
         minZoom: 0,
-        maxZoom: maxZoom,
+        maxZoom: map.getMaxZoom(),
         bounds: bounds,
         noWrap: true,
       }
@@ -60,18 +63,13 @@ export class MapLayer {
     this.taggedMarkerContainers["Completed"] = new MarkerContainer();
   }
 
-  public addCategory(
-    categoryName: string,
-    layers: Layer[],
-    projectFn: (latLng: LatLngExpression, zoom?: number) => Point,
-    addMarkerToMapFn: (marker: ZDMarker) => void
-  ): void {
+  public addCategory(categoryName: string, layers: Layer[]): void {
     this.categories[categoryName] = layers;
     layers.forEach((l) => {
       this.updateLayerVisibility(l);
       l.markers.forEach((m) => {
-        this.addMarker(m, projectFn(m.getLatLng(), 0));
-        addMarkerToMapFn(m);
+        this.addMarker(m, this.map.project(m.getLatLng(), 0));
+        this.map.addMarker(m);
       });
     });
   }

@@ -11,7 +11,7 @@ window.onload = async () => {
   const map = ZDMap.create("botw", 24000, 750, {
     center: [-3750, -1900],
   });
-  map.addMapLayer("botw");
+  const mapLayer = map.addMapLayer();
   map.addControls(["Master Mode", "DLC"]);
   map.addLegend([
     {
@@ -180,7 +180,7 @@ window.onload = async () => {
 
   function addJson(categories: Schema.Category[]): void {
     for (const category of categories) {
-      map.addCategory(
+      mapLayer.addCategory(
         category.name,
         category.layers.map((l) =>
           Layer.fromJSON(l, category.source, "botw", map.wiki)

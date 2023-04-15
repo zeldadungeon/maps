@@ -12,7 +12,7 @@ window.onload = async () => {
     center: [0, 0],
     zoom: 2,
   });
-  map.addMapLayer("la");
+  const mapLayer = map.addMapLayer();
   map.addControls();
   map.addLegend([
     {
@@ -67,7 +67,7 @@ window.onload = async () => {
 
   function addJson(categories: Schema.Category[]): void {
     for (const category of categories) {
-      map.addCategory(
+      mapLayer.addCategory(
         category.name,
         category.layers.map((l) =>
           Layer.fromJSON(l, category.source, "la", map.wiki)

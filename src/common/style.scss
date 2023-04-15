@@ -255,7 +255,8 @@ body {
   box-shadow: none;
 }
 
-.zd-map-botw .leaflet-tooltip.zd-location-label {
+.zd-map-botw .leaflet-tooltip.zd-location-label,
+.zd-map-totk .leaflet-tooltip.zd-location-label {
   font-size: 24px;
   color: #f8efae;
   @include stroke(2, #977f41);

@@ -31,6 +31,7 @@ export class ZDMap extends Map {
 
   private constructor(
     element: string | HTMLElement,
+    public directory: string,
     private tileSize: number,
     private bounds: LatLngBounds,
     options?: L.MapOptions
@@ -74,7 +75,7 @@ export class ZDMap extends Map {
     options.zoomControl = false; // adding it later, below our own controls
     options.attributionControl = false; // would like to keep this but breaks bottom legend. maybe find a better place to put it later
 
-    const map = new ZDMap("map", tileSize, bounds, options);
+    const map = new ZDMap("map", directory, tileSize, bounds, options);
     map.getContainer().classList.add(`zd-map-${directory}`);
 
     map.settingsStore = LocalStorage.getStore(directory, "settings");
@@ -92,18 +93,25 @@ export class ZDMap extends Map {
     return map;
   }
 
-  public addMapLayer(directory: string, layerName = "Default"): void {
+  public addMapLayer(
+    layerName = "Default",
+    tilePath: string | undefined = undefined
+  ): MapLayer {
     const layer = new MapLayer(
+      this,
       layerName,
-      directory,
+      tilePath,
       this.tileSize,
       this.getMaxZoom(),
       this.bounds
     );
     layer.updateZoom(this.getZoom());
-    this.layers.push(layer);
-    this.addLayer(layer.tileLayer);
+    if (this.layers.push(layer) == 1) {
+      this.addLayer(layer.tileLayer);
+    }
     this.addLayer(layer.markerLayer);
+
+    return layer;
   }
 
   public addControls(tags: string[] = []): void {
@@ -162,15 +170,6 @@ export class ZDMap extends Map {
         }
       }
     }
-  }
-
-  public addCategory(categoryName: string, layers: Layer[]): void {
-    this.layers[0]?.addCategory(
-      categoryName,
-      layers,
-      this.project.bind(this),
-      this.addMarker.bind(this)
-    ); // TODO add to correct MapLayer
   }
 
   // TODO move this whole function to MapLayer
