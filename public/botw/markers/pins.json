@@ -213,7 +213,7 @@
     }]
 }, {
     "name": "Stable",
-    "source": "subpage",
+    "source": "mappage",
     "displayOrder": 40,
     "layers": [{
         "minZoom": 2,

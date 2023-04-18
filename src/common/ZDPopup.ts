@@ -164,7 +164,7 @@ export class ZDPopup extends Popup {
           content = content.replace(/\s*<!--[\s\S]*-->\s*/g, "");
           if (content.match(/page does not exist/)) {
             content = content.replace(
-              `>${name}</a>`,
+              `>${pageTitle}</a>`,
               ">Create this article</a>"
             );
           }
@@ -173,9 +173,40 @@ export class ZDPopup extends Popup {
     }
   }
 
-  public loadContentFromSubpage(pageTitle: string, subsubpage: string): void {
-    const subpage = subsubpage ? `Map/${subsubpage}` : "Map";
-    this.loadContentFromPage(`${pageTitle}/${subpage}`);
+  public loadContentFromMapPage(pageTitle: string, subpage: string): void {
+    if (this.contentState === ContentState.Initial) {
+      this.startLoading();
+
+      // first try Map: namespace
+      let fullPageTitle = subpage
+        ? `Map:${pageTitle}/${subpage}`
+        : `Map:${pageTitle}`;
+      this.myOptions.wiki
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        .query<any>(`action=parse&page=${encodeURIComponent(fullPageTitle)}`)
+        .then((result) => {
+          // TODO move result parsing to WikiConnector and add typing
+          const content = result.parse && result.parse.text["*"];
+          if (content && !(<string>content).includes("redirectMsg")) {
+            this.loadContent(content);
+          } else {
+            // fall back to subpage
+            fullPageTitle = subpage
+              ? `${pageTitle}/Map/${subpage}`
+              : `${pageTitle}/Map`;
+            this.myOptions.wiki
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
+              .query<any>(
+                `action=parse&page=${encodeURIComponent(fullPageTitle)}`
+              )
+              .then((result) => {
+                this.loadContent(
+                  (result.parse && result.parse.text["*"]) || ""
+                );
+              });
+          }
+        });
+    }
   }
 
   public loadContentFromPage(pageTitle: string): void {

@@ -1,6 +1,6 @@
 [{
     "name": "Main Quest",
-    "source": "subpage",
+    "source": "mappage",
     "displayOrder": 30,
     "layers": [{
         "minZoom": 3,
@@ -90,7 +90,7 @@
     }]
 }, {
     "name": "Side Quest",
-    "source": "subpage",
+    "source": "mappage",
     "displayOrder": 32,
     "layers": [{
         "minZoom": 4,
@@ -193,7 +193,7 @@
     }]
 }, {
     "name": "Quest Objective",
-    "source": "subpage",
+    "source": "mappage",
     "displayOrder": 34,
     "layers": [{
         "minZoom": 5,

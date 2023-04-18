@@ -43,10 +43,10 @@ export class ZDMarker extends Marker {
     const editLink =
       layer.infoSource === "summary" || layer.infoSource === "section"
         ? linkParts[0]
-        : layer.infoSource === "subpage" && linkParts[1]
-        ? `${linkParts[0]}/Map/${linkParts[1]}`
-        : layer.infoSource === "subpage"
-        ? `${linkParts[0]}/Map`
+        : layer.infoSource === "mappage" && linkParts[1]
+        ? `Map:${linkParts[0]}/${linkParts[1]}`
+        : layer.infoSource === "mappage"
+        ? `Map:${linkParts[0]}`
         : linkParts[0];
 
     if (layer.icon) {
@@ -83,8 +83,8 @@ export class ZDMarker extends Marker {
               ? `${json.id}summary`
               : linkParts[1] || "summary"
           );
-        } else if (layer.infoSource === "subpage") {
-          marker.popup?.loadContentFromSubpage(linkParts[0], linkParts[1]);
+        } else if (layer.infoSource === "mappage") {
+          marker.popup?.loadContentFromMapPage(linkParts[0], linkParts[1]);
         } else if (layer.infoSource) {
           marker.popup?.loadContentFromPage(layer.infoSource);
         }
