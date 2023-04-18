@@ -5,9 +5,15 @@ import { MapLayer } from "./common/MapLayer";
 import { ZDMap } from "./common/ZDMap";
 
 window.onload = async () => {
-  const map = ZDMap.create("totk", 24000, 750, {
-    center: [-3750, -1900],
-  });
+  const map = ZDMap.create(
+    "totk",
+    24000,
+    750,
+    {
+      center: [-3750, -1900],
+    },
+    "Tears of the Kingdom"
+  );
   const sky = map.addMapLayer("Sky", "sky");
   const surface = map.addMapLayer("Surface", "surface");
   map.addControls();

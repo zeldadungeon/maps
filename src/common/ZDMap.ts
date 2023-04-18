@@ -1,5 +1,13 @@
 import * as ZDCRS from "./ZDCRS";
-import { Control, DomEvent, DomUtil, LatLngBounds, Map, Point } from "leaflet";
+import {
+  Control,
+  DomEvent,
+  DomUtil,
+  LatLngBounds,
+  Map,
+  Marker,
+  Point,
+} from "leaflet";
 import { dom, library } from "@fortawesome/fontawesome-svg-core";
 import { ICategory } from "./ICategory";
 import { ZDControl } from "./ZDControl";
@@ -12,7 +20,6 @@ import { WikiConnector } from "./WikiConnector";
 import { faCog } from "@fortawesome/free-solid-svg-icons/faCog";
 import { faSearch } from "@fortawesome/free-solid-svg-icons/faSearch";
 import { params } from "./QueryParameters";
-import { Layer } from "./Layer";
 
 library.add(faSearch, faCog);
 dom.watch();
@@ -43,7 +50,8 @@ export class ZDMap extends Map {
     directory: string,
     mapSize: number,
     tileSize: number,
-    options: L.MapOptions = {}
+    options: L.MapOptions = {},
+    wikiContributionPage: string | undefined = undefined
   ): ZDMap {
     const maxZoom = Math.round(Math.log(mapSize / tileSize) * Math.LOG2E);
     options.maxZoom = maxZoom;
@@ -85,9 +93,28 @@ export class ZDMap extends Map {
       map.layers.forEach((l) => l.updateZoom(map.getZoom()));
     });
 
+    const tempMarker = new Marker([0, 0], { draggable: true }).bindPopup("");
+    const wikiContributeLink = `<a target="_blank" href="https://zeldadungeon.net/wiki/Zelda Dungeon:${wikiContributionPage} Map">Contribute Marker</a>`;
     map.on("click", (e) => {
       console.log(e.latlng);
       map.panTo(e.latlng);
+      if (wikiContributionPage) {
+        tempMarker
+          .setLatLng(e.latlng)
+          .addTo(map)
+          .setPopupContent(
+            `Lat: ${e.latlng.lat} | Lng: ${e.latlng.lng}<br />${wikiContributeLink}`
+          )
+          .openPopup();
+      }
+    });
+    tempMarker.on("drag", (e) => {
+      const latlng = tempMarker.getLatLng();
+      tempMarker
+        .setPopupContent(
+          `Lat: ${latlng.lat} | Lng: ${latlng.lng}<br />${wikiContributeLink}`
+        )
+        .openPopup();
     });
 
     return map;
