@@ -103,7 +103,7 @@ export class ZDMap extends Map {
           .setLatLng(e.latlng)
           .addTo(map)
           .setPopupContent(
-            `Lat: ${e.latlng.lat} | Lng: ${e.latlng.lng}<br />${wikiContributeLink}`
+            `{{Pin|${e.latlng.lat}|${e.latlng.lng}|&lt;name&gt;}}<br />${wikiContributeLink}`
           )
           .openPopup();
       }
@@ -112,7 +112,7 @@ export class ZDMap extends Map {
       const latlng = tempMarker.getLatLng();
       tempMarker
         .setPopupContent(
-          `Lat: ${latlng.lat} | Lng: ${latlng.lng}<br />${wikiContributeLink}`
+          `{{Pin|${latlng.lat}|${latlng.lng}|&lt;name&gt;}}<br />${wikiContributeLink}`
         )
         .openPopup();
     });
