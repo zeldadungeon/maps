@@ -1,4 +1,5 @@
 import "./common/style.scss";
+import * as Schema from "./common/JSONSchema";
 import { Layer } from "./common/Layer";
 import { ZDMap } from "./common/ZDMap";
 
@@ -65,8 +66,17 @@ window.onload = async () => {
     },
   ]);
 
-  const wikiRegex =
-    /<div class="mw-parser-output"><p>(.*),\n<\/p>\n?<!-- \nNewPP limit report/g;
+  function addJson(categories: Schema.Category[]): void {
+    for (const category of categories) {
+      surface.addCategory(
+        category.name,
+        category.layers.map((l) =>
+          Layer.fromJSON(l, category.source, "totk", map.wiki)
+        )
+      );
+    }
+  }
+
   function addWiki(
     categoryName: string,
     wikiSubpage: string,
@@ -85,6 +95,8 @@ window.onload = async () => {
         )
         .then((result) => {
           let markers = <string>result.parse.text["*"];
+          const wikiRegex =
+            /<div class="mw-parser-output"><p>([\s\S]*),\n?<\/p>\n?<!-- \nNewPP limit report/g;
           const res = wikiRegex.exec(markers);
           markers = res ? res[1] : "";
           const layer = `{
@@ -106,6 +118,9 @@ window.onload = async () => {
   }
 
   await Promise.allSettled([
+    fetch(`${import.meta.env.BASE_URL}botw/markers/locations.json`)
+      .then((r) => r.json())
+      .then(addJson),
     addWiki("Tower", "Towers", "summary", "tower", 28, 39),
     addWiki("Shrine", "Shrines", "summary", "shrine", 26, 27),
     addWiki("Malice Pit", "Malice Pits", "summary", "objective", 20, 20),
