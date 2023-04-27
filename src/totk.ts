@@ -8,15 +8,14 @@ window.onload = async () => {
     return `${import.meta.env.BASE_URL}botw/icons/${iconName}.png`;
   }
 
-  const map = ZDMap.create(
-    "totk",
-    24000,
-    750,
-    {
-      center: [-3750, -1900],
-    },
-    "Tears of the Kingdom"
-  );
+  const map = ZDMap.create({
+    directory: "totk",
+    wikiContributionPage: "Tears of the Kingdom",
+    mapSizePixels: 24000,
+    mapSizeCoords: 12000,
+    tileSizePixels: 750,
+    center: [-1875, -950],
+  });
   const surface = map.addMapLayer("Surface", "surface");
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const sky = map.addMapLayer("Sky", "sky");

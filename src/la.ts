@@ -8,7 +8,10 @@ window.onload = async () => {
     return `${import.meta.env.BASE_URL}la/icons/${iconName}.png`;
   }
 
-  const map = ZDMap.create("la", 3280, 205, {
+  const map = ZDMap.create({
+    directory: "la",
+    mapSizePixels: 3280,
+    tileSizePixels: 205,
     center: [0, 0],
     zoom: 2,
   });

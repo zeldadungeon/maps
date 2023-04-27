@@ -26,6 +26,14 @@ import markerShadowUrl from "leaflet/dist/images/marker-shadow.png";
 library.add(faSearch, faCog);
 dom.watch();
 
+export interface ZDMapOptions extends L.MapOptions {
+  directory: string;
+  wikiContributionPage?: string;
+  mapSizePixels: number;
+  mapSizeCoords?: number;
+  tileSizePixels: number;
+}
+
 /**
  * Base class for all Zelda maps
  */
@@ -48,14 +56,10 @@ export class ZDMap extends Map {
     super(element, options);
   }
 
-  public static create(
-    directory: string,
-    mapSize: number,
-    tileSize: number,
-    options: L.MapOptions = {},
-    wikiContributionPage: string | undefined = undefined
-  ): ZDMap {
-    const maxZoom = Math.round(Math.log(mapSize / tileSize) * Math.LOG2E);
+  public static create(options: ZDMapOptions): ZDMap {
+    const maxZoom = Math.round(
+      Math.log(options.mapSizePixels / options.tileSizePixels) * Math.LOG2E
+    );
     options.maxZoom = maxZoom;
     if (options.zoom == undefined) {
       options.zoom = maxZoom - 2;
@@ -73,23 +77,32 @@ export class ZDMap extends Map {
       options.center = [initLat, initLng];
     }
 
-    const crs = ZDCRS.create(mapSize, tileSize);
+    const crs = ZDCRS.create(
+      options.mapSizeCoords ?? options.mapSizePixels,
+      options.tileSizePixels
+    );
     options.crs = crs;
 
     const bounds = new LatLngBounds(
-      crs.pointToLatLng(new Point(0, mapSize), maxZoom),
-      crs.pointToLatLng(new Point(mapSize, 0), maxZoom)
+      crs.pointToLatLng(new Point(0, options.mapSizePixels), maxZoom),
+      crs.pointToLatLng(new Point(options.mapSizePixels, 0), maxZoom)
     );
     options.maxBounds = bounds.pad(0.5);
 
     options.zoomControl = false; // adding it later, below our own controls
     options.attributionControl = false; // would like to keep this but breaks bottom legend. maybe find a better place to put it later
 
-    const map = new ZDMap("map", directory, tileSize, bounds, options);
-    map.getContainer().classList.add(`zd-map-${directory}`);
+    const map = new ZDMap(
+      "map",
+      options.directory,
+      options.tileSizePixels,
+      bounds,
+      options
+    );
+    map.getContainer().classList.add(`zd-map-${options.directory}`);
 
-    map.settingsStore = LocalStorage.getStore(directory, "settings");
-    map.wiki = new WikiConnector(directory, new Dialog(map));
+    map.settingsStore = LocalStorage.getStore(options.directory, "settings");
+    map.wiki = new WikiConnector(options.directory, new Dialog(map));
 
     map.on("zoom", (_) => {
       map.layers.forEach((l) => l.updateZoom(map.getZoom()));
@@ -99,11 +112,11 @@ export class ZDMap extends Map {
     // Fix Vite not resolving icon url from node_modules/leaflet/dist
     tempMarker.getIcon().options.iconUrl = markerIconUrl;
     tempMarker.getIcon().options.shadowUrl = markerShadowUrl;
-    const wikiContributeLink = `<a target="_blank" href="https://zeldadungeon.net/wiki/Zelda Dungeon:${wikiContributionPage} Map">Contribute Marker</a>`;
+    const wikiContributeLink = `<a target="_blank" href="https://zeldadungeon.net/wiki/Zelda Dungeon:${options.wikiContributionPage} Map">Contribute Marker</a>`;
     map.on("click", (e) => {
       console.log(e.latlng);
       map.panTo(e.latlng);
-      if (wikiContributionPage) {
+      if (options.wikiContributionPage) {
         tempMarker
           .setLatLng(e.latlng)
           .addTo(map)
