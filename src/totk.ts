@@ -69,9 +69,14 @@ window.onload = async () => {
     for (const category of categories) {
       surface.addCategory(
         category.name,
-        category.layers.map((l) =>
-          Layer.fromJSON(l, category.source, "totk", map.wiki)
-        )
+        category.layers.map((l) => {
+          // For markers imported from botw, cut the coordinates in half to match totk's coordinate system
+          for (const m of l.markers) {
+            m.coords[0] = Math.floor(m.coords[0] / 2);
+            m.coords[1] = Math.floor(m.coords[1] / 2);
+          }
+          return Layer.fromJSON(l, category.source, "totk", map.wiki);
+        })
       );
     }
   }
@@ -119,7 +124,8 @@ window.onload = async () => {
   await Promise.allSettled([
     fetch(`${import.meta.env.BASE_URL}botw/markers/locations.json`)
       .then((r) => r.json())
-      .then(addJson),
+      .then(addJson)
+      .catch((ex) => console.log(ex)),
     addWiki("Tower", "Towers", "summary", "tower", 28, 39),
     addWiki("Shrine", "Shrines", "summary", "shrine", 26, 27),
     addWiki("Malice Pit", "Malice Pits", "summary", "objective", 20, 20),
