@@ -5,7 +5,7 @@ import { ZDMap } from "./common/ZDMap";
 
 window.onload = async () => {
   function iconUrl(iconName: string) {
-    return `${import.meta.env.BASE_URL}botw/icons/${iconName}.png`;
+    return `${import.meta.env.BASE_URL}totk/icons/${iconName}.png`;
   }
 
   const map = ZDMap.create({
@@ -25,14 +25,26 @@ window.onload = async () => {
     {
       name: "Tower",
       iconUrl: iconUrl("tower"),
-      iconWidth: 28,
-      iconHeight: 39,
+      iconWidth: 31,
+      iconHeight: 38,
     },
     {
       name: "Shrine",
       iconUrl: iconUrl("shrine"),
-      iconWidth: 26,
-      iconHeight: 27,
+      iconWidth: 27,
+      iconHeight: 29,
+    },
+    {
+      name: "Lab",
+      iconUrl: iconUrl("lab"),
+      iconWidth: 39,
+      iconHeight: 35,
+    },
+    {
+      name: "Korok Seeds",
+      iconUrl: iconUrl("korok"),
+      iconWidth: 36,
+      iconHeight: 28,
     },
     {
       name: "Malice Pit",
@@ -49,8 +61,14 @@ window.onload = async () => {
     {
       name: "Village",
       iconUrl: iconUrl("village"),
-      iconWidth: 30,
-      iconHeight: 30,
+      iconWidth: 21,
+      iconHeight: 21,
+    },
+    {
+      name: "Inn",
+      iconUrl: iconUrl("inn"),
+      iconWidth: 21,
+      iconHeight: 21,
     },
     {
       name: "General Store",
@@ -127,10 +145,10 @@ window.onload = async () => {
       .then((r) => r.json())
       .then(addJson)
       .catch((ex) => console.log(ex)),
-    addWiki("Tower", "Towers", "summary", "tower", 28, 39),
-    addWiki("Shrine", "Shrines", "summary", "shrine", 26, 27),
+    addWiki("Tower", "Towers", "summary", "tower", 31, 38),
+    addWiki("Shrine", "Shrines", "summary", "shrine", 27, 29),
     addWiki("Malice Pit", "Malice Pits", "summary", "objective", 20, 20),
-    addWiki("Village", "Villages", "summary", "village", 30, 30),
+    addWiki("Village", "Villages", "summary", "village", 21, 21),
     addWiki("Stable", "Stables", "summary", "stable", 30, 30),
     addWiki("Shop", "Shops", "summary", "store", 30, 30),
     addWiki("Cave", "Caves", "summary", "settlement", 27, 27),
