@@ -118,8 +118,7 @@ window.onload = async () => {
         )
         .then((result) => {
           let markers = <string>result.parse.text["*"];
-          const wikiRegex =
-            /<div class="mw-parser-output"><p>([\s\S]*),\n?<\/p>\n?<!-- \nNewPP limit report/g;
+          const wikiRegex = /<p>([\s\S]*),\n?<\/p>/g;
           const res = wikiRegex.exec(markers);
           markers = res ? res[1] : "";
           const layer = `{
