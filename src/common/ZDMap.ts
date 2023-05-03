@@ -21,6 +21,7 @@ import { faCog } from "@fortawesome/free-solid-svg-icons/faCog";
 import { faSearch } from "@fortawesome/free-solid-svg-icons/faSearch";
 import { params } from "./QueryParameters";
 import markerIconUrl from "leaflet/dist/images/marker-icon.png";
+import markerIconRetinaUrl from "leaflet/dist/images/marker-icon-2x.png";
 import markerShadowUrl from "leaflet/dist/images/marker-shadow.png";
 
 library.add(faSearch, faCog);
@@ -111,9 +112,12 @@ export class ZDMap extends Map {
     });
 
     const tempMarker = new Marker([0, 0], { draggable: true }).bindPopup("");
-    // Fix Vite not resolving icon url from node_modules/leaflet/dist
-    tempMarker.getIcon().options.iconUrl = markerIconUrl;
-    tempMarker.getIcon().options.shadowUrl = markerShadowUrl;
+    if (import.meta.env.PROD) {
+      // Fix Vite not resolving icon url from node_modules/leaflet/dist
+      tempMarker.getIcon().options.iconUrl = markerIconUrl;
+      tempMarker.getIcon().options.iconRetinaUrl = markerIconRetinaUrl;
+      tempMarker.getIcon().options.shadowUrl = markerShadowUrl;
+    }
     const wikiContributeLink = `<a target="_blank" href="https://zeldadungeon.net/wiki/Zelda Dungeon:${options.wikiContributionPage} Map">Contribute Marker</a>`;
     map.on("click", (e) => {
       console.log(e.latlng);
