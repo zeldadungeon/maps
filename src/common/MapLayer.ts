@@ -23,7 +23,7 @@ export class MapLayer {
   ) {
     tilePath = tilePath ? `tiles/${tilePath}` : "tiles";
     this.tileLayer = new TileLayer(
-      `https://www.zeldadungeon.net/maps/${map.directory}/${tilePath}/{z}/{x}_{y}.jpg`,
+      `${import.meta.env.BASE_URL}${map.directory}/${tilePath}/{z}/{x}_{y}.jpg`,
       {
         tileSize: tileSize,
         minZoom: 0,

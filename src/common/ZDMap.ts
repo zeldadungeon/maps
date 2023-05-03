@@ -60,7 +60,9 @@ export class ZDMap extends Map {
     const maxZoom = Math.round(
       Math.log(options.mapSizePixels / options.tileSizePixels) * Math.LOG2E
     );
-    options.maxZoom = maxZoom;
+    if (options.maxZoom == undefined) {
+      options.maxZoom = maxZoom;
+    }
     if (options.zoom == undefined) {
       options.zoom = maxZoom - 2;
     }

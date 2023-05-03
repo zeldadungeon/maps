@@ -11,9 +11,10 @@ window.onload = async () => {
   const map = ZDMap.create({
     directory: "totk",
     wikiContributionPage: "Tears of the Kingdom",
-    mapSizePixels: 24000,
+    mapSizePixels: 36096,
     mapSizeCoords: 12000,
-    tileSizePixels: 750,
+    tileSizePixels: 564,
+    maxZoom: 5, // TODO remove once zoom 6 tiles are done
     center: [-1875, -950],
   });
   const surface = map.addMapLayer("Surface", "surface");
