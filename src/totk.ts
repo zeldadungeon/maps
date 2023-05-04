@@ -172,4 +172,6 @@ window.onload = async () => {
     addWiki("Shop", "Shops", "summary", "store", 30, 30),
     addWiki("Cave", "Caves", "summary", "settlement", 27, 27),
   ]);
+
+  await map.initializeWikiConnector();
 };

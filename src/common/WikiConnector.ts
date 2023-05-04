@@ -71,6 +71,7 @@ export class WikiConnector {
       (<{ [key: string]: string }>{
         la: "Link%27s+Awakening",
         botw: "Breath+of+the+Wild",
+        totk: "Tears+of+the+Kingdom",
       })[this.mapid]
     }+Map`;
   }
