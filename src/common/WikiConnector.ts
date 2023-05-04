@@ -242,12 +242,12 @@ export class WikiConnector {
       }
 
       if (response1.error.code !== "badtoken") {
-        //if (response1.error.code === "readonly") {
-        this.dialog.showDialog(
-          "Your completion was not saved because the database is currently in read-only mode while we perform a migration to prepare for increased usage. Please try again later.",
-          ["Ok"]
-        );
-        //}
+        if (response1.error.code === "readonly") {
+          this.dialog.showDialog(
+            "Your completion was not saved because the database is currently in read-only mode while we perform a migration to prepare for increased usage. Please try again later.",
+            ["Ok"]
+          );
+        }
         throw response1;
       }
     }
