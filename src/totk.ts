@@ -14,12 +14,14 @@ window.onload = async () => {
     mapSizePixels: 36096,
     mapSizeCoords: 12000,
     tileSizePixels: 564,
-    maxZoom: 5, // TODO remove once zoom 6 tiles are done
-    center: [-1875, -950],
+    maxZoom: 4, // TODO remove once zoom 5-6 tiles are done
+    center: [-1220, 500],
   });
-  const surface = map.addMapLayer("Surface", "surface");
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const sky = map.addMapLayer("Sky", "sky");
+  const surface = map.addMapLayer("Surface", "surface");
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const underground = map.addMapLayer("[spoiler]", "underground");
   map.addControls();
   map.addLegend([
     {
