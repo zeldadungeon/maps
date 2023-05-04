@@ -237,6 +237,10 @@ export class WikiConnector {
   private async postWithRetry<ResponseType>(query: string): Promise<void> {
     if (this.csrf) {
       const response1 = await this.post<ResponseType>(query);
+      this.dialog.showDialog(
+        "Your completion was not saved because the database is currently in read-only mode while we perform a migration to prepare for increased usage. Please try again later.",
+        ["Ok"]
+      );
       if (!responseIsError(response1)) {
         return;
       }
