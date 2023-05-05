@@ -1,6 +1,7 @@
 import "./common/style.scss";
 import * as Schema from "./common/JSONSchema";
 import { Layer } from "./common/Layer";
+import { MapLayer } from "./common/MapLayer";
 import { ZDMap } from "./common/ZDMap";
 
 window.onload = async () => {
@@ -120,15 +121,20 @@ window.onload = async () => {
     }
   }
 
-  function addJson(categories: Schema.Category[]): void {
-    for (const category of categories) {
-      surface.addCategory(
-        category.name,
-        category.layers.map((l) =>
-          Layer.fromJSON(l, category.source, "totk", map.wiki)
-        )
-      );
-    }
+  function addJson(layer: MapLayer, path: string): Promise<void> {
+    return fetch(`${import.meta.env.BASE_URL}totk/markers/${path}`)
+      .then((r) => r.json())
+      .then((categories: Schema.Category[]) => {
+        for (const category of categories) {
+          layer.addCategory(
+            category.name,
+            category.layers.map((l) =>
+              Layer.fromJSON(l, category.source, "totk", map.wiki)
+            )
+          );
+        }
+      })
+      .catch((ex) => console.log(ex));
   }
 
   function addWiki(
@@ -175,10 +181,8 @@ window.onload = async () => {
       .then((r) => r.json())
       .then(addBotwJson)
       .catch((ex) => console.log(ex)),
-    fetch(`${import.meta.env.BASE_URL}totk/markers/seeds.json`)
-      .then((r) => r.json())
-      .then(addJson)
-      .catch((ex) => console.log(ex)),
+    addJson(surface, "surface/seeds.json"),
+    addJson(sky, "sky/seeds.json"),
     addWiki("Tower", "Towers", "summary", "tower", 31, 38),
     addWiki("Shrine", "Shrines", "summary", "shrine", 27, 29),
     addWiki("Malice Pit", "Malice Pits", "summary", "objective", 20, 20),
