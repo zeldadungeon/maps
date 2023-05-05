@@ -55,7 +55,7 @@ window.onload = async () => {
       iconHeight: 36,
     },
     {
-      name: "Korok Seeds",
+      name: "Korok Seed",
       iconUrl: iconUrl("korok"),
       iconWidth: 36,
       iconHeight: 28,
