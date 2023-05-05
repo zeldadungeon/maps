@@ -21,6 +21,7 @@ export interface Options extends L.PopupOptions {
   name: string;
   link?: string;
   editLink?: string;
+  elevation?: number;
   wiki: WikiConnector;
   linkClicked(target: string): void;
 }
@@ -52,6 +53,11 @@ export class ZDPopup extends Popup {
     }
 
     this.body = DomUtil.create("div", "zd-popup__body", this.container);
+
+    if (options.elevation != undefined) {
+      const footer = DomUtil.create("div", "zd-popup__footer", this.container);
+      footer.innerText = `Elevation: ${options.elevation}`;
+    }
 
     this.controls = DomUtil.create("div", "zd-popup__controls", this.container);
 

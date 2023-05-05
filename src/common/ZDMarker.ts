@@ -55,6 +55,7 @@ export class ZDMarker extends Marker {
         name: json.name,
         link: json.link,
         editLink,
+        elevation: json.elv,
         wiki,
         linkClicked: (target) => {
           marker.fire("internallinkclicked", { linkTarget: target });

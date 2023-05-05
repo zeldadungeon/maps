@@ -16,6 +16,7 @@ export interface Layer {
 
 export interface Marker {
   coords: LatLngTuple;
+  elv?: number;
   id: string;
   name: string;
   link: string;
