@@ -21,7 +21,7 @@ window.onload = async () => {
   const sky = map.addMapLayer("Sky", "sky");
   const surface = map.addMapLayer("Surface", "surface");
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const underground = map.addMapLayer("[spoiler]", "underground");
+  const depths = map.addMapLayer("Depths", "depths");
   map.addControls();
   map.addLegend([
     {
