@@ -14,7 +14,7 @@ window.onload = async () => {
     mapSizePixels: 36096,
     mapSizeCoords: 12000,
     tileSizePixels: 564,
-    maxZoom: 4, // TODO remove once zoom 5-6 tiles are done
+    maxZoom: 5, // TODO remove once zoom 6 tiles are done
     center: [-1220, 500],
   });
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
