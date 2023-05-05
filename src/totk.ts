@@ -104,7 +104,7 @@ window.onload = async () => {
     },
   ]);
 
-  function addJson(categories: Schema.Category[]): void {
+  function addBotwJson(categories: Schema.Category[]): void {
     for (const category of categories) {
       surface.addCategory(
         category.name,
@@ -116,6 +116,17 @@ window.onload = async () => {
           }
           return Layer.fromJSON(l, category.source, "totk", map.wiki);
         })
+      );
+    }
+  }
+
+  function addJson(categories: Schema.Category[]): void {
+    for (const category of categories) {
+      surface.addCategory(
+        category.name,
+        category.layers.map((l) =>
+          Layer.fromJSON(l, category.source, "totk", map.wiki)
+        )
       );
     }
   }
@@ -161,6 +172,10 @@ window.onload = async () => {
 
   await Promise.allSettled([
     fetch(`${import.meta.env.BASE_URL}botw/markers/locations.json`)
+      .then((r) => r.json())
+      .then(addBotwJson)
+      .catch((ex) => console.log(ex)),
+    fetch(`${import.meta.env.BASE_URL}totk/markers/seeds.json`)
       .then((r) => r.json())
       .then(addJson)
       .catch((ex) => console.log(ex)),
