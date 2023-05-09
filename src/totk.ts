@@ -181,9 +181,9 @@ window.onload = async () => {
       .then(addBotwJson)
       .catch((ex) => console.log(ex)),
     addJson(surface, "surface/seeds.json"),
+    addJson(surface, "surface/locations.json"),
     addJson(sky, "sky/seeds.json"),
-    addWiki("Tower", "Towers", "summary", "tower", 31, 38),
-    addWiki("Shrine", "Shrines", "summary", "shrine", 27, 29),
+    addJson(sky, "sky/locations.json"),
     addWiki("Malice Pit", "Malice Pits", "summary", "objective", 20, 20),
     addWiki("Village", "Villages", "summary", "village", 21, 21),
     addWiki("Stable", "Stables", "summary", "stable", 30, 30),
