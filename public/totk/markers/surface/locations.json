@@ -1537,6 +1537,441 @@
     ]
   },
   {
+    "name": "Inn",
+    "layers": [
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "inn.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              -2889.08594,
+              -3850.25293
+            ],
+            "elv": 200,
+            "id": "ShopInn_Gerudo",
+            "name": "Inn",
+            "link": "Inn"
+          },
+          {
+            "coords": [
+              2424.02197,
+              1682.04895
+            ],
+            "elv": 489.241394,
+            "id": "ShopInn_Goron",
+            "name": "Inn",
+            "link": "Inn"
+          },
+          {
+            "coords": [
+              -2111.20898,
+              3473.24805
+            ],
+            "elv": 247.285202,
+            "id": "ShopInn_Hateno",
+            "name": "Inn",
+            "link": "Inn"
+          },
+          {
+            "coords": [
+              -1021.77197,
+              1835.56897
+            ],
+            "elv": 240,
+            "id": "ShopInn_Kakariko",
+            "name": "Inn",
+            "link": "Inn"
+          },
+          {
+            "coords": [
+              2171.22412,
+              410.871094
+            ],
+            "elv": 259.625885,
+            "id": "ShopInn_Korok",
+            "name": "Inn",
+            "link": "Inn"
+          },
+          {
+            "coords": [
+              -2609.9021,
+              -3268.25
+            ],
+            "elv": 200,
+            "id": "ShopInn_Oasis",
+            "name": "Inn",
+            "link": "Inn"
+          },
+          {
+            "coords": [
+              1852.53503,
+              -3612.09106
+            ],
+            "elv": 289.03421,
+            "id": "ShopInn_Rito",
+            "name": "Inn",
+            "link": "Inn"
+          },
+          {
+            "coords": [
+              1596.01501,
+              3999.54102
+            ],
+            "elv": 234.926804,
+            "id": "ShopInn_UMiiVillage",
+            "name": "Inn",
+            "link": "Inn"
+          },
+          {
+            "coords": [
+              -3437.03101,
+              2944.61401
+            ],
+            "elv": 134.654907,
+            "id": "ShopInn_Uotori",
+            "name": "Inn",
+            "link": "Inn"
+          },
+          {
+            "coords": [
+              508.531891,
+              3296.22803
+            ],
+            "elv": 245.862,
+            "id": "ShopInn_Zora",
+            "name": "Inn",
+            "link": "Inn"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "General Store",
+    "layers": [
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "general.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              76.5611115,
+              -205.766998
+            ],
+            "elv": 125.3703,
+            "id": "ShopGeneral_BaseCamp",
+            "name": "General Store",
+            "link": "General Store"
+          },
+          {
+            "coords": [
+              -2936.28809,
+              -3821.89404
+            ],
+            "elv": 199.991806,
+            "id": "ShopGeneral_Gerudo",
+            "name": "General Store",
+            "link": "General Store"
+          },
+          {
+            "coords": [
+              -2903.61499,
+              -3848.65698
+            ],
+            "elv": 199.985107,
+            "id": "ShopGeneral_Gerudo1",
+            "name": "General Store",
+            "link": "General Store"
+          },
+          {
+            "coords": [
+              -2913.24805,
+              -3857.54492
+            ],
+            "elv": 200,
+            "id": "ShopGeneral_Gerudo2",
+            "name": "General Store",
+            "link": "General Store"
+          },
+          {
+            "coords": [
+              -2878.63306,
+              -3823.01807
+            ],
+            "elv": 199.995605,
+            "id": "ShopGeneral_Gerudo3",
+            "name": "General Store",
+            "link": "General Store"
+          },
+          {
+            "coords": [
+              -2925.89502,
+              -3819.99194
+            ],
+            "elv": 199.981094,
+            "id": "ShopGeneral_Gerudo4",
+            "name": "General Store",
+            "link": "General Store"
+          },
+          {
+            "coords": [
+              2463.48901,
+              1683.57996
+            ],
+            "elv": 490.818909,
+            "id": "ShopGeneral_Goron",
+            "name": "General Store",
+            "link": "General Store"
+          },
+          {
+            "coords": [
+              -2171.56299,
+              3360.78101
+            ],
+            "elv": 238.589798,
+            "id": "ShopGeneral_Hateno",
+            "name": "General Store",
+            "link": "General Store"
+          },
+          {
+            "coords": [
+              -1041.00195,
+              1825.85803
+            ],
+            "elv": 235.653702,
+            "id": "ShopGeneral_Kakariko",
+            "name": "General Store",
+            "link": "General Store"
+          },
+          {
+            "coords": [
+              -1029.26404,
+              1794.48303
+            ],
+            "elv": 235.035507,
+            "id": "ShopGeneral_Kakariko1",
+            "name": "General Store",
+            "link": "General Store"
+          },
+          {
+            "coords": [
+              2173.99805,
+              431.808105
+            ],
+            "elv": 258.358185,
+            "id": "ShopGeneral_Korok",
+            "name": "General Store",
+            "link": "General Store"
+          },
+          {
+            "coords": [
+              -2604.25,
+              -3262.25
+            ],
+            "elv": 200,
+            "id": "ShopGeneral_Oasis",
+            "name": "General Store",
+            "link": "General Store"
+          },
+          {
+            "coords": [
+              -2564.52588,
+              -3277.98901
+            ],
+            "elv": 200,
+            "id": "ShopGeneral_Oasis1",
+            "name": "General Store",
+            "link": "General Store"
+          },
+          {
+            "coords": [
+              -2535.99512,
+              -3274.01196
+            ],
+            "elv": 200,
+            "id": "ShopGeneral_Oasis2",
+            "name": "General Store",
+            "link": "General Store"
+          },
+          {
+            "coords": [
+              1820.45605,
+              -3644.61304
+            ],
+            "elv": 289.877991,
+            "id": "ShopGeneral_Rito",
+            "name": "General Store",
+            "link": "General Store"
+          },
+          {
+            "coords": [
+              1634.14697,
+              4005.82104
+            ],
+            "elv": 234.076004,
+            "id": "ShopGeneral_UMiiVillage",
+            "name": "General Store",
+            "link": "General Store"
+          },
+          {
+            "coords": [
+              -3493.90894,
+              2959.35596
+            ],
+            "elv": 106.848701,
+            "id": "ShopGeneral_Uotori",
+            "name": "General Store",
+            "link": "General Store"
+          },
+          {
+            "coords": [
+              490.742889,
+              3322.85107
+            ],
+            "elv": 245.462006,
+            "id": "ShopGeneral_Zora",
+            "name": "General Store",
+            "link": "General Store"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Armor Shop",
+    "layers": [
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "armor.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              86.8024521,
+              -205.7668
+            ],
+            "elv": 125.3703,
+            "id": "ShopArmor_BaseCamp",
+            "name": "Armor Shop",
+            "link": "Armor Shop"
+          },
+          {
+            "coords": [
+              -2552,
+              -3275.5
+            ],
+            "elv": 200,
+            "id": "ShopArmor_Gerudo",
+            "name": "Armor Shop",
+            "link": "Armor Shop"
+          },
+          {
+            "coords": [
+              2409.20093,
+              1642.86902
+            ],
+            "elv": 490.157806,
+            "id": "ShopArmor_Goron",
+            "name": "Armor Shop",
+            "link": "Armor Shop"
+          },
+          {
+            "coords": [
+              -2127.875,
+              3356.95288
+            ],
+            "elv": 238.589798,
+            "id": "ShopArmor_Hateno",
+            "name": "Armor Shop",
+            "link": "Armor Shop"
+          },
+          {
+            "coords": [
+              -981.323486,
+              1854.68604
+            ],
+            "elv": 239.381805,
+            "id": "ShopArmor_Kakariko",
+            "name": "Armor Shop",
+            "link": "Armor Shop"
+          },
+          {
+            "coords": [
+              1787.28503,
+              -3631.48999
+            ],
+            "elv": 292.218292,
+            "id": "ShopArmor_Rito",
+            "name": "Armor Shop",
+            "link": "Armor Shop"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jewelry Shop",
+    "layers": [
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "jewelry.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              -2877.07007,
+              -3836.802
+            ],
+            "elv": 200,
+            "id": "ShopJewelry_Gerudo",
+            "name": "Jewelry Shop",
+            "link": "Jewelry Shop"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dye Shop",
+    "layers": [
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "dye.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              -2152.26001,
+              3403.98608
+            ],
+            "elv": 238.589798,
+            "id": "ShopDye_Hateno",
+            "name": "Dye Shop",
+            "link": "Dye Shop"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Location",
     "layers": [
       {

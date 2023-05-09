@@ -87,14 +87,32 @@ window.onload = async () => {
     {
       name: "Inn",
       iconUrl: iconUrl("inn"),
-      iconWidth: 21,
-      iconHeight: 21,
+      iconWidth: 29,
+      iconHeight: 29,
     },
     {
-      name: "Evil Shop",
-      iconUrl: iconUrl("evil"),
-      iconWidth: 21,
-      iconHeight: 21,
+      name: "General Store",
+      iconUrl: iconUrl("general"),
+      iconWidth: 29,
+      iconHeight: 29,
+    },
+    {
+      name: "Armor Shop",
+      iconUrl: iconUrl("armor"),
+      iconWidth: 29,
+      iconHeight: 29,
+    },
+    {
+      name: "Jewelry Shop",
+      iconUrl: iconUrl("jewelry"),
+      iconWidth: 29,
+      iconHeight: 29,
+    },
+    {
+      name: "Dye Shop",
+      iconUrl: iconUrl("dye"),
+      iconWidth: 29,
+      iconHeight: 29,
     },
     {
       name: "Cave",
@@ -194,7 +212,6 @@ window.onload = async () => {
     addJson(sky, "sky/seeds.json"),
     addJson(sky, "sky/locations.json"),
     addWiki("Malice Pit", "Malice Pits", "summary", "objective", 20, 20),
-    addWiki("Shop", "Shops", "summary", "store", 30, 30),
     addWiki("Cave", "Caves", "summary", "settlement", 27, 27),
   ]);
 
