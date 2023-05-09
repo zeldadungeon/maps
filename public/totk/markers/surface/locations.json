@@ -1093,21 +1093,11 @@
         "markers": [
           {
             "coords": [
-              -77.055687,
-              -3096.33398
+              966.086609,
+              -1412.526
             ],
-            "elv": 317.021698,
-            "id": "DragonTears06",
-            "name": "Dragon Tear",
-            "link": "Dragon Tear"
-          },
-          {
-            "coords": [
-              -1699.68701,
-              -3178.36499
-            ],
-            "elv": 524.820007,
-            "id": "DragonTears05",
+            "elv": 229.675293,
+            "id": "DragonTears01",
             "name": "Dragon Tear",
             "link": "Dragon Tear"
           },
@@ -1123,6 +1113,56 @@
           },
           {
             "coords": [
+              737.593384,
+              1828.32703
+            ],
+            "elv": 195.408997,
+            "id": "DragonTears03",
+            "name": "Dragon Tear",
+            "link": "Dragon Tear"
+          },
+          {
+            "coords": [
+              -1309.22205,
+              694.62793
+            ],
+            "elv": 159.063004,
+            "id": "DragonTears04",
+            "name": "Dragon Tear",
+            "link": "Dragon Tear"
+          },
+          {
+            "coords": [
+              -1699.68701,
+              -3178.36499
+            ],
+            "elv": 524.820007,
+            "id": "DragonTears05",
+            "name": "Dragon Tear",
+            "link": "Dragon Tear"
+          },
+          {
+            "coords": [
+              -77.055687,
+              -3096.33398
+            ],
+            "elv": 317.021698,
+            "id": "DragonTears06",
+            "name": "Dragon Tear",
+            "link": "Dragon Tear"
+          },
+          {
+            "coords": [
+              -3566.44995,
+              3325.72803
+            ],
+            "elv": 110.584,
+            "id": "DragonTears07",
+            "name": "Dragon Tear",
+            "link": "Dragon Tear"
+          },
+          {
+            "coords": [
               3621.79004,
               -1863.68604
             ],
@@ -1133,11 +1173,11 @@
           },
           {
             "coords": [
-              966.086609,
-              -1412.526
+              -304.990997,
+              4467.70215
             ],
-            "elv": 229.675293,
-            "id": "DragonTears01",
+            "elv": 180.834,
+            "id": "DragonTears09",
             "name": "Dragon Tear",
             "link": "Dragon Tear"
           },
@@ -1163,51 +1203,11 @@
           },
           {
             "coords": [
-              -1309.22205,
-              694.62793
-            ],
-            "elv": 159.063004,
-            "id": "DragonTears04",
-            "name": "Dragon Tear",
-            "link": "Dragon Tear"
-          },
-          {
-            "coords": [
-              737.593384,
-              1828.32703
-            ],
-            "elv": 195.408997,
-            "id": "DragonTears03",
-            "name": "Dragon Tear",
-            "link": "Dragon Tear"
-          },
-          {
-            "coords": [
-              -3566.44995,
-              3325.72803
-            ],
-            "elv": 110.584,
-            "id": "DragonTears07",
-            "name": "Dragon Tear",
-            "link": "Dragon Tear"
-          },
-          {
-            "coords": [
               2144.08691,
               4534.67676
             ],
             "elv": 106.501198,
             "id": "DragonTears12",
-            "name": "Dragon Tear",
-            "link": "Dragon Tear"
-          },
-          {
-            "coords": [
-              -304.990997,
-              4467.70215
-            ],
-            "elv": 180.834,
-            "id": "DragonTears09",
             "name": "Dragon Tear",
             "link": "Dragon Tear"
           }
