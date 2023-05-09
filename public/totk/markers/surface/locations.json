@@ -1082,6 +1082,7 @@
   },
   {
     "name": "Dragon Tear",
+    "source": "summary",
     "layers": [
       {
         "minZoom": 1,
@@ -1217,6 +1218,7 @@
   },
   {
     "name": "Stable",
+    "source": "summary",
     "layers": [
       {
         "minZoom": 2,
@@ -1402,6 +1404,7 @@
   },
   {
     "name": "Village",
+    "source": "summary",
     "layers": [
       {
         "minZoom": 1,
@@ -1538,6 +1541,7 @@
   },
   {
     "name": "Inn",
+    "source": "summary",
     "layers": [
       {
         "minZoom": 5,
@@ -1653,6 +1657,7 @@
   },
   {
     "name": "General Store",
+    "source": "summary",
     "layers": [
       {
         "minZoom": 5,
@@ -1848,6 +1853,7 @@
   },
   {
     "name": "Armor Shop",
+    "source": "summary",
     "layers": [
       {
         "minZoom": 5,
@@ -1923,6 +1929,7 @@
   },
   {
     "name": "Jewelry Shop",
+    "source": "summary",
     "layers": [
       {
         "minZoom": 5,
@@ -1948,6 +1955,7 @@
   },
   {
     "name": "Dye Shop",
+    "source": "summary",
     "layers": [
       {
         "minZoom": 5,
