@@ -112,6 +112,9 @@ window.onload = async () => {
 
   function addBotwJson(categories: Schema.Category[]): void {
     for (const category of categories) {
+      if (category.name == "Region") {
+        continue;
+      }
       surface.addCategory(
         category.name,
         category.layers.map((l) => {

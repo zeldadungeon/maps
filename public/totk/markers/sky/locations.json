@@ -334,5 +334,96 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Location",
+    "layers": [
+      {
+        "minZoom": 0,
+        "maxZoom": 1,
+        "markers": [
+          {
+            "coords": [
+              2088.80908,
+              1978.94897
+            ],
+            "elv": 2000,
+            "id": "MapRegion_Eldin_Sky",
+            "name": "Eldin Sky",
+            "link": "Eldin Sky"
+          },
+          {
+            "coords": [
+              -2825.31592,
+              969.328186
+            ],
+            "elv": 1000,
+            "id": "MapRegion_Firone_Sky",
+            "name": "Faron Sky",
+            "link": "Faron Sky"
+          },
+          {
+            "coords": [
+              -2759.06494,
+              -3624.86792
+            ],
+            "elv": 2000,
+            "id": "MapRegion_Gerudo_Sky",
+            "name": "Gerudo Sky",
+            "link": "Gerudo Sky"
+          },
+          {
+            "coords": [
+              -1964.22803,
+              2642.646
+            ],
+            "elv": 2000,
+            "id": "MapRegion_Hateru_Sky",
+            "name": "Necluda Sky",
+            "link": "Necluda Sky"
+          },
+          {
+            "coords": [
+              2442.13599,
+              -3357.823
+            ],
+            "elv": 1000,
+            "id": "MapRegion_Hebura_Sky",
+            "name": "Hebra Sky",
+            "link": "Hebra Sky"
+          },
+          {
+            "coords": [
+              77.9341965,
+              -247.977493
+            ],
+            "elv": 2000,
+            "id": "MapRegion_HyrulePrairie_Sky",
+            "name": "Central Hyrule Sky",
+            "link": "Central Hyrule Sky"
+          },
+          {
+            "coords": [
+              -499.824188,
+              3174.93311
+            ],
+            "elv": 2000,
+            "id": "MapRegion_Lanayru_Sky",
+            "name": "Lanayru Sky",
+            "link": "Lanayru Sky"
+          },
+          {
+            "coords": [
+              2575.97803,
+              3950.05908
+            ],
+            "elv": 2000,
+            "id": "MapRegion_Tamul_Sky",
+            "name": "Akkala Sky",
+            "link": "Akkala Sky"
+          }
+        ]
+      }
+    ]
   }
 ]

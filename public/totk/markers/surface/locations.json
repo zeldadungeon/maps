@@ -1252,7 +1252,7 @@
               1760.78101
             ],
             "elv": 131.284302,
-            "id": "FaronHatago000",
+            "id": "FaronHatago0001",
             "name": "Dueling Peaks Stable",
             "link": "Dueling Peaks Stable"
           },
@@ -1322,7 +1322,7 @@
               -1361
             ],
             "elv": 191.5,
-            "id": "NewHyruleWestHatago",
+            "id": "NewHyruleWestHatago1",
             "name": "New Serenne Stable",
             "link": "New Serenne Stable"
           },
@@ -1372,7 +1372,7 @@
               -1654.22998
             ],
             "elv": 347.931793,
-            "id": "TabantaHatago",
+            "id": "TabantaHatago1",
             "name": "Snowfield Stable",
             "link": "Snowfield Stable"
           },
@@ -1531,6 +1531,97 @@
             "id": "WhiteZora",
             "name": "Zora\u0027s Domain",
             "link": "Zora\u0027s Domain"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Location",
+    "layers": [
+      {
+        "minZoom": 0,
+        "maxZoom": 1,
+        "markers": [
+          {
+            "coords": [
+              2232.06104,
+              1934.86499
+            ],
+            "elv": 0,
+            "id": "MapRegion_Eldin",
+            "name": "Eldin",
+            "link": "Eldin"
+          },
+          {
+            "coords": [
+              -2825.31592,
+              969.328186
+            ],
+            "elv": 0,
+            "id": "MapRegion_Firone",
+            "name": "Faron",
+            "link": "Faron"
+          },
+          {
+            "coords": [
+              -3257.34204,
+              -3989.0061
+            ],
+            "elv": 0,
+            "id": "MapRegion_Gerudo",
+            "name": "Gerudo",
+            "link": "Gerudo"
+          },
+          {
+            "coords": [
+              -1685.25598,
+              2500.50488
+            ],
+            "elv": 0,
+            "id": "MapRegion_Hateru",
+            "name": "Necluda",
+            "link": "Necluda"
+          },
+          {
+            "coords": [
+              2704.61011,
+              -3357.823
+            ],
+            "elv": 0,
+            "id": "MapRegion_Hebura",
+            "name": "Hebra",
+            "link": "Hebra"
+          },
+          {
+            "coords": [
+              -116.213402,
+              -256.196808
+            ],
+            "elv": 0,
+            "id": "MapRegion_HyrulePrairie",
+            "name": "Central Hyrule",
+            "link": "Central Hyrule"
+          },
+          {
+            "coords": [
+              -615.161987,
+              3174.93311
+            ],
+            "elv": 0,
+            "id": "MapRegion_Lanayru",
+            "name": "Lanayru",
+            "link": "Lanayru"
+          },
+          {
+            "coords": [
+              3039.23096,
+              3556.76904
+            ],
+            "elv": 0,
+            "id": "MapRegion_Tamul",
+            "name": "Akkala",
+            "link": "Akkala"
           }
         ]
       }
