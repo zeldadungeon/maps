@@ -1214,5 +1214,326 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Stable",
+    "layers": [
+      {
+        "minZoom": 2,
+        "icon": {
+          "url": "stable.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              1143.51294,
+              2613.33203
+            ],
+            "elv": 253.788696,
+            "id": "DeathMountainHatago",
+            "name": "Foothill Stable",
+            "link": "Foothill Stable"
+          },
+          {
+            "coords": [
+              -1924.37402,
+              1756.5
+            ],
+            "elv": 158.982193,
+            "id": "FaronHatago000",
+            "name": "Dueling Peaks Stable",
+            "link": "Dueling Peaks Stable"
+          },
+          {
+            "coords": [
+              -1925.35999,
+              1760.78101
+            ],
+            "elv": 131.284302,
+            "id": "FaronHatago000",
+            "name": "Dueling Peaks Stable",
+            "link": "Dueling Peaks Stable"
+          },
+          {
+            "coords": [
+              -3537.83911,
+              1552.02295
+            ],
+            "elv": 210.5625,
+            "id": "FaronHatago001",
+            "name": "Lakeside Stable",
+            "link": "Lakeside Stable"
+          },
+          {
+            "coords": [
+              -3450.88306,
+              529.600098
+            ],
+            "elv": 200.558105,
+            "id": "FaronHatago002",
+            "name": "Highland Stable",
+            "link": "Highland Stable"
+          },
+          {
+            "coords": [
+              1135.33899,
+              1062.30298
+            ],
+            "elv": 171.958405,
+            "id": "ForestHatago",
+            "name": "Woodland Stable",
+            "link": "Woodland Stable"
+          },
+          {
+            "coords": [
+              -2225.76489,
+              -2803.81201
+            ],
+            "elv": 178.585693,
+            "id": "GerudoHatago",
+            "name": "Gerudo Canyon Stable",
+            "link": "Gerudo Canyon Stable"
+          },
+          {
+            "coords": [
+              -1269.01099,
+              -1449.49304
+            ],
+            "elv": 181.419006,
+            "id": "HyruleDepthHatago",
+            "name": "Outskirt Stable",
+            "link": "Outskirt Stable"
+          },
+          {
+            "coords": [
+              678.562073,
+              -1293.83997
+            ],
+            "elv": 188.712997,
+            "id": "NewHyruleWestHatago",
+            "name": "New Serenne Stable",
+            "link": "New Serenne Stable"
+          },
+          {
+            "coords": [
+              724,
+              -1361
+            ],
+            "elv": 191.5,
+            "id": "NewHyruleWestHatago",
+            "name": "New Serenne Stable",
+            "link": "New Serenne Stable"
+          },
+          {
+            "coords": [
+              -173.672302,
+              888.061584
+            ],
+            "elv": 175.965698,
+            "id": "NorthHatelHatago",
+            "name": "Wetland Stable",
+            "link": "Wetland Stable"
+          },
+          {
+            "coords": [
+              -1095.297,
+              339.232391
+            ],
+            "elv": 145.3125,
+            "id": "RiverSideHatago",
+            "name": "Riverside Stable",
+            "link": "Riverside Stable"
+          },
+          {
+            "coords": [
+              547.598022,
+              -2931.56812
+            ],
+            "elv": 319.162292,
+            "id": "TabantaBridgeHatago",
+            "name": "Tabantha Bridge Stable",
+            "link": "Tabantha Bridge Stable"
+          },
+          {
+            "coords": [
+              2572.15601,
+              -1654.88306
+            ],
+            "elv": 382.022614,
+            "id": "TabantaHatago",
+            "name": "Snowfield Stable",
+            "link": "Snowfield Stable"
+          },
+          {
+            "coords": [
+              2565.62891,
+              -1654.22998
+            ],
+            "elv": 347.931793,
+            "id": "TabantaHatago",
+            "name": "Snowfield Stable",
+            "link": "Snowfield Stable"
+          },
+          {
+            "coords": [
+              2745.64307,
+              4230.52197
+            ],
+            "elv": 275.289612,
+            "id": "TamourHatago",
+            "name": "East Akkala Stable",
+            "link": "East Akkala Stable"
+          },
+          {
+            "coords": [
+              1691.448,
+              3148.67603
+            ],
+            "elv": 338.639801,
+            "id": "TamurulHatago_02",
+            "name": "South Akkala Stable",
+            "link": "South Akkala Stable"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Village",
+    "layers": [
+      {
+        "minZoom": 1,
+        "maxZoom": 4,
+        "icon": {
+          "url": "village.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              101.6017,
+              -254.119904
+            ],
+            "elv": 123.446701,
+            "id": "City_BaseCamp",
+            "name": "Lookout Landing",
+            "link": "Lookout Landing"
+          },
+          {
+            "coords": [
+              2140,
+              419
+            ],
+            "elv": 0,
+            "id": "Cokiri",
+            "name": "Korok Forest",
+            "link": "Korok Forest"
+          },
+          {
+            "coords": [
+              -2940.52295,
+              -3858.95996
+            ],
+            "elv": 138.300003,
+            "id": "Gerudo",
+            "name": "Gerudo Town",
+            "link": "Gerudo Town"
+          },
+          {
+            "coords": [
+              -2942,
+              -3866
+            ],
+            "elv": 116.6548,
+            "id": "Gerudo1",
+            "name": "Gerudo Town",
+            "link": "Gerudo Town"
+          },
+          {
+            "coords": [
+              -2926.19702,
+              -3844.5
+            ],
+            "elv": 149.1689,
+            "id": "Gerudo2",
+            "name": "Gerudo Town",
+            "link": "Gerudo Town"
+          },
+          {
+            "coords": [
+              2440,
+              1657.25195
+            ],
+            "elv": 445.630188,
+            "id": "Goron",
+            "name": "Goron City",
+            "link": "Goron City"
+          },
+          {
+            "coords": [
+              -2089.91699,
+              3545.02905
+            ],
+            "elv": 337.034393,
+            "id": "Hateno",
+            "name": "Hateno Village",
+            "link": "Hateno Village"
+          },
+          {
+            "coords": [
+              -988.039124,
+              1817.43005
+            ],
+            "elv": 224.4552,
+            "id": "Kakariko",
+            "name": "Kakariko Village",
+            "link": "Kakariko Village"
+          },
+          {
+            "coords": [
+              1799.81604,
+              -3620.76489
+            ],
+            "elv": 208.671997,
+            "id": "Rito",
+            "name": "Rito Village",
+            "link": "Rito Village"
+          },
+          {
+            "coords": [
+              -3473.62891,
+              3007.31006
+            ],
+            "elv": 142.497894,
+            "id": "Taura",
+            "name": "Lurelin Village",
+            "link": "Lurelin Village"
+          },
+          {
+            "coords": [
+              1611.18005,
+              3965.63892
+            ],
+            "elv": 233.237106,
+            "id": "UMiiVillage",
+            "name": "Tarrey Town",
+            "link": "Tarrey Town"
+          },
+          {
+            "coords": [
+              545.105713,
+              3330.60693
+            ],
+            "elv": 242.662003,
+            "id": "WhiteZora",
+            "name": "Zora\u0027s Domain",
+            "link": "Zora\u0027s Domain"
+          }
+        ]
+      }
+    ]
   }
 ]

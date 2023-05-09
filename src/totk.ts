@@ -73,10 +73,16 @@ window.onload = async () => {
       iconHeight: 21,
     },
     {
+      name: "Stable",
+      iconUrl: iconUrl("stable"),
+      iconWidth: 29,
+      iconHeight: 29,
+    },
+    {
       name: "Village",
       iconUrl: iconUrl("village"),
-      iconWidth: 21,
-      iconHeight: 21,
+      iconWidth: 29,
+      iconHeight: 29,
     },
     {
       name: "Inn",
@@ -185,8 +191,6 @@ window.onload = async () => {
     addJson(sky, "sky/seeds.json"),
     addJson(sky, "sky/locations.json"),
     addWiki("Malice Pit", "Malice Pits", "summary", "objective", 20, 20),
-    addWiki("Village", "Villages", "summary", "village", 21, 21),
-    addWiki("Stable", "Stables", "summary", "stable", 30, 30),
     addWiki("Shop", "Shops", "summary", "store", 30, 30),
     addWiki("Cave", "Caves", "summary", "settlement", 27, 27),
   ]);
