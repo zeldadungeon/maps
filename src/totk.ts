@@ -43,6 +43,12 @@ window.onload = async () => {
       iconHeight: 35,
     },
     {
+      name: "Korok Seed",
+      iconUrl: iconUrl("korok"),
+      iconWidth: 27,
+      iconHeight: 27,
+    },
+    {
       name: "Recycle Box",
       iconUrl: iconUrl("recycle"),
       iconWidth: 22,
@@ -53,12 +59,6 @@ window.onload = async () => {
       iconUrl: iconUrl("tear"),
       iconWidth: 31,
       iconHeight: 36,
-    },
-    {
-      name: "Korok Seed",
-      iconUrl: iconUrl("korok"),
-      iconWidth: 36,
-      iconHeight: 28,
     },
     {
       name: "Great Fairy",
