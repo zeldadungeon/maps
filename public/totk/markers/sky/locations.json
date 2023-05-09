@@ -336,6 +336,272 @@
     ]
   },
   {
+    "name": "Recycle Box",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "recycle.png",
+          "width": 36,
+          "height": 36
+        },
+        "markers": [
+          {
+            "coords": [
+              -3331.83594,
+              1104.48096
+            ],
+            "elv": 932.964417,
+            "id": "RBox_Field_K",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              -3239.02393,
+              1390.92102
+            ],
+            "elv": 522.46228,
+            "id": "RBox_Field_J_02",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              636.958679,
+              3430.19995
+            ],
+            "elv": 1421.59998,
+            "id": "RBox_Field_C",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              1542.74402,
+              3755.34302
+            ],
+            "elv": 1262.479,
+            "id": "RBox_Field_L",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              2076.31299,
+              4557.78711
+            ],
+            "elv": 1259.60095,
+            "id": "RBox_Field_Q",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              -1585.25,
+              -1212.88696
+            ],
+            "elv": 1112.427,
+            "id": "RBox_Field_D_02",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              1221.95398,
+              1983.38501
+            ],
+            "elv": 1355.68298,
+            "id": "RBox_Field_F",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              -2151.28003,
+              1344.17297
+            ],
+            "elv": 689.979492,
+            "id": "RBox_Field_J",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              -1718.797,
+              2320.98999
+            ],
+            "elv": 1590.18994,
+            "id": "RBox_Field_T",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              -2958.55688,
+              2851.89404
+            ],
+            "elv": 1316.604,
+            "id": "RBox_Field_K_02",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              -373.696289,
+              -3457.10107
+            ],
+            "elv": 2048.49512,
+            "id": "RBox_Field_I",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              -2019.26196,
+              -1771.54102
+            ],
+            "elv": 1253.479,
+            "id": "RBox_Field_H",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              3371.39404,
+              -1705.07996
+            ],
+            "elv": 1053.479,
+            "id": "RBox_Field_E_02",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              2821.77197,
+              443.356415
+            ],
+            "elv": 1925.479,
+            "id": "RBox_Field_M",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              1981.922,
+              215.118103
+            ],
+            "elv": 859.686523,
+            "id": "RBox_Field_M_02",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              781.661316,
+              -2370.5459
+            ],
+            "elv": 716.079407,
+            "id": "RBox_Field_D",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              -1096.44604,
+              1778.38098
+            ],
+            "elv": 1022.69397,
+            "id": "RBox_Field_R",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              -805.631409,
+              4510.59912
+            ],
+            "elv": 1221.70398,
+            "id": "RBox_Field_G",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              -1029.63098,
+              4675.31299
+            ],
+            "elv": 1894.479,
+            "id": "RBox_Field_N",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              2766.93994,
+              -3803.229
+            ],
+            "elv": 807.336182,
+            "id": "RBox_Field_E",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              393.579987,
+              -3455.31201
+            ],
+            "elv": 1799.55298,
+            "id": "RBox_Field_I_02",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              1066.37598,
+              -3612.14502
+            ],
+            "elv": 1761.08398,
+            "id": "RBox_Field_S",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              502.278412,
+              2915.65698
+            ],
+            "elv": 1055.86096,
+            "id": "RBox_Field_G_02",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              -1686.18506,
+              435.444305
+            ],
+            "elv": 1547.82104,
+            "id": "RBox_Field_A",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              -1259.54004,
+              769.09198
+            ],
+            "elv": 1684.45898,
+            "id": "RBox_Field_B",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Location",
     "layers": [
       {

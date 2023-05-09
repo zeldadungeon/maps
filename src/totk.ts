@@ -49,28 +49,16 @@ window.onload = async () => {
       iconHeight: 27,
     },
     {
-      name: "Recycle Box",
-      iconUrl: iconUrl("recycle"),
-      iconWidth: 22,
-      iconHeight: 22,
-    },
-    {
       name: "Dragon Tear",
       iconUrl: iconUrl("tear"),
       iconWidth: 31,
       iconHeight: 36,
     },
     {
-      name: "Great Fairy",
-      iconUrl: iconUrl("fountain"),
+      name: "Recycle Box",
+      iconUrl: iconUrl("recycle"),
       iconWidth: 36,
       iconHeight: 36,
-    },
-    {
-      name: "Malice Pit",
-      iconUrl: iconUrl("objective"),
-      iconWidth: 21,
-      iconHeight: 21,
     },
     {
       name: "Stable",
@@ -113,6 +101,18 @@ window.onload = async () => {
       iconUrl: iconUrl("dye"),
       iconWidth: 29,
       iconHeight: 29,
+    },
+    {
+      name: "Great Fairy",
+      iconUrl: iconUrl("fountain"),
+      iconWidth: 36,
+      iconHeight: 36,
+    },
+    {
+      name: "Malice Pit",
+      iconUrl: iconUrl("objective"),
+      iconWidth: 21,
+      iconHeight: 21,
     },
     {
       name: "Cave",
