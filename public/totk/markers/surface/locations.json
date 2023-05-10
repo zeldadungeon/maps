@@ -6,8 +6,8 @@
       {
         "icon": {
           "url": "tower.png",
-          "width": 31,
-          "height": 38
+          "width": 30,
+          "height": 30
         },
         "markers": [
           {
@@ -172,8 +172,8 @@
         "minZoom": 1,
         "icon": {
           "url": "shrine.png",
-          "width": 27,
-          "height": 29
+          "width": 30,
+          "height": 30
         },
         "markers": [
           {

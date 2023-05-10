@@ -7,8 +7,8 @@
         "minZoom": 1,
         "icon": {
           "url": "shrine.png",
-          "width": 27,
-          "height": 29
+          "width": 30,
+          "height": 30
         },
         "markers": [
           {

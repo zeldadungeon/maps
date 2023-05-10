@@ -27,20 +27,26 @@ window.onload = async () => {
     {
       name: "Tower",
       iconUrl: iconUrl("tower"),
-      iconWidth: 31,
-      iconHeight: 38,
+      iconWidth: 30,
+      iconHeight: 30,
     },
     {
       name: "Shrine",
       iconUrl: iconUrl("shrine"),
-      iconWidth: 27,
-      iconHeight: 29,
+      iconWidth: 30,
+      iconHeight: 30,
+    },
+    {
+      name: "Lightroot",
+      iconUrl: iconUrl("lightroot"),
+      iconWidth: 30,
+      iconHeight: 30,
     },
     {
       name: "Lab",
       iconUrl: iconUrl("lab"),
-      iconWidth: 39,
-      iconHeight: 35,
+      iconWidth: 30,
+      iconHeight: 30,
     },
     {
       name: "Korok Seed",
@@ -164,6 +170,7 @@ window.onload = async () => {
   }
 
   function addWiki(
+    mapLayer: MapLayer,
     categoryName: string,
     wikiSubpage: string,
     infoSource: string,
@@ -194,7 +201,7 @@ window.onload = async () => {
     ${markers}
   ]
 }`;
-          surface.addCategory(categoryName, [
+          mapLayer.addCategory(categoryName, [
             Layer.fromJSON(JSON.parse(layer), infoSource, "totk", map.wiki),
           ]);
         })
@@ -211,8 +218,17 @@ window.onload = async () => {
     addJson(surface, "surface/locations.json"),
     addJson(sky, "sky/seeds.json"),
     addJson(sky, "sky/locations.json"),
-    addWiki("Malice Pit", "Malice Pits", "summary", "objective", 20, 20),
-    addWiki("Cave", "Caves", "summary", "settlement", 27, 27),
+    addWiki(depths, "Lightroot", "Lightroots", "summary", "lightroot", 30, 30),
+    addWiki(
+      surface,
+      "Malice Pit",
+      "Malice Pits",
+      "summary",
+      "objective",
+      20,
+      20
+    ),
+    addWiki(surface, "Cave", "Caves", "summary", "settlement", 27, 27),
   ]);
 
   await map.initializeWikiConnector();
