@@ -1081,6 +1081,42 @@
     ]
   },
   {
+    "name": "Tech Lab",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 1,
+        "icon": {
+          "url": "lab.png",
+          "width": 30,
+          "height": 30
+        },
+        "markers": [
+          {
+            "coords": [
+              -2127.36206,
+              3777.70996
+            ],
+            "elv": 335.311096,
+            "id": "HatenoLabo",
+            "name": "Hateno Ancient Tech Lab",
+            "link": "Hateno Ancient Tech Lab"
+          },
+          {
+            "coords": [
+              3166.63306,
+              4522.01514
+            ],
+            "elv": 304.232697,
+            "id": "AncientLabo",
+            "name": "Akkala Ancient Tech Lab",
+            "link": "Akkala Ancient Tech Lab"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Dragon Tear",
     "source": "summary",
     "layers": [
