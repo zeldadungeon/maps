@@ -178,536 +178,6 @@
         "markers": [
           {
             "coords": [
-              2880.47412,
-              -4538.60303
-            ],
-            "elv": 381.580994,
-            "id": "Dungeon021",
-            "name": "Tauyosipun Shrine",
-            "link": "Tauyosipun Shrine"
-          },
-          {
-            "coords": [
-              98.2994232,
-              -4153.18311
-            ],
-            "elv": 159.685394,
-            "id": "Dungeon037",
-            "name": "Gasas Shrine",
-            "link": "Gasas Shrine"
-          },
-          {
-            "coords": [
-              -671.467285,
-              -4469.00586
-            ],
-            "elv": 628.531372,
-            "id": "Dungeon075",
-            "name": "Otutsum Shrine",
-            "link": "Otutsum Shrine"
-          },
-          {
-            "coords": [
-              -1513.26501,
-              -4637.62109
-            ],
-            "elv": 571.783508,
-            "id": "Dungeon009",
-            "name": "Mayamats Shrine",
-            "link": "Mayamats Shrine"
-          },
-          {
-            "coords": [
-              -2143.19897,
-              -4167.10693
-            ],
-            "elv": 169.111496,
-            "id": "Dungeon140",
-            "name": "Kudanisar Shrine",
-            "link": "Kudanisar Shrine"
-          },
-          {
-            "coords": [
-              -3825.29297,
-              -4158.70703
-            ],
-            "elv": 146.899994,
-            "id": "Dungeon118",
-            "name": "Irasak Shrine",
-            "link": "Irasak Shrine"
-          },
-          {
-            "coords": [
-              -3086.43604,
-              -4680.1001
-            ],
-            "elv": 173.725006,
-            "id": "Dungeon087",
-            "name": "Miryotanog Shrine",
-            "link": "Miryotanog Shrine"
-          },
-          {
-            "coords": [
-              3569.99805,
-              -3506.87695
-            ],
-            "elv": 506.161896,
-            "id": "Dungeon072",
-            "name": "Eutoum Shrine",
-            "link": "Eutoum Shrine"
-          },
-          {
-            "coords": [
-              2386.28809,
-              -3354.11597
-            ],
-            "elv": 479.899994,
-            "id": "Dungeon007",
-            "name": "Sahirow Shrine",
-            "link": "Sahirow Shrine"
-          },
-          {
-            "coords": [
-              1806.026,
-              -3651.68091
-            ],
-            "elv": 287.600006,
-            "id": "Dungeon040",
-            "name": "Gatakis Shrine",
-            "link": "Gatakis Shrine"
-          },
-          {
-            "coords": [
-              1617.26697,
-              -3078.51807
-            ],
-            "elv": 361.963593,
-            "id": "Dungeon003",
-            "name": "Oromuwak Shrine",
-            "link": "Oromuwak Shrine"
-          },
-          {
-            "coords": [
-              1139.07996,
-              -3951.06006
-            ],
-            "elv": 230.899994,
-            "id": "Dungeon103",
-            "name": "Ikatak Shrine",
-            "link": "Ikatak Shrine"
-          },
-          {
-            "coords": [
-              -197.190903,
-              -3497.677
-            ],
-            "elv": 184.996399,
-            "id": "Dungeon025",
-            "name": "Turakawak Shrine",
-            "link": "Turakawak Shrine"
-          },
-          {
-            "coords": [
-              -1363.14294,
-              -3407.00708
-            ],
-            "elv": 454.399994,
-            "id": "Dungeon008",
-            "name": "Rotsumamu Shrine",
-            "link": "Rotsumamu Shrine"
-          },
-          {
-            "coords": [
-              -2962.55103,
-              -3882.20508
-            ],
-            "elv": 242.196701,
-            "id": "Dungeon016",
-            "name": "Soryotanog Shrine",
-            "link": "Soryotanog Shrine"
-          },
-          {
-            "coords": [
-              -2512.20508,
-              -3290.625
-            ],
-            "elv": 143.399994,
-            "id": "Dungeon047",
-            "name": "Mayatat Shrine",
-            "link": "Mayatat Shrine"
-          },
-          {
-            "coords": [
-              -3625.12988,
-              -3727.70288
-            ],
-            "elv": 162.645996,
-            "id": "Dungeon033",
-            "name": "Karahatag Shrine",
-            "link": "Karahatag Shrine"
-          },
-          {
-            "coords": [
-              3353.75708,
-              -2559.44312
-            ],
-            "elv": 364.040588,
-            "id": "Dungeon132",
-            "name": "Sisuran Shrine",
-            "link": "Sisuran Shrine"
-          },
-          {
-            "coords": [
-              1170.17395,
-              -2529.98511
-            ],
-            "elv": 296.899994,
-            "id": "Dungeon065",
-            "name": "Runakit Shrine",
-            "link": "Runakit Shrine"
-          },
-          {
-            "coords": [
-              629.791077,
-              -2846.96899
-            ],
-            "elv": 352.523987,
-            "id": "Dungeon126",
-            "name": "Makurukis Shrine",
-            "link": "Makurukis Shrine"
-          },
-          {
-            "coords": [
-              -874.441406,
-              -2138.979
-            ],
-            "elv": 212.676102,
-            "id": "Dungeon100",
-            "name": "Usazum Shrine",
-            "link": "Usazum Shrine"
-          },
-          {
-            "coords": [
-              -1853.401,
-              -2036.95703
-            ],
-            "elv": 183.897202,
-            "id": "Dungeon079",
-            "name": "Rakakudaj Shrine",
-            "link": "Rakakudaj Shrine"
-          },
-          {
-            "coords": [
-              -2237.30103,
-              -2657.25391
-            ],
-            "elv": 186.780807,
-            "id": "Dungeon039",
-            "name": "Turakamik Shrine",
-            "link": "Turakamik Shrine"
-          },
-          {
-            "coords": [
-              -3344.32007,
-              -2445.69897
-            ],
-            "elv": 160.819,
-            "id": "Dungeon024",
-            "name": "Siwakama Shrine",
-            "link": "Siwakama Shrine"
-          },
-          {
-            "coords": [
-              3677.91309,
-              -1404.49597
-            ],
-            "elv": 406.904388,
-            "id": "Dungeon036",
-            "name": "Oshozan-u Shrine",
-            "link": "Oshozan-u Shrine"
-          },
-          {
-            "coords": [
-              2641.81494,
-              -1636.76404
-            ],
-            "elv": 358.274994,
-            "id": "Dungeon019",
-            "name": "Orochium Shrine",
-            "link": "Orochium Shrine"
-          },
-          {
-            "coords": [
-              2087.81396,
-              -1106.73999
-            ],
-            "elv": 223.453201,
-            "id": "Dungeon030",
-            "name": "Kiuyoyou Shrine",
-            "link": "Kiuyoyou Shrine"
-          },
-          {
-            "coords": [
-              2602.427,
-              -1166.91101
-            ],
-            "elv": 34.9599991,
-            "id": "Dungeon028",
-            "name": "Mayausiy Shrine",
-            "link": "Mayausiy Shrine"
-          },
-          {
-            "coords": [
-              756.849792,
-              -1414.62402
-            ],
-            "elv": 208.041794,
-            "id": "Dungeon020",
-            "name": "Sinakawak Shrine",
-            "link": "Sinakawak Shrine"
-          },
-          {
-            "coords": [
-              -358.5,
-              -1921.5
-            ],
-            "elv": 347.5,
-            "id": "Dungeon059",
-            "name": "Sonapan Shrine",
-            "link": "Sonapan Shrine"
-          },
-          {
-            "coords": [
-              -1350.75403,
-              -1423.25
-            ],
-            "elv": 186.901093,
-            "id": "Dungeon042",
-            "name": "Tsutsu-um Shrine",
-            "link": "Tsutsu-um Shrine"
-          },
-          {
-            "coords": [
-              -1616.09094,
-              -1441.39697
-            ],
-            "elv": 208.440994,
-            "id": "Dungeon026",
-            "name": "Riogok Shrine",
-            "link": "Riogok Shrine"
-          },
-          {
-            "coords": [
-              -3486.56201,
-              -1795.00903
-            ],
-            "elv": 164.676193,
-            "id": "Dungeon096",
-            "name": "Motsusis Shrine",
-            "link": "Motsusis Shrine"
-          },
-          {
-            "coords": [
-              -2928.76392,
-              -1530.20105
-            ],
-            "elv": 440.324188,
-            "id": "Dungeon058",
-            "name": "Kitawak Shrine",
-            "link": "Kitawak Shrine"
-          },
-          {
-            "coords": [
-              3535.03394,
-              -824.818115
-            ],
-            "elv": 353.825989,
-            "id": "Dungeon125",
-            "name": "Mayaotaki Shrine",
-            "link": "Mayaotaki Shrine"
-          },
-          {
-            "coords": [
-              2735.84912,
-              -395.867889
-            ],
-            "elv": 406.617004,
-            "id": "Dungeon053",
-            "name": "Kikakin Shrine",
-            "link": "Kikakin Shrine"
-          },
-          {
-            "coords": [
-              422.539886,
-              -879.387878
-            ],
-            "elv": 168.399994,
-            "id": "Dungeon029",
-            "name": "Ishodag Shrine",
-            "link": "Ishodag Shrine"
-          },
-          {
-            "coords": [
-              451.466705,
-              -205.154694
-            ],
-            "elv": 139.899994,
-            "id": "Dungeon136",
-            "name": "Kyononis Shrine",
-            "link": "Kyononis Shrine"
-          },
-          {
-            "coords": [
-              -434.047913,
-              -785.413818
-            ],
-            "elv": 137.381607,
-            "id": "Dungeon048",
-            "name": "Susuyai Shrine",
-            "link": "Susuyai Shrine"
-          },
-          {
-            "coords": [
-              -868.5,
-              -705.5
-            ],
-            "elv": 150.615005,
-            "id": "Dungeon004",
-            "name": "Mayachin Shrine",
-            "link": "Mayachin Shrine"
-          },
-          {
-            "coords": [
-              -371.034088,
-              -240.743896
-            ],
-            "elv": 145.899994,
-            "id": "Dungeon142",
-            "name": "Jiosin Shrine",
-            "link": "Jiosin Shrine"
-          },
-          {
-            "coords": [
-              -1558.29297,
-              -177.792892
-            ],
-            "elv": 141.899994,
-            "id": "Dungeon077",
-            "name": "Kamizun Shrine",
-            "link": "Kamizun Shrine"
-          },
-          {
-            "coords": [
-              -1115.72302,
-              -74.9147034
-            ],
-            "elv": 140.084793,
-            "id": "Dungeon124",
-            "name": "Teniten Shrine",
-            "link": "Teniten Shrine"
-          },
-          {
-            "coords": [
-              -3524,
-              -565
-            ],
-            "elv": 248.199997,
-            "id": "Dungeon131",
-            "name": "Ishokin Shrine",
-            "link": "Ishokin Shrine"
-          },
-          {
-            "coords": [
-              2793.05591,
-              698.546204
-            ],
-            "elv": 344.950012,
-            "id": "Dungeon023",
-            "name": "Sikukuu Shrine",
-            "link": "Sikukuu Shrine"
-          },
-          {
-            "coords": [
-              2133.729,
-              407.758087
-            ],
-            "elv": 263.234985,
-            "id": "Dungeon005",
-            "name": "Musanokir Shrine",
-            "link": "Musanokir Shrine"
-          },
-          {
-            "coords": [
-              2211.41089,
-              621.096191
-            ],
-            "elv": 283.770996,
-            "id": "Dungeon115",
-            "name": "Pupunke Shrine",
-            "link": "Pupunke Shrine"
-          },
-          {
-            "coords": [
-              2320.12598,
-              166.660095
-            ],
-            "elv": 298.168488,
-            "id": "Dungeon108",
-            "name": "Sakunbomar Shrine",
-            "link": "Sakunbomar Shrine"
-          },
-          {
-            "coords": [
-              1085.05103,
-              221.746796
-            ],
-            "elv": 147.0271,
-            "id": "Dungeon046",
-            "name": "Sepapa Shrine",
-            "link": "Sepapa Shrine"
-          },
-          {
-            "coords": [
-              1891.89404,
-              354.654114
-            ],
-            "elv": 297.708191,
-            "id": "Dungeon106",
-            "name": "Ninjis Shrine",
-            "link": "Ninjis Shrine"
-          },
-          {
-            "coords": [
-              470.00589,
-              333.151611
-            ],
-            "elv": 148.040604,
-            "id": "Dungeon123",
-            "name": "Yamiyo Shrine",
-            "link": "Yamiyo Shrine"
-          },
-          {
-            "coords": [
-              823.937073,
-              756.464294
-            ],
-            "elv": 201.3452,
-            "id": "Dungeon006",
-            "name": "Ren-iz Shrine",
-            "link": "Ren-iz Shrine"
-          },
-          {
-            "coords": [
-              -251.0056,
-              915.491394
-            ],
-            "elv": 152.957001,
-            "id": "Dungeon022",
-            "name": "Tukarok Shrine",
-            "link": "Tukarok Shrine"
-          },
-          {
-            "coords": [
               -1009.026,
               343.858795
             ],
@@ -715,316 +185,6 @@
             "id": "Dungeon000",
             "name": "Tajikats Shrine",
             "link": "Tajikats Shrine"
-          },
-          {
-            "coords": [
-              -1903.41602,
-              930.890625
-            ],
-            "elv": 149.139297,
-            "id": "Dungeon130",
-            "name": "Jochisiu Shrine",
-            "link": "Jochisiu Shrine"
-          },
-          {
-            "coords": [
-              -2278.3999,
-              867.5
-            ],
-            "elv": 260.499786,
-            "id": "Dungeon013",
-            "name": "Jiukoum Shrine",
-            "link": "Jiukoum Shrine"
-          },
-          {
-            "coords": [
-              -3358.39404,
-              669.997009
-            ],
-            "elv": 190.925995,
-            "id": "Dungeon056",
-            "name": "Utsushok Shrine",
-            "link": "Utsushok Shrine"
-          },
-          {
-            "coords": [
-              3733.42603,
-              1269.90503
-            ],
-            "elv": 224.852203,
-            "id": "Dungeon017",
-            "name": "Mayak Shrine",
-            "link": "Mayak Shrine"
-          },
-          {
-            "coords": [
-              2509.65503,
-              1762.48804
-            ],
-            "elv": 555.900024,
-            "id": "Dungeon064",
-            "name": "Marakuguc Shrine",
-            "link": "Marakuguc Shrine"
-          },
-          {
-            "coords": [
-              1639.53601,
-              1799.54895
-            ],
-            "elv": 430.7117,
-            "id": "Dungeon137",
-            "name": "Timawak Shrine",
-            "link": "Timawak Shrine"
-          },
-          {
-            "coords": [
-              1280.45898,
-              1062.651
-            ],
-            "elv": 164.778107,
-            "id": "Dungeon031",
-            "name": "Ekochiu Shrine",
-            "link": "Ekochiu Shrine"
-          },
-          {
-            "coords": [
-              17.5860291,
-              1743.66101
-            ],
-            "elv": 144.455002,
-            "id": "Dungeon138",
-            "name": "Jonsau Shrine",
-            "link": "Jonsau Shrine"
-          },
-          {
-            "coords": [
-              -779.393982,
-              1181.58203
-            ],
-            "elv": 252.531494,
-            "id": "Dungeon144",
-            "name": "Morok Shrine",
-            "link": "Morok Shrine"
-          },
-          {
-            "coords": [
-              -1944.80701,
-              1565.83801
-            ],
-            "elv": 276.564606,
-            "id": "Dungeon122",
-            "name": "Eshos Shrine",
-            "link": "Eshos Shrine"
-          },
-          {
-            "coords": [
-              -1051.93298,
-              1769.89697
-            ],
-            "elv": 285.045685,
-            "id": "Dungeon135",
-            "name": "Makasura Shrine",
-            "link": "Makasura Shrine"
-          },
-          {
-            "coords": [
-              -3577.11401,
-              1515.19397
-            ],
-            "elv": 261.143097,
-            "id": "Dungeon141",
-            "name": "Joju-u-u Shrine",
-            "link": "Joju-u-u Shrine"
-          },
-          {
-            "coords": [
-              3638.21606,
-              2864.04199
-            ],
-            "elv": 360.052795,
-            "id": "Dungeon088",
-            "name": "Kimayat Shrine",
-            "link": "Kimayat Shrine"
-          },
-          {
-            "coords": [
-              3275.06689,
-              2400.26807
-            ],
-            "elv": 521.695313,
-            "id": "Dungeon054",
-            "name": "Sibajitak Shrine",
-            "link": "Sibajitak Shrine"
-          },
-          {
-            "coords": [
-              2596.354,
-              2369.06812
-            ],
-            "elv": 909.400024,
-            "id": "Dungeon002",
-            "name": "Sitsum Shrine",
-            "link": "Sitsum Shrine"
-          },
-          {
-            "coords": [
-              2758.11108,
-              2960.0061
-            ],
-            "elv": 643.472473,
-            "id": "Dungeon089",
-            "name": "Momosik Shrine",
-            "link": "Momosik Shrine"
-          },
-          {
-            "coords": [
-              1245.93799,
-              2567.8479
-            ],
-            "elv": 292.069489,
-            "id": "Dungeon035",
-            "name": "Kisinona Shrine",
-            "link": "Kisinona Shrine"
-          },
-          {
-            "coords": [
-              -510.750488,
-              2361.23804
-            ],
-            "elv": 275.394989,
-            "id": "Dungeon119",
-            "name": "Kurakat Shrine",
-            "link": "Kurakat Shrine"
-          },
-          {
-            "coords": [
-              -3270.3479,
-              2825.8291
-            ],
-            "elv": 196.972,
-            "id": "Dungeon085",
-            "name": "Sifumim Shrine",
-            "link": "Sifumim Shrine"
-          },
-          {
-            "coords": [
-              3356.71704,
-              3431.06689
-            ],
-            "elv": 189.974701,
-            "id": "Dungeon044",
-            "name": "Kamatukis Shrine",
-            "link": "Kamatukis Shrine"
-          },
-          {
-            "coords": [
-              2300.29199,
-              3841.9729
-            ],
-            "elv": 167.399994,
-            "id": "Dungeon129",
-            "name": "Sinatanika Shrine",
-            "link": "Sinatanika Shrine"
-          },
-          {
-            "coords": [
-              1442.98206,
-              3304.87598
-            ],
-            "elv": 545.101013,
-            "id": "Dungeon051",
-            "name": "Domizuin Shrine",
-            "link": "Domizuin Shrine"
-          },
-          {
-            "coords": [
-              1824.01904,
-              3061.00098
-            ],
-            "elv": 335.477509,
-            "id": "Dungeon074",
-            "name": "Mayachideg Shrine",
-            "link": "Mayachideg Shrine"
-          },
-          {
-            "coords": [
-              1219.11304,
-              3810.51709
-            ],
-            "elv": 209.673294,
-            "id": "Dungeon134",
-            "name": "Jochi-ihiga Shrine",
-            "link": "Jochi-ihiga Shrine"
-          },
-          {
-            "coords": [
-              423.789886,
-              3299.94897
-            ],
-            "elv": 231.252701,
-            "id": "Dungeon011",
-            "name": "Mogawak Shrine",
-            "link": "Mogawak Shrine"
-          },
-          {
-            "coords": [
-              577.77948,
-              3786.21704
-            ],
-            "elv": 604.867676,
-            "id": "Dungeon041",
-            "name": "Ihen-a Shrine",
-            "link": "Ihen-a Shrine"
-          },
-          {
-            "coords": [
-              -216.771896,
-              3886.69092
-            ],
-            "elv": 283.200104,
-            "id": "Dungeon049",
-            "name": "Apogek Shrine",
-            "link": "Apogek Shrine"
-          },
-          {
-            "coords": [
-              -1482.28699,
-              3526.2229
-            ],
-            "elv": 286.859406,
-            "id": "Dungeon081",
-            "name": "Zakusu Shrine",
-            "link": "Zakusu Shrine"
-          },
-          {
-            "coords": [
-              -2180.7771,
-              3469.54395
-            ],
-            "elv": 267.247314,
-            "id": "Dungeon012",
-            "name": "Zanmik Shrine",
-            "link": "Zanmik Shrine"
-          },
-          {
-            "coords": [
-              3713.83594,
-              4654.99023
-            ],
-            "elv": 250,
-            "id": "Dungeon090",
-            "name": "Igashuk Shrine",
-            "link": "Igashuk Shrine"
-          },
-          {
-            "coords": [
-              3263.21802,
-              4664.12402
-            ],
-            "elv": 120.946404,
-            "id": "Dungeon139",
-            "name": "Rasiwak Shrine",
-            "link": "Rasiwak Shrine"
           },
           {
             "coords": [
@@ -1038,6 +198,156 @@
           },
           {
             "coords": [
+              2596.354,
+              2369.06812
+            ],
+            "elv": 909.400024,
+            "id": "Dungeon002",
+            "name": "Sitsum Shrine",
+            "link": "Sitsum Shrine"
+          },
+          {
+            "coords": [
+              1617.26697,
+              -3078.51807
+            ],
+            "elv": 361.963593,
+            "id": "Dungeon003",
+            "name": "Oromuwak Shrine",
+            "link": "Oromuwak Shrine"
+          },
+          {
+            "coords": [
+              -868.5,
+              -705.5
+            ],
+            "elv": 150.615005,
+            "id": "Dungeon004",
+            "name": "Mayachin Shrine",
+            "link": "Mayachin Shrine"
+          },
+          {
+            "coords": [
+              2133.729,
+              407.758087
+            ],
+            "elv": 263.234985,
+            "id": "Dungeon005",
+            "name": "Musanokir Shrine",
+            "link": "Musanokir Shrine"
+          },
+          {
+            "coords": [
+              823.937073,
+              756.464294
+            ],
+            "elv": 201.3452,
+            "id": "Dungeon006",
+            "name": "Ren-iz Shrine",
+            "link": "Ren-iz Shrine"
+          },
+          {
+            "coords": [
+              2386.28809,
+              -3354.11597
+            ],
+            "elv": 479.899994,
+            "id": "Dungeon007",
+            "name": "Sahirow Shrine",
+            "link": "Sahirow Shrine"
+          },
+          {
+            "coords": [
+              -1363.14294,
+              -3407.00708
+            ],
+            "elv": 454.399994,
+            "id": "Dungeon008",
+            "name": "Rotsumamu Shrine",
+            "link": "Rotsumamu Shrine"
+          },
+          {
+            "coords": [
+              -1513.26501,
+              -4637.62109
+            ],
+            "elv": 571.783508,
+            "id": "Dungeon009",
+            "name": "Mayamats Shrine",
+            "link": "Mayamats Shrine"
+          },
+          {
+            "coords": [
+              1170.11902,
+              -178.7789
+            ],
+            "elv": 399.099792,
+            "id": "Dungeon010",
+            "name": "Serutabomac Shrine",
+            "link": "Serutabomac Shrine"
+          },
+          {
+            "coords": [
+              423.789886,
+              3299.94897
+            ],
+            "elv": 231.252701,
+            "id": "Dungeon011",
+            "name": "Mogawak Shrine",
+            "link": "Mogawak Shrine"
+          },
+          {
+            "coords": [
+              -2180.7771,
+              3469.54395
+            ],
+            "elv": 267.247314,
+            "id": "Dungeon012",
+            "name": "Zanmik Shrine",
+            "link": "Zanmik Shrine"
+          },
+          {
+            "coords": [
+              -2278.3999,
+              867.5
+            ],
+            "elv": 260.499786,
+            "id": "Dungeon013",
+            "name": "Jiukoum Shrine",
+            "link": "Jiukoum Shrine"
+          },
+          {
+            "coords": [
+              850.997314,
+              -3538.89502
+            ],
+            "elv": -14.3186102,
+            "id": "Dungeon014",
+            "name": "Iun-orok Shrine",
+            "link": "Iun-orok Shrine"
+          },
+          {
+            "coords": [
+              -2962.55103,
+              -3882.20508
+            ],
+            "elv": 242.196701,
+            "id": "Dungeon016",
+            "name": "Soryotanog Shrine",
+            "link": "Soryotanog Shrine"
+          },
+          {
+            "coords": [
+              3733.42603,
+              1269.90503
+            ],
+            "elv": 224.852203,
+            "id": "Dungeon017",
+            "name": "Mayak Shrine",
+            "link": "Mayak Shrine"
+          },
+          {
+            "coords": [
               2115.70703,
               4512.70703
             ],
@@ -1045,6 +355,476 @@
             "id": "Dungeon018",
             "name": "Gemimik Shrine",
             "link": "Gemimik Shrine"
+          },
+          {
+            "coords": [
+              2641.81494,
+              -1636.76404
+            ],
+            "elv": 358.274994,
+            "id": "Dungeon019",
+            "name": "Orochium Shrine",
+            "link": "Orochium Shrine"
+          },
+          {
+            "coords": [
+              756.849792,
+              -1414.62402
+            ],
+            "elv": 208.041794,
+            "id": "Dungeon020",
+            "name": "Sinakawak Shrine",
+            "link": "Sinakawak Shrine"
+          },
+          {
+            "coords": [
+              2880.47412,
+              -4538.60303
+            ],
+            "elv": 381.580994,
+            "id": "Dungeon021",
+            "name": "Tauyosipun Shrine",
+            "link": "Tauyosipun Shrine"
+          },
+          {
+            "coords": [
+              -251.0056,
+              915.491394
+            ],
+            "elv": 152.957001,
+            "id": "Dungeon022",
+            "name": "Tukarok Shrine",
+            "link": "Tukarok Shrine"
+          },
+          {
+            "coords": [
+              2793.05591,
+              698.546204
+            ],
+            "elv": 344.950012,
+            "id": "Dungeon023",
+            "name": "Sikukuu Shrine",
+            "link": "Sikukuu Shrine"
+          },
+          {
+            "coords": [
+              -3344.32007,
+              -2445.69897
+            ],
+            "elv": 160.819,
+            "id": "Dungeon024",
+            "name": "Siwakama Shrine",
+            "link": "Siwakama Shrine"
+          },
+          {
+            "coords": [
+              -197.190903,
+              -3497.677
+            ],
+            "elv": 184.996399,
+            "id": "Dungeon025",
+            "name": "Turakawak Shrine",
+            "link": "Turakawak Shrine"
+          },
+          {
+            "coords": [
+              -1616.09094,
+              -1441.39697
+            ],
+            "elv": 208.440994,
+            "id": "Dungeon026",
+            "name": "Riogok Shrine",
+            "link": "Riogok Shrine"
+          },
+          {
+            "coords": [
+              -2178.16797,
+              4232.20898
+            ],
+            "elv": 106.726799,
+            "id": "Dungeon027",
+            "name": "Anedamimik Shrine",
+            "link": "Anedamimik Shrine"
+          },
+          {
+            "coords": [
+              2602.427,
+              -1166.91101
+            ],
+            "elv": 34.9599991,
+            "id": "Dungeon028",
+            "name": "Mayausiy Shrine",
+            "link": "Mayausiy Shrine"
+          },
+          {
+            "coords": [
+              422.539886,
+              -879.387878
+            ],
+            "elv": 168.399994,
+            "id": "Dungeon029",
+            "name": "Ishodag Shrine",
+            "link": "Ishodag Shrine"
+          },
+          {
+            "coords": [
+              2087.81396,
+              -1106.73999
+            ],
+            "elv": 223.453201,
+            "id": "Dungeon030",
+            "name": "Kiuyoyou Shrine",
+            "link": "Kiuyoyou Shrine"
+          },
+          {
+            "coords": [
+              1280.45898,
+              1062.651
+            ],
+            "elv": 164.778107,
+            "id": "Dungeon031",
+            "name": "Ekochiu Shrine",
+            "link": "Ekochiu Shrine"
+          },
+          {
+            "coords": [
+              -2186.94189,
+              -1081.88501
+            ],
+            "elv": 248.058304,
+            "id": "Dungeon032",
+            "name": "Tadarok Shrine",
+            "link": "Tadarok Shrine"
+          },
+          {
+            "coords": [
+              -3625.12988,
+              -3727.70288
+            ],
+            "elv": 162.645996,
+            "id": "Dungeon033",
+            "name": "Karahatag Shrine",
+            "link": "Karahatag Shrine"
+          },
+          {
+            "coords": [
+              1245.93799,
+              2567.8479
+            ],
+            "elv": 292.069489,
+            "id": "Dungeon035",
+            "name": "Kisinona Shrine",
+            "link": "Kisinona Shrine"
+          },
+          {
+            "coords": [
+              3677.91309,
+              -1404.49597
+            ],
+            "elv": 406.904388,
+            "id": "Dungeon036",
+            "name": "Oshozan-u Shrine",
+            "link": "Oshozan-u Shrine"
+          },
+          {
+            "coords": [
+              98.2994232,
+              -4153.18311
+            ],
+            "elv": 159.685394,
+            "id": "Dungeon037",
+            "name": "Gasas Shrine",
+            "link": "Gasas Shrine"
+          },
+          {
+            "coords": [
+              -2237.30103,
+              -2657.25391
+            ],
+            "elv": 186.780807,
+            "id": "Dungeon039",
+            "name": "Turakamik Shrine",
+            "link": "Turakamik Shrine"
+          },
+          {
+            "coords": [
+              1806.026,
+              -3651.68091
+            ],
+            "elv": 287.600006,
+            "id": "Dungeon040",
+            "name": "Gatakis Shrine",
+            "link": "Gatakis Shrine"
+          },
+          {
+            "coords": [
+              577.77948,
+              3786.21704
+            ],
+            "elv": 604.867676,
+            "id": "Dungeon041",
+            "name": "Ihen-a Shrine",
+            "link": "Ihen-a Shrine"
+          },
+          {
+            "coords": [
+              -1350.75403,
+              -1423.25
+            ],
+            "elv": 186.901093,
+            "id": "Dungeon042",
+            "name": "Tsutsu-um Shrine",
+            "link": "Tsutsu-um Shrine"
+          },
+          {
+            "coords": [
+              3356.71704,
+              3431.06689
+            ],
+            "elv": 189.974701,
+            "id": "Dungeon044",
+            "name": "Kamatukis Shrine",
+            "link": "Kamatukis Shrine"
+          },
+          {
+            "coords": [
+              1085.05103,
+              221.746796
+            ],
+            "elv": 147.0271,
+            "id": "Dungeon046",
+            "name": "Sepapa Shrine",
+            "link": "Sepapa Shrine"
+          },
+          {
+            "coords": [
+              -2512.20508,
+              -3290.625
+            ],
+            "elv": 143.399994,
+            "id": "Dungeon047",
+            "name": "Mayatat Shrine",
+            "link": "Mayatat Shrine"
+          },
+          {
+            "coords": [
+              -434.047913,
+              -785.413818
+            ],
+            "elv": 137.381607,
+            "id": "Dungeon048",
+            "name": "Susuyai Shrine",
+            "link": "Susuyai Shrine"
+          },
+          {
+            "coords": [
+              -216.771896,
+              3886.69092
+            ],
+            "elv": 283.200104,
+            "id": "Dungeon049",
+            "name": "Apogek Shrine",
+            "link": "Apogek Shrine"
+          },
+          {
+            "coords": [
+              1442.98206,
+              3304.87598
+            ],
+            "elv": 545.101013,
+            "id": "Dungeon051",
+            "name": "Domizuin Shrine",
+            "link": "Domizuin Shrine"
+          },
+          {
+            "coords": [
+              2735.84912,
+              -395.867889
+            ],
+            "elv": 406.617004,
+            "id": "Dungeon053",
+            "name": "Kikakin Shrine",
+            "link": "Kikakin Shrine"
+          },
+          {
+            "coords": [
+              3275.06689,
+              2400.26807
+            ],
+            "elv": 521.695313,
+            "id": "Dungeon054",
+            "name": "Sibajitak Shrine",
+            "link": "Sibajitak Shrine"
+          },
+          {
+            "coords": [
+              -3358.39404,
+              669.997009
+            ],
+            "elv": 190.925995,
+            "id": "Dungeon056",
+            "name": "Utsushok Shrine",
+            "link": "Utsushok Shrine"
+          },
+          {
+            "coords": [
+              -1673.43994,
+              4266.91797
+            ],
+            "elv": 301.049408,
+            "id": "Dungeon057",
+            "name": "Jikais Shrine",
+            "link": "Jikais Shrine"
+          },
+          {
+            "coords": [
+              -2928.76392,
+              -1530.20105
+            ],
+            "elv": 440.324188,
+            "id": "Dungeon058",
+            "name": "Kitawak Shrine",
+            "link": "Kitawak Shrine"
+          },
+          {
+            "coords": [
+              -358.5,
+              -1921.5
+            ],
+            "elv": 347.5,
+            "id": "Dungeon059",
+            "name": "Sonapan Shrine",
+            "link": "Sonapan Shrine"
+          },
+          {
+            "coords": [
+              2509.65503,
+              1762.48804
+            ],
+            "elv": 555.900024,
+            "id": "Dungeon064",
+            "name": "Marakuguc Shrine",
+            "link": "Marakuguc Shrine"
+          },
+          {
+            "coords": [
+              1170.17395,
+              -2529.98511
+            ],
+            "elv": 296.899994,
+            "id": "Dungeon065",
+            "name": "Runakit Shrine",
+            "link": "Runakit Shrine"
+          },
+          {
+            "coords": [
+              1990.00403,
+              -4058.43506
+            ],
+            "elv": 302.437408,
+            "id": "Dungeon067",
+            "name": "Wao-os Shrine",
+            "link": "Wao-os Shrine"
+          },
+          {
+            "coords": [
+              -1551.04297,
+              -709.245422
+            ],
+            "elv": 125.285004,
+            "id": "Dungeon068",
+            "name": "Kyokugon Shrine",
+            "link": "Kyokugon Shrine"
+          },
+          {
+            "coords": [
+              2201.20703,
+              -2318.20703
+            ],
+            "elv": 292.700012,
+            "id": "Dungeon070",
+            "name": "Nouda Shrine",
+            "link": "Nouda Shrine"
+          },
+          {
+            "coords": [
+              3569.99805,
+              -3506.87695
+            ],
+            "elv": 506.161896,
+            "id": "Dungeon072",
+            "name": "Eutoum Shrine",
+            "link": "Eutoum Shrine"
+          },
+          {
+            "coords": [
+              2842.03491,
+              1842.02295
+            ],
+            "elv": 482.615509,
+            "id": "Dungeon073",
+            "name": "Isisim Shrine",
+            "link": "Isisim Shrine"
+          },
+          {
+            "coords": [
+              1824.01904,
+              3061.00098
+            ],
+            "elv": 335.477509,
+            "id": "Dungeon074",
+            "name": "Mayachideg Shrine",
+            "link": "Mayachideg Shrine"
+          },
+          {
+            "coords": [
+              -671.467285,
+              -4469.00586
+            ],
+            "elv": 628.531372,
+            "id": "Dungeon075",
+            "name": "Otutsum Shrine",
+            "link": "Otutsum Shrine"
+          },
+          {
+            "coords": [
+              -2543.16309,
+              1218.44202
+            ],
+            "elv": 215.779907,
+            "id": "Dungeon076",
+            "name": "Utojis Shrine",
+            "link": "Utojis Shrine"
+          },
+          {
+            "coords": [
+              -1558.29297,
+              -177.792892
+            ],
+            "elv": 141.899994,
+            "id": "Dungeon077",
+            "name": "Kamizun Shrine",
+            "link": "Kamizun Shrine"
+          },
+          {
+            "coords": [
+              -1770.11597,
+              -2524.26392
+            ],
+            "elv": 250.509201,
+            "id": "Dungeon078",
+            "name": "Suariwak Shrine",
+            "link": "Suariwak Shrine"
+          },
+          {
+            "coords": [
+              -1853.401,
+              -2036.95703
+            ],
+            "elv": 183.897202,
+            "id": "Dungeon079",
+            "name": "Rakakudaj Shrine",
+            "link": "Rakakudaj Shrine"
           },
           {
             "coords": [
@@ -1058,6 +838,516 @@
           },
           {
             "coords": [
+              -1482.28699,
+              3526.2229
+            ],
+            "elv": 286.859406,
+            "id": "Dungeon081",
+            "name": "Zakusu Shrine",
+            "link": "Zakusu Shrine"
+          },
+          {
+            "coords": [
+              329.731293,
+              1202.08899
+            ],
+            "elv": 145.999207,
+            "id": "Dungeon084",
+            "name": "Jojon Shrine",
+            "link": "Jojon Shrine"
+          },
+          {
+            "coords": [
+              -3270.3479,
+              2825.8291
+            ],
+            "elv": 196.972,
+            "id": "Dungeon085",
+            "name": "Sifumim Shrine",
+            "link": "Sifumim Shrine"
+          },
+          {
+            "coords": [
+              3714.10107,
+              -4390.56689
+            ],
+            "elv": 331.53479,
+            "id": "Dungeon086",
+            "name": "Otak Shrine",
+            "link": "Otak Shrine"
+          },
+          {
+            "coords": [
+              -3086.43604,
+              -4680.1001
+            ],
+            "elv": 173.725006,
+            "id": "Dungeon087",
+            "name": "Miryotanog Shrine",
+            "link": "Miryotanog Shrine"
+          },
+          {
+            "coords": [
+              3638.21606,
+              2864.04199
+            ],
+            "elv": 360.052795,
+            "id": "Dungeon088",
+            "name": "Kimayat Shrine",
+            "link": "Kimayat Shrine"
+          },
+          {
+            "coords": [
+              2758.11108,
+              2960.0061
+            ],
+            "elv": 643.472473,
+            "id": "Dungeon089",
+            "name": "Momosik Shrine",
+            "link": "Momosik Shrine"
+          },
+          {
+            "coords": [
+              3713.83594,
+              4654.99023
+            ],
+            "elv": 250,
+            "id": "Dungeon090",
+            "name": "Igashuk Shrine",
+            "link": "Igashuk Shrine"
+          },
+          {
+            "coords": [
+              1195.26599,
+              -1829.69995
+            ],
+            "elv": 266.775085,
+            "id": "Dungeon091",
+            "name": "Taki-ihaban Shrine",
+            "link": "Taki-ihaban Shrine"
+          },
+          {
+            "coords": [
+              -2518.052,
+              103.414299
+            ],
+            "elv": 30.9736099,
+            "id": "Dungeon092",
+            "name": "En-oma Shrine",
+            "link": "En-oma Shrine"
+          },
+          {
+            "coords": [
+              -613.124878,
+              4413.229
+            ],
+            "elv": 153.645493,
+            "id": "Dungeon094",
+            "name": "Yomizuk Shrine",
+            "link": "Yomizuk Shrine"
+          },
+          {
+            "coords": [
+              -2058.65796,
+              3729.37891
+            ],
+            "elv": 308.039703,
+            "id": "Dungeon095",
+            "name": "Mayahisik Shrine",
+            "link": "Mayahisik Shrine"
+          },
+          {
+            "coords": [
+              -3486.56201,
+              -1795.00903
+            ],
+            "elv": 164.676193,
+            "id": "Dungeon096",
+            "name": "Motsusis Shrine",
+            "link": "Motsusis Shrine"
+          },
+          {
+            "coords": [
+              147.352798,
+              2276.22803
+            ],
+            "elv": 197.883102,
+            "id": "Dungeon097",
+            "name": "Maoikes Shrine",
+            "link": "Maoikes Shrine"
+          },
+          {
+            "coords": [
+              1904.45203,
+              2679.2439
+            ],
+            "elv": 249.977402,
+            "id": "Dungeon098",
+            "name": "Moshapin Shrine",
+            "link": "Moshapin Shrine"
+          },
+          {
+            "coords": [
+              -874.441406,
+              -2138.979
+            ],
+            "elv": 212.676102,
+            "id": "Dungeon100",
+            "name": "Usazum Shrine",
+            "link": "Usazum Shrine"
+          },
+          {
+            "coords": [
+              507,
+              2918.25
+            ],
+            "elv": 274.149994,
+            "id": "Dungeon101",
+            "name": "Joniu Shrine",
+            "link": "Joniu Shrine"
+          },
+          {
+            "coords": [
+              3180.34595,
+              1834.44495
+            ],
+            "elv": 376.785889,
+            "id": "Dungeon102",
+            "name": "Jiotak Shrine",
+            "link": "Jiotak Shrine"
+          },
+          {
+            "coords": [
+              1139.07996,
+              -3951.06006
+            ],
+            "elv": 230.899994,
+            "id": "Dungeon103",
+            "name": "Ikatak Shrine",
+            "link": "Ikatak Shrine"
+          },
+          {
+            "coords": [
+              -3006.5,
+              -3211
+            ],
+            "elv": 68.9997177,
+            "id": "Dungeon104",
+            "name": "Chichim Shrine",
+            "link": "Chichim Shrine"
+          },
+          {
+            "coords": [
+              1891.89404,
+              354.654114
+            ],
+            "elv": 297.708191,
+            "id": "Dungeon106",
+            "name": "Ninjis Shrine",
+            "link": "Ninjis Shrine"
+          },
+          {
+            "coords": [
+              -2377.93091,
+              2304.06006
+            ],
+            "elv": 90.0380325,
+            "id": "Dungeon107",
+            "name": "Tokiy Shrine",
+            "link": "Tokiy Shrine"
+          },
+          {
+            "coords": [
+              2320.12598,
+              166.660095
+            ],
+            "elv": 298.168488,
+            "id": "Dungeon108",
+            "name": "Sakunbomar Shrine",
+            "link": "Sakunbomar Shrine"
+          },
+          {
+            "coords": [
+              3101.62695,
+              -2997.81104
+            ],
+            "elv": 633.929321,
+            "id": "Dungeon111",
+            "name": "Rutafu-um Shrine",
+            "link": "Rutafu-um Shrine"
+          },
+          {
+            "coords": [
+              -1089.25305,
+              2755.53296
+            ],
+            "elv": 219.204605,
+            "id": "Dungeon112",
+            "name": "O-ogim Shrine",
+            "link": "O-ogim Shrine"
+          },
+          {
+            "coords": [
+              -1186.89404,
+              3346.26709
+            ],
+            "elv": 176.6353,
+            "id": "Dungeon113",
+            "name": "Jogou Shrine",
+            "link": "Jogou Shrine"
+          },
+          {
+            "coords": [
+              -3712.00903,
+              4631.17188
+            ],
+            "elv": 137.401306,
+            "id": "Dungeon114",
+            "name": "Marari-in Shrine",
+            "link": "Marari-in Shrine"
+          },
+          {
+            "coords": [
+              2211.41089,
+              621.096191
+            ],
+            "elv": 283.770996,
+            "id": "Dungeon115",
+            "name": "Pupunke Shrine",
+            "link": "Pupunke Shrine"
+          },
+          {
+            "coords": [
+              -3209.68188,
+              3093.97607
+            ],
+            "elv": 201.293503,
+            "id": "Dungeon116",
+            "name": "Bamitok Shrine",
+            "link": "Bamitok Shrine"
+          },
+          {
+            "coords": [
+              -3825.29297,
+              -4158.70703
+            ],
+            "elv": 146.899994,
+            "id": "Dungeon118",
+            "name": "Irasak Shrine",
+            "link": "Irasak Shrine"
+          },
+          {
+            "coords": [
+              -510.750488,
+              2361.23804
+            ],
+            "elv": 275.394989,
+            "id": "Dungeon119",
+            "name": "Kurakat Shrine",
+            "link": "Kurakat Shrine"
+          },
+          {
+            "coords": [
+              -2051.54395,
+              349.283112
+            ],
+            "elv": 92.1462936,
+            "id": "Dungeon120",
+            "name": "Susub Shrine",
+            "link": "Susub Shrine"
+          },
+          {
+            "coords": [
+              -1944.80701,
+              1565.83801
+            ],
+            "elv": 276.564606,
+            "id": "Dungeon122",
+            "name": "Eshos Shrine",
+            "link": "Eshos Shrine"
+          },
+          {
+            "coords": [
+              470.00589,
+              333.151611
+            ],
+            "elv": 148.040604,
+            "id": "Dungeon123",
+            "name": "Yamiyo Shrine",
+            "link": "Yamiyo Shrine"
+          },
+          {
+            "coords": [
+              -1115.72302,
+              -74.9147034
+            ],
+            "elv": 140.084793,
+            "id": "Dungeon124",
+            "name": "Teniten Shrine",
+            "link": "Teniten Shrine"
+          },
+          {
+            "coords": [
+              3535.03394,
+              -824.818115
+            ],
+            "elv": 353.825989,
+            "id": "Dungeon125",
+            "name": "Mayaotaki Shrine",
+            "link": "Mayaotaki Shrine"
+          },
+          {
+            "coords": [
+              629.791077,
+              -2846.96899
+            ],
+            "elv": 352.523987,
+            "id": "Dungeon126",
+            "name": "Makurukis Shrine",
+            "link": "Makurukis Shrine"
+          },
+          {
+            "coords": [
+              2300.29199,
+              3841.9729
+            ],
+            "elv": 167.399994,
+            "id": "Dungeon129",
+            "name": "Sinatanika Shrine",
+            "link": "Sinatanika Shrine"
+          },
+          {
+            "coords": [
+              -1903.41602,
+              930.890625
+            ],
+            "elv": 149.139297,
+            "id": "Dungeon130",
+            "name": "Jochisiu Shrine",
+            "link": "Jochisiu Shrine"
+          },
+          {
+            "coords": [
+              -3524,
+              -565
+            ],
+            "elv": 248.199997,
+            "id": "Dungeon131",
+            "name": "Ishokin Shrine",
+            "link": "Ishokin Shrine"
+          },
+          {
+            "coords": [
+              3353.75708,
+              -2559.44312
+            ],
+            "elv": 364.040588,
+            "id": "Dungeon132",
+            "name": "Sisuran Shrine",
+            "link": "Sisuran Shrine"
+          },
+          {
+            "coords": [
+              1550.62195,
+              -594.510986
+            ],
+            "elv": 104.637901,
+            "id": "Dungeon133",
+            "name": "Tenmaten Shrine",
+            "link": "Tenmaten Shrine"
+          },
+          {
+            "coords": [
+              1219.11304,
+              3810.51709
+            ],
+            "elv": 209.673294,
+            "id": "Dungeon134",
+            "name": "Jochi-ihiga Shrine",
+            "link": "Jochi-ihiga Shrine"
+          },
+          {
+            "coords": [
+              -1051.93298,
+              1769.89697
+            ],
+            "elv": 285.045685,
+            "id": "Dungeon135",
+            "name": "Makasura Shrine",
+            "link": "Makasura Shrine"
+          },
+          {
+            "coords": [
+              451.466705,
+              -205.154694
+            ],
+            "elv": 139.899994,
+            "id": "Dungeon136",
+            "name": "Kyononis Shrine",
+            "link": "Kyononis Shrine"
+          },
+          {
+            "coords": [
+              1639.53601,
+              1799.54895
+            ],
+            "elv": 430.7117,
+            "id": "Dungeon137",
+            "name": "Timawak Shrine",
+            "link": "Timawak Shrine"
+          },
+          {
+            "coords": [
+              17.5860291,
+              1743.66101
+            ],
+            "elv": 144.455002,
+            "id": "Dungeon138",
+            "name": "Jonsau Shrine",
+            "link": "Jonsau Shrine"
+          },
+          {
+            "coords": [
+              3263.21802,
+              4664.12402
+            ],
+            "elv": 120.946404,
+            "id": "Dungeon139",
+            "name": "Rasiwak Shrine",
+            "link": "Rasiwak Shrine"
+          },
+          {
+            "coords": [
+              -2143.19897,
+              -4167.10693
+            ],
+            "elv": 169.111496,
+            "id": "Dungeon140",
+            "name": "Kudanisar Shrine",
+            "link": "Kudanisar Shrine"
+          },
+          {
+            "coords": [
+              -3577.11401,
+              1515.19397
+            ],
+            "elv": 261.143097,
+            "id": "Dungeon141",
+            "name": "Joju-u-u Shrine",
+            "link": "Joju-u-u Shrine"
+          },
+          {
+            "coords": [
+              -371.034088,
+              -240.743896
+            ],
+            "elv": 145.899994,
+            "id": "Dungeon142",
+            "name": "Jiosin Shrine",
+            "link": "Jiosin Shrine"
+          },
+          {
+            "coords": [
               826.405518,
               4497.82178
             ],
@@ -1068,13 +1358,23 @@
           },
           {
             "coords": [
-              -1673.43994,
-              4266.91797
+              -779.393982,
+              1181.58203
             ],
-            "elv": 301.049408,
-            "id": "Dungeon057",
-            "name": "Jikais Shrine",
-            "link": "Jikais Shrine"
+            "elv": 252.531494,
+            "id": "Dungeon144",
+            "name": "Morok Shrine",
+            "link": "Morok Shrine"
+          },
+          {
+            "coords": [
+              3484.64502,
+              393.856506
+            ],
+            "elv": 187.544296,
+            "id": "Dungeon147",
+            "name": "Minetak Shrine",
+            "link": "Minetak Shrine"
           }
         ]
       }
