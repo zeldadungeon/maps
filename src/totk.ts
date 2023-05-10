@@ -115,16 +115,22 @@ window.onload = async () => {
       iconHeight: 36,
     },
     {
-      name: "Malice Pit",
-      iconUrl: iconUrl("objective"),
-      iconWidth: 21,
-      iconHeight: 21,
+      name: "Chasm",
+      iconUrl: iconUrl("chasm"),
+      iconWidth: 25,
+      iconHeight: 26,
     },
     {
       name: "Cave",
       iconUrl: iconUrl("cave"),
-      iconWidth: 20,
-      iconHeight: 20,
+      iconWidth: 25,
+      iconHeight: 26,
+    },
+    {
+      name: "Well",
+      iconUrl: iconUrl("well"),
+      iconWidth: 25,
+      iconHeight: 26,
     },
     {
       name: "Zonai Relief",
@@ -219,16 +225,6 @@ window.onload = async () => {
     addJson(sky, "sky/seeds.json"),
     addJson(sky, "sky/locations.json"),
     addWiki(depths, "Lightroot", "Lightroots", "summary", "lightroot", 30, 30),
-    addWiki(
-      surface,
-      "Malice Pit",
-      "Malice Pits",
-      "summary",
-      "objective",
-      20,
-      20
-    ),
-    addWiki(surface, "Cave", "Caves", "summary", "settlement", 27, 27),
   ]);
 
   await map.initializeWikiConnector();
