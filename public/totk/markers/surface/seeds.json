@@ -1,6 +1,6 @@
 [
   {
-    "name": "Korok",
+    "name": "Korok Seed",
     "layers": [
       {
         "minZoom": 3,
@@ -17,7 +17,7 @@
             ],
             "elv": 117.107002,
             "id": "Korok10035618609325695840",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -26,7 +26,7 @@
             ],
             "elv": 163.146698,
             "id": "Korok10147912760170894537",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -35,7 +35,7 @@
             ],
             "elv": 205.255905,
             "id": "Korok1027829103425503827",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -44,7 +44,7 @@
             ],
             "elv": 120.299103,
             "id": "Korok10530533416107128098",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -53,7 +53,7 @@
             ],
             "elv": 273.5961,
             "id": "Korok10648733530437086844",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -62,7 +62,7 @@
             ],
             "elv": 92.2283096,
             "id": "Korok10765936993113452918",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -71,7 +71,7 @@
             ],
             "elv": 140.113495,
             "id": "Korok10884485578138139295",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -80,7 +80,7 @@
             ],
             "elv": 499.180389,
             "id": "Korok11058875431153592516",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -89,7 +89,7 @@
             ],
             "elv": 115.271797,
             "id": "Korok11202514477440889488",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -98,7 +98,7 @@
             ],
             "elv": 171.098801,
             "id": "Korok11271636085079936375",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -107,7 +107,7 @@
             ],
             "elv": 106.255302,
             "id": "Korok11811958806114551925",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -116,7 +116,7 @@
             ],
             "elv": 706.560974,
             "id": "Korok11875758624767344318",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -125,7 +125,7 @@
             ],
             "elv": 283.21109,
             "id": "Korok11896787561078353905",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -134,7 +134,7 @@
             ],
             "elv": 112.5616,
             "id": "Korok11937967932341810839",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -143,7 +143,7 @@
             ],
             "elv": 311.227112,
             "id": "Korok1197214492947962803",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -152,7 +152,7 @@
             ],
             "elv": 115.327202,
             "id": "Korok12847198751504072774",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -161,7 +161,7 @@
             ],
             "elv": 108.143303,
             "id": "Korok12867974234227336785",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -170,7 +170,7 @@
             ],
             "elv": 244.312393,
             "id": "Korok12925413538446962496",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -179,7 +179,7 @@
             ],
             "elv": 129.215698,
             "id": "Korok13096531038553645768",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -188,7 +188,7 @@
             ],
             "elv": 241.676102,
             "id": "Korok13222893714975519401",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -197,7 +197,7 @@
             ],
             "elv": 106.422501,
             "id": "Korok13247469126542819452",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -206,7 +206,7 @@
             ],
             "elv": 115.211899,
             "id": "Korok13276398725536494111",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -215,7 +215,7 @@
             ],
             "elv": 145.488602,
             "id": "Korok13397407553973487668",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -224,7 +224,7 @@
             ],
             "elv": 616.630493,
             "id": "Korok13406578000478771737",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -233,7 +233,7 @@
             ],
             "elv": 224.653397,
             "id": "Korok13574721167545880769",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -242,7 +242,7 @@
             ],
             "elv": 348.809509,
             "id": "Korok13715318254682426167",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -251,7 +251,7 @@
             ],
             "elv": 115.499901,
             "id": "Korok14086010442264569915",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -260,7 +260,7 @@
             ],
             "elv": 267.604401,
             "id": "Korok14386365983047131468",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -269,7 +269,7 @@
             ],
             "elv": 328.401306,
             "id": "Korok14474122671074317609",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -278,7 +278,7 @@
             ],
             "elv": 407.956512,
             "id": "Korok14620345371264461858",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -287,7 +287,7 @@
             ],
             "elv": 116.152702,
             "id": "Korok14675420841305621627",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -296,7 +296,7 @@
             ],
             "elv": 335.716614,
             "id": "Korok1467646013161089597",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -305,7 +305,7 @@
             ],
             "elv": 330.351105,
             "id": "Korok14743492415969903566",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -314,7 +314,7 @@
             ],
             "elv": 305.095398,
             "id": "Korok14755292463343432412",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -323,7 +323,7 @@
             ],
             "elv": 247.547699,
             "id": "Korok14835004004034249742",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -332,7 +332,7 @@
             ],
             "elv": 233.815399,
             "id": "Korok14913775068882522158",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -341,7 +341,7 @@
             ],
             "elv": 402.565186,
             "id": "Korok15014578422836026966",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -350,7 +350,7 @@
             ],
             "elv": 448.001404,
             "id": "Korok15217693042586832359",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -359,7 +359,7 @@
             ],
             "elv": 317.015411,
             "id": "Korok15261531300099259671",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -368,7 +368,7 @@
             ],
             "elv": 591.237976,
             "id": "Korok15270416955868479146",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -377,7 +377,7 @@
             ],
             "elv": 134.863602,
             "id": "Korok1559566833430240376",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -386,7 +386,7 @@
             ],
             "elv": 210.961105,
             "id": "Korok15764967962530007701",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -395,7 +395,7 @@
             ],
             "elv": 415.450287,
             "id": "Korok15812195146511308260",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -404,7 +404,7 @@
             ],
             "elv": 181.190903,
             "id": "Korok15951088143512413279",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -413,7 +413,7 @@
             ],
             "elv": 562.500793,
             "id": "Korok16672092331503822504",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -422,7 +422,7 @@
             ],
             "elv": 106.791496,
             "id": "Korok1701261354463979089",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -431,7 +431,7 @@
             ],
             "elv": 253.240005,
             "id": "Korok17015045044967365539",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -440,7 +440,7 @@
             ],
             "elv": 106.195503,
             "id": "Korok17210919258426000638",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -449,7 +449,7 @@
             ],
             "elv": 244.432205,
             "id": "Korok17594093809162698318",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -458,7 +458,7 @@
             ],
             "elv": 237.608505,
             "id": "Korok17670912282596839597",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -467,7 +467,7 @@
             ],
             "elv": 317.086609,
             "id": "Korok17802606411144917162",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -476,7 +476,7 @@
             ],
             "elv": 130.454193,
             "id": "Korok18153127729825633248",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -485,7 +485,7 @@
             ],
             "elv": 124.648598,
             "id": "Korok18235969829881518418",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -494,7 +494,7 @@
             ],
             "elv": 115.044296,
             "id": "Korok1845078604478085116",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -503,7 +503,7 @@
             ],
             "elv": 322.545685,
             "id": "Korok1977590426358230894",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -512,7 +512,7 @@
             ],
             "elv": 547.177124,
             "id": "Korok2065394700677686397",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -521,7 +521,7 @@
             ],
             "elv": 170.962006,
             "id": "Korok2425953548859621426",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -530,7 +530,7 @@
             ],
             "elv": 628.924072,
             "id": "Korok2753782435549223662",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -539,7 +539,7 @@
             ],
             "elv": 159.804092,
             "id": "Korok3033022659337824191",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -548,7 +548,7 @@
             ],
             "elv": 107.452301,
             "id": "Korok3039055495308853332",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -557,7 +557,7 @@
             ],
             "elv": 195.491806,
             "id": "Korok3140500857535214931",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -566,7 +566,7 @@
             ],
             "elv": 243.5,
             "id": "Korok3643785449856294086",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -575,7 +575,7 @@
             ],
             "elv": 162.561203,
             "id": "Korok4192588996974612514",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -584,7 +584,7 @@
             ],
             "elv": 180.346603,
             "id": "Korok4278308988828624825",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -593,7 +593,7 @@
             ],
             "elv": 126.049797,
             "id": "Korok4386102791994685188",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -602,7 +602,7 @@
             ],
             "elv": 116.667397,
             "id": "Korok4494468278546116134",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -611,7 +611,7 @@
             ],
             "elv": 225.846405,
             "id": "Korok5036066410770918472",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -620,7 +620,7 @@
             ],
             "elv": 125.878403,
             "id": "Korok5145081417529458167",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -629,7 +629,7 @@
             ],
             "elv": 250.507797,
             "id": "Korok5230411027965047570",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -638,7 +638,7 @@
             ],
             "elv": 315.608887,
             "id": "Korok5298571532246140711",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -647,7 +647,7 @@
             ],
             "elv": 94.4138031,
             "id": "Korok55136037473008208",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -656,7 +656,7 @@
             ],
             "elv": 107.053497,
             "id": "Korok5634362082519974124",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -665,7 +665,7 @@
             ],
             "elv": 252.435303,
             "id": "Korok5869665143813001026",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -674,7 +674,7 @@
             ],
             "elv": 177.017502,
             "id": "Korok5937135356624406219",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -683,7 +683,7 @@
             ],
             "elv": 386.269409,
             "id": "Korok661645095586149546",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -692,7 +692,7 @@
             ],
             "elv": 106.227402,
             "id": "Korok6773575892270236835",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -701,7 +701,7 @@
             ],
             "elv": 121.787003,
             "id": "Korok702982911163221302",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -710,7 +710,7 @@
             ],
             "elv": 125.208801,
             "id": "Korok711316197736138568",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -719,7 +719,7 @@
             ],
             "elv": 116.265602,
             "id": "Korok7200846769452032765",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -728,7 +728,7 @@
             ],
             "elv": 497.456909,
             "id": "Korok7205909546088832266",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -737,7 +737,7 @@
             ],
             "elv": 370.485504,
             "id": "Korok7252382242329520081",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -746,7 +746,7 @@
             ],
             "elv": 106.3312,
             "id": "Korok7705700044124304347",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -755,7 +755,7 @@
             ],
             "elv": 121.502602,
             "id": "Korok7786864151230414866",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -764,7 +764,7 @@
             ],
             "elv": 123.6315,
             "id": "Korok8004497664373186229",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -773,7 +773,7 @@
             ],
             "elv": 305.319611,
             "id": "Korok8497568152468259638",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -782,7 +782,7 @@
             ],
             "elv": 119.956802,
             "id": "Korok857511348685999225",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -791,7 +791,7 @@
             ],
             "elv": 147.4673,
             "id": "Korok879993071457401920",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -800,7 +800,7 @@
             ],
             "elv": 238.669296,
             "id": "Korok882636985276030155",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -809,7 +809,7 @@
             ],
             "elv": 155.273102,
             "id": "Korok8971903895020413263",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -818,7 +818,7 @@
             ],
             "elv": 321.007294,
             "id": "Korok8993451623919032985",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -827,7 +827,7 @@
             ],
             "elv": 116.412201,
             "id": "Korok9073478381193169871",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -836,7 +836,7 @@
             ],
             "elv": 311.768402,
             "id": "Korok9329678298925105483",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -845,7 +845,7 @@
             ],
             "elv": 155.038101,
             "id": "Korok9380338098995773009",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -854,7 +854,7 @@
             ],
             "elv": 292.838013,
             "id": "Korok9539946314806298996",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -863,7 +863,7 @@
             ],
             "elv": 125.621696,
             "id": "Korok9545094517092549436",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -872,7 +872,7 @@
             ],
             "elv": 309.02121,
             "id": "Korok9705479798924140351",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -881,7 +881,7 @@
             ],
             "elv": 150.424698,
             "id": "Korok9707096629495885452",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -890,7 +890,7 @@
             ],
             "elv": 293.826691,
             "id": "Korok9734881248452388660",
-            "name": "Korok"
+            "name": "Korok Seed"
           }
         ]
       },
@@ -909,7 +909,7 @@
             ],
             "elv": 739.998474,
             "id": "Korok10016820673332675709",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -918,7 +918,7 @@
             ],
             "elv": 134.916,
             "id": "Korok10044045926791206854",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -927,7 +927,7 @@
             ],
             "elv": 225.5,
             "id": "Korok10141964897024417568",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -936,7 +936,7 @@
             ],
             "elv": 130.026505,
             "id": "Korok10160318663628518876",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -945,7 +945,7 @@
             ],
             "elv": 138.974396,
             "id": "Korok10177547207078528393",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -954,7 +954,7 @@
             ],
             "elv": 403.299805,
             "id": "Korok1018564547239963858",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -963,7 +963,7 @@
             ],
             "elv": 182.956802,
             "id": "Korok10211482841153764955",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -972,7 +972,7 @@
             ],
             "elv": 586.534973,
             "id": "Korok10216840915955189603",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -981,7 +981,7 @@
             ],
             "elv": 130.500595,
             "id": "Korok10220306027153896591",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -990,7 +990,7 @@
             ],
             "elv": 166.497101,
             "id": "Korok1022263772258161128",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -999,7 +999,7 @@
             ],
             "elv": 115.7024,
             "id": "Korok10227304942597050968",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1008,7 +1008,7 @@
             ],
             "elv": 224.544006,
             "id": "Korok10234561625947390091",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1017,7 +1017,7 @@
             ],
             "elv": 167.1073,
             "id": "Korok10282875134335872714",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1026,7 +1026,7 @@
             ],
             "elv": 144.952606,
             "id": "Korok1028502625294660596",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1035,7 +1035,7 @@
             ],
             "elv": 187.650497,
             "id": "Korok10302614047524031496",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1044,7 +1044,7 @@
             ],
             "elv": 497.776306,
             "id": "Korok10315379447128022867",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1053,7 +1053,7 @@
             ],
             "elv": 317.347992,
             "id": "Korok10319937030209318543",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1062,7 +1062,7 @@
             ],
             "elv": 229.308105,
             "id": "Korok10323180643756818435",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1071,7 +1071,7 @@
             ],
             "elv": 191.943405,
             "id": "Korok10341991864461036856",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1080,7 +1080,7 @@
             ],
             "elv": 264.8862,
             "id": "Korok103482330932651309",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1089,7 +1089,7 @@
             ],
             "elv": 239.933197,
             "id": "Korok10363582861712160317",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1098,7 +1098,7 @@
             ],
             "elv": 115.145103,
             "id": "Korok10369343261613204600",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1107,7 +1107,7 @@
             ],
             "elv": 494.65329,
             "id": "Korok10393483231765966482",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1116,7 +1116,7 @@
             ],
             "elv": 243.012405,
             "id": "Korok10429885813003964939",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1125,7 +1125,7 @@
             ],
             "elv": 212.085403,
             "id": "Korok10430055571971258109",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1134,7 +1134,7 @@
             ],
             "elv": 628.634399,
             "id": "Korok10450796131134350410",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1143,7 +1143,7 @@
             ],
             "elv": 112.531303,
             "id": "Korok10461290261373609204",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1152,7 +1152,7 @@
             ],
             "elv": 144.297699,
             "id": "Korok10491429524873383290",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1161,7 +1161,7 @@
             ],
             "elv": 111.588799,
             "id": "Korok10497070578771097785",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1170,7 +1170,7 @@
             ],
             "elv": 281.826202,
             "id": "Korok10511659862021365322",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1179,7 +1179,7 @@
             ],
             "elv": 252.312698,
             "id": "Korok10517879376993084569",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1188,7 +1188,7 @@
             ],
             "elv": 124.785301,
             "id": "Korok10561474896061491535",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1197,7 +1197,7 @@
             ],
             "elv": 123.268303,
             "id": "Korok1059519708374831146",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1206,7 +1206,7 @@
             ],
             "elv": 303.499908,
             "id": "Korok10608661652678836524",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1215,7 +1215,7 @@
             ],
             "elv": 363.3638,
             "id": "Korok10627126053758528742",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1224,7 +1224,7 @@
             ],
             "elv": 423.221985,
             "id": "Korok1063819211567232011",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1233,7 +1233,7 @@
             ],
             "elv": 351.977203,
             "id": "Korok10651035565168588956",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1242,7 +1242,7 @@
             ],
             "elv": 215.863998,
             "id": "Korok10655784229802546161",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1251,7 +1251,7 @@
             ],
             "elv": 318.071594,
             "id": "Korok10696401587162925758",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1260,7 +1260,7 @@
             ],
             "elv": 164.276993,
             "id": "Korok10699158192621881095",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1269,7 +1269,7 @@
             ],
             "elv": 120.888397,
             "id": "Korok10735895864207424086",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1278,7 +1278,7 @@
             ],
             "elv": 225.663498,
             "id": "Korok10819645627138581631",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1287,7 +1287,7 @@
             ],
             "elv": 234.276901,
             "id": "Korok10828632578453733431",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1296,7 +1296,7 @@
             ],
             "elv": 173.597305,
             "id": "Korok10834981405187651159",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1305,7 +1305,7 @@
             ],
             "elv": 133.227295,
             "id": "Korok10836434214172562669",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1314,7 +1314,7 @@
             ],
             "elv": 222.365494,
             "id": "Korok10845401462428263912",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1323,7 +1323,7 @@
             ],
             "elv": 134.035294,
             "id": "Korok10872118447028563447",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1332,7 +1332,7 @@
             ],
             "elv": 126.521301,
             "id": "Korok10924640356498510108",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1341,7 +1341,7 @@
             ],
             "elv": 493.688507,
             "id": "Korok10929644185854360223",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1350,7 +1350,7 @@
             ],
             "elv": 290.940002,
             "id": "Korok10963980177906142196",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1359,7 +1359,7 @@
             ],
             "elv": 197.325699,
             "id": "Korok10964693185620924569",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1368,7 +1368,7 @@
             ],
             "elv": 332.327698,
             "id": "Korok10983467772952485382",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1377,7 +1377,7 @@
             ],
             "elv": 110.532097,
             "id": "Korok10989046057699531080",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1386,7 +1386,7 @@
             ],
             "elv": 256,
             "id": "Korok1103743184701302114",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1395,7 +1395,7 @@
             ],
             "elv": 387.741302,
             "id": "Korok1104126270113423113",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1404,7 +1404,7 @@
             ],
             "elv": 211.5,
             "id": "Korok11041377175400020225",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1413,7 +1413,7 @@
             ],
             "elv": 310.016296,
             "id": "Korok11067348777490821996",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1422,7 +1422,7 @@
             ],
             "elv": 218.060196,
             "id": "Korok11084468198107479580",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1431,7 +1431,7 @@
             ],
             "elv": 184.1651,
             "id": "Korok11092589490821915261",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1440,7 +1440,7 @@
             ],
             "elv": 155.274597,
             "id": "Korok11101587843523150722",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1449,7 +1449,7 @@
             ],
             "elv": 227.059692,
             "id": "Korok1110646140255099455",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1458,7 +1458,7 @@
             ],
             "elv": 155.053207,
             "id": "Korok11114566010763790832",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1467,7 +1467,7 @@
             ],
             "elv": 234.774307,
             "id": "Korok11130498548214153129",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1476,7 +1476,7 @@
             ],
             "elv": 641.645081,
             "id": "Korok1113093112773057431",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1485,7 +1485,7 @@
             ],
             "elv": 542.23291,
             "id": "Korok11134009945431262586",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1494,7 +1494,7 @@
             ],
             "elv": 417.587585,
             "id": "Korok11144180491591704330",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1503,7 +1503,7 @@
             ],
             "elv": 261.988098,
             "id": "Korok11164542281369437447",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1512,7 +1512,7 @@
             ],
             "elv": 447.402313,
             "id": "Korok11169002959142256839",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1521,7 +1521,7 @@
             ],
             "elv": 133.224701,
             "id": "Korok1120748263265417611",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1530,7 +1530,7 @@
             ],
             "elv": 122.049797,
             "id": "Korok1125281589449979947",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1539,7 +1539,7 @@
             ],
             "elv": 182.5,
             "id": "Korok11289240153752802607",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1548,7 +1548,7 @@
             ],
             "elv": 315.896698,
             "id": "Korok11312883102093401296",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1557,7 +1557,7 @@
             ],
             "elv": 541.776978,
             "id": "Korok11334479672482710864",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1566,7 +1566,7 @@
             ],
             "elv": 348.935211,
             "id": "Korok11338438897296023302",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1575,7 +1575,7 @@
             ],
             "elv": 281.155914,
             "id": "Korok11393967350882983757",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1584,7 +1584,7 @@
             ],
             "elv": 263.397308,
             "id": "Korok1141260287185502165",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1593,7 +1593,7 @@
             ],
             "elv": 187.674103,
             "id": "Korok11416843992710515880",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1602,7 +1602,7 @@
             ],
             "elv": 292.46579,
             "id": "Korok11432041619551169149",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1611,7 +1611,7 @@
             ],
             "elv": 370.989197,
             "id": "Korok11516691513478388600",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1620,7 +1620,7 @@
             ],
             "elv": 166.340897,
             "id": "Korok11517617095880699920",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1629,7 +1629,7 @@
             ],
             "elv": 242.811295,
             "id": "Korok11520344657498278720",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1638,7 +1638,7 @@
             ],
             "elv": 184.820999,
             "id": "Korok11639531604563186614",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1647,7 +1647,7 @@
             ],
             "elv": 520.324524,
             "id": "Korok11640550215296496094",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1656,7 +1656,7 @@
             ],
             "elv": 316.909302,
             "id": "Korok1164419289102441502",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1665,7 +1665,7 @@
             ],
             "elv": 158.136795,
             "id": "Korok11739368018312479298",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1674,7 +1674,7 @@
             ],
             "elv": 356.576691,
             "id": "Korok11739651441350538067",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1683,7 +1683,7 @@
             ],
             "elv": 355.566589,
             "id": "Korok11741431329898829003",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1692,7 +1692,7 @@
             ],
             "elv": 172.001801,
             "id": "Korok1175953052774593659",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1701,7 +1701,7 @@
             ],
             "elv": 467.281799,
             "id": "Korok11772831640808667351",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1710,7 +1710,7 @@
             ],
             "elv": 379.301392,
             "id": "Korok1178566442530610990",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1719,7 +1719,7 @@
             ],
             "elv": 161.936996,
             "id": "Korok11822351932189412864",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1728,7 +1728,7 @@
             ],
             "elv": 202.345001,
             "id": "Korok11878389966059820984",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1737,7 +1737,7 @@
             ],
             "elv": 450.111694,
             "id": "Korok11881950817807507324",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1746,7 +1746,7 @@
             ],
             "elv": 109.164101,
             "id": "Korok11908679057677058917",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1755,7 +1755,7 @@
             ],
             "elv": 424.014313,
             "id": "Korok11952277318385604694",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1764,7 +1764,7 @@
             ],
             "elv": 107.246498,
             "id": "Korok11966566732191884293",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1773,7 +1773,7 @@
             ],
             "elv": 127.68,
             "id": "Korok11973409868562968470",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1782,7 +1782,7 @@
             ],
             "elv": 531.016785,
             "id": "Korok11992263708678128507",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1791,7 +1791,7 @@
             ],
             "elv": 331.047607,
             "id": "Korok11995414651872792871",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1800,7 +1800,7 @@
             ],
             "elv": 275.503601,
             "id": "Korok12011600212264052128",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1809,7 +1809,7 @@
             ],
             "elv": 467.121887,
             "id": "Korok12017029797430426160",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1818,7 +1818,7 @@
             ],
             "elv": 257.170807,
             "id": "Korok12021578983097426617",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1827,7 +1827,7 @@
             ],
             "elv": 296.769714,
             "id": "Korok12101453553369401842",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1836,7 +1836,7 @@
             ],
             "elv": 381.615906,
             "id": "Korok12103345968146712715",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1845,7 +1845,7 @@
             ],
             "elv": 144.768295,
             "id": "Korok1210751749568344161",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1854,7 +1854,7 @@
             ],
             "elv": 109.290199,
             "id": "Korok12110438271590855989",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1863,7 +1863,7 @@
             ],
             "elv": 352.24411,
             "id": "Korok121413094079326740",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1872,7 +1872,7 @@
             ],
             "elv": 195.127594,
             "id": "Korok1214338444804137084",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1881,7 +1881,7 @@
             ],
             "elv": 492.326904,
             "id": "Korok12152243153058843755",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1890,7 +1890,7 @@
             ],
             "elv": 399.5,
             "id": "Korok12221387497450875719",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1899,7 +1899,7 @@
             ],
             "elv": 36.5785789,
             "id": "Korok12245288067328729114",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1908,7 +1908,7 @@
             ],
             "elv": 174.769897,
             "id": "Korok12317478517540493485",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1917,7 +1917,7 @@
             ],
             "elv": 236.8591,
             "id": "Korok12340651525112577443",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1926,7 +1926,7 @@
             ],
             "elv": 129.000198,
             "id": "Korok12373768574084410172",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1935,7 +1935,7 @@
             ],
             "elv": 135.033905,
             "id": "Korok12408845643771783465",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1944,7 +1944,7 @@
             ],
             "elv": 308.584106,
             "id": "Korok12446645841084893430",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1953,7 +1953,7 @@
             ],
             "elv": 116.994102,
             "id": "Korok12450154611161210841",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1962,7 +1962,7 @@
             ],
             "elv": 185.128906,
             "id": "Korok12469727916017287542",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1971,7 +1971,7 @@
             ],
             "elv": 219.628204,
             "id": "Korok12481444844189358224",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1980,7 +1980,7 @@
             ],
             "elv": 403.47879,
             "id": "Korok12528672059257724328",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1989,7 +1989,7 @@
             ],
             "elv": 458.46759,
             "id": "Korok12566685606446892642",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -1998,7 +1998,7 @@
             ],
             "elv": 438.406799,
             "id": "Korok12606823435383450797",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2007,7 +2007,7 @@
             ],
             "elv": 443.436188,
             "id": "Korok12617569812559351908",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2016,7 +2016,7 @@
             ],
             "elv": 193.594696,
             "id": "Korok12689941535998657334",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2025,7 +2025,7 @@
             ],
             "elv": 109.910301,
             "id": "Korok12734600149054214039",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2034,7 +2034,7 @@
             ],
             "elv": 384.467987,
             "id": "Korok12747621486331017617",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2043,7 +2043,7 @@
             ],
             "elv": 196.216507,
             "id": "Korok12754494585945286523",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2052,7 +2052,7 @@
             ],
             "elv": 275.909607,
             "id": "Korok12771829342051999229",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2061,7 +2061,7 @@
             ],
             "elv": 225.303101,
             "id": "Korok12782150908369264341",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2070,7 +2070,7 @@
             ],
             "elv": 316.272186,
             "id": "Korok12786752851097718269",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2079,7 +2079,7 @@
             ],
             "elv": 244.317398,
             "id": "Korok12801271410434042249",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2088,7 +2088,7 @@
             ],
             "elv": 137.961304,
             "id": "Korok12814475636616435201",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2097,7 +2097,7 @@
             ],
             "elv": 271.883911,
             "id": "Korok12815645405966942496",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2106,7 +2106,7 @@
             ],
             "elv": 140.671005,
             "id": "Korok12823002419334222130",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2115,7 +2115,7 @@
             ],
             "elv": 144.000198,
             "id": "Korok1284559018020148020",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2124,7 +2124,7 @@
             ],
             "elv": 124.757698,
             "id": "Korok12846144469411198385",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2133,7 +2133,7 @@
             ],
             "elv": 183.785599,
             "id": "Korok12862741203354694735",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2142,7 +2142,7 @@
             ],
             "elv": 116.297798,
             "id": "Korok12878704235144967206",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2151,7 +2151,7 @@
             ],
             "elv": 153.202896,
             "id": "Korok12917134063412958766",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2160,7 +2160,7 @@
             ],
             "elv": 287.655914,
             "id": "Korok12928910820770980694",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2169,7 +2169,7 @@
             ],
             "elv": 395.46579,
             "id": "Korok12935984448675731724",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2178,7 +2178,7 @@
             ],
             "elv": 151.888397,
             "id": "Korok12943432138253829864",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2187,7 +2187,7 @@
             ],
             "elv": 162.179504,
             "id": "Korok12952973219885111164",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2196,7 +2196,7 @@
             ],
             "elv": 201.768494,
             "id": "Korok12987547560871555880",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2205,7 +2205,7 @@
             ],
             "elv": 344.643585,
             "id": "Korok12990860567124303836",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2214,7 +2214,7 @@
             ],
             "elv": 208.5784,
             "id": "Korok13025271612885690291",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2223,7 +2223,7 @@
             ],
             "elv": 133.647598,
             "id": "Korok1307848331404106196",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2232,7 +2232,7 @@
             ],
             "elv": 348.450012,
             "id": "Korok13096633918810132778",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2241,7 +2241,7 @@
             ],
             "elv": 217.101303,
             "id": "Korok13135352375277309226",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2250,7 +2250,7 @@
             ],
             "elv": 298.214111,
             "id": "Korok13152256126615939421",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2259,7 +2259,7 @@
             ],
             "elv": 178.965302,
             "id": "Korok13160275105216921113",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2268,7 +2268,7 @@
             ],
             "elv": 131.028,
             "id": "Korok13174963936977085957",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2277,7 +2277,7 @@
             ],
             "elv": 183.736603,
             "id": "Korok13181199277162843813",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2286,7 +2286,7 @@
             ],
             "elv": 414.330902,
             "id": "Korok13207139205845822683",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2295,7 +2295,7 @@
             ],
             "elv": 181.400604,
             "id": "Korok13249281224813225523",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2304,7 +2304,7 @@
             ],
             "elv": 254.263,
             "id": "Korok13252584950816797894",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2313,7 +2313,7 @@
             ],
             "elv": 115.895897,
             "id": "Korok13293445766675800835",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2322,7 +2322,7 @@
             ],
             "elv": 203.878006,
             "id": "Korok13300820857230886291",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2331,7 +2331,7 @@
             ],
             "elv": 110.964302,
             "id": "Korok13301268576130716822",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2340,7 +2340,7 @@
             ],
             "elv": 284.570892,
             "id": "Korok13303489708797769100",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2349,7 +2349,7 @@
             ],
             "elv": 123.754898,
             "id": "Korok13311406107371509670",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2358,7 +2358,7 @@
             ],
             "elv": 500.465515,
             "id": "Korok13333126749748137701",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2367,7 +2367,7 @@
             ],
             "elv": 122.5998,
             "id": "Korok1334933682307416868",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2376,7 +2376,7 @@
             ],
             "elv": 211.849594,
             "id": "Korok13497220796345812432",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2385,7 +2385,7 @@
             ],
             "elv": 189.391205,
             "id": "Korok13532705414332012452",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2394,7 +2394,7 @@
             ],
             "elv": 211.128494,
             "id": "Korok13541828425256097802",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2403,7 +2403,7 @@
             ],
             "elv": 119.004204,
             "id": "Korok13546931141870714275",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2412,7 +2412,7 @@
             ],
             "elv": 237.894699,
             "id": "Korok13617456271189484561",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2421,7 +2421,7 @@
             ],
             "elv": 175.6064,
             "id": "Korok13635101395998127747",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2430,7 +2430,7 @@
             ],
             "elv": 104.416801,
             "id": "Korok13656111878882625417",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2439,7 +2439,7 @@
             ],
             "elv": 139.687897,
             "id": "Korok13769109468342845536",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2448,7 +2448,7 @@
             ],
             "elv": 124.8405,
             "id": "Korok13780635754008210758",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2457,7 +2457,7 @@
             ],
             "elv": 635.528625,
             "id": "Korok13788551635751267379",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2466,7 +2466,7 @@
             ],
             "elv": 393.314392,
             "id": "Korok13801642223984532728",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2475,7 +2475,7 @@
             ],
             "elv": 521.560913,
             "id": "Korok13823294552328059798",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2484,7 +2484,7 @@
             ],
             "elv": 126.0354,
             "id": "Korok1385630631130587513",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2493,7 +2493,7 @@
             ],
             "elv": 159.996704,
             "id": "Korok13885739895678072565",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2502,7 +2502,7 @@
             ],
             "elv": 195.953705,
             "id": "Korok13903618493496107390",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2511,7 +2511,7 @@
             ],
             "elv": 253.628998,
             "id": "Korok13912411476314124137",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2520,7 +2520,7 @@
             ],
             "elv": 139.340897,
             "id": "Korok13914110800088789029",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2529,7 +2529,7 @@
             ],
             "elv": 235.088593,
             "id": "Korok13959494170581761719",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2538,7 +2538,7 @@
             ],
             "elv": 342.700012,
             "id": "Korok13976246961464499824",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2547,7 +2547,7 @@
             ],
             "elv": 164.958603,
             "id": "Korok14042563534797144229",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2556,7 +2556,7 @@
             ],
             "elv": 192.335602,
             "id": "Korok14061613351665424412",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2565,7 +2565,7 @@
             ],
             "elv": 183.252106,
             "id": "Korok14082702313945795460",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2574,7 +2574,7 @@
             ],
             "elv": 210.744507,
             "id": "Korok14086688405609673175",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2583,7 +2583,7 @@
             ],
             "elv": 289.245514,
             "id": "Korok14087314978375769689",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2592,7 +2592,7 @@
             ],
             "elv": 322.577911,
             "id": "Korok1411840076469744656",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2601,7 +2601,7 @@
             ],
             "elv": 480.269592,
             "id": "Korok14153630333572901663",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2610,7 +2610,7 @@
             ],
             "elv": 301.122986,
             "id": "Korok14155921252525296225",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2619,7 +2619,7 @@
             ],
             "elv": 422.953888,
             "id": "Korok14172191863925482235",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2628,7 +2628,7 @@
             ],
             "elv": 112.653603,
             "id": "Korok14187237025316292984",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2637,7 +2637,7 @@
             ],
             "elv": 477.481812,
             "id": "Korok14192826406388038346",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2646,7 +2646,7 @@
             ],
             "elv": 208.611404,
             "id": "Korok14230652672324869313",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2655,7 +2655,7 @@
             ],
             "elv": 412.545197,
             "id": "Korok14260365357325215794",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2664,7 +2664,7 @@
             ],
             "elv": 155.661301,
             "id": "Korok14308773491589426076",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2673,7 +2673,7 @@
             ],
             "elv": 122.894699,
             "id": "Korok14309199436493499974",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2682,7 +2682,7 @@
             ],
             "elv": 115.697899,
             "id": "Korok14356512659684195952",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2691,7 +2691,7 @@
             ],
             "elv": 96.1398697,
             "id": "Korok14371707955240329928",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2700,7 +2700,7 @@
             ],
             "elv": 257.824585,
             "id": "Korok14434949014627015177",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2709,7 +2709,7 @@
             ],
             "elv": 74.5949631,
             "id": "Korok14445190351963434155",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2718,7 +2718,7 @@
             ],
             "elv": 167.647293,
             "id": "Korok14488432448207596695",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2727,7 +2727,7 @@
             ],
             "elv": 385.110107,
             "id": "Korok1449389790032897291",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2736,7 +2736,7 @@
             ],
             "elv": 217.8302,
             "id": "Korok14535098788014402744",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2745,7 +2745,7 @@
             ],
             "elv": 201.837296,
             "id": "Korok14566730631915390120",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2754,7 +2754,7 @@
             ],
             "elv": 131.8862,
             "id": "Korok14579893897584636972",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2763,7 +2763,7 @@
             ],
             "elv": 151.753296,
             "id": "Korok14580398991295989579",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2772,7 +2772,7 @@
             ],
             "elv": 305.48349,
             "id": "Korok14679473843209364117",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2781,7 +2781,7 @@
             ],
             "elv": 323.864014,
             "id": "Korok14681451072630269260",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2790,7 +2790,7 @@
             ],
             "elv": 293.754089,
             "id": "Korok14702525289091244489",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2799,7 +2799,7 @@
             ],
             "elv": 179.385101,
             "id": "Korok14711127582360451694",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2808,7 +2808,7 @@
             ],
             "elv": 109.519096,
             "id": "Korok14749977133134870862",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2817,7 +2817,7 @@
             ],
             "elv": 407.117615,
             "id": "Korok14756499655669972704",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2826,7 +2826,7 @@
             ],
             "elv": 446.06601,
             "id": "Korok14757294243185829951",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2835,7 +2835,7 @@
             ],
             "elv": 311.540314,
             "id": "Korok14763701770886914378",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2844,7 +2844,7 @@
             ],
             "elv": 147.435196,
             "id": "Korok14770851934881806294",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2853,7 +2853,7 @@
             ],
             "elv": 115.667702,
             "id": "Korok14776411667379785712",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2862,7 +2862,7 @@
             ],
             "elv": 72.4936066,
             "id": "Korok14789527049039011847",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2871,7 +2871,7 @@
             ],
             "elv": 133.339096,
             "id": "Korok14806267502145031795",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2880,7 +2880,7 @@
             ],
             "elv": 315.149902,
             "id": "Korok14815472261775172056",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2889,7 +2889,7 @@
             ],
             "elv": 432.5,
             "id": "Korok14822308677412480367",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2898,7 +2898,7 @@
             ],
             "elv": 177.186203,
             "id": "Korok14829033782000849174",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2907,7 +2907,7 @@
             ],
             "elv": 579.729492,
             "id": "Korok14842033047189082169",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2916,7 +2916,7 @@
             ],
             "elv": 115.272003,
             "id": "Korok148596083198088389",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2925,7 +2925,7 @@
             ],
             "elv": 151.311401,
             "id": "Korok1487273285778985759",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2934,7 +2934,7 @@
             ],
             "elv": 216.207199,
             "id": "Korok14896822338409476435",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2943,7 +2943,7 @@
             ],
             "elv": 255.712799,
             "id": "Korok14931584670873890048",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2952,7 +2952,7 @@
             ],
             "elv": 276.182587,
             "id": "Korok1495923315913480463",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2961,7 +2961,7 @@
             ],
             "elv": 164.320801,
             "id": "Korok14994532817787330975",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2970,7 +2970,7 @@
             ],
             "elv": 314.37619,
             "id": "Korok15056806489610383594",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2979,7 +2979,7 @@
             ],
             "elv": 285.762787,
             "id": "Korok15058815420293479985",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2988,7 +2988,7 @@
             ],
             "elv": 588.488525,
             "id": "Korok15067029177385214135",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -2997,7 +2997,7 @@
             ],
             "elv": 398.01651,
             "id": "Korok15087314186030403236",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3006,7 +3006,7 @@
             ],
             "elv": 302.990601,
             "id": "Korok15153122761935613537",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3015,7 +3015,7 @@
             ],
             "elv": 121.771103,
             "id": "Korok15166278230544831951",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3024,7 +3024,7 @@
             ],
             "elv": 116.456299,
             "id": "Korok15182452364291788021",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3033,7 +3033,7 @@
             ],
             "elv": 217.876205,
             "id": "Korok15207631927458301552",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3042,7 +3042,7 @@
             ],
             "elv": 219.199707,
             "id": "Korok15218640912468430323",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3051,7 +3051,7 @@
             ],
             "elv": 270.555908,
             "id": "Korok15242404637609370819",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3060,7 +3060,7 @@
             ],
             "elv": 258.161987,
             "id": "Korok15245439797519590336",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3069,7 +3069,7 @@
             ],
             "elv": 187.323807,
             "id": "Korok15251102872530022383",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3078,7 +3078,7 @@
             ],
             "elv": 762.999329,
             "id": "Korok15262678164833260129",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3087,7 +3087,7 @@
             ],
             "elv": 282.388214,
             "id": "Korok15278503746814222090",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3096,7 +3096,7 @@
             ],
             "elv": 186.911407,
             "id": "Korok15312957873380135882",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3105,7 +3105,7 @@
             ],
             "elv": 125.007896,
             "id": "Korok15327046427081011643",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3114,7 +3114,7 @@
             ],
             "elv": 311.419006,
             "id": "Korok15346779723474805067",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3123,7 +3123,7 @@
             ],
             "elv": 109.895401,
             "id": "Korok15357291793273415698",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3132,7 +3132,7 @@
             ],
             "elv": 365.187012,
             "id": "Korok15445183966107884573",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3141,7 +3141,7 @@
             ],
             "elv": 268.696503,
             "id": "Korok15449107362838589642",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3150,7 +3150,7 @@
             ],
             "elv": 312.510712,
             "id": "Korok15493510052219152057",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3159,7 +3159,7 @@
             ],
             "elv": 323.167694,
             "id": "Korok15561059750095631396",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3168,7 +3168,7 @@
             ],
             "elv": 577.202576,
             "id": "Korok15566102505896691821",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3177,7 +3177,7 @@
             ],
             "elv": 334.586914,
             "id": "Korok15569861608415873400",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3186,7 +3186,7 @@
             ],
             "elv": 492.404602,
             "id": "Korok15615539209599471167",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3195,7 +3195,7 @@
             ],
             "elv": 550.34198,
             "id": "Korok1561713044173724178",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3204,7 +3204,7 @@
             ],
             "elv": 112.022697,
             "id": "Korok15682555824643748209",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3213,7 +3213,7 @@
             ],
             "elv": 501.493713,
             "id": "Korok15691716533904034290",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3222,7 +3222,7 @@
             ],
             "elv": 362.868286,
             "id": "Korok15703190269680362860",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3231,7 +3231,7 @@
             ],
             "elv": 353.340698,
             "id": "Korok15707580141384129298",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3240,7 +3240,7 @@
             ],
             "elv": 340.507507,
             "id": "Korok15738792628810197793",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3249,7 +3249,7 @@
             ],
             "elv": 414.162903,
             "id": "Korok15768943358661857635",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3258,7 +3258,7 @@
             ],
             "elv": 120.852501,
             "id": "Korok15788393777246987854",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3267,7 +3267,7 @@
             ],
             "elv": 640.95752,
             "id": "Korok15800300194434429523",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3276,7 +3276,7 @@
             ],
             "elv": 205.873001,
             "id": "Korok15861427487873656580",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3285,7 +3285,7 @@
             ],
             "elv": 176.604996,
             "id": "Korok15881967301574647141",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3294,7 +3294,7 @@
             ],
             "elv": 200.014496,
             "id": "Korok15886204473868520149",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3303,7 +3303,7 @@
             ],
             "elv": 269.542389,
             "id": "Korok15890950618101978866",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3312,7 +3312,7 @@
             ],
             "elv": 409.063507,
             "id": "Korok15906837289165115679",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3321,7 +3321,7 @@
             ],
             "elv": 208.436401,
             "id": "Korok15909320962641480471",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3330,7 +3330,7 @@
             ],
             "elv": 628.02478,
             "id": "Korok15914894808815074410",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3339,7 +3339,7 @@
             ],
             "elv": 368.385406,
             "id": "Korok15966353180086465221",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3348,7 +3348,7 @@
             ],
             "elv": 249.443695,
             "id": "Korok15985887228135643401",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3357,7 +3357,7 @@
             ],
             "elv": 295.215393,
             "id": "Korok15986507615387130517",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3366,7 +3366,7 @@
             ],
             "elv": 493.754486,
             "id": "Korok16010466355789939033",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3375,7 +3375,7 @@
             ],
             "elv": 820.741211,
             "id": "Korok16011403532607734144",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3384,7 +3384,7 @@
             ],
             "elv": 668.260315,
             "id": "Korok16018896617238129060",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3393,7 +3393,7 @@
             ],
             "elv": 320.180389,
             "id": "Korok16030481355004530881",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3402,7 +3402,7 @@
             ],
             "elv": 312.914795,
             "id": "Korok16053963290356797980",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3411,7 +3411,7 @@
             ],
             "elv": 429.566406,
             "id": "Korok16095275591058031297",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3420,7 +3420,7 @@
             ],
             "elv": 142.350296,
             "id": "Korok16153042861008747253",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3429,7 +3429,7 @@
             ],
             "elv": 346.024506,
             "id": "Korok16170647262175863463",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3438,7 +3438,7 @@
             ],
             "elv": 346.128601,
             "id": "Korok16221857197643488822",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3447,7 +3447,7 @@
             ],
             "elv": 327.739807,
             "id": "Korok16276478534882156700",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3456,7 +3456,7 @@
             ],
             "elv": 150.378601,
             "id": "Korok16316812175141615859",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3465,7 +3465,7 @@
             ],
             "elv": 303.469208,
             "id": "Korok163187856769110217",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3474,7 +3474,7 @@
             ],
             "elv": 277.510803,
             "id": "Korok16351706486743584602",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3483,7 +3483,7 @@
             ],
             "elv": 210.150497,
             "id": "Korok16390189732445847983",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3492,7 +3492,7 @@
             ],
             "elv": 337.412689,
             "id": "Korok16392220470676551948",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3501,7 +3501,7 @@
             ],
             "elv": 630.530884,
             "id": "Korok16396783538434948484",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3510,7 +3510,7 @@
             ],
             "elv": 255.867004,
             "id": "Korok16468088564225504954",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3519,7 +3519,7 @@
             ],
             "elv": 238.598999,
             "id": "Korok16472531531590775581",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3528,7 +3528,7 @@
             ],
             "elv": 149.733994,
             "id": "Korok16473525949951385755",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3537,7 +3537,7 @@
             ],
             "elv": 119.004204,
             "id": "Korok16489428875979621722",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3546,7 +3546,7 @@
             ],
             "elv": 561.368591,
             "id": "Korok16528859289179557707",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3555,7 +3555,7 @@
             ],
             "elv": 299.73349,
             "id": "Korok16567720566500737244",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3564,7 +3564,7 @@
             ],
             "elv": 671.5,
             "id": "Korok16572093104079537211",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3573,7 +3573,7 @@
             ],
             "elv": 310.592194,
             "id": "Korok16627554996201462647",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3582,7 +3582,7 @@
             ],
             "elv": 284.521912,
             "id": "Korok1664979196934781424",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3591,7 +3591,7 @@
             ],
             "elv": 339.519501,
             "id": "Korok16651485175674674795",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3600,7 +3600,7 @@
             ],
             "elv": 262.914001,
             "id": "Korok16659953331084741325",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3609,7 +3609,7 @@
             ],
             "elv": 110.980202,
             "id": "Korok16694294640381398650",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3618,7 +3618,7 @@
             ],
             "elv": 498.671906,
             "id": "Korok16720014599303679212",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3627,7 +3627,7 @@
             ],
             "elv": 582.980591,
             "id": "Korok16724031845297507489",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3636,7 +3636,7 @@
             ],
             "elv": 447.555603,
             "id": "Korok16725964426099587918",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3645,7 +3645,7 @@
             ],
             "elv": 327.909485,
             "id": "Korok16756657189707761600",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3654,7 +3654,7 @@
             ],
             "elv": 131.462296,
             "id": "Korok16763389655907530864",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3663,7 +3663,7 @@
             ],
             "elv": 242.616196,
             "id": "Korok168227526044957678",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3672,7 +3672,7 @@
             ],
             "elv": 114.950996,
             "id": "Korok168243187548655859",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3681,7 +3681,7 @@
             ],
             "elv": 15.3164701,
             "id": "Korok1683439530820752411",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3690,7 +3690,7 @@
             ],
             "elv": 237.922195,
             "id": "Korok16867169671301534142",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3699,7 +3699,7 @@
             ],
             "elv": 466.125793,
             "id": "Korok1687635158323563480",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3708,7 +3708,7 @@
             ],
             "elv": 133.208801,
             "id": "Korok1689515390452322643",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3717,7 +3717,7 @@
             ],
             "elv": 115.5327,
             "id": "Korok1697152588585805257",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3726,7 +3726,7 @@
             ],
             "elv": 132.2621,
             "id": "Korok16999322315051527287",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3735,7 +3735,7 @@
             ],
             "elv": 392.519806,
             "id": "Korok17026629749070393183",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3744,7 +3744,7 @@
             ],
             "elv": 302.062103,
             "id": "Korok17076110261048951640",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3753,7 +3753,7 @@
             ],
             "elv": 166.580307,
             "id": "Korok17081233132328253925",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3762,7 +3762,7 @@
             ],
             "elv": 116.746399,
             "id": "Korok17086192389570646487",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3771,7 +3771,7 @@
             ],
             "elv": 108.402,
             "id": "Korok17088514737480710489",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3780,7 +3780,7 @@
             ],
             "elv": 141.893906,
             "id": "Korok17169915687642666848",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3789,7 +3789,7 @@
             ],
             "elv": 223.025497,
             "id": "Korok17213513339174410875",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3798,7 +3798,7 @@
             ],
             "elv": 96.6095963,
             "id": "Korok17256659735313657021",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3807,7 +3807,7 @@
             ],
             "elv": 396.662506,
             "id": "Korok17259834723518705126",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3816,7 +3816,7 @@
             ],
             "elv": 201.826706,
             "id": "Korok17296963808053955608",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3825,7 +3825,7 @@
             ],
             "elv": 115.638802,
             "id": "Korok17310981470778176771",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3834,7 +3834,7 @@
             ],
             "elv": 211.133896,
             "id": "Korok17333691127101062992",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3843,7 +3843,7 @@
             ],
             "elv": 128.040207,
             "id": "Korok17424210494862630052",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3852,7 +3852,7 @@
             ],
             "elv": 356.960907,
             "id": "Korok17438880653661263827",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3861,7 +3861,7 @@
             ],
             "elv": 361.071106,
             "id": "Korok1744019410886703008",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3870,7 +3870,7 @@
             ],
             "elv": 136.782196,
             "id": "Korok17460680321953351941",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3879,7 +3879,7 @@
             ],
             "elv": 271.550415,
             "id": "Korok17498924531679740904",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3888,7 +3888,7 @@
             ],
             "elv": 194.2677,
             "id": "Korok1752508712244046212",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3897,7 +3897,7 @@
             ],
             "elv": 251.261093,
             "id": "Korok17568603393338077390",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3906,7 +3906,7 @@
             ],
             "elv": 243.590103,
             "id": "Korok1757917788153721738",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3915,7 +3915,7 @@
             ],
             "elv": 232.521301,
             "id": "Korok17595964512236698192",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3924,7 +3924,7 @@
             ],
             "elv": 269.648987,
             "id": "Korok17673115100390339186",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3933,7 +3933,7 @@
             ],
             "elv": 333.281891,
             "id": "Korok17673329914656853694",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3942,7 +3942,7 @@
             ],
             "elv": 227.591507,
             "id": "Korok17684465643323933958",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3951,7 +3951,7 @@
             ],
             "elv": 543.529419,
             "id": "Korok17689988895602132100",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3960,7 +3960,7 @@
             ],
             "elv": 144.521698,
             "id": "Korok17702633499031186931",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3969,7 +3969,7 @@
             ],
             "elv": 259.320313,
             "id": "Korok17761234010279361443",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3978,7 +3978,7 @@
             ],
             "elv": 340.826202,
             "id": "Korok17775015922032978508",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3987,7 +3987,7 @@
             ],
             "elv": 262.427612,
             "id": "Korok17787166563654202941",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -3996,7 +3996,7 @@
             ],
             "elv": 228.230301,
             "id": "Korok17814303335070178913",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4005,7 +4005,7 @@
             ],
             "elv": 122.032501,
             "id": "Korok17819622671622415095",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4014,7 +4014,7 @@
             ],
             "elv": 133.823593,
             "id": "Korok1784022465563079485",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4023,7 +4023,7 @@
             ],
             "elv": 390.987396,
             "id": "Korok1785934975395315615",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4032,7 +4032,7 @@
             ],
             "elv": 262.606201,
             "id": "Korok17900274190182944414",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4041,7 +4041,7 @@
             ],
             "elv": 662.439087,
             "id": "Korok17915764004648973662",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4050,7 +4050,7 @@
             ],
             "elv": 197.904404,
             "id": "Korok17964070682388523084",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4059,7 +4059,7 @@
             ],
             "elv": 389.109314,
             "id": "Korok1802035004620984161",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4068,7 +4068,7 @@
             ],
             "elv": 138.074707,
             "id": "Korok18033456621392803449",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4077,7 +4077,7 @@
             ],
             "elv": 374.835388,
             "id": "Korok18039446680315416506",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4086,7 +4086,7 @@
             ],
             "elv": 185.363693,
             "id": "Korok18067351636953493541",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4095,7 +4095,7 @@
             ],
             "elv": 123.1968,
             "id": "Korok18095845446732179302",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4104,7 +4104,7 @@
             ],
             "elv": 378.206909,
             "id": "Korok18143539020480219655",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4113,7 +4113,7 @@
             ],
             "elv": 820.089294,
             "id": "Korok18194949317466592174",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4122,7 +4122,7 @@
             ],
             "elv": 127.466103,
             "id": "Korok18198826818177268352",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4131,7 +4131,7 @@
             ],
             "elv": 307.777405,
             "id": "Korok18203394194235328482",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4140,7 +4140,7 @@
             ],
             "elv": 354.054993,
             "id": "Korok18230243496605179380",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4149,7 +4149,7 @@
             ],
             "elv": 119.081001,
             "id": "Korok1823536007259880818",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4158,7 +4158,7 @@
             ],
             "elv": 511.748413,
             "id": "Korok18239513040301483126",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4167,7 +4167,7 @@
             ],
             "elv": 426.124115,
             "id": "Korok18247031465532167034",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4176,7 +4176,7 @@
             ],
             "elv": 416.907593,
             "id": "Korok1827800244735644348",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4185,7 +4185,7 @@
             ],
             "elv": 167.025497,
             "id": "Korok18320621778101189642",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4194,7 +4194,7 @@
             ],
             "elv": 290.04071,
             "id": "Korok1837897331638887469",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4203,7 +4203,7 @@
             ],
             "elv": 186.010101,
             "id": "Korok1860430881296156889",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4212,7 +4212,7 @@
             ],
             "elv": 131.806305,
             "id": "Korok1936945607168958178",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4221,7 +4221,7 @@
             ],
             "elv": 612.083801,
             "id": "Korok1952653390367768908",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4230,7 +4230,7 @@
             ],
             "elv": 506.961487,
             "id": "Korok195834357070932418",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4239,7 +4239,7 @@
             ],
             "elv": 317.421997,
             "id": "Korok1985521609412005653",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4248,7 +4248,7 @@
             ],
             "elv": 382.946106,
             "id": "Korok1994265007973734890",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4257,7 +4257,7 @@
             ],
             "elv": 287.948486,
             "id": "Korok2005617170383904724",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4266,7 +4266,7 @@
             ],
             "elv": 623.958801,
             "id": "Korok2005768738518178976",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4275,7 +4275,7 @@
             ],
             "elv": 171.833801,
             "id": "Korok2016463029176626195",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4284,7 +4284,7 @@
             ],
             "elv": 194.467697,
             "id": "Korok202400052291878333",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4293,7 +4293,7 @@
             ],
             "elv": 127.394203,
             "id": "Korok2027213233102240069",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4302,7 +4302,7 @@
             ],
             "elv": 223.611694,
             "id": "Korok20479097125254285",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4311,7 +4311,7 @@
             ],
             "elv": 413.478394,
             "id": "Korok2072789414704507750",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4320,7 +4320,7 @@
             ],
             "elv": 255.998901,
             "id": "Korok2099967244627717760",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4329,7 +4329,7 @@
             ],
             "elv": 315.367004,
             "id": "Korok2115847904790721758",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4338,7 +4338,7 @@
             ],
             "elv": 416.177307,
             "id": "Korok2131482042634901110",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4347,7 +4347,7 @@
             ],
             "elv": 330.984314,
             "id": "Korok2166431301374786808",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4356,7 +4356,7 @@
             ],
             "elv": 212.806305,
             "id": "Korok2213336808923796882",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4365,7 +4365,7 @@
             ],
             "elv": 457.325806,
             "id": "Korok2214555205954752328",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4374,7 +4374,7 @@
             ],
             "elv": 136.212494,
             "id": "Korok2298518876902828738",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4383,7 +4383,7 @@
             ],
             "elv": 157.853806,
             "id": "Korok230883863982364464",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4392,7 +4392,7 @@
             ],
             "elv": 308.544586,
             "id": "Korok231355141223852276",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4401,7 +4401,7 @@
             ],
             "elv": 119.004204,
             "id": "Korok2321155500937698215",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4410,7 +4410,7 @@
             ],
             "elv": 184.7388,
             "id": "Korok2330504190505667851",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4419,7 +4419,7 @@
             ],
             "elv": 223.742294,
             "id": "Korok2337007897356578783",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4428,7 +4428,7 @@
             ],
             "elv": 251.0896,
             "id": "Korok2345630606571379499",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4437,7 +4437,7 @@
             ],
             "elv": 352.309204,
             "id": "Korok2369634760713410570",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4446,7 +4446,7 @@
             ],
             "elv": 142.537796,
             "id": "Korok2398977023075581082",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4455,7 +4455,7 @@
             ],
             "elv": 277.287994,
             "id": "Korok2423149810741481404",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4464,7 +4464,7 @@
             ],
             "elv": 251.543793,
             "id": "Korok2428325839032249434",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4473,7 +4473,7 @@
             ],
             "elv": 251.561401,
             "id": "Korok2433084691527374820",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4482,7 +4482,7 @@
             ],
             "elv": 282.039886,
             "id": "Korok2496483735845282109",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4491,7 +4491,7 @@
             ],
             "elv": 551.657471,
             "id": "Korok254646477761069123",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4500,7 +4500,7 @@
             ],
             "elv": 214.191605,
             "id": "Korok2546691250495331752",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4509,7 +4509,7 @@
             ],
             "elv": 700.41803,
             "id": "Korok2587961335290322890",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4518,7 +4518,7 @@
             ],
             "elv": 203.096603,
             "id": "Korok2588166468058920643",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4527,7 +4527,7 @@
             ],
             "elv": 454.935303,
             "id": "Korok2598131028535269561",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4536,7 +4536,7 @@
             ],
             "elv": 247.537704,
             "id": "Korok2604803231974222696",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4545,7 +4545,7 @@
             ],
             "elv": 175.927094,
             "id": "Korok2615536536849519248",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4554,7 +4554,7 @@
             ],
             "elv": 680.368103,
             "id": "Korok2633399859190537511",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4563,7 +4563,7 @@
             ],
             "elv": 390.411987,
             "id": "Korok2646143431057937959",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4572,7 +4572,7 @@
             ],
             "elv": 375.315613,
             "id": "Korok2654532153968049743",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4581,7 +4581,7 @@
             ],
             "elv": 297.767303,
             "id": "Korok2655207353617298729",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4590,7 +4590,7 @@
             ],
             "elv": 106.720001,
             "id": "Korok270161478749347447",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4599,7 +4599,7 @@
             ],
             "elv": 287,
             "id": "Korok2742518356128749017",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4608,7 +4608,7 @@
             ],
             "elv": 683.03241,
             "id": "Korok2785376061768713376",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4617,7 +4617,7 @@
             ],
             "elv": 210.591705,
             "id": "Korok279287772854416530",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4626,7 +4626,7 @@
             ],
             "elv": 422.710693,
             "id": "Korok2798924264813438708",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4635,7 +4635,7 @@
             ],
             "elv": 155.661804,
             "id": "Korok294694747801525234",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4644,7 +4644,7 @@
             ],
             "elv": 165.674103,
             "id": "Korok2961910212851447260",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4653,7 +4653,7 @@
             ],
             "elv": 234.8629,
             "id": "Korok2978082873650049275",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4662,7 +4662,7 @@
             ],
             "elv": 247.0755,
             "id": "Korok2983869594361676666",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4671,7 +4671,7 @@
             ],
             "elv": 223.622406,
             "id": "Korok2990438010867749457",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4680,7 +4680,7 @@
             ],
             "elv": 143.599304,
             "id": "Korok3012204764735586183",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4689,7 +4689,7 @@
             ],
             "elv": 114.769096,
             "id": "Korok3024722206311652108",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4698,7 +4698,7 @@
             ],
             "elv": 175.043701,
             "id": "Korok303084504413605609",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4707,7 +4707,7 @@
             ],
             "elv": 139.568497,
             "id": "Korok3045069736672921505",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4716,7 +4716,7 @@
             ],
             "elv": 188.445496,
             "id": "Korok3048188764439462005",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4725,7 +4725,7 @@
             ],
             "elv": 208.159897,
             "id": "Korok3054187304606249454",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4734,7 +4734,7 @@
             ],
             "elv": 552.349182,
             "id": "Korok3090106206972588217",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4743,7 +4743,7 @@
             ],
             "elv": 326.194794,
             "id": "Korok3099256184241571770",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4752,7 +4752,7 @@
             ],
             "elv": 132.947403,
             "id": "Korok3131303308012964389",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4761,7 +4761,7 @@
             ],
             "elv": 385.373199,
             "id": "Korok3194273493338003455",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4770,7 +4770,7 @@
             ],
             "elv": 347.590088,
             "id": "Korok3246041468912210826",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4779,7 +4779,7 @@
             ],
             "elv": 281.930298,
             "id": "Korok3328556332697354376",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4788,7 +4788,7 @@
             ],
             "elv": 224.659393,
             "id": "Korok3339483108600821238",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4797,7 +4797,7 @@
             ],
             "elv": 221.457703,
             "id": "Korok3407792450175795124",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4806,7 +4806,7 @@
             ],
             "elv": 248.412704,
             "id": "Korok3451919865468411181",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4815,7 +4815,7 @@
             ],
             "elv": 197.285095,
             "id": "Korok3484767182656944873",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4824,7 +4824,7 @@
             ],
             "elv": 486.610687,
             "id": "Korok3490858153917645329",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4833,7 +4833,7 @@
             ],
             "elv": 724.782471,
             "id": "Korok3494902862536172994",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4842,7 +4842,7 @@
             ],
             "elv": 425.156403,
             "id": "Korok3512824503779314753",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4851,7 +4851,7 @@
             ],
             "elv": 179.393402,
             "id": "Korok3523693622841050795",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4860,7 +4860,7 @@
             ],
             "elv": 798.657715,
             "id": "Korok3539367211902723417",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4869,7 +4869,7 @@
             ],
             "elv": 485.994202,
             "id": "Korok3542897457569421051",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4878,7 +4878,7 @@
             ],
             "elv": 427.859589,
             "id": "Korok3581457092185901908",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4887,7 +4887,7 @@
             ],
             "elv": 575.445923,
             "id": "Korok3601813535645817243",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4896,7 +4896,7 @@
             ],
             "elv": 140.2995,
             "id": "Korok3604698131878139516",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4905,7 +4905,7 @@
             ],
             "elv": 500.877686,
             "id": "Korok361257983020281800",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4914,7 +4914,7 @@
             ],
             "elv": 232.5,
             "id": "Korok3634817864282003376",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4923,7 +4923,7 @@
             ],
             "elv": 347.54361,
             "id": "Korok3656090171100974191",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4932,7 +4932,7 @@
             ],
             "elv": 114.467102,
             "id": "Korok3763875992963298046",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4941,7 +4941,7 @@
             ],
             "elv": 95.5000992,
             "id": "Korok3781128358767232078",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4950,7 +4950,7 @@
             ],
             "elv": 134.967499,
             "id": "Korok3788834699044650697",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4959,7 +4959,7 @@
             ],
             "elv": 128.2435,
             "id": "Korok3795461221806937152",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4968,7 +4968,7 @@
             ],
             "elv": 132.1828,
             "id": "Korok3810248583298464034",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4977,7 +4977,7 @@
             ],
             "elv": 222.647705,
             "id": "Korok3810735968499116043",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4986,7 +4986,7 @@
             ],
             "elv": 261.989197,
             "id": "Korok3811744485016178059",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -4995,7 +4995,7 @@
             ],
             "elv": 4.87225008,
             "id": "Korok3826662494649382954",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5004,7 +5004,7 @@
             ],
             "elv": 265.680298,
             "id": "Korok3835231082878226008",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5013,7 +5013,7 @@
             ],
             "elv": 507.685394,
             "id": "Korok3840116329382103719",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5022,7 +5022,7 @@
             ],
             "elv": 123.187202,
             "id": "Korok3854459681704011920",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5031,7 +5031,7 @@
             ],
             "elv": 348.340607,
             "id": "Korok386163809487919185",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5040,7 +5040,7 @@
             ],
             "elv": 289.014313,
             "id": "Korok3868090649221400284",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5049,7 +5049,7 @@
             ],
             "elv": 145.239105,
             "id": "Korok3921188314332603427",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5058,7 +5058,7 @@
             ],
             "elv": 125.751801,
             "id": "Korok4000603542790812759",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5067,7 +5067,7 @@
             ],
             "elv": 443.500397,
             "id": "Korok4034993693356861733",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5076,7 +5076,7 @@
             ],
             "elv": 185.154907,
             "id": "Korok405618477978712320",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5085,7 +5085,7 @@
             ],
             "elv": 726.132629,
             "id": "Korok4084970393536909546",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5094,7 +5094,7 @@
             ],
             "elv": 279.688812,
             "id": "Korok4107187917990846183",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5103,7 +5103,7 @@
             ],
             "elv": 132.235794,
             "id": "Korok4142440608898220698",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5112,7 +5112,7 @@
             ],
             "elv": 249.429306,
             "id": "Korok4151823780930254508",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5121,7 +5121,7 @@
             ],
             "elv": 143.843506,
             "id": "Korok4156078581123690670",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5130,7 +5130,7 @@
             ],
             "elv": 145.272003,
             "id": "Korok4173441201326844973",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5139,7 +5139,7 @@
             ],
             "elv": 509.744904,
             "id": "Korok4235957229996474941",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5148,7 +5148,7 @@
             ],
             "elv": 459.293793,
             "id": "Korok4236866790311137906",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5157,7 +5157,7 @@
             ],
             "elv": 315.052887,
             "id": "Korok4238553855549203215",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5166,7 +5166,7 @@
             ],
             "elv": 274.031586,
             "id": "Korok4278832587834309735",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5175,7 +5175,7 @@
             ],
             "elv": 215.014603,
             "id": "Korok4280394621344855151",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5184,7 +5184,7 @@
             ],
             "elv": 263.877289,
             "id": "Korok428700576751000983",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5193,7 +5193,7 @@
             ],
             "elv": 238.174301,
             "id": "Korok4299220285616600994",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5202,7 +5202,7 @@
             ],
             "elv": 181.525696,
             "id": "Korok4301952465837039746",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5211,7 +5211,7 @@
             ],
             "elv": 149.946198,
             "id": "Korok4334334444263897855",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5220,7 +5220,7 @@
             ],
             "elv": 312.25,
             "id": "Korok4356295734654361385",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5229,7 +5229,7 @@
             ],
             "elv": 443.835999,
             "id": "Korok4363818594769710862",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5238,7 +5238,7 @@
             ],
             "elv": 89.2542572,
             "id": "Korok4383397688144855354",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5247,7 +5247,7 @@
             ],
             "elv": 605.961487,
             "id": "Korok4395971868135611093",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5256,7 +5256,7 @@
             ],
             "elv": 338.144012,
             "id": "Korok4420011315768569793",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5265,7 +5265,7 @@
             ],
             "elv": 183.568604,
             "id": "Korok4420921328660913312",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5274,7 +5274,7 @@
             ],
             "elv": 231.434494,
             "id": "Korok4425724862404261871",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5283,7 +5283,7 @@
             ],
             "elv": 165.794495,
             "id": "Korok4467006987089136585",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5292,7 +5292,7 @@
             ],
             "elv": 579.278503,
             "id": "Korok4495947690269803662",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5301,7 +5301,7 @@
             ],
             "elv": 350.288086,
             "id": "Korok4497147955695410738",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5310,7 +5310,7 @@
             ],
             "elv": 246.535599,
             "id": "Korok4518548228845584902",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5319,7 +5319,7 @@
             ],
             "elv": 249.693405,
             "id": "Korok4519702183103834781",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5328,7 +5328,7 @@
             ],
             "elv": 138.146301,
             "id": "Korok4525719034259695115",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5337,7 +5337,7 @@
             ],
             "elv": 360.672699,
             "id": "Korok4531203301028068223",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5346,7 +5346,7 @@
             ],
             "elv": 378.637207,
             "id": "Korok4567082512006347809",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5355,7 +5355,7 @@
             ],
             "elv": 398.129608,
             "id": "Korok4576683505800700127",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5364,7 +5364,7 @@
             ],
             "elv": 405.911011,
             "id": "Korok4638844413627164078",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5373,7 +5373,7 @@
             ],
             "elv": 333.78949,
             "id": "Korok4656028756427285621",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5382,7 +5382,7 @@
             ],
             "elv": 507.227509,
             "id": "Korok4676735049054515378",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5391,7 +5391,7 @@
             ],
             "elv": 608,
             "id": "Korok4785013947690310874",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5400,7 +5400,7 @@
             ],
             "elv": 161.843597,
             "id": "Korok4818395564367211890",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5409,7 +5409,7 @@
             ],
             "elv": 193.082901,
             "id": "Korok482415033136597266",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5418,7 +5418,7 @@
             ],
             "elv": 368.681793,
             "id": "Korok4837252227273614882",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5427,7 +5427,7 @@
             ],
             "elv": 132.526703,
             "id": "Korok489075433659242378",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5436,7 +5436,7 @@
             ],
             "elv": 318.978394,
             "id": "Korok4894104989541200351",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5445,7 +5445,7 @@
             ],
             "elv": 231.845596,
             "id": "Korok4907248742903875289",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5454,7 +5454,7 @@
             ],
             "elv": 117.213303,
             "id": "Korok4920479546914275814",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5463,7 +5463,7 @@
             ],
             "elv": 293.855194,
             "id": "Korok4930433531445429856",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5472,7 +5472,7 @@
             ],
             "elv": 207.559097,
             "id": "Korok4992987838202956208",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5481,7 +5481,7 @@
             ],
             "elv": 143.286499,
             "id": "Korok5013020785432246520",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5490,7 +5490,7 @@
             ],
             "elv": 182.895004,
             "id": "Korok5023473104286001357",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5499,7 +5499,7 @@
             ],
             "elv": 115.998901,
             "id": "Korok5040687713212692373",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5508,7 +5508,7 @@
             ],
             "elv": 216.409103,
             "id": "Korok5042416791244056220",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5517,7 +5517,7 @@
             ],
             "elv": 135.038803,
             "id": "Korok5050477984074115248",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5526,7 +5526,7 @@
             ],
             "elv": 107.8498,
             "id": "Korok5076832765118265469",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5535,7 +5535,7 @@
             ],
             "elv": 249.964493,
             "id": "Korok5094918387441389332",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5544,7 +5544,7 @@
             ],
             "elv": 425.289612,
             "id": "Korok5134357971622063052",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5553,7 +5553,7 @@
             ],
             "elv": 419.401886,
             "id": "Korok5185957507516089944",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5562,7 +5562,7 @@
             ],
             "elv": 333.162994,
             "id": "Korok5224147814243561774",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5571,7 +5571,7 @@
             ],
             "elv": 126.547096,
             "id": "Korok522805721279597394",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5580,7 +5580,7 @@
             ],
             "elv": 535.435974,
             "id": "Korok5287901869242297265",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5589,7 +5589,7 @@
             ],
             "elv": 96.2314835,
             "id": "Korok5303271288083578309",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5598,7 +5598,7 @@
             ],
             "elv": 459.386597,
             "id": "Korok5314389776696148509",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5607,7 +5607,7 @@
             ],
             "elv": 233.784607,
             "id": "Korok5328645824049834427",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5616,7 +5616,7 @@
             ],
             "elv": 259.314697,
             "id": "Korok5352043673965323186",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5625,7 +5625,7 @@
             ],
             "elv": 123.632599,
             "id": "Korok5394382477726646151",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5634,7 +5634,7 @@
             ],
             "elv": 324.543793,
             "id": "Korok5444690336076596021",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5643,7 +5643,7 @@
             ],
             "elv": 355.826202,
             "id": "Korok5467066318393172271",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5652,7 +5652,7 @@
             ],
             "elv": 187.872803,
             "id": "Korok5478445749881657883",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5661,7 +5661,7 @@
             ],
             "elv": 526.114807,
             "id": "Korok5483530410184413701",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5670,7 +5670,7 @@
             ],
             "elv": 174.738297,
             "id": "Korok5490052930373490857",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5679,7 +5679,7 @@
             ],
             "elv": 356.988312,
             "id": "Korok5512162023965696490",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5688,7 +5688,7 @@
             ],
             "elv": 226.561295,
             "id": "Korok5524174884479650533",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5697,7 +5697,7 @@
             ],
             "elv": 343.665802,
             "id": "Korok5524753736994005233",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5706,7 +5706,7 @@
             ],
             "elv": 150.935806,
             "id": "Korok5524916161580650355",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5715,7 +5715,7 @@
             ],
             "elv": 286.584015,
             "id": "Korok5526530831276300340",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5724,7 +5724,7 @@
             ],
             "elv": 186.928802,
             "id": "Korok5639402496517663736",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5733,7 +5733,7 @@
             ],
             "elv": 118.943398,
             "id": "Korok5669140220873536913",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5742,7 +5742,7 @@
             ],
             "elv": 259.773712,
             "id": "Korok5711686042253658150",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5751,7 +5751,7 @@
             ],
             "elv": 187.009995,
             "id": "Korok5712863495850443821",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5760,7 +5760,7 @@
             ],
             "elv": 160.286804,
             "id": "Korok5722301403328760266",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5769,7 +5769,7 @@
             ],
             "elv": 151.695099,
             "id": "Korok5745757657926518874",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5778,7 +5778,7 @@
             ],
             "elv": 259.791504,
             "id": "Korok5749169692394634385",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5787,7 +5787,7 @@
             ],
             "elv": 117.618103,
             "id": "Korok5770975097129302298",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5796,7 +5796,7 @@
             ],
             "elv": 197.725006,
             "id": "Korok5772420674196941364",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5805,7 +5805,7 @@
             ],
             "elv": 621.289307,
             "id": "Korok5816825973292461426",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5814,7 +5814,7 @@
             ],
             "elv": 212.463699,
             "id": "Korok5822223636687855533",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5823,7 +5823,7 @@
             ],
             "elv": 539.967773,
             "id": "Korok5839022784143077980",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5832,7 +5832,7 @@
             ],
             "elv": 485.006805,
             "id": "Korok5847749773929843116",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5841,7 +5841,7 @@
             ],
             "elv": 172.094604,
             "id": "Korok5848567633832735827",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5850,7 +5850,7 @@
             ],
             "elv": 377.500793,
             "id": "Korok5861740330100225879",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5859,7 +5859,7 @@
             ],
             "elv": 365.292603,
             "id": "Korok5896085120484131119",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5868,7 +5868,7 @@
             ],
             "elv": 315.572998,
             "id": "Korok5926038048790298706",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5877,7 +5877,7 @@
             ],
             "elv": 392.369812,
             "id": "Korok5944339508187544287",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5886,7 +5886,7 @@
             ],
             "elv": 119.004204,
             "id": "Korok5951082315772302262",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5895,7 +5895,7 @@
             ],
             "elv": 165.942596,
             "id": "Korok5957723518496993595",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5904,7 +5904,7 @@
             ],
             "elv": 518.517883,
             "id": "Korok5963696697442845588",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5913,7 +5913,7 @@
             ],
             "elv": 120.298302,
             "id": "Korok6008189099268740508",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5922,7 +5922,7 @@
             ],
             "elv": 301,
             "id": "Korok6015479150577373812",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5931,7 +5931,7 @@
             ],
             "elv": 233.088196,
             "id": "Korok6021702549561391800",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5940,7 +5940,7 @@
             ],
             "elv": 186.216995,
             "id": "Korok6027199198196083806",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5949,7 +5949,7 @@
             ],
             "elv": 318.647308,
             "id": "Korok6027507260598867642",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5958,7 +5958,7 @@
             ],
             "elv": 118.193298,
             "id": "Korok6057448296844324572",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5967,7 +5967,7 @@
             ],
             "elv": 132.472504,
             "id": "Korok6060347861808650393",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5976,7 +5976,7 @@
             ],
             "elv": 557.193176,
             "id": "Korok6084866704416674000",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5985,7 +5985,7 @@
             ],
             "elv": 140,
             "id": "Korok6106948581852776521",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -5994,7 +5994,7 @@
             ],
             "elv": 216.967697,
             "id": "Korok6122628243447419631",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6003,7 +6003,7 @@
             ],
             "elv": 630.482727,
             "id": "Korok6137904239877348389",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6012,7 +6012,7 @@
             ],
             "elv": 144.738098,
             "id": "Korok6162131000310942928",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6021,7 +6021,7 @@
             ],
             "elv": 160.671799,
             "id": "Korok6189435514241611734",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6030,7 +6030,7 @@
             ],
             "elv": 106.929604,
             "id": "Korok6201479503006501424",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6039,7 +6039,7 @@
             ],
             "elv": 562.450012,
             "id": "Korok6221514140278495230",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6048,7 +6048,7 @@
             ],
             "elv": 159.2901,
             "id": "Korok6227548343516252709",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6057,7 +6057,7 @@
             ],
             "elv": 755.446777,
             "id": "Korok6243010643562084701",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6066,7 +6066,7 @@
             ],
             "elv": 170.884201,
             "id": "Korok6266758041577765577",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6075,7 +6075,7 @@
             ],
             "elv": 380.601593,
             "id": "Korok6278012027764316057",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6084,7 +6084,7 @@
             ],
             "elv": 358.047791,
             "id": "Korok6323647710879485162",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6093,7 +6093,7 @@
             ],
             "elv": 364.604706,
             "id": "Korok6336258081896642116",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6102,7 +6102,7 @@
             ],
             "elv": 176.750595,
             "id": "Korok6377854339327439492",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6111,7 +6111,7 @@
             ],
             "elv": 118.991997,
             "id": "Korok6383401730596349623",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6120,7 +6120,7 @@
             ],
             "elv": 210.040405,
             "id": "Korok6404569888653568743",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6129,7 +6129,7 @@
             ],
             "elv": 383.448486,
             "id": "Korok641931346015566713",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6138,7 +6138,7 @@
             ],
             "elv": 226.933197,
             "id": "Korok64434808064613346",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6147,7 +6147,7 @@
             ],
             "elv": 271.879211,
             "id": "Korok6452194687419075323",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6156,7 +6156,7 @@
             ],
             "elv": 493.874908,
             "id": "Korok6458423562895330961",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6165,7 +6165,7 @@
             ],
             "elv": 115.667999,
             "id": "Korok6466706749752682393",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6174,7 +6174,7 @@
             ],
             "elv": 439.286987,
             "id": "Korok6478186552074013320",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6183,7 +6183,7 @@
             ],
             "elv": 318.494202,
             "id": "Korok6506402301127390269",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6192,7 +6192,7 @@
             ],
             "elv": 471.065308,
             "id": "Korok6520617435666398115",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6201,7 +6201,7 @@
             ],
             "elv": 90.5258484,
             "id": "Korok6524606515507935194",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6210,7 +6210,7 @@
             ],
             "elv": 144.5672,
             "id": "Korok6525742765012036024",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6219,7 +6219,7 @@
             ],
             "elv": 120.697403,
             "id": "Korok656495559406925886",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6228,7 +6228,7 @@
             ],
             "elv": 171.5,
             "id": "Korok6574687348640775830",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6237,7 +6237,7 @@
             ],
             "elv": 575.760315,
             "id": "Korok6577590198901788531",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6246,7 +6246,7 @@
             ],
             "elv": 252.885193,
             "id": "Korok6637410249147569635",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6255,7 +6255,7 @@
             ],
             "elv": 436.567596,
             "id": "Korok6642864002484651610",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6264,7 +6264,7 @@
             ],
             "elv": 298.764191,
             "id": "Korok665236829992016179",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6273,7 +6273,7 @@
             ],
             "elv": 158.199997,
             "id": "Korok6655979516159338926",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6282,7 +6282,7 @@
             ],
             "elv": 654.042419,
             "id": "Korok6663323764649715075",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6291,7 +6291,7 @@
             ],
             "elv": 589.821777,
             "id": "Korok6688606473126382778",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6300,7 +6300,7 @@
             ],
             "elv": 184.681107,
             "id": "Korok6741692676740335144",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6309,7 +6309,7 @@
             ],
             "elv": 621.320007,
             "id": "Korok6766727342563645238",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6318,7 +6318,7 @@
             ],
             "elv": 161.769501,
             "id": "Korok6766867863796260627",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6327,7 +6327,7 @@
             ],
             "elv": 311.0336,
             "id": "Korok6784901471194955466",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6336,7 +6336,7 @@
             ],
             "elv": 381.831085,
             "id": "Korok6785790397618897029",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6345,7 +6345,7 @@
             ],
             "elv": 249.623901,
             "id": "Korok6809751308148351388",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6354,7 +6354,7 @@
             ],
             "elv": 118.177803,
             "id": "Korok6819088413139775509",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6363,7 +6363,7 @@
             ],
             "elv": 190.477005,
             "id": "Korok6838052104655851545",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6372,7 +6372,7 @@
             ],
             "elv": 342.767487,
             "id": "Korok6862107189284121298",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6381,7 +6381,7 @@
             ],
             "elv": 574.852722,
             "id": "Korok6866331555709311608",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6390,7 +6390,7 @@
             ],
             "elv": 292.497101,
             "id": "Korok6882401961097200322",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6399,7 +6399,7 @@
             ],
             "elv": 121.503998,
             "id": "Korok6891723766969777524",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6408,7 +6408,7 @@
             ],
             "elv": 139.875793,
             "id": "Korok6898737142816905658",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6417,7 +6417,7 @@
             ],
             "elv": 115.598602,
             "id": "Korok6907259694288074367",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6426,7 +6426,7 @@
             ],
             "elv": 313.887695,
             "id": "Korok6937664252439992010",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6435,7 +6435,7 @@
             ],
             "elv": 127.722801,
             "id": "Korok6964675982930904802",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6444,7 +6444,7 @@
             ],
             "elv": 155.095505,
             "id": "Korok697055679240349564",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6453,7 +6453,7 @@
             ],
             "elv": 283.415802,
             "id": "Korok6977293958558587672",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6462,7 +6462,7 @@
             ],
             "elv": 387.359497,
             "id": "Korok6982396526841280220",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6471,7 +6471,7 @@
             ],
             "elv": 308.786011,
             "id": "Korok700948994388496932",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6480,7 +6480,7 @@
             ],
             "elv": 336.2146,
             "id": "Korok7078334903087532682",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6489,7 +6489,7 @@
             ],
             "elv": 69.341423,
             "id": "Korok7104160291620539250",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6498,7 +6498,7 @@
             ],
             "elv": 482.059113,
             "id": "Korok7118284867304734796",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6507,7 +6507,7 @@
             ],
             "elv": 332.649994,
             "id": "Korok713582673217928710",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6516,7 +6516,7 @@
             ],
             "elv": 701.069275,
             "id": "Korok718874602803076200",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6525,7 +6525,7 @@
             ],
             "elv": 119.0047,
             "id": "Korok7251289871646158206",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6534,7 +6534,7 @@
             ],
             "elv": 381.978394,
             "id": "Korok728801491720629645",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6543,7 +6543,7 @@
             ],
             "elv": 197.315002,
             "id": "Korok7298182076329374151",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6552,7 +6552,7 @@
             ],
             "elv": 180.4422,
             "id": "Korok7305096809130754817",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6561,7 +6561,7 @@
             ],
             "elv": 544.354126,
             "id": "Korok7352309512316587009",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6570,7 +6570,7 @@
             ],
             "elv": 116.409698,
             "id": "Korok7352366717484725028",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6579,7 +6579,7 @@
             ],
             "elv": 135.366501,
             "id": "Korok7419951941967104737",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6588,7 +6588,7 @@
             ],
             "elv": 348.125793,
             "id": "Korok7438551088255304345",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6597,7 +6597,7 @@
             ],
             "elv": 192.370697,
             "id": "Korok7471061241324698457",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6606,7 +6606,7 @@
             ],
             "elv": 177.964996,
             "id": "Korok7480415056040136085",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6615,7 +6615,7 @@
             ],
             "elv": 147.266495,
             "id": "Korok7525811566900755135",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6624,7 +6624,7 @@
             ],
             "elv": 379.760101,
             "id": "Korok7581810571346680842",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6633,7 +6633,7 @@
             ],
             "elv": 276.01001,
             "id": "Korok7623436409440631075",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6642,7 +6642,7 @@
             ],
             "elv": 158.284805,
             "id": "Korok7635626684621765103",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6651,7 +6651,7 @@
             ],
             "elv": 138.233093,
             "id": "Korok7649195303916087656",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6660,7 +6660,7 @@
             ],
             "elv": 168.531097,
             "id": "Korok7692373228072955481",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6669,7 +6669,7 @@
             ],
             "elv": 503.77179,
             "id": "Korok7709463625999537364",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6678,7 +6678,7 @@
             ],
             "elv": 500.296204,
             "id": "Korok77233116620191353",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6687,7 +6687,7 @@
             ],
             "elv": 204.774399,
             "id": "Korok7743264942751213828",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6696,7 +6696,7 @@
             ],
             "elv": 148.723007,
             "id": "Korok7745340767525154353",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6705,7 +6705,7 @@
             ],
             "elv": 173.351807,
             "id": "Korok7747059759019097645",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6714,7 +6714,7 @@
             ],
             "elv": 91.5,
             "id": "Korok7759631140418067424",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6723,7 +6723,7 @@
             ],
             "elv": 345.287689,
             "id": "Korok7775151115445028458",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6732,7 +6732,7 @@
             ],
             "elv": 223.8479,
             "id": "Korok7779944509312535456",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6741,7 +6741,7 @@
             ],
             "elv": 118.043098,
             "id": "Korok7787441858572531519",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6750,7 +6750,7 @@
             ],
             "elv": 107.898804,
             "id": "Korok7826746453744483087",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6759,7 +6759,7 @@
             ],
             "elv": 237.618393,
             "id": "Korok7848409043727682724",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6768,7 +6768,7 @@
             ],
             "elv": 223.445297,
             "id": "Korok7850582681376561028",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6777,7 +6777,7 @@
             ],
             "elv": 426.781006,
             "id": "Korok7910967546151583505",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6786,7 +6786,7 @@
             ],
             "elv": 145.521194,
             "id": "Korok79573514458052216",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6795,7 +6795,7 @@
             ],
             "elv": 199.206894,
             "id": "Korok7968459823681764881",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6804,7 +6804,7 @@
             ],
             "elv": 796.91449,
             "id": "Korok796898737269458719",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6813,7 +6813,7 @@
             ],
             "elv": 187.894699,
             "id": "Korok7969159227383515415",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6822,7 +6822,7 @@
             ],
             "elv": 141.143204,
             "id": "Korok7976393711119350659",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6831,7 +6831,7 @@
             ],
             "elv": 109.910301,
             "id": "Korok8032367381834743688",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6840,7 +6840,7 @@
             ],
             "elv": 460.48999,
             "id": "Korok8072458410835060601",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6849,7 +6849,7 @@
             ],
             "elv": 136.104996,
             "id": "Korok8081923169070536647",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6858,7 +6858,7 @@
             ],
             "elv": 241.270798,
             "id": "Korok8099076261640960802",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6867,7 +6867,7 @@
             ],
             "elv": 168.626495,
             "id": "Korok8099526768433768733",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6876,7 +6876,7 @@
             ],
             "elv": 229.951996,
             "id": "Korok8123576972829625271",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6885,7 +6885,7 @@
             ],
             "elv": 273.056488,
             "id": "Korok814225474069128686",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6894,7 +6894,7 @@
             ],
             "elv": 687.902588,
             "id": "Korok8149450624598228746",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6903,7 +6903,7 @@
             ],
             "elv": 120.521004,
             "id": "Korok8156911677105288340",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6912,7 +6912,7 @@
             ],
             "elv": 201.074905,
             "id": "Korok8158954663403783757",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6921,7 +6921,7 @@
             ],
             "elv": 141.9142,
             "id": "Korok8181135545038759403",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6930,7 +6930,7 @@
             ],
             "elv": 168.464203,
             "id": "Korok8217057602994947748",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6939,7 +6939,7 @@
             ],
             "elv": 312.475586,
             "id": "Korok8237872240193169425",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6948,7 +6948,7 @@
             ],
             "elv": 203.102493,
             "id": "Korok8241910145524510758",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6957,7 +6957,7 @@
             ],
             "elv": 150.654602,
             "id": "Korok8250608788135072851",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6966,7 +6966,7 @@
             ],
             "elv": 140.198593,
             "id": "Korok8258219494377982854",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6975,7 +6975,7 @@
             ],
             "elv": 702.298706,
             "id": "Korok8292044467230022916",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6984,7 +6984,7 @@
             ],
             "elv": 344.819489,
             "id": "Korok8343877820679644278",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -6993,7 +6993,7 @@
             ],
             "elv": 176.071198,
             "id": "Korok8352084110795439848",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7002,7 +7002,7 @@
             ],
             "elv": 159.775696,
             "id": "Korok8377945374409496499",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7011,7 +7011,7 @@
             ],
             "elv": 288.977692,
             "id": "Korok8412846832465365268",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7020,7 +7020,7 @@
             ],
             "elv": 130.003998,
             "id": "Korok8460425467358265567",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7029,7 +7029,7 @@
             ],
             "elv": 179.471695,
             "id": "Korok8462842156564887894",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7038,7 +7038,7 @@
             ],
             "elv": 182.851501,
             "id": "Korok8467711940058835472",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7047,7 +7047,7 @@
             ],
             "elv": 116.208,
             "id": "Korok8480279005293475921",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7056,7 +7056,7 @@
             ],
             "elv": 266.219696,
             "id": "Korok8494445739087942552",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7065,7 +7065,7 @@
             ],
             "elv": 286.816986,
             "id": "Korok8510290690317523297",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7074,7 +7074,7 @@
             ],
             "elv": 186.643204,
             "id": "Korok864178323498058257",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7083,7 +7083,7 @@
             ],
             "elv": 726.226013,
             "id": "Korok8651090635596355670",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7092,7 +7092,7 @@
             ],
             "elv": 136.485596,
             "id": "Korok8655666978201183131",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7101,7 +7101,7 @@
             ],
             "elv": 135.871002,
             "id": "Korok8718898060549907841",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7110,7 +7110,7 @@
             ],
             "elv": 353.24469,
             "id": "Korok8724900114454062331",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7119,7 +7119,7 @@
             ],
             "elv": 556.508423,
             "id": "Korok8736095098088296926",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7128,7 +7128,7 @@
             ],
             "elv": 214.492905,
             "id": "Korok8745054255071551163",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7137,7 +7137,7 @@
             ],
             "elv": 602.398987,
             "id": "Korok8752964763644350331",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7146,7 +7146,7 @@
             ],
             "elv": 148.651093,
             "id": "Korok8783077686584105147",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7155,7 +7155,7 @@
             ],
             "elv": 239.3302,
             "id": "Korok8814604911388283272",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7164,7 +7164,7 @@
             ],
             "elv": 150.640793,
             "id": "Korok8859620205588155514",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7173,7 +7173,7 @@
             ],
             "elv": 490.567505,
             "id": "Korok885978356609836717",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7182,7 +7182,7 @@
             ],
             "elv": 94.0038071,
             "id": "Korok8895840632561600334",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7191,7 +7191,7 @@
             ],
             "elv": 105.715698,
             "id": "Korok8985372494466207587",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7200,7 +7200,7 @@
             ],
             "elv": 325.761902,
             "id": "Korok9040527089081909283",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7209,7 +7209,7 @@
             ],
             "elv": 204.701797,
             "id": "Korok9049279303395987844",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7218,7 +7218,7 @@
             ],
             "elv": 721.720215,
             "id": "Korok9064425310616167297",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7227,7 +7227,7 @@
             ],
             "elv": 118.498001,
             "id": "Korok9072053416611629308",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7236,7 +7236,7 @@
             ],
             "elv": 199,
             "id": "Korok9092920759624489152",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7245,7 +7245,7 @@
             ],
             "elv": 106.4272,
             "id": "Korok9118376333920375693",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7254,7 +7254,7 @@
             ],
             "elv": 604.767029,
             "id": "Korok9158346320247672797",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7263,7 +7263,7 @@
             ],
             "elv": 136.128296,
             "id": "Korok916063939830106884",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7272,7 +7272,7 @@
             ],
             "elv": 207.853897,
             "id": "Korok9167657956923139674",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7281,7 +7281,7 @@
             ],
             "elv": 125.8339,
             "id": "Korok9180521662233372335",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7290,7 +7290,7 @@
             ],
             "elv": 133.676895,
             "id": "Korok9196758155076858321",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7299,7 +7299,7 @@
             ],
             "elv": 244.829895,
             "id": "Korok9275666999816194161",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7308,7 +7308,7 @@
             ],
             "elv": 410.917114,
             "id": "Korok9318615282339181155",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7317,7 +7317,7 @@
             ],
             "elv": 212.234299,
             "id": "Korok9329431859825324414",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7326,7 +7326,7 @@
             ],
             "elv": 167.207504,
             "id": "Korok9344303470728166343",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7335,7 +7335,7 @@
             ],
             "elv": 191.488602,
             "id": "Korok9351456795221311934",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7344,7 +7344,7 @@
             ],
             "elv": 121.788803,
             "id": "Korok9357334103430375174",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7353,7 +7353,7 @@
             ],
             "elv": 245.228104,
             "id": "Korok9362042103658829120",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7362,7 +7362,7 @@
             ],
             "elv": 154.939194,
             "id": "Korok9368105627094514838",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7371,7 +7371,7 @@
             ],
             "elv": 382.477295,
             "id": "Korok9428840545062880357",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7380,7 +7380,7 @@
             ],
             "elv": 70.228447,
             "id": "Korok9450334517078147095",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7389,7 +7389,7 @@
             ],
             "elv": 136.852798,
             "id": "Korok9473103817769075780",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7398,7 +7398,7 @@
             ],
             "elv": 358.216003,
             "id": "Korok9475592926743168696",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7407,7 +7407,7 @@
             ],
             "elv": 285.225006,
             "id": "Korok9506452217411274107",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7416,7 +7416,7 @@
             ],
             "elv": 118.2379,
             "id": "Korok9518087363347377067",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7425,7 +7425,7 @@
             ],
             "elv": 301.36319,
             "id": "Korok9574167145824760537",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7434,7 +7434,7 @@
             ],
             "elv": 121.047997,
             "id": "Korok9580726867717568403",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7443,7 +7443,7 @@
             ],
             "elv": 260.867706,
             "id": "Korok9616636101032879613",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7452,7 +7452,7 @@
             ],
             "elv": 558.331299,
             "id": "Korok9635469007132779194",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7461,7 +7461,7 @@
             ],
             "elv": 115.763199,
             "id": "Korok9679226139480186451",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7470,7 +7470,7 @@
             ],
             "elv": 450.440002,
             "id": "Korok9703423868583172115",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7479,7 +7479,7 @@
             ],
             "elv": 227.679794,
             "id": "Korok9739112183732391452",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7488,7 +7488,7 @@
             ],
             "elv": 128.238998,
             "id": "Korok9788079127047129889",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7497,7 +7497,7 @@
             ],
             "elv": 277.730103,
             "id": "Korok9796172341506867187",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7506,7 +7506,7 @@
             ],
             "elv": 413.247711,
             "id": "Korok9804525561084625182",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7515,7 +7515,7 @@
             ],
             "elv": 492.361115,
             "id": "Korok9811076724518332531",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7524,7 +7524,7 @@
             ],
             "elv": 361.491913,
             "id": "Korok9823782332826457971",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7533,7 +7533,7 @@
             ],
             "elv": 232.205994,
             "id": "Korok9824852731690461213",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7542,7 +7542,7 @@
             ],
             "elv": 218.678101,
             "id": "Korok9832067497110710625",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7551,7 +7551,7 @@
             ],
             "elv": 455.016388,
             "id": "Korok9839157124751407426",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7560,7 +7560,7 @@
             ],
             "elv": 287.002991,
             "id": "Korok9849115241535828004",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7569,7 +7569,7 @@
             ],
             "elv": 543.31488,
             "id": "Korok9857973856774855366",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7578,7 +7578,7 @@
             ],
             "elv": 557.997986,
             "id": "Korok9881876315280214004",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7587,7 +7587,7 @@
             ],
             "elv": 175.720993,
             "id": "Korok9882433120657223869",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7596,7 +7596,7 @@
             ],
             "elv": 295.752991,
             "id": "Korok9900286035998057905",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7605,7 +7605,7 @@
             ],
             "elv": 126.602501,
             "id": "Korok9904593613292944814",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7614,7 +7614,7 @@
             ],
             "elv": 291.024414,
             "id": "Korok9930488263381911010",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7623,7 +7623,7 @@
             ],
             "elv": 216.983002,
             "id": "Korok9933063823033130542",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7632,7 +7632,7 @@
             ],
             "elv": 371,
             "id": "Korok9949807448560844914",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7641,7 +7641,7 @@
             ],
             "elv": 207,
             "id": "Korok9951778894726973727",
-            "name": "Korok"
+            "name": "Korok Seed"
           },
           {
             "coords": [
@@ -7650,7 +7650,7 @@
             ],
             "elv": 677.739075,
             "id": "Korok9958277342872368886",
-            "name": "Korok"
+            "name": "Korok Seed"
           }
         ]
       }

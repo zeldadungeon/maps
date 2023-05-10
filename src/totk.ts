@@ -43,7 +43,7 @@ window.onload = async () => {
       iconHeight: 30,
     },
     {
-      name: "Lab",
+      name: "Tech Lab",
       iconUrl: iconUrl("lab"),
       iconWidth: 30,
       iconHeight: 30,
