@@ -1214,5 +1214,41 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Recycle Box",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 2,
+        "icon": {
+          "url": "recycle.png",
+          "width": 36,
+          "height": 36
+        },
+        "markers": [
+          {
+            "coords": [
+              -2320.698,
+              1058.03894
+            ],
+            "elv": -447.983398,
+            "id": "RBox_Field_K_03",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          },
+          {
+            "coords": [
+              2640.771,
+              2190.61401
+            ],
+            "elv": -857.745483,
+            "id": "RBox_Field_F_02",
+            "name": "Recycle Box",
+            "link": "Recycle Box"
+          }
+        ]
+      }
+    ]
   }
 ]
