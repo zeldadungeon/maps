@@ -86,6 +86,10 @@ export class ZDMarker extends Marker {
           );
         } else if (layer.infoSource === "mappage") {
           marker.popup?.loadContentFromMapPage(linkParts[0], linkParts[1]);
+        } else if (layer.infoSource === "temp") {
+          marker.popup?.loadContentFromString(
+            "This marker was contributed on ZD Wiki. We are working to verify its coordinates and assign the correct icon."
+          );
         } else if (layer.infoSource) {
           marker.popup?.loadContentFromPage(layer.infoSource);
         }

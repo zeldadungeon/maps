@@ -188,7 +188,8 @@ window.onload = async () => {
     infoSource: string,
     iconUrl: string,
     iconWidth: number,
-    iconHeight: number
+    iconHeight: number,
+    minZoom: number
   ): Promise<void> {
     return (
       map.wiki
@@ -204,6 +205,7 @@ window.onload = async () => {
           const res = wikiRegex.exec(markers);
           markers = res ? res[1] : "";
           const layer = `{
+  "minZoom": ${minZoom},
   "icon": {
       "url": "${iconUrl}.png",
       "width": ${iconWidth},
@@ -233,7 +235,37 @@ window.onload = async () => {
     addJson(sky, "sky/locations.json"),
     addJson(sky, "sky/treasure.json"),
     addJson(depths, "depths/treasure.json"),
-    addWiki(depths, "Lightroot", "Lightroots", "summary", "lightroot", 30, 30),
+    addWiki(
+      depths,
+      "Lightroot",
+      "Lightroots",
+      "summary",
+      "lightroot",
+      30,
+      30,
+      1
+    ),
+    addWiki(
+      surface,
+      "Crowdsourced",
+      "Surface Markers",
+      "temp",
+      "flag",
+      25,
+      28,
+      2
+    ),
+    addWiki(sky, "Crowdsourced", "Sky Markers", "temp", "flag", 25, 28, 2),
+    addWiki(
+      depths,
+      "Crowdsourced",
+      "Depths Markers",
+      "temp",
+      "flag",
+      25,
+      28,
+      2
+    ),
   ]);
 
   await map.initializeWikiConnector();

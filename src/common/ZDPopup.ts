@@ -228,6 +228,10 @@ export class ZDPopup extends Popup {
     }
   }
 
+  public loadContentFromString(content: string): void {
+    this.loadContent(content);
+  }
+
   private startLoading(): void {
     this.contentState = ContentState.Loading;
     const loading = DomUtil.create(
