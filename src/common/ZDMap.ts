@@ -228,13 +228,13 @@ export class ZDMap extends Map {
   }
 
   // TODO move this whole function to MapLayer
-  public addMarker(marker: ZDMarker): void {
+  public addMarker(marker: ZDMarker, layer: MapLayer): void {
     marker.on("internallinkclicked", (event) => {
       console.log(event);
       this.navigateToMarkerById(<string>(<any>event).linkTarget);
     });
     if (params.id === marker.id) {
-      this.focusOn(marker);
+      this.focusOn(marker, layer);
     }
   }
 
@@ -243,7 +243,7 @@ export class ZDMap extends Map {
     for (const layer of this.layers) {
       const marker = layer.getMarkerById(id);
       if (marker) {
-        this.focusOn(marker);
+        this.focusOn(marker, layer);
         break;
       }
     }
@@ -288,7 +288,7 @@ export class ZDMap extends Map {
             }px center`;
             DomEvent.addListener(result, "click", () => {
               searchControl.close();
-              this.focusOn(m);
+              this.focusOn(m, layer);
             });
           });
         });
@@ -401,13 +401,19 @@ export class ZDMap extends Map {
     }).addTo(this);
   }
 
-  private focusOn(marker: ZDMarker): void {
+  private focusOn(marker: ZDMarker, layer: MapLayer): void {
     this.legend?.reset();
     this.legendLandscape?.reset();
+    if (!this.hasLayer(layer.tileLayer)) {
+      for (const l of this.layers) {
+        this.removeLayer(l.tileLayer);
+      }
+    }
+    this.addLayer(layer.tileLayer);
     this.setView(
       marker.getLatLng(),
       Math.max(marker.getMinZoom(), this.getZoom())
     );
-    this.layers[0]?.openPopupWhenLoaded(marker); // TODO support multiple layers
+    layer.openPopupWhenLoaded(marker);
   }
 }

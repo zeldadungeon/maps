@@ -69,7 +69,7 @@ export class MapLayer {
       this.updateLayerVisibility(l);
       l.markers.forEach((m) => {
         this.addMarker(m, this.map.project(m.getLatLng(), 0));
-        this.map.addMarker(m);
+        this.map.addMarker(m, this);
       });
     });
   }
