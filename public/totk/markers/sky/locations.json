@@ -340,7 +340,7 @@
     "source": "summary",
     "layers": [
       {
-        "minZoom": 5,
+        "minZoom": 2,
         "icon": {
           "url": "recycle.png",
           "width": 36,
@@ -596,6 +596,142 @@
             "id": "RBox_Field_B",
             "name": "Recycle Box",
             "link": "Recycle Box"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Zonai Relief",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 2,
+        "icon": {
+          "url": "relief.png",
+          "width": 27,
+          "height": 27
+        },
+        "markers": [
+          {
+            "coords": [
+              989.48468,
+              2217.23291
+            ],
+            "elv": 1254.5,
+            "id": "ZonauRelief_03",
+            "name": "Zonai Relief",
+            "link": "Zonai Relief"
+          },
+          {
+            "coords": [
+              202.914307,
+              2914.51294
+            ],
+            "elv": 907.5,
+            "id": "ZonauRelief_04",
+            "name": "Zonai Relief",
+            "link": "Zonai Relief"
+          },
+          {
+            "coords": [
+              3203.80005,
+              -4042.04712
+            ],
+            "elv": 557.5,
+            "id": "ZonauRelief_05",
+            "name": "Zonai Relief",
+            "link": "Zonai Relief"
+          },
+          {
+            "coords": [
+              3574.62109,
+              -1365.83899
+            ],
+            "elv": 1016.5,
+            "id": "ZonauRelief_06",
+            "name": "Zonai Relief",
+            "link": "Zonai Relief"
+          },
+          {
+            "coords": [
+              -2249.32202,
+              480.851898
+            ],
+            "elv": 506.5,
+            "id": "ZonauRelief_07",
+            "name": "Zonai Relief",
+            "link": "Zonai Relief"
+          },
+          {
+            "coords": [
+              -3256.55103,
+              -2446.802
+            ],
+            "elv": 1107.84705,
+            "id": "ZonauRelief_08",
+            "name": "Zonai Relief",
+            "link": "Zonai Relief"
+          },
+          {
+            "coords": [
+              -2731.12793,
+              2082.84912
+            ],
+            "elv": 1447.83496,
+            "id": "ZonauRelief_09",
+            "name": "Zonai Relief",
+            "link": "Zonai Relief"
+          },
+          {
+            "coords": [
+              -2470.80811,
+              3918.62109
+            ],
+            "elv": 1307.84302,
+            "id": "ZonauRelief_10",
+            "name": "Zonai Relief",
+            "link": "Zonai Relief"
+          },
+          {
+            "coords": [
+              -934.755371,
+              -3605.47095
+            ],
+            "elv": 1701.52698,
+            "id": "ZonauRelief_11",
+            "name": "Zonai Relief",
+            "link": "Zonai Relief"
+          },
+          {
+            "coords": [
+              2991.76001,
+              -44.9802513
+            ],
+            "elv": 1607.82996,
+            "id": "ZonauRelief_12",
+            "name": "Zonai Relief",
+            "link": "Zonai Relief"
+          },
+          {
+            "coords": [
+              -1937.07898,
+              -1239.02502
+            ],
+            "elv": 1091.81799,
+            "id": "ZonauRelief_13",
+            "name": "Zonai Relief",
+            "link": "Zonai Relief"
+          },
+          {
+            "coords": [
+              1749.729,
+              3580.198
+            ],
+            "elv": 1466.82996,
+            "id": "ZonauRelief_14",
+            "name": "Zonai Relief",
+            "link": "Zonai Relief"
           }
         ]
       }

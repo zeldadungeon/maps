@@ -67,6 +67,12 @@ window.onload = async () => {
       iconHeight: 36,
     },
     {
+      name: "Zonai Relief",
+      iconUrl: iconUrl("relief"),
+      iconWidth: 27,
+      iconHeight: 27,
+    },
+    {
       name: "Stable",
       iconUrl: iconUrl("stable"),
       iconWidth: 29,
@@ -131,12 +137,6 @@ window.onload = async () => {
       iconUrl: iconUrl("well"),
       iconWidth: 25,
       iconHeight: 26,
-    },
-    {
-      name: "Zonai Relief",
-      iconUrl: iconUrl("relief"),
-      iconWidth: 15,
-      iconHeight: 17,
     },
   ]);
 
