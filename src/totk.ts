@@ -13,7 +13,7 @@ window.onload = async () => {
     directory: "totk",
     wikiContributionPage: "Tears of the Kingdom",
     mapSizePixels: 36096,
-    mapSizeCoords: 12000,
+    mapSizeCoords: 12032,
     tileSizePixels: 564,
     center: [-1220, 500],
   });
