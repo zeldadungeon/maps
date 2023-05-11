@@ -138,6 +138,12 @@ window.onload = async () => {
       iconWidth: 25,
       iconHeight: 26,
     },
+    {
+      name: "Treasure Chest",
+      iconUrl: iconUrl("treasure"),
+      iconWidth: 27,
+      iconHeight: 21,
+    },
   ]);
 
   function addBotwJson(categories: Schema.Category[]): void {
@@ -222,8 +228,11 @@ window.onload = async () => {
       .catch((ex) => console.log(ex)),
     addJson(surface, "surface/seeds.json"),
     addJson(surface, "surface/locations.json"),
+    addJson(surface, "surface/treasure.json"),
     addJson(sky, "sky/seeds.json"),
     addJson(sky, "sky/locations.json"),
+    addJson(sky, "sky/treasure.json"),
+    addJson(depths, "depths/treasure.json"),
     addWiki(depths, "Lightroot", "Lightroots", "summary", "lightroot", 30, 30),
   ]);
 
