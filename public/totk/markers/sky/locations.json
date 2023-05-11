@@ -921,6 +921,262 @@
             "link": "Akkala Sky"
           }
         ]
+      },
+      {
+        "minZoom": 2,
+        "maxZoom": 3,
+        "markers": [
+          {
+            "coords": [
+              -1259.854,
+              394.47699
+            ],
+            "elv": 1937.45703,
+            "id": "BeginningIsland",
+            "name": "Great Sky Island",
+            "link": "Great Sky Island"
+          },
+          {
+            "coords": [
+              3215,
+              -3156
+            ],
+            "elv": 2000,
+            "id": "Rito_SkyHighIsland",
+            "name": "Rising Island Chain",
+            "link": "Rising Island Chain"
+          },
+          {
+            "coords": [
+              2705.5,
+              1777
+            ],
+            "elv": 2000,
+            "id": "SkyIslands_Eldin01",
+            "name": "Eldin Sky Archipelago",
+            "link": "Eldin Sky Archipelago"
+          },
+          {
+            "coords": [
+              798.7323,
+              1924.84094
+            ],
+            "elv": 2000,
+            "id": "SkyIslands_Eldin02",
+            "name": "South Eldin Sky Archipelago",
+            "link": "South Eldin Sky Archipelago"
+          },
+          {
+            "coords": [
+              -2751.13208,
+              -68.0329895
+            ],
+            "elv": 1000,
+            "id": "SkyIslands_Firone01",
+            "name": "Faron Sky Archipelago",
+            "link": "Faron Sky Archipelago"
+          },
+          {
+            "coords": [
+              -2346.83594,
+              1295.38696
+            ],
+            "elv": 2001.62903,
+            "id": "SkyIslands_Firone02",
+            "name": "West Necluda Sky Archipelago",
+            "link": "West Necluda Sky Archipelago"
+          },
+          {
+            "coords": [
+              -2316.17505,
+              -1866.29797
+            ],
+            "elv": 2000,
+            "id": "SkyIslands_Gerudo01",
+            "name": "East Gerudo Sky Archipelago",
+            "link": "East Gerudo Sky Archipelago"
+          },
+          {
+            "coords": [
+              -607.929199,
+              -3573.16089
+            ],
+            "elv": 2000,
+            "id": "SkyIslands_Gerudo02",
+            "name": "North Gerudo Sky Archipelago",
+            "link": "North Gerudo Sky Archipelago"
+          },
+          {
+            "coords": [
+              -2270.68311,
+              2540.85791
+            ],
+            "elv": 2000,
+            "id": "SkyIslands_Hateru01",
+            "name": "Necluda Sky Archipelago",
+            "link": "Necluda Sky Archipelago"
+          },
+          {
+            "coords": [
+              -3751.43799,
+              2559.24609
+            ],
+            "elv": 1000,
+            "id": "SkyIslands_Hateru02",
+            "name": "South Necluda Sky Archipelago",
+            "link": "South Necluda Sky Archipelago"
+          },
+          {
+            "coords": [
+              3171.40088,
+              -1729.46802
+            ],
+            "elv": 2000,
+            "id": "SkyIslands_Hebra02",
+            "name": "East Hebra Sky Archipelago",
+            "link": "East Hebra Sky Archipelago"
+          },
+          {
+            "coords": [
+              2019.06006,
+              -3136.99194
+            ],
+            "elv": 2000,
+            "id": "SkyIslands_Hebra03",
+            "name": "South Hebra Sky Archipelago",
+            "link": "South Hebra Sky Archipelago"
+          },
+          {
+            "coords": [
+              2300,
+              -3845.8479
+            ],
+            "elv": 2000,
+            "id": "SkyIslands_Hebra04",
+            "name": "West Hebra Sky Archipelago",
+            "link": "West Hebra Sky Archipelago"
+          },
+          {
+            "coords": [
+              -92.0400085,
+              131.830994
+            ],
+            "elv": 2054.729,
+            "id": "SkyIslands_Hyrule01",
+            "name": "Central Hyrule Sky Archipelago",
+            "link": "Central Hyrule Sky Archipelago"
+          },
+          {
+            "coords": [
+              -864.054016,
+              1795.11694
+            ],
+            "elv": 2000,
+            "id": "SkyIslands_Hyrule02",
+            "name": "North Necluda Sky Archipelago",
+            "link": "North Necluda Sky Archipelago"
+          },
+          {
+            "coords": [
+              -1380,
+              -901.231018
+            ],
+            "elv": 2000,
+            "id": "SkyIslands_Hyrule03",
+            "name": "South Hyrule Sky Archipelago",
+            "link": "South Hyrule Sky Archipelago"
+          },
+          {
+            "coords": [
+              2354.2981,
+              349.932098
+            ],
+            "elv": 2000,
+            "id": "SkyIslands_Hyrule04",
+            "name": "North Hyrule Sky Archipelago",
+            "link": "North Hyrule Sky Archipelago"
+          },
+          {
+            "coords": [
+              -538.689514,
+              -2292.01611
+            ],
+            "elv": 1000,
+            "id": "SkyIslands_Hyrule05",
+            "name": "West Hyrule Sky Archipelago",
+            "link": "West Hyrule Sky Archipelago"
+          },
+          {
+            "coords": [
+              -1254.57202,
+              4368.396
+            ],
+            "elv": 2000,
+            "id": "SkyIslands_Lanayru02",
+            "name": "South Lanayru Sky Archipelago",
+            "link": "South Lanayru Sky Archipelago"
+          },
+          {
+            "coords": [
+              83.1964417,
+              3010.07202
+            ],
+            "elv": 2000,
+            "id": "SkyIslands_Lanayru03",
+            "name": "Lanayru Sky Archipelago",
+            "link": "Lanayru Sky Archipelago"
+          },
+          {
+            "coords": [
+              558.388123,
+              -2942.51904
+            ],
+            "elv": 2000,
+            "id": "SkyIslands_Tabanta01",
+            "name": "Tabantha Sky Archipelago",
+            "link": "Tabantha Sky Archipelago"
+          },
+          {
+            "coords": [
+              1333.85999,
+              -3600.50391
+            ],
+            "elv": 2000,
+            "id": "SkyIslands_Tabanta02",
+            "name": "North Tabantha Sky Archipelago",
+            "link": "North Tabantha Sky Archipelago"
+          },
+          {
+            "coords": [
+              1688.58606,
+              3738.98706
+            ],
+            "elv": 2000,
+            "id": "SkyIslands_Tamul01",
+            "name": "Sokkala Sky Archipelago",
+            "link": "Sokkala Sky Archipelago"
+          },
+          {
+            "coords": [
+              2998.64697,
+              3703.70996
+            ],
+            "elv": 1850,
+            "id": "SkyIslands_Tamul02",
+            "name": "North Akkala Sky Archipelago",
+            "link": "North Akkala Sky Archipelago"
+          },
+          {
+            "coords": [
+              -3064.65796,
+              911.687988
+            ],
+            "elv": 2000,
+            "id": "ZonauThunderSkyIsland",
+            "name": "Thunderhead Isles",
+            "link": "Thunderhead Isles"
+          }
+        ]
       }
     ]
   }
