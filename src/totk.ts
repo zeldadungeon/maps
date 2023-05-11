@@ -234,38 +234,11 @@ window.onload = async () => {
     addJson(sky, "sky/seeds.json"),
     addJson(sky, "sky/locations.json"),
     addJson(sky, "sky/treasure.json"),
+    addJson(depths, "depths/locations.json"),
     addJson(depths, "depths/treasure.json"),
-    addWiki(
-      depths,
-      "Lightroot",
-      "Lightroots",
-      "summary",
-      "lightroot",
-      30,
-      30,
-      1
-    ),
-    addWiki(
-      surface,
-      "Crowdsourced",
-      "Surface Markers",
-      "temp",
-      "flag",
-      25,
-      28,
-      2
-    ),
-    addWiki(sky, "Crowdsourced", "Sky Markers", "temp", "flag", 25, 28, 2),
-    addWiki(
-      depths,
-      "Crowdsourced",
-      "Depths Markers",
-      "temp",
-      "flag",
-      25,
-      28,
-      2
-    ),
+    addWiki(surface, "Wiki", "Surface Markers", "temp", "flag", 25, 28, 2),
+    addWiki(sky, "Wiki", "Sky Markers", "temp", "flag", 25, 28, 2),
+    addWiki(depths, "Wiki", "Depths Markers", "temp", "flag", 25, 28, 2),
   ]);
 
   await map.initializeWikiConnector();
