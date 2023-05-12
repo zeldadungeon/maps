@@ -336,13 +336,13 @@
     ]
   },
   {
-    "name": "Recycle Box",
+    "name": "Dispenser",
     "source": "summary",
     "layers": [
       {
         "minZoom": 2,
         "icon": {
-          "url": "recycle.png",
+          "url": "dispenser.png",
           "width": 36,
           "height": 36
         },
@@ -354,8 +354,8 @@
             ],
             "elv": 932.964417,
             "id": "RBox_Field_K",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -364,8 +364,8 @@
             ],
             "elv": 522.46228,
             "id": "RBox_Field_J_02",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -374,8 +374,8 @@
             ],
             "elv": 1421.59998,
             "id": "RBox_Field_C",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -384,8 +384,8 @@
             ],
             "elv": 1262.479,
             "id": "RBox_Field_L",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -394,8 +394,8 @@
             ],
             "elv": 1259.60095,
             "id": "RBox_Field_Q",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -404,8 +404,8 @@
             ],
             "elv": 1112.427,
             "id": "RBox_Field_D_02",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -414,8 +414,8 @@
             ],
             "elv": 1355.68298,
             "id": "RBox_Field_F",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -424,8 +424,8 @@
             ],
             "elv": 689.979492,
             "id": "RBox_Field_J",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -434,8 +434,8 @@
             ],
             "elv": 1590.18994,
             "id": "RBox_Field_T",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -444,8 +444,8 @@
             ],
             "elv": 1316.604,
             "id": "RBox_Field_K_02",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -454,8 +454,8 @@
             ],
             "elv": 2048.49512,
             "id": "RBox_Field_I",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -464,8 +464,8 @@
             ],
             "elv": 1253.479,
             "id": "RBox_Field_H",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -474,8 +474,8 @@
             ],
             "elv": 1053.479,
             "id": "RBox_Field_E_02",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -484,8 +484,8 @@
             ],
             "elv": 1925.479,
             "id": "RBox_Field_M",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -494,8 +494,8 @@
             ],
             "elv": 859.686523,
             "id": "RBox_Field_M_02",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -504,8 +504,8 @@
             ],
             "elv": 716.079407,
             "id": "RBox_Field_D",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -514,8 +514,8 @@
             ],
             "elv": 1022.69397,
             "id": "RBox_Field_R",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -524,8 +524,8 @@
             ],
             "elv": 1221.70398,
             "id": "RBox_Field_G",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -534,8 +534,8 @@
             ],
             "elv": 1894.479,
             "id": "RBox_Field_N",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -544,8 +544,8 @@
             ],
             "elv": 807.336182,
             "id": "RBox_Field_E",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -554,8 +554,8 @@
             ],
             "elv": 1799.55298,
             "id": "RBox_Field_I_02",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -564,8 +564,8 @@
             ],
             "elv": 1761.08398,
             "id": "RBox_Field_S",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -574,8 +574,8 @@
             ],
             "elv": 1055.86096,
             "id": "RBox_Field_G_02",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -584,8 +584,8 @@
             ],
             "elv": 1547.82104,
             "id": "RBox_Field_A",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -594,8 +594,8 @@
             ],
             "elv": 1684.45898,
             "id": "RBox_Field_B",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           }
         ]
       }

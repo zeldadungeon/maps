@@ -1553,13 +1553,13 @@
     ]
   },
   {
-    "name": "Recycle Box",
+    "name": "Dispenser",
     "source": "summary",
     "layers": [
       {
         "minZoom": 2,
         "icon": {
-          "url": "recycle.png",
+          "url": "dispenser.png",
           "width": 36,
           "height": 36
         },
@@ -1571,8 +1571,8 @@
             ],
             "elv": 107.4786,
             "id": "RBox_Field_H_02",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -1581,8 +1581,8 @@
             ],
             "elv": 260.223907,
             "id": "RBox_Field_R_02",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           },
           {
             "coords": [
@@ -1591,8 +1591,8 @@
             ],
             "elv": 195.447403,
             "id": "RBox_Field_L_02",
-            "name": "Recycle Box",
-            "link": "Recycle Box"
+            "name": "Dispenser",
+            "link": "Dispenser"
           }
         ]
       }

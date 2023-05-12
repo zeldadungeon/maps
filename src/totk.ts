@@ -61,8 +61,8 @@ window.onload = async () => {
       iconHeight: 36,
     },
     {
-      name: "Recycle Box",
-      iconUrl: iconUrl("recycle"),
+      name: "Dispenser",
+      iconUrl: iconUrl("dispenser"),
       iconWidth: 36,
       iconHeight: 36,
     },
