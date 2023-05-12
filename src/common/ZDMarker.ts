@@ -75,6 +75,7 @@ export class ZDMarker extends Marker {
       });
       marker.bindPopup(marker.popup);
       marker.on("popupopen", () => {
+        marker.updateUrl();
         if (layer.infoSource === "summary") {
           marker.popup?.loadContentFromSummary(linkParts[0]);
         } else if (layer.infoSource === "section") {
@@ -161,5 +162,12 @@ export class ZDMarker extends Marker {
 
   public getMinZoom(): number {
     return this.layer.getMinZoom();
+  }
+
+  private updateUrl(): void {
+    const url = new URL(window.location.toString());
+    url.searchParams.set("m", this.id);
+    url.searchParams.delete("id");
+    history.pushState({}, "", url);
   }
 }

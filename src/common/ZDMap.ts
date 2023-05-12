@@ -250,7 +250,7 @@ export class ZDMap extends Map {
       console.log(event);
       this.navigateToMarkerById(<string>(<any>event).linkTarget);
     });
-    if (params.id === marker.id) {
+    if (params.m === marker.id || params.id === marker.id) {
       this.focusOn(marker, layer);
     }
   }
@@ -432,6 +432,8 @@ export class ZDMap extends Map {
   private updateUrlLayer(layerName: string) {
     const url = new URL(window.location.toString());
     url.searchParams.set("l", layerName);
+    url.searchParams.delete("m");
+    url.searchParams.delete("id");
     history.pushState({}, "", url);
   }
 
@@ -442,6 +444,8 @@ export class ZDMap extends Map {
     url.searchParams.set("z", `${zoom}`);
     url.searchParams.set("x", `${Math.floor(center.lat)}`);
     url.searchParams.set("y", `${Math.floor(center.lng)}`);
+    url.searchParams.delete("m");
+    url.searchParams.delete("id");
     history.pushState({}, "", url);
   }
 }

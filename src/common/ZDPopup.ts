@@ -106,7 +106,7 @@ export class ZDPopup extends Popup {
       "zd-popup__control zd-popup__control--permalink",
       this.controls
     );
-    linkButton.setAttribute("href", `?id=${options.id}`);
+    linkButton.setAttribute("href", `?m=${options.id}`);
     DomUtil.create("i", "fas fa-link", linkButton).title = "Permalink";
 
     this.setContent(this.container);
