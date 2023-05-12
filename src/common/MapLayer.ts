@@ -5,9 +5,10 @@ import { TileLayer } from "leaflet";
 import { ZDMap } from "./ZDMap";
 import { ZDMarker } from "./ZDMarker";
 
-export class MapLayer {
+export class MapLayer extends LayerGroup {
   public tileLayer: TileLayer;
-  public markerLayer: LayerGroup; // TODO add markers here instead of directly on the map, and add this to the map
+  public markerLayer: LayerGroup;
+  public iconUrl: string;
   private categories = <{ [key: string]: Layer[] }>{};
   private tileMarkerContainers: MarkerContainer[][][] = [];
   private taggedMarkerContainers = <{ [key: string]: MarkerContainer }>{};
@@ -21,6 +22,10 @@ export class MapLayer {
     private maxZoom: number,
     bounds: L.LatLngBounds
   ) {
+    super();
+    this.iconUrl = `${import.meta.env.BASE_URL}${
+      map.directory
+    }/icons/${tilePath}.png`;
     tilePath = tilePath ? `tiles/${tilePath}` : "tiles";
     this.tileLayer = new TileLayer(
       `${import.meta.env.BASE_URL}${map.directory}/${tilePath}/{z}/{x}_{y}.jpg`,
@@ -124,6 +129,24 @@ export class MapLayer {
   public findMarkers(searchRegex: RegExp): ZDMarker[] {
     // [0][0][0] is the top-level/min-zoom/one-tile container that contains all markers
     return this.tileMarkerContainers[0][0][0].findMarkers(searchRegex);
+  }
+
+  public show(): void {
+    if (!this.hasLayer(this.tileLayer)) {
+      this.addLayer(this.tileLayer);
+    }
+    if (!this.hasLayer(this.markerLayer)) {
+      this.addLayer(this.markerLayer);
+    }
+  }
+
+  public hide(): void {
+    if (this.hasLayer(this.tileLayer)) {
+      this.removeLayer(this.tileLayer);
+    }
+    if (this.hasLayer(this.markerLayer)) {
+      this.removeLayer(this.markerLayer);
+    }
   }
 
   public showTaggedMarkers(tag: string): void {

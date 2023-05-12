@@ -53,6 +53,12 @@ body {
   border: 1px solid white;
 }
 
+.leaflet-control a:hover,
+.leaflet-control a:focus,
+.leaflet-control a.bar-selected {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
 .zd-control {
   position: relative;
 }
@@ -66,7 +72,6 @@ body {
 }
 
 .leaflet-control a,
-.leaflet-control a:hover,
 .leaflet-control-layers-expanded,
 .zd-control__button,
 .zd-control__content,

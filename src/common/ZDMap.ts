@@ -12,6 +12,7 @@ import { dom, library } from "@fortawesome/fontawesome-svg-core";
 import { ICategory } from "./ICategory";
 import { ZDControl } from "./ZDControl";
 import { Dialog } from "./Dialog";
+import { LayersControl } from "./LayersControl";
 import { Legend } from "./Legend";
 import { LocalStorage } from "./LocalStorage";
 import { ZDMarker } from "./ZDMarker";
@@ -45,6 +46,7 @@ export class ZDMap extends Map {
   private legend?: Legend;
   private legendLandscape?: Legend;
   private layers = <MapLayer[]>[];
+  private layersControl?: LayersControl;
   private loginFn!: (username: string) => void;
 
   private constructor(
@@ -68,6 +70,10 @@ export class ZDMap extends Map {
       options.zoom = maxZoom - 2;
     }
 
+    const initZoom = Number(params.z);
+    if (!isNaN(Number(params.z))) {
+      options.zoom = initZoom;
+    }
     let initLat = Number(params.x);
     if (isNaN(initLat)) {
       initLat = Number(params.lat);
@@ -109,6 +115,14 @@ export class ZDMap extends Map {
 
     map.on("zoom", (_) => {
       map.layers.forEach((l) => l.updateZoom(map.getZoom()));
+    });
+
+    map.on("moveend", function () {
+      map.updateUrl();
+    });
+
+    map.on("zoomend", function () {
+      map.updateUrl();
     });
 
     const tempMarker = new Marker([0, 0], { draggable: true }).bindPopup("");
@@ -161,10 +175,10 @@ export class ZDMap extends Map {
       this.bounds
     );
     layer.updateZoom(this.getZoom());
+    this.addLayer(layer);
     if (this.layers.push(layer) == 1) {
-      this.addLayer(layer.tileLayer);
+      layer.show();
     }
-    this.addLayer(layer.markerLayer);
 
     return layer;
   }
@@ -176,13 +190,16 @@ export class ZDMap extends Map {
 
     // TODO custom layers control that takes MapLayer instead of TileLayer
     if (this.layers.length > 1) {
-      const layersObject: Control.LayersObject = {};
-      for (const layer of this.layers) {
-        layersObject[layer.layerName] = layer.tileLayer;
-      }
-      new Control.Layers(layersObject, undefined, {
+      this.layersControl = new LayersControl({
         position: "topleft",
+        layers: this.layers,
       }).addTo(this);
+      if (params.l != undefined) {
+        this.layersControl.selectLayer(params.l);
+      }
+      this.layersControl.onLayerSelected((layer) =>
+        this.updateUrlLayer(layer.layerName)
+      );
     }
 
     new Control.Zoom({
@@ -404,16 +421,27 @@ export class ZDMap extends Map {
   private focusOn(marker: ZDMarker, layer: MapLayer): void {
     this.legend?.reset();
     this.legendLandscape?.reset();
-    if (!this.hasLayer(layer.tileLayer)) {
-      for (const l of this.layers) {
-        this.removeLayer(l.tileLayer);
-      }
-    }
-    this.addLayer(layer.tileLayer);
+    this.layersControl?.selectLayer(layer.layerName);
     this.setView(
       marker.getLatLng(),
       Math.max(marker.getMinZoom(), this.getZoom())
     );
     layer.openPopupWhenLoaded(marker);
+  }
+
+  private updateUrlLayer(layerName: string) {
+    const url = new URL(window.location.toString());
+    url.searchParams.set("l", layerName);
+    history.pushState({}, "", url);
+  }
+
+  private updateUrl() {
+    const url = new URL(window.location.toString());
+    const zoom = this.getZoom();
+    const center = this.getCenter();
+    url.searchParams.set("z", `${zoom}`);
+    url.searchParams.set("x", `${Math.floor(center.lat)}`);
+    url.searchParams.set("y", `${Math.floor(center.lng)}`);
+    history.pushState({}, "", url);
   }
 }
