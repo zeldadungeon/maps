@@ -6286,6 +6286,2264 @@
             "id": "Treasure0776",
             "name": "Giant Boomerang",
             "link": "Giant Boomerang"
+          },
+          {
+            "coords": [
+              2823.30688,
+              1563.81494
+            ],
+            "elv": 357.655212,
+            "id": "Treasure1077",
+            "name": "Soldier\u0027s Broadsword",
+            "link": "Soldier\u0027s Broadsword"
+          },
+          {
+            "coords": [
+              2142.88403,
+              1365.48999
+            ],
+            "elv": 382.722809,
+            "id": "Treasure1078",
+            "name": "Ruby",
+            "link": "Ruby"
+          },
+          {
+            "coords": [
+              2232.29102,
+              1333.32996
+            ],
+            "elv": 396.923187,
+            "id": "Treasure1079",
+            "name": "Knight\u0027s Claymore",
+            "link": "Knight\u0027s Claymore"
+          },
+          {
+            "coords": [
+              2040.15405,
+              2163.34399
+            ],
+            "elv": 499.314789,
+            "id": "Treasure1080",
+            "name": "Ancient Blade",
+            "link": "Ancient Blade"
+          },
+          {
+            "coords": [
+              1781.81897,
+              1915.77197
+            ],
+            "elv": 396.296906,
+            "id": "Treasure1081",
+            "name": "Ruby",
+            "link": "Ruby"
+          },
+          {
+            "coords": [
+              1881.59204,
+              2401.04102
+            ],
+            "elv": 239.475693,
+            "id": "Treasure1082",
+            "name": "Strong Construct Bow",
+            "link": "Strong Construct Bow"
+          },
+          {
+            "coords": [
+              2652.51489,
+              2027.81201
+            ],
+            "elv": 518.55249,
+            "id": "Treasure1083",
+            "name": "Ruby",
+            "link": "Ruby"
+          },
+          {
+            "coords": [
+              -2908.56909,
+              834.500427
+            ],
+            "elv": 102.5,
+            "id": "Treasure1084",
+            "name": "Topaz",
+            "link": "Topaz"
+          },
+          {
+            "coords": [
+              -3120.04395,
+              593.885315
+            ],
+            "elv": 119.636299,
+            "id": "Treasure1085",
+            "name": "Large Zonai Charge",
+            "link": "Large Zonai Charge"
+          },
+          {
+            "coords": [
+              -2983.64404,
+              -219.985794
+            ],
+            "elv": 118.521797,
+            "id": "Treasure1086",
+            "name": "Traveler\u0027s Claymore",
+            "link": "Traveler\u0027s Claymore"
+          },
+          {
+            "coords": [
+              -2930.65503,
+              597.67041
+            ],
+            "elv": 110.382698,
+            "id": "Treasure1087",
+            "name": "Large Zonai Charge",
+            "link": "Large Zonai Charge"
+          },
+          {
+            "coords": [
+              -2945.73193,
+              1593.11206
+            ],
+            "elv": 81.7378082,
+            "id": "Treasure1088",
+            "name": "Rubber Helm",
+            "link": "Rubber Helm"
+          },
+          {
+            "coords": [
+              -1934.18799,
+              -1147.47302
+            ],
+            "elv": 207.3255,
+            "id": "Treasure1089",
+            "name": "Eightfold Longblade",
+            "link": "Eightfold Longblade"
+          },
+          {
+            "coords": [
+              -3050.37988,
+              -3210.92212
+            ],
+            "elv": 66.3178711,
+            "id": "Treasure1090",
+            "name": "Gerudo Scimitar",
+            "link": "Gerudo Scimitar"
+          },
+          {
+            "coords": [
+              -1781.56396,
+              -2504.78101
+            ],
+            "elv": 244.056,
+            "id": "Treasure1091",
+            "name": "Ruby",
+            "link": "Ruby"
+          },
+          {
+            "coords": [
+              -1779.78003,
+              -2508.09595
+            ],
+            "elv": 245.713593,
+            "id": "Treasure1092",
+            "name": "Eightfold Longblade\u000E\u0001\u0004\u0002\uCD29",
+            "link": "Eightfold Longblade\u000E\u0001\u0004\u0002\uCD29"
+          },
+          {
+            "coords": [
+              -745.626221,
+              -3930.99609
+            ],
+            "elv": 683.040283,
+            "id": "Treasure1093",
+            "name": "Large Zonaite",
+            "link": "Large Zonaite"
+          },
+          {
+            "coords": [
+              -2838.93994,
+              1851.36694
+            ],
+            "elv": 235.551895,
+            "id": "Treasure1094",
+            "name": "Large Zonai Charge",
+            "link": "Large Zonai Charge"
+          },
+          {
+            "coords": [
+              -2684.31494,
+              1889.26099
+            ],
+            "elv": 216.666794,
+            "id": "Treasure1095",
+            "name": "Star Fragment",
+            "link": "Star Fragment"
+          },
+          {
+            "coords": [
+              -2996.07007,
+              1678.14697
+            ],
+            "elv": 272.577606,
+            "id": "Treasure1096",
+            "name": "Sturdy Long Stick",
+            "link": "Sturdy Long Stick"
+          },
+          {
+            "coords": [
+              -3705.37598,
+              1730.48596
+            ],
+            "elv": 135.264801,
+            "id": "Treasure1097",
+            "name": "Large Zonai Charge",
+            "link": "Large Zonai Charge"
+          },
+          {
+            "coords": [
+              -3488.74902,
+              1423.08606
+            ],
+            "elv": 183.433197,
+            "id": "Treasure1098",
+            "name": "Knight\u0027s Claymore",
+            "link": "Knight\u0027s Claymore"
+          },
+          {
+            "coords": [
+              -1142.448,
+              1388.83899
+            ],
+            "elv": 241.413696,
+            "id": "Treasure1099",
+            "name": "Shield of the Mind\u0027s Eye",
+            "link": "Shield of the Mind\u0027s Eye"
+          },
+          {
+            "coords": [
+              2887.95801,
+              -3881.76807
+            ],
+            "elv": 98.9670105,
+            "id": "Treasure1100",
+            "name": "Frostbite Headdress",
+            "link": "Frostbite Headdress"
+          },
+          {
+            "coords": [
+              2915.39307,
+              -3927.12207
+            ],
+            "elv": 70.5519714,
+            "id": "Treasure1101",
+            "name": "Feathered Edge",
+            "link": "Feathered Edge"
+          },
+          {
+            "coords": [
+              2571.12207,
+              -2904.85107
+            ],
+            "elv": 507.675507,
+            "id": "Treasure1102",
+            "name": "Frostbite Trousers",
+            "link": "Frostbite Trousers"
+          },
+          {
+            "coords": [
+              3222.89209,
+              -2530.63989
+            ],
+            "elv": 456.033203,
+            "id": "Treasure1103",
+            "name": "Feathered Edge",
+            "link": "Feathered Edge"
+          },
+          {
+            "coords": [
+              1528.73804,
+              -3043.44312
+            ],
+            "elv": 292.571991,
+            "id": "Treasure1104",
+            "name": "Frostbite Shirt",
+            "link": "Frostbite Shirt"
+          },
+          {
+            "coords": [
+              -712.146973,
+              -2228.01904
+            ],
+            "elv": 225.299805,
+            "id": "Treasure1105",
+            "name": "Silver Rupee",
+            "link": "Silver Rupee"
+          },
+          {
+            "coords": [
+              1583.03894,
+              -2162.02197
+            ],
+            "elv": 58.0688591,
+            "id": "Treasure1106",
+            "name": "Ruby",
+            "link": "Ruby"
+          },
+          {
+            "coords": [
+              -1388.20398,
+              2662.11304
+            ],
+            "elv": 228.616806,
+            "id": "Treasure1107",
+            "name": "Strong Zonaite Shield",
+            "link": "Strong Zonaite Shield"
+          },
+          {
+            "coords": [
+              -2301.34497,
+              2432.48706
+            ],
+            "elv": 98.3082962,
+            "id": "Treasure1108",
+            "name": "Eightfold Blade",
+            "link": "Eightfold Blade"
+          },
+          {
+            "coords": [
+              -119.663101,
+              3137.573
+            ],
+            "elv": 185.3293,
+            "id": "Treasure1109",
+            "name": "Zora Shield",
+            "link": "Zora Shield"
+          },
+          {
+            "coords": [
+              -168.402298,
+              3087.79199
+            ],
+            "elv": 186.554596,
+            "id": "Treasure1110",
+            "name": "Zora Sword",
+            "link": "Zora Sword"
+          },
+          {
+            "coords": [
+              -96.7673798,
+              2951.92505
+            ],
+            "elv": 187.125,
+            "id": "Treasure1111",
+            "name": "Soldier\u0027s Claymore",
+            "link": "Soldier\u0027s Claymore"
+          },
+          {
+            "coords": [
+              269.4599,
+              2638.62109
+            ],
+            "elv": 189.570099,
+            "id": "Treasure1112",
+            "name": "Soldier\u0027s Spear",
+            "link": "Soldier\u0027s Spear"
+          },
+          {
+            "coords": [
+              89.4576416,
+              2258.94507
+            ],
+            "elv": 170.75,
+            "id": "Treasure1113",
+            "name": "Soldier\u0027s Broadsword",
+            "link": "Soldier\u0027s Broadsword"
+          },
+          {
+            "coords": [
+              558.639526,
+              2617.89502
+            ],
+            "elv": 297.600006,
+            "id": "Treasure1114",
+            "name": "Knight\u0027s Broadsword",
+            "link": "Knight\u0027s Broadsword"
+          },
+          {
+            "coords": [
+              465.499908,
+              2827
+            ],
+            "elv": 342.168396,
+            "id": "Treasure1115",
+            "name": "Zora Sword",
+            "link": "Zora Sword"
+          },
+          {
+            "coords": [
+              542.593811,
+              2849.71289
+            ],
+            "elv": 294.075592,
+            "id": "Treasure1116",
+            "name": "Climbing Boots",
+            "link": "Climbing Boots"
+          },
+          {
+            "coords": [
+              494.83551,
+              3712.38208
+            ],
+            "elv": 416.0177,
+            "id": "Treasure1117",
+            "name": "Climber\u0027s Bandanna",
+            "link": "Climber\u0027s Bandanna"
+          },
+          {
+            "coords": [
+              242.0952,
+              3666.302
+            ],
+            "elv": 120.037804,
+            "id": "Treasure1118",
+            "name": "Large Zonai Charge",
+            "link": "Large Zonai Charge"
+          },
+          {
+            "coords": [
+              -1999.33496,
+              360.213593
+            ],
+            "elv": 86.3059082,
+            "id": "Treasure1119",
+            "name": "Royal Shield",
+            "link": "Royal Shield"
+          },
+          {
+            "coords": [
+              186,
+              1529
+            ],
+            "elv": 105.5,
+            "id": "Treasure1120",
+            "name": "Soldier\u2019s Shield",
+            "link": "Soldier\u2019s Shield"
+          },
+          {
+            "coords": [
+              2310.37695,
+              3082.3269
+            ],
+            "elv": 426.7435,
+            "id": "Treasure1121",
+            "name": "Ruby",
+            "link": "Ruby"
+          },
+          {
+            "coords": [
+              -1075.85596,
+              1880.56006
+            ],
+            "elv": 210.901993,
+            "id": "Treasure1122",
+            "name": "Eightfold Blade",
+            "link": "Eightfold Blade"
+          },
+          {
+            "coords": [
+              470.921997,
+              -2870.87207
+            ],
+            "elv": 249.563904,
+            "id": "Treasure1123",
+            "name": "Purple Rupee",
+            "link": "Purple Rupee"
+          },
+          {
+            "coords": [
+              720.041687,
+              4419.23682
+            ],
+            "elv": 224.626694,
+            "id": "Treasure1124",
+            "name": "Knight\u0027s Broadsword",
+            "link": "Knight\u0027s Broadsword"
+          },
+          {
+            "coords": [
+              1543.521,
+              3294.91992
+            ],
+            "elv": 412.330811,
+            "id": "Treasure1125",
+            "name": "Soldier\u0027s Spear",
+            "link": "Soldier\u0027s Spear"
+          },
+          {
+            "coords": [
+              1530.81006,
+              3292.83301
+            ],
+            "elv": 398.490906,
+            "id": "Treasure1126",
+            "name": "Sturdy Long Stick",
+            "link": "Sturdy Long Stick"
+          },
+          {
+            "coords": [
+              3297.83301,
+              3430.06592
+            ],
+            "elv": -20.2593002,
+            "id": "Treasure1127",
+            "name": "Fierce Deity Mask",
+            "link": "Fierce Deity Mask"
+          },
+          {
+            "coords": [
+              3366.177,
+              4637.88916
+            ],
+            "elv": 77.1871109,
+            "id": "Treasure1128",
+            "name": "Royal Halberd",
+            "link": "Royal Halberd"
+          },
+          {
+            "coords": [
+              1492.10205,
+              3301.198
+            ],
+            "elv": 501.389496,
+            "id": "Treasure1129",
+            "name": "Fierce Deity Armor",
+            "link": "Fierce Deity Armor"
+          },
+          {
+            "coords": [
+              -176.655106,
+              9.40019035
+            ],
+            "elv": 132.473404,
+            "id": "Treasure1130",
+            "name": "Traveler\u0027s Sword",
+            "link": "Traveler\u0027s Sword"
+          },
+          {
+            "coords": [
+              527.882507,
+              -214.036194
+            ],
+            "elv": 51.7396088,
+            "id": "Treasure1131",
+            "name": "Knight\u0027s Halberd",
+            "link": "Knight\u0027s Halberd"
+          },
+          {
+            "coords": [
+              467.660614,
+              -232.082306
+            ],
+            "elv": 66.4206238,
+            "id": "Treasure1132",
+            "name": "Soldier\u0027s Helm",
+            "link": "Soldier\u0027s Helm"
+          },
+          {
+            "coords": [
+              455.952606,
+              -213.518005
+            ],
+            "elv": 78.3980026,
+            "id": "Treasure1133",
+            "name": "Knight\u0027s Broadsword",
+            "link": "Knight\u0027s Broadsword"
+          },
+          {
+            "coords": [
+              637.024902,
+              -267.598602
+            ],
+            "elv": 69.8713531,
+            "id": "Treasure1134",
+            "name": "Soldier\u0027s Armor",
+            "link": "Soldier\u0027s Armor"
+          },
+          {
+            "coords": [
+              280.931702,
+              -306.395599
+            ],
+            "elv": 99.2714005,
+            "id": "Treasure1135",
+            "name": "Soldier\u0027s Greaves",
+            "link": "Soldier\u0027s Greaves"
+          },
+          {
+            "coords": [
+              306.817413,
+              -323.864594
+            ],
+            "elv": 99.5515671,
+            "id": "Treasure1136",
+            "name": "Soldier\u0027s Claymore",
+            "link": "Soldier\u0027s Claymore"
+          },
+          {
+            "coords": [
+              -546.125305,
+              -1108.177
+            ],
+            "elv": 140.900696,
+            "id": "Treasure1137",
+            "name": "Fierce Deity Boots",
+            "link": "Fierce Deity Boots"
+          },
+          {
+            "coords": [
+              -1117.33105,
+              -69.7781067
+            ],
+            "elv": 101.054604,
+            "id": "Treasure1138",
+            "name": "Rubber Armor",
+            "link": "Rubber Armor"
+          },
+          {
+            "coords": [
+              -1050.60803,
+              -229.459503
+            ],
+            "elv": 76.4249878,
+            "id": "Treasure1139",
+            "name": "Soldier\u2019s Shield",
+            "link": "Soldier\u2019s Shield"
+          },
+          {
+            "coords": [
+              152.296204,
+              -553.881104
+            ],
+            "elv": 137.355698,
+            "id": "Treasure1140",
+            "name": "Traveler\u0027s Spear",
+            "link": "Traveler\u0027s Spear"
+          },
+          {
+            "coords": [
+              -1264.05005,
+              -1156.73303
+            ],
+            "elv": 140.4702,
+            "id": "Treasure1141",
+            "name": "Trousers of Awakening",
+            "link": "Trousers of Awakening"
+          },
+          {
+            "coords": [
+              2684.18311,
+              2399.69312
+            ],
+            "elv": 617.827515,
+            "id": "Treasure1142",
+            "name": "Cobble Crusher",
+            "link": "Cobble Crusher"
+          },
+          {
+            "coords": [
+              3021.75293,
+              1706.27698
+            ],
+            "elv": 344.485596,
+            "id": "Treasure1143",
+            "name": "Ruby",
+            "link": "Ruby"
+          },
+          {
+            "coords": [
+              2225.3479,
+              1382.41504
+            ],
+            "elv": 399.965912,
+            "id": "Treasure1144",
+            "name": "Ember Shirt",
+            "link": "Ember Shirt"
+          },
+          {
+            "coords": [
+              2047.77197,
+              1710.29504
+            ],
+            "elv": 419.7966,
+            "id": "Treasure1145",
+            "name": "Cobble Crusher",
+            "link": "Cobble Crusher"
+          },
+          {
+            "coords": [
+              1833.22705,
+              1900.39099
+            ],
+            "elv": 394.87619,
+            "id": "Treasure1146",
+            "name": "Rocket",
+            "link": "Rocket"
+          },
+          {
+            "coords": [
+              2990.98706,
+              2283.21094
+            ],
+            "elv": 512.495178,
+            "id": "Treasure1147",
+            "name": "Vah Rudania Divine Helm",
+            "link": "Vah Rudania Divine Helm"
+          },
+          {
+            "coords": [
+              2756.92505,
+              1576.64197
+            ],
+            "elv": 487.737701,
+            "id": "Treasure1148",
+            "name": "Ember Headdress",
+            "link": "Ember Headdress"
+          },
+          {
+            "coords": [
+              2698.65601,
+              2063.40405
+            ],
+            "elv": 533.963684,
+            "id": "Treasure1149",
+            "name": "Soldier\u0027s Spear",
+            "link": "Soldier\u0027s Spear"
+          },
+          {
+            "coords": [
+              1416.40698,
+              2585.05298
+            ],
+            "elv": 240.458694,
+            "id": "Treasure1150",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1425.40698,
+              2580.05298
+            ],
+            "elv": 240.2173,
+            "id": "Treasure1151",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1430.40698,
+              2588.05298
+            ],
+            "elv": 240.382294,
+            "id": "Treasure1152",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1417.40698,
+              2580.55298
+            ],
+            "elv": 240.355896,
+            "id": "Treasure1153",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1420.995,
+              2578.15894
+            ],
+            "elv": 240.428802,
+            "id": "Treasure1154",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1425.90698,
+              2590.05298
+            ],
+            "elv": 239.244507,
+            "id": "Treasure1155",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1414.90698,
+              2593.55298
+            ],
+            "elv": 241.055405,
+            "id": "Treasure1156",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1422.625,
+              2585.06689
+            ],
+            "elv": 240.323593,
+            "id": "Treasure1157",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1430.35706,
+              2583.604
+            ],
+            "elv": 240.561798,
+            "id": "Treasure1158",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1417.24695,
+              2575.25391
+            ],
+            "elv": 241.334595,
+            "id": "Treasure1159",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1421.13,
+              2593.17407
+            ],
+            "elv": 240.300797,
+            "id": "Treasure1160",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1434.66699,
+              2593.17407
+            ],
+            "elv": 242.401199,
+            "id": "Treasure1161",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1433.97205,
+              2576.31909
+            ],
+            "elv": 241.869095,
+            "id": "Treasure1162",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1422.81604,
+              2564.87793
+            ],
+            "elv": 247.715195,
+            "id": "Treasure1163",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1410.01904,
+              2595.13599
+            ],
+            "elv": 247.894394,
+            "id": "Treasure1164",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1420.50195,
+              2571.7251
+            ],
+            "elv": 242.044403,
+            "id": "Treasure1165",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1409.83899,
+              2585.31104
+            ],
+            "elv": 241.360901,
+            "id": "Treasure1166",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1438.25195,
+              2589.14795
+            ],
+            "elv": 247.076599,
+            "id": "Treasure1167",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1435.83997,
+              2573.89307
+            ],
+            "elv": 248.118698,
+            "id": "Treasure1168",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1430.40002,
+              2570.34595
+            ],
+            "elv": 243.523193,
+            "id": "Treasure1169",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1430.94995,
+              2595.69409
+            ],
+            "elv": 241.811707,
+            "id": "Treasure1170",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1436.79504,
+              2582.29297
+            ],
+            "elv": 250.503906,
+            "id": "Treasure1171",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1434.08606,
+              2598.72803
+            ],
+            "elv": 247.373703,
+            "id": "Treasure1172",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1433.625,
+              2585.89404
+            ],
+            "elv": 241.695801,
+            "id": "Treasure1173",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1409.44397,
+              2573.95605
+            ],
+            "elv": 242.471405,
+            "id": "Treasure1174",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1411.93005,
+              2591.60791
+            ],
+            "elv": 241.798203,
+            "id": "Treasure1175",
+            "name": "Green Rupee",
+            "link": "Green Rupee"
+          },
+          {
+            "coords": [
+              1417.54602,
+              2624.09106
+            ],
+            "elv": 241.940598,
+            "id": "Treasure1176",
+            "name": "Fierce Deity Sword",
+            "link": "Fierce Deity Sword"
+          },
+          {
+            "coords": [
+              -3045.51196,
+              -193.285294
+            ],
+            "elv": 90.7325821,
+            "id": "Treasure1177",
+            "name": "Bomb Flower x3",
+            "link": "Bomb Flower"
+          },
+          {
+            "coords": [
+              -3050.99707,
+              -194.5009
+            ],
+            "elv": 90.2825165,
+            "id": "Treasure1178",
+            "name": "Knight\u0027s Halberd",
+            "link": "Knight\u0027s Halberd"
+          },
+          {
+            "coords": [
+              -2149.9541,
+              567.159912
+            ],
+            "elv": 158.415802,
+            "id": "Treasure1179",
+            "name": "Topaz",
+            "link": "Topaz"
+          },
+          {
+            "coords": [
+              -3776.5769,
+              297.520386
+            ],
+            "elv": 156.618896,
+            "id": "Treasure1180",
+            "name": "Phantom Helmet",
+            "link": "Phantom Helmet"
+          },
+          {
+            "coords": [
+              -2547.75391,
+              -3776.7439
+            ],
+            "elv": 114.817101,
+            "id": "Treasure1181",
+            "name": "Unknown"
+          },
+          {
+            "coords": [
+              -2770.44604,
+              -3763.93799
+            ],
+            "elv": 104.100403,
+            "id": "Treasure1182",
+            "name": "Topaz",
+            "link": "Topaz"
+          },
+          {
+            "coords": [
+              -2760.62793,
+              -3828.80908
+            ],
+            "elv": 70.0166931,
+            "id": "Treasure1183",
+            "name": "Arrow x 10",
+            "link": "Arrow x 10"
+          },
+          {
+            "coords": [
+              -2941.96411,
+              -3373.79199
+            ],
+            "elv": 75.4692917,
+            "id": "Treasure1184",
+            "name": "Knight\u0027s Shield",
+            "link": "Knight\u0027s Shield"
+          },
+          {
+            "coords": [
+              -2013.90405,
+              -1860.14197
+            ],
+            "elv": 138.648697,
+            "id": "Treasure1185",
+            "name": "Knight\u0027s Halberd",
+            "link": "Knight\u0027s Halberd"
+          },
+          {
+            "coords": [
+              -2232.56396,
+              -1530.55005
+            ],
+            "elv": 87.8687592,
+            "id": "Treasure1186",
+            "name": "Knight\u0027s Shield",
+            "link": "Knight\u0027s Shield"
+          },
+          {
+            "coords": [
+              -2846.67212,
+              -2708.14404
+            ],
+            "elv": 47.2547607,
+            "id": "Treasure1187",
+            "name": "Topaz",
+            "link": "Topaz"
+          },
+          {
+            "coords": [
+              -3257.02905,
+              -3713.33496
+            ],
+            "elv": 72.8171234,
+            "id": "Treasure1188",
+            "name": "Flame Emitter x3",
+            "link": "Flame Emitter"
+          },
+          {
+            "coords": [
+              -3061.22412,
+              -3189.52197
+            ],
+            "elv": 66.8572922,
+            "id": "Treasure1189",
+            "name": "Topaz",
+            "link": "Topaz"
+          },
+          {
+            "coords": [
+              -3087.69409,
+              -3189.29492
+            ],
+            "elv": 67.0471497,
+            "id": "Treasure1190",
+            "name": "Purple Rupee",
+            "link": "Purple Rupee"
+          },
+          {
+            "coords": [
+              -3739.22803,
+              -2984.86401
+            ],
+            "elv": 110.500603,
+            "id": "Treasure1191",
+            "name": "Gerudo Spear",
+            "link": "Gerudo Spear"
+          },
+          {
+            "coords": [
+              -3761.771,
+              -3007.27808
+            ],
+            "elv": 95.934967,
+            "id": "Treasure1192",
+            "name": "Gerudo Spear",
+            "link": "Gerudo Spear"
+          },
+          {
+            "coords": [
+              -1848.80005,
+              -2186.85596
+            ],
+            "elv": 181.224396,
+            "id": "Treasure1193",
+            "name": "Gerudo Scimitar",
+            "link": "Gerudo Scimitar"
+          },
+          {
+            "coords": [
+              -3738.84912,
+              -2522.78589
+            ],
+            "elv": 74.8014526,
+            "id": "Treasure1194",
+            "name": "Phantom Greaves",
+            "link": "Phantom Greaves"
+          },
+          {
+            "coords": [
+              -3741.01001,
+              -2551.98193
+            ],
+            "elv": 61.7279091,
+            "id": "Treasure1195",
+            "name": "Gerudo Bow",
+            "link": "Gerudo Bow"
+          },
+          {
+            "coords": [
+              -3703.98389,
+              -2473.16089
+            ],
+            "elv": 63.3059883,
+            "id": "Treasure1196",
+            "name": "Gerudo Scimitar",
+            "link": "Gerudo Scimitar"
+          },
+          {
+            "coords": [
+              -3678.54199,
+              -2556.62988
+            ],
+            "elv": 60.9486008,
+            "id": "Treasure1197",
+            "name": "Gerudo Shield",
+            "link": "Gerudo Shield"
+          },
+          {
+            "coords": [
+              -3723.02905,
+              -2530.06812
+            ],
+            "elv": 65.1885834,
+            "id": "Treasure1198",
+            "name": "Topaz",
+            "link": "Topaz"
+          },
+          {
+            "coords": [
+              -2644.28809,
+              -3251.41895
+            ],
+            "elv": 114.518204,
+            "id": "Treasure1199",
+            "name": "Radiant Shield",
+            "link": "Radiant Shield"
+          },
+          {
+            "coords": [
+              -3858.47803,
+              -4948.3042
+            ],
+            "elv": 47.2841415,
+            "id": "Treasure1200",
+            "name": "Topaz",
+            "link": "Topaz"
+          },
+          {
+            "coords": [
+              -2091.70996,
+              -4673.2002
+            ],
+            "elv": 105.763496,
+            "id": "Treasure1201",
+            "name": "Vah Naboris Divine Helm",
+            "link": "Vah Naboris Divine Helm"
+          },
+          {
+            "coords": [
+              -2485.479,
+              -2594.66504
+            ],
+            "elv": 185.374603,
+            "id": "Treasure1202",
+            "name": "Bomb Flower x5",
+            "link": "Bomb Flower"
+          },
+          {
+            "coords": [
+              -640.466492,
+              -4449.19189
+            ],
+            "elv": 562.598328,
+            "id": "Treasure1203",
+            "name": "Tingle\u0027s Hood",
+            "link": "Tingle\u0027s Hood"
+          },
+          {
+            "coords": [
+              -1249.54504,
+              -3921.1521
+            ],
+            "elv": 484.415314,
+            "id": "Treasure1204",
+            "name": "Topaz",
+            "link": "Topaz"
+          },
+          {
+            "coords": [
+              -1192.56396,
+              -3939.27197
+            ],
+            "elv": 514.462524,
+            "id": "Treasure1205",
+            "name": "Gerudo Bow",
+            "link": "Gerudo Bow"
+          },
+          {
+            "coords": [
+              -3172.00391,
+              3264.10107
+            ],
+            "elv": 152.416306,
+            "id": "Treasure1206",
+            "name": "Royal Shield",
+            "link": "Royal Shield"
+          },
+          {
+            "coords": [
+              -3286.92505,
+              3325.98999
+            ],
+            "elv": 167.858597,
+            "id": "Treasure1207",
+            "name": "Royal Bow",
+            "link": "Royal Bow"
+          },
+          {
+            "coords": [
+              -3083.44312,
+              3237.60596
+            ],
+            "elv": 123.104401,
+            "id": "Treasure1208",
+            "name": "Sapphire",
+            "link": "Sapphire"
+          },
+          {
+            "coords": [
+              -2760.06494,
+              1882.448
+            ],
+            "elv": 186.326706,
+            "id": "Treasure1209",
+            "name": "Royal Shield",
+            "link": "Royal Shield"
+          },
+          {
+            "coords": [
+              -3036.85596,
+              1926.10596
+            ],
+            "elv": 89.797821,
+            "id": "Treasure1210",
+            "name": "Gnarled Long Stick",
+            "link": "Gnarled Long Stick"
+          },
+          {
+            "coords": [
+              -3035.76807,
+              2027.48901
+            ],
+            "elv": 199.393402,
+            "id": "Treasure1211",
+            "name": "Arrow x 5",
+            "link": "Arrow x 5"
+          },
+          {
+            "coords": [
+              -3721.62305,
+              4632.01221
+            ],
+            "elv": 123.6409,
+            "id": "Treasure1212",
+            "name": "Topaz",
+            "link": "Topaz"
+          },
+          {
+            "coords": [
+              -3705.56201,
+              4635.8291
+            ],
+            "elv": 127.836601,
+            "id": "Treasure1213",
+            "name": "Silver Rupee",
+            "link": "Silver Rupee"
+          },
+          {
+            "coords": [
+              -3153.83398,
+              2443.18188
+            ],
+            "elv": 181.036194,
+            "id": "Treasure1214",
+            "name": "Throwing Spear",
+            "link": "Throwing Spear"
+          },
+          {
+            "coords": [
+              -3144.27588,
+              2460.86499
+            ],
+            "elv": 163.208603,
+            "id": "Treasure1215",
+            "name": "Bomb Flower",
+            "link": "Bomb Flower"
+          },
+          {
+            "coords": [
+              -3141.45801,
+              2454.6189
+            ],
+            "elv": 180.273697,
+            "id": "Treasure1216",
+            "name": "Royal Halberd",
+            "link": "Royal Halberd"
+          },
+          {
+            "coords": [
+              -889.816772,
+              1549.03101
+            ],
+            "elv": 114.648804,
+            "id": "Treasure1217",
+            "name": "Arrow x 5",
+            "link": "Arrow x 5"
+          },
+          {
+            "coords": [
+              -1131.88599,
+              1535.24097
+            ],
+            "elv": 127.456497,
+            "id": "Treasure1218",
+            "name": "Soldier\u0027s Spear",
+            "link": "Soldier\u0027s Spear"
+          },
+          {
+            "coords": [
+              -2053.34912,
+              1215.85803
+            ],
+            "elv": 378.961914,
+            "id": "Treasure1219",
+            "name": "Tingle\u0027s Shirt",
+            "link": "Tingle\u0027s Shirt"
+          },
+          {
+            "coords": [
+              2633.28906,
+              -4014.39209
+            ],
+            "elv": 118.757103,
+            "id": "Treasure1220",
+            "name": "Knight\u0027s Claymore",
+            "link": "Knight\u0027s Claymore"
+          },
+          {
+            "coords": [
+              3739.40405,
+              -4434.33301
+            ],
+            "elv": 329.859802,
+            "id": "Treasure1221",
+            "name": "Bomb Flower x10",
+            "link": "Bomb Flower"
+          },
+          {
+            "coords": [
+              3211.31592,
+              -2486.4541
+            ],
+            "elv": 472.303986,
+            "id": "Treasure1222",
+            "name": "Long Stick",
+            "link": "Long Stick"
+          },
+          {
+            "coords": [
+              3150.69092,
+              -3020.06299
+            ],
+            "elv": 610.224976,
+            "id": "Treasure1223",
+            "name": "Wing x3",
+            "link": "Wing"
+          },
+          {
+            "coords": [
+              1786.32104,
+              -2956.27905
+            ],
+            "elv": 351.610992,
+            "id": "Treasure1224",
+            "name": "Feathered Spear",
+            "link": "Feathered Spear"
+          },
+          {
+            "coords": [
+              1813.31104,
+              -2948.36108
+            ],
+            "elv": 355.915588,
+            "id": "Treasure1225",
+            "name": "Feathered Spear",
+            "link": "Feathered Spear"
+          },
+          {
+            "coords": [
+              3268.17896,
+              -3960.802
+            ],
+            "elv": 245.606796,
+            "id": "Treasure1226",
+            "name": "Vah Medoh Divine Helm",
+            "link": "Vah Medoh Divine Helm"
+          },
+          {
+            "coords": [
+              3216.2251,
+              -3941.78906
+            ],
+            "elv": 238.252304,
+            "id": "Treasure1227",
+            "name": "Arrow x 5",
+            "link": "Arrow x 5"
+          },
+          {
+            "coords": [
+              1350.35706,
+              792.209717
+            ],
+            "elv": 157.571396,
+            "id": "Treasure1228",
+            "name": "Sturdy Long Stick",
+            "link": "Sturdy Long Stick"
+          },
+          {
+            "coords": [
+              2108.22607,
+              -665.054077
+            ],
+            "elv": 270.131104,
+            "id": "Treasure1229",
+            "name": "Yiga Tights",
+            "link": "Yiga Tights"
+          },
+          {
+            "coords": [
+              3465.0769,
+              331.855988
+            ],
+            "elv": 173.908707,
+            "id": "Treasure1230",
+            "name": "Forest Dweller\u0027s Spear",
+            "link": "Forest Dweller\u0027s Spear"
+          },
+          {
+            "coords": [
+              3528.83398,
+              378.065704
+            ],
+            "elv": 177.908707,
+            "id": "Treasure1231",
+            "name": "Gnarled Long Stick",
+            "link": "Gnarled Long Stick"
+          },
+          {
+            "coords": [
+              773.971313,
+              -1214.24194
+            ],
+            "elv": 174.848907,
+            "id": "Treasure1232",
+            "name": "Climbing Gear",
+            "link": "Climbing Gear"
+          },
+          {
+            "coords": [
+              -980.877075,
+              -2967.6189
+            ],
+            "elv": 140.776001,
+            "id": "Treasure1233",
+            "name": "Phantom Armor",
+            "link": "Phantom Armor"
+          },
+          {
+            "coords": [
+              -857.116882,
+              -2959.0769
+            ],
+            "elv": 121.4627,
+            "id": "Treasure1234",
+            "name": "Gerudo Spear",
+            "link": "Gerudo Spear"
+          },
+          {
+            "coords": [
+              841.439026,
+              -2268.05298
+            ],
+            "elv": 187.815704,
+            "id": "Treasure1235",
+            "name": "Mask of Awakening",
+            "link": "Mask of Awakening"
+          },
+          {
+            "coords": [
+              -2301.7771,
+              4560.271
+            ],
+            "elv": 105.6315,
+            "id": "Treasure1236",
+            "name": "Purple Rupee",
+            "link": "Purple Rupee"
+          },
+          {
+            "coords": [
+              -1116.83301,
+              3208.30811
+            ],
+            "elv": 219.642899,
+            "id": "Treasure1237",
+            "name": "Soldier\u0027s Spear",
+            "link": "Soldier\u0027s Spear"
+          },
+          {
+            "coords": [
+              -1542.85596,
+              2542.91797
+            ],
+            "elv": 82.1067276,
+            "id": "Treasure1238",
+            "name": "Barbarian Helm",
+            "link": "Barbarian Helm"
+          },
+          {
+            "coords": [
+              -1874.81299,
+              4050.23096
+            ],
+            "elv": 262.005798,
+            "id": "Treasure1239",
+            "name": "Barbarian Leg Wraps",
+            "link": "Barbarian Leg Wraps"
+          },
+          {
+            "coords": [
+              -1989.72803,
+              3985.41602
+            ],
+            "elv": 251.753006,
+            "id": "Treasure1240",
+            "name": "Royal Halberd",
+            "link": "Royal Halberd"
+          },
+          {
+            "coords": [
+              -1819.79504,
+              4161.99805
+            ],
+            "elv": 270.143585,
+            "id": "Treasure1241",
+            "name": "Giant Boomerang",
+            "link": "Giant Boomerang"
+          },
+          {
+            "coords": [
+              -1921.27002,
+              4105.05078
+            ],
+            "elv": 269.684692,
+            "id": "Treasure1242",
+            "name": "Knight\u0027s Claymore",
+            "link": "Knight\u0027s Claymore"
+          },
+          {
+            "coords": [
+              -3264.11206,
+              3512.63403
+            ],
+            "elv": 110.075302,
+            "id": "Treasure1243",
+            "name": "Tingle\u0027s Tights",
+            "link": "Tingle\u0027s Tights"
+          },
+          {
+            "coords": [
+              -3220.38501,
+              3516.75293
+            ],
+            "elv": 133.814499,
+            "id": "Treasure1244",
+            "name": "Mighty Lynel Bow",
+            "link": "Mighty Lynel Bow"
+          },
+          {
+            "coords": [
+              -3192.146,
+              3494.26099
+            ],
+            "elv": 105.543297,
+            "id": "Treasure1245",
+            "name": "Royal Broadsword",
+            "link": "Royal Broadsword"
+          },
+          {
+            "coords": [
+              -1664.901,
+              2346.16895
+            ],
+            "elv": 129.726593,
+            "id": "Treasure1246",
+            "name": "Knight\u0027s Halberd",
+            "link": "Knight\u0027s Halberd"
+          },
+          {
+            "coords": [
+              274.908508,
+              1212.06299
+            ],
+            "elv": 158.255203,
+            "id": "Treasure1247",
+            "name": "Bomb Flower x5",
+            "link": "Bomb Flower"
+          },
+          {
+            "coords": [
+              561.477905,
+              2794.71899
+            ],
+            "elv": 296.691315,
+            "id": "Treasure1248",
+            "name": "Arrow x 5",
+            "link": "Arrow x 5"
+          },
+          {
+            "coords": [
+              -378.05011,
+              4276.48389
+            ],
+            "elv": 84.303093,
+            "id": "Treasure1249",
+            "name": "Rubber Tights",
+            "link": "Rubber Tights"
+          },
+          {
+            "coords": [
+              -660.173523,
+              4433.43896
+            ],
+            "elv": 135.576202,
+            "id": "Treasure1250",
+            "name": "Soldier\u2019s Shield",
+            "link": "Soldier\u2019s Shield"
+          },
+          {
+            "coords": [
+              381.906097,
+              2913.0271
+            ],
+            "elv": 260.75,
+            "id": "Treasure1251",
+            "name": "Arrow x 5",
+            "link": "Arrow x 5"
+          },
+          {
+            "coords": [
+              819.642517,
+              632.051208
+            ],
+            "elv": 133.106598,
+            "id": "Treasure1252",
+            "name": "Barbarian Armor",
+            "link": "Barbarian Armor"
+          },
+          {
+            "coords": [
+              57.8004417,
+              919.849915
+            ],
+            "elv": 127.065697,
+            "id": "Treasure1253",
+            "name": "Soldier\u0027s Spear",
+            "link": "Soldier\u0027s Spear"
+          },
+          {
+            "coords": [
+              75.7059174,
+              912.809998
+            ],
+            "elv": 125.789497,
+            "id": "Treasure1254",
+            "name": "Bomb Flower x5",
+            "link": "Bomb Flower"
+          },
+          {
+            "coords": [
+              723.988586,
+              3062.40991
+            ],
+            "elv": 331.416992,
+            "id": "Treasure1255",
+            "name": "Zora Spear",
+            "link": "Zora Spear"
+          },
+          {
+            "coords": [
+              545.684998,
+              3336.87988
+            ],
+            "elv": 124.996399,
+            "id": "Treasure1256",
+            "name": "Vah Ruta Divine Helm",
+            "link": "Vah Ruta Divine Helm"
+          },
+          {
+            "coords": [
+              1114.02197,
+              -3920.0769
+            ],
+            "elv": 178.866196,
+            "id": "Treasure1257",
+            "name": "Feathered Spear",
+            "link": "Feathered Spear"
+          },
+          {
+            "coords": [
+              410.15799,
+              -3535.25488
+            ],
+            "elv": 348.063599,
+            "id": "Treasure1258",
+            "name": "Tunic of Awakening",
+            "link": "Tunic of Awakening"
+          },
+          {
+            "coords": [
+              635.508728,
+              3688.85596
+            ],
+            "elv": 293.528107,
+            "id": "Treasure1259",
+            "name": "Arrow x 5",
+            "link": "Arrow x 5"
+          },
+          {
+            "coords": [
+              158.161499,
+              3662.78394
+            ],
+            "elv": 83.6458664,
+            "id": "Treasure1260",
+            "name": "Zora Sword",
+            "link": "Zora Sword"
+          },
+          {
+            "coords": [
+              393.078003,
+              3688.53003
+            ],
+            "elv": 118.473198,
+            "id": "Treasure1261",
+            "name": "Zora Longsword",
+            "link": "Zora Longsword"
+          },
+          {
+            "coords": [
+              303.442688,
+              3733.07495
+            ],
+            "elv": 67.3956909,
+            "id": "Treasure1262",
+            "name": "Zora Shield",
+            "link": "Zora Shield"
+          },
+          {
+            "coords": [
+              330.182098,
+              3600.18604
+            ],
+            "elv": 109.5755,
+            "id": "Treasure1263",
+            "name": "Opal",
+            "link": "Opal"
+          },
+          {
+            "coords": [
+              246.839493,
+              3585.24194
+            ],
+            "elv": 2.49536991,
+            "id": "Treasure1264",
+            "name": "Zora Greaves",
+            "link": "Zora Greaves"
+          },
+          {
+            "coords": [
+              1862.328,
+              -2333.08105
+            ],
+            "elv": 356.211609,
+            "id": "Treasure1265",
+            "name": "Purple Rupee",
+            "link": "Purple Rupee"
+          },
+          {
+            "coords": [
+              1609.99097,
+              -912.0625
+            ],
+            "elv": 190.610199,
+            "id": "Treasure1266",
+            "name": "Throwing Spear",
+            "link": "Throwing Spear"
+          },
+          {
+            "coords": [
+              1613.76099,
+              -926.567017
+            ],
+            "elv": 174.270004,
+            "id": "Treasure1267",
+            "name": "Soldier\u0027s Spear",
+            "link": "Soldier\u0027s Spear"
+          },
+          {
+            "coords": [
+              1457.62903,
+              -698.098877
+            ],
+            "elv": 90.2569809,
+            "id": "Treasure1268",
+            "name": "Knight\u0027s Broadsword",
+            "link": "Knight\u0027s Broadsword"
+          },
+          {
+            "coords": [
+              1474.58899,
+              -631.78241
+            ],
+            "elv": 84.4595413,
+            "id": "Treasure1269",
+            "name": "Sapphire",
+            "link": "Sapphire"
+          },
+          {
+            "coords": [
+              587.935486,
+              63.7024803
+            ],
+            "elv": 109.377899,
+            "id": "Treasure1270",
+            "name": "Knight\u0027s Halberd",
+            "link": "Knight\u0027s Halberd"
+          },
+          {
+            "coords": [
+              -808.688293,
+              682.966919
+            ],
+            "elv": 109.864502,
+            "id": "Treasure1271",
+            "name": "Boomerang",
+            "link": "Boomerang"
+          },
+          {
+            "coords": [
+              -1843.43298,
+              317.81781
+            ],
+            "elv": 81.3832932,
+            "id": "Treasure1272",
+            "name": "Unknown"
+          },
+          {
+            "coords": [
+              -1979.64294,
+              396.048401
+            ],
+            "elv": 78.1762238,
+            "id": "Treasure1273",
+            "name": "Giant Boomerang",
+            "link": "Giant Boomerang"
+          },
+          {
+            "coords": [
+              -1937.32495,
+              400.003906
+            ],
+            "elv": 58.0063286,
+            "id": "Treasure1274",
+            "name": "Royal Bow",
+            "link": "Royal Bow"
+          },
+          {
+            "coords": [
+              -2128.95605,
+              336.839111
+            ],
+            "elv": 125.333199,
+            "id": "Treasure1275",
+            "name": "Ruby",
+            "link": "Ruby"
+          },
+          {
+            "coords": [
+              -3721.54004,
+              485.162689
+            ],
+            "elv": 111.775002,
+            "id": "Treasure1276",
+            "name": "Knight\u0027s Broadsword",
+            "link": "Knight\u0027s Broadsword"
+          },
+          {
+            "coords": [
+              -3611.81006,
+              540.241882
+            ],
+            "elv": 112.756104,
+            "id": "Treasure1277",
+            "name": "Ancient Blade",
+            "link": "Ancient Blade"
+          },
+          {
+            "coords": [
+              -1095.58801,
+              375.441101
+            ],
+            "elv": 106.098,
+            "id": "Treasure1278",
+            "name": "Throwing Spear",
+            "link": "Throwing Spear"
+          },
+          {
+            "coords": [
+              -2153.73999,
+              3406.66211
+            ],
+            "elv": 201.666794,
+            "id": "Treasure1279",
+            "name": "Shield of the Mind\u0027s Eye",
+            "link": "Shield of the Mind\u0027s Eye"
+          },
+          {
+            "coords": [
+              734.39032,
+              -1390.97705
+            ],
+            "elv": 172.600906,
+            "id": "Treasure1280",
+            "name": "Purple Rupee",
+            "link": "Purple Rupee"
+          },
+          {
+            "coords": [
+              96.9894714,
+              -251.500107
+            ],
+            "elv": 107.2603,
+            "id": "Treasure1281",
+            "name": "Royal Claymore",
+            "link": "Royal Claymore"
+          },
+          {
+            "coords": [
+              1177.90405,
+              2629.93506
+            ],
+            "elv": 233.931702,
+            "id": "Treasure1282",
+            "name": "Soldier\u2019s Shield",
+            "link": "Soldier\u2019s Shield"
+          },
+          {
+            "coords": [
+              1159.68799,
+              2636.19702
+            ],
+            "elv": 232.375397,
+            "id": "Treasure1283",
+            "name": "Purple Rupee",
+            "link": "Purple Rupee"
+          },
+          {
+            "coords": [
+              1083.42102,
+              -189.705002
+            ],
+            "elv": 325.72699,
+            "id": "Treasure1284",
+            "name": "Shard of Dinraal\u0027s Spike",
+            "link": "Shard of Dinraal\u0027s Spike"
+          },
+          {
+            "coords": [
+              1040.08301,
+              -228.027206
+            ],
+            "elv": 505.604492,
+            "id": "Treasure1285",
+            "name": "Royal Guard\u0027s Bow",
+            "link": "Royal Guard\u0027s Bow"
+          },
+          {
+            "coords": [
+              1065.052,
+              -248.343903
+            ],
+            "elv": 570.848816,
+            "id": "Treasure1286",
+            "name": "Sapphire",
+            "link": "Sapphire"
+          },
+          {
+            "coords": [
+              1068.901,
+              -254
+            ],
+            "elv": 526.781006,
+            "id": "Treasure1287",
+            "name": "Gold Rupee",
+            "link": "Gold Rupee"
+          },
+          {
+            "coords": [
+              1034.36694,
+              -272.5
+            ],
+            "elv": 462.281006,
+            "id": "Treasure1288",
+            "name": "Purple Rupee",
+            "link": "Purple Rupee"
+          },
+          {
+            "coords": [
+              993.053589,
+              -384.233185
+            ],
+            "elv": 419.898712,
+            "id": "Treasure1289",
+            "name": "Royal Guard\u0027s Sword",
+            "link": "Royal Guard\u0027s Sword"
+          },
+          {
+            "coords": [
+              895.36731,
+              -153.5
+            ],
+            "elv": 388.781006,
+            "id": "Treasure1290",
+            "name": "Royal Halberd",
+            "link": "Royal Halberd"
+          },
+          {
+            "coords": [
+              1093.36694,
+              -342
+            ],
+            "elv": 365.710999,
+            "id": "Treasure1291",
+            "name": "Knight\u0027s Claymore",
+            "link": "Knight\u0027s Claymore"
+          },
+          {
+            "coords": [
+              879.229187,
+              -159.734497
+            ],
+            "elv": 430.207703,
+            "id": "Treasure1292",
+            "name": "Royal Bow",
+            "link": "Royal Bow"
+          },
+          {
+            "coords": [
+              1122.63696,
+              -174.514206
+            ],
+            "elv": 320.457092,
+            "id": "Treasure1293",
+            "name": "Royal Guard Boots",
+            "link": "Royal Guard Boots"
+          },
+          {
+            "coords": [
+              1005.72498,
+              -331.856903
+            ],
+            "elv": 406.463989,
+            "id": "Treasure1294",
+            "name": "Royal Guard Cap",
+            "link": "Royal Guard Cap"
+          },
+          {
+            "coords": [
+              1116.28406,
+              -168.671906
+            ],
+            "elv": 330.760986,
+            "id": "Treasure1295",
+            "name": "Gold Rupee",
+            "link": "Gold Rupee"
+          },
+          {
+            "coords": [
+              1051.448,
+              -235.550003
+            ],
+            "elv": 484.761108,
+            "id": "Treasure1296",
+            "name": "Royal Broadsword",
+            "link": "Royal Broadsword"
+          },
+          {
+            "coords": [
+              1054.35498,
+              -178.917603
+            ],
+            "elv": 378.584106,
+            "id": "Treasure1297",
+            "name": "Arrow x 5",
+            "link": "Arrow x 5"
+          },
+          {
+            "coords": [
+              994.269897,
+              -283.800201
+            ],
+            "elv": 435.911591,
+            "id": "Treasure1298",
+            "name": "Red Rupee",
+            "link": "Red Rupee"
+          },
+          {
+            "coords": [
+              1091.86694,
+              -253.999893
+            ],
+            "elv": 456.027313,
+            "id": "Treasure1299",
+            "name": "Champion\u0027s Leathers",
+            "link": "Champion\u0027s Leathers"
+          },
+          {
+            "coords": [
+              983.601196,
+              -202.489105
+            ],
+            "elv": 403.999115,
+            "id": "Treasure1300",
+            "name": "Royal Bow",
+            "link": "Royal Bow"
+          },
+          {
+            "coords": [
+              961.181274,
+              -226.349899
+            ],
+            "elv": 404.000702,
+            "id": "Treasure1301",
+            "name": "Royal Shield",
+            "link": "Royal Shield"
+          },
+          {
+            "coords": [
+              967.718506,
+              -288.783386
+            ],
+            "elv": 403.986908,
+            "id": "Treasure1302",
+            "name": "Royal Halberd",
+            "link": "Royal Halberd"
           }
         ]
       }
