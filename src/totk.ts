@@ -61,7 +61,11 @@ window.onload = async () => {
     legendItem("Cave", "cave", 25, 26),
     legendItem("Well", "well", 25, 26),
     legendItem("Treasure Chest", "treasure", 27, 21),
-    legendItem("Boss", "skull", 36, 36),
+    legendItem("Flux Construct", "skull", 36, 36),
+    legendItem("Frox", "skull", 36, 36),
+    legendItem("Gleeok", "skull", 36, 36),
+    legendItem("Hinox", "skull", 36, 36),
+    legendItem("Lynel", "lynel", 29, 30),
   ]);
 
   function addBotwJson(categories: Schema.Category[]): void {
