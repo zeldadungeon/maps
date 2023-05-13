@@ -47,6 +47,7 @@ window.onload = async () => {
     legendItem("Side Quest", "sidequest", 27, 21),
     legendItem("Side Adventure", "adventure", 20, 24),
     legendItem("Memory", "memory", 25, 23),
+    legendItem("Quest Objective", "objective", 13, 13),
     legendItem("Zonai Relief", "relief", 27, 27),
     legendItem("Stable", "stable", 29, 29),
     legendItem("Village", "village", 29, 29),
