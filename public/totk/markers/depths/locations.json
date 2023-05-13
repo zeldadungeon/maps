@@ -1,5 +1,49 @@
 [
   {
+    "name": "Dungeon",
+    "source": "summary",
+    "layers": [
+      {
+        "icon": {
+          "url": "firetemple.png",
+          "width": 23,
+          "height": 27
+        },
+        "markers": [
+          {
+            "coords": [
+              2847,
+              1457
+            ],
+            "elv": -749.5,
+            "id": "LargeDungeonFire",
+            "name": "Fire Temple",
+            "link": "Fire Temple"
+          }
+        ]
+      },
+      {
+        "icon": {
+          "url": "spirittemple.png",
+          "width": 23,
+          "height": 27
+        },
+        "markers": [
+          {
+            "coords": [
+              -3170.39893,
+              1418.69202
+            ],
+            "elv": -513.599915,
+            "id": "LargeDungeonSoul",
+            "name": "Spirit Temple",
+            "link": "Spirit Temple"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Lightroot",
     "source": "summary",
     "layers": [

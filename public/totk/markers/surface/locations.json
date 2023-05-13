@@ -1,5 +1,87 @@
 [
   {
+    "name": "Dungeon",
+    "source": "summary",
+    "layers": [
+      {
+        "icon": {
+          "url": "castle.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              1061.90601,
+              -253.945496
+            ],
+            "elv": 485.461395,
+            "id": "LargeDungeonHyruleCastle",
+            "name": "Hyrule Castle",
+            "link": "Hyrule Castle"
+          }
+        ]
+      },
+      {
+        "icon": {
+          "url": "lightningtemple.png",
+          "width": 23,
+          "height": 27
+        },
+        "markers": [
+          {
+            "coords": [
+              -3611.56201,
+              -4518.5542
+            ],
+            "elv": 234.665405,
+            "id": "LargeDungeonThunder",
+            "name": "Lightning Temple",
+            "link": "Lightning Temple"
+          }
+        ]
+      },
+      {
+        "icon": {
+          "url": "watertemple.png",
+          "width": 23,
+          "height": 27
+        },
+        "markers": [
+          {
+            "coords": [
+              685.577087,
+              3265.38403
+            ],
+            "elv": 1795.39001,
+            "id": "LargeDungeonWater",
+            "name": "Water Temple",
+            "link": "Water Temple"
+          }
+        ]
+      },
+      {
+        "icon": {
+          "url": "windtemple.png",
+          "width": 23,
+          "height": 27
+        },
+        "markers": [
+          {
+            "coords": [
+              3005.5,
+              -2859.5
+            ],
+            "elv": 1516.88904,
+            "id": "LargeDungeonWind",
+            "name": "Wind Temple",
+            "link": "Wind Temple"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Tower",
     "source": "summary",
     "layers": [
