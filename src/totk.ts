@@ -1,12 +1,23 @@
 import "./common/style.scss";
 import * as Schema from "./common/JSONSchema";
+import { ICategory } from "./common/ICategory";
 import { Layer } from "./common/Layer";
 import { MapLayer } from "./common/MapLayer";
 import { ZDMap } from "./common/ZDMap";
 
 window.onload = async () => {
-  function iconUrl(iconName: string) {
-    return `${import.meta.env.BASE_URL}totk/icons/${iconName}.png`;
+  function legendItem(
+    name: string,
+    iconName: string,
+    iconWidth: number,
+    iconHeight: number
+  ): ICategory {
+    return {
+      name,
+      iconUrl: `${import.meta.env.BASE_URL}totk/icons/${iconName}.png`,
+      iconWidth,
+      iconHeight,
+    };
   }
 
   const map = ZDMap.create({
@@ -24,126 +35,32 @@ window.onload = async () => {
   const depths = map.addMapLayer("Depths", "depths");
   map.addControls();
   map.addLegend([
-    {
-      name: "Tower",
-      iconUrl: iconUrl("tower"),
-      iconWidth: 30,
-      iconHeight: 30,
-    },
-    {
-      name: "Shrine",
-      iconUrl: iconUrl("shrine"),
-      iconWidth: 30,
-      iconHeight: 30,
-    },
-    {
-      name: "Lightroot",
-      iconUrl: iconUrl("lightroot"),
-      iconWidth: 30,
-      iconHeight: 30,
-    },
-    {
-      name: "Tech Lab",
-      iconUrl: iconUrl("lab"),
-      iconWidth: 30,
-      iconHeight: 30,
-    },
-    {
-      name: "Korok Seed",
-      iconUrl: iconUrl("korok"),
-      iconWidth: 27,
-      iconHeight: 27,
-    },
-    {
-      name: "Dragon Tear",
-      iconUrl: iconUrl("tear"),
-      iconWidth: 31,
-      iconHeight: 36,
-    },
-    {
-      name: "Dispenser",
-      iconUrl: iconUrl("dispenser"),
-      iconWidth: 36,
-      iconHeight: 36,
-    },
-    {
-      name: "Zonai Relief",
-      iconUrl: iconUrl("relief"),
-      iconWidth: 27,
-      iconHeight: 27,
-    },
-    {
-      name: "Stable",
-      iconUrl: iconUrl("stable"),
-      iconWidth: 29,
-      iconHeight: 29,
-    },
-    {
-      name: "Village",
-      iconUrl: iconUrl("village"),
-      iconWidth: 29,
-      iconHeight: 29,
-    },
-    {
-      name: "Inn",
-      iconUrl: iconUrl("inn"),
-      iconWidth: 29,
-      iconHeight: 29,
-    },
-    {
-      name: "General Store",
-      iconUrl: iconUrl("general"),
-      iconWidth: 29,
-      iconHeight: 29,
-    },
-    {
-      name: "Armor Shop",
-      iconUrl: iconUrl("armor"),
-      iconWidth: 29,
-      iconHeight: 29,
-    },
-    {
-      name: "Jewelry Shop",
-      iconUrl: iconUrl("jewelry"),
-      iconWidth: 29,
-      iconHeight: 29,
-    },
-    {
-      name: "Dye Shop",
-      iconUrl: iconUrl("dye"),
-      iconWidth: 29,
-      iconHeight: 29,
-    },
-    {
-      name: "Great Fairy",
-      iconUrl: iconUrl("fountain"),
-      iconWidth: 36,
-      iconHeight: 36,
-    },
-    {
-      name: "Chasm",
-      iconUrl: iconUrl("chasm"),
-      iconWidth: 25,
-      iconHeight: 26,
-    },
-    {
-      name: "Cave",
-      iconUrl: iconUrl("cave"),
-      iconWidth: 25,
-      iconHeight: 26,
-    },
-    {
-      name: "Well",
-      iconUrl: iconUrl("well"),
-      iconWidth: 25,
-      iconHeight: 26,
-    },
-    {
-      name: "Treasure Chest",
-      iconUrl: iconUrl("treasure"),
-      iconWidth: 27,
-      iconHeight: 21,
-    },
+    legendItem("Tower", "tower", 30, 30),
+    legendItem("Shrine", "shrine", 30, 30),
+    legendItem("Lightroot", "lightroot", 30, 30),
+    legendItem("Tech Lab", "lab", 30, 30),
+    legendItem("Korok Seed", "korok", 27, 27),
+    legendItem("Dragon Tear", "tear", 31, 36),
+    legendItem("Dispenser", "dispenser", 36, 36),
+    legendItem("Main Quest", "mainquest", 42, 25),
+    legendItem("Shrine Quest", "shrinequest", 25, 29),
+    legendItem("Side Quest", "sidequest", 27, 21),
+    legendItem("Side Adventure", "adventure", 20, 24),
+    legendItem("Memory", "memory", 25, 23),
+    legendItem("Zonai Relief", "relief", 27, 27),
+    legendItem("Stable", "stable", 29, 29),
+    legendItem("Village", "village", 29, 29),
+    legendItem("Inn", "inn", 29, 29),
+    legendItem("General Store", "general", 29, 29),
+    legendItem("Armor Shop", "armor", 29, 29),
+    legendItem("Jewelry Shop", "jewelry", 29, 29),
+    legendItem("Dye Shop", "dye", 29, 29),
+    legendItem("Great Fairy", "fountain", 36, 36),
+    legendItem("Chasm", "chasm", 25, 26),
+    legendItem("Cave", "cave", 25, 26),
+    legendItem("Well", "well", 25, 26),
+    legendItem("Treasure Chest", "treasure", 27, 21),
+    legendItem("Boss", "skull", 36, 36),
   ]);
 
   function addBotwJson(categories: Schema.Category[]): void {
