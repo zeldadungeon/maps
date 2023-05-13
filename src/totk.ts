@@ -181,6 +181,35 @@ window.onload = async () => {
       .catch((ex) => console.log(ex));
   }
 
+  function addWikiJson(mapLayer: MapLayer, wikiSubpage: string): Promise<void> {
+    return (
+      map.wiki
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        .query<any>(
+          `action=query&prop=revisions&titles=${encodeURIComponent(
+            `Zelda Dungeon:Tears of the Kingdom Map/${wikiSubpage}`
+          )}&rvslots=main&rvprop=content&formatversion=2`
+        )
+        .then((result) => {
+          const content = <string>(
+            result.query.pages[0].revisions[0].slots.main.content
+          );
+          const categories: Schema.Category[] = JSON.parse(content);
+          for (const category of categories) {
+            mapLayer.addCategory(
+              category.name,
+              category.layers.map((l) =>
+                Layer.fromJSON(l, category.source, "totk", map.wiki)
+              )
+            );
+          }
+        })
+        .catch((ex) =>
+          console.log(`Error parsing JSON from page: ${wikiSubpage}\n${ex}`)
+        )
+    );
+  }
+
   function addWiki(
     mapLayer: MapLayer,
     categoryName: string,
@@ -219,7 +248,9 @@ window.onload = async () => {
             Layer.fromJSON(JSON.parse(layer), infoSource, "totk", map.wiki),
           ]);
         })
-        .catch((ex) => console.log(ex))
+        .catch((ex) =>
+          console.log(`Error parsing JSON from page: ${wikiSubpage}\n${ex}`)
+        )
     );
   }
 
@@ -236,6 +267,9 @@ window.onload = async () => {
     addJson(sky, "sky/treasure.json"),
     addJson(depths, "depths/locations.json"),
     addJson(depths, "depths/treasure.json"),
+    addWikiJson(surface, "Surface Categories"),
+    addWikiJson(sky, "Sky Categories"),
+    addWikiJson(depths, "Depths Categories"),
     addWiki(surface, "Wiki", "Surface Markers", "temp", "flag", 25, 28, 2),
     addWiki(sky, "Wiki", "Sky Markers", "temp", "flag", 25, 28, 2),
     addWiki(depths, "Wiki", "Depths Markers", "temp", "flag", 25, 28, 2),
