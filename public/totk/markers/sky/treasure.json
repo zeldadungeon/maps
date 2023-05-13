@@ -147,7 +147,8 @@
             ],
             "elv": 989.679626,
             "id": "Treasure0013",
-            "name": "Unknown"
+            "name": "Shock Emitter x3",
+            "link": "Shock Emitter"
           },
           {
             "coords": [
@@ -226,7 +227,8 @@
             ],
             "elv": 1399.53601,
             "id": "Treasure0021",
-            "name": "Unknown"
+            "name": "Time Bomb x5",
+            "link": "Time Bomb"
           },
           {
             "coords": [
@@ -235,7 +237,8 @@
             ],
             "elv": 1062.05298,
             "id": "Treasure0022",
-            "name": "Unknown"
+            "name": "Portable Pot x3",
+            "link": "Portable Pot"
           },
           {
             "coords": [
@@ -304,7 +307,8 @@
             ],
             "elv": 1401.69397,
             "id": "Treasure0029",
-            "name": "Unknown"
+            "name": "Hover Stone x3",
+            "link": "Hover Stone"
           },
           {
             "coords": [
@@ -563,7 +567,8 @@
             ],
             "elv": 1858.12903,
             "id": "Treasure0055",
-            "name": "Unknown"
+            "name": "Mirror x3",
+            "link": "Mirror"
           },
           {
             "coords": [
@@ -792,7 +797,8 @@
             ],
             "elv": 2441.25,
             "id": "Treasure0078",
-            "name": "Unknown"
+            "name": "Wing x3",
+            "link": "Wing"
           },
           {
             "coords": [
@@ -801,7 +807,8 @@
             ],
             "elv": 1540.63501,
             "id": "Treasure0079",
-            "name": "Unknown"
+            "name": "Wing x3",
+            "link": "Wing"
           },
           {
             "coords": [
@@ -879,7 +886,8 @@
             ],
             "elv": 1701.84497,
             "id": "Treasure0087",
-            "name": "Unknown"
+            "name": "Wing x3",
+            "link": "Wing"
           },
           {
             "coords": [
@@ -918,7 +926,8 @@
             ],
             "elv": 1561.26599,
             "id": "Treasure0091",
-            "name": "Unknown"
+            "name": "Fan x3",
+            "link": "Fan"
           },
           {
             "coords": [
@@ -937,7 +946,8 @@
             ],
             "elv": 1579.53003,
             "id": "Treasure0093",
-            "name": "Unknown"
+            "name": "Zonaite x3",
+            "link": "Zonaite"
           },
           {
             "coords": [
@@ -1166,7 +1176,8 @@
             ],
             "elv": 1364.25903,
             "id": "Treasure0116",
-            "name": "Unknown"
+            "name": "Battery x3",
+            "link": "Battery"
           },
           {
             "coords": [

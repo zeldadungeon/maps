@@ -1128,7 +1128,8 @@
             ],
             "elv": -333.107788,
             "id": "Treasure0890",
-            "name": "Unknown"
+            "name": "Zonaite x3",
+            "link": "Zonaite"
           },
           {
             "coords": [
@@ -2302,7 +2303,8 @@
             ],
             "elv": -1110.45996,
             "id": "Treasure1008",
-            "name": "Unknown"
+            "name": "Bomb Flower x10",
+            "link": "Bomb Flower"
           },
           {
             "coords": [
@@ -2381,7 +2383,8 @@
             ],
             "elv": -396.871704,
             "id": "Treasure1016",
-            "name": "Unknown"
+            "name": "Steering Stick x5",
+            "link": "Steering Stick"
           },
           {
             "coords": [
@@ -2390,7 +2393,8 @@
             ],
             "elv": -411.519409,
             "id": "Treasure1017",
-            "name": "Unknown"
+            "name": "Zonaite x3",
+            "link": "Zonaite"
           },
           {
             "coords": [
