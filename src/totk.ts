@@ -35,10 +35,10 @@ window.onload = async () => {
   const depths = map.addMapLayer("Depths", "depths");
   map.addControls();
   map.addLegend([
-    legendItem("Tower", "tower", 30, 30),
-    legendItem("Shrine", "shrine", 30, 30),
-    legendItem("Lightroot", "lightroot", 30, 30),
-    legendItem("Tech Lab", "lab", 30, 30),
+    legendItem("Tower", "tower", 20, 26),
+    legendItem("Shrine", "shrine", 27, 29),
+    legendItem("Lightroot", "lightroot", 27, 24),
+    legendItem("Tech Lab", "lab", 28, 24),
     legendItem("Korok Seed", "korok", 27, 27),
     legendItem("Dragon Tear", "tear", 31, 36),
     legendItem("Dispenser", "dispenser", 36, 36),

@@ -7,8 +7,8 @@
         "minZoom": 1,
         "icon": {
           "url": "lightroot.png",
-          "width": 30,
-          "height": 30
+          "width": 27,
+          "height": 24
         },
         "markers": [
           {
