@@ -137,9 +137,11 @@ export class Legend extends Control {
       }
     });
   }
-  public addCategory(category: ICategory): void {
+  public addCategory(category: ICategory, group?: string): void {
     //Check if group is defined
-    if (category.group != undefined) {
+    if (group != undefined) {
+      //Set this category group
+      category.group = group;
       //Check if group already exists
       if (!this.categories.some((c) => c.category.group === category.group)) {
         //Create group
