@@ -42,6 +42,22 @@ body {
 
 /* CONTROLS */
 
+.group-text {
+  color: #e1d698;
+  //Adds an outline to the text to make it stand out better
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.toggelable {
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: background-color 0.2s;
+}
+
+.toggled-on {
+}
+
 .selectable {
   cursor: pointer;
   box-sizing: border-box;
@@ -192,6 +208,8 @@ body {
 @media screen and (orientation: landscape) and (min-width: 768px) {
   .zd-legend--landscape {
     display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
   }
 
   .zd-legend--portrait {

@@ -3,4 +3,5 @@ export interface ICategory {
   iconUrl: string;
   iconWidth: number;
   iconHeight: number;
+  group?: string;
 }

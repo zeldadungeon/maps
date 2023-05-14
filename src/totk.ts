@@ -10,14 +10,26 @@ window.onload = async () => {
     name: string,
     iconName: string,
     iconWidth: number,
-    iconHeight: number
+    iconHeight: number,
+    group?: string
   ): ICategory {
-    return {
-      name,
-      iconUrl: `${import.meta.env.BASE_URL}totk/icons/${iconName}.png`,
-      iconWidth,
-      iconHeight,
-    };
+    //Check if the group is defined
+    if (group) {
+      return {
+        name,
+        iconUrl: `${import.meta.env.BASE_URL}totk/icons/${iconName}.png`,
+        iconWidth,
+        iconHeight,
+        group,
+      };
+    } else {
+      return {
+        name,
+        iconUrl: `${import.meta.env.BASE_URL}totk/icons/${iconName}.png`,
+        iconWidth,
+        iconHeight,
+      };
+    }
   }
 
   const map = ZDMap.create({
@@ -35,37 +47,36 @@ window.onload = async () => {
   const depths = map.addMapLayer("Depths", "depths");
   map.addControls();
   map.addLegend([
-    legendItem("Tower", "tower", 20, 26),
-    legendItem("Shrine", "shrine", 27, 29),
-    legendItem("Lightroot", "lightroot", 27, 24),
-    legendItem("Tech Lab", "lab", 28, 24),
-    legendItem("Korok Seed", "korok", 27, 27),
-    legendItem("Dragon Tear", "tear", 31, 36),
-    legendItem("Device Dispenser", "dispenser", 36, 36),
-    legendItem("Main Quest", "mainquest", 42, 25),
-    legendItem("Shrine Quest", "shrinequest", 25, 29),
-    legendItem("Side Quest", "sidequest", 27, 21),
-    legendItem("Side Adventure", "adventure", 20, 24),
-    legendItem("Memory", "memory", 25, 23),
-    legendItem("Quest Objective", "objective", 13, 13),
-    legendItem("Zonai Relief", "relief", 27, 27),
-    legendItem("Stable", "stable", 29, 29),
-    legendItem("Village", "village", 29, 29),
-    legendItem("Inn", "inn", 29, 29),
-    legendItem("General Store", "general", 29, 29),
-    legendItem("Armor Shop", "armor", 29, 29),
-    legendItem("Bargainer Statue", "bargainer", 29, 29),
-    legendItem("Other Shops", "othershops", 29, 29),
-    legendItem("Great Fairy", "fountain", 36, 36),
-    legendItem("Chasm", "chasm", 25, 26),
-    legendItem("Cave", "cave", 25, 26),
-    legendItem("Well", "well", 25, 26),
-    legendItem("Treasure Chest", "treasure", 27, 21),
-    legendItem("Flux Construct", "skull", 36, 36),
-    legendItem("Frox", "skull", 36, 36),
-    legendItem("Gleeok", "skull", 36, 36),
-    legendItem("Hinox", "skull", 36, 36),
-    legendItem("Lynel", "lynel", 29, 30),
+    legendItem("Tower", "tower", 20, 26, "Structures"),
+    legendItem("Shrine", "shrine", 27, 29, "Structures"),
+    legendItem("Lightroot", "lightroot", 27, 24, "Structures"),
+    legendItem("Tech Lab", "lab", 28, 24, "Structures"),
+    legendItem("Device Dispenser", "dispenser", 36, 36, "Structures"),
+    legendItem("Korok Seed", "korok", 27, 27, "Collectibles"),
+    legendItem("Dragon Tear", "tear", 31, 36, "Collectibles"),
+    legendItem("Zonai Relief", "relief", 27, 27, "Collectibles"),
+    legendItem("Main Quest", "mainquest", 42, 25, "Quests"),
+    legendItem("Shrine Quest", "shrinequest", 25, 29, "Quests"),
+    legendItem("Side Quest", "sidequest", 27, 21, "Quests"),
+    legendItem("Side Adventure", "adventure", 20, 24, "Quests"),
+    legendItem("Quest Objective", "objective", 13, 13, "Quests"),
+    legendItem("Stable", "stable", 29, 29, "Locations"),
+    legendItem("Village", "village", 29, 29, "Locations"),
+    legendItem("Inn", "inn", 29, 29, "Locations"),
+    legendItem("General Store", "general", 29, 29, "Locations"),
+    legendItem("Armor Shop", "armor", 29, 29, "Locations"),
+    legendItem("Bargainer Statue", "bargainer", 29, 29, "Locations"),
+    legendItem("Other Shops", "othershops", 29, 29, "Locations"),
+    legendItem("Great Fairy", "fountain", 36, 36, "Locations"),
+    legendItem("Chasm", "chasm", 25, 26, "Topology"),
+    legendItem("Cave", "cave", 25, 26, "Topology"),
+    legendItem("Well", "well", 25, 26, "Topology"),
+    legendItem("Treasure Chest", "treasure", 27, 21, "Items"),
+    legendItem("Flux Construct", "skull", 36, 36, "Bosses"),
+    legendItem("Frox", "skull", 36, 36, "Bosses"),
+    legendItem("Gleeok", "skull", 36, 36, "Bosses"),
+    legendItem("Hinox", "skull", 36, 36, "Bosses"),
+    legendItem("Lynel", "lynel", 29, 30, "Bosses"),
   ]);
 
   function addBotwJson(categories: Schema.Category[]): void {

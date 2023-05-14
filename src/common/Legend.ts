@@ -101,6 +101,51 @@ export class Legend extends Control {
   }
 
   public addCategory(category: ICategory): void {
+    //TODO - Move group code to seperate function
+    //Group code
+    //Check if group is defined
+    if (category.group != undefined) {
+      //Check if group already exists
+      if (!this.categories.some((c) => c.category.group === category.group)) {
+        const group = DomUtil.create(
+          "li",
+          "zd-legend__group toggelable",
+          this.categoryList
+        );
+        group.innerText = category.group + " ▼";
+        group.style.textAlign = "center";
+        group.style.fontWeight = "bold";
+        group.classList.add("group-text");
+        DomUtil.addClass(group, "toggled-on");
+        //Add click event to group
+        DomEvent.addListener(group, "click", () => {
+          //Check if group is selected
+          if (DomUtil.hasClass(group, "toggled-on")) {
+            //Toggle group off
+            DomUtil.removeClass(group, "toggled-on");
+            group.innerText = category.group + " ▶";
+            //Display: none, for all categories in group
+            this.categories.forEach((c) => {
+              if (c.category.group === category.group) {
+                c.li.style.display = "none";
+              }
+            });
+          } else {
+            //Toggle group on
+            DomUtil.addClass(group, "toggled-on");
+            group.innerText = category.group + " ▼";
+            //Show all categories in group and remove css display none
+            this.categories.forEach((c) => {
+              if (c.category.group === category.group) {
+                c.li.style.display = "";
+              }
+            });
+          }
+        });
+      }
+    }
+
+    //Category code
     // make it
     const li = DomUtil.create("li", "zd-legend__category selectable");
     li.innerText = category.name;
