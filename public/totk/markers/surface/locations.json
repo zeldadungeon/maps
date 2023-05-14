@@ -1861,6 +1861,16 @@
             "id": "TamurulHatago_02",
             "name": "South Akkala Stable",
             "link": "South Akkala Stable"
+          },
+          {
+            "coords": [
+              52.3064613,
+              -248.697006
+            ],
+            "elv": 124.510696,
+            "id": "HorseStableBranchOffice_BaseCamp",
+            "name": "Mini Stable",
+            "link": "Mini Stable"
           }
         ]
       }
@@ -2392,7 +2402,33 @@
     ]
   },
   {
-    "name": "Jewelry Shop",
+    "name": "Bargainer Statue",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 2,
+        "icon": {
+          "url": "bargainer.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              155.253601,
+              -251.263107
+            ],
+            "elv": 126.184303,
+            "id": "SmallDemonStatue",
+            "name": "Bargainer Statue",
+            "link": "Bargainer Statue"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Other Shops",
     "source": "summary",
     "layers": [
       {
@@ -2414,13 +2450,7 @@
             "link": "Jewelry Shop"
           }
         ]
-      }
-    ]
-  },
-  {
-    "name": "Dye Shop",
-    "source": "summary",
-    "layers": [
+      },
       {
         "minZoom": 5,
         "icon": {
@@ -2438,6 +2468,186 @@
             "id": "ShopDye_Hateno",
             "name": "Dye Shop",
             "link": "Dye Shop"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "bar.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              -2857.13794,
+              -3856.77808
+            ],
+            "elv": 153.727402,
+            "id": "Bar",
+            "name": "Canteen",
+            "link": "Canteen"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "battery.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              191.854507,
+              -219.204102
+            ],
+            "elv": 143.640106,
+            "id": "BatteryExchangeShop_01",
+            "name": "Crystal Refinery",
+            "link": "Crystal Refinery"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "cook.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              -3409.98096,
+              2895.14502
+            ],
+            "elv": 116.7967,
+            "id": "CookingShop",
+            "name": "Restaurant",
+            "link": "Restaurant"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "monster.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              1653.42896,
+              3960.15698
+            ],
+            "elv": 234.093002,
+            "id": "FigureGallery",
+            "name": "Monster Gallery",
+            "link": "Monster Gallery"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "school.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              -1974.68396,
+              3366.68408
+            ],
+            "elv": 247.773697,
+            "id": "HatenoSchool",
+            "name": "Hateno School",
+            "link": "Hateno School"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "survey.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              -956.115417,
+              1828.79602
+            ],
+            "elv": 221.843796,
+            "id": "InvestigatingGroupBase",
+            "name": "Zonai Survey Team Base",
+            "link": "Zonai Survey Team Base"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "shopetc.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              -2882.5,
+              -3902
+            ],
+            "elv": 200,
+            "id": "RentalZarashiShop_Gerudo",
+            "name": "Sand-Seal Rental Shop",
+            "link": "Sand-Seal Rental Shop"
+          },
+          {
+            "coords": [
+              -2925.5,
+              -3770
+            ],
+            "elv": 200,
+            "id": "RentalZarashiShop_Gerudo1",
+            "name": "Sand-Seal Rental Shop",
+            "link": "Sand-Seal Rental Shop"
+          },
+          {
+            "coords": [
+              -2325.0249,
+              -2995.2251
+            ],
+            "elv": 105,
+            "id": "RentalZarashiShop_GerudoDesert",
+            "name": "Sand-Seal Rental Shop",
+            "link": "Sand-Seal Rental Shop"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "shoptreasure.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              -3377.71191,
+              2969.91797
+            ],
+            "elv": 135.356094,
+            "id": "TreasureBoxShop",
+            "name": "Lucky Treasure Shop",
+            "link": "Lucky Treasure Shop"
           }
         ]
       }
@@ -5415,6 +5625,156 @@
         "markers": [
           {
             "coords": [
+              -1962.51294,
+              354.530701
+            ],
+            "elv": 115.004204,
+            "id": "AdeyaVillage",
+            "name": "Deya Village Ruins",
+            "link": "Deya Village Ruins"
+          },
+          {
+            "coords": [
+              1679.448,
+              3744.29907
+            ],
+            "elv": 198.191498,
+            "id": "Circuit_Ichikara",
+            "name": "Tarrey Town Race",
+            "link": "Tarrey Town Race"
+          },
+          {
+            "coords": [
+              -3689.60303,
+              2977.98291
+            ],
+            "elv": 107.389603,
+            "id": "Circuit_Uotori",
+            "name": "Lurelin Water Rally",
+            "link": "Lurelin Water Rally"
+          },
+          {
+            "coords": [
+              1287.573,
+              -3117.18701
+            ],
+            "elv": 0,
+            "id": "EagleBridge",
+            "name": "Kolami Bridge",
+            "link": "Kolami Bridge"
+          },
+          {
+            "coords": [
+              -1959.67603,
+              -530.627686
+            ],
+            "elv": 0,
+            "id": "EastShrine",
+            "name": "Eastern Abbey",
+            "link": "Eastern Abbey"
+          },
+          {
+            "coords": [
+              -2094.63696,
+              3619.2229
+            ],
+            "elv": 283.281311,
+            "id": "HatenoFarm",
+            "name": "Hateno Pasture",
+            "link": "Hateno Pasture"
+          },
+          {
+            "coords": [
+              457.564911,
+              -14.0952101
+            ],
+            "elv": 0,
+            "id": "HyruleEastTown",
+            "name": "East Castle Town",
+            "link": "East Castle Town"
+          },
+          {
+            "coords": [
+              450,
+              -514.22821
+            ],
+            "elv": 0,
+            "id": "HyruleWestTown",
+            "name": "West Castle Town",
+            "link": "West Castle Town"
+          },
+          {
+            "coords": [
+              2106.54004,
+              -1578.44104
+            ],
+            "elv": 0,
+            "id": "KingValley",
+            "name": "Forgotten Temple",
+            "link": "Forgotten Temple"
+          },
+          {
+            "coords": [
+              413.941986,
+              -726.198975
+            ],
+            "elv": 0,
+            "id": "MasazuRock",
+            "name": "Quarry Ruins",
+            "link": "Quarry Ruins"
+          },
+          {
+            "coords": [
+              -3194.07104,
+              -2042.25696
+            ],
+            "elv": 0,
+            "id": "PeridoBarrier",
+            "name": "Champion\u0027s Gate",
+            "link": "Champion\u0027s Gate"
+          },
+          {
+            "coords": [
+              -275.666504,
+              108.127899
+            ],
+            "elv": 0,
+            "id": "RonronFarm",
+            "name": "Ranch Ruins",
+            "link": "Ranch Ruins"
+          },
+          {
+            "coords": [
+              1637,
+              3995
+            ],
+            "elv": 235.216904,
+            "id": "ScrapShop",
+            "name": "Break-a-Part Shop",
+            "link": "Break-a-Part Shop"
+          },
+          {
+            "coords": [
+              -2296.87012,
+              -4468.55811
+            ],
+            "elv": 0,
+            "id": "WestGerudoRuins",
+            "name": "West Gerudo Ruins",
+            "link": "West Gerudo Ruins"
+          },
+          {
+            "coords": [
+              314.302185,
+              3233.18311
+            ],
+            "elv": 0,
+            "id": "ZoraBridge",
+            "name": "Great Zora Bridge",
+            "link": "Great Zora Bridge"
+          },
+          {
+            "coords": [
               -3685.80811,
               -4595.62793
             ],
@@ -6412,296 +6772,6 @@
             "id": "WiseFountain",
             "name": "Spring of Wisdom",
             "link": "Spring of Wisdom"
-          },
-          {
-            "coords": [
-              -1962.51294,
-              354.530701
-            ],
-            "elv": 115.004204,
-            "id": "AdeyaVillage",
-            "name": "Deya Village Ruins",
-            "link": "Deya Village Ruins"
-          },
-          {
-            "coords": [
-              -2857.13794,
-              -3856.77808
-            ],
-            "elv": 153.727402,
-            "id": "Bar",
-            "name": "Canteen",
-            "link": "Canteen"
-          },
-          {
-            "coords": [
-              -1651.34399,
-              357.168396
-            ],
-            "elv": 2410.96191,
-            "id": "BatteryExchangeShop_00",
-            "name": "Crystal Refinery",
-            "link": "Crystal Refinery"
-          },
-          {
-            "coords": [
-              191.854507,
-              -219.204102
-            ],
-            "elv": 143.640106,
-            "id": "BatteryExchangeShop_01",
-            "name": "Crystal Refinery",
-            "link": "Crystal Refinery"
-          },
-          {
-            "coords": [
-              1679.448,
-              3744.29907
-            ],
-            "elv": 198.191498,
-            "id": "Circuit_Ichikara",
-            "name": "Tarrey Town Race",
-            "link": "Tarrey Town Race"
-          },
-          {
-            "coords": [
-              -3689.60303,
-              2977.98291
-            ],
-            "elv": 107.389603,
-            "id": "Circuit_Uotori",
-            "name": "Lurelin Water Rally",
-            "link": "Lurelin Water Rally"
-          },
-          {
-            "coords": [
-              -3409.98096,
-              2895.14502
-            ],
-            "elv": 116.7967,
-            "id": "CookingShop",
-            "name": "Restaurant",
-            "link": "Restaurant"
-          },
-          {
-            "coords": [
-              1287.573,
-              -3117.18701
-            ],
-            "elv": 0,
-            "id": "EagleBridge",
-            "name": "Kolami Bridge",
-            "link": "Kolami Bridge"
-          },
-          {
-            "coords": [
-              -1959.67603,
-              -530.627686
-            ],
-            "elv": 0,
-            "id": "EastShrine",
-            "name": "Eastern Abbey",
-            "link": "Eastern Abbey"
-          },
-          {
-            "coords": [
-              1653.42896,
-              3960.15698
-            ],
-            "elv": 234.093002,
-            "id": "FigureGallery",
-            "name": "Monster Gallery",
-            "link": "Monster Gallery"
-          },
-          {
-            "coords": [
-              -2094.63696,
-              3619.2229
-            ],
-            "elv": 283.281311,
-            "id": "HatenoFarm",
-            "name": "Hateno Pasture",
-            "link": "Hateno Pasture"
-          },
-          {
-            "coords": [
-              -1974.68396,
-              3366.68408
-            ],
-            "elv": 247.773697,
-            "id": "HatenoSchool",
-            "name": "Hateno School",
-            "link": "Hateno School"
-          },
-          {
-            "coords": [
-              52.3064613,
-              -248.697006
-            ],
-            "elv": 124.510696,
-            "id": "HorseStableBranchOffice_BaseCamp",
-            "name": "Mini Stable",
-            "link": "Mini Stable"
-          },
-          {
-            "coords": [
-              457.564911,
-              -14.0952101
-            ],
-            "elv": 0,
-            "id": "HyruleEastTown",
-            "name": "East Castle Town",
-            "link": "East Castle Town"
-          },
-          {
-            "coords": [
-              450,
-              -514.22821
-            ],
-            "elv": 0,
-            "id": "HyruleWestTown",
-            "name": "West Castle Town",
-            "link": "West Castle Town"
-          },
-          {
-            "coords": [
-              -956.115417,
-              1828.79602
-            ],
-            "elv": 221.843796,
-            "id": "InvestigatingGroupBase",
-            "name": "Zonai Survey Team Base",
-            "link": "Zonai Survey Team Base"
-          },
-          {
-            "coords": [
-              2106.54004,
-              -1578.44104
-            ],
-            "elv": 0,
-            "id": "KingValley",
-            "name": "Forgotten Temple",
-            "link": "Forgotten Temple"
-          },
-          {
-            "coords": [
-              413.941986,
-              -726.198975
-            ],
-            "elv": 0,
-            "id": "MasazuRock",
-            "name": "Quarry Ruins",
-            "link": "Quarry Ruins"
-          },
-          {
-            "coords": [
-              -3194.07104,
-              -2042.25696
-            ],
-            "elv": 0,
-            "id": "PeridoBarrier",
-            "name": "Champion\u0027s Gate",
-            "link": "Champion\u0027s Gate"
-          },
-          {
-            "coords": [
-              -2882.5,
-              -3902
-            ],
-            "elv": 200,
-            "id": "RentalZarashiShop_Gerudo",
-            "name": "Sand-Seal Rental Shop",
-            "link": "Sand-Seal Rental Shop"
-          },
-          {
-            "coords": [
-              -2925.5,
-              -3770
-            ],
-            "elv": 200,
-            "id": "RentalZarashiShop_Gerudo_1",
-            "name": "Sand-Seal Rental Shop",
-            "link": "Sand-Seal Rental Shop"
-          },
-          {
-            "coords": [
-              -2325.0249,
-              -2995.2251
-            ],
-            "elv": 105,
-            "id": "RentalZarashiShop_GerudoDesert",
-            "name": "Sand-Seal Rental Shop",
-            "link": "Sand-Seal Rental Shop"
-          },
-          {
-            "coords": [
-              -275.666504,
-              108.127899
-            ],
-            "elv": 0,
-            "id": "RonronFarm",
-            "name": "Ranch Ruins",
-            "link": "Ranch Ruins"
-          },
-          {
-            "coords": [
-              1637,
-              3995
-            ],
-            "elv": 235.216904,
-            "id": "ScrapShop",
-            "name": "Break-a-Part Shop",
-            "link": "Break-a-Part Shop"
-          },
-          {
-            "coords": [
-              155.253601,
-              -251.263107
-            ],
-            "elv": 126.184303,
-            "id": "SmallDemonStatue",
-            "name": "Bargainer Statue",
-            "link": "Bargainer Statue"
-          },
-          {
-            "coords": [
-              -1685.69604,
-              470.04071
-            ],
-            "elv": 1476.31799,
-            "id": "SmeltShopGolem_00",
-            "name": "Forge Construct",
-            "link": "Forge Construct"
-          },
-          {
-            "coords": [
-              -3377.71191,
-              2969.91797
-            ],
-            "elv": 135.356094,
-            "id": "TreasureBoxShop",
-            "name": "Lucky Treasure Shop",
-            "link": "Lucky Treasure Shop"
-          },
-          {
-            "coords": [
-              -2296.87012,
-              -4468.55811
-            ],
-            "elv": 0,
-            "id": "WestGerudoRuins",
-            "name": "West Gerudo Ruins",
-            "link": "West Gerudo Ruins"
-          },
-          {
-            "coords": [
-              314.302185,
-              3233.18311
-            ],
-            "elv": 0,
-            "id": "ZoraBridge",
-            "name": "Great Zora Bridge",
-            "link": "Great Zora Bridge"
           },
           {
             "coords": [

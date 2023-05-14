@@ -55,7 +55,7 @@ window.onload = async () => {
     legendItem("General Store", "general", 29, 29),
     legendItem("Armor Shop", "armor", 29, 29),
     legendItem("Bargainer Statue", "bargainer", 29, 29),
-    legendItem("Dye Shop", "dye", 29, 29),
+    legendItem("Other Shops", "othershops", 29, 29),
     legendItem("Great Fairy", "fountain", 36, 36),
     legendItem("Chasm", "chasm", 25, 26),
     legendItem("Cave", "cave", 25, 26),
