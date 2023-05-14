@@ -63,7 +63,7 @@ window.onload = async () => {
     legendItem("Treasure Chest", "treasure", 27, 21),
     legendItem("Flux Construct", "skull", 36, 36),
     legendItem("Frox", "skull", 36, 36),
-    legendItem("Gleeok", "skull", 36, 36),
+    legendItem("Gleeok", "gleeok", 36, 36),
     legendItem("Hinox", "skull", 36, 36),
     legendItem("Lynel", "lynel", 29, 30),
   ]);
