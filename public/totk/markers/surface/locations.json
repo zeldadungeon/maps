@@ -2702,6 +2702,26 @@
         "markers": [
           {
             "coords": [
+              1679.448,
+              3744.29907
+            ],
+            "elv": 198.191498,
+            "id": "Circuit_Ichikara",
+            "name": "Tarrey Town Race",
+            "link": "Tarrey Town Race"
+          },
+          {
+            "coords": [
+              -3689.60303,
+              2977.98291
+            ],
+            "elv": 107.389603,
+            "id": "Circuit_Uotori",
+            "name": "Lurelin Water Rally",
+            "link": "Lurelin Water Rally"
+          },
+          {
+            "coords": [
               -2882.5,
               -3902
             ],
@@ -5793,26 +5813,6 @@
             "id": "AdeyaVillage",
             "name": "Deya Village Ruins",
             "link": "Deya Village Ruins"
-          },
-          {
-            "coords": [
-              1679.448,
-              3744.29907
-            ],
-            "elv": 198.191498,
-            "id": "Circuit_Ichikara",
-            "name": "Tarrey Town Race",
-            "link": "Tarrey Town Race"
-          },
-          {
-            "coords": [
-              -3689.60303,
-              2977.98291
-            ],
-            "elv": 107.389603,
-            "id": "Circuit_Uotori",
-            "name": "Lurelin Water Rally",
-            "link": "Lurelin Water Rally"
           },
           {
             "coords": [
