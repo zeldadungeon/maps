@@ -2010,6 +2010,126 @@
             "link": "Zora\u0027s Domain"
           }
         ]
+      },
+      {
+        "minZoom": 2,
+        "icon": {
+          "url": "building.png",
+          "width": 20,
+          "height": 20
+        },
+        "markers": [
+          {
+            "coords": [
+              -1353.27295,
+              -3611.61108
+            ],
+            "elv": 436.268585,
+            "id": "Assassin",
+            "name": "Yiga Clan Hideout",
+            "link": "Yiga Clan Hideout"
+          },
+          {
+            "coords": [
+              1973.85205,
+              1657.88599
+            ],
+            "elv": 378.496887,
+            "id": "SouthMine",
+            "name": "Southern Mine",
+            "link": "Southern Mine"
+          },
+          {
+            "coords": [
+              1611.93604,
+              3723.72803
+            ],
+            "elv": 219.230896,
+            "id": "UMiiVillage_JobField",
+            "name": "Hudson Construction Site",
+            "link": "Hudson Construction Site"
+          },
+          {
+            "coords": [
+              2289.99194,
+              -3852.72803
+            ],
+            "elv": 95.3227463,
+            "id": "ValleyVillage",
+            "name": "Flight Range",
+            "link": "Flight Range"
+          },
+          {
+            "coords": [
+              1549,
+              1750.5
+            ],
+            "elv": 0,
+            "id": "EldinRestaurants",
+            "name": "Bedrock Bistro",
+            "link": "Bedrock Bistro"
+          },
+          {
+            "coords": [
+              2293.1521,
+              -1387.69604
+            ],
+            "elv": 0,
+            "id": "KingValley2",
+            "name": "Forgotten Temple",
+            "link": "Forgotten Temple"
+          },
+          {
+            "coords": [
+              2821.68408,
+              1608.08899
+            ],
+            "elv": 0,
+            "id": "Mine",
+            "name": "YunoboCo HQ",
+            "link": "YunoboCo HQ"
+          },
+          {
+            "coords": [
+              -2556,
+              -3237
+            ],
+            "zoomAdjustedCoords": {
+              "0": [
+                -2556,
+                -3237
+              ],
+              "1": [
+                -2556,
+                -3237
+              ],
+              "3": [
+                -2556,
+                -3237
+              ],
+              "4": [
+                -2556,
+                -3237
+              ],
+              "5": [
+                -2556,
+                -3237
+              ],
+              "6": [
+                -2556,
+                -3237
+              ],
+              "2": [
+                -2540,
+                -3225
+              ]
+            },
+            "elv": 0,
+            "id": "Oasis",
+            "name": "Kara Kara Bazaar",
+            "link": "Kara Kara Bazaar"
+          }
+        ]
       }
     ]
   },
@@ -2648,6 +2768,46 @@
             "id": "TreasureBoxShop",
             "name": "Lucky Treasure Shop",
             "link": "Lucky Treasure Shop"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "newspaper.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              1757.58496,
+              -3255.84106
+            ],
+            "elv": 256.601807,
+            "id": "NewspaperCompany",
+            "name": "Lucky Clover Gazette",
+            "link": "Lucky Clover Gazette"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "house.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              1379.922,
+              4208.19922
+            ],
+            "elv": 313.448212,
+            "id": "PlayerHouse",
+            "name": "Link\u0027s House",
+            "link": "Link\u0027s House"
           }
         ]
       }
@@ -5625,6 +5785,26 @@
         "markers": [
           {
             "coords": [
+              -1905.66003,
+              -938.117126
+            ],
+            "elv": 235.464493,
+            "id": "HopesPlateau",
+            "name": "Great Plateau",
+            "link": "Great Plateau"
+          },
+          {
+            "coords": [
+              -2002.00305,
+              -818.082214
+            ],
+            "elv": 222.000305,
+            "id": "TimesShrine",
+            "name": "Temple of Time Ruins",
+            "link": "Temple of Time Ruins"
+          },
+          {
+            "coords": [
               -1962.51294,
               354.530701
             ],
@@ -5772,6 +5952,26 @@
             "id": "ZoraBridge",
             "name": "Great Zora Bridge",
             "link": "Great Zora Bridge"
+          },
+          {
+            "coords": [
+              -2731.39209,
+              -3515.14209
+            ],
+            "elv": 79.1570129,
+            "id": "GerudoDesertCrack",
+            "name": "Desert Rift",
+            "link": "Desert Rift"
+          },
+          {
+            "coords": [
+              1918.5,
+              723
+            ],
+            "elv": 243.5,
+            "id": "LostForest",
+            "name": "Lost Woods",
+            "link": "Lost Woods"
           },
           {
             "coords": [

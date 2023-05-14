@@ -1229,6 +1229,212 @@
             "link": "Thunderhead Isles"
           }
         ]
+      },
+      {
+        "minZoom": 4,
+        "markers": [
+          {
+            "coords": [
+              -800.345215,
+              453.459412
+            ],
+            "elv": 1661.55005,
+            "id": "AncientTimeShrine",
+            "name": "Temple of Time",
+            "link": "Temple of Time"
+          },
+          {
+            "coords": [
+              535.5,
+              3520.25
+            ],
+            "elv": 2000,
+            "id": "EX_LowGravityIsland",
+            "name": "Wellspring Island",
+            "link": "Wellspring Island"
+          },
+          {
+            "coords": [
+              2129.32593,
+              4603.17383
+            ],
+            "elv": 1407.53101,
+            "id": "SkyIsland0004",
+            "name": "Sky Mine",
+            "link": "Sky Mine"
+          },
+          {
+            "coords": [
+              1032,
+              -3607.17407
+            ],
+            "elv": 2000,
+            "id": "SkyIsland0009",
+            "name": "Lightcast Island",
+            "link": "Lightcast Island"
+          },
+          {
+            "coords": [
+              3370,
+              -825
+            ],
+            "elv": 1290,
+            "id": "SkyIsland0012",
+            "name": "North Lomei Castle Top Floor",
+            "link": "North Lomei Castle Top Floor"
+          },
+          {
+            "coords": [
+              -3605.5,
+              -1795
+            ],
+            "elv": 1290.61597,
+            "id": "SkyIsland0013",
+            "name": "South Lomei Castle Top Floor",
+            "link": "South Lomei Castle Top Floor"
+          },
+          {
+            "coords": [
+              3789.02808,
+              4656.19922
+            ],
+            "elv": 1113.29004,
+            "id": "SkyIsland0014",
+            "name": "Lomei Sky Labyrinth",
+            "link": "Lomei Sky Labyrinth"
+          },
+          {
+            "coords": [
+              -3380.75,
+              1460
+            ],
+            "elv": 2000,
+            "id": "ZonauTriedForceSkyIsland",
+            "name": "Dragonhead Island",
+            "link": "Dragonhead Island"
+          },
+          {
+            "coords": [
+              535.534119,
+              4077.05493
+            ],
+            "elv": 1001,
+            "id": "Zora_FishIsland",
+            "name": "Floating Scales Island",
+            "link": "Floating Scales Island"
+          }
+        ]
+      },
+      {
+        "minZoom": 4,
+        "maxZoom": 4,
+        "markers": [
+          {
+            "coords": [
+              728,
+              -2265.99609
+            ],
+            "elv": 2000,
+            "id": "SkyIsland0001",
+            "name": "Courage Island",
+            "link": "Courage Island"
+          },
+          {
+            "coords": [
+              1915,
+              204.553802
+            ],
+            "elv": 2089.6499,
+            "id": "SkyIsland0002_1",
+            "name": "Bravery Island",
+            "link": "Bravery Island"
+          },
+          {
+            "coords": [
+              -906.612122,
+              4562.08008
+            ],
+            "elv": 1724.021,
+            "id": "SkyIsland0003_1",
+            "name": "Valor Island",
+            "link": "Valor Island"
+          },
+          {
+            "coords": [
+              -1879,
+              2349.04395
+            ],
+            "elv": 11000,
+            "id": "SkyIsland0010_1",
+            "name": "Zonaite Forge Island",
+            "link": "Zonaite Forge Island"
+          },
+          {
+            "coords": [
+              -264,
+              -3488
+            ],
+            "elv": 2000,
+            "id": "SkyIsland0011_1",
+            "name": "Starview Island",
+            "link": "Starview Island"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "markers": [
+          {
+            "coords": [
+              745,
+              -2265.99609
+            ],
+            "elv": 2000,
+            "id": "SkyIsland0001_1",
+            "name": "Courage Island",
+            "link": "Courage Island"
+          },
+          {
+            "coords": [
+              1937,
+              206.705994
+            ],
+            "elv": 2089.6499,
+            "id": "SkyIsland0002",
+            "name": "Bravery Island",
+            "link": "Bravery Island"
+          },
+          {
+            "coords": [
+              -919.46167,
+              4579.10986
+            ],
+            "elv": 2724.021,
+            "id": "SkyIsland0003",
+            "name": "Valor Island",
+            "link": "Valor Island"
+          },
+          {
+            "coords": [
+              -1869.34998,
+              2349.01904
+            ],
+            "elv": 10999.9902,
+            "id": "SkyIsland0010",
+            "name": "Zonaite Forge Island",
+            "link": "Zonaite Forge Island"
+          },
+          {
+            "coords": [
+              -317,
+              -3488.5
+            ],
+            "elv": 2011.71497,
+            "id": "SkyIsland0011",
+            "name": "Starview Island",
+            "link": "Starview Island"
+          }
+        ]
       }
     ]
   }
