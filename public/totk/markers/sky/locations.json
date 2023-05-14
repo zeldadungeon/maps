@@ -1,5 +1,30 @@
 [
   {
+    "name": "Dungeon",
+    "source": "summary",
+    "layers": [
+      {
+        "icon": {
+          "url": "windtemple.png",
+          "width": 23,
+          "height": 27
+        },
+        "markers": [
+          {
+            "coords": [
+              3005.5,
+              -2859.5
+            ],
+            "elv": 1516.88904,
+            "id": "LargeDungeonWind",
+            "name": "Wind Temple",
+            "link": "Wind Temple (Tears of the Kingdom)"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Shrine",
     "source": "summary",
     "layers": [
