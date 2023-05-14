@@ -1635,7 +1635,7 @@
     ]
   },
   {
-    "name": "Dispenser",
+    "name": "Device Dispenser",
     "source": "summary",
     "layers": [
       {
@@ -6619,7 +6619,7 @@
               -3770
             ],
             "elv": 200,
-            "id": "RentalZarashiShop_Gerudo1",
+            "id": "RentalZarashiShop_Gerudo_1",
             "name": "Sand-Seal Rental Shop",
             "link": "Sand-Seal Rental Shop"
           },
@@ -7069,7 +7069,7 @@
               -4455.32813
             ],
             "elv": 0,
-            "id": "HeburaWestSummit1",
+            "id": "HeburaWestSummit_1",
             "name": "Hebra West Summit",
             "link": "Hebra West Summit"
           },
@@ -7209,7 +7209,7 @@
               -2231.49512
             ],
             "elv": 0,
-            "id": "KikinosaPlain1",
+            "id": "KikinosaPlain_1",
             "name": "Upland Lindor",
             "link": "Upland Lindor"
           },
@@ -7369,7 +7369,7 @@
               -1339.35205
             ],
             "elv": 0,
-            "id": "MarittaHill1",
+            "id": "MarittaHill_1",
             "name": "Salari Hill",
             "link": "Salari Hill"
           },
@@ -7899,7 +7899,7 @@
               -664.166321
             ],
             "elv": 0,
-            "id": "BumiPlain1",
+            "id": "BumiPlain_1",
             "name": "Windvane Meadow",
             "link": "Windvane Meadow"
           },
@@ -7949,7 +7949,7 @@
               1378.15698
             ],
             "elv": 0,
-            "id": "DokamamaPlain1",
+            "id": "DokamamaPlain_1",
             "name": "Sahasra Slope",
             "link": "Sahasra Slope"
           },
@@ -8139,7 +8139,7 @@
               1311.43799
             ],
             "elv": 0,
-            "id": "IsakuIslands2",
+            "id": "IsakuIslands_2",
             "name": "Millennio Sandbar",
             "link": "Millennio Sandbar"
           },
@@ -8289,7 +8289,7 @@
               -2292.55811
             ],
             "elv": 0,
-            "id": "KukujaValley1",
+            "id": "KukujaValley_1",
             "name": "Tanagar Canyon",
             "link": "Tanagar Canyon"
           },
@@ -8299,7 +8299,7 @@
               -3485.01807
             ],
             "elv": 0,
-            "id": "KukujaValley3",
+            "id": "KukujaValley_3",
             "name": "Tanagar Canyon",
             "link": "Tanagar Canyon"
           },
@@ -8599,7 +8599,7 @@
               -779.309814
             ],
             "elv": 0,
-            "id": "OoosePlain1",
+            "id": "OoosePlain_1",
             "name": "Oseira Plains",
             "link": "Oseira Plains"
           },
@@ -8809,7 +8809,7 @@
               -1701.82996
             ],
             "elv": 0,
-            "id": "TabantaSnow_North1",
+            "id": "TabantaSnow_North_1",
             "name": "North Tabantha Snowfield",
             "link": "North Tabantha Snowfield"
           },
@@ -8819,7 +8819,7 @@
               -1849.05896
             ],
             "elv": 0,
-            "id": "TabantaSnow_South3",
+            "id": "TabantaSnow_South_3",
             "name": "South Tabantha Snowfield",
             "link": "South Tabantha Snowfield"
           },
@@ -9039,7 +9039,7 @@
               -2285.84399
             ],
             "elv": 0,
-            "id": "TutukikiSnow1",
+            "id": "TutukikiSnow_1",
             "name": "Pikida Stonegrove",
             "link": "Pikida Stonegrove"
           },
@@ -9239,7 +9239,7 @@
               1081.771
             ],
             "elv": 0,
-            "id": "KiyanbaTrees1",
+            "id": "KiyanbaTrees_1",
             "name": "Minshi Woods",
             "link": "Minshi Woods"
           },
@@ -9559,7 +9559,7 @@
               2519.54395
             ],
             "elv": 0,
-            "id": "FuruboLake2",
+            "id": "FuruboLake_2",
             "name": "Lake Intenoch",
             "link": "Lake Intenoch"
           },
@@ -9589,7 +9589,7 @@
               2518.1001
             ],
             "elv": 0,
-            "id": "GasemaRiver1",
+            "id": "GasemaRiver_1",
             "name": "Rutala River",
             "link": "Rutala River"
           },
@@ -9609,7 +9609,7 @@
               2753.67896
             ],
             "elv": 0,
-            "id": "GatinLake2",
+            "id": "GatinLake_2",
             "name": "Cephla Lake",
             "link": "Cephla Lake"
           },
@@ -9749,7 +9749,7 @@
               -291.415314
             ],
             "elv": 0,
-            "id": "Hyrule_Out1",
+            "id": "Hyrule_Out_1",
             "name": "Hyrule Castle Moat",
             "link": "Hyrule Castle Moat"
           },
@@ -9809,7 +9809,7 @@
               -1557.52405
             ],
             "elv": 0,
-            "id": "KaturaRiver1",
+            "id": "KaturaRiver_1",
             "name": "Regencia River",
             "link": "Regencia River"
           },
@@ -9819,7 +9819,7 @@
               -1243.66602
             ],
             "elv": 0,
-            "id": "KaturaRiver7",
+            "id": "KaturaRiver_7",
             "name": "Regencia River",
             "link": "Regencia River"
           },
@@ -9829,7 +9829,7 @@
               -3072.18408
             ],
             "elv": 0,
-            "id": "KauLake1",
+            "id": "KauLake_1",
             "name": "Hebra Plunge",
             "link": "Hebra Plunge"
           },
@@ -9939,7 +9939,7 @@
               -993.443176
             ],
             "elv": 0,
-            "id": "KunaiLake1",
+            "id": "KunaiLake_1",
             "name": "Aquame Lake",
             "link": "Aquame Lake"
           },
@@ -9969,7 +9969,7 @@
               3813.89307
             ],
             "elv": 0,
-            "id": "LanayruBay1",
+            "id": "LanayruBay_1",
             "name": "Lanayru Bay",
             "link": "Lanayru Bay"
           },
@@ -10139,7 +10139,7 @@
               1627.28101
             ],
             "elv": 1.34478998,
-            "id": "OkuwaLake1",
+            "id": "OkuwaLake_1",
             "name": "Lake Siela",
             "link": "Lake Siela"
           },
@@ -10219,7 +10219,7 @@
               -3607.67603
             ],
             "elv": 0,
-            "id": "RiritotoLake2",
+            "id": "RiritotoLake_2",
             "name": "Lake Totori",
             "link": "Lake Totori"
           },
@@ -10249,7 +10249,7 @@
               337.739502
             ],
             "elv": 0,
-            "id": "RonronRiver2",
+            "id": "RonronRiver_2",
             "name": "Hylia River",
             "link": "Hylia River"
           },
@@ -10259,7 +10259,7 @@
               819.099487
             ],
             "elv": 0,
-            "id": "RonronRiver3",
+            "id": "RonronRiver_3",
             "name": "Hylia River",
             "link": "Hylia River"
           },
@@ -10269,7 +10269,7 @@
               125.793602
             ],
             "elv": 0,
-            "id": "RonronRiver4",
+            "id": "RonronRiver_4",
             "name": "Hylia River",
             "link": "Hylia River"
           },
@@ -10359,7 +10359,7 @@
               -2350.72607
             ],
             "elv": 0,
-            "id": "SusonoRiver1",
+            "id": "SusonoRiver_1",
             "name": "Tamio River",
             "link": "Tamio River"
           },
@@ -10429,7 +10429,7 @@
               -4099.68701
             ],
             "elv": 0,
-            "id": "UkkoPond2",
+            "id": "UkkoPond_2",
             "name": "Lake Kilsie",
             "link": "Lake Kilsie"
           },
@@ -10479,7 +10479,7 @@
               917.058716
             ],
             "elv": 0,
-            "id": "YamariRiver2",
+            "id": "YamariRiver_2",
             "name": "Squabble River",
             "link": "Squabble River"
           },
@@ -10514,7 +10514,7 @@
               455
             ],
             "elv": 0,
-            "id": "AdeyaLake2",
+            "id": "AdeyaLake_2",
             "name": "Deya Lake",
             "link": "Deya Lake"
           }
@@ -10540,7 +10540,7 @@
               -751.67041
             ],
             "elv": 128.329697,
-            "id": "CentralExchange1",
+            "id": "CentralExchange_1",
             "name": "Exchange Ruins",
             "link": "Exchange Ruins"
           },
@@ -10570,7 +10570,7 @@
               -253.701202
             ],
             "elv": 479.643494,
-            "id": "HyruleCastle_Hall_01",
+            "id": "HyruleCastle_Hall_0_1",
             "name": "Sanctum",
             "link": "Sanctum"
           },
@@ -10590,7 +10590,7 @@
               -270.458405
             ],
             "elv": 100.834198,
-            "id": "HyruleCastle_Room_71",
+            "id": "HyruleCastle_Room_7_1",
             "name": "Docks",
             "link": "Docks"
           },
@@ -10610,7 +10610,7 @@
               -253.4879
             ],
             "elv": 135.1996,
-            "id": "HyruleCentralPlace1",
+            "id": "HyruleCentralPlace_1",
             "name": "Central Square",
             "link": "Central Square"
           },
@@ -10620,7 +10620,7 @@
               -1357.71204
             ],
             "elv": 132.638596,
-            "id": "KaturaCastle1",
+            "id": "KaturaCastle_1",
             "name": "Sage Temple Ruins",
             "link": "Sage Temple Ruins"
           },
@@ -10630,7 +10630,7 @@
               1726.05896
             ],
             "elv": 0,
-            "id": "LittleBrotherBridge1",
+            "id": "LittleBrotherBridge_1",
             "name": "Little Twin Bridge",
             "link": "Little Twin Bridge"
           },
@@ -10640,7 +10640,7 @@
               3588
             ],
             "elv": 0,
-            "id": "MinakkareBridgeWest1",
+            "id": "MinakkareBridgeWest_1",
             "name": "West Sokkala Bridge",
             "link": "West Sokkala Bridge"
           },
@@ -10660,7 +10660,7 @@
               -26.3710899
             ],
             "elv": 0,
-            "id": "RonronCity1",
+            "id": "RonronCity_1",
             "name": "Mabe Village Ruins",
             "link": "Mabe Village Ruins"
           },
@@ -10670,7 +10670,7 @@
               689.876221
             ],
             "elv": 0,
-            "id": "ShinyarkiVillage1",
+            "id": "ShinyarkiVillage_1",
             "name": "Rauru Settlement Ruins",
             "link": "Rauru Settlement Ruins"
           },
@@ -10680,7 +10680,7 @@
               -4365
             ],
             "elv": 0,
-            "id": "SnowStatue1",
+            "id": "SnowStatue_1",
             "name": "Statue of the Eighth Heroine",
             "link": "Statue of the Eighth Heroine"
           },
@@ -10690,7 +10690,7 @@
               -4157.43018
             ],
             "elv": 0,
-            "id": "SouthGerudoLegacy1",
+            "id": "SouthGerudoLegacy_1",
             "name": "Arbiter\u0027s Grounds",
             "link": "Arbiter\u0027s Grounds"
           },
@@ -10710,7 +10710,7 @@
               -2268.51904
             ],
             "elv": 232.532104,
-            "id": "LightningPlateau1",
+            "id": "LightningPlateau_1",
             "name": "Thundra Plateau",
             "link": "Thundra Plateau"
           },
@@ -10720,7 +10720,7 @@
               3830.81201
             ],
             "elv": 590.973999,
-            "id": "Zora_Belvedere1",
+            "id": "Zora_Belvedere_1",
             "name": "Mipha Court",
             "link": "Mipha Court"
           },
@@ -10730,7 +10730,7 @@
               -1120.19897
             ],
             "elv": 0,
-            "id": "BigTree1",
+            "id": "BigTree_1",
             "name": "Ancient Tree Stump",
             "link": "Ancient Tree Stump"
           },
@@ -10740,7 +10740,7 @@
               -3418.9231
             ],
             "elv": 474.231293,
-            "id": "FlamingoSpa1",
+            "id": "FlamingoSpa_1",
             "name": "Goflam\u0027s Secret Hot Spring",
             "link": "Goflam\u0027s Secret Hot Spring"
           },
@@ -10770,7 +10770,7 @@
               2931.08911
             ],
             "elv": 0,
-            "id": "AmonenePlateau1",
+            "id": "AmonenePlateau_1",
             "name": "Ralis Pond",
             "link": "Ralis Pond"
           },
@@ -10790,7 +10790,7 @@
               2483.46997
             ],
             "elv": 0,
-            "id": "TotenLake1",
+            "id": "TotenLake_1",
             "name": "Oakle\u0027s Navel",
             "link": "Oakle\u0027s Navel"
           }
@@ -10805,7 +10805,7 @@
               3324.20898
             ],
             "elv": 608.622375,
-            "id": "AkkareZhai1",
+            "id": "AkkareZhai_1",
             "name": "Akkala Citadel Ruins",
             "link": "Akkala Citadel Ruins"
           },
@@ -10825,7 +10825,7 @@
               -2693.23706
             ],
             "elv": 113.150902,
-            "id": "EastGerudoRuins1",
+            "id": "EastGerudoRuins_1",
             "name": "East Gerudo Ruins",
             "link": "East Gerudo Ruins"
           },
@@ -10845,7 +10845,7 @@
               1648.50598
             ],
             "elv": 559.288574,
-            "id": "GoronBridge1",
+            "id": "GoronBridge_1",
             "name": "Stolock Bridge",
             "link": "Stolock Bridge"
           },
@@ -10865,7 +10865,7 @@
               -354.25589
             ],
             "elv": 215.110992,
-            "id": "HyruleCastle_Hall_21",
+            "id": "HyruleCastle_Hall_2_1",
             "name": "First Gatehouse",
             "link": "First Gatehouse"
           },
@@ -10965,7 +10965,7 @@
               -384.27301
             ],
             "elv": 468.144714,
-            "id": "HyruleCastle_Room_81",
+            "id": "HyruleCastle_Room_8_1",
             "name": "Princess Zelda\u0027s Study",
             "link": "Princess Zelda\u0027s Study"
           },
@@ -11025,7 +11025,7 @@
               -259.890686
             ],
             "elv": 111.614899,
-            "id": "PostTownRuin1",
+            "id": "PostTownRuin_1",
             "name": "Outpost Ruins",
             "link": "Outpost Ruins"
           },
@@ -11075,7 +11075,7 @@
               1527
             ],
             "elv": 68,
-            "id": "WetGarrison1",
+            "id": "WetGarrison_1",
             "name": "Moor Garrison Ruins",
             "link": "Moor Garrison Ruins"
           },
@@ -11125,7 +11125,7 @@
               1677.922
             ],
             "elv": 0,
-            "id": "EastEunpoHighlands1",
+            "id": "EastEunpoHighlands_1",
             "name": "East Deplian Badlands",
             "link": "East Deplian Badlands"
           },
@@ -11165,7 +11165,7 @@
               -571.421082
             ],
             "elv": 0,
-            "id": "RirimukuMt1",
+            "id": "RirimukuMt_1",
             "name": "Mount Drena",
             "link": "Mount Drena"
           },
@@ -11175,7 +11175,7 @@
               -355.316406
             ],
             "elv": 0,
-            "id": "RirimukuMt2",
+            "id": "RirimukuMt_2",
             "name": "Mount Drena",
             "link": "Mount Drena"
           },
@@ -11185,7 +11185,7 @@
               -825.626221
             ],
             "elv": 0,
-            "id": "RirimukuMt3",
+            "id": "RirimukuMt_3",
             "name": "Mount Drena",
             "link": "Mount Drena"
           },
@@ -11195,7 +11195,7 @@
               -1247.48999
             ],
             "elv": 0,
-            "id": "RirimukuMt4",
+            "id": "RirimukuMt_4",
             "name": "Mount Drena",
             "link": "Mount Drena"
           },
@@ -11205,7 +11205,7 @@
               1269.31396
             ],
             "elv": 0,
-            "id": "TwinsMountain1",
+            "id": "TwinsMountain_1",
             "name": "Dueling Peaks",
             "link": "Dueling Peaks"
           },
@@ -11215,7 +11215,7 @@
               -3929.00806
             ],
             "elv": 0,
-            "id": "BironSnow1",
+            "id": "BironSnow_1",
             "name": "Biron Snowshelf",
             "link": "Biron Snowshelf"
           },
@@ -11225,7 +11225,7 @@
               -4052.76196
             ],
             "elv": 0,
-            "id": "BironSnow2",
+            "id": "BironSnow_2",
             "name": "Biron Snowshelf",
             "link": "Biron Snowshelf"
           },
@@ -11235,7 +11235,7 @@
               2698.52197
             ],
             "elv": 244.574997,
-            "id": "BuhaIslands1",
+            "id": "BuhaIslands_1",
             "name": "Broca Island",
             "link": "Broca Island"
           },
@@ -11265,7 +11265,7 @@
               -1946.57605
             ],
             "elv": 0,
-            "id": "GakanakkyoPlain1",
+            "id": "GakanakkyoPlain_1",
             "name": "West Hyrule Plains",
             "link": "West Hyrule Plains"
           },
@@ -11275,7 +11275,7 @@
               -1408.12598
             ],
             "elv": 0,
-            "id": "GakanakkyoPlain2",
+            "id": "GakanakkyoPlain_2",
             "name": "West Hyrule Plains",
             "link": "West Hyrule Plains"
           },
@@ -11295,7 +11295,7 @@
               -3310.23804
             ],
             "elv": 0,
-            "id": "HeburaTundera1",
+            "id": "HeburaTundera_1",
             "name": "Hebra Tundra",
             "link": "Hebra Tundra"
           },
@@ -11315,7 +11315,7 @@
               1934.13501
             ],
             "elv": 0,
-            "id": "IsakuIslands1",
+            "id": "IsakuIslands_1",
             "name": "Millennio Sandbar",
             "link": "Millennio Sandbar"
           },
@@ -11335,7 +11335,7 @@
               -3112.07007
             ],
             "elv": 0,
-            "id": "KukujaValley2",
+            "id": "KukujaValley_2",
             "name": "Tanagar Canyon",
             "link": "Tanagar Canyon"
           },
@@ -11345,7 +11345,7 @@
               -3939.646
             ],
             "elv": 0,
-            "id": "KukujaValley4",
+            "id": "KukujaValley_4",
             "name": "Tanagar Canyon",
             "link": "Tanagar Canyon"
           },
@@ -11355,7 +11355,7 @@
               -4528.1582
             ],
             "elv": 0,
-            "id": "KurisobeSnow1",
+            "id": "KurisobeSnow_1",
             "name": "Risoka Snowfield",
             "link": "Risoka Snowfield"
           },
@@ -11365,7 +11365,7 @@
               -1253.68506
             ],
             "elv": 0,
-            "id": "MarittaPrairie1",
+            "id": "MarittaPrairie_1",
             "name": "Salari Plain",
             "link": "Salari Plain"
           },
@@ -11375,7 +11375,7 @@
               4186.46094
             ],
             "elv": 0,
-            "id": "MedakaValley1",
+            "id": "MedakaValley_1",
             "name": "Ulria Grotto",
             "link": "Ulria Grotto"
           },
@@ -11385,7 +11385,7 @@
               -1108.88196
             ],
             "elv": 0,
-            "id": "NanaimoPlain1",
+            "id": "NanaimoPlain_1",
             "name": "Rowan Plain",
             "link": "Rowan Plain"
           },
@@ -11395,7 +11395,7 @@
               -1917.15405
             ],
             "elv": 0,
-            "id": "NomyPlain1",
+            "id": "NomyPlain_1",
             "name": "Ludfo\u0027s Bog",
             "link": "Ludfo\u0027s Bog"
           },
@@ -11405,7 +11405,7 @@
               3485.7749
             ],
             "elv": 0,
-            "id": "OkuAkkarePlain1",
+            "id": "OkuAkkarePlain_1",
             "name": "Akkala Wilds",
             "link": "Akkala Wilds"
           },
@@ -11425,7 +11425,7 @@
               -1169.27002
             ],
             "elv": 0,
-            "id": "RashamaPlain1",
+            "id": "RashamaPlain_1",
             "name": "North Hyrule Plain",
             "link": "North Hyrule Plain"
           },
@@ -11435,7 +11435,7 @@
               -3892.52808
             ],
             "elv": 0,
-            "id": "RutsuPlain1",
+            "id": "RutsuPlain_1",
             "name": "Rayne Highlands",
             "link": "Rayne Highlands"
           },
@@ -11445,7 +11445,7 @@
               2211.63208
             ],
             "elv": 0,
-            "id": "SasamuroBeach1",
+            "id": "SasamuroBeach_1",
             "name": "Clarnet Coast",
             "link": "Clarnet Coast"
           },
@@ -11475,7 +11475,7 @@
               -1961.89001
             ],
             "elv": 0,
-            "id": "TabantaSnow_South1",
+            "id": "TabantaSnow_South_1",
             "name": "South Tabantha Snowfield",
             "link": "South Tabantha Snowfield"
           },
@@ -11485,7 +11485,7 @@
               -1529.09802
             ],
             "elv": 0,
-            "id": "TabantaSnow_South2",
+            "id": "TabantaSnow_South_2",
             "name": "South Tabantha Snowfield",
             "link": "South Tabantha Snowfield"
           },
@@ -11495,7 +11495,7 @@
               -1877.39294
             ],
             "elv": 0,
-            "id": "TakkikaPlain1",
+            "id": "TakkikaPlain_1",
             "name": "Nima Plain",
             "link": "Nima Plain"
           },
@@ -11535,7 +11535,7 @@
               496.117493
             ],
             "elv": 0,
-            "id": "AdeyaLake1",
+            "id": "AdeyaLake_1",
             "name": "Deya Lake",
             "link": "Deya Lake"
           },
@@ -11555,7 +11555,7 @@
               -224.735992
             ],
             "elv": 0,
-            "id": "FeoreRiver1",
+            "id": "FeoreRiver_1",
             "name": "Lake Mekar",
             "link": "Lake Mekar"
           },
@@ -11565,7 +11565,7 @@
               277.051392
             ],
             "elv": 0,
-            "id": "FeoreRiver2",
+            "id": "FeoreRiver_2",
             "name": "Lake Mekar",
             "link": "Lake Mekar"
           },
@@ -11575,7 +11575,7 @@
               893.126526
             ],
             "elv": 0,
-            "id": "FeoreRiver3",
+            "id": "FeoreRiver_3",
             "name": "Lake Mekar",
             "link": "Lake Mekar"
           },
@@ -11585,7 +11585,7 @@
               869.362
             ],
             "elv": 0,
-            "id": "FloriaRiver1",
+            "id": "FloriaRiver_1",
             "name": "Floria River",
             "link": "Floria River"
           },
@@ -11605,7 +11605,7 @@
               2420.75391
             ],
             "elv": 0,
-            "id": "FuruboLake1",
+            "id": "FuruboLake_1",
             "name": "Lake Intenoch",
             "link": "Lake Intenoch"
           },
@@ -11635,7 +11635,7 @@
               2769.94409
             ],
             "elv": 0,
-            "id": "GatinLake1",
+            "id": "GatinLake_1",
             "name": "Cephla Lake",
             "link": "Cephla Lake"
           },
@@ -11645,7 +11645,7 @@
               -3248.77295
             ],
             "elv": 0,
-            "id": "HashibiroLake1",
+            "id": "HashibiroLake_1",
             "name": "Strock Lake",
             "link": "Strock Lake"
           },
@@ -11655,7 +11655,7 @@
               4273.57813
             ],
             "elv": 0,
-            "id": "HigakkareBeach1",
+            "id": "HigakkareBeach_1",
             "name": "East Akkala Beach",
             "link": "East Akkala Beach"
           },
@@ -11675,7 +11675,7 @@
               -3.68273997
             ],
             "elv": 0,
-            "id": "Hyrule_Out2",
+            "id": "Hyrule_Out_2",
             "name": "Hyrule Castle Moat",
             "link": "Hyrule Castle Moat"
           },
@@ -11685,7 +11685,7 @@
               53.3194313
             ],
             "elv": 0,
-            "id": "Hyrule_Out3",
+            "id": "Hyrule_Out_3",
             "name": "Hyrule Castle Moat",
             "link": "Hyrule Castle Moat"
           },
@@ -11695,7 +11695,7 @@
               -583.532471
             ],
             "elv": 0,
-            "id": "Hyrule_Out4",
+            "id": "Hyrule_Out_4",
             "name": "Hyrule Castle Moat",
             "link": "Hyrule Castle Moat"
           },
@@ -11705,7 +11705,7 @@
               -475.424896
             ],
             "elv": 0,
-            "id": "Hyrule_Out5",
+            "id": "Hyrule_Out_5",
             "name": "Hyrule Castle Moat",
             "link": "Hyrule Castle Moat"
           },
@@ -11715,7 +11715,7 @@
               -532.427124
             ],
             "elv": 0,
-            "id": "Hyrule_Out6",
+            "id": "Hyrule_Out_6",
             "name": "Hyrule Castle Moat",
             "link": "Hyrule Castle Moat"
           },
@@ -11725,7 +11725,7 @@
               51.3538513
             ],
             "elv": 0,
-            "id": "Hyrule_Out7",
+            "id": "Hyrule_Out_7",
             "name": "Hyrule Castle Moat",
             "link": "Hyrule Castle Moat"
           },
@@ -11735,7 +11735,7 @@
               2112.25
             ],
             "elv": 0,
-            "id": "JiuRiver1",
+            "id": "JiuRiver_1",
             "name": "Zora River",
             "link": "Zora River"
           },
@@ -11745,7 +11745,7 @@
               1712.88306
             ],
             "elv": 0,
-            "id": "KakamoLake1",
+            "id": "KakamoLake_1",
             "name": "Telta Lake",
             "link": "Telta Lake"
           },
@@ -11765,7 +11765,7 @@
               -1657.89001
             ],
             "elv": 0,
-            "id": "KaturaRiver2",
+            "id": "KaturaRiver_2",
             "name": "Regencia River",
             "link": "Regencia River"
           },
@@ -11775,7 +11775,7 @@
               -1293.34595
             ],
             "elv": 0,
-            "id": "KaturaRiver3",
+            "id": "KaturaRiver_3",
             "name": "Regencia River",
             "link": "Regencia River"
           },
@@ -11785,7 +11785,7 @@
               -1863.41797
             ],
             "elv": 0,
-            "id": "KaturaRiver4",
+            "id": "KaturaRiver_4",
             "name": "Regencia River",
             "link": "Regencia River"
           },
@@ -11795,7 +11795,7 @@
               -1365.76099
             ],
             "elv": 0,
-            "id": "KaturaRiver5",
+            "id": "KaturaRiver_5",
             "name": "Regencia River",
             "link": "Regencia River"
           },
@@ -11805,7 +11805,7 @@
               -1455.12305
             ],
             "elv": 0,
-            "id": "KaturaRiver6",
+            "id": "KaturaRiver_6",
             "name": "Regencia River",
             "link": "Regencia River"
           },
@@ -11845,7 +11845,7 @@
               17.3757
             ],
             "elv": 0,
-            "id": "LakeHylia1",
+            "id": "LakeHylia_1",
             "name": "Lake Hylia",
             "link": "Lake Hylia"
           },
@@ -11855,7 +11855,7 @@
               261.767487
             ],
             "elv": 0,
-            "id": "LakeHylia2",
+            "id": "LakeHylia_2",
             "name": "Lake Hylia",
             "link": "Lake Hylia"
           },
@@ -11865,7 +11865,7 @@
               146.229401
             ],
             "elv": 0,
-            "id": "LakeHylia3",
+            "id": "LakeHylia_3",
             "name": "Lake Hylia",
             "link": "Lake Hylia"
           },
@@ -11875,7 +11875,7 @@
               -431.096313
             ],
             "elv": 0,
-            "id": "LakeHylia4",
+            "id": "LakeHylia_4",
             "name": "Lake Hylia",
             "link": "Lake Hylia"
           },
@@ -11885,7 +11885,7 @@
               -312.900085
             ],
             "elv": 0,
-            "id": "LakeHylia5",
+            "id": "LakeHylia_5",
             "name": "Lake Hylia",
             "link": "Lake Hylia"
           },
@@ -11925,7 +11925,7 @@
               -3444.88208
             ],
             "elv": 0,
-            "id": "RiritotoLake1",
+            "id": "RiritotoLake_1",
             "name": "Lake Totori",
             "link": "Lake Totori"
           },
@@ -11945,7 +11945,7 @@
               486.452393
             ],
             "elv": 0,
-            "id": "RonronRiver1",
+            "id": "RonronRiver_1",
             "name": "Hylia River",
             "link": "Hylia River"
           },
@@ -11965,7 +11965,7 @@
               -2935.31812
             ],
             "elv": 0,
-            "id": "SusonoRiver2",
+            "id": "SusonoRiver_2",
             "name": "Tamio River",
             "link": "Tamio River"
           },
@@ -11995,7 +11995,7 @@
               -3903.2439
             ],
             "elv": 0,
-            "id": "UkkoPond1",
+            "id": "UkkoPond_1",
             "name": "Lake Kilsie",
             "link": "Lake Kilsie"
           },
@@ -12005,7 +12005,7 @@
               3939.07007
             ],
             "elv": 0,
-            "id": "WabiLake1",
+            "id": "WabiLake_1",
             "name": "Lake Akkala",
             "link": "Lake Akkala"
           },
@@ -12015,7 +12015,7 @@
               3709.521
             ],
             "elv": 0,
-            "id": "WabiLake2",
+            "id": "WabiLake_2",
             "name": "Lake Akkala",
             "link": "Lake Akkala"
           },
@@ -12035,7 +12035,7 @@
               2397.9751
             ],
             "elv": 0,
-            "id": "YamariRiver1",
+            "id": "YamariRiver_1",
             "name": "Squabble River",
             "link": "Squabble River"
           },
@@ -12045,7 +12045,7 @@
               2129.2229
             ],
             "elv": 0,
-            "id": "YamariRiver3",
+            "id": "YamariRiver_3",
             "name": "Squabble River",
             "link": "Squabble River"
           }
