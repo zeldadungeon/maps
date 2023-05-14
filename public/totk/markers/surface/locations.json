@@ -2749,6 +2749,16 @@
             "id": "RentalZarashiShop_GerudoDesert",
             "name": "Sand-Seal Rental Shop",
             "link": "Sand-Seal Rental Shop"
+          },
+          {
+            "coords": [
+              1637,
+              3995
+            ],
+            "elv": 235.216904,
+            "id": "ScrapShop",
+            "name": "Break-a-Part Shop",
+            "link": "Break-a-Part Shop"
           }
         ]
       },
@@ -5903,16 +5913,6 @@
             "id": "RonronFarm",
             "name": "Ranch Ruins",
             "link": "Ranch Ruins"
-          },
-          {
-            "coords": [
-              1637,
-              3995
-            ],
-            "elv": 235.216904,
-            "id": "ScrapShop",
-            "name": "Break-a-Part Shop",
-            "link": "Break-a-Part Shop"
           },
           {
             "coords": [
