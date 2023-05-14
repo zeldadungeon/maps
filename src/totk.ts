@@ -52,6 +52,7 @@ window.onload = async () => {
       legendItem("Shrine", "shrine", 27, 29),
       legendItem("Lightroot", "lightroot", 27, 24),
       legendItem("Tech Lab", "lab", 28, 24),
+      legendItem("Device Dispenser", "dispenser", 36, 36),
     ],
     "Structures"
   );
@@ -65,7 +66,6 @@ window.onload = async () => {
   );
   map.addLegend(
     [
-      legendItem("Device Dispenser", "dispenser", 36, 36),
       legendItem("Main Quest", "mainquest", 42, 25),
       legendItem("Shrine Quest", "shrinequest", 25, 29),
       legendItem("Side Quest", "sidequest", 27, 21),

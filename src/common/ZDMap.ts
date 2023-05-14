@@ -224,7 +224,7 @@ export class ZDMap extends Map {
       this.legendLandscape = Legend.createLandscape(this.layers).addTo(this);
     }
     for (const category of categories) {
-      this.legend.addCategory(category);
+      this.legend.addCategory(category, group);
       this.legendLandscape.addCategory(category, group);
     }
   }

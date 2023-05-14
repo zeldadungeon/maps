@@ -220,9 +220,16 @@ body {
 .zd-legend__header {
   margin: 0;
   width: 100%;
+  cursor: pointer;
 }
 
 .zd-legend__categories {
+  list-style: none;
+  margin: auto;
+  padding: 5px;
+}
+
+.zd-legend-group-ul {
   list-style: none;
   margin: auto;
   padding: 5px;
@@ -233,17 +240,44 @@ body {
   height: 0px;
   overflow: scroll;
   transition: height 0.2s;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .zd-legend--portrait .zd-legend__categories--show {
   height: 190px;
 }
 
-.zd-legend--portrait li {
-  display: inline-block;
-  width: 180px;
-  box-sizing: border-box;
-  text-align: left;
+.zd-legend--portrait .zd-legend-allNoneUl {
+  display: none;
+}
+
+.zd-legend--portrait .zd-legend-allNoneUl--show {
+  display: flex;
+}
+
+.zd-legend--portrait .zd-legend__categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.zd-legend--portrait ul ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.zd-legend--portrait ul ul li {
+  display: flex;
+}
+
+.zd-legend--portrait .zd-legend-group-ul {
+  margin: 5px;
+}
+
+.zd-legend--portrait .zd-legend__group {
+  width: 100%;
 }
 
 .zd-legend__all,
@@ -254,9 +288,17 @@ body {
 
 .zd-legend__all,
 .zd-legend__none {
-  display: inline-block;
-  width: 50%;
   text-align: center;
+  flex-grow: 1;
+}
+
+.zd-legend-allNoneUl {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  justify-content: center;
 }
 
 .zd-legend__category {

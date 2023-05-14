@@ -10,8 +10,10 @@ interface LegendItem {
 export class Legend extends Control {
   private container: HTMLElement;
   private categoryList: HTMLElement;
+  private categoryGroupULArr: HTMLElement[] = [];
   private all: HTMLElement;
   private none: HTMLElement;
+  private allNoneUL: HTMLElement;
   private categories = <LegendItem[]>[];
 
   private constructor(
@@ -36,25 +38,35 @@ export class Legend extends Control {
           DomUtil.hasClass(this.categoryList, "zd-legend__categories--show")
         ) {
           DomUtil.removeClass(this.categoryList, "zd-legend__categories--show");
+          DomUtil.removeClass(this.allNoneUL, "zd-legend-allNoneUl--show");
         } else {
           DomUtil.addClass(this.categoryList, "zd-legend__categories--show");
+          DomUtil.addClass(this.allNoneUL, "zd-legend-allNoneUl--show");
         }
       });
     }
 
+    this.allNoneUL = DomUtil.create(
+      "ul",
+      "zd-legend-allNoneUl",
+      this.container
+    );
     this.categoryList = DomUtil.create(
       "ul",
       "zd-legend__categories",
       this.container
     );
-    const allNone = DomUtil.create("li", "", this.categoryList);
     this.all = DomUtil.create(
-      "div",
+      "li",
       "zd-legend__all selectable selected",
-      allNone
+      this.allNoneUL
     );
     this.all.innerText = "All";
-    this.none = DomUtil.create("div", "zd-legend__none selectable", allNone);
+    this.none = DomUtil.create(
+      "li",
+      "zd-legend__none selectable",
+      this.allNoneUL
+    );
     this.none.innerText = "None";
 
     DomEvent.addListener(this.all, "click", () => {
@@ -101,23 +113,30 @@ export class Legend extends Control {
   }
 
   public addGroup(category: ICategory): void {
-    const group = DomUtil.create(
-      "li",
-      "zd-legend__group toggelable",
+    const groupUl = DomUtil.create(
+      "ul",
+      "zd-legend-group-ul",
       this.categoryList
     );
-    group.innerText = category.group + " ▼";
-    group.style.textAlign = "center";
-    group.style.fontWeight = "bold";
-    group.classList.add("group-text");
-    DomUtil.addClass(group, "toggled-on");
+    const groupHeaderLi = DomUtil.create(
+      "li",
+      "zd-legend__group toggelable",
+      groupUl
+    );
+    groupHeaderLi.innerText = category.group + " ▼";
+    groupHeaderLi.style.textAlign = "center";
+    groupHeaderLi.style.fontWeight = "bold";
+    groupHeaderLi.classList.add("group-text");
+    //Add group to group array
+    this.categoryGroupULArr.push(groupUl);
+    DomUtil.addClass(groupUl, "toggled-on");
     //Add click event to group
-    DomEvent.addListener(group, "click", () => {
+    DomEvent.addListener(groupHeaderLi, "click", () => {
       //Check if group is selected
-      if (DomUtil.hasClass(group, "toggled-on")) {
+      if (DomUtil.hasClass(groupUl, "toggled-on")) {
         //Toggle group off
-        DomUtil.removeClass(group, "toggled-on");
-        group.innerText = category.group + " ▶";
+        DomUtil.removeClass(groupUl, "toggled-on");
+        groupHeaderLi.innerText = category.group + " ▶";
         //Display: none, for all categories in group
         this.categories.forEach((c) => {
           if (c.category.group === category.group) {
@@ -126,8 +145,8 @@ export class Legend extends Control {
         });
       } else {
         //Toggle group on
-        DomUtil.addClass(group, "toggled-on");
-        group.innerText = category.group + " ▼";
+        DomUtil.addClass(groupUl, "toggled-on");
+        groupHeaderLi.innerText = category.group + " ▼";
         //Show all categories in group and remove css display none
         this.categories.forEach((c) => {
           if (c.category.group === category.group) {
@@ -185,7 +204,17 @@ export class Legend extends Control {
     });
 
     // insert it
-    this.categoryList.appendChild(li);
+    //Check if group is defined
+    if (group != undefined) {
+      //Add category to group
+      this.categoryGroupULArr.forEach((g) => {
+        if (g.innerText.includes(group)) {
+          g.appendChild(li);
+        }
+      });
+    } else {
+      this.categoryList.appendChild(li);
+    }
   }
 
   public reset(): void {
