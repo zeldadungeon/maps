@@ -16,6 +16,8 @@ export class Legend extends Control {
   private allNoneUL: HTMLElement;
   private categories = <LegendItem[]>[];
 
+  private bottom = false;
+
   private constructor(
     private mapLayers: MapLayer[],
     options?: L.ControlOptions
@@ -31,6 +33,7 @@ export class Legend extends Control {
     DomEvent.disableScrollPropagation(this.container);
 
     if (bottom) {
+      this.bottom = true;
       const header = DomUtil.create("h3", "zd-legend__header", this.container);
       header.innerText = "Legend";
       DomEvent.addListener(header, "click", () => {
@@ -118,11 +121,10 @@ export class Legend extends Control {
       "zd-legend-group-ul",
       this.categoryList
     );
-    const groupHeaderLi = DomUtil.create(
-      "li",
-      "zd-legend__group toggelable",
-      groupUl
-    );
+    const groupHeaderLi = DomUtil.create("li", "zd-legend__group", groupUl);
+    if (!this.bottom) {
+      groupHeaderLi.classList.add("toggelable");
+    }
     groupHeaderLi.innerText = category.group + " ▼";
     groupHeaderLi.style.textAlign = "center";
     groupHeaderLi.style.fontWeight = "bold";
@@ -131,30 +133,32 @@ export class Legend extends Control {
     this.categoryGroupULArr.push(groupUl);
     DomUtil.addClass(groupUl, "toggled-on");
     //Add click event to group
-    DomEvent.addListener(groupHeaderLi, "click", () => {
-      //Check if group is selected
-      if (DomUtil.hasClass(groupUl, "toggled-on")) {
-        //Toggle group off
-        DomUtil.removeClass(groupUl, "toggled-on");
-        groupHeaderLi.innerText = category.group + " ▶";
-        //Display: none, for all categories in group
-        this.categories.forEach((c) => {
-          if (c.category.group === category.group) {
-            c.li.style.display = "none";
-          }
-        });
-      } else {
-        //Toggle group on
-        DomUtil.addClass(groupUl, "toggled-on");
-        groupHeaderLi.innerText = category.group + " ▼";
-        //Show all categories in group and remove css display none
-        this.categories.forEach((c) => {
-          if (c.category.group === category.group) {
-            c.li.style.display = "";
-          }
-        });
-      }
-    });
+    if (!this.bottom) {
+      DomEvent.addListener(groupHeaderLi, "click", () => {
+        //Check if group is selected
+        if (DomUtil.hasClass(groupUl, "toggled-on")) {
+          //Toggle group off
+          DomUtil.removeClass(groupUl, "toggled-on");
+          groupHeaderLi.innerText = category.group + " ▶";
+          //Display: none, for all categories in group
+          this.categories.forEach((c) => {
+            if (c.category.group === category.group) {
+              c.li.style.display = "none";
+            }
+          });
+        } else {
+          //Toggle group on
+          DomUtil.addClass(groupUl, "toggled-on");
+          groupHeaderLi.innerText = category.group + " ▼";
+          //Show all categories in group and remove css display none
+          this.categories.forEach((c) => {
+            if (c.category.group === category.group) {
+              c.li.style.display = "";
+            }
+          });
+        }
+      });
+    }
   }
   public addCategory(category: ICategory, group?: string): void {
     //Check if group is defined
