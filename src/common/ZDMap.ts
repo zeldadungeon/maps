@@ -140,10 +140,23 @@ export class ZDMap extends Map {
         tempMarker
           .setLatLng(e.latlng)
           .addTo(map)
+          // Pin template: {"coords":[<x>,<y>],"elv":"<z>","id":"<nameXX>","name":"<name>","link":"<name>"}
           .setPopupContent(
-            `{{Pin|${Math.round(e.latlng.lng)}|${Math.round(
-              e.latlng.lat
-            )}||&lt;name&gt;}}<br />${wikiContributeLink}`
+            "Coordinates: " +
+              Math.round(e.latlng.lng) +
+              ", " +
+              Math.round(e.latlng.lat) +
+              ", 0" +
+              "<br/>" +
+              "Dev:" +
+              "<br/>" +
+              '{"coords":[' +
+              Math.round(e.latlng.lat) +
+              "," +
+              Math.round(e.latlng.lng) +
+              '],"elv":"0","id":"&lt;name&gt;","name":"&lt;name00&gt","link":"&lt;name&gt"}' +
+              "<br />" +
+              wikiContributeLink
           )
           .openPopup();
       }
