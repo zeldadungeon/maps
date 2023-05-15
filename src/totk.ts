@@ -81,7 +81,14 @@ window.onload = async () => {
             m.coords[0] = Math.floor(m.coords[0] / 2);
             m.coords[1] = Math.floor(m.coords[1] / 2);
           }
-          return Layer.fromJSON(l, category.source, "totk", map.wiki);
+          return Layer.fromJSON(
+            l,
+            category.name,
+            category.link,
+            category.source,
+            "totk",
+            map.wiki
+          );
         })
       );
     }
@@ -95,7 +102,14 @@ window.onload = async () => {
           layer.addCategory(
             category.name,
             category.layers.map((l) =>
-              Layer.fromJSON(l, category.source, "totk", map.wiki)
+              Layer.fromJSON(
+                l,
+                category.name,
+                category.link,
+                category.source,
+                "totk",
+                map.wiki
+              )
             )
           );
         }
@@ -121,7 +135,14 @@ window.onload = async () => {
             mapLayer.addCategory(
               category.name,
               category.layers.map((l) =>
-                Layer.fromJSON(l, category.source, "totk", map.wiki)
+                Layer.fromJSON(
+                  l,
+                  category.name,
+                  category.link,
+                  category.source,
+                  "totk",
+                  map.wiki
+                )
               )
             );
           }
@@ -167,7 +188,14 @@ window.onload = async () => {
   ]
 }`;
           mapLayer.addCategory(categoryName, [
-            Layer.fromJSON(JSON.parse(layer), infoSource, "totk", map.wiki),
+            Layer.fromJSON(
+              JSON.parse(layer),
+              categoryName,
+              undefined,
+              infoSource,
+              "totk",
+              map.wiki
+            ),
           ]);
         })
         .catch((ex) =>

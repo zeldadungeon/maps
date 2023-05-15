@@ -20,7 +20,7 @@ export class ZDMarker extends Marker {
     layer: Layer
   ) {
     super(coords, {
-      title: json.name,
+      title: json.name ?? layer.name,
       icon:
         layer.icon ||
         new DivIcon({
@@ -28,8 +28,8 @@ export class ZDMarker extends Marker {
         }),
     });
     this.id = json.id;
-    this.name = json.name;
-    this.tags = json.tags || [];
+    this.name = json.name ?? layer.name;
+    this.tags = json.tags ?? [];
     this.layer = layer;
   }
 
@@ -43,8 +43,8 @@ export class ZDMarker extends Marker {
     if (layer.icon) {
       marker.popup = ZDPopup.create({
         id: json.id,
-        name: json.name,
-        link: json.link,
+        name: marker.name,
+        link: json.link ?? layer.link,
         infoSource: layer.infoSource,
         elevation: json.elv,
         wiki,
@@ -69,7 +69,7 @@ export class ZDMarker extends Marker {
       });
     } else {
       marker
-        .bindTooltip(json.name, {
+        .bindTooltip(marker.name, {
           permanent: true,
           direction: "center",
           className: "zd-location-label",

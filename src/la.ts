@@ -74,7 +74,14 @@ window.onload = async () => {
       mapLayer.addCategory(
         category.name,
         category.layers.map((l) =>
-          Layer.fromJSON(l, category.source, "la", map.wiki)
+          Layer.fromJSON(
+            l,
+            category.name,
+            category.link,
+            category.source,
+            "la",
+            map.wiki
+          )
         )
       );
     }

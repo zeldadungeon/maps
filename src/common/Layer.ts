@@ -11,25 +11,26 @@ export enum Visibility {
 
 export class Layer extends LayerGroup {
   public icon?: L.Icon;
-  public infoSource: string;
+  public link?: string;
 
   public minZoom = 0;
   public maxZoom = Number.MAX_VALUE;
   public visibility = Visibility.Default;
   public markers!: ZDMarker[]; // BUGBUG refactor to avoid having to suppress null checking
 
-  private constructor(infoSource: string) {
+  private constructor(public name: string, public infoSource: string) {
     super();
-    this.infoSource = infoSource;
   }
 
   public static fromJSON(
     json: Schema.Layer,
+    categoryName: string,
+    categoryLink: string | undefined,
     infoSource: string,
     directory: string,
     wiki: WikiConnector
   ): Layer {
-    const layer = new Layer(infoSource);
+    const layer = new Layer(json.name ?? categoryName, infoSource);
 
     if (json.icon) {
       layer.icon = new Icon({
@@ -39,6 +40,8 @@ export class Layer extends LayerGroup {
         iconSize: [json.icon.width, json.icon.height],
       });
     }
+
+    layer.link = json.link ?? categoryLink;
 
     if (json.minZoom != undefined) {
       layer.minZoom = json.minZoom;
