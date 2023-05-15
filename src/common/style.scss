@@ -232,7 +232,8 @@ body {
 .zd-legend-group-ul {
   list-style: none;
   margin: auto;
-  padding: 5px;
+  padding: 0 0 0 0;
+  align-items: stretch;
 }
 
 .zd-legend--portrait .zd-legend__categories {
@@ -276,10 +277,6 @@ body {
   margin: 5px;
 }
 
-.zd-legend--portrait .zd-legend__group {
-  width: 100%;
-}
-
 .zd-legend__all,
 .zd-legend__none,
 .zd-legend__category {
@@ -289,6 +286,7 @@ body {
 .zd-legend__all,
 .zd-legend__none {
   text-align: center;
+  flex-basis: 0;
   flex-grow: 1;
 }
 
@@ -298,6 +296,8 @@ body {
   display: flex;
   flex-direction: row;
   padding: 0;
+  margin: 0;
+  margin-top: 1em;
   justify-content: center;
 }
 
