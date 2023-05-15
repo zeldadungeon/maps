@@ -163,7 +163,7 @@ export class ZDMap extends Map {
         )
         .openPopup();
     });
-    tempMarker.on("popupclose", (e) => {
+    tempMarker.on("click", (e) => {
       tempMarker.removeFrom(map);
     });
 
