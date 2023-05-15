@@ -10,6 +10,7 @@ window.onload = async () => {
 
   const map = ZDMap.create({
     directory: "botw",
+    gameTitle: "Breath of the Wild",
     mapSizePixels: 24000,
     tileSizePixels: 750,
     center: [-3750, -1900],

@@ -22,7 +22,7 @@ window.onload = async () => {
 
   const map = ZDMap.create({
     directory: "totk",
-    wikiContributionPage: "Tears of the Kingdom",
+    gameTitle: "Tears of the Kingdom",
     mapSizePixels: 36096,
     mapSizeCoords: 12032,
     tileSizePixels: 564,

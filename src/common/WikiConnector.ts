@@ -31,6 +31,26 @@ interface TokenResponse {
   };
 }
 
+interface ParseResponse {
+  parse: {
+    text: {
+      ["*"]: string;
+    };
+  };
+}
+
+interface PagePropsQueryReponse {
+  query: {
+    pages: {
+      [pageId: string]: {
+        pageprops: {
+          description: string;
+        };
+      };
+    };
+  };
+}
+
 interface ErrorResponse {
   error: {
     code: string;
@@ -52,8 +72,44 @@ export class WikiConnector {
   private completionStore: LocalStorage;
   private offline = false;
 
-  constructor(private mapid: string, private dialog: Dialog) {
+  constructor(
+    private mapid: string,
+    private gameTitle: string,
+    private dialog: Dialog
+  ) {
     this.completionStore = LocalStorage.getStore(mapid, "completion");
+  }
+
+  public async getPageContent(pageTitle: string): Promise<string> {
+    const response = await this.query<ParseResponse>(
+      `action=parse&page=${encodeURIComponent(pageTitle)}`
+    );
+
+    return response?.parse?.text["*"] || "";
+  }
+
+  public async getMapPageContent(subpage: string): Promise<string> {
+    return await this.getPageContent(`Map:${this.gameTitle}/${subpage}`);
+  }
+
+  public async getPageSummary(pageTitle: string): Promise<string> {
+    const response = await this.query<PagePropsQueryReponse>(
+      `action=query&prop=pageprops&titles=${encodeURIComponent(pageTitle)}`
+    );
+
+    const pageId = Object.keys(response.query.pages)[0];
+    const page = response.query.pages[pageId];
+    return pageId === "-1" || !page.pageprops || !page.pageprops.description
+      ? ""
+      : `<p>${page.pageprops.description}</p>`;
+  }
+
+  public getEditLink(pageTitle: string): string {
+    return `/wiki/index.php?action=edit&title=${encodeURIComponent(pageTitle)}`;
+  }
+
+  public getMapEditLink(subpage: string): string {
+    return this.getEditLink(`Map:${this.gameTitle}/${subpage}`);
   }
 
   public async getLoggedInUser(): Promise<void> {

@@ -10,6 +10,7 @@ window.onload = async () => {
 
   const map = ZDMap.create({
     directory: "la",
+    gameTitle: "Link's Awakening",
     mapSizePixels: 3280,
     tileSizePixels: 205,
     center: [0, 0],

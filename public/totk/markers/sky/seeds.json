@@ -1,6 +1,7 @@
 [
   {
     "name": "Korok Seed",
+    "source": "mapns",
     "layers": [
       {
         "minZoom": 3,
