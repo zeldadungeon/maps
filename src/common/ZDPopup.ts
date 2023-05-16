@@ -151,8 +151,11 @@ export class ZDPopup extends Popup {
   }
 
   public loadDynamicContent(): void {
-    if (this.contentState !== ContentState.Initial) {
-      // Already loading or loaded, don't need to fetch the content again
+    // Don't load if there's nothing to load or it's already loaded
+    if (
+      !this.myOptions.infoSource ||
+      this.contentState !== ContentState.Initial
+    ) {
       return;
     }
 
