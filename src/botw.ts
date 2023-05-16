@@ -16,7 +16,7 @@ window.onload = async () => {
     center: [-3750, -1900],
   });
   const mapLayer = map.addMapLayer();
-  map.addControls(["Master Mode", "DLC"]);
+  map.addControls(["Paths", "Master Mode", "DLC"]);
   map.addLegend([
     {
       name: "Sheikah Tower",

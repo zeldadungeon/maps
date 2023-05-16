@@ -33,7 +33,7 @@ window.onload = async () => {
   const surface = map.addMapLayer("Surface", "surface");
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const depths = map.addMapLayer("Depths", "depths");
-  map.addControls();
+  map.addControls(["Paths"]);
   map.addLegend([
     legendItem("Tower", "tower", 20, 26),
     legendItem("Shrine", "shrine", 27, 29),

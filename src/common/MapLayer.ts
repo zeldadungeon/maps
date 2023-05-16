@@ -108,8 +108,13 @@ export class MapLayer extends LayerGroup {
       }
     });
 
+    if (marker.hasPath()) {
+      const pathContainer = this.getTaggedMarkerContainer("Paths");
+      pathContainer.addMarker(marker);
+    }
+
     if (isVisible) {
-      marker.show();
+      marker.show(this.taggedMarkerContainers["Paths"]?.isVisible() !== false);
     }
 
     marker.on("completed", () => {
@@ -230,7 +235,7 @@ export class MapLayer extends LayerGroup {
         (tag) => this.taggedMarkerContainers[tag]?.isVisible() !== false // undefined -> true
       )
     ) {
-      marker.show();
+      marker.show(this.taggedMarkerContainers["Paths"]?.isVisible() !== false);
     } else {
       marker.hide();
     }

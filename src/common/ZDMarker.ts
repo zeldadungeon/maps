@@ -105,12 +105,20 @@ export class ZDMarker extends Marker {
     this.fire("uncompleted");
   }
 
+  public hasPath(): boolean {
+    return this.path != undefined;
+  }
+
   // TODO refactor Layer, marker shouldn't need a reference to it? layer should add/remove the marker itself.
-  public show(): void {
+  public show(showPath = true): void {
     if (this.layer) {
       // TODO is this check really needed?
       this.addTo(this.layer);
-      this.path?.addTo(this.layer);
+      if (showPath) {
+        this.path?.addTo(this.layer);
+      } else if (this.path) {
+        this.layer.removeLayer(this.path);
+      }
     }
   }
 
