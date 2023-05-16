@@ -16,7 +16,7 @@
               2152.44995,
               1497.83606
             ],
-            "elv": 784.237793,
+            "elv": 679.237793,
             "id": "Treasure0000",
             "name": "Zonaite Shield",
             "link": "Zonaite Shield"
@@ -26,7 +26,7 @@
               2266.85107,
               1764.17102
             ],
-            "elv": 933.058716,
+            "elv": 828.058716,
             "id": "Treasure0001",
             "name": "Sage\u0027s Will",
             "link": "Sage\u0027s Will"
@@ -36,7 +36,7 @@
               2480.24097,
               1987.89905
             ],
-            "elv": 892.674988,
+            "elv": 787.674988,
             "id": "Treasure0002",
             "name": "Amber",
             "link": "Amber"
@@ -46,7 +46,7 @@
               3119.02295,
               2098.69189
             ],
-            "elv": 846.664185,
+            "elv": 741.664185,
             "id": "Treasure0003",
             "name": "Zonaite Longsword",
             "link": "Zonaite Longsword"
@@ -56,7 +56,7 @@
               2887.40698,
               1855.88
             ],
-            "elv": 858.727783,
+            "elv": 753.727783,
             "id": "Treasure0004",
             "name": "Zonaite Spear",
             "link": "Zonaite Spear"
@@ -66,7 +66,7 @@
               1194.521,
               1709.77905
             ],
-            "elv": 649.08667,
+            "elv": 544.08667,
             "id": "Treasure0005",
             "name": "Zonaite Spear",
             "link": "Zonaite Spear"
@@ -76,7 +76,7 @@
               1189.07703,
               1574.48706
             ],
-            "elv": 624.344116,
+            "elv": 519.344116,
             "id": "Treasure0006",
             "name": "Zonaite Sword",
             "link": "Zonaite Sword"
@@ -86,7 +86,7 @@
               1132.03003,
               1684.94202
             ],
-            "elv": 618.020813,
+            "elv": 513.020813,
             "id": "Treasure0007",
             "name": "Zonaite Longsword",
             "link": "Zonaite Longsword"
@@ -96,7 +96,7 @@
               -3367.80688,
               1041.72998
             ],
-            "elv": 924.808472,
+            "elv": 819.808472,
             "id": "Treasure0008",
             "name": "Big Battery",
             "link": "Big Battery"
@@ -106,7 +106,7 @@
               -2787.7019,
               883.141602
             ],
-            "elv": 833.479004,
+            "elv": 728.479004,
             "id": "Treasure0009",
             "name": "Mighty Zonaite Spear",
             "link": "Mighty Zonaite Spear"
@@ -116,7 +116,7 @@
               -3113.04199,
               952.388489
             ],
-            "elv": 862.196777,
+            "elv": 757.196777,
             "id": "Treasure0010",
             "name": "Old Map",
             "link": "Old Map"
@@ -126,7 +126,7 @@
               -2994.05103,
               913.857178
             ],
-            "elv": 895.450684,
+            "elv": 790.450684,
             "id": "Treasure0011",
             "name": "Topaz",
             "link": "Topaz"
@@ -136,7 +136,7 @@
               -3513.96411,
               1042.71301
             ],
-            "elv": 968.362915,
+            "elv": 863.362915,
             "id": "Treasure0012",
             "name": "Zonaite Bow",
             "link": "Zonaite Bow"
@@ -146,7 +146,7 @@
               -3397.4519,
               1311.61694
             ],
-            "elv": 989.679626,
+            "elv": 884.679626,
             "id": "Treasure0013",
             "name": "Shock Emitter x 3",
             "link": "Shock Emitter"
@@ -156,7 +156,7 @@
               -3493.69312,
               1242.58801
             ],
-            "elv": 952.911621,
+            "elv": 847.911621,
             "id": "Treasure0014",
             "name": "Mighty Zonaite Shield",
             "link": "Mighty Zonaite Shield"
@@ -166,7 +166,7 @@
               -3306.1189,
               967.901611
             ],
-            "elv": 952.262878,
+            "elv": 847.262878,
             "id": "Treasure0015",
             "name": "Sage\u0027s Will",
             "link": "Sage\u0027s Will"
@@ -176,7 +176,7 @@
               -3286.28003,
               1010.45599
             ],
-            "elv": 913.887817,
+            "elv": 808.887817,
             "id": "Treasure0016",
             "name": "Shock Emitter",
             "link": "Shock Emitter"
@@ -186,7 +186,7 @@
               -3209.52588,
               1309.21899
             ],
-            "elv": 564.726196,
+            "elv": 459.726196,
             "id": "Treasure0017",
             "name": "Sage\u0027s Will",
             "link": "Sage\u0027s Will"
@@ -196,7 +196,7 @@
               3415.02002,
               -3356.5769
             ],
-            "elv": 1078.90295,
+            "elv": 973.902954,
             "id": "Treasure0018",
             "name": "Zonaite Spear",
             "link": "Zonaite Spear"
@@ -206,7 +206,7 @@
               3628.35107,
               -3466.82007
             ],
-            "elv": 1126.72705,
+            "elv": 1021.72705,
             "id": "Treasure0019",
             "name": "Arrow x 10",
             "link": "Arrow"
@@ -216,7 +216,7 @@
               3147.25488,
               -3040.17212
             ],
-            "elv": 1188.04895,
+            "elv": 1083.04895,
             "id": "Treasure0020",
             "name": "Large Zonai Charge",
             "link": "Large Zonai Charge"
@@ -226,7 +226,7 @@
               3398.87793,
               -3122.84009
             ],
-            "elv": 1399.53601,
+            "elv": 1294.53601,
             "id": "Treasure0021",
             "name": "Time Bomb x 5",
             "link": "Time Bomb"
@@ -236,7 +236,7 @@
               3319.00391,
               -3259.28809
             ],
-            "elv": 1062.05298,
+            "elv": 957.052979,
             "id": "Treasure0022",
             "name": "Portable Pot x 3",
             "link": "Portable Pot"
@@ -246,7 +246,7 @@
               3092.33496,
               -2918.15601
             ],
-            "elv": 989.053772,
+            "elv": 884.053772,
             "id": "Treasure0023",
             "name": "Arrow x 5",
             "link": "Arrow"
@@ -256,7 +256,7 @@
               2490.21509,
               -2841.4021
             ],
-            "elv": 2070.13501,
+            "elv": 1965.13501,
             "id": "Treasure0024",
             "name": "Portable Pot",
             "link": "Portable Pot"
@@ -266,7 +266,7 @@
               3411.87012,
               -2541.79395
             ],
-            "elv": 2069.88989,
+            "elv": 1964.88989,
             "id": "Treasure0025",
             "name": "Flame Emitter",
             "link": "Flame Emitter"
@@ -276,7 +276,7 @@
               665.148682,
               3358.09204
             ],
-            "elv": 1400.84497,
+            "elv": 1295.84497,
             "id": "Treasure0026",
             "name": "Strong Zonaite Spear",
             "link": "Strong Zonaite Spear"
@@ -286,7 +286,7 @@
               593.245972,
               3692.78198
             ],
-            "elv": 1350.64795,
+            "elv": 1245.64795,
             "id": "Treasure0027",
             "name": "Old Map",
             "link": "Old Map"
@@ -296,7 +296,7 @@
               844.466919,
               3415.30811
             ],
-            "elv": 1436.95605,
+            "elv": 1331.95605,
             "id": "Treasure0028",
             "name": "Strong Zonaite Sword",
             "link": "Strong Zonaite Sword"
@@ -306,7 +306,7 @@
               757.728027,
               3613.16309
             ],
-            "elv": 1401.69397,
+            "elv": 1296.69397,
             "id": "Treasure0029",
             "name": "Hover Stone x 3",
             "link": "Hover Stone"
@@ -316,7 +316,7 @@
               566.728027,
               3877.16309
             ],
-            "elv": 1285,
+            "elv": 1180,
             "id": "Treasure0030",
             "name": "Big Battery",
             "link": "Big Battery"
@@ -326,7 +326,7 @@
               350.227997,
               3356.04102
             ],
-            "elv": 1612.02795,
+            "elv": 1507.02795,
             "id": "Treasure0031",
             "name": "Strong Zonaite Sword",
             "link": "Strong Zonaite Sword"
@@ -336,7 +336,7 @@
               598.466675,
               3200.15894
             ],
-            "elv": 1522.57495,
+            "elv": 1417.57495,
             "id": "Treasure0032",
             "name": "Old Map",
             "link": "Old Map"
@@ -346,7 +346,7 @@
               481.477997,
               3559.66309
             ],
-            "elv": 1396.84998,
+            "elv": 1291.84998,
             "id": "Treasure0033",
             "name": "Large Zonai Charge",
             "link": "Large Zonai Charge"
@@ -356,7 +356,7 @@
               1581.70898,
               3810.98706
             ],
-            "elv": 1250.05896,
+            "elv": 1145.05896,
             "id": "Treasure0034",
             "name": "Sage\u0027s Will",
             "link": "Sage\u0027s Will"
@@ -366,7 +366,7 @@
               3107.87988,
               4269.16992
             ],
-            "elv": 889.458923,
+            "elv": 784.458923,
             "id": "Treasure0035",
             "name": "Old Map",
             "link": "Old Map"
@@ -376,7 +376,7 @@
               2025.76697,
               4468.05811
             ],
-            "elv": 1519.37402,
+            "elv": 1414.37402,
             "id": "Treasure0036",
             "name": "Zonaite Shin Guards",
             "link": "Zonaite Shin Guards"
@@ -386,7 +386,7 @@
               -1735.54895,
               -954.141174
             ],
-            "elv": 1111.89905,
+            "elv": 1006.89905,
             "id": "Treasure0037",
             "name": "Sage\u0027s Will",
             "link": "Sage\u0027s Will"
@@ -396,7 +396,7 @@
               -1739.20996,
               -986.273621
             ],
-            "elv": 1116.84998,
+            "elv": 1011.84998,
             "id": "Treasure0038",
             "name": "Magic Rod",
             "link": "Magic Rod"
@@ -406,7 +406,7 @@
               -40.348381,
               -1226.70898
             ],
-            "elv": 522.152222,
+            "elv": 417.152222,
             "id": "Treasure0039",
             "name": "Large Zonaite",
             "link": "Large Zonaite"
@@ -416,7 +416,7 @@
               -317.059692,
               -572.534302
             ],
-            "elv": 517.87738,
+            "elv": 412.87738,
             "id": "Treasure0040",
             "name": "Large Zonai Charge",
             "link": "Large Zonai Charge"
@@ -426,7 +426,7 @@
               -44.6948509,
               943.648071
             ],
-            "elv": 534.87738,
+            "elv": 429.87738,
             "id": "Treasure0041",
             "name": "Large Zonai Charge",
             "link": "Large Zonai Charge"
@@ -436,7 +436,7 @@
               -182.449905,
               590.791626
             ],
-            "elv": 479.877411,
+            "elv": 374.877411,
             "id": "Treasure0042",
             "name": "Large Zonai Charge",
             "link": "Large Zonai Charge"
@@ -446,7 +446,7 @@
               257.085999,
               1494.22803
             ],
-            "elv": 491.877411,
+            "elv": 386.877411,
             "id": "Treasure0043",
             "name": "Big Battery",
             "link": "Big Battery"
@@ -456,7 +456,7 @@
               981.563293,
               1781.15198
             ],
-            "elv": 1331.57996,
+            "elv": 1226.57996,
             "id": "Treasure0044",
             "name": "Sage\u0027s Will",
             "link": "Sage\u0027s Will"
@@ -466,7 +466,7 @@
               -2592.07788,
               2159.54395
             ],
-            "elv": 1368.35901,
+            "elv": 1263.35901,
             "id": "Treasure0045",
             "name": "Old Map",
             "link": "Old Map"
@@ -476,7 +476,7 @@
               -1774.46997,
               2374.18896
             ],
-            "elv": 1594.56396,
+            "elv": 1489.56396,
             "id": "Treasure0046",
             "name": "Zonaite Waistguard",
             "link": "Zonaite Waistguard"
@@ -486,7 +486,7 @@
               -20.5845203,
               -3376.84302
             ],
-            "elv": 2390.16797,
+            "elv": 2285.16797,
             "id": "Treasure0047",
             "name": "Old Map",
             "link": "Old Map"
@@ -496,7 +496,7 @@
               -1809.80005,
               -1956.28601
             ],
-            "elv": 1272.59302,
+            "elv": 1167.59302,
             "id": "Treasure0048",
             "name": "Old Map",
             "link": "Old Map"
@@ -506,7 +506,7 @@
               2195.6001,
               435.191101
             ],
-            "elv": 2349.229,
+            "elv": 2244.229,
             "id": "Treasure0049",
             "name": "Old Map",
             "link": "Old Map"
@@ -516,7 +516,7 @@
               -352.654602,
               1662.93799
             ],
-            "elv": 506.256104,
+            "elv": 401.256104,
             "id": "Treasure0050",
             "name": "Old Map",
             "link": "Old Map"
@@ -526,7 +526,7 @@
               2922.97803,
               -3860.64307
             ],
-            "elv": 853.328979,
+            "elv": 748.328979,
             "id": "Treasure0051",
             "name": "Old Map",
             "link": "Old Map"
@@ -536,7 +536,7 @@
               2151.91602,
               -3075.427
             ],
-            "elv": 753.50769,
+            "elv": 648.50769,
             "id": "Treasure0052",
             "name": "Sage\u0027s Will",
             "link": "Sage\u0027s Will"
@@ -546,7 +546,7 @@
               1572.88696,
               -3781.09497
             ],
-            "elv": 1343.48499,
+            "elv": 1238.48499,
             "id": "Treasure0053",
             "name": "Sage\u0027s Will",
             "link": "Sage\u0027s Will"
@@ -556,7 +556,7 @@
               608.125488,
               -3961.84204
             ],
-            "elv": 1813.71802,
+            "elv": 1708.71802,
             "id": "Treasure0054",
             "name": "Old Map",
             "link": "Old Map"
@@ -566,7 +566,7 @@
               1081.97705,
               -3569.125
             ],
-            "elv": 1858.12903,
+            "elv": 1753.12903,
             "id": "Treasure0055",
             "name": "Mirror x 3",
             "link": "Mirror"
@@ -576,7 +576,7 @@
               1049.87805,
               -3633.05811
             ],
-            "elv": 1874.85205,
+            "elv": 1769.85205,
             "id": "Treasure0056",
             "name": "Star Fragment",
             "link": "Star Fragment"
@@ -586,7 +586,7 @@
               459.374786,
               3167.95288
             ],
-            "elv": 1041.17798,
+            "elv": 936.177979,
             "id": "Treasure0057",
             "name": "Old Map",
             "link": "Old Map"
@@ -596,7 +596,7 @@
               525,
               2910.59399
             ],
-            "elv": 1035.43994,
+            "elv": 930.439941,
             "id": "Treasure0058",
             "name": "Sage\u0027s Will",
             "link": "Sage\u0027s Will"
@@ -606,7 +606,7 @@
               3522.5,
               -787.5
             ],
-            "elv": 1190,
+            "elv": 1085,
             "id": "Treasure0059",
             "name": "Mighty Zonaite Shield",
             "link": "Mighty Zonaite Shield"
@@ -616,7 +616,7 @@
               3522.5,
               -912.25
             ],
-            "elv": 1190,
+            "elv": 1085,
             "id": "Treasure0060",
             "name": "Mighty Zonaite Longsword",
             "link": "Mighty Zonaite Longsword"
@@ -626,7 +626,7 @@
               3622.5,
               -803.75
             ],
-            "elv": 1189.87903,
+            "elv": 1084.87903,
             "id": "Treasure0061",
             "name": "Mighty Zonaite Sword",
             "link": "Mighty Zonaite Sword"
@@ -636,7 +636,7 @@
               3547.5,
               -912.25
             ],
-            "elv": 1190,
+            "elv": 1085,
             "id": "Treasure0062",
             "name": "Mighty Zonaite Spear",
             "link": "Mighty Zonaite Spear"
@@ -646,7 +646,7 @@
               3577.5,
               -847.5
             ],
-            "elv": 1190,
+            "elv": 1085,
             "id": "Treasure0063",
             "name": "Big Battery",
             "link": "Big Battery"
@@ -656,7 +656,7 @@
               3535.05005,
               -705.346924
             ],
-            "elv": 1291.48804,
+            "elv": 1186.48804,
             "id": "Treasure0064",
             "name": "Zonaite Bow",
             "link": "Zonaite Bow"
@@ -666,7 +666,7 @@
               -3455.5,
               -1795.04395
             ],
-            "elv": 1291.56396,
+            "elv": 1186.56396,
             "id": "Treasure0065",
             "name": "Big Battery",
             "link": "Big Battery"
@@ -676,7 +676,7 @@
               -3560,
               -1794.75
             ],
-            "elv": 1127.62097,
+            "elv": 1022.62097,
             "id": "Treasure0066",
             "name": "Mighty Zonaite Shield",
             "link": "Mighty Zonaite Shield"
@@ -686,7 +686,7 @@
               -3490,
               -1762.5
             ],
-            "elv": 1165,
+            "elv": 1060,
             "id": "Treasure0067",
             "name": "Zonaite Bow",
             "link": "Zonaite Bow"
@@ -696,7 +696,7 @@
               -3490,
               -1827.5
             ],
-            "elv": 1167.5,
+            "elv": 1062.5,
             "id": "Treasure0068",
             "name": "Mighty Zonaite Longsword",
             "link": "Mighty Zonaite Longsword"
@@ -706,7 +706,7 @@
               -3425,
               -1827.5
             ],
-            "elv": 1170.00195,
+            "elv": 1065.00195,
             "id": "Treasure0069",
             "name": "Mighty Zonaite Spear",
             "link": "Mighty Zonaite Spear"
@@ -716,7 +716,7 @@
               -3425,
               -1762.5
             ],
-            "elv": 1167.5,
+            "elv": 1062.5,
             "id": "Treasure0070",
             "name": "Mighty Zonaite Sword",
             "link": "Mighty Zonaite Sword"
@@ -726,7 +726,7 @@
               3622.5,
               4602.5
             ],
-            "elv": 1190,
+            "elv": 1085,
             "id": "Treasure0071",
             "name": "Mighty Zonaite Longsword",
             "link": "Mighty Zonaite Longsword"
@@ -736,7 +736,7 @@
               3672.5,
               4557.5
             ],
-            "elv": 1190,
+            "elv": 1085,
             "id": "Treasure0072",
             "name": "Mighty Zonaite Spear",
             "link": "Mighty Zonaite Spear"
@@ -746,7 +746,7 @@
               3562.5,
               4732.5
             ],
-            "elv": 1190,
+            "elv": 1085,
             "id": "Treasure0073",
             "name": "Mighty Zonaite Shield",
             "link": "Mighty Zonaite Shield"
@@ -756,7 +756,7 @@
               3657.5,
               4772.5
             ],
-            "elv": 1190,
+            "elv": 1085,
             "id": "Treasure0074",
             "name": "Zonaite Bow",
             "link": "Zonaite Bow"
@@ -766,7 +766,7 @@
               3717.5,
               4692.5
             ],
-            "elv": 1190,
+            "elv": 1085,
             "id": "Treasure0075",
             "name": "Mighty Zonaite Sword",
             "link": "Mighty Zonaite Sword"
@@ -776,7 +776,7 @@
               3712,
               4655
             ],
-            "elv": 1169.099,
+            "elv": 1064.099,
             "id": "Treasure0076",
             "name": "Big Battery",
             "link": "Big Battery"
@@ -786,7 +786,7 @@
               -1631.98999,
               361.125885
             ],
-            "elv": 2334.2981,
+            "elv": 2229.2981,
             "id": "Treasure0077",
             "name": "Archaic Legwear",
             "link": "Archaic Legwear"
@@ -796,7 +796,7 @@
               -1698.73499,
               379.567596
             ],
-            "elv": 2441.25,
+            "elv": 2336.25,
             "id": "Treasure0078",
             "name": "Wing x 3",
             "link": "Wing"
@@ -806,7 +806,7 @@
               -1100.14697,
               513.34082
             ],
-            "elv": 1540.63501,
+            "elv": 1435.63501,
             "id": "Treasure0079",
             "name": "Wing x 3",
             "link": "Wing"
@@ -816,7 +816,7 @@
               -922.76709,
               280.248199
             ],
-            "elv": 1498.30103,
+            "elv": 1393.30103,
             "id": "Treasure0080",
             "name": "Opal",
             "link": "Opal"
@@ -826,7 +826,7 @@
               -1527.68604,
               24.2987595
             ],
-            "elv": 1513.76099,
+            "elv": 1408.76099,
             "id": "Treasure0081",
             "name": "Arrow x 5",
             "link": "Arrow"
@@ -836,7 +836,7 @@
               -1586.40002,
               141.785507
             ],
-            "elv": 1484.95105,
+            "elv": 1379.95105,
             "id": "Treasure0082",
             "name": "Wooden Stick",
             "link": "Wooden Stick"
@@ -846,7 +846,7 @@
               -1450.24097,
               130.650497
             ],
-            "elv": 1480.40002,
+            "elv": 1375.40002,
             "id": "Treasure0083",
             "name": "Amber",
             "link": "Amber"
@@ -856,7 +856,7 @@
               -1558.29102,
               238.497604
             ],
-            "elv": 1469.55798,
+            "elv": 1364.55798,
             "id": "Treasure0084",
             "name": "Archaic Tunic",
             "link": "Archaic Tunic"
@@ -866,7 +866,7 @@
               -1627.81897,
               314.877411
             ],
-            "elv": 1522.672,
+            "elv": 1417.672,
             "id": "Treasure0085",
             "name": "Energizing Elixir (2/5 wheel)",
             "link": "Energizing Elixir"
@@ -876,7 +876,7 @@
               -1338.25,
               768.120972
             ],
-            "elv": 1693.39502,
+            "elv": 1588.39502,
             "id": "Treasure0086",
             "name": "Archaic Warm Greaves",
             "link": "Archaic Warm Greaves"
@@ -886,7 +886,7 @@
               -1236.37097,
               830.376587
             ],
-            "elv": 1701.84497,
+            "elv": 1596.84497,
             "id": "Treasure0087",
             "name": "Wing x 3",
             "link": "Wing"
@@ -896,7 +896,7 @@
               -1204.38,
               738.974609
             ],
-            "elv": 1540.34094,
+            "elv": 1435.34094,
             "id": "Treasure0088",
             "name": "Arrow x 5",
             "link": "Arrow"
@@ -906,7 +906,7 @@
               -1377.06995,
               758.589478
             ],
-            "elv": 1597.67603,
+            "elv": 1492.67603,
             "id": "Treasure0089",
             "name": "Amber",
             "link": "Amber"
@@ -916,7 +916,7 @@
               -1369.62598,
               768.304321
             ],
-            "elv": 1650.35999,
+            "elv": 1545.35999,
             "id": "Treasure0090",
             "name": "Flame Emitter",
             "link": "Flame Emitter"
@@ -926,7 +926,7 @@
               -1418.87,
               542.895996
             ],
-            "elv": 1561.26599,
+            "elv": 1456.26599,
             "id": "Treasure0091",
             "name": "Fan x 3",
             "link": "Fan"
@@ -936,7 +936,7 @@
               -991.206421,
               80.9542999
             ],
-            "elv": 1524.42603,
+            "elv": 1419.42603,
             "id": "Treasure0092",
             "name": "Amber",
             "link": "Amber"
@@ -946,7 +946,7 @@
               -1183.83203,
               389.254089
             ],
-            "elv": 1579.53003,
+            "elv": 1474.53003,
             "id": "Treasure0093",
             "name": "Zonaite x 3",
             "link": "Zonaite"
@@ -956,7 +956,7 @@
               -1716.11804,
               275.428497
             ],
-            "elv": 1460.64795,
+            "elv": 1355.64795,
             "id": "Treasure0094",
             "name": "Amber",
             "link": "Amber"
@@ -966,7 +966,7 @@
               -1674.43994,
               571.599121
             ],
-            "elv": 1574.48303,
+            "elv": 1469.48303,
             "id": "Treasure0095",
             "name": "Portable Pot",
             "link": "Portable Pot"
@@ -976,7 +976,7 @@
               -1807.92004,
               431.958801
             ],
-            "elv": 1554.56604,
+            "elv": 1449.56604,
             "id": "Treasure0096",
             "name": "Zonaite",
             "link": "Zonaite"
@@ -986,7 +986,7 @@
               -3273.62891,
               1126.41394
             ],
-            "elv": 862.672607,
+            "elv": 757.672607,
             "id": "Treasure0097",
             "name": "Old Map",
             "link": "Old Map"
@@ -996,7 +996,7 @@
               -3330.41309,
               1320.99097
             ],
-            "elv": 559.177429,
+            "elv": 454.177429,
             "id": "Treasure0098",
             "name": "Mighty Zonaite Sword",
             "link": "Mighty Zonaite Sword"
@@ -1006,7 +1006,7 @@
               3513.55103,
               -3475.80005
             ],
-            "elv": 1035.90295,
+            "elv": 930.902954,
             "id": "Treasure0099",
             "name": "Old Map",
             "link": "Old Map"
@@ -1016,7 +1016,7 @@
               421.227997,
               3604.66309
             ],
-            "elv": 1307.5,
+            "elv": 1202.5,
             "id": "Treasure0100",
             "name": "Strong Zonaite Longsword",
             "link": "Strong Zonaite Longsword"
@@ -1026,7 +1026,7 @@
               615.508179,
               3632.75293
             ],
-            "elv": 1372.50403,
+            "elv": 1267.50403,
             "id": "Treasure0101",
             "name": "Hydrant",
             "link": "Hydrant"
@@ -1036,7 +1036,7 @@
               367.375702,
               3458.11499
             ],
-            "elv": 1617.72705,
+            "elv": 1512.72705,
             "id": "Treasure0102",
             "name": "Opal",
             "link": "Opal"
@@ -1046,7 +1046,7 @@
               530.978027,
               3685.16309
             ],
-            "elv": 1312.552,
+            "elv": 1207.552,
             "id": "Treasure0103",
             "name": "Strong Zonaite Spear",
             "link": "Strong Zonaite Spear"
@@ -1056,7 +1056,7 @@
               524.903992,
               3340.698
             ],
-            "elv": 1560.22095,
+            "elv": 1455.22095,
             "id": "Treasure0104",
             "name": "Strong Zonaite Longsword",
             "link": "Strong Zonaite Longsword"
@@ -1066,7 +1066,7 @@
               870.209717,
               3473.77905
             ],
-            "elv": 1385.948,
+            "elv": 1280.948,
             "id": "Treasure0105",
             "name": "Strong Zonaite Spear",
             "link": "Strong Zonaite Spear"
@@ -1076,7 +1076,7 @@
               633.127991,
               3379.44995
             ],
-            "elv": 1395.96997,
+            "elv": 1290.96997,
             "id": "Treasure0106",
             "name": "Sage\u0027s Will",
             "link": "Sage\u0027s Will"
@@ -1086,7 +1086,7 @@
               2170.81299,
               -4470.40576
             ],
-            "elv": 1359.10706,
+            "elv": 1254.10706,
             "id": "Treasure0107",
             "name": "Sage\u0027s Will",
             "link": "Sage\u0027s Will"
@@ -1096,7 +1096,7 @@
               -2732.08594,
               -4447.59521
             ],
-            "elv": 1525.33801,
+            "elv": 1420.33801,
             "id": "Treasure0108",
             "name": "Sage\u0027s Will",
             "link": "Sage\u0027s Will"
@@ -1106,7 +1106,7 @@
               -3829.07104,
               4652.54004
             ],
-            "elv": 1171.177,
+            "elv": 1066.177,
             "id": "Treasure0109",
             "name": "Sage\u0027s Will",
             "link": "Sage\u0027s Will"
@@ -1116,7 +1116,7 @@
               1794.99902,
               3664.83105
             ],
-            "elv": 1094.375,
+            "elv": 989.375,
             "id": "Treasure0110",
             "name": "Old Map",
             "link": "Old Map"
@@ -1126,7 +1126,7 @@
               -1399.98804,
               -1232.50598
             ],
-            "elv": 1093.90906,
+            "elv": 988.909058,
             "id": "Treasure0111",
             "name": "Old Map",
             "link": "Old Map"
@@ -1136,7 +1136,7 @@
               -1584.34497,
               -1456.57605
             ],
-            "elv": 1325.97998,
+            "elv": 1220.97998,
             "id": "Treasure0112",
             "name": "Old Map",
             "link": "Old Map"
@@ -1146,7 +1146,7 @@
               -1590.62305,
               -815.706604
             ],
-            "elv": 1020.34003,
+            "elv": 915.340027,
             "id": "Treasure0113",
             "name": "Old Map",
             "link": "Old Map"
@@ -1156,7 +1156,7 @@
               -1541.99805,
               -1347.78601
             ],
-            "elv": 907.241272,
+            "elv": 802.241272,
             "id": "Treasure0114",
             "name": "Old Map",
             "link": "Old Map"
@@ -1166,7 +1166,7 @@
               1013.61902,
               1810.72498
             ],
-            "elv": 1309.83606,
+            "elv": 1204.83606,
             "id": "Treasure0115",
             "name": "Old Map",
             "link": "Old Map"
@@ -1176,7 +1176,7 @@
               1147.04199,
               2025.099
             ],
-            "elv": 1364.25903,
+            "elv": 1259.25903,
             "id": "Treasure0116",
             "name": "Battery x 3",
             "link": "Battery"
@@ -1186,7 +1186,7 @@
               3434.15894,
               3294.51001
             ],
-            "elv": 900.125,
+            "elv": 795.125,
             "id": "Treasure0117",
             "name": "Old Map",
             "link": "Old Map"
@@ -1196,7 +1196,7 @@
               -2190.70093,
               1651.63098
             ],
-            "elv": 679.409607,
+            "elv": 574.409607,
             "id": "Treasure0118",
             "name": "Old Map",
             "link": "Old Map"
@@ -1206,7 +1206,7 @@
               -1414.078,
               2644.91089
             ],
-            "elv": 1581.15198,
+            "elv": 1476.15198,
             "id": "Treasure0119",
             "name": "Old Map",
             "link": "Old Map"
@@ -1216,7 +1216,7 @@
               -263.468597,
               -3456.83105
             ],
-            "elv": 2044.56104,
+            "elv": 1939.56104,
             "id": "Treasure0120",
             "name": "Sage\u0027s Will",
             "link": "Sage\u0027s Will"
@@ -1226,7 +1226,7 @@
               -1813.13403,
               -1959.23206
             ],
-            "elv": 1245.79004,
+            "elv": 1140.79004,
             "id": "Treasure0121",
             "name": "Sage\u0027s Will",
             "link": "Sage\u0027s Will"
@@ -1236,7 +1236,7 @@
               -3601.43799,
               2552.25806
             ],
-            "elv": 1000.125,
+            "elv": 895.125,
             "id": "Treasure0122",
             "name": "Sage\u0027s Will",
             "link": "Sage\u0027s Will"
@@ -1246,7 +1246,7 @@
               3513.12598,
               -1648.56494
             ],
-            "elv": 1070.24097,
+            "elv": 965.240967,
             "id": "Treasure0123",
             "name": "Old Map",
             "link": "Old Map"
@@ -1256,7 +1256,7 @@
               -411.735992,
               -2297.41309
             ],
-            "elv": 1000.125,
+            "elv": 895.125,
             "id": "Treasure0124",
             "name": "Sage\u0027s Will",
             "link": "Sage\u0027s Will"
@@ -1266,7 +1266,7 @@
               -2591.47705,
               -332.642303
             ],
-            "elv": 1000.125,
+            "elv": 895.125,
             "id": "Treasure0125",
             "name": "Sage\u0027s Will",
             "link": "Sage\u0027s Will"
@@ -1276,7 +1276,7 @@
               -1064.56104,
               1933.776
             ],
-            "elv": 1066.83203,
+            "elv": 961.832031,
             "id": "Treasure0126",
             "name": "Sage\u0027s Will",
             "link": "Sage\u0027s Will"
@@ -1286,7 +1286,7 @@
               -1310.74402,
               1765.79004
             ],
-            "elv": 1007.66199,
+            "elv": 902.661987,
             "id": "Treasure0127",
             "name": "Old Map",
             "link": "Old Map"
@@ -1296,7 +1296,7 @@
               -979.001587,
               1851.50806
             ],
-            "elv": 1044.20605,
+            "elv": 939.206055,
             "id": "Treasure0128",
             "name": "Old Map",
             "link": "Old Map"
@@ -1306,7 +1306,7 @@
               -777.557373,
               4752.21777
             ],
-            "elv": 2022.33801,
+            "elv": 1917.33801,
             "id": "Treasure0129",
             "name": "Old Map",
             "link": "Old Map"
@@ -1316,7 +1316,7 @@
               -869.843079,
               4659.19092
             ],
-            "elv": 1873.97302,
+            "elv": 1768.97302,
             "id": "Treasure0130",
             "name": "Old Map",
             "link": "Old Map"
@@ -1326,7 +1326,7 @@
               2715.01709,
               -3830.43604
             ],
-            "elv": 650.097473,
+            "elv": 545.097473,
             "id": "Treasure0131",
             "name": "Old Map",
             "link": "Old Map"
@@ -1336,7 +1336,7 @@
               2840.57788,
               -3869.7561
             ],
-            "elv": 813.64679,
+            "elv": 708.64679,
             "id": "Treasure0132",
             "name": "Flame Emitter",
             "link": "Flame Emitter"
@@ -1346,7 +1346,7 @@
               2811.3689,
               -3889.48511
             ],
-            "elv": 808.846802,
+            "elv": 703.846802,
             "id": "Treasure0133",
             "name": "Balloon",
             "link": "Balloon"
@@ -1356,7 +1356,7 @@
               2465.67407,
               -3801.66504
             ],
-            "elv": 624.303894,
+            "elv": 519.303894,
             "id": "Treasure0134",
             "name": "Large Zonai Charge",
             "link": "Large Zonai Charge"
@@ -1366,7 +1366,7 @@
               1431.37402,
               -3437.53101
             ],
-            "elv": 1296.21399,
+            "elv": 1191.21399,
             "id": "Treasure0135",
             "name": "Old Map",
             "link": "Old Map"
@@ -1376,7 +1376,7 @@
               466.733093,
               -3634.9729
             ],
-            "elv": 1776.16101,
+            "elv": 1671.16101,
             "id": "Treasure0136",
             "name": "Old Map",
             "link": "Old Map"
@@ -1386,7 +1386,7 @@
               942.658875,
               -3593.30103
             ],
-            "elv": 1836.96106,
+            "elv": 1731.96106,
             "id": "Treasure0137",
             "name": "Zonaite Helm",
             "link": "Zonaite Helm"
@@ -1396,7 +1396,7 @@
               -251.774994,
               2993.42505
             ],
-            "elv": 1000.125,
+            "elv": 895.125,
             "id": "Treasure0138",
             "name": "Sage\u0027s Will",
             "link": "Sage\u0027s Will"
@@ -1406,7 +1406,7 @@
               -1272.48901,
               121.196198
             ],
-            "elv": 1522.35498,
+            "elv": 1417.35498,
             "id": "Treasure0139",
             "name": "Opal",
             "link": "Opal"
@@ -1416,7 +1416,7 @@
               -1605.33496,
               472.059601
             ],
-            "elv": 1516.05798,
+            "elv": 1411.05798,
             "id": "Treasure0140",
             "name": "Opal",
             "link": "Opal"
@@ -1426,7 +1426,7 @@
               -1458.00305,
               833.901978
             ],
-            "elv": 1672.203,
+            "elv": 1567.203,
             "id": "Treasure0141",
             "name": "Opal",
             "link": "Opal"
@@ -1436,7 +1436,7 @@
               -1444.35596,
               853.819275
             ],
-            "elv": 1656.75098,
+            "elv": 1551.75098,
             "id": "Treasure0142",
             "name": "Amber",
             "link": "Amber"
@@ -1446,7 +1446,7 @@
               -765.25,
               453.509186
             ],
-            "elv": 1573.46704,
+            "elv": 1468.46704,
             "id": "Treasure0143",
             "name": "Ancient Hero\u0027s Aspect",
             "link": "Ancient Hero\u0027s Aspect"
@@ -1456,7 +1456,7 @@
               -1613.05505,
               501.276001
             ],
-            "elv": 1893.85901,
+            "elv": 1788.85901,
             "id": "Treasure0144",
             "name": "Large Zonai Charge",
             "link": "Large Zonai Charge"
@@ -1466,7 +1466,7 @@
               -912.353027,
               588.930603
             ],
-            "elv": 1579.44897,
+            "elv": 1474.44897,
             "id": "Treasure0145",
             "name": "Large Zonaite",
             "link": "Large Zonaite"
@@ -1476,7 +1476,7 @@
               -1096.79004,
               341.226196
             ],
-            "elv": 1620.87598,
+            "elv": 1515.87598,
             "id": "Treasure0146",
             "name": "Large Zonai Charge",
             "link": "Large Zonai Charge"
