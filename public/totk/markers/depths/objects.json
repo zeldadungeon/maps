@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Cooking Pot",
+    "link": "Cooking Pot",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "pot.png",
+          "width": 36,
+          "height": 36
+        },
+        "markers": [
+          {
+            "coords": [
+              -2679.73999,
+              -1227.18896
+            ],
+            "elv": -411.010315,
+            "id": "Pot_D000"
+          }
+        ]
+      }
+    ]
+  }
+]
