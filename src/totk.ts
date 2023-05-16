@@ -33,7 +33,7 @@ window.onload = async () => {
   const surface = map.addMapLayer("Surface", "surface");
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const depths = map.addMapLayer("Depths", "depths");
-  map.addControls(["Paths"]);
+  map.addControls(["User-Contributed", "Paths"]);
   map.addLegend([
     legendItem("Tower", "tower", 20, 26),
     legendItem("Shrine", "shrine", 27, 29),
@@ -163,6 +163,7 @@ window.onload = async () => {
     iconHeight: number,
     minZoom: number
   ): Promise<void> {
+    const ctrs: { [key: string]: number } = {};
     return (
       map.wiki
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -176,7 +177,7 @@ window.onload = async () => {
           const wikiRegex = /<p>([\s\S]*),\n?<\/p>/g;
           const res = wikiRegex.exec(markers);
           markers = res ? res[1] : "";
-          const layer = `{
+          const layer: Schema.Layer = JSON.parse(`{
   "minZoom": ${minZoom},
   "icon": {
       "url": "${iconUrl}.png",
@@ -186,10 +187,19 @@ window.onload = async () => {
   "markers": [
     ${markers}
   ]
-}`;
+}`);
+          layer.markers.forEach((m) => {
+            m.tags = ["User-Contributed"];
+            if (ctrs[m.id] == undefined) {
+              ctrs[m.id] = 1;
+            } else {
+              m.id = `${m.id}_${ctrs[m.id]++}`;
+            }
+          });
+
           mapLayer.addCategory(categoryName, [
             Layer.fromJSON(
-              JSON.parse(layer),
+              layer,
               categoryName,
               undefined,
               infoSource,
