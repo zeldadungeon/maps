@@ -282,6 +282,7 @@ export class ZDMap extends Map {
     searchBox.setAttribute("type", "text");
     searchBox.setAttribute("placeholder", "Search");
     const results = DomUtil.create("ul", "zd-search__results", searchContent);
+    DomEvent.disableScrollPropagation(results);
 
     const searchControl = ZDControl.create({
       icon: "search",
