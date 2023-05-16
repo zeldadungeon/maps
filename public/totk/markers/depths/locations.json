@@ -1261,7 +1261,7 @@
   },
   {
     "name": "Device Dispenser",
-    "source": "summary",
+    "source": "mapns",
     "layers": [
       {
         "minZoom": 2,
@@ -1278,8 +1278,8 @@
             ],
             "elv": -447.983398,
             "id": "RBox_Field_K_03",
-            "name": "Dispenser",
-            "link": "Dispenser"
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
           },
           {
             "coords": [
@@ -1288,8 +1288,8 @@
             ],
             "elv": -857.745483,
             "id": "RBox_Field_F_02",
-            "name": "Dispenser",
-            "link": "Dispenser"
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
           }
         ]
       }
@@ -1342,7 +1342,7 @@
                 -775.906311
               ]
             },
-            "elv": 0,
+            "elv": -452.461792,
             "id": "DemonStatue_00",
             "name": "Bargainer Statue",
             "link": "Bargainer Statue"
@@ -1352,7 +1352,7 @@
               -796.506287,
               458.316193
             ],
-            "elv": 0,
+            "elv": -364.959015,
             "id": "DemonStatue_01",
             "name": "Bargainer Statue",
             "link": "Bargainer Statue"
@@ -1362,7 +1362,7 @@
               2690.37305,
               -1032.64697
             ],
-            "elv": 0,
+            "elv": -161.246796,
             "id": "DemonStatue_02",
             "name": "Bargainer Statue",
             "link": "Bargainer Statue"
@@ -1382,7 +1382,7 @@
                 3849.98511
               ]
             },
-            "elv": 0,
+            "elv": -745.759521,
             "id": "DemonStatue_03",
             "name": "Bargainer Statue",
             "link": "Bargainer Statue"
@@ -1392,7 +1392,7 @@
               -2398.97607,
               883.004883
             ],
-            "elv": 0,
+            "elv": -281.016388,
             "id": "DemonStatue_04",
             "name": "Bargainer Statue",
             "link": "Bargainer Statue"
@@ -1402,7 +1402,7 @@
               2604.20288,
               3702.1499
             ],
-            "elv": 0,
+            "elv": -306.649902,
             "id": "DemonStatue_05",
             "name": "Bargainer Statue",
             "link": "Bargainer Statue"
@@ -1428,7 +1428,7 @@
               -3375.74707,
               1356.91296
             ],
-            "elv": 0,
+            "elv": -631.973816,
             "id": "ForgeShopGolem",
             "name": "Smithing Construct",
             "link": "Smithing Construct"
@@ -1448,7 +1448,7 @@
                 -3810.48999
               ]
             },
-            "elv": 0,
+            "elv": -382.393097,
             "id": "SmeltShopGolem_01",
             "name": "Forge Construct",
             "link": "Forge Construct"
@@ -1458,7 +1458,7 @@
               -2515.12695,
               -3190.32007
             ],
-            "elv": 0,
+            "elv": -370.160004,
             "id": "SmeltShopGolem_02",
             "name": "Forge Construct",
             "link": "Forge Construct"
@@ -1468,7 +1468,7 @@
               556.71228,
               3243.86597
             ],
-            "elv": 0,
+            "elv": -644.922424,
             "id": "SmeltShopGolem_03",
             "name": "Forge Construct",
             "link": "Forge Construct"
@@ -1488,7 +1488,7 @@
                 -3423.90698
               ]
             },
-            "elv": 0,
+            "elv": -311.521912,
             "id": "SmeltShopGolem_04",
             "name": "Forge Construct",
             "link": "Forge Construct"
@@ -1508,7 +1508,7 @@
                 1675.63
               ]
             },
-            "elv": 0,
+            "elv": -718.848999,
             "id": "SmeltShopGolem_05",
             "name": "Forge Construct",
             "link": "Forge Construct"
@@ -1528,7 +1528,7 @@
                 3968.26294
               ]
             },
-            "elv": 0,
+            "elv": -470.833008,
             "id": "SmeltShopGolem_06",
             "name": "Forge Construct",
             "link": "Forge Construct"
@@ -1538,7 +1538,7 @@
               -1178.61499,
               1767.34497
             ],
-            "elv": 0,
+            "elv": -523.655029,
             "id": "SmeltShopGolem_07",
             "name": "Forge Construct",
             "link": "Forge Construct"
@@ -1548,7 +1548,7 @@
               -2185.28906,
               3526.71997
             ],
-            "elv": 0,
+            "elv": -482.5,
             "id": "SmeltShopGolem_08",
             "name": "Forge Construct",
             "link": "Forge Construct"
@@ -1558,7 +1558,7 @@
               -3379.31104,
               2952.72998
             ],
-            "elv": 0,
+            "elv": -347.531006,
             "id": "SmeltShopGolem_09",
             "name": "Forge Construct",
             "link": "Forge Construct"
@@ -1598,7 +1598,7 @@
                 -856.203003
               ]
             },
-            "elv": 0,
+            "elv": -417.529602,
             "id": "SmeltShopGolem_10",
             "name": "Forge Construct",
             "link": "Forge Construct"

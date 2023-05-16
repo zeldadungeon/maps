@@ -1617,7 +1617,7 @@
   },
   {
     "name": "Device Dispenser",
-    "source": "summary",
+    "source": "mapns",
     "layers": [
       {
         "minZoom": 2,
@@ -1634,8 +1634,8 @@
             ],
             "elv": 107.4786,
             "id": "RBox_Field_H_02",
-            "name": "Dispenser",
-            "link": "Dispenser"
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
           },
           {
             "coords": [
@@ -1644,8 +1644,8 @@
             ],
             "elv": 260.223907,
             "id": "RBox_Field_R_02",
-            "name": "Dispenser",
-            "link": "Dispenser"
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
           },
           {
             "coords": [
@@ -1654,8 +1654,8 @@
             ],
             "elv": 195.447403,
             "id": "RBox_Field_L_02",
-            "name": "Dispenser",
-            "link": "Dispenser"
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
           }
         ]
       }
