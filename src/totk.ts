@@ -29,10 +29,10 @@ window.onload = async () => {
     center: [-1220, 500],
   });
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const sky = map.addMapLayer("Sky", "sky");
-  const surface = map.addMapLayer("Surface", "surface");
+  const sky = map.addMapLayer("Sky", "sky", "sky-selected");
+  const surface = map.addMapLayer("Surface", "surface", "surface-selected");
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const depths = map.addMapLayer("Depths", "depths");
+  const depths = map.addMapLayer("Depths", "depths", "depths-selected");
   map.addControls(["User-Contributed", "Paths"]);
   map.addLegend([
     legendItem("Tower", "tower", 20, 26),

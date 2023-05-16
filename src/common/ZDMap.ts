@@ -172,12 +172,14 @@ export class ZDMap extends Map {
 
   public addMapLayer(
     layerName = "Default",
-    tilePath: string | undefined = undefined
+    tilePath: string | undefined = undefined,
+    enabledTilePath?: string
   ): MapLayer {
     const layer = new MapLayer(
       this,
       layerName,
       tilePath,
+      enabledTilePath,
       this.tileSize,
       this.getMaxZoom(),
       this.bounds
