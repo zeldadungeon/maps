@@ -128,6 +128,9 @@ body {
   list-style: none;
   margin: auto;
   padding: 0;
+  // add scrollbar
+  overflow-y: auto;
+  max-height: 100vh;
 }
 
 .zd-search__result {
