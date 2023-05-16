@@ -70,32 +70,6 @@ window.onload = async () => {
     legendItem("Lynel", "lynel", 29, 30),
   ]);
 
-  function addBotwJson(categories: Schema.Category[]): void {
-    for (const category of categories) {
-      if (category.name != "Subregion") {
-        continue;
-      }
-      surface.addCategory(
-        category.name,
-        category.layers.map((l) => {
-          // For markers imported from botw, cut the coordinates in half to match totk's coordinate system
-          for (const m of l.markers) {
-            m.coords[0] = Math.floor(m.coords[0] / 2);
-            m.coords[1] = Math.floor(m.coords[1] / 2);
-          }
-          return Layer.fromJSON(
-            l,
-            category.name,
-            category.link,
-            category.source,
-            "totk",
-            map.wiki
-          );
-        })
-      );
-    }
-  }
-
   function addJson(layer: MapLayer, path: string): Promise<void> {
     return fetch(`${import.meta.env.BASE_URL}totk/markers/${path}`)
       .then((r) => r.json())
@@ -217,10 +191,6 @@ window.onload = async () => {
   }
 
   await Promise.allSettled([
-    fetch(`${import.meta.env.BASE_URL}botw/markers/locations.json`)
-      .then((r) => r.json())
-      .then(addBotwJson)
-      .catch((ex) => console.log(ex)),
     addJson(surface, "surface/seeds.json"),
     addJson(surface, "surface/locations.json"),
     addJson(surface, "surface/treasure.json"),
