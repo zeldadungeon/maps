@@ -929,16 +929,6 @@
           },
           {
             "coords": [
-              2232.06104,
-              1934.86499
-            ],
-            "elv": -105,
-            "id": "MapRegion_Eldin",
-            "name": "Eldin",
-            "link": "Eldin"
-          },
-          {
-            "coords": [
               -2825.31592,
               969.328186
             ],
@@ -946,16 +936,6 @@
             "id": "MapRegion_Firone_Sky",
             "name": "Faron Sky",
             "link": "Faron Sky"
-          },
-          {
-            "coords": [
-              -2825.31592,
-              969.328186
-            ],
-            "elv": -105,
-            "id": "MapRegion_Firone",
-            "name": "Faron",
-            "link": "Faron"
           },
           {
             "coords": [
@@ -969,16 +949,6 @@
           },
           {
             "coords": [
-              -3257.34204,
-              -3989.0061
-            ],
-            "elv": -105,
-            "id": "MapRegion_Gerudo",
-            "name": "Gerudo",
-            "link": "Gerudo"
-          },
-          {
-            "coords": [
               -1964.22803,
               2642.646
             ],
@@ -986,16 +956,6 @@
             "id": "MapRegion_Hateru_Sky",
             "name": "Necluda Sky",
             "link": "Necluda Sky"
-          },
-          {
-            "coords": [
-              -1685.25598,
-              2500.50488
-            ],
-            "elv": -105,
-            "id": "MapRegion_Hateru",
-            "name": "Necluda",
-            "link": "Necluda"
           },
           {
             "coords": [
@@ -1009,16 +969,6 @@
           },
           {
             "coords": [
-              2704.61011,
-              -3357.823
-            ],
-            "elv": -105,
-            "id": "MapRegion_Hebura",
-            "name": "Hebra",
-            "link": "Hebra"
-          },
-          {
-            "coords": [
               77.9341965,
               -247.977493
             ],
@@ -1026,16 +976,6 @@
             "id": "MapRegion_HyrulePrairie_Sky",
             "name": "Central Hyrule Sky",
             "link": "Central Hyrule Sky"
-          },
-          {
-            "coords": [
-              -116.213402,
-              -256.196808
-            ],
-            "elv": -105,
-            "id": "MapRegion_HyrulePrairie",
-            "name": "Central Hyrule",
-            "link": "Central Hyrule"
           },
           {
             "coords": [
@@ -1049,16 +989,6 @@
           },
           {
             "coords": [
-              -615.161987,
-              3174.93311
-            ],
-            "elv": -105,
-            "id": "MapRegion_Lanayru",
-            "name": "Lanayru",
-            "link": "Lanayru"
-          },
-          {
-            "coords": [
               2575.97803,
               3950.05908
             ],
@@ -1066,16 +996,6 @@
             "id": "MapRegion_Tamul_Sky",
             "name": "Akkala Sky",
             "link": "Akkala Sky"
-          },
-          {
-            "coords": [
-              3039.23096,
-              3556.76904
-            ],
-            "elv": -105,
-            "id": "MapRegion_Tamul",
-            "name": "Akkala",
-            "link": "Akkala"
           }
         ]
       },
@@ -1417,6 +1337,16 @@
             "id": "ZonauTriedForceSkyIsland",
             "name": "Dragonhead Island",
             "link": "Dragonhead Island"
+          },
+          {
+            "coords": [
+              535.534119,
+              4077.05493
+            ],
+            "elv": 896,
+            "id": "Zora_FishIsland",
+            "name": "Floating Scales Island",
+            "link": "Floating Scales Island"
           }
         ]
       },
