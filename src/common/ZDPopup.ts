@@ -21,7 +21,7 @@ export interface Options extends L.PopupOptions {
   name: string;
   link?: string;
   infoSource: string;
-  elevation?: number;
+  coords?: number[];
   wiki: WikiConnector;
   linkClicked(target: string): void;
 }
@@ -54,9 +54,23 @@ export class ZDPopup extends Popup {
 
     this.body = DomUtil.create("div", "zd-popup__body", this.container);
 
-    if (options.elevation != undefined) {
+    function formatCoord(coord: number) {
+      return `${coord < 0 ? "-" : ""}${Math.round(Math.abs(coord))
+        .toString()
+        .padStart(4, "0")}`;
+    }
+
+    if (options.coords != undefined) {
       const footer = DomUtil.create("div", "zd-popup__footer", this.container);
-      footer.innerText = `Elevation: ${options.elevation}`;
+      const lng = DomUtil.create("span", "zd-popup__coordinate", footer);
+      lng.title = "Longitude (increases toward the east)";
+      lng.innerText = formatCoord(options.coords[0]);
+      const lat = DomUtil.create("span", "zd-popup__coordinate", footer);
+      lat.title = "Latitude (increases toward the north)";
+      lat.innerText = formatCoord(options.coords[1]);
+      const elv = DomUtil.create("span", "zd-popup__coordinate", footer);
+      elv.title = "Elevation (increases toward the sky)";
+      elv.innerText = formatCoord(options.coords[2]);
     }
 
     this.controls = DomUtil.create("div", "zd-popup__controls", this.container);
