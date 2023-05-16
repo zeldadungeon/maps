@@ -10,6 +10,7 @@ window.onload = async () => {
 
   const map = ZDMap.create({
     directory: "la",
+    gameTitle: "Link's Awakening",
     mapSizePixels: 3280,
     tileSizePixels: 205,
     center: [0, 0],
@@ -73,7 +74,14 @@ window.onload = async () => {
       mapLayer.addCategory(
         category.name,
         category.layers.map((l) =>
-          Layer.fromJSON(l, category.source, "la", map.wiki)
+          Layer.fromJSON(
+            l,
+            category.name,
+            category.link,
+            category.source,
+            "la",
+            map.wiki
+          )
         )
       );
     }

@@ -1,6 +1,7 @@
 [
   {
     "name": "Treasure Chest",
+    "source": "summary",
     "layers": [
       {
         "minZoom": 5,
@@ -27,7 +28,7 @@
             ],
             "elv": 245.693405,
             "id": "Treasure0148",
-            "name": "Rocket x3",
+            "name": "Rocket x 3",
             "link": "Rocket"
           },
           {
@@ -57,7 +58,8 @@
             ],
             "elv": 276.241089,
             "id": "Treasure0151",
-            "name": "Unknown"
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
           },
           {
             "coords": [
@@ -126,7 +128,8 @@
             ],
             "elv": 449.241211,
             "id": "Treasure0158",
-            "name": "Unknown"
+            "name": "Sneaky Elixir (Lv 1)",
+            "link": "Sneaky Elixir"
           },
           {
             "coords": [
@@ -136,7 +139,7 @@
             "elv": 181.445496,
             "id": "Treasure0159",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -196,7 +199,7 @@
             "elv": 669.441711,
             "id": "Treasure0165",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -255,7 +258,7 @@
             ],
             "elv": 340.954895,
             "id": "Treasure0171",
-            "name": "Stake x3",
+            "name": "Stake x 3",
             "link": "Stake"
           },
           {
@@ -305,7 +308,7 @@
             ],
             "elv": 88.6380234,
             "id": "Treasure0176",
-            "name": "Bomb Flower x5",
+            "name": "Bomb Flower x 5",
             "link": "Bomb Flower"
           },
           {
@@ -315,7 +318,7 @@
             ],
             "elv": 132.177002,
             "id": "Treasure0177",
-            "name": "Portable Pot x5",
+            "name": "Portable Pot x 5",
             "link": "Portable Pot"
           },
           {
@@ -325,7 +328,7 @@
             ],
             "elv": 295.815308,
             "id": "Treasure0178",
-            "name": "Rocket x3",
+            "name": "Rocket x 3",
             "link": "Rocket"
           },
           {
@@ -515,7 +518,8 @@
             ],
             "elv": 129.416794,
             "id": "Treasure0197",
-            "name": "Unknown"
+            "name": "Brightbloom Seed x 5",
+            "link": "Brightbloom Seed"
           },
           {
             "coords": [
@@ -584,7 +588,7 @@
             ],
             "elv": 176.407394,
             "id": "Treasure0204",
-            "name": "Bomb Flower x3",
+            "name": "Bomb Flower x 3",
             "link": "Bomb Flower"
           },
           {
@@ -604,7 +608,7 @@
             ],
             "elv": 138.746002,
             "id": "Treasure0206",
-            "name": "Spring x5",
+            "name": "Spring x 5",
             "link": "Spring"
           },
           {
@@ -624,7 +628,7 @@
             ],
             "elv": 157.809296,
             "id": "Treasure0208",
-            "name": "Time Bomb x3",
+            "name": "Time Bomb x 3",
             "link": "Time Bomb"
           },
           {
@@ -634,7 +638,7 @@
             ],
             "elv": 181.130295,
             "id": "Treasure0209",
-            "name": "Wing x3",
+            "name": "Wing x 3",
             "link": "Wing"
           },
           {
@@ -735,7 +739,7 @@
             "elv": 508.466003,
             "id": "Treasure0219",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -745,7 +749,7 @@
             "elv": 423.811798,
             "id": "Treasure0220",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -814,7 +818,8 @@
             ],
             "elv": 320.678497,
             "id": "Treasure0227",
-            "name": "Unknown"
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
           },
           {
             "coords": [
@@ -853,7 +858,7 @@
             ],
             "elv": 142.968002,
             "id": "Treasure0231",
-            "name": "Bomb Flower x5",
+            "name": "Bomb Flower x 5",
             "link": "Bomb Flower"
           },
           {
@@ -864,7 +869,7 @@
             "elv": 668.733704,
             "id": "Treasure0232",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -893,7 +898,7 @@
             ],
             "elv": 671.874512,
             "id": "Treasure0235",
-            "name": "Bomb Flower x5",
+            "name": "Bomb Flower x 5",
             "link": "Bomb Flower"
           },
           {
@@ -913,7 +918,8 @@
             ],
             "elv": 529.812805,
             "id": "Treasure0237",
-            "name": "Unknown"
+            "name": "Brightbloom Seed x 5",
+            "link": "Brightbloom Seed"
           },
           {
             "coords": [
@@ -933,7 +939,7 @@
             "elv": 529.822998,
             "id": "Treasure0239",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -972,7 +978,7 @@
             ],
             "elv": 131.836502,
             "id": "Treasure0243",
-            "name": "Spring x3",
+            "name": "Spring x 3",
             "link": "Spring"
           },
           {
@@ -982,7 +988,7 @@
             ],
             "elv": 132.136795,
             "id": "Treasure0244",
-            "name": "Cannon x3",
+            "name": "Cannon x 3",
             "link": "Cannon"
           },
           {
@@ -1021,7 +1027,8 @@
             ],
             "elv": 619.083679,
             "id": "Treasure0248",
-            "name": "Unknown"
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
           },
           {
             "coords": [
@@ -1030,7 +1037,7 @@
             ],
             "elv": 338.380005,
             "id": "Treasure0249",
-            "name": "Hover Stone x3",
+            "name": "Hover Stone x 3",
             "link": "Hover Stone"
           },
           {
@@ -1090,7 +1097,7 @@
             ],
             "elv": 491.618408,
             "id": "Treasure0255",
-            "name": "Flame Emitter x3",
+            "name": "Flame Emitter x 3",
             "link": "Flame Emitter"
           },
           {
@@ -1110,7 +1117,7 @@
             ],
             "elv": 574.153198,
             "id": "Treasure0257",
-            "name": "Rocket x5",
+            "name": "Rocket x 5",
             "link": "Rocket"
           },
           {
@@ -1130,7 +1137,7 @@
             ],
             "elv": 327.405701,
             "id": "Treasure0259",
-            "name": "Cart x3",
+            "name": "Cart x 3",
             "link": "Cart"
           },
           {
@@ -1140,7 +1147,7 @@
             ],
             "elv": 302.589996,
             "id": "Treasure0260",
-            "name": "Zonaite x3",
+            "name": "Zonaite x 3",
             "link": "Zonaite"
           },
           {
@@ -1150,7 +1157,7 @@
             ],
             "elv": 110.735001,
             "id": "Treasure0261",
-            "name": "Bomb Flower x5",
+            "name": "Bomb Flower x 5",
             "link": "Bomb Flower"
           },
           {
@@ -1189,7 +1196,7 @@
             ],
             "elv": 575.917725,
             "id": "Treasure0265",
-            "name": "Mirror x3",
+            "name": "Mirror x 3",
             "link": "Mirror"
           },
           {
@@ -1209,7 +1216,7 @@
             ],
             "elv": 618.163025,
             "id": "Treasure0267",
-            "name": "Bomb Flower x5",
+            "name": "Bomb Flower x 5",
             "link": "Bomb Flower"
           },
           {
@@ -1259,7 +1266,7 @@
             ],
             "elv": 142.2677,
             "id": "Treasure0272",
-            "name": "Bomb Flower x3",
+            "name": "Bomb Flower x 3",
             "link": "Bomb Flower"
           },
           {
@@ -1290,7 +1297,7 @@
             "elv": 144.332397,
             "id": "Treasure0275",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -1309,7 +1316,7 @@
             ],
             "elv": 467.152313,
             "id": "Treasure0277",
-            "name": "Sled x3",
+            "name": "Sled x 3",
             "link": "Sled"
           },
           {
@@ -1400,7 +1407,7 @@
             "elv": 261.434906,
             "id": "Treasure0286",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -1410,7 +1417,7 @@
             "elv": 261.158997,
             "id": "Treasure0287",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -1420,7 +1427,7 @@
             "elv": 251.221603,
             "id": "Treasure0288",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -1430,7 +1437,7 @@
             "elv": 251.059006,
             "id": "Treasure0289",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -1510,7 +1517,7 @@
             "elv": 213.081696,
             "id": "Treasure0297",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -1520,7 +1527,7 @@
             "elv": 260.167297,
             "id": "Treasure0298",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -1539,7 +1546,7 @@
             ],
             "elv": 20.6165695,
             "id": "Treasure0300",
-            "name": "Bomb Flower x5",
+            "name": "Bomb Flower x 5",
             "link": "Bomb Flower"
           },
           {
@@ -1550,7 +1557,7 @@
             "elv": 512.140686,
             "id": "Treasure0301",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -1560,7 +1567,7 @@
             "elv": 736.603577,
             "id": "Treasure0302",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -1569,7 +1576,7 @@
             ],
             "elv": 672.741028,
             "id": "Treasure0303",
-            "name": "Bomb Flower x5",
+            "name": "Bomb Flower x 5",
             "link": "Bomb Flower"
           },
           {
@@ -1579,7 +1586,7 @@
             ],
             "elv": 629.453186,
             "id": "Treasure0304",
-            "name": "Frost Emitter x3",
+            "name": "Frost Emitter x 3",
             "link": "Frost Emitter"
           },
           {
@@ -1590,7 +1597,7 @@
             "elv": 331.257599,
             "id": "Treasure0305",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -1600,7 +1607,7 @@
             "elv": 380.697815,
             "id": "Treasure0306",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -1690,7 +1697,7 @@
             "elv": 128.875595,
             "id": "Treasure0315",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -1729,7 +1736,7 @@
             ],
             "elv": 128.853607,
             "id": "Treasure0319",
-            "name": "Bomb Flower x5",
+            "name": "Bomb Flower x 5",
             "link": "Bomb Flower"
           },
           {
@@ -1769,7 +1776,7 @@
             ],
             "elv": 589.759583,
             "id": "Treasure0323",
-            "name": "Zonaite x3",
+            "name": "Zonaite x 3",
             "link": "Zonaite"
           },
           {
@@ -1799,7 +1806,7 @@
             ],
             "elv": 484,
             "id": "Treasure0326",
-            "name": "Bomb Flower x5",
+            "name": "Bomb Flower x 5",
             "link": "Bomb Flower"
           },
           {
@@ -1859,7 +1866,7 @@
             ],
             "elv": 318.648895,
             "id": "Treasure0332",
-            "name": "Zonaite x3",
+            "name": "Zonaite x 3",
             "link": "Zonaite"
           },
           {
@@ -1869,7 +1876,8 @@
             ],
             "elv": 209.963699,
             "id": "Treasure0333",
-            "name": "Unknown"
+            "name": "Sticky Elixir (Lv 2)",
+            "link": "Sticky Elixir"
           },
           {
             "coords": [
@@ -1888,7 +1896,7 @@
             ],
             "elv": 313.753998,
             "id": "Treasure0335",
-            "name": "Bomb Flower x5",
+            "name": "Bomb Flower x 5",
             "link": "Bomb Flower"
           },
           {
@@ -1918,7 +1926,7 @@
             ],
             "elv": 197.550095,
             "id": "Treasure0338",
-            "name": "Mirror x3",
+            "name": "Mirror x 3",
             "link": "Mirror"
           },
           {
@@ -1939,7 +1947,7 @@
             "elv": 163.649399,
             "id": "Treasure0340",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -1968,7 +1976,7 @@
             ],
             "elv": 672.422974,
             "id": "Treasure0343",
-            "name": "Zonaite x3",
+            "name": "Zonaite x 3",
             "link": "Zonaite"
           },
           {
@@ -1978,7 +1986,8 @@
             ],
             "elv": 135.075394,
             "id": "Treasure0344",
-            "name": "Unknown"
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
           },
           {
             "coords": [
@@ -2038,7 +2047,7 @@
             "elv": 1.29894996,
             "id": "Treasure0350",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -2078,7 +2087,7 @@
             "elv": 361.46109,
             "id": "Treasure0354",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -2088,7 +2097,7 @@
             "elv": 349.149902,
             "id": "Treasure0355",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -2118,7 +2127,7 @@
             "elv": 54.562439,
             "id": "Treasure0358",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -2177,7 +2186,7 @@
             ],
             "elv": 269.891693,
             "id": "Treasure0364",
-            "name": "Zonaite x3",
+            "name": "Zonaite x 3",
             "link": "Zonaite"
           },
           {
@@ -2247,7 +2256,7 @@
             ],
             "elv": 248.785904,
             "id": "Treasure0371",
-            "name": "Flame Emitter x3",
+            "name": "Flame Emitter x 3",
             "link": "Flame Emitter"
           },
           {
@@ -2278,7 +2287,7 @@
             "elv": 262.770111,
             "id": "Treasure0374",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -2288,7 +2297,7 @@
             "elv": 267.016693,
             "id": "Treasure0375",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -2347,7 +2356,8 @@
             ],
             "elv": 253.573196,
             "id": "Treasure0381",
-            "name": "Unknown"
+            "name": "Spicy Elixir (Lv 1)",
+            "link": "Spicy Elixir"
           },
           {
             "coords": [
@@ -2376,7 +2386,7 @@
             ],
             "elv": 144.446899,
             "id": "Treasure0384",
-            "name": "Portable Pot x5",
+            "name": "Portable Pot x 5",
             "link": "Portable Pot"
           },
           {
@@ -2406,7 +2416,7 @@
             ],
             "elv": 138.940994,
             "id": "Treasure0387",
-            "name": "Steering Stick x3",
+            "name": "Steering Stick x 3",
             "link": "Steering Stick"
           },
           {
@@ -2427,7 +2437,7 @@
             "elv": 209.480804,
             "id": "Treasure0389",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -2437,7 +2447,7 @@
             "elv": 275.904907,
             "id": "Treasure0390",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -2447,7 +2457,7 @@
             "elv": 339,
             "id": "Treasure0391",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -2456,7 +2466,7 @@
             ],
             "elv": 212.570007,
             "id": "Treasure0392",
-            "name": "Stake x3",
+            "name": "Stake x 3",
             "link": "Stake"
           },
           {
@@ -2566,7 +2576,7 @@
             ],
             "elv": 338.850006,
             "id": "Treasure0403",
-            "name": "Zonaite x5",
+            "name": "Zonaite x 5",
             "link": "Zonaite"
           },
           {
@@ -2576,7 +2586,7 @@
             ],
             "elv": 335.695404,
             "id": "Treasure0404",
-            "name": "Zonaite x3",
+            "name": "Zonaite x 3",
             "link": "Zonaite"
           },
           {
@@ -2586,7 +2596,7 @@
             ],
             "elv": 342.85849,
             "id": "Treasure0405",
-            "name": "Flame Emitter x3",
+            "name": "Flame Emitter x 3",
             "link": "Flame Emitter"
           },
           {
@@ -2617,7 +2627,7 @@
             "elv": 207.9095,
             "id": "Treasure0408",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -2627,7 +2637,7 @@
             "elv": 286.539307,
             "id": "Treasure0409",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -2637,7 +2647,7 @@
             "elv": 230.471802,
             "id": "Treasure0410",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -2656,7 +2666,7 @@
             ],
             "elv": 379,
             "id": "Treasure0412",
-            "name": "Light x3",
+            "name": "Light x 3",
             "link": "Light"
           },
           {
@@ -2666,7 +2676,7 @@
             ],
             "elv": 440,
             "id": "Treasure0413",
-            "name": "Rocket x3",
+            "name": "Rocket x 3",
             "link": "Rocket"
           },
           {
@@ -2677,7 +2687,7 @@
             "elv": 254.812195,
             "id": "Treasure0414",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -2807,7 +2817,7 @@
             "elv": 114.649696,
             "id": "Treasure0427",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -3137,7 +3147,7 @@
             "elv": 194.723907,
             "id": "Treasure0460",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -3167,7 +3177,7 @@
             "elv": 148.169006,
             "id": "Treasure0463",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -3267,7 +3277,7 @@
             "elv": 118.215897,
             "id": "Treasure0473",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -3316,7 +3326,7 @@
             ],
             "elv": 245.1241,
             "id": "Treasure0478",
-            "name": "Bomb Flower x5",
+            "name": "Bomb Flower x 5",
             "link": "Bomb Flower"
           },
           {
@@ -3347,7 +3357,7 @@
             "elv": 205.4151,
             "id": "Treasure0481",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -3366,7 +3376,7 @@
             ],
             "elv": 274.401489,
             "id": "Treasure0483",
-            "name": "Opal x5",
+            "name": "Opal x 5",
             "link": "Opal"
           },
           {
@@ -3376,7 +3386,7 @@
             ],
             "elv": 275.436096,
             "id": "Treasure0484",
-            "name": "Topaz x3",
+            "name": "Topaz x 3",
             "link": "Topaz"
           },
           {
@@ -3386,7 +3396,7 @@
             ],
             "elv": 274.477997,
             "id": "Treasure0485",
-            "name": "Ruby x3",
+            "name": "Ruby x 3",
             "link": "Ruby"
           },
           {
@@ -3396,7 +3406,7 @@
             ],
             "elv": 275.117401,
             "id": "Treasure0486",
-            "name": "Sapphire x3",
+            "name": "Sapphire x 3",
             "link": "Sapphire"
           },
           {
@@ -3445,7 +3455,7 @@
             ],
             "elv": 181.452103,
             "id": "Treasure0491",
-            "name": "Cart x5",
+            "name": "Cart x 5",
             "link": "Cart"
           },
           {
@@ -3455,7 +3465,7 @@
             ],
             "elv": 198.420898,
             "id": "Treasure0492",
-            "name": "Light x3",
+            "name": "Light x 3",
             "link": "Light"
           },
           {
@@ -3494,7 +3504,7 @@
             ],
             "elv": 284.691193,
             "id": "Treasure0496",
-            "name": "Bomb Flower x10",
+            "name": "Bomb Flower x 10",
             "link": "Bomb Flower"
           },
           {
@@ -3505,7 +3515,7 @@
             "elv": 291.829193,
             "id": "Treasure0497",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -3514,7 +3524,7 @@
             ],
             "elv": 147.656494,
             "id": "Treasure0498",
-            "name": "Bomb Flower x3",
+            "name": "Bomb Flower x 3",
             "link": "Bomb Flower"
           },
           {
@@ -3535,7 +3545,7 @@
             "elv": 291.426086,
             "id": "Treasure0500",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -3564,7 +3574,8 @@
             ],
             "elv": 128.219299,
             "id": "Treasure0503",
-            "name": "Unknown"
+            "name": "Brightbloom Seed x 5",
+            "link": "Brightbloom Seed"
           },
           {
             "coords": [
@@ -3583,7 +3594,7 @@
             ],
             "elv": 107.811302,
             "id": "Treasure0505",
-            "name": "Bomb Flower x3",
+            "name": "Bomb Flower x 3",
             "link": "Bomb Flower"
           },
           {
@@ -3604,7 +3615,7 @@
             "elv": 115,
             "id": "Treasure0507",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -3633,7 +3644,7 @@
             ],
             "elv": 150.376404,
             "id": "Treasure0510",
-            "name": "Bomb Flower x3",
+            "name": "Bomb Flower x 3",
             "link": "Bomb Flower"
           },
           {
@@ -3644,7 +3655,7 @@
             "elv": 157.5,
             "id": "Treasure0511",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -3724,7 +3735,7 @@
             "elv": 199.936203,
             "id": "Treasure0519",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -3734,7 +3745,7 @@
             "elv": 205.196106,
             "id": "Treasure0520",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -3753,7 +3764,7 @@
             ],
             "elv": 133.8302,
             "id": "Treasure0522",
-            "name": "Bomb Flower x3",
+            "name": "Bomb Flower x 3",
             "link": "Bomb Flower"
           },
           {
@@ -3764,7 +3775,7 @@
             "elv": 131.043701,
             "id": "Treasure0523",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -3794,7 +3805,7 @@
             "elv": 163.833099,
             "id": "Treasure0526",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -3813,7 +3824,7 @@
             ],
             "elv": 118.9142,
             "id": "Treasure0528",
-            "name": "Bomb Flower x3",
+            "name": "Bomb Flower x 3",
             "link": "Bomb Flower"
           },
           {
@@ -3853,7 +3864,7 @@
             ],
             "elv": 118.091301,
             "id": "Treasure0532",
-            "name": "Rocket x3",
+            "name": "Rocket x 3",
             "link": "Rocket"
           },
           {
@@ -3863,7 +3874,7 @@
             ],
             "elv": 141.421402,
             "id": "Treasure0533",
-            "name": "Spring x3",
+            "name": "Spring x 3",
             "link": "Spring"
           },
           {
@@ -3953,7 +3964,7 @@
             ],
             "elv": 115.070503,
             "id": "Treasure0542",
-            "name": "Bomb Flower x5",
+            "name": "Bomb Flower x 5",
             "link": "Bomb Flower"
           },
           {
@@ -4143,7 +4154,7 @@
             ],
             "elv": 234.264099,
             "id": "Treasure0561",
-            "name": "Steering Stick x5",
+            "name": "Steering Stick x 5",
             "link": "Steering Stick"
           },
           {
@@ -4154,7 +4165,7 @@
             "elv": 543.472229,
             "id": "Treasure0562",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -4173,7 +4184,7 @@
             ],
             "elv": 531.01947,
             "id": "Treasure0564",
-            "name": "Bomb Flower x3",
+            "name": "Bomb Flower x 3",
             "link": "Bomb Flower"
           },
           {
@@ -4183,7 +4194,8 @@
             ],
             "elv": 389.288513,
             "id": "Treasure0565",
-            "name": "Unknown"
+            "name": "Brightbloom Seed x 5",
+            "link": "Brightbloom Seed"
           },
           {
             "coords": [
@@ -4201,7 +4213,7 @@
             ],
             "elv": 535.60791,
             "id": "Treasure0567",
-            "name": "Bomb Flower x5",
+            "name": "Bomb Flower x 5",
             "link": "Bomb Flower"
           },
           {
@@ -4261,7 +4273,7 @@
             ],
             "elv": 177.680099,
             "id": "Treasure0573",
-            "name": "Rocket x3",
+            "name": "Rocket x 3",
             "link": "Rocket"
           },
           {
@@ -4291,7 +4303,8 @@
             ],
             "elv": 417.762207,
             "id": "Treasure0576",
-            "name": "Unknown"
+            "name": "Energizing Elixir (2/5 wheel)",
+            "link": "Energizing Elixir"
           },
           {
             "coords": [
@@ -4300,7 +4313,8 @@
             ],
             "elv": 126.75,
             "id": "Treasure0577",
-            "name": "Unknown"
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
           },
           {
             "coords": [
@@ -4309,7 +4323,7 @@
             ],
             "elv": 462.658905,
             "id": "Treasure0578",
-            "name": "Battery x3",
+            "name": "Battery x 3",
             "link": "Battery"
           },
           {
@@ -4350,7 +4364,7 @@
             "elv": 114.649803,
             "id": "Treasure0582",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -4360,7 +4374,7 @@
             "elv": 114.637497,
             "id": "Treasure0583",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -4390,7 +4404,7 @@
             "elv": 185.237198,
             "id": "Treasure0586",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -4400,7 +4414,7 @@
             "elv": 136.394394,
             "id": "Treasure0587",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -4420,7 +4434,7 @@
             "elv": 161.410995,
             "id": "Treasure0589",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -4430,7 +4444,7 @@
             "elv": 160.598999,
             "id": "Treasure0590",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -4489,7 +4503,7 @@
             ],
             "elv": 121.611298,
             "id": "Treasure0596",
-            "name": "Time Bomb x3",
+            "name": "Time Bomb x 3",
             "link": "Time Bomb"
           },
           {
@@ -4499,7 +4513,8 @@
             ],
             "elv": 128.880798,
             "id": "Treasure0597",
-            "name": "Unknown"
+            "name": "Fireproof Elixir",
+            "link": "Fireproof Elixir"
           },
           {
             "coords": [
@@ -4539,7 +4554,7 @@
             "elv": 117.040001,
             "id": "Treasure0601",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -4548,7 +4563,7 @@
             ],
             "elv": 111.910896,
             "id": "Treasure0602",
-            "name": "Hydrant x3",
+            "name": "Hydrant x 3",
             "link": "Hydrant"
           },
           {
@@ -4558,7 +4573,7 @@
             ],
             "elv": 129.816696,
             "id": "Treasure0603",
-            "name": "Rocket x3",
+            "name": "Rocket x 3",
             "link": "Rocket"
           },
           {
@@ -4568,7 +4583,7 @@
             ],
             "elv": 115.313698,
             "id": "Treasure0604",
-            "name": "Portable Pot x3",
+            "name": "Portable Pot x 3",
             "link": "Portable Pot"
           },
           {
@@ -4578,7 +4593,7 @@
             ],
             "elv": 115.4468,
             "id": "Treasure0605",
-            "name": "Beam Emitter x3",
+            "name": "Beam Emitter x 3",
             "link": "Beam Emitter"
           },
           {
@@ -4619,7 +4634,7 @@
             "elv": 245.484802,
             "id": "Treasure0609",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -4698,7 +4713,7 @@
             ],
             "elv": 125.829399,
             "id": "Treasure0617",
-            "name": "Cannon x3",
+            "name": "Cannon x 3",
             "link": "Cannon"
           },
           {
@@ -4739,7 +4754,7 @@
             "elv": 252.997406,
             "id": "Treasure0621",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -4768,7 +4783,8 @@
             ],
             "elv": 134.553894,
             "id": "Treasure0624",
-            "name": "Unknown"
+            "name": "Electro Elixir (Lv 3)",
+            "link": "Electro Elixir"
           },
           {
             "coords": [
@@ -4797,7 +4813,7 @@
             "elv": 127.505997,
             "id": "Treasure0627",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -4856,7 +4872,7 @@
             ],
             "elv": 202.091599,
             "id": "Treasure0633",
-            "name": "Bomb Flower x5",
+            "name": "Bomb Flower x 5",
             "link": "Bomb Flower"
           },
           {
@@ -4866,7 +4882,8 @@
             ],
             "elv": 243.167404,
             "id": "Treasure0634",
-            "name": "Unknown"
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
           },
           {
             "coords": [
@@ -4905,7 +4922,7 @@
             ],
             "elv": 492.230499,
             "id": "Treasure0638",
-            "name": "Bomb Flower x3",
+            "name": "Bomb Flower x 3",
             "link": "Bomb Flower"
           },
           {
@@ -4925,7 +4942,8 @@
             ],
             "elv": 637.089417,
             "id": "Treasure0640",
-            "name": "Unknown"
+            "name": "Brightbloom Seed x 5",
+            "link": "Brightbloom Seed"
           },
           {
             "coords": [
@@ -4994,7 +5012,7 @@
             ],
             "elv": 296.539795,
             "id": "Treasure0647",
-            "name": "Rocket x3",
+            "name": "Rocket x 3",
             "link": "Rocket"
           },
           {
@@ -5004,7 +5022,7 @@
             ],
             "elv": 298.868988,
             "id": "Treasure0648",
-            "name": "Zonaite x3",
+            "name": "Zonaite x 3",
             "link": "Zonaite"
           },
           {
@@ -5015,7 +5033,7 @@
             "elv": 262.414307,
             "id": "Treasure0649",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -5025,7 +5043,7 @@
             "elv": 315.769012,
             "id": "Treasure0650",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -5035,7 +5053,7 @@
             "elv": 232.190994,
             "id": "Treasure0651",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -5065,7 +5083,7 @@
             "elv": 224.957794,
             "id": "Treasure0654",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -5075,7 +5093,7 @@
             "elv": 156.515106,
             "id": "Treasure0655",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -5095,7 +5113,7 @@
             "elv": 114.637497,
             "id": "Treasure0657",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -5135,7 +5153,7 @@
             "elv": 465.883911,
             "id": "Treasure0661",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -5174,7 +5192,7 @@
             ],
             "elv": 303.656097,
             "id": "Treasure0665",
-            "name": "Rocket x3",
+            "name": "Rocket x 3",
             "link": "Rocket"
           },
           {
@@ -5344,7 +5362,7 @@
             ],
             "elv": 116.960403,
             "id": "Treasure0682",
-            "name": "Stabilizer x3",
+            "name": "Stabilizer x 3",
             "link": "Stabilizer"
           },
           {
@@ -5394,7 +5412,7 @@
             ],
             "elv": 126.7071,
             "id": "Treasure0687",
-            "name": "Zonaite x3",
+            "name": "Zonaite x 3",
             "link": "Zonaite"
           },
           {
@@ -5454,7 +5472,7 @@
             ],
             "elv": 353.320709,
             "id": "Treasure0693",
-            "name": "Steering Stick x5",
+            "name": "Steering Stick x 5",
             "link": "Steering Stick"
           },
           {
@@ -5495,7 +5513,7 @@
             "elv": 220.931107,
             "id": "Treasure0697",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -5525,7 +5543,7 @@
             "elv": 328.9599,
             "id": "Treasure0700",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -5555,7 +5573,7 @@
             "elv": 194.3936,
             "id": "Treasure0703",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -5694,7 +5712,7 @@
             ],
             "elv": 150.452393,
             "id": "Treasure0717",
-            "name": "Bomb Flower x5",
+            "name": "Bomb Flower x 5",
             "link": "Bomb Flower"
           },
           {
@@ -5715,7 +5733,7 @@
             "elv": 442.941101,
             "id": "Treasure0719",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -5755,7 +5773,7 @@
             "elv": 351.664307,
             "id": "Treasure0723",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -5765,7 +5783,7 @@
             "elv": 281.387207,
             "id": "Treasure0724",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -5944,7 +5962,7 @@
             ],
             "elv": 105.952301,
             "id": "Treasure0742",
-            "name": "Bomb Flower x10",
+            "name": "Bomb Flower x 10",
             "link": "Bomb Flower"
           },
           {
@@ -5955,7 +5973,7 @@
             "elv": 105.530701,
             "id": "Treasure0743",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -6015,7 +6033,7 @@
             "elv": 105.5308,
             "id": "Treasure0749",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -6035,7 +6053,7 @@
             "elv": 105.531197,
             "id": "Treasure0751",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -6065,7 +6083,7 @@
             "elv": 230.365005,
             "id": "Treasure0754",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -6085,7 +6103,7 @@
             "elv": 105.528503,
             "id": "Treasure0756",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -6094,7 +6112,7 @@
             ],
             "elv": 392.240997,
             "id": "Treasure0757",
-            "name": "Zonaite x3",
+            "name": "Zonaite x 3",
             "link": "Zonaite"
           },
           {
@@ -6145,7 +6163,7 @@
             "elv": 437.459808,
             "id": "Treasure0762",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -6184,7 +6202,7 @@
             ],
             "elv": 313.634613,
             "id": "Treasure0766",
-            "name": "Bomb Flower x5",
+            "name": "Bomb Flower x 5",
             "link": "Bomb Flower"
           },
           {
@@ -6204,7 +6222,7 @@
             ],
             "elv": 421.189087,
             "id": "Treasure0768",
-            "name": "Hover Stone x5",
+            "name": "Hover Stone x 5",
             "link": "Hover Stone"
           },
           {
@@ -6225,7 +6243,7 @@
             "elv": 195.5,
             "id": "Treasure0770",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -6244,7 +6262,7 @@
             ],
             "elv": 117.519402,
             "id": "Treasure0772",
-            "name": "Zonaite x3",
+            "name": "Zonaite x 3",
             "link": "Zonaite"
           },
           {
@@ -6255,7 +6273,7 @@
             "elv": 147.5,
             "id": "Treasure0773",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -6265,7 +6283,7 @@
             "elv": 148.437805,
             "id": "Treasure0774",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -6274,7 +6292,7 @@
             ],
             "elv": 171.110306,
             "id": "Treasure0775",
-            "name": "Bomb Flower x10",
+            "name": "Bomb Flower x 10",
             "link": "Bomb Flower"
           },
           {
@@ -7294,7 +7312,7 @@
             ],
             "elv": 90.7325821,
             "id": "Treasure1177",
-            "name": "Bomb Flower x3",
+            "name": "Bomb Flower x 3",
             "link": "Bomb Flower"
           },
           {
@@ -7334,7 +7352,8 @@
             ],
             "elv": 114.817101,
             "id": "Treasure1181",
-            "name": "Unknown"
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
           },
           {
             "coords": [
@@ -7354,7 +7373,7 @@
             "elv": 70.0166931,
             "id": "Treasure1183",
             "name": "Arrow x 10",
-            "link": "Arrow x 10"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -7403,7 +7422,7 @@
             ],
             "elv": 72.8171234,
             "id": "Treasure1188",
-            "name": "Flame Emitter x3",
+            "name": "Flame Emitter x 3",
             "link": "Flame Emitter"
           },
           {
@@ -7543,7 +7562,7 @@
             ],
             "elv": 185.374603,
             "id": "Treasure1202",
-            "name": "Bomb Flower x5",
+            "name": "Bomb Flower x 5",
             "link": "Bomb Flower"
           },
           {
@@ -7634,7 +7653,7 @@
             "elv": 199.393402,
             "id": "Treasure1211",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -7694,7 +7713,7 @@
             "elv": 114.648804,
             "id": "Treasure1217",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -7733,7 +7752,7 @@
             ],
             "elv": 329.859802,
             "id": "Treasure1221",
-            "name": "Bomb Flower x10",
+            "name": "Bomb Flower x 10",
             "link": "Bomb Flower"
           },
           {
@@ -7753,7 +7772,7 @@
             ],
             "elv": 610.224976,
             "id": "Treasure1223",
-            "name": "Wing x3",
+            "name": "Wing x 3",
             "link": "Wing"
           },
           {
@@ -7794,7 +7813,7 @@
             "elv": 238.252304,
             "id": "Treasure1227",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -7993,7 +8012,7 @@
             ],
             "elv": 158.255203,
             "id": "Treasure1247",
-            "name": "Bomb Flower x5",
+            "name": "Bomb Flower x 5",
             "link": "Bomb Flower"
           },
           {
@@ -8004,7 +8023,7 @@
             "elv": 296.691315,
             "id": "Treasure1248",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -8034,7 +8053,7 @@
             "elv": 260.75,
             "id": "Treasure1251",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -8063,7 +8082,7 @@
             ],
             "elv": 125.789497,
             "id": "Treasure1254",
-            "name": "Bomb Flower x5",
+            "name": "Bomb Flower x 5",
             "link": "Bomb Flower"
           },
           {
@@ -8114,7 +8133,7 @@
             "elv": 293.528107,
             "id": "Treasure1259",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [
@@ -8243,7 +8262,8 @@
             ],
             "elv": 81.3832932,
             "id": "Treasure1272",
-            "name": "Unknown"
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
           },
           {
             "coords": [
@@ -8493,7 +8513,7 @@
             "elv": 378.584106,
             "id": "Treasure1297",
             "name": "Arrow x 5",
-            "link": "Arrow x 5"
+            "link": "Arrow"
           },
           {
             "coords": [

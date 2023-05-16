@@ -10,12 +10,13 @@ window.onload = async () => {
 
   const map = ZDMap.create({
     directory: "botw",
+    gameTitle: "Breath of the Wild",
     mapSizePixels: 24000,
     tileSizePixels: 750,
     center: [-3750, -1900],
   });
   const mapLayer = map.addMapLayer();
-  map.addControls(["Master Mode", "DLC"]);
+  map.addControls(["Paths", "Master Mode", "DLC"]);
   map.addLegend([
     {
       name: "Sheikah Tower",
@@ -186,7 +187,14 @@ window.onload = async () => {
       mapLayer.addCategory(
         category.name,
         category.layers.map((l) =>
-          Layer.fromJSON(l, category.source, "botw", map.wiki)
+          Layer.fromJSON(
+            l,
+            category.name,
+            category.link,
+            category.source,
+            "botw",
+            map.wiki
+          )
         )
       );
     }

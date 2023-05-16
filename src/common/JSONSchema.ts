@@ -2,12 +2,14 @@ import { LatLngTuple } from "leaflet";
 
 export interface Category {
   name: string;
+  link?: string;
   source: string;
-  displayOrder?: number;
   layers: Layer[];
 }
 
 export interface Layer {
+  name?: string;
+  link?: string;
   minZoom?: number;
   maxZoom?: number;
   icon?: { url: string; width: number; height: number };

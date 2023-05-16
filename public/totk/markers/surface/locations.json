@@ -1617,7 +1617,7 @@
   },
   {
     "name": "Device Dispenser",
-    "source": "summary",
+    "source": "mapns",
     "layers": [
       {
         "minZoom": 2,
@@ -1634,8 +1634,8 @@
             ],
             "elv": 107.4786,
             "id": "RBox_Field_H_02",
-            "name": "Dispenser",
-            "link": "Dispenser"
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
           },
           {
             "coords": [
@@ -1644,8 +1644,8 @@
             ],
             "elv": 260.223907,
             "id": "RBox_Field_R_02",
-            "name": "Dispenser",
-            "link": "Dispenser"
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
           },
           {
             "coords": [
@@ -1654,8 +1654,8 @@
             ],
             "elv": 195.447403,
             "id": "RBox_Field_L_02",
-            "name": "Dispenser",
-            "link": "Dispenser"
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
           }
         ]
       }
@@ -5792,6 +5792,242 @@
         ]
       },
       {
+        "minZoom": 2,
+        "maxZoom": 3,
+        "markers": [
+          {
+            "coords": [
+              2479.46704,
+              2530.12988
+            ],
+            "elv": 0,
+            "id": "MapArea_DeathMountain",
+            "name": "Death Mountain",
+            "link": "Death Mountain"
+          },
+          {
+            "coords": [
+              3375.61597,
+              1310.07605
+            ],
+            "elv": 0,
+            "id": "MapArea_EldinMountains",
+            "name": "Eldin Mountains",
+            "link": "Eldin Mountains"
+          },
+          {
+            "coords": [
+              -843.239929,
+              -4088.50806
+            ],
+            "elv": 0,
+            "id": "MapArea_GerudoHighlands",
+            "name": "Gerudo Highlands",
+            "link": "Gerudo Highlands"
+          },
+          {
+            "coords": [
+              3024.68188,
+              -3079.06689
+            ],
+            "elv": 0,
+            "id": "MapArea_HeburaMountains",
+            "name": "Hebra Mountains",
+            "link": "Hebra Mountains"
+          },
+          {
+            "coords": [
+              407.077301,
+              -2382.62402
+            ],
+            "elv": 0,
+            "id": "MapArea_HyruleHill",
+            "name": "Hyrule Ridge",
+            "link": "Hyrule Ridge"
+          },
+          {
+            "coords": [
+              -1120.23999,
+              3882.39893
+            ],
+            "elv": 0,
+            "id": "MapArea_LiveMountain",
+            "name": "Mount Lanayru",
+            "link": "Mount Lanayru"
+          },
+          {
+            "coords": [
+              2205.87988,
+              3476.8501
+            ],
+            "elv": 0,
+            "id": "MapArea_TamulPlateau",
+            "name": "Akkala Highlands",
+            "link": "Akkala Highlands"
+          },
+          {
+            "coords": [
+              -581.595825,
+              -458.720001
+            ],
+            "elv": 0,
+            "id": "MapArea_CentralHyrule",
+            "name": "Hyrule Field",
+            "link": "Hyrule Field"
+          },
+          {
+            "coords": [
+              -2507.28003,
+              2679.29395
+            ],
+            "elv": 0,
+            "id": "MapArea_EastHateru",
+            "name": "East Necluda",
+            "link": "East Necluda"
+          },
+          {
+            "coords": [
+              1400.64294,
+              1852.76196
+            ],
+            "elv": 0,
+            "id": "MapArea_EldinCanyon",
+            "name": "Eldin Canyon",
+            "link": "Eldin Canyon"
+          },
+          {
+            "coords": [
+              -3156.43188,
+              -423.303497
+            ],
+            "elv": 0,
+            "id": "MapArea_FironeGrassland",
+            "name": "Faron Grasslands",
+            "link": "Faron Grasslands"
+          },
+          {
+            "coords": [
+              -3428.90405,
+              -3681.5791
+            ],
+            "elv": 0,
+            "id": "MapArea_GerudoDesert",
+            "name": "Gerudo Desert",
+            "link": "Gerudo Desert"
+          },
+          {
+            "coords": [
+              -58.9804688,
+              1825.72595
+            ],
+            "elv": 0,
+            "id": "MapArea_LanayruWetlands",
+            "name": "Lanayru Wetlands",
+            "link": "Lanayru Wetlands"
+          },
+          {
+            "coords": [
+              1220.96704,
+              -3476.1709
+            ],
+            "elv": 0,
+            "id": "MapArea_TabantaFrontier",
+            "name": "Tabantha Frontier",
+            "link": "Tabantha Frontier"
+          },
+          {
+            "coords": [
+              3186.16089,
+              3602.15308
+            ],
+            "elv": 0,
+            "id": "MapArea_TamulOutback",
+            "name": "Deep Akkala",
+            "link": "Deep Akkala"
+          },
+          {
+            "coords": [
+              -1524.73804,
+              1297.48706
+            ],
+            "elv": 0,
+            "id": "MapArea_WestHateru",
+            "name": "West Necluda",
+            "link": "West Necluda"
+          },
+          {
+            "coords": [
+              2545.78296,
+              363.829315
+            ],
+            "elv": 0,
+            "id": "MapArea_HyruleForest",
+            "name": "Great Hyrule Forest",
+            "link": "Great Hyrule Forest"
+          },
+          {
+            "coords": [
+              -3986.36304,
+              -51.1585693
+            ],
+            "elv": 0,
+            "id": "MapArea_FironeSea",
+            "name": "Faron Sea",
+            "link": "Faron Sea"
+          },
+          {
+            "coords": [
+              -2845.04492,
+              4141.20801
+            ],
+            "elv": 0,
+            "id": "MapArea_HateruSea",
+            "name": "Necluda Sea",
+            "link": "Necluda Sea"
+          },
+          {
+            "coords": [
+              -2521.08691,
+              -149.247406
+            ],
+            "elv": 0,
+            "id": "MapArea_HyliaLake",
+            "name": "Lake Hylia",
+            "link": "Lake Hylia"
+          },
+          {
+            "coords": [
+              196.7966,
+              4674.54395
+            ],
+            "elv": 0,
+            "id": "MapArea_LanayruSea",
+            "name": "Lanayru Sea",
+            "link": "Lanayru Sea"
+          },
+          {
+            "coords": [
+              -108.865997,
+              3568.64404
+            ],
+            "elv": 0,
+            "id": "MapArea_LanayruWaterSources",
+            "name": "Lanayru Great Spring",
+            "link": "Lanayru Great Spring"
+          },
+          {
+            "coords": [
+              3428.552,
+              4811.54492
+            ],
+            "elv": 0,
+            "id": "MapArea_TamulSea",
+            "name": "Akkala Sea",
+            "link": "Akkala Sea"
+          }
+        ]
+      },
+      {
         "minZoom": 4,
         "markers": [
           {
@@ -7476,76 +7712,6 @@
           },
           {
             "coords": [
-              2479.46704,
-              2530.12988
-            ],
-            "elv": 0,
-            "id": "MapArea_DeathMountain",
-            "name": "Death Mountain",
-            "link": "Death Mountain"
-          },
-          {
-            "coords": [
-              3375.61597,
-              1310.07605
-            ],
-            "elv": 0,
-            "id": "MapArea_EldinMountains",
-            "name": "Eldin Mountains",
-            "link": "Eldin Mountains"
-          },
-          {
-            "coords": [
-              -843.239929,
-              -4088.50806
-            ],
-            "elv": 0,
-            "id": "MapArea_GerudoHighlands",
-            "name": "Gerudo Highlands",
-            "link": "Gerudo Highlands"
-          },
-          {
-            "coords": [
-              3024.68188,
-              -3079.06689
-            ],
-            "elv": 0,
-            "id": "MapArea_HeburaMountains",
-            "name": "Hebra Mountains",
-            "link": "Hebra Mountains"
-          },
-          {
-            "coords": [
-              407.077301,
-              -2382.62402
-            ],
-            "elv": 0,
-            "id": "MapArea_HyruleHill",
-            "name": "Hyrule Ridge",
-            "link": "Hyrule Ridge"
-          },
-          {
-            "coords": [
-              -1120.23999,
-              3882.39893
-            ],
-            "elv": 0,
-            "id": "MapArea_LiveMountain",
-            "name": "Mount Lanayru",
-            "link": "Mount Lanayru"
-          },
-          {
-            "coords": [
-              2205.87988,
-              3476.8501
-            ],
-            "elv": 0,
-            "id": "MapArea_TamulPlateau",
-            "name": "Akkala Highlands",
-            "link": "Akkala Highlands"
-          },
-          {
-            "coords": [
               1522.52197,
               -1339.35205
             ],
@@ -8546,96 +8712,6 @@
           },
           {
             "coords": [
-              -581.595825,
-              -458.720001
-            ],
-            "elv": 0,
-            "id": "MapArea_CentralHyrule",
-            "name": "Hyrule Field",
-            "link": "Hyrule Field"
-          },
-          {
-            "coords": [
-              -2507.28003,
-              2679.29395
-            ],
-            "elv": 0,
-            "id": "MapArea_EastHateru",
-            "name": "East Necluda",
-            "link": "East Necluda"
-          },
-          {
-            "coords": [
-              1400.64294,
-              1852.76196
-            ],
-            "elv": 0,
-            "id": "MapArea_EldinCanyon",
-            "name": "Eldin Canyon",
-            "link": "Eldin Canyon"
-          },
-          {
-            "coords": [
-              -3156.43188,
-              -423.303497
-            ],
-            "elv": 0,
-            "id": "MapArea_FironeGrassland",
-            "name": "Faron Grasslands",
-            "link": "Faron Grasslands"
-          },
-          {
-            "coords": [
-              -3428.90405,
-              -3681.5791
-            ],
-            "elv": 0,
-            "id": "MapArea_GerudoDesert",
-            "name": "Gerudo Desert",
-            "link": "Gerudo Desert"
-          },
-          {
-            "coords": [
-              -58.9804688,
-              1825.72595
-            ],
-            "elv": 0,
-            "id": "MapArea_LanayruWetlands",
-            "name": "Lanayru Wetlands",
-            "link": "Lanayru Wetlands"
-          },
-          {
-            "coords": [
-              1220.96704,
-              -3476.1709
-            ],
-            "elv": 0,
-            "id": "MapArea_TabantaFrontier",
-            "name": "Tabantha Frontier",
-            "link": "Tabantha Frontier"
-          },
-          {
-            "coords": [
-              3186.16089,
-              3602.15308
-            ],
-            "elv": 0,
-            "id": "MapArea_TamulOutback",
-            "name": "Deep Akkala",
-            "link": "Deep Akkala"
-          },
-          {
-            "coords": [
-              -1524.73804,
-              1297.48706
-            ],
-            "elv": 0,
-            "id": "MapArea_WestHateru",
-            "name": "West Necluda",
-            "link": "West Necluda"
-          },
-          {
-            "coords": [
               1736.63403,
               -1669.74805
             ],
@@ -9426,16 +9502,6 @@
           },
           {
             "coords": [
-              2545.78296,
-              363.829315
-            ],
-            "elv": 0,
-            "id": "MapArea_HyruleForest",
-            "name": "Great Hyrule Forest",
-            "link": "Great Hyrule Forest"
-          },
-          {
-            "coords": [
               -2163.63501,
               3100.82007
             ],
@@ -10163,66 +10229,6 @@
             "id": "ManbaLake",
             "name": "Goro Cove",
             "link": "Goro Cove"
-          },
-          {
-            "coords": [
-              -3986.36304,
-              -51.1585693
-            ],
-            "elv": 0,
-            "id": "MapArea_FironeSea",
-            "name": "Faron Sea",
-            "link": "Faron Sea"
-          },
-          {
-            "coords": [
-              -2845.04492,
-              4141.20801
-            ],
-            "elv": 0,
-            "id": "MapArea_HateruSea",
-            "name": "Necluda Sea",
-            "link": "Necluda Sea"
-          },
-          {
-            "coords": [
-              -2521.08691,
-              -149.247406
-            ],
-            "elv": 0,
-            "id": "MapArea_HyliaLake",
-            "name": "Lake Hylia",
-            "link": "Lake Hylia"
-          },
-          {
-            "coords": [
-              196.7966,
-              4674.54395
-            ],
-            "elv": 0,
-            "id": "MapArea_LanayruSea",
-            "name": "Lanayru Sea",
-            "link": "Lanayru Sea"
-          },
-          {
-            "coords": [
-              -108.865997,
-              3568.64404
-            ],
-            "elv": 0,
-            "id": "MapArea_LanayruWaterSources",
-            "name": "Lanayru Great Spring",
-            "link": "Lanayru Great Spring"
-          },
-          {
-            "coords": [
-              3428.552,
-              4811.54492
-            ],
-            "elv": 0,
-            "id": "MapArea_TamulSea",
-            "name": "Akkala Sea",
-            "link": "Akkala Sea"
           },
           {
             "coords": [

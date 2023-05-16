@@ -283,6 +283,7 @@ body {
 }
 
 .zd-popup__footer {
+  text-align: center;
   font-style: italic;
 }
 
@@ -300,7 +301,8 @@ body {
   cursor: pointer;
 }
 
-.zd-popup__control + .zd-popup__control {
+.zd-popup__control + .zd-popup__control,
+.zd-popup__coordinate + .zd-popup__coordinate {
   margin-left: 18px;
 }
 

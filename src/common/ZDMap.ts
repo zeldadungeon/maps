@@ -30,7 +30,7 @@ dom.watch();
 
 export interface ZDMapOptions extends L.MapOptions {
   directory: string;
-  wikiContributionPage?: string;
+  gameTitle: string;
   mapSizePixels: number;
   mapSizeCoords?: number;
   tileSizePixels: number;
@@ -111,7 +111,11 @@ export class ZDMap extends Map {
     map.getContainer().classList.add(`zd-map-${options.directory}`);
 
     map.settingsStore = LocalStorage.getStore(options.directory, "settings");
-    map.wiki = new WikiConnector(options.directory, new Dialog(map));
+    map.wiki = new WikiConnector(
+      options.directory,
+      options.gameTitle,
+      new Dialog(map)
+    );
 
     map.on("zoom", (_) => {
       map.layers.forEach((l) => l.updateZoom(map.getZoom()));
@@ -132,11 +136,12 @@ export class ZDMap extends Map {
       tempMarker.getIcon().options.iconRetinaUrl = markerIconRetinaUrl;
       tempMarker.getIcon().options.shadowUrl = markerShadowUrl;
     }
-    const wikiContributeLink = `<a target="_blank" href="https://zeldadungeon.net/wiki/Zelda Dungeon:${options.wikiContributionPage} Map">Contribute Marker</a>`;
+    const wikiContributeLink = `<a target="_blank" href="https://zeldadungeon.net/wiki/Zelda Dungeon:${options.gameTitle} Map">Contribute Marker</a>`;
     map.on("click", (e) => {
       console.log(e.latlng);
       map.panTo(e.latlng);
-      if (options.wikiContributionPage) {
+      // for now, enable temp marker for totk
+      if (options.directory === "totk") {
         tempMarker
           .setLatLng(e.latlng)
           .addTo(map)
@@ -157,6 +162,9 @@ export class ZDMap extends Map {
           )}||&lt;name&gt;}}<br />${wikiContributeLink}`
         )
         .openPopup();
+    });
+    tempMarker.on("click", (e) => {
+      tempMarker.removeFrom(map);
     });
 
     return map;
