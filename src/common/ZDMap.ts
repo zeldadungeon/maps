@@ -176,7 +176,8 @@ export class ZDMap extends Map {
 
   public addMapLayer(
     layerName = "Default",
-    tilePath: string | undefined = undefined
+    tilePath: string | undefined = undefined,
+    selected = true
   ): MapLayer {
     const layer = new MapLayer(
       this,
@@ -188,7 +189,8 @@ export class ZDMap extends Map {
     );
     layer.updateZoom(this.getZoom());
     this.addLayer(layer);
-    if (this.layers.push(layer) == 1) {
+    this.layers.push(layer);
+    if (selected) {
       layer.show();
     }
 
