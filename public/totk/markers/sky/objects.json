@@ -152,5 +152,217 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Flux Construct",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 4,
+        "icon": {
+          "url": "square.png",
+          "width": 36,
+          "height": 36
+        },
+        "markers": [
+          {
+            "coords": [
+              -3272.53589,
+              1133.31604
+            ],
+            "elv": 757.668701,
+            "id": "FluxConstruct_S00",
+            "name": "Flux Construct III",
+            "link": "Flux Construct III"
+          },
+          {
+            "coords": [
+              3519.2749,
+              -3471.79102
+            ],
+            "elv": 930.902954,
+            "id": "FluxConstruct_S01",
+            "name": "Flux Construct I",
+            "link": "Flux Construct I"
+          },
+          {
+            "coords": [
+              633.127991,
+              3386.43799
+            ],
+            "elv": 1290.96997,
+            "id": "FluxConstruct_S02",
+            "name": "Flux Construct II",
+            "link": "Flux Construct II"
+          },
+          {
+            "coords": [
+              1808.68604,
+              3674.1311
+            ],
+            "elv": 989.375,
+            "id": "FluxConstruct_S03",
+            "name": "Flux Construct II",
+            "link": "Flux Construct II"
+          },
+          {
+            "coords": [
+              -1547.72205,
+              -1343.77698
+            ],
+            "elv": 802.241272,
+            "id": "FluxConstruct_S04",
+            "name": "Flux Construct II",
+            "link": "Flux Construct II"
+          },
+          {
+            "coords": [
+              3434.15894,
+              3301.49805
+            ],
+            "elv": 795.125,
+            "id": "FluxConstruct_S05",
+            "name": "Flux Construct III",
+            "link": "Flux Construct III"
+          },
+          {
+            "coords": [
+              -2777.21411,
+              3044.01489
+            ],
+            "elv": 1201.88306,
+            "id": "FluxConstruct_S06",
+            "name": "Flux Construct III",
+            "link": "Flux Construct III"
+          },
+          {
+            "coords": [
+              -3601.43799,
+              2559.24609
+            ],
+            "elv": 895.125,
+            "id": "FluxConstruct_S07",
+            "name": "Flux Construct III",
+            "link": "Flux Construct III"
+          },
+          {
+            "coords": [
+              2467.88403,
+              442.0578
+            ],
+            "elv": 1662.26501,
+            "id": "FluxConstruct_S08",
+            "name": "Flux Construct I",
+            "link": "Flux Construct I"
+          },
+          {
+            "coords": [
+              -411.735992,
+              -2290.42505
+            ],
+            "elv": 895.125,
+            "id": "FluxConstruct_S09",
+            "name": "Flux Construct III",
+            "link": "Flux Construct III"
+          },
+          {
+            "coords": [
+              -2591.47705,
+              -325.653992
+            ],
+            "elv": 895.125,
+            "id": "FluxConstruct_S10",
+            "name": "Flux Construct III",
+            "link": "Flux Construct III"
+          },
+          {
+            "coords": [
+              2720.74902,
+              -3834.43311
+            ],
+            "elv": 545.097473,
+            "id": "FluxConstruct_S11",
+            "name": "Flux Construct I",
+            "link": "Flux Construct I"
+          },
+          {
+            "coords": [
+              658.065979,
+              -3450.48706
+            ],
+            "elv": 1434.91101,
+            "id": "FluxConstruct_S12",
+            "name": "Flux Construct III",
+            "link": "Flux Construct III"
+          },
+          {
+            "coords": [
+              -251.774994,
+              3000.41309
+            ],
+            "elv": 895.125,
+            "id": "FluxConstruct_S13",
+            "name": "Flux Construct II",
+            "link": "Flux Construct II"
+          },
+          {
+            "coords": [
+              -1516.38403,
+              491.648895
+            ],
+            "elv": 1439.55396,
+            "id": "FluxConstruct_S14",
+            "name": "Flux Construct I",
+            "link": "Flux Construct I"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gleeok",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 4,
+        "icon": {
+          "url": "gleeok.png",
+          "width": 30,
+          "height": 30
+        },
+        "markers": [
+          {
+            "coords": [
+              2275.43091,
+              -4470.63477
+            ],
+            "elv": 1284.901,
+            "id": "Gleeok_S00",
+            "name": "King Gleeok",
+            "link": "King Gleeok"
+          },
+          {
+            "coords": [
+              -2627.46899,
+              -4447.82422
+            ],
+            "elv": 1451.13196,
+            "id": "Gleeok_S01",
+            "name": "King Gleeok",
+            "link": "King Gleeok"
+          },
+          {
+            "coords": [
+              -3724.4541,
+              4652.31201
+            ],
+            "elv": 1096.97095,
+            "id": "Gleeok_S02",
+            "name": "King Gleeok",
+            "link": "King Gleeok"
+          }
+        ]
+      }
+    ]
   }
 ]
