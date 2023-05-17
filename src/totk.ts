@@ -123,9 +123,12 @@ window.onload = async () => {
             );
           }
         })
-        .catch((ex) =>
-          console.log(`Error parsing JSON from page: ${wikiSubpage}\n${ex}`)
-        )
+        .catch((ex) => {
+          map.showNotification(
+            `User-contributed markers from ${wikiSubpage} were unable to load due to a formatting error.`
+          );
+          console.log(`Error parsing JSON from page: ${wikiSubpage}\n${ex}`);
+        })
     );
   }
 
@@ -184,9 +187,12 @@ window.onload = async () => {
             ),
           ]);
         })
-        .catch((ex) =>
-          console.log(`Error parsing JSON from page: ${wikiSubpage}\n${ex}`)
-        )
+        .catch((ex) => {
+          map.showNotification(
+            `User-contributed markers from ${wikiSubpage} were unable to load due to a formatting error.`
+          );
+          console.log(`Error parsing JSON from page: ${wikiSubpage}\n${ex}`);
+        })
     );
   }
 
