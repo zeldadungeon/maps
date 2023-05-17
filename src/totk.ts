@@ -63,11 +63,14 @@ window.onload = async () => {
     legendItem("Treasure Chest", "treasure", 27, 21),
     legendItem("Goddess Statue", "statue", 36, 36),
     legendItem("Cooking Pot", "pot", 36, 36),
-    legendItem("Flux Construct", "skull", 36, 36),
+    legendItem("Hudson Sign", "hudsonsign", 24, 24),
+    legendItem("Flux Construct", "square", 36, 36),
+    legendItem("Hinox", "skull", 36, 36),
+    legendItem("Stone Talus", "ore", 36, 36),
     legendItem("Frox", "skull", 36, 36),
     legendItem("Gleeok", "gleeok", 30, 30),
-    legendItem("Hinox", "skull", 36, 36),
     legendItem("Lynel", "lynel", 29, 30),
+    legendItem("Molduga", "skull", 36, 36),
   ]);
 
   function addJson(layer: MapLayer, path: string): Promise<void> {
@@ -123,9 +126,12 @@ window.onload = async () => {
             );
           }
         })
-        .catch((ex) =>
-          console.log(`Error parsing JSON from page: ${wikiSubpage}\n${ex}`)
-        )
+        .catch((ex) => {
+          map.showNotification(
+            `User-contributed markers from ${wikiSubpage} were unable to load due to a formatting error.`
+          );
+          console.log(`Error parsing JSON from page: ${wikiSubpage}\n${ex}`);
+        })
     );
   }
 
@@ -184,9 +190,12 @@ window.onload = async () => {
             ),
           ]);
         })
-        .catch((ex) =>
-          console.log(`Error parsing JSON from page: ${wikiSubpage}\n${ex}`)
-        )
+        .catch((ex) => {
+          map.showNotification(
+            `User-contributed markers from ${wikiSubpage} were unable to load due to a formatting error.`
+          );
+          console.log(`Error parsing JSON from page: ${wikiSubpage}\n${ex}`);
+        })
     );
   }
 

@@ -1,4 +1,3 @@
-import { Dialog } from "./Dialog";
 import { LocalStorage } from "./LocalStorage";
 
 const LOCAL =
@@ -75,7 +74,8 @@ export class WikiConnector {
   constructor(
     private mapid: string,
     private gameTitle: string,
-    private dialog: Dialog
+    private showDialog: (prompt: string, actions: string[]) => Promise<string>,
+    private showNotification: (message: string) => void
   ) {
     this.completionStore = LocalStorage.getStore(mapid, "completion");
   }
@@ -163,7 +163,7 @@ export class WikiConnector {
       const actionLogout = "Logout and keep local data";
       const localSingle = localCompletion.length === 1;
       const wikiSingle = wikiCompletion.length === 1;
-      const action = await this.dialog.showDialog(
+      const action = await this.showDialog(
         `This device has ${localCompletion.length} completed marker${
           localSingle ? "" : "s"
         }, \
@@ -208,7 +208,7 @@ export class WikiConnector {
       const actionReplace = "Upload to account";
       const actionLogout = "Logout and keep local data";
       const single = localCompletion.length === 1;
-      const action = await this.dialog.showDialog(
+      const action = await this.showDialog(
         `This device has ${localCompletion.length} completed marker${
           single ? "" : "s"
         }. \
@@ -244,7 +244,7 @@ export class WikiConnector {
     if (!this.offline) {
       const actionLogin = "Login";
       const actionContinue = "Continue without logging in";
-      const action = await this.dialog.showDialog(
+      const action = await this.showDialog(
         `Logging into your Zelda Dungeon Wiki account allows you to access your completion data from any device. \
                 If you choose not to login now, you can login anytime from the settings menu on the left.`,
         [actionLogin, actionContinue]
@@ -291,33 +291,39 @@ export class WikiConnector {
   }
 
   private async postWithRetry<ResponseType>(query: string): Promise<void> {
-    if (this.csrf) {
-      const response1 = await this.post<ResponseType>(query);
-      if (!responseIsError(response1)) {
-        return;
+    try {
+      if (this.csrf) {
+        const response1 = await this.post<ResponseType>(query);
+        if (!responseIsError(response1)) {
+          return;
+        }
+
+        if (response1.error.code !== "badtoken") {
+          if (response1.error.code === "readonly") {
+            this.showDialog(
+              "Your completion was not saved because the database is currently in read-only mode while we perform a migration to prepare for increased usage. Please try again later.",
+              ["Ok"]
+            );
+          }
+          throw response1;
+        }
       }
 
-      if (response1.error.code !== "badtoken") {
-        if (response1.error.code === "readonly") {
-          this.dialog.showDialog(
+      await this.getToken();
+      const response2 = await this.post<ResponseType>(query);
+      if (responseIsError(response2)) {
+        if (response2.error.code === "readonly") {
+          this.showDialog(
             "Your completion was not saved because the database is currently in read-only mode while we perform a migration to prepare for increased usage. Please try again later.",
             ["Ok"]
           );
         }
-        throw response1;
+        throw response2;
       }
-    }
-
-    await this.getToken();
-    const response2 = await this.post<ResponseType>(query);
-    if (responseIsError(response2)) {
-      if (response2.error.code === "readonly") {
-        this.dialog.showDialog(
-          "Your completion was not saved because the database is currently in read-only mode while we perform a migration to prepare for increased usage. Please try again later.",
-          ["Ok"]
-        );
-      }
-      throw response2;
+    } catch (ex) {
+      this.showNotification(
+        "An error occurred while saving completion information. Please refresh the page, ensure you are logged in, and try again."
+      );
     }
   }
 

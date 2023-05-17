@@ -9,14 +9,15 @@ import {
   Point,
 } from "leaflet";
 import { dom, library } from "@fortawesome/fontawesome-svg-core";
-import { ICategory } from "./ICategory";
-import { ZDControl } from "./ZDControl";
 import { Dialog } from "./Dialog";
+import { ICategory } from "./ICategory";
 import { LayersControl } from "./LayersControl";
 import { Legend } from "./Legend";
 import { LocalStorage } from "./LocalStorage";
-import { ZDMarker } from "./ZDMarker";
 import { MapLayer } from "./MapLayer";
+import { ToastControl } from "./ToastControl";
+import { ZDControl } from "./ZDControl";
+import { ZDMarker } from "./ZDMarker";
 import { WikiConnector } from "./WikiConnector";
 import { faCog } from "@fortawesome/free-solid-svg-icons/faCog";
 import { faSearch } from "@fortawesome/free-solid-svg-icons/faSearch";
@@ -47,6 +48,7 @@ export class ZDMap extends Map {
   private legendLandscape?: Legend;
   private layers = <MapLayer[]>[];
   private layersControl?: LayersControl;
+  private toastControl = new ToastControl();
   private loginFn!: (username: string) => void;
 
   private constructor(
@@ -111,10 +113,12 @@ export class ZDMap extends Map {
     map.getContainer().classList.add(`zd-map-${options.directory}`);
 
     map.settingsStore = LocalStorage.getStore(options.directory, "settings");
+    const dialog = new Dialog(map);
     map.wiki = new WikiConnector(
       options.directory,
       options.gameTitle,
-      new Dialog(map)
+      dialog.showDialog.bind(dialog),
+      map.toastControl.showNotification.bind(map.toastControl)
     );
 
     map.on("zoom", (_) => {
@@ -198,7 +202,6 @@ export class ZDMap extends Map {
     const searchControl = this.initializeSearchControl();
     const settingsControl = this.initializeSettingsControl(tags);
 
-    // TODO custom layers control that takes MapLayer instead of TileLayer
     if (this.layers.length > 1) {
       this.layersControl = new LayersControl({
         position: "topleft",
@@ -223,6 +226,8 @@ export class ZDMap extends Map {
     settingsControl.onOpen(() => {
       searchControl.close();
     });
+
+    this.toastControl.addTo(this);
   }
 
   public addLegend(categories: ICategory[] = []): void {
@@ -274,6 +279,10 @@ export class ZDMap extends Map {
         break;
       }
     }
+  }
+
+  public showNotification(message: string): void {
+    this.toastControl.showNotification(message);
   }
 
   private initializeSearchControl(): ZDControl {
