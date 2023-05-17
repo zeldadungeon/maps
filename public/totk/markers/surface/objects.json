@@ -1490,8 +1490,8 @@
         "minZoom": 5,
         "icon": {
           "url": "hudsonsign.png",
-          "width": 36,
-          "height": 36
+          "width": 24,
+          "height": 24
         },
         "markers": [
           {
