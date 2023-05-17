@@ -177,20 +177,22 @@ export class ZDMap extends Map {
   public addMapLayer(
     layerName = "Default",
     tilePath: string | undefined = undefined,
-    enabledTilePath?: string
+    layerIdEnabled?: string,
+    selected = true
   ): MapLayer {
     const layer = new MapLayer(
       this,
       layerName,
       tilePath,
-      enabledTilePath,
+      layerIdEnabled,
       this.tileSize,
       this.getMaxZoom(),
       this.bounds
     );
     layer.updateZoom(this.getZoom());
     this.addLayer(layer);
-    if (this.layers.push(layer) == 1) {
+    this.layers.push(layer);
+    if (selected) {
       layer.show();
     }
 

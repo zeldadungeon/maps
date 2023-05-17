@@ -349,8 +349,8 @@
             ],
             "elv": -732.786621,
             "id": "Talus_D00",
-            "name": "Stone Talus",
-            "link": "Stone Talus"
+            "name": "Stone Talus (Rare)",
+            "link": "Stone Talus (Rare)"
           },
           {
             "coords": [
@@ -359,8 +359,8 @@
             ],
             "elv": -562.980835,
             "id": "Talus_D01",
-            "name": "Stone Talus",
-            "link": "Stone Talus"
+            "name": "Stone Talus (Rare)",
+            "link": "Stone Talus (Rare)"
           },
           {
             "coords": [
@@ -409,8 +409,8 @@
             ],
             "elv": -648.166687,
             "id": "Talus_D06",
-            "name": "Stone Talus",
-            "link": "Stone Talus"
+            "name": "Stone Talus (Rare)",
+            "link": "Stone Talus (Rare)"
           },
           {
             "coords": [
@@ -439,8 +439,8 @@
             ],
             "elv": -409.840607,
             "id": "Talus_D09",
-            "name": "Stone Talus",
-            "link": "Stone Talus"
+            "name": "Stone Talus (Rare)",
+            "link": "Stone Talus (Rare)"
           },
           {
             "coords": [
@@ -449,8 +449,8 @@
             ],
             "elv": -714.084229,
             "id": "Talus_D10",
-            "name": "Stone Talus",
-            "link": "Stone Talus"
+            "name": "Stone Talus (Luminous)",
+            "link": "Stone Talus (Luminous)"
           },
           {
             "coords": [
@@ -469,8 +469,8 @@
             ],
             "elv": -597.042969,
             "id": "Talus_D12",
-            "name": "Stone Talus",
-            "link": "Stone Talus"
+            "name": "Stone Talus (Luminous)",
+            "link": "Stone Talus (Luminous)"
           },
           {
             "coords": [
@@ -509,8 +509,8 @@
             ],
             "elv": -554.845886,
             "id": "Talus_D16",
-            "name": "Stone Talus",
-            "link": "Stone Talus"
+            "name": "Stone Talus (Luminous)",
+            "link": "Stone Talus (Luminous)"
           },
           {
             "coords": [
@@ -529,8 +529,8 @@
             ],
             "elv": -482.189301,
             "id": "Talus_D18",
-            "name": "Stone Talus",
-            "link": "Stone Talus"
+            "name": "Stone Talus (Rare)",
+            "link": "Stone Talus (Rare)"
           },
           {
             "coords": [
@@ -559,8 +559,8 @@
             ],
             "elv": -598.039063,
             "id": "Talus_D21",
-            "name": "Stone Talus",
-            "link": "Stone Talus"
+            "name": "Stone Talus (Rare)",
+            "link": "Stone Talus (Rare)"
           },
           {
             "coords": [
@@ -569,8 +569,8 @@
             ],
             "elv": -477.305389,
             "id": "Talus_D22",
-            "name": "Stone Talus",
-            "link": "Stone Talus"
+            "name": "Stone Talus (Luminous)",
+            "link": "Stone Talus (Luminous)"
           },
           {
             "coords": [
@@ -579,8 +579,8 @@
             ],
             "elv": -771.054871,
             "id": "Talus_D23",
-            "name": "Stone Talus",
-            "link": "Stone Talus"
+            "name": "Stone Talus (Luminous)",
+            "link": "Stone Talus (Luminous)"
           },
           {
             "coords": [
@@ -619,8 +619,8 @@
             ],
             "elv": -459.985687,
             "id": "Talus_D27",
-            "name": "Stone Talus",
-            "link": "Stone Talus"
+            "name": "Stone Talus (Luminous)",
+            "link": "Stone Talus (Luminous)"
           },
           {
             "coords": [
@@ -639,8 +639,8 @@
             ],
             "elv": -455.034912,
             "id": "Talus_D29",
-            "name": "Stone Talus",
-            "link": "Stone Talus"
+            "name": "Stone Talus (Luminous)",
+            "link": "Stone Talus (Luminous)"
           },
           {
             "coords": [
@@ -649,8 +649,8 @@
             ],
             "elv": -795.401672,
             "id": "Talus_D30",
-            "name": "Stone Talus",
-            "link": "Stone Talus"
+            "name": "Stone Talus (Luminous)",
+            "link": "Stone Talus (Luminous)"
           },
           {
             "coords": [
@@ -659,8 +659,8 @@
             ],
             "elv": -757.924988,
             "id": "Talus_D31",
-            "name": "Stone Talus",
-            "link": "Stone Talus"
+            "name": "Stone Talus (Luminous)",
+            "link": "Stone Talus (Luminous)"
           }
         ]
       }
@@ -1319,6 +1319,212 @@
             "id": "Gleeok_D00",
             "name": "King Gleeok",
             "link": "King Gleeok"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lynel",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 4,
+        "icon": {
+          "url": "lynel.png",
+          "width": 29,
+          "height": 30
+        },
+        "markers": [
+          {
+            "coords": [
+              -2238.38403,
+              -2798.87305
+            ],
+            "elv": -481.926697,
+            "id": "Lynel_D00",
+            "name": "Blue-Maned Lynel (Armored)",
+            "link": "Blue-Maned Lynel"
+          },
+          {
+            "coords": [
+              2523.13208,
+              -1602.82202
+            ],
+            "elv": -684.033081,
+            "id": "Lynel_D01",
+            "name": "White-Maned Lynel (Armored)",
+            "link": "White-Maned Lynel"
+          },
+          {
+            "coords": [
+              763.763489,
+              -1224.30603
+            ],
+            "elv": -551.337158,
+            "id": "Lynel_D02",
+            "name": "White-Maned Lynel (Armored)",
+            "link": "White-Maned Lynel"
+          },
+          {
+            "coords": [
+              -1261.71704,
+              -1438.63
+            ],
+            "elv": -484.5,
+            "id": "Lynel_D03",
+            "name": "Lynel (Armored)",
+            "link": "Lynel"
+          },
+          {
+            "coords": [
+              792.33667,
+              -245.917007
+            ],
+            "elv": -1090.09888,
+            "id": "Lynel_D04",
+            "name": "White-Maned Lynel",
+            "link": "White-Maned Lynel"
+          },
+          {
+            "coords": [
+              -266.915802,
+              1083.69995
+            ],
+            "elv": -466.285004,
+            "id": "Lynel_D05",
+            "name": "Silver Lynel (Armored)",
+            "link": "Silver Lynel"
+          },
+          {
+            "coords": [
+              -1186.69104,
+              253.332504
+            ],
+            "elv": -472.928986,
+            "id": "Lynel_D06",
+            "name": "Lynel (Armored)",
+            "link": "Lynel"
+          },
+          {
+            "coords": [
+              -3456.91406,
+              499.521393
+            ],
+            "elv": -499.563812,
+            "id": "Lynel_D07",
+            "name": "White-Maned Lynel (Armored)",
+            "link": "White-Maned Lynel"
+          },
+          {
+            "coords": [
+              1124.45703,
+              1040.62402
+            ],
+            "elv": -474.168304,
+            "id": "Lynel_D08",
+            "name": "Blue-Maned Lynel (Armored)",
+            "link": "Blue-Maned Lynel"
+          },
+          {
+            "coords": [
+              -1926.24402,
+              1761.31396
+            ],
+            "elv": -462.875092,
+            "id": "Lynel_D09",
+            "name": "White-Maned Lynel (Armored)",
+            "link": "White-Maned Lynel"
+          },
+          {
+            "coords": [
+              -3496.46411,
+              1584.70203
+            ],
+            "elv": -512.086182,
+            "id": "Lynel_D10",
+            "name": "Blue-Maned Lynel (Armored)",
+            "link": "Blue-Maned Lynel"
+          },
+          {
+            "coords": [
+              1145.44495,
+              2604.14893
+            ],
+            "elv": -597.457642,
+            "id": "Lynel_D11",
+            "name": "Blue-Maned Lynel (Armored)",
+            "link": "Blue-Maned Lynel"
+          },
+          {
+            "coords": [
+              1692.64697,
+              3149.83203
+            ],
+            "elv": -649.596375,
+            "id": "Lynel_D12",
+            "name": "Blue-Maned Lynel (Armored)",
+            "link": "Blue-Maned Lynel"
+          },
+          {
+            "coords": [
+              2721.104,
+              4212.08594
+            ],
+            "elv": -572.535278,
+            "id": "Lynel_D13",
+            "name": "Blue-Maned Lynel (Armored)",
+            "link": "Blue-Maned Lynel"
+          },
+          {
+            "coords": [
+              -1278.08899,
+              -1207.40503
+            ],
+            "elv": -499.091797,
+            "id": "Lynel_D14",
+            "name": "White-Maned Lynel",
+            "link": "White-Maned Lynel"
+          },
+          {
+            "coords": [
+              -1305.11096,
+              -1109.047
+            ],
+            "elv": -498.773285,
+            "id": "Lynel_D15",
+            "name": "Blue-Maned Lynel",
+            "link": "Blue-Maned Lynel"
+          },
+          {
+            "coords": [
+              -1249.38794,
+              -1096.96704
+            ],
+            "elv": -498.890686,
+            "id": "Lynel_D16",
+            "name": "Silver Lynel",
+            "link": "Silver Lynel"
+          },
+          {
+            "coords": [
+              -1321.00598,
+              -1167.36499
+            ],
+            "elv": -499.130615,
+            "id": "Lynel_D17",
+            "name": "Lynel",
+            "link": "Lynel"
+          },
+          {
+            "coords": [
+              -1222.31799,
+              -1192.479
+            ],
+            "elv": -498.591797,
+            "id": "Lynel_D18",
+            "name": "Silver Lynel (Armored)",
+            "link": "Silver Lynel"
           }
         ]
       }
