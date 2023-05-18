@@ -9,6 +9,7 @@ export class MapLayer extends LayerGroup {
   public tileLayer: TileLayer;
   public markerLayer: LayerGroup;
   public iconUrl: string;
+  public enabledIconUrl?: string;
   private categories = <{ [key: string]: Layer[] }>{};
   private tileMarkerContainers: MarkerContainer[][][] = [];
   private taggedMarkerContainers = <{ [key: string]: MarkerContainer }>{};
@@ -17,7 +18,8 @@ export class MapLayer extends LayerGroup {
   public constructor(
     private map: ZDMap,
     public layerName: string,
-    tilePath: string | undefined,
+    layerId: string | undefined,
+    layerIdEnabled: string | undefined,
     private tileSize: number,
     private maxZoom: number,
     bounds: L.LatLngBounds
@@ -25,10 +27,13 @@ export class MapLayer extends LayerGroup {
     super();
     this.iconUrl = `${import.meta.env.BASE_URL}${
       map.directory
-    }/icons/${tilePath}.png`;
-    tilePath = tilePath ? `tiles/${tilePath}` : "tiles";
+    }/icons/${layerId}.png`;
+    this.enabledIconUrl = `${import.meta.env.BASE_URL}${
+      map.directory
+    }/icons/${layerIdEnabled}.png`;
+    layerId = layerId ? `tiles/${layerId}` : "tiles";
     this.tileLayer = new TileLayer(
-      `${import.meta.env.BASE_URL}${map.directory}/${tilePath}/{z}/{x}_{y}.jpg`,
+      `${import.meta.env.BASE_URL}${map.directory}/${layerId}/{z}/{x}_{y}.jpg`,
       {
         tileSize: tileSize,
         minZoom: 0,
@@ -108,8 +113,13 @@ export class MapLayer extends LayerGroup {
       }
     });
 
+    if (marker.hasPath()) {
+      const pathContainer = this.getTaggedMarkerContainer("Paths");
+      pathContainer.addMarker(marker);
+    }
+
     if (isVisible) {
-      marker.show();
+      marker.show(this.taggedMarkerContainers["Paths"]?.isVisible() !== false);
     }
 
     marker.on("completed", () => {
@@ -188,9 +198,12 @@ export class MapLayer extends LayerGroup {
 
   public updateZoom(zoom: number): void {
     this.currentZoom = zoom;
-    Object.values(this.categories).forEach((c) =>
-      c.forEach((l) => this.updateLayerVisibility(l))
-    );
+    for (const category of Object.values(this.categories)) {
+      for (const layer of category) {
+        layer.updateZoom(zoom);
+        this.updateLayerVisibility(layer);
+      }
+    }
   }
 
   // TODO refactor
@@ -230,7 +243,7 @@ export class MapLayer extends LayerGroup {
         (tag) => this.taggedMarkerContainers[tag]?.isVisible() !== false // undefined -> true
       )
     ) {
-      marker.show();
+      marker.show(this.taggedMarkerContainers["Paths"]?.isVisible() !== false);
     } else {
       marker.hide();
     }

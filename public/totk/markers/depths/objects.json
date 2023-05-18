@@ -1,0 +1,1533 @@
+[
+  {
+    "name": "Cooking Pot",
+    "link": "Cooking Pot",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "pot.png",
+          "width": 36,
+          "height": 36
+        },
+        "markers": [
+          {
+            "coords": [
+              -2679.73999,
+              -1227.18896
+            ],
+            "elv": -516.010315,
+            "id": "Pot_D000"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hinox",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 4,
+        "icon": {
+          "url": "skull.png",
+          "width": 36,
+          "height": 36
+        },
+        "markers": [
+          {
+            "coords": [
+              -1292,
+              -4205
+            ],
+            "elv": -871.218079,
+            "id": "Hinox_D00",
+            "name": "Black Hinox",
+            "link": "Black Hinox"
+          },
+          {
+            "coords": [
+              -3465.06592,
+              -4324.58008
+            ],
+            "elv": -476.812988,
+            "id": "Hinox_D01",
+            "name": "Blue Hinox",
+            "link": "Blue Hinox"
+          },
+          {
+            "coords": [
+              3806.20898,
+              -3654.67505
+            ],
+            "elv": -677.857971,
+            "id": "Hinox_D02",
+            "name": "Black Hinox",
+            "link": "Black Hinox"
+          },
+          {
+            "coords": [
+              1557.10803,
+              -3793.23999
+            ],
+            "elv": -590.342285,
+            "id": "Hinox_D03",
+            "name": "Stalnox",
+            "link": "Stalnox"
+          },
+          {
+            "coords": [
+              -3554.61792,
+              -3570.83008
+            ],
+            "elv": -468.575989,
+            "id": "Hinox_D04",
+            "name": "Stalnox",
+            "link": "Stalnox"
+          },
+          {
+            "coords": [
+              2031,
+              -2783
+            ],
+            "elv": -757.458679,
+            "id": "Hinox_D05",
+            "name": "Black Hinox",
+            "link": "Black Hinox"
+          },
+          {
+            "coords": [
+              1334.026,
+              -2735.93188
+            ],
+            "elv": -608.747681,
+            "id": "Hinox_D06",
+            "name": "Blue Hinox",
+            "link": "Blue Hinox"
+          },
+          {
+            "coords": [
+              -821.393188,
+              -1069.77905
+            ],
+            "elv": -477.857513,
+            "id": "Hinox_D07",
+            "name": "Hinox",
+            "link": "Hinox"
+          },
+          {
+            "coords": [
+              46.5487099,
+              -1092.66296
+            ],
+            "elv": -485.06781,
+            "id": "Hinox_D08",
+            "name": "Stalnox",
+            "link": "Stalnox"
+          },
+          {
+            "coords": [
+              -114.590897,
+              -1177.03101
+            ],
+            "elv": -486.285187,
+            "id": "Hinox_D09",
+            "name": "Stalnox",
+            "link": "Stalnox"
+          },
+          {
+            "coords": [
+              -2365.97192,
+              -1439.151
+            ],
+            "elv": -556.189514,
+            "id": "Hinox_D10",
+            "name": "Hinox",
+            "link": "Hinox"
+          },
+          {
+            "coords": [
+              2382.2959,
+              -146.269608
+            ],
+            "elv": -621.036072,
+            "id": "Hinox_D11",
+            "name": "Black Hinox",
+            "link": "Black Hinox"
+          },
+          {
+            "coords": [
+              -1334.85303,
+              46.430481
+            ],
+            "elv": -466.135895,
+            "id": "Hinox_D12",
+            "name": "Hinox",
+            "link": "Hinox"
+          },
+          {
+            "coords": [
+              2907.76709,
+              912.681274
+            ],
+            "elv": -676.545898,
+            "id": "Hinox_D13",
+            "name": "Stalnox",
+            "link": "Stalnox"
+          },
+          {
+            "coords": [
+              -6.83352995,
+              366.150513
+            ],
+            "elv": -476.6026,
+            "id": "Hinox_D14",
+            "name": "Hinox",
+            "link": "Hinox"
+          },
+          {
+            "coords": [
+              -1956.19299,
+              779.406799
+            ],
+            "elv": -466.074585,
+            "id": "Hinox_D15",
+            "name": "Stalnox",
+            "link": "Stalnox"
+          },
+          {
+            "coords": [
+              910.25708,
+              1305.26794
+            ],
+            "elv": -479.540314,
+            "id": "Hinox_D16",
+            "name": "Blue Hinox",
+            "link": "Blue Hinox"
+          },
+          {
+            "coords": [
+              -1329.5,
+              1469.5
+            ],
+            "elv": -549.251221,
+            "id": "Hinox_D17",
+            "name": "Black Hinox",
+            "link": "Black Hinox"
+          },
+          {
+            "coords": [
+              -2416.01099,
+              1562.19702
+            ],
+            "elv": -640.464111,
+            "id": "Hinox_D18",
+            "name": "Blue Hinox",
+            "link": "Blue Hinox"
+          },
+          {
+            "coords": [
+              -2872.43091,
+              1098.12097
+            ],
+            "elv": -516.375732,
+            "id": "Hinox_D19",
+            "name": "Blue Hinox",
+            "link": "Blue Hinox"
+          },
+          {
+            "coords": [
+              -2671.66406,
+              1213.42798
+            ],
+            "elv": -593.148193,
+            "id": "Hinox_D20",
+            "name": "Blue Hinox",
+            "link": "Blue Hinox"
+          },
+          {
+            "coords": [
+              -2910.66699,
+              1651.95703
+            ],
+            "elv": -707.491577,
+            "id": "Hinox_D21",
+            "name": "Blue Hinox",
+            "link": "Blue Hinox"
+          },
+          {
+            "coords": [
+              -3873.21094,
+              1687.42395
+            ],
+            "elv": -455.591095,
+            "id": "Hinox_D22",
+            "name": "Black Hinox",
+            "link": "Black Hinox"
+          },
+          {
+            "coords": [
+              3008.41504,
+              2138.00903
+            ],
+            "elv": -873.152527,
+            "id": "Hinox_D23",
+            "name": "Stalnox",
+            "link": "Stalnox"
+          },
+          {
+            "coords": [
+              -2003.65601,
+              2051.04907
+            ],
+            "elv": -472.460693,
+            "id": "Hinox_D24",
+            "name": "Black Hinox",
+            "link": "Black Hinox"
+          },
+          {
+            "coords": [
+              -1134.09705,
+              2243.53198
+            ],
+            "elv": -680.151978,
+            "id": "Hinox_D25",
+            "name": "Stalnox",
+            "link": "Stalnox"
+          },
+          {
+            "coords": [
+              -2405.43311,
+              2874.60107
+            ],
+            "elv": -570.134399,
+            "id": "Hinox_D26",
+            "name": "Stalnox",
+            "link": "Stalnox"
+          },
+          {
+            "coords": [
+              3445.18311,
+              3257.21704
+            ],
+            "elv": -430.388489,
+            "id": "Hinox_D27",
+            "name": "Stalnox",
+            "link": "Stalnox"
+          },
+          {
+            "coords": [
+              1777.70703,
+              4643.44678
+            ],
+            "elv": -481.889496,
+            "id": "Hinox_D28",
+            "name": "Black Hinox",
+            "link": "Black Hinox"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Stone Talus",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 4,
+        "icon": {
+          "url": "ore.png",
+          "width": 36,
+          "height": 36
+        },
+        "markers": [
+          {
+            "coords": [
+              3386.98291,
+              -4432.52979
+            ],
+            "elv": -732.786621,
+            "id": "Talus_D00",
+            "name": "Stone Talus (Rare)",
+            "link": "Stone Talus (Rare)"
+          },
+          {
+            "coords": [
+              2450.40894,
+              -4499.7998
+            ],
+            "elv": -562.980835,
+            "id": "Talus_D01",
+            "name": "Stone Talus (Rare)",
+            "link": "Stone Talus (Rare)"
+          },
+          {
+            "coords": [
+              1935.43896,
+              -4393.2959
+            ],
+            "elv": -561.721924,
+            "id": "Talus_D02",
+            "name": "Battle Talus",
+            "link": "Battle Talus"
+          },
+          {
+            "coords": [
+              -390.847504,
+              -4722.66699
+            ],
+            "elv": -1084.72192,
+            "id": "Talus_D03",
+            "name": "Frost Talus",
+            "link": "Frost Talus"
+          },
+          {
+            "coords": [
+              -1696.198,
+              -4010.20605
+            ],
+            "elv": -753.693726,
+            "id": "Talus_D04",
+            "name": "Stone Talus",
+            "link": "Stone Talus"
+          },
+          {
+            "coords": [
+              2196.20605,
+              -3629.34399
+            ],
+            "elv": -591.57019,
+            "id": "Talus_D05",
+            "name": "Frost Talus",
+            "link": "Frost Talus"
+          },
+          {
+            "coords": [
+              1076.02795,
+              -3386.52002
+            ],
+            "elv": -648.166687,
+            "id": "Talus_D06",
+            "name": "Stone Talus (Rare)",
+            "link": "Stone Talus (Rare)"
+          },
+          {
+            "coords": [
+              1287.698,
+              -3108.01904
+            ],
+            "elv": -605.092041,
+            "id": "Talus_D07",
+            "name": "Battle Talus",
+            "link": "Battle Talus"
+          },
+          {
+            "coords": [
+              -2443.3479,
+              -3530.6189
+            ],
+            "elv": -484.345093,
+            "id": "Talus_D08",
+            "name": "Stone Talus",
+            "link": "Stone Talus"
+          },
+          {
+            "coords": [
+              1491.77905,
+              -2635.38403
+            ],
+            "elv": -409.840607,
+            "id": "Talus_D09",
+            "name": "Stone Talus (Rare)",
+            "link": "Stone Talus (Rare)"
+          },
+          {
+            "coords": [
+              -584.721924,
+              -2220.99609
+            ],
+            "elv": -714.084229,
+            "id": "Talus_D10",
+            "name": "Stone Talus (Luminous)",
+            "link": "Stone Talus (Luminous)"
+          },
+          {
+            "coords": [
+              -107.412399,
+              -2526.82104
+            ],
+            "elv": -576.376221,
+            "id": "Talus_D11",
+            "name": "Battle Talus",
+            "link": "Battle Talus"
+          },
+          {
+            "coords": [
+              2955.84497,
+              -394.2005
+            ],
+            "elv": -597.042969,
+            "id": "Talus_D12",
+            "name": "Stone Talus (Luminous)",
+            "link": "Stone Talus (Luminous)"
+          },
+          {
+            "coords": [
+              -802.02002,
+              -108.732697
+            ],
+            "elv": -487.206787,
+            "id": "Talus_D13",
+            "name": "Battle Talus",
+            "link": "Battle Talus"
+          },
+          {
+            "coords": [
+              -1004.68201,
+              -460.26059
+            ],
+            "elv": -487.31839,
+            "id": "Talus_D14",
+            "name": "Stone Talus",
+            "link": "Stone Talus"
+          },
+          {
+            "coords": [
+              -3349.91602,
+              -826.016113
+            ],
+            "elv": -537.645691,
+            "id": "Talus_D15",
+            "name": "Stone Talus",
+            "link": "Stone Talus"
+          },
+          {
+            "coords": [
+              3673.29492,
+              950.564087
+            ],
+            "elv": -554.845886,
+            "id": "Talus_D16",
+            "name": "Stone Talus (Luminous)",
+            "link": "Stone Talus (Luminous)"
+          },
+          {
+            "coords": [
+              -12.4732103,
+              -3.66562009
+            ],
+            "elv": -470.630188,
+            "id": "Talus_D17",
+            "name": "Stone Talus",
+            "link": "Stone Talus"
+          },
+          {
+            "coords": [
+              513.471497,
+              697.139221
+            ],
+            "elv": -482.189301,
+            "id": "Talus_D18",
+            "name": "Stone Talus (Rare)",
+            "link": "Stone Talus (Rare)"
+          },
+          {
+            "coords": [
+              3174.55908,
+              1454.13403
+            ],
+            "elv": -838.12677,
+            "id": "Talus_D19",
+            "name": "Igneo Talus",
+            "link": "Igneo Talus"
+          },
+          {
+            "coords": [
+              1610.02002,
+              1672.47705
+            ],
+            "elv": -726.117676,
+            "id": "Talus_D20",
+            "name": "Igneo Talus",
+            "link": "Igneo Talus"
+          },
+          {
+            "coords": [
+              -975.006714,
+              1483.01697
+            ],
+            "elv": -598.039063,
+            "id": "Talus_D21",
+            "name": "Stone Talus (Rare)",
+            "link": "Stone Talus (Rare)"
+          },
+          {
+            "coords": [
+              -3417.396,
+              1056.37903
+            ],
+            "elv": -477.305389,
+            "id": "Talus_D22",
+            "name": "Stone Talus (Luminous)",
+            "link": "Stone Talus (Luminous)"
+          },
+          {
+            "coords": [
+              3637.15698,
+              2479.104
+            ],
+            "elv": -771.054871,
+            "id": "Talus_D23",
+            "name": "Stone Talus (Luminous)",
+            "link": "Stone Talus (Luminous)"
+          },
+          {
+            "coords": [
+              2555.55811,
+              2912.83105
+            ],
+            "elv": -961.980896,
+            "id": "Talus_D24",
+            "name": "Igneo Talus",
+            "link": "Igneo Talus"
+          },
+          {
+            "coords": [
+              1449,
+              2984.99902
+            ],
+            "elv": -730.140076,
+            "id": "Talus_D25",
+            "name": "Battle Talus",
+            "link": "Battle Talus"
+          },
+          {
+            "coords": [
+              -1942.76001,
+              2642.18311
+            ],
+            "elv": -527.832275,
+            "id": "Talus_D26",
+            "name": "Frost Talus",
+            "link": "Frost Talus"
+          },
+          {
+            "coords": [
+              -1778.50903,
+              3028.86792
+            ],
+            "elv": -459.985687,
+            "id": "Talus_D27",
+            "name": "Stone Talus (Luminous)",
+            "link": "Stone Talus (Luminous)"
+          },
+          {
+            "coords": [
+              -3408.10498,
+              3276.87109
+            ],
+            "elv": -479.993103,
+            "id": "Talus_D28",
+            "name": "Battle Talus",
+            "link": "Battle Talus"
+          },
+          {
+            "coords": [
+              2998.33203,
+              4677.84277
+            ],
+            "elv": -455.034912,
+            "id": "Talus_D29",
+            "name": "Stone Talus (Luminous)",
+            "link": "Stone Talus (Luminous)"
+          },
+          {
+            "coords": [
+              517.80188,
+              4190.78906
+            ],
+            "elv": -795.401672,
+            "id": "Talus_D30",
+            "name": "Stone Talus (Luminous)",
+            "link": "Stone Talus (Luminous)"
+          },
+          {
+            "coords": [
+              -1056.15796,
+              4057.0459
+            ],
+            "elv": -757.924988,
+            "id": "Talus_D31",
+            "name": "Stone Talus (Luminous)",
+            "link": "Stone Talus (Luminous)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Flux Construct",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 4,
+        "icon": {
+          "url": "square.png",
+          "width": 36,
+          "height": 36
+        },
+        "markers": [
+          {
+            "coords": [
+              2239.771,
+              -4412.771
+            ],
+            "elv": -545.330688,
+            "id": "FluxConstruct_D00",
+            "name": "Flux Construct III",
+            "link": "Flux Construct III"
+          },
+          {
+            "coords": [
+              -952.664978,
+              -4085.54492
+            ],
+            "elv": -1110.22095,
+            "id": "FluxConstruct_D01",
+            "name": "Flux Construct III",
+            "link": "Flux Construct III"
+          },
+          {
+            "coords": [
+              -2961,
+              -4146.5
+            ],
+            "elv": -484.399994,
+            "id": "FluxConstruct_D02",
+            "name": "Flux Construct II",
+            "link": "Flux Construct II"
+          },
+          {
+            "coords": [
+              1705.05798,
+              -2619.92603
+            ],
+            "elv": -687.279907,
+            "id": "FluxConstruct_D03",
+            "name": "Flux Construct III",
+            "link": "Flux Construct III"
+          },
+          {
+            "coords": [
+              -1502.59399,
+              -2182.05591
+            ],
+            "elv": -685.839417,
+            "id": "FluxConstruct_D04",
+            "name": "Flux Construct I",
+            "link": "Flux Construct I"
+          },
+          {
+            "coords": [
+              1263.34302,
+              -723.273926
+            ],
+            "elv": -514.193481,
+            "id": "FluxConstruct_D05",
+            "name": "Flux Construct II",
+            "link": "Flux Construct II"
+          },
+          {
+            "coords": [
+              3673.67505,
+              224.610306
+            ],
+            "elv": -510.976105,
+            "id": "FluxConstruct_D06",
+            "name": "Flux Construct II",
+            "link": "Flux Construct II"
+          },
+          {
+            "coords": [
+              678.483887,
+              869.610779
+            ],
+            "elv": -538.474304,
+            "id": "FluxConstruct_D07",
+            "name": "Flux Construct III",
+            "link": "Flux Construct III"
+          },
+          {
+            "coords": [
+              -643.999084,
+              717.131897
+            ],
+            "elv": -457.100494,
+            "id": "FluxConstruct_D08",
+            "name": "Flux Construct I",
+            "link": "Flux Construct I"
+          },
+          {
+            "coords": [
+              -3714.13208,
+              100.865196
+            ],
+            "elv": -452.075714,
+            "id": "FluxConstruct_D09",
+            "name": "Flux Construct I",
+            "link": "Flux Construct I"
+          },
+          {
+            "coords": [
+              3472.89795,
+              2680.13599
+            ],
+            "elv": -677.885315,
+            "id": "FluxConstruct_D10",
+            "name": "Flux Construct II",
+            "link": "Flux Construct II"
+          },
+          {
+            "coords": [
+              -937.240723,
+              2638.9519
+            ],
+            "elv": -656.753479,
+            "id": "FluxConstruct_D11",
+            "name": "Flux Construct II",
+            "link": "Flux Construct II"
+          },
+          {
+            "coords": [
+              -1271.55298,
+              2512.44189
+            ],
+            "elv": -645.225525,
+            "id": "FluxConstruct_D12",
+            "name": "Flux Construct II",
+            "link": "Flux Construct II"
+          },
+          {
+            "coords": [
+              2906.13989,
+              3700.92798
+            ],
+            "elv": -470.645813,
+            "id": "FluxConstruct_D13",
+            "name": "Flux Construct II",
+            "link": "Flux Construct II"
+          },
+          {
+            "coords": [
+              1019.612,
+              3197.771
+            ],
+            "elv": -842.278198,
+            "id": "FluxConstruct_D14",
+            "name": "Flux Construct II",
+            "link": "Flux Construct II"
+          },
+          {
+            "coords": [
+              -1340.16003,
+              3527.24805
+            ],
+            "elv": -604.759766,
+            "id": "FluxConstruct_D15",
+            "name": "Flux Construct II",
+            "link": "Flux Construct II"
+          },
+          {
+            "coords": [
+              -3702.87402,
+              3263.07495
+            ],
+            "elv": -445.862793,
+            "id": "FluxConstruct_D16",
+            "name": "Flux Construct III",
+            "link": "Flux Construct III"
+          },
+          {
+            "coords": [
+              -3462.5,
+              -1795
+            ],
+            "elv": -522.506104,
+            "id": "FluxConstruct_D17",
+            "name": "Flux Construct III",
+            "link": "Flux Construct III"
+          },
+          {
+            "coords": [
+              3534.3999,
+              -814.75
+            ],
+            "elv": -681.757629,
+            "id": "FluxConstruct_D18",
+            "name": "Flux Construct III",
+            "link": "Flux Construct III"
+          },
+          {
+            "coords": [
+              3697,
+              4654.8999
+            ],
+            "elv": -445.446198,
+            "id": "FluxConstruct_D19",
+            "name": "Flux Construct III",
+            "link": "Flux Construct III"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Frox",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 4,
+        "icon": {
+          "url": "skull.png",
+          "width": 36,
+          "height": 36
+        },
+        "markers": [
+          {
+            "coords": [
+              2661.05103,
+              -4398.35986
+            ],
+            "elv": -666.100281,
+            "id": "Frox_D00",
+            "name": "Blue-White Frox",
+            "link": "Blue-White Frox"
+          },
+          {
+            "coords": [
+              -1228.422,
+              -4695.83984
+            ],
+            "elv": -938.848511,
+            "id": "Frox_D01",
+            "name": "Blue-White Frox",
+            "link": "Blue-White Frox"
+          },
+          {
+            "coords": [
+              -2554.79297,
+              -4094.02808
+            ],
+            "elv": -490.002411,
+            "id": "Frox_D02",
+            "name": "Obsidian Frox",
+            "link": "Obsidian Frox"
+          },
+          {
+            "coords": [
+              -3502.27588,
+              -4674.43506
+            ],
+            "elv": -467.546295,
+            "id": "Frox_D03",
+            "name": "Obsidian Frox",
+            "link": "Obsidian Frox"
+          },
+          {
+            "coords": [
+              2670.52588,
+              -3191.13403
+            ],
+            "elv": -887.15387,
+            "id": "Frox_D04",
+            "name": "Blue-White Frox",
+            "link": "Blue-White Frox"
+          },
+          {
+            "coords": [
+              1002.74701,
+              -3719.177
+            ],
+            "elv": -550.3479,
+            "id": "Frox_D05",
+            "name": "Blue-White Frox",
+            "link": "Blue-White Frox"
+          },
+          {
+            "coords": [
+              560.141418,
+              -3890.91211
+            ],
+            "elv": -572.444397,
+            "id": "Frox_D06",
+            "name": "Blue-White Frox",
+            "link": "Blue-White Frox"
+          },
+          {
+            "coords": [
+              -1548.82703,
+              -3627.56396
+            ],
+            "elv": -803.727905,
+            "id": "Frox_D07",
+            "name": "Blue-White Frox",
+            "link": "Blue-White Frox"
+          },
+          {
+            "coords": [
+              -3228.97803,
+              -3428.30005
+            ],
+            "elv": -466.988312,
+            "id": "Frox_D08",
+            "name": "Frox",
+            "link": "Frox"
+          },
+          {
+            "coords": [
+              1933.55896,
+              -2280.30688
+            ],
+            "elv": -711.881104,
+            "id": "Frox_D09",
+            "name": "Blue-White Frox",
+            "link": "Blue-White Frox"
+          },
+          {
+            "coords": [
+              451.184814,
+              -2248.71094
+            ],
+            "elv": -548.478699,
+            "id": "Frox_D10",
+            "name": "Obsidian Frox",
+            "link": "Obsidian Frox"
+          },
+          {
+            "coords": [
+              -1975.24097,
+              -2252.91699
+            ],
+            "elv": -582.77124,
+            "id": "Frox_D11",
+            "name": "Frox",
+            "link": "Frox"
+          },
+          {
+            "coords": [
+              -2680.18506,
+              -2998.10693
+            ],
+            "elv": -462.358307,
+            "id": "Frox_D12",
+            "name": "Obsidian Frox",
+            "link": "Obsidian Frox"
+          },
+          {
+            "coords": [
+              -3329.54907,
+              -2770.76099
+            ],
+            "elv": -440.799011,
+            "id": "Frox_D13",
+            "name": "Frox",
+            "link": "Frox"
+          },
+          {
+            "coords": [
+              -3123.45093,
+              -2439.35498
+            ],
+            "elv": -473.770294,
+            "id": "Frox_D14",
+            "name": "Frox",
+            "link": "Frox"
+          },
+          {
+            "coords": [
+              3657.96289,
+              -1779.62903
+            ],
+            "elv": -676.492981,
+            "id": "Frox_D15",
+            "name": "Blue-White Frox",
+            "link": "Blue-White Frox"
+          },
+          {
+            "coords": [
+              2852.44092,
+              -960.096985
+            ],
+            "elv": -618.509277,
+            "id": "Frox_D16",
+            "name": "Obsidian Frox",
+            "link": "Obsidian Frox"
+          },
+          {
+            "coords": [
+              2413.43701,
+              -1839.02502
+            ],
+            "elv": -675.71582,
+            "id": "Frox_D17",
+            "name": "Blue-White Frox",
+            "link": "Blue-White Frox"
+          },
+          {
+            "coords": [
+              972.639526,
+              -1339.55701
+            ],
+            "elv": -540.088623,
+            "id": "Frox_D18",
+            "name": "Obsidian Frox",
+            "link": "Obsidian Frox"
+          },
+          {
+            "coords": [
+              -395.15329,
+              -1619.07202
+            ],
+            "elv": -498.138489,
+            "id": "Frox_D19",
+            "name": "Obsidian Frox",
+            "link": "Obsidian Frox"
+          },
+          {
+            "coords": [
+              -2608.04712,
+              -1909.97095
+            ],
+            "elv": -588.714233,
+            "id": "Frox_D20",
+            "name": "Frox",
+            "link": "Frox"
+          },
+          {
+            "coords": [
+              2937.94604,
+              -190.067703
+            ],
+            "elv": -615.857788,
+            "id": "Frox_D21",
+            "name": "Obsidian Frox",
+            "link": "Obsidian Frox"
+          },
+          {
+            "coords": [
+              1742.16602,
+              -875.307922
+            ],
+            "elv": -544.926758,
+            "id": "Frox_D22",
+            "name": "Obsidian Frox",
+            "link": "Obsidian Frox"
+          },
+          {
+            "coords": [
+              833.216125,
+              -764.421997
+            ],
+            "elv": -464.451202,
+            "id": "Frox_D23",
+            "name": "Blue-White Frox",
+            "link": "Blue-White Frox"
+          },
+          {
+            "coords": [
+              222.5,
+              -571.5
+            ],
+            "elv": -463.613098,
+            "id": "Frox_D24",
+            "name": "Frox",
+            "link": "Frox"
+          },
+          {
+            "coords": [
+              -1813.547,
+              -293.298889
+            ],
+            "elv": -460.533386,
+            "id": "Frox_D25",
+            "name": "Frox",
+            "link": "Frox"
+          },
+          {
+            "coords": [
+              -1088.91699,
+              -794.367798
+            ],
+            "elv": -468.887787,
+            "id": "Frox_D26",
+            "name": "Frox",
+            "link": "Frox"
+          },
+          {
+            "coords": [
+              -2867.84692,
+              -845.625488
+            ],
+            "elv": -514.583862,
+            "id": "Frox_D27",
+            "name": "Frox",
+            "link": "Frox"
+          },
+          {
+            "coords": [
+              -3141.80908,
+              -325.065887
+            ],
+            "elv": -465.040314,
+            "id": "Frox_D28",
+            "name": "Frox",
+            "link": "Frox"
+          },
+          {
+            "coords": [
+              3439.70605,
+              551.931274
+            ],
+            "elv": -590.953979,
+            "id": "Frox_D29",
+            "name": "Obsidian Frox",
+            "link": "Obsidian Frox"
+          },
+          {
+            "coords": [
+              890.495728,
+              204.015106
+            ],
+            "elv": -471.98999,
+            "id": "Frox_D30",
+            "name": "Blue-White Frox",
+            "link": "Blue-White Frox"
+          },
+          {
+            "coords": [
+              -862.50177,
+              176.501404
+            ],
+            "elv": -476.007996,
+            "id": "Frox_D31",
+            "name": "Frox",
+            "link": "Frox"
+          },
+          {
+            "coords": [
+              -3388.04199,
+              844.960876
+            ],
+            "elv": -474.684296,
+            "id": "Frox_D32",
+            "name": "Obsidian Frox",
+            "link": "Obsidian Frox"
+          },
+          {
+            "coords": [
+              -40.9432716,
+              1069.43896
+            ],
+            "elv": -465.305115,
+            "id": "Frox_D33",
+            "name": "Blue-White Frox",
+            "link": "Blue-White Frox"
+          },
+          {
+            "coords": [
+              1749.79102,
+              2119.3811
+            ],
+            "elv": -753.554688,
+            "id": "Frox_D34",
+            "name": "Frox",
+            "link": "Frox"
+          },
+          {
+            "coords": [
+              841.890625,
+              2490.96606
+            ],
+            "elv": -499.665497,
+            "id": "Frox_D35",
+            "name": "Obsidian Frox",
+            "link": "Obsidian Frox"
+          },
+          {
+            "coords": [
+              -3473.62598,
+              2126.56104
+            ],
+            "elv": -446.861694,
+            "id": "Frox_D36",
+            "name": "Blue-White Frox",
+            "link": "Blue-White Frox"
+          },
+          {
+            "coords": [
+              -798.213074,
+              3035.55811
+            ],
+            "elv": -512.196777,
+            "id": "Frox_D37",
+            "name": "Obsidian Frox",
+            "link": "Obsidian Frox"
+          },
+          {
+            "coords": [
+              2187.59595,
+              4028.19312
+            ],
+            "elv": -468.62561,
+            "id": "Frox_D38",
+            "name": "Obsidian Frox",
+            "link": "Obsidian Frox"
+          },
+          {
+            "coords": [
+              1002.47101,
+              4142.48584
+            ],
+            "elv": -684.636719,
+            "id": "Frox_D39",
+            "name": "Obsidian Frox",
+            "link": "Obsidian Frox"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gleeok",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 4,
+        "icon": {
+          "url": "gleeok.png",
+          "width": 30,
+          "height": 30
+        },
+        "markers": [
+          {
+            "coords": [
+              3122.09399,
+              333.519714
+            ],
+            "elv": -568.908325,
+            "id": "Gleeok_D00",
+            "name": "King Gleeok",
+            "link": "King Gleeok"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lynel",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 4,
+        "icon": {
+          "url": "lynel.png",
+          "width": 29,
+          "height": 30
+        },
+        "markers": [
+          {
+            "coords": [
+              -2238.38403,
+              -2798.87305
+            ],
+            "elv": -481.926697,
+            "id": "Lynel_D00",
+            "name": "Blue-Maned Lynel (Armored)",
+            "link": "Blue-Maned Lynel"
+          },
+          {
+            "coords": [
+              2523.13208,
+              -1602.82202
+            ],
+            "elv": -684.033081,
+            "id": "Lynel_D01",
+            "name": "White-Maned Lynel (Armored)",
+            "link": "White-Maned Lynel"
+          },
+          {
+            "coords": [
+              763.763489,
+              -1224.30603
+            ],
+            "elv": -551.337158,
+            "id": "Lynel_D02",
+            "name": "White-Maned Lynel (Armored)",
+            "link": "White-Maned Lynel"
+          },
+          {
+            "coords": [
+              -1261.71704,
+              -1438.63
+            ],
+            "elv": -484.5,
+            "id": "Lynel_D03",
+            "name": "Lynel (Armored)",
+            "link": "Lynel"
+          },
+          {
+            "coords": [
+              792.33667,
+              -245.917007
+            ],
+            "elv": -1090.09888,
+            "id": "Lynel_D04",
+            "name": "White-Maned Lynel",
+            "link": "White-Maned Lynel"
+          },
+          {
+            "coords": [
+              -266.915802,
+              1083.69995
+            ],
+            "elv": -466.285004,
+            "id": "Lynel_D05",
+            "name": "Silver Lynel (Armored)",
+            "link": "Silver Lynel"
+          },
+          {
+            "coords": [
+              -1186.69104,
+              253.332504
+            ],
+            "elv": -472.928986,
+            "id": "Lynel_D06",
+            "name": "Lynel (Armored)",
+            "link": "Lynel"
+          },
+          {
+            "coords": [
+              -3456.91406,
+              499.521393
+            ],
+            "elv": -499.563812,
+            "id": "Lynel_D07",
+            "name": "White-Maned Lynel (Armored)",
+            "link": "White-Maned Lynel"
+          },
+          {
+            "coords": [
+              1124.45703,
+              1040.62402
+            ],
+            "elv": -474.168304,
+            "id": "Lynel_D08",
+            "name": "Blue-Maned Lynel (Armored)",
+            "link": "Blue-Maned Lynel"
+          },
+          {
+            "coords": [
+              -1926.24402,
+              1761.31396
+            ],
+            "elv": -462.875092,
+            "id": "Lynel_D09",
+            "name": "White-Maned Lynel (Armored)",
+            "link": "White-Maned Lynel"
+          },
+          {
+            "coords": [
+              -3496.46411,
+              1584.70203
+            ],
+            "elv": -512.086182,
+            "id": "Lynel_D10",
+            "name": "Blue-Maned Lynel (Armored)",
+            "link": "Blue-Maned Lynel"
+          },
+          {
+            "coords": [
+              1145.44495,
+              2604.14893
+            ],
+            "elv": -597.457642,
+            "id": "Lynel_D11",
+            "name": "Blue-Maned Lynel (Armored)",
+            "link": "Blue-Maned Lynel"
+          },
+          {
+            "coords": [
+              1692.64697,
+              3149.83203
+            ],
+            "elv": -649.596375,
+            "id": "Lynel_D12",
+            "name": "Blue-Maned Lynel (Armored)",
+            "link": "Blue-Maned Lynel"
+          },
+          {
+            "coords": [
+              2721.104,
+              4212.08594
+            ],
+            "elv": -572.535278,
+            "id": "Lynel_D13",
+            "name": "Blue-Maned Lynel (Armored)",
+            "link": "Blue-Maned Lynel"
+          },
+          {
+            "coords": [
+              -1278.08899,
+              -1207.40503
+            ],
+            "elv": -499.091797,
+            "id": "Lynel_D14",
+            "name": "White-Maned Lynel",
+            "link": "White-Maned Lynel"
+          },
+          {
+            "coords": [
+              -1305.11096,
+              -1109.047
+            ],
+            "elv": -498.773285,
+            "id": "Lynel_D15",
+            "name": "Blue-Maned Lynel",
+            "link": "Blue-Maned Lynel"
+          },
+          {
+            "coords": [
+              -1249.38794,
+              -1096.96704
+            ],
+            "elv": -498.890686,
+            "id": "Lynel_D16",
+            "name": "Silver Lynel",
+            "link": "Silver Lynel"
+          },
+          {
+            "coords": [
+              -1321.00598,
+              -1167.36499
+            ],
+            "elv": -499.130615,
+            "id": "Lynel_D17",
+            "name": "Lynel",
+            "link": "Lynel"
+          },
+          {
+            "coords": [
+              -1222.31799,
+              -1192.479
+            ],
+            "elv": -498.591797,
+            "id": "Lynel_D18",
+            "name": "Silver Lynel (Armored)",
+            "link": "Silver Lynel"
+          }
+        ]
+      }
+    ]
+  }
+]

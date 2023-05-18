@@ -1,4 +1,3 @@
-import { Dialog } from "./Dialog";
 import { LocalStorage } from "./LocalStorage";
 
 const LOCAL =
@@ -31,6 +30,26 @@ interface TokenResponse {
   };
 }
 
+interface ParseResponse {
+  parse: {
+    text: {
+      ["*"]: string;
+    };
+  };
+}
+
+interface PagePropsQueryReponse {
+  query: {
+    pages: {
+      [pageId: string]: {
+        pageprops: {
+          description: string;
+        };
+      };
+    };
+  };
+}
+
 interface ErrorResponse {
   error: {
     code: string;
@@ -52,8 +71,45 @@ export class WikiConnector {
   private completionStore: LocalStorage;
   private offline = false;
 
-  constructor(private mapid: string, private dialog: Dialog) {
+  constructor(
+    private mapid: string,
+    private gameTitle: string,
+    private showDialog: (prompt: string, actions: string[]) => Promise<string>,
+    private showNotification: (message: string) => void
+  ) {
     this.completionStore = LocalStorage.getStore(mapid, "completion");
+  }
+
+  public async getPageContent(pageTitle: string): Promise<string> {
+    const response = await this.query<ParseResponse>(
+      `action=parse&page=${encodeURIComponent(pageTitle)}`
+    );
+
+    return response?.parse?.text["*"] || "";
+  }
+
+  public async getMapPageContent(subpage: string): Promise<string> {
+    return await this.getPageContent(`Map:${this.gameTitle}/${subpage}`);
+  }
+
+  public async getPageSummary(pageTitle: string): Promise<string> {
+    const response = await this.query<PagePropsQueryReponse>(
+      `action=query&prop=pageprops&titles=${encodeURIComponent(pageTitle)}`
+    );
+
+    const pageId = Object.keys(response.query.pages)[0];
+    const page = response.query.pages[pageId];
+    return pageId === "-1" || !page.pageprops || !page.pageprops.description
+      ? ""
+      : `<p>${page.pageprops.description}</p>`;
+  }
+
+  public getEditLink(pageTitle: string): string {
+    return `/wiki/index.php?action=edit&title=${encodeURIComponent(pageTitle)}`;
+  }
+
+  public getMapEditLink(subpage: string): string {
+    return this.getEditLink(`Map:${this.gameTitle}/${subpage}`);
   }
 
   public async getLoggedInUser(): Promise<void> {
@@ -107,7 +163,7 @@ export class WikiConnector {
       const actionLogout = "Logout and keep local data";
       const localSingle = localCompletion.length === 1;
       const wikiSingle = wikiCompletion.length === 1;
-      const action = await this.dialog.showDialog(
+      const action = await this.showDialog(
         `This device has ${localCompletion.length} completed marker${
           localSingle ? "" : "s"
         }, \
@@ -152,7 +208,7 @@ export class WikiConnector {
       const actionReplace = "Upload to account";
       const actionLogout = "Logout and keep local data";
       const single = localCompletion.length === 1;
-      const action = await this.dialog.showDialog(
+      const action = await this.showDialog(
         `This device has ${localCompletion.length} completed marker${
           single ? "" : "s"
         }. \
@@ -188,7 +244,7 @@ export class WikiConnector {
     if (!this.offline) {
       const actionLogin = "Login";
       const actionContinue = "Continue without logging in";
-      const action = await this.dialog.showDialog(
+      const action = await this.showDialog(
         `Logging into your Zelda Dungeon Wiki account allows you to access your completion data from any device. \
                 If you choose not to login now, you can login anytime from the settings menu on the left.`,
         [actionLogin, actionContinue]
@@ -235,33 +291,39 @@ export class WikiConnector {
   }
 
   private async postWithRetry<ResponseType>(query: string): Promise<void> {
-    if (this.csrf) {
-      const response1 = await this.post<ResponseType>(query);
-      if (!responseIsError(response1)) {
-        return;
+    try {
+      if (this.csrf) {
+        const response1 = await this.post<ResponseType>(query);
+        if (!responseIsError(response1)) {
+          return;
+        }
+
+        if (response1.error.code !== "badtoken") {
+          if (response1.error.code === "readonly") {
+            this.showDialog(
+              "Your completion was not saved because the database is currently in read-only mode while we perform a migration to prepare for increased usage. Please try again later.",
+              ["Ok"]
+            );
+          }
+          throw response1;
+        }
       }
 
-      if (response1.error.code !== "badtoken") {
-        if (response1.error.code === "readonly") {
-          this.dialog.showDialog(
+      await this.getToken();
+      const response2 = await this.post<ResponseType>(query);
+      if (responseIsError(response2)) {
+        if (response2.error.code === "readonly") {
+          this.showDialog(
             "Your completion was not saved because the database is currently in read-only mode while we perform a migration to prepare for increased usage. Please try again later.",
             ["Ok"]
           );
         }
-        throw response1;
+        throw response2;
       }
-    }
-
-    await this.getToken();
-    const response2 = await this.post<ResponseType>(query);
-    if (responseIsError(response2)) {
-      if (response2.error.code === "readonly") {
-        this.dialog.showDialog(
-          "Your completion was not saved because the database is currently in read-only mode while we perform a migration to prepare for increased usage. Please try again later.",
-          ["Ok"]
-        );
-      }
-      throw response2;
+    } catch (ex) {
+      this.showNotification(
+        "An error occurred while saving completion information. Please refresh the page, ensure you are logged in, and try again."
+      );
     }
   }
 

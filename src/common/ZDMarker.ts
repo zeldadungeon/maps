@@ -1,5 +1,5 @@
 import * as Schema from "./JSONSchema";
-import { DivIcon, Marker, Polyline } from "leaflet";
+import { DivIcon, LatLngTuple, Marker, Polyline } from "leaflet";
 import { Layer } from "./Layer";
 import { MarkerContainer } from "./MarkerContainer";
 import { WikiConnector } from "./WikiConnector";
@@ -11,6 +11,8 @@ export class ZDMarker extends Marker {
   public tags: string[];
   public layer: Layer;
   public tileContainers = <MarkerContainer[]>[]; // TODO get rid of this. Let MapLayer handle it.
+  private zoomAdjustedCoords?: { [zoom: number]: LatLngTuple };
+  private originalLatLng: LatLngTuple;
   private path?: L.Polyline;
   private popup?: ZDPopup;
 
@@ -20,7 +22,7 @@ export class ZDMarker extends Marker {
     layer: Layer
   ) {
     super(coords, {
-      title: json.name,
+      title: json.name ?? layer.name,
       icon:
         layer.icon ||
         new DivIcon({
@@ -28,9 +30,12 @@ export class ZDMarker extends Marker {
         }),
     });
     this.id = json.id;
-    this.name = json.name;
-    this.tags = json.tags || [];
+    this.name = json.name ?? layer.name;
+    this.tags = json.tags ?? [];
     this.layer = layer;
+    this.zoomAdjustedCoords = json.zoomAdjustedCoords;
+    this.originalLatLng = json.coords;
+    this.layer.onZoom(this.adjustCoordsForZoom.bind(this));
   }
 
   public static fromJSON(
@@ -39,34 +44,25 @@ export class ZDMarker extends Marker {
     wiki: WikiConnector
   ): ZDMarker {
     const marker = new ZDMarker(json, json.coords, layer);
-    const linkParts = json.link && json.link !== "" ? json.link.split("#") : [];
-    const editLink =
-      layer.infoSource === "summary" || layer.infoSource === "section"
-        ? linkParts[0]
-        : layer.infoSource === "mappage" && linkParts[1]
-        ? `Map:${linkParts[0]}/${linkParts[1]}`
-        : layer.infoSource === "mappage"
-        ? `Map:${linkParts[0]}`
-        : linkParts[0];
 
     if (layer.icon) {
       marker.popup = ZDPopup.create({
         id: json.id,
-        name: json.name,
-        link: json.link,
-        editLink,
-        elevation: json.elv,
+        name: marker.name,
+        link: json.link ?? layer.link,
+        infoSource: layer.infoSource,
+        coords: json.elv
+          ? [json.coords[1], json.coords[0], json.elv]
+          : undefined,
         wiki,
         linkClicked: (target) => {
           marker.fire("internallinkclicked", { linkTarget: target });
         },
       });
       marker.popup.on("complete", () => {
-        wiki.complete(marker.id);
         marker.complete();
       });
       marker.popup.on("uncomplete", () => {
-        wiki.uncomplete(marker.id);
         const tag = marker.tags.indexOf("Completed");
         if (tag > -1) {
           marker.tags.splice(tag, 1);
@@ -76,28 +72,11 @@ export class ZDMarker extends Marker {
       marker.bindPopup(marker.popup);
       marker.on("popupopen", () => {
         marker.updateUrl();
-        if (layer.infoSource === "summary") {
-          marker.popup?.loadContentFromSummary(linkParts[0]);
-        } else if (layer.infoSource === "section") {
-          marker.popup?.loadContentFromSection(
-            linkParts[0],
-            json.id.match(/^Seed\d{3}$/)
-              ? `${json.id}summary`
-              : linkParts[1] || "summary"
-          );
-        } else if (layer.infoSource === "mappage") {
-          marker.popup?.loadContentFromMapPage(linkParts[0], linkParts[1]);
-        } else if (layer.infoSource === "temp") {
-          marker.popup?.loadContentFromString(
-            "This marker was contributed on ZD Wiki. We are working to verify its coordinates and assign the correct icon."
-          );
-        } else if (layer.infoSource) {
-          marker.popup?.loadContentFromPage(layer.infoSource);
-        }
+        marker.popup?.loadDynamicContent();
       });
     } else {
       marker
-        .bindTooltip(json.name, {
+        .bindTooltip(marker.name, {
           permanent: true,
           direction: "center",
           className: "zd-location-label",
@@ -133,12 +112,20 @@ export class ZDMarker extends Marker {
     this.fire("uncompleted");
   }
 
+  public hasPath(): boolean {
+    return this.path != undefined;
+  }
+
   // TODO refactor Layer, marker shouldn't need a reference to it? layer should add/remove the marker itself.
-  public show(): void {
+  public show(showPath = true): void {
     if (this.layer) {
       // TODO is this check really needed?
       this.addTo(this.layer);
-      this.path?.addTo(this.layer);
+      if (showPath) {
+        this.path?.addTo(this.layer);
+      } else if (this.path) {
+        this.layer.removeLayer(this.path);
+      }
     }
   }
 
@@ -149,6 +136,12 @@ export class ZDMarker extends Marker {
       if (this.path) {
         this.layer.removeLayer(this.path);
       }
+    }
+  }
+
+  public adjustCoordsForZoom(zoom: number): void {
+    if (this.zoomAdjustedCoords != undefined) {
+      this.setLatLng(this.zoomAdjustedCoords[zoom] ?? this.originalLatLng);
     }
   }
 

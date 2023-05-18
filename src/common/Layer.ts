@@ -3,6 +3,8 @@ import { Icon, LayerGroup } from "leaflet";
 import { WikiConnector } from "./WikiConnector";
 import { ZDMarker } from "./ZDMarker";
 
+type ZoomHandler = (zoom: number) => void;
+
 export enum Visibility {
   Off,
   On,
@@ -11,25 +13,27 @@ export enum Visibility {
 
 export class Layer extends LayerGroup {
   public icon?: L.Icon;
-  public infoSource: string;
+  public link?: string;
 
   public minZoom = 0;
   public maxZoom = Number.MAX_VALUE;
   public visibility = Visibility.Default;
   public markers!: ZDMarker[]; // BUGBUG refactor to avoid having to suppress null checking
+  private zoomHandlers = <ZoomHandler[]>[];
 
-  private constructor(infoSource: string) {
+  private constructor(public name: string, public infoSource: string) {
     super();
-    this.infoSource = infoSource;
   }
 
   public static fromJSON(
     json: Schema.Layer,
+    categoryName: string,
+    categoryLink: string | undefined,
     infoSource: string,
     directory: string,
     wiki: WikiConnector
   ): Layer {
-    const layer = new Layer(infoSource);
+    const layer = new Layer(json.name ?? categoryName, infoSource);
 
     if (json.icon) {
       layer.icon = new Icon({
@@ -39,6 +43,8 @@ export class Layer extends LayerGroup {
         iconSize: [json.icon.width, json.icon.height],
       });
     }
+
+    layer.link = json.link ?? categoryLink;
 
     if (json.minZoom != undefined) {
       layer.minZoom = json.minZoom;
@@ -50,6 +56,18 @@ export class Layer extends LayerGroup {
     layer.markers = json.markers.map((m) => ZDMarker.fromJSON(m, layer, wiki));
 
     return layer;
+  }
+
+  // called by ZDMarker to register zoom handlers
+  public onZoom(handler: ZoomHandler): void {
+    this.zoomHandlers.push(handler);
+  }
+
+  // called by MapLayer (which is called by ZDMap) to activate zoom handlers
+  public updateZoom(zoom: number): void {
+    for (const handler of this.zoomHandlers) {
+      handler(zoom);
+    }
   }
 
   public getIconUrl(): string {

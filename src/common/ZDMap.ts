@@ -9,14 +9,15 @@ import {
   Point,
 } from "leaflet";
 import { dom, library } from "@fortawesome/fontawesome-svg-core";
-import { ICategory } from "./ICategory";
-import { ZDControl } from "./ZDControl";
 import { Dialog } from "./Dialog";
+import { ICategory } from "./ICategory";
 import { LayersControl } from "./LayersControl";
 import { Legend } from "./Legend";
 import { LocalStorage } from "./LocalStorage";
-import { ZDMarker } from "./ZDMarker";
 import { MapLayer } from "./MapLayer";
+import { ToastControl } from "./ToastControl";
+import { ZDControl } from "./ZDControl";
+import { ZDMarker } from "./ZDMarker";
 import { WikiConnector } from "./WikiConnector";
 import { faCog } from "@fortawesome/free-solid-svg-icons/faCog";
 import { faSearch } from "@fortawesome/free-solid-svg-icons/faSearch";
@@ -30,7 +31,7 @@ dom.watch();
 
 export interface ZDMapOptions extends L.MapOptions {
   directory: string;
-  wikiContributionPage?: string;
+  gameTitle: string;
   mapSizePixels: number;
   mapSizeCoords?: number;
   tileSizePixels: number;
@@ -47,6 +48,7 @@ export class ZDMap extends Map {
   private legendLandscape?: Legend;
   private layers = <MapLayer[]>[];
   private layersControl?: LayersControl;
+  private toastControl = new ToastControl();
   private loginFn!: (username: string) => void;
 
   private constructor(
@@ -111,7 +113,13 @@ export class ZDMap extends Map {
     map.getContainer().classList.add(`zd-map-${options.directory}`);
 
     map.settingsStore = LocalStorage.getStore(options.directory, "settings");
-    map.wiki = new WikiConnector(options.directory, new Dialog(map));
+    const dialog = new Dialog(map);
+    map.wiki = new WikiConnector(
+      options.directory,
+      options.gameTitle,
+      dialog.showDialog.bind(dialog),
+      map.toastControl.showNotification.bind(map.toastControl)
+    );
 
     map.on("zoom", (_) => {
       map.layers.forEach((l) => l.updateZoom(map.getZoom()));
@@ -132,11 +140,12 @@ export class ZDMap extends Map {
       tempMarker.getIcon().options.iconRetinaUrl = markerIconRetinaUrl;
       tempMarker.getIcon().options.shadowUrl = markerShadowUrl;
     }
-    const wikiContributeLink = `<a target="_blank" href="https://zeldadungeon.net/wiki/Zelda Dungeon:${options.wikiContributionPage} Map">Contribute Marker</a>`;
+    const wikiContributeLink = `<a target="_blank" href="https://zeldadungeon.net/wiki/Zelda Dungeon:${options.gameTitle} Map">Contribute Marker</a>`;
     map.on("click", (e) => {
       console.log(e.latlng);
       map.panTo(e.latlng);
-      if (options.wikiContributionPage) {
+      // for now, enable temp marker for totk
+      if (options.directory === "totk") {
         tempMarker
           .setLatLng(e.latlng)
           .addTo(map)
@@ -158,25 +167,32 @@ export class ZDMap extends Map {
         )
         .openPopup();
     });
+    tempMarker.on("click", (e) => {
+      tempMarker.removeFrom(map);
+    });
 
     return map;
   }
 
   public addMapLayer(
     layerName = "Default",
-    tilePath: string | undefined = undefined
+    tilePath: string | undefined = undefined,
+    layerIdEnabled?: string,
+    selected = true
   ): MapLayer {
     const layer = new MapLayer(
       this,
       layerName,
       tilePath,
+      layerIdEnabled,
       this.tileSize,
       this.getMaxZoom(),
       this.bounds
     );
     layer.updateZoom(this.getZoom());
     this.addLayer(layer);
-    if (this.layers.push(layer) == 1) {
+    this.layers.push(layer);
+    if (selected) {
       layer.show();
     }
 
@@ -188,7 +204,6 @@ export class ZDMap extends Map {
     const searchControl = this.initializeSearchControl();
     const settingsControl = this.initializeSettingsControl(tags);
 
-    // TODO custom layers control that takes MapLayer instead of TileLayer
     if (this.layers.length > 1) {
       this.layersControl = new LayersControl({
         position: "topleft",
@@ -213,6 +228,8 @@ export class ZDMap extends Map {
     settingsControl.onOpen(() => {
       searchControl.close();
     });
+
+    this.toastControl.addTo(this);
   }
 
   public addLegend(categories: ICategory[] = [], group?: string): void {
@@ -271,6 +288,10 @@ export class ZDMap extends Map {
     }
   }
 
+  public showNotification(message: string): void {
+    this.toastControl.showNotification(message);
+  }
+
   private initializeSearchControl(): ZDControl {
     const searchContent = DomUtil.create("div", "zd-search");
     const searchBox = <HTMLInputElement>(
@@ -279,6 +300,7 @@ export class ZDMap extends Map {
     searchBox.setAttribute("type", "text");
     searchBox.setAttribute("placeholder", "Search");
     const results = DomUtil.create("ul", "zd-search__results", searchContent);
+    DomEvent.disableScrollPropagation(results);
 
     const searchControl = ZDControl.create({
       icon: "search",

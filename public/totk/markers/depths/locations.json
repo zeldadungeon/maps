@@ -15,7 +15,7 @@
               2847,
               1457
             ],
-            "elv": -749.5,
+            "elv": -854.5,
             "id": "LargeDungeonFire",
             "name": "Fire Temple",
             "link": "Fire Temple"
@@ -34,10 +34,10 @@
               -3170.39893,
               1418.69202
             ],
-            "elv": -513.599915,
+            "elv": -618.599915,
             "id": "LargeDungeonSoul",
             "name": "Spirit Temple",
-            "link": "Spirit Temple"
+            "link": "Spirit Temple (Tears of the Kingdom)"
           }
         ]
       }
@@ -60,7 +60,7 @@
               -1008.14301,
               343.389313
             ],
-            "elv": -383.813202,
+            "elv": -488.813202,
             "id": "CheckPoint000",
             "name": "Stakijat Lightroot",
             "link": "Stakijat Lightroot"
@@ -70,7 +70,7 @@
               2877.125,
               4346.97607
             ],
-            "elv": -523.641296,
+            "elv": -628.641296,
             "id": "CheckPoint001",
             "name": "Ui-ihcoj Lightroot",
             "link": "Ui-ihcoj Lightroot"
@@ -80,7 +80,7 @@
               2596.93188,
               2368.05298
             ],
-            "elv": -864.341614,
+            "elv": -969.341614,
             "id": "CheckPoint002",
             "name": "Mustis Lightroot",
             "link": "Mustis Lightroot"
@@ -90,7 +90,7 @@
               1616.86804,
               -3077.60107
             ],
-            "elv": -602.500122,
+            "elv": -707.500122,
             "id": "CheckPoint003",
             "name": "Kawumoro Lightroot",
             "link": "Kawumoro Lightroot"
@@ -100,7 +100,7 @@
               -867.5,
               -705.5
             ],
-            "elv": -396.471588,
+            "elv": -501.471588,
             "id": "CheckPoint004",
             "name": "Nihcayam Lightroot",
             "link": "Nihcayam Lightroot"
@@ -110,7 +110,7 @@
               2134.18701,
               406.868988
             ],
-            "elv": -507.687592,
+            "elv": -612.687622,
             "id": "CheckPoint005",
             "name": "Rikonasum Lightroot",
             "link": "Rikonasum Lightroot"
@@ -120,7 +120,7 @@
               823.948792,
               757.464172
             ],
-            "elv": -447.3013,
+            "elv": -552.30127,
             "id": "CheckPoint006",
             "name": "Zi-ner Lightroot",
             "link": "Zi-ner Lightroot"
@@ -130,7 +130,7 @@
               2385.5,
               -3353.5
             ],
-            "elv": -718.125122,
+            "elv": -823.125122,
             "id": "CheckPoint007",
             "name": "Worihas Lightroot",
             "link": "Worihas Lightroot"
@@ -140,7 +140,7 @@
               -1363.84998,
               -3406.30005
             ],
-            "elv": -695.332275,
+            "elv": -800.332275,
             "id": "CheckPoint008",
             "name": "Umamustor Lightroot",
             "link": "Umamustor Lightroot"
@@ -150,7 +150,7 @@
               -1512.44104,
               -4638.18799
             ],
-            "elv": -806.250122,
+            "elv": -911.250122,
             "id": "CheckPoint009",
             "name": "Stamayam Lightroot",
             "link": "Stamayam Lightroot"
@@ -160,7 +160,7 @@
               1169.73596,
               -177.854996
             ],
-            "elv": -430.885101,
+            "elv": -535.885132,
             "id": "CheckPoint010",
             "name": "Camobatures Lightroot",
             "link": "Camobatures Lightroot"
@@ -170,7 +170,7 @@
               419.852386,
               3298.18799
             ],
-            "elv": -664.754578,
+            "elv": -769.754578,
             "id": "CheckPoint011",
             "name": "Kawagom Lightroot",
             "link": "Kawagom Lightroot"
@@ -180,7 +180,7 @@
               -2181.75195,
               3469.76489
             ],
-            "elv": -510.135803,
+            "elv": -615.135803,
             "id": "CheckPoint012",
             "name": "Kimnaz Lightroot",
             "link": "Kimnaz Lightroot"
@@ -190,7 +190,7 @@
               -2277.3999,
               867.5
             ],
-            "elv": -471.848297,
+            "elv": -576.848267,
             "id": "CheckPoint013",
             "name": "Muokuij Lightroot",
             "link": "Muokuij Lightroot"
@@ -200,7 +200,7 @@
               851.997314,
               -3538.89502
             ],
-            "elv": -491.663605,
+            "elv": -596.663574,
             "id": "CheckPoint014",
             "name": "Koro-nui Lightroot",
             "link": "Koro-nui Lightroot"
@@ -210,7 +210,7 @@
               -2963.25806,
               -3882.91211
             ],
-            "elv": -349.864594,
+            "elv": -454.864594,
             "id": "CheckPoint016",
             "name": "Gonatoyros Lightroot",
             "link": "Gonatoyros Lightroot"
@@ -220,7 +220,7 @@
               3733,
               1269
             ],
-            "elv": -468.937592,
+            "elv": -573.937622,
             "id": "CheckPoint017",
             "name": "Kayam Lightroot",
             "link": "Kayam Lightroot"
@@ -230,7 +230,7 @@
               2115,
               4512
             ],
-            "elv": -368.787598,
+            "elv": -473.787598,
             "id": "CheckPoint018",
             "name": "Kimimeg Lightroot",
             "link": "Kimimeg Lightroot"
@@ -240,7 +240,7 @@
               2642.46094,
               -1637.52795
             ],
-            "elv": -601.184326,
+            "elv": -706.184326,
             "id": "CheckPoint019",
             "name": "Muihcoro Lightroot",
             "link": "Muihcoro Lightroot"
@@ -250,7 +250,7 @@
               756.718994,
               -1415.61499
             ],
-            "elv": -453.750092,
+            "elv": -558.750122,
             "id": "CheckPoint020",
             "name": "Kawakanis Lightroot",
             "link": "Kawakanis Lightroot"
@@ -260,7 +260,7 @@
               2879.80493,
               -4537.85986
             ],
-            "elv": -623.125122,
+            "elv": -728.125122,
             "id": "CheckPoint021",
             "name": "Nupisoyuat Lightroot",
             "link": "Nupisoyuat Lightroot"
@@ -270,7 +270,7 @@
               -251.975998,
               915.732971
             ],
-            "elv": -397.079803,
+            "elv": -502.079803,
             "id": "CheckPoint022",
             "name": "Korakut Lightroot",
             "link": "Korakut Lightroot"
@@ -280,7 +280,7 @@
               2792.88501,
               697.560974
             ],
-            "elv": -586.937622,
+            "elv": -691.937622,
             "id": "CheckPoint023",
             "name": "Uukukis Lightroot",
             "link": "Uukukis Lightroot"
@@ -290,7 +290,7 @@
               -3343.33496,
               -2439.82593
             ],
-            "elv": -380.510101,
+            "elv": -485.510101,
             "id": "CheckPoint024",
             "name": "Amakawis Lightroot",
             "link": "Amakawis Lightroot"
@@ -300,7 +300,7 @@
               -214.528,
               -3487.427
             ],
-            "elv": -431.439911,
+            "elv": -536.439941,
             "id": "CheckPoint025",
             "name": "Kawakarut Lightroot",
             "link": "Kawakarut Lightroot"
@@ -310,7 +310,7 @@
               -1616.15601,
               -1442.39502
             ],
-            "elv": -453.701111,
+            "elv": -558.701111,
             "id": "CheckPoint026",
             "name": "Kogoir Lightroot",
             "link": "Kogoir Lightroot"
@@ -320,7 +320,7 @@
               -2177.37598,
               4232.81982
             ],
-            "elv": -437.109009,
+            "elv": -542.109009,
             "id": "CheckPoint027",
             "name": "Kimimadena Lightroot",
             "link": "Kimimadena Lightroot"
@@ -330,7 +330,7 @@
               2602.31909,
               -1167.90503
             ],
-            "elv": -266.019287,
+            "elv": -371.019287,
             "id": "CheckPoint028",
             "name": "Yisuayam Lightroot",
             "link": "Yisuayam Lightroot"
@@ -340,7 +340,7 @@
               423,
               -878.5
             ],
-            "elv": -412.93219,
+            "elv": -517.93219,
             "id": "CheckPoint029",
             "name": "Gadohsi Lightroot",
             "link": "Gadohsi Lightroot"
@@ -350,7 +350,7 @@
               2088.81396,
               -1106.73999
             ],
-            "elv": -469.417114,
+            "elv": -574.417114,
             "id": "CheckPoint030",
             "name": "Uoyoyuik Lightroot",
             "link": "Uoyoyuik Lightroot"
@@ -360,7 +360,7 @@
               1281.37195,
               1063.05798
             ],
-            "elv": -411.125092,
+            "elv": -516.125122,
             "id": "CheckPoint031",
             "name": "Uihcoke Lightroot",
             "link": "Uihcoke Lightroot"
@@ -370,7 +370,7 @@
               -2186.44995,
               -1080.70496
             ],
-            "elv": -476.94931,
+            "elv": -581.949341,
             "id": "CheckPoint032",
             "name": "Koradat Lightroot",
             "link": "Koradat Lightroot"
@@ -380,7 +380,7 @@
               -3624.78809,
               -3728.64209
             ],
-            "elv": -409.906403,
+            "elv": -514.906372,
             "id": "CheckPoint033",
             "name": "Gataharak Lightroot",
             "link": "Gataharak Lightroot"
@@ -390,7 +390,7 @@
               1246.84595,
               2568.26807
             ],
-            "elv": -516.063721,
+            "elv": -621.063721,
             "id": "CheckPoint035",
             "name": "Anonisik Lightroot",
             "link": "Anonisik Lightroot"
@@ -400,7 +400,7 @@
               3678,
               -1403.5
             ],
-            "elv": -628.088318,
+            "elv": -733.088318,
             "id": "CheckPoint036",
             "name": "U-nazohso Lightroot",
             "link": "U-nazohso Lightroot"
@@ -410,7 +410,7 @@
               97.8768005,
               -4154.08887
             ],
-            "elv": -405.064606,
+            "elv": -510.064606,
             "id": "CheckPoint037",
             "name": "Sasag Lightroot",
             "link": "Sasag Lightroot"
@@ -420,7 +420,7 @@
               -2237.68604,
               -2656.33105
             ],
-            "elv": -403.636108,
+            "elv": -508.636108,
             "id": "CheckPoint039",
             "name": "Kimakarut Lightroot",
             "link": "Kimakarut Lightroot"
@@ -430,7 +430,7 @@
               1806.59998,
               -3652.5
             ],
-            "elv": -332.625092,
+            "elv": -437.625092,
             "id": "CheckPoint040",
             "name": "Sikatag Lightroot",
             "link": "Sikatag Lightroot"
@@ -440,7 +440,7 @@
               578.27948,
               3785.35107
             ],
-            "elv": -841.796997,
+            "elv": -946.796997,
             "id": "CheckPoint041",
             "name": "A-nehi Lightroot",
             "link": "A-nehi Lightroot"
@@ -450,7 +450,7 @@
               -1351.75403,
               -1423.25
             ],
-            "elv": -433.215302,
+            "elv": -538.215332,
             "id": "CheckPoint042",
             "name": "Mu-ustust Lightroot",
             "link": "Mu-ustust Lightroot"
@@ -460,7 +460,7 @@
               3357.71704,
               3431.06689
             ],
-            "elv": -436.227905,
+            "elv": -541.227905,
             "id": "CheckPoint044",
             "name": "Sikutamak Lightroot",
             "link": "Sikutamak Lightroot"
@@ -470,7 +470,7 @@
               1084.276,
               221.115097
             ],
-            "elv": -389.875092,
+            "elv": -494.875092,
             "id": "CheckPoint046",
             "name": "Apapes Lightroot",
             "link": "Apapes Lightroot"
@@ -480,7 +480,7 @@
               -2511.38599,
               -3291.198
             ],
-            "elv": -391.281891,
+            "elv": -496.281891,
             "id": "CheckPoint047",
             "name": "Tatayam Lightroot",
             "link": "Tatayam Lightroot"
@@ -490,7 +490,7 @@
               -433.137512,
               -785
             ],
-            "elv": -385.125092,
+            "elv": -490.125092,
             "id": "CheckPoint048",
             "name": "Iayusus Lightroot",
             "link": "Iayusus Lightroot"
@@ -500,7 +500,7 @@
               -215.832199,
               3886.34912
             ],
-            "elv": -524.250122,
+            "elv": -629.250122,
             "id": "CheckPoint049",
             "name": "Kegopa Lightroot",
             "link": "Kegopa Lightroot"
@@ -510,7 +510,7 @@
               1442.5,
               3304
             ],
-            "elv": -705.820007,
+            "elv": -810.820007,
             "id": "CheckPoint051",
             "name": "Niuzimod Lightroot",
             "link": "Niuzimod Lightroot"
@@ -520,7 +520,7 @@
               2735.14209,
               -396.575012
             ],
-            "elv": -640.750122,
+            "elv": -745.750122,
             "id": "CheckPoint053",
             "name": "Nikakik Lightroot",
             "link": "Nikakik Lightroot"
@@ -530,7 +530,7 @@
               3276.021,
               2400.56689
             ],
-            "elv": -760.192017,
+            "elv": -865.192017,
             "id": "CheckPoint054",
             "name": "Katijabis Lightroot",
             "link": "Katijabis Lightroot"
@@ -540,7 +540,7 @@
               -3358.20801,
               670.979675
             ],
-            "elv": -399.303192,
+            "elv": -504.303192,
             "id": "CheckPoint056",
             "name": "Kohsustu Lightroot",
             "link": "Kohsustu Lightroot"
@@ -550,7 +550,7 @@
               -1672.60706,
               4267.47217
             ],
-            "elv": -544.200317,
+            "elv": -649.200317,
             "id": "CheckPoint057",
             "name": "Siakij Lightroot",
             "link": "Siakij Lightroot"
@@ -560,7 +560,7 @@
               -2928.5271,
               -1531.172
             ],
-            "elv": -646.612976,
+            "elv": -751.612976,
             "id": "CheckPoint058",
             "name": "Kawatik Lightroot",
             "link": "Kawatik Lightroot"
@@ -570,7 +570,7 @@
               -359.5,
               -1921.5
             ],
-            "elv": -551.182312,
+            "elv": -656.182312,
             "id": "CheckPoint059",
             "name": "Napanos Lightroot",
             "link": "Napanos Lightroot"
@@ -580,7 +580,7 @@
               2510.51001,
               1763.00598
             ],
-            "elv": -634.80249,
+            "elv": -739.80249,
             "id": "CheckPoint064",
             "name": "Cugukaram Lightroot",
             "link": "Cugukaram Lightroot"
@@ -590,7 +590,7 @@
               1170,
               -2529
             ],
-            "elv": -538.661377,
+            "elv": -643.661377,
             "id": "CheckPoint065",
             "name": "Tikanur Lightroot",
             "link": "Tikanur Lightroot"
@@ -600,7 +600,7 @@
               1989.20398,
               -4057.83496
             ],
-            "elv": -590.220276,
+            "elv": -695.220276,
             "id": "CheckPoint067",
             "name": "So-oaw Lightroot",
             "link": "So-oaw Lightroot"
@@ -610,7 +610,7 @@
               -1551.15295,
               -708.251526
             ],
-            "elv": -432.687592,
+            "elv": -537.687622,
             "id": "CheckPoint068",
             "name": "Nogukoyk Lightroot",
             "link": "Nogukoyk Lightroot"
@@ -620,7 +620,7 @@
               2200.5,
               -2317.5
             ],
-            "elv": -696.485596,
+            "elv": -801.485596,
             "id": "CheckPoint070",
             "name": "Aduon Lightroot",
             "link": "Aduon Lightroot"
@@ -630,7 +630,7 @@
               3568.96411,
               -3508.26392
             ],
-            "elv": -742.267029,
+            "elv": -847.267029,
             "id": "CheckPoint072",
             "name": "Muotue Lightroot",
             "link": "Muotue Lightroot"
@@ -640,7 +640,7 @@
               2843.02295,
               1842.177
             ],
-            "elv": -753.950195,
+            "elv": -858.950195,
             "id": "CheckPoint073",
             "name": "Misisi Lightroot",
             "link": "Misisi Lightroot"
@@ -650,7 +650,7 @@
               1825,
               3060.80811
             ],
-            "elv": -578.397278,
+            "elv": -683.397278,
             "id": "CheckPoint074",
             "name": "Gedihcayam Lightroot",
             "link": "Gedihcayam Lightroot"
@@ -660,7 +660,7 @@
               -672.305725,
               -4469.55078
             ],
-            "elv": -864.437622,
+            "elv": -969.437622,
             "id": "CheckPoint075",
             "name": "Mustuto Lightroot",
             "link": "Mustuto Lightroot"
@@ -670,7 +670,7 @@
               -2544.04199,
               1218.91895
             ],
-            "elv": -527.562622,
+            "elv": -632.562622,
             "id": "CheckPoint076",
             "name": "Sijotu Lightroot",
             "link": "Sijotu Lightroot"
@@ -680,7 +680,7 @@
               -1559,
               -178.5
             ],
-            "elv": -389.152496,
+            "elv": -494.152496,
             "id": "CheckPoint077",
             "name": "Nuzimak Lightroot",
             "link": "Nuzimak Lightroot"
@@ -690,7 +690,7 @@
               -1769.60901,
               -2525.12695
             ],
-            "elv": -629.09613,
+            "elv": -734.09613,
             "id": "CheckPoint078",
             "name": "Kawiraus Lightroot",
             "link": "Kawiraus Lightroot"
@@ -700,7 +700,7 @@
               -1852.41895,
               -2037.14404
             ],
-            "elv": -420.061005,
+            "elv": -525.061035,
             "id": "CheckPoint079",
             "name": "Jadukakar Lightroot",
             "link": "Jadukakar Lightroot"
@@ -710,7 +710,7 @@
               1321.74805,
               4166.81592
             ],
-            "elv": -589.035889,
+            "elv": -694.035889,
             "id": "CheckPoint080",
             "name": "Kawikatisar Lightroot",
             "link": "Kawikatisar Lightroot"
@@ -720,7 +720,7 @@
               -1482.46106,
               3525.23511
             ],
-            "elv": -527.783997,
+            "elv": -632.783997,
             "id": "CheckPoint081",
             "name": "Usukaz Lightroot",
             "link": "Usukaz Lightroot"
@@ -730,7 +730,7 @@
               330.448486,
               1201.39197
             ],
-            "elv": -490.062592,
+            "elv": -595.062622,
             "id": "CheckPoint084",
             "name": "Nojoj Lightroot",
             "link": "Nojoj Lightroot"
@@ -740,7 +740,7 @@
               -3269.48193,
               2825.33008
             ],
-            "elv": -442.062592,
+            "elv": -547.062622,
             "id": "CheckPoint085",
             "name": "Mimufis Lightroot",
             "link": "Mimufis Lightroot"
@@ -750,7 +750,7 @@
               3713.84204,
               -4389.60205
             ],
-            "elv": -618.222229,
+            "elv": -723.222229,
             "id": "CheckPoint086",
             "name": "Kato Lightroot",
             "link": "Kato Lightroot"
@@ -760,7 +760,7 @@
               -3086,
               -4681
             ],
-            "elv": -419.229706,
+            "elv": -524.229736,
             "id": "CheckPoint087",
             "name": "Gonatoyrim Lightroot",
             "link": "Gonatoyrim Lightroot"
@@ -770,7 +770,7 @@
               3639.02905,
               2864.625
             ],
-            "elv": -600.687622,
+            "elv": -705.687622,
             "id": "CheckPoint088",
             "name": "Tayamik Lightroot",
             "link": "Tayamik Lightroot"
@@ -780,7 +780,7 @@
               2758,
               2961
             ],
-            "elv": -878.986877,
+            "elv": -983.986877,
             "id": "CheckPoint089",
             "name": "Kisomom Lightroot",
             "link": "Kisomom Lightroot"
@@ -790,7 +790,7 @@
               3732,
               4654.5
             ],
-            "elv": -295.469788,
+            "elv": -400.469788,
             "id": "CheckPoint090",
             "name": "Kuhsagi Lightroot",
             "link": "Kuhsagi Lightroot"
@@ -800,7 +800,7 @@
               1196.20203,
               -1829.349
             ],
-            "elv": -638.625122,
+            "elv": -743.625122,
             "id": "CheckPoint091",
             "name": "Nabahi-ikat Lightroot",
             "link": "Nabahi-ikat Lightroot"
@@ -810,7 +810,7 @@
               -2518.54907,
               102.546501
             ],
-            "elv": -329.682098,
+            "elv": -434.682098,
             "id": "CheckPoint092",
             "name": "Amo-ne Lightroot",
             "link": "Amo-ne Lightroot"
@@ -820,7 +820,7 @@
               -612.31958,
               4413.19092
             ],
-            "elv": -429.062195,
+            "elv": -534.062195,
             "id": "CheckPoint094",
             "name": "Kuzimoy Lightroot",
             "link": "Kuzimoy Lightroot"
@@ -830,7 +830,7 @@
               -2059.05005,
               3728.45898
             ],
-            "elv": -581.062622,
+            "elv": -686.062622,
             "id": "CheckPoint095",
             "name": "Kisihayam Lightroot",
             "link": "Kisihayam Lightroot"
@@ -840,7 +840,7 @@
               -3497.96411,
               -1795
             ],
-            "elv": -372.529694,
+            "elv": -477.529694,
             "id": "CheckPoint096",
             "name": "Sisustom Lightroot",
             "link": "Sisustom Lightroot"
@@ -850,7 +850,7 @@
               149.690308,
               2276.45801
             ],
-            "elv": -416.78479,
+            "elv": -521.78479,
             "id": "CheckPoint097",
             "name": "Sekioam Lightroot",
             "link": "Sekioam Lightroot"
@@ -860,7 +860,7 @@
               1903.64001,
               2679.82788
             ],
-            "elv": -603.963379,
+            "elv": -708.963379,
             "id": "CheckPoint098",
             "name": "Nipahsom Lightroot",
             "link": "Nipahsom Lightroot"
@@ -870,7 +870,7 @@
               -874.937073,
               -2138.11011
             ],
-            "elv": -458.223389,
+            "elv": -563.223389,
             "id": "CheckPoint100",
             "name": "Muzasu Lightroot",
             "link": "Muzasu Lightroot"
@@ -880,7 +880,7 @@
               508,
               2918.25
             ],
-            "elv": -710.822083,
+            "elv": -815.822083,
             "id": "CheckPoint101",
             "name": "Uinoj Lightroot",
             "link": "Uinoj Lightroot"
@@ -890,7 +890,7 @@
               3181.12793,
               1835.06799
             ],
-            "elv": -753.437622,
+            "elv": -858.437622,
             "id": "CheckPoint102",
             "name": "Katoij Lightroot",
             "link": "Katoij Lightroot"
@@ -900,7 +900,7 @@
               1139.88,
               -3951.65991
             ],
-            "elv": -467.377594,
+            "elv": -572.377563,
             "id": "CheckPoint103",
             "name": "Kataki Lightroot",
             "link": "Kataki Lightroot"
@@ -910,7 +910,7 @@
               -3005.5,
               -3211
             ],
-            "elv": -386.350586,
+            "elv": -491.350586,
             "id": "CheckPoint104",
             "name": "Mihcihc Lightroot",
             "link": "Mihcihc Lightroot"
@@ -920,7 +920,7 @@
               1892.53406,
               355.422394
             ],
-            "elv": -541.356323,
+            "elv": -646.356323,
             "id": "CheckPoint106",
             "name": "Sijnin Lightroot",
             "link": "Sijnin Lightroot"
@@ -930,7 +930,7 @@
               -2378.50488,
               2303.24097
             ],
-            "elv": -533.100403,
+            "elv": -638.100403,
             "id": "CheckPoint107",
             "name": "Yikot Lightroot",
             "link": "Yikot Lightroot"
@@ -940,7 +940,7 @@
               2321.10791,
               166.846298
             ],
-            "elv": -541.288208,
+            "elv": -646.288208,
             "id": "CheckPoint108",
             "name": "Ramobnukas Lightroot",
             "link": "Ramobnukas Lightroot"
@@ -950,7 +950,7 @@
               3100.82593,
               -2998.43799
             ],
-            "elv": -921.895325,
+            "elv": -1026.89526,
             "id": "CheckPoint111",
             "name": "Mu-ufatur Lightroot",
             "link": "Mu-ufatur Lightroot"
@@ -960,7 +960,7 @@
               -1088.35303,
               2755.96899
             ],
-            "elv": -464.937592,
+            "elv": -569.937622,
             "id": "CheckPoint112",
             "name": "Migo-o Lightroot",
             "link": "Migo-o Lightroot"
@@ -970,7 +970,7 @@
               -1185.89404,
               3346.26709
             ],
-            "elv": -525.500122,
+            "elv": -630.500122,
             "id": "CheckPoint113",
             "name": "Uogoj Lightroot",
             "link": "Uogoj Lightroot"
@@ -980,7 +980,7 @@
               -3711.5481,
               4630.28516
             ],
-            "elv": -421.498688,
+            "elv": -526.498657,
             "id": "CheckPoint114",
             "name": "Ni-iraram Lightroot",
             "link": "Ni-iraram Lightroot"
@@ -990,7 +990,7 @@
               2211.11304,
               622.491699
             ],
-            "elv": -527.185913,
+            "elv": -632.185913,
             "id": "CheckPoint115",
             "name": "Eknupup Lightroot",
             "link": "Eknupup Lightroot"
@@ -1000,7 +1000,7 @@
               -3209.47412,
               3092.99707
             ],
-            "elv": -539.937622,
+            "elv": -644.937622,
             "id": "CheckPoint116",
             "name": "Kotimab Lightroot",
             "link": "Kotimab Lightroot"
@@ -1010,7 +1010,7 @@
               -3826,
               -4158
             ],
-            "elv": -394.062592,
+            "elv": -499.062592,
             "id": "CheckPoint118",
             "name": "Kasari Lightroot",
             "link": "Kasari Lightroot"
@@ -1020,7 +1020,7 @@
               -510.343994,
               2360.32495
             ],
-            "elv": -504.799194,
+            "elv": -609.799194,
             "id": "CheckPoint119",
             "name": "Takaruk Lightroot",
             "link": "Takaruk Lightroot"
@@ -1030,7 +1030,7 @@
               -2052.08911,
               350.121399
             ],
-            "elv": -386.969299,
+            "elv": -491.969299,
             "id": "CheckPoint120",
             "name": "Busus Lightroot",
             "link": "Busus Lightroot"
@@ -1040,7 +1040,7 @@
               -1944.99402,
               1563.41504
             ],
-            "elv": -379.528198,
+            "elv": -484.528198,
             "id": "CheckPoint122",
             "name": "Sohse Lightroot",
             "link": "Sohse Lightroot"
@@ -1050,7 +1050,7 @@
               469.214508,
               333.763
             ],
-            "elv": -395.147095,
+            "elv": -500.147095,
             "id": "CheckPoint123",
             "name": "Oyimay Lightroot",
             "link": "Oyimay Lightroot"
@@ -1060,7 +1060,7 @@
               -1115.66895,
               -73.9161301
             ],
-            "elv": -387.338806,
+            "elv": -492.338806,
             "id": "CheckPoint124",
             "name": "Netinet Lightroot",
             "link": "Netinet Lightroot"
@@ -1070,7 +1070,7 @@
               3534.5,
               -849.82312
             ],
-            "elv": -531.781311,
+            "elv": -636.781311,
             "id": "CheckPoint125",
             "name": "Ikatoayam Lightroot",
             "link": "Ikatoayam Lightroot"
@@ -1080,7 +1080,7 @@
               630.22998,
               -2846.07007
             ],
-            "elv": -537.375122,
+            "elv": -642.375122,
             "id": "CheckPoint126",
             "name": "Sikurukam Lightroot",
             "link": "Sikurukam Lightroot"
@@ -1090,7 +1090,7 @@
               2300.49292,
               3840.9939
             ],
-            "elv": -403.365387,
+            "elv": -508.365387,
             "id": "CheckPoint129",
             "name": "Akinatanis Lightroot",
             "link": "Akinatanis Lightroot"
@@ -1100,7 +1100,7 @@
               -1903.98999,
               930.071472
             ],
-            "elv": -375.687897,
+            "elv": -480.687897,
             "id": "CheckPoint130",
             "name": "Uisihcoj Lightroot",
             "link": "Uisihcoj Lightroot"
@@ -1110,7 +1110,7 @@
               -3524,
               -564
             ],
-            "elv": -490.062592,
+            "elv": -595.062622,
             "id": "CheckPoint131",
             "name": "Nikohsi Lightroot",
             "link": "Nikohsi Lightroot"
@@ -1120,7 +1120,7 @@
               3354.16895,
               -2558.53198
             ],
-            "elv": -605.625122,
+            "elv": -710.625122,
             "id": "CheckPoint132",
             "name": "Narusis Lightroot",
             "link": "Narusis Lightroot"
@@ -1130,7 +1130,7 @@
               1549.85803,
               -595.155884
             ],
-            "elv": -514.74939,
+            "elv": -619.74939,
             "id": "CheckPoint133",
             "name": "Netamnet Lightroot",
             "link": "Netamnet Lightroot"
@@ -1140,7 +1140,7 @@
               1219.19995,
               3811.51294
             ],
-            "elv": -452.187592,
+            "elv": -557.187622,
             "id": "CheckPoint134",
             "name": "Agihi-ihcoj Lightroot",
             "link": "Agihi-ihcoj Lightroot"
@@ -1150,7 +1150,7 @@
               -1052.745,
               1769.31299
             ],
-            "elv": -524.066772,
+            "elv": -629.066772,
             "id": "CheckPoint135",
             "name": "Arusakam Lightroot",
             "link": "Arusakam Lightroot"
@@ -1160,7 +1160,7 @@
               450.976013,
               -204.283005
             ],
-            "elv": -387.943787,
+            "elv": -492.943787,
             "id": "CheckPoint136",
             "name": "Sinonoyk Lightroot",
             "link": "Sinonoyk Lightroot"
@@ -1170,7 +1170,7 @@
               1640.44104,
               1799.97302
             ],
-            "elv": -664.933411,
+            "elv": -769.933411,
             "id": "CheckPoint137",
             "name": "Kawamit Lightroot",
             "link": "Kawamit Lightroot"
@@ -1180,7 +1180,7 @@
               18.1596394,
               1742.84094
             ],
-            "elv": -375.278809,
+            "elv": -480.278809,
             "id": "CheckPoint138",
             "name": "Uasnoj Lightroot",
             "link": "Uasnoj Lightroot"
@@ -1190,7 +1190,7 @@
               3264,
               4663.5
             ],
-            "elv": -368.812592,
+            "elv": -473.812592,
             "id": "CheckPoint139",
             "name": "Kawisar Lightroot",
             "link": "Kawisar Lightroot"
@@ -1200,7 +1200,7 @@
               -2142.15308,
               -4168.95996
             ],
-            "elv": -403.252197,
+            "elv": -508.252197,
             "id": "CheckPoint140",
             "name": "Rasinaduk Lightroot",
             "link": "Rasinaduk Lightroot"
@@ -1210,7 +1210,7 @@
               -3577.53589,
               1514.28796
             ],
-            "elv": -445.355011,
+            "elv": -550.35498,
             "id": "CheckPoint141",
             "name": "U-u-ujoj Lightroot",
             "link": "U-u-ujoj Lightroot"
@@ -1220,7 +1220,7 @@
               -372,
               -240.485107
             ],
-            "elv": -393.624115,
+            "elv": -498.624115,
             "id": "CheckPoint142",
             "name": "Nisoij Lightroot",
             "link": "Nisoij Lightroot"
@@ -1230,7 +1230,7 @@
               827.288025,
               4497.35107
             ],
-            "elv": -451.13559,
+            "elv": -556.13562,
             "id": "CheckPoint143",
             "name": "Sisinatag Lightroot",
             "link": "Sisinatag Lightroot"
@@ -1240,7 +1240,7 @@
               -778.903687,
               1180.71106
             ],
-            "elv": -415.59021,
+            "elv": -520.59021,
             "id": "CheckPoint144",
             "name": "Korom Lightroot",
             "link": "Korom Lightroot"
@@ -1250,7 +1250,7 @@
               3483.68896,
               394.152313
             ],
-            "elv": -510.250092,
+            "elv": -615.250122,
             "id": "CheckPoint147",
             "name": "Katenim Lightroot",
             "link": "Katenim Lightroot"
@@ -1261,7 +1261,7 @@
   },
   {
     "name": "Device Dispenser",
-    "source": "summary",
+    "source": "mapns",
     "layers": [
       {
         "minZoom": 2,
@@ -1276,20 +1276,20 @@
               -2320.698,
               1058.03894
             ],
-            "elv": -447.983398,
+            "elv": -552.983398,
             "id": "RBox_Field_K_03",
-            "name": "Dispenser",
-            "link": "Dispenser"
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
           },
           {
             "coords": [
               2640.771,
               2190.61401
             ],
-            "elv": -857.745483,
+            "elv": -962.745483,
             "id": "RBox_Field_F_02",
-            "name": "Dispenser",
-            "link": "Dispenser"
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
           }
         ]
       }
@@ -1342,7 +1342,7 @@
                 -775.906311
               ]
             },
-            "elv": 0,
+            "elv": -557.461792,
             "id": "DemonStatue_00",
             "name": "Bargainer Statue",
             "link": "Bargainer Statue"
@@ -1352,7 +1352,7 @@
               -796.506287,
               458.316193
             ],
-            "elv": 0,
+            "elv": -469.959015,
             "id": "DemonStatue_01",
             "name": "Bargainer Statue",
             "link": "Bargainer Statue"
@@ -1362,7 +1362,7 @@
               2690.37305,
               -1032.64697
             ],
-            "elv": 0,
+            "elv": -266.246796,
             "id": "DemonStatue_02",
             "name": "Bargainer Statue",
             "link": "Bargainer Statue"
@@ -1382,7 +1382,7 @@
                 3849.98511
               ]
             },
-            "elv": 0,
+            "elv": -850.759521,
             "id": "DemonStatue_03",
             "name": "Bargainer Statue",
             "link": "Bargainer Statue"
@@ -1392,7 +1392,7 @@
               -2398.97607,
               883.004883
             ],
-            "elv": 0,
+            "elv": -386.016388,
             "id": "DemonStatue_04",
             "name": "Bargainer Statue",
             "link": "Bargainer Statue"
@@ -1402,7 +1402,7 @@
               2604.20288,
               3702.1499
             ],
-            "elv": 0,
+            "elv": -411.649902,
             "id": "DemonStatue_05",
             "name": "Bargainer Statue",
             "link": "Bargainer Statue"
@@ -1428,7 +1428,7 @@
               -3375.74707,
               1356.91296
             ],
-            "elv": 0,
+            "elv": -736.973816,
             "id": "ForgeShopGolem",
             "name": "Smithing Construct",
             "link": "Smithing Construct"
@@ -1448,7 +1448,7 @@
                 -3810.48999
               ]
             },
-            "elv": 0,
+            "elv": -487.393097,
             "id": "SmeltShopGolem_01",
             "name": "Forge Construct",
             "link": "Forge Construct"
@@ -1458,7 +1458,7 @@
               -2515.12695,
               -3190.32007
             ],
-            "elv": 0,
+            "elv": -475.160004,
             "id": "SmeltShopGolem_02",
             "name": "Forge Construct",
             "link": "Forge Construct"
@@ -1468,7 +1468,7 @@
               556.71228,
               3243.86597
             ],
-            "elv": 0,
+            "elv": -749.922424,
             "id": "SmeltShopGolem_03",
             "name": "Forge Construct",
             "link": "Forge Construct"
@@ -1488,7 +1488,7 @@
                 -3423.90698
               ]
             },
-            "elv": 0,
+            "elv": -416.521912,
             "id": "SmeltShopGolem_04",
             "name": "Forge Construct",
             "link": "Forge Construct"
@@ -1508,7 +1508,7 @@
                 1675.63
               ]
             },
-            "elv": 0,
+            "elv": -823.848999,
             "id": "SmeltShopGolem_05",
             "name": "Forge Construct",
             "link": "Forge Construct"
@@ -1528,7 +1528,7 @@
                 3968.26294
               ]
             },
-            "elv": 0,
+            "elv": -575.833008,
             "id": "SmeltShopGolem_06",
             "name": "Forge Construct",
             "link": "Forge Construct"
@@ -1538,7 +1538,7 @@
               -1178.61499,
               1767.34497
             ],
-            "elv": 0,
+            "elv": -628.655029,
             "id": "SmeltShopGolem_07",
             "name": "Forge Construct",
             "link": "Forge Construct"
@@ -1548,7 +1548,7 @@
               -2185.28906,
               3526.71997
             ],
-            "elv": 0,
+            "elv": -587.5,
             "id": "SmeltShopGolem_08",
             "name": "Forge Construct",
             "link": "Forge Construct"
@@ -1558,7 +1558,7 @@
               -3379.31104,
               2952.72998
             ],
-            "elv": 0,
+            "elv": -452.531006,
             "id": "SmeltShopGolem_09",
             "name": "Forge Construct",
             "link": "Forge Construct"
@@ -1598,7 +1598,7 @@
                 -856.203003
               ]
             },
-            "elv": 0,
+            "elv": -522.529602,
             "id": "SmeltShopGolem_10",
             "name": "Forge Construct",
             "link": "Forge Construct"
@@ -1619,7 +1619,7 @@
               -1715,
               -856.544373
             ],
-            "elv": -329.767914,
+            "elv": -434.767914,
             "id": "MinusField_BluePrintShrine_1",
             "name": "Great Abandoned Central Mine",
             "link": "Great Abandoned Central Mine"
@@ -1629,7 +1629,7 @@
               -2719.52588,
               -3834.43311
             ],
-            "elv": -386.523285,
+            "elv": -491.523285,
             "id": "MinusField_Gerudo_2",
             "name": "Abandoned Gerudo Mine",
             "link": "Abandoned Gerudo Mine"
@@ -1639,7 +1639,7 @@
               2052.23706,
               1684.58899
             ],
-            "elv": -646.070129,
+            "elv": -751.070129,
             "id": "MinusField_Goron_3",
             "name": "Abandoned Eldin Mine",
             "link": "Abandoned Eldin Mine"
@@ -1649,7 +1649,7 @@
               -2509.51196,
               3555.0249
             ],
-            "elv": -351.694092,
+            "elv": -456.694092,
             "id": "MinusField_Hateno_3",
             "name": "Abandoned Hateno Mine",
             "link": "Abandoned Hateno Mine"
@@ -1659,7 +1659,7 @@
               -1406.13403,
               1816.76501
             ],
-            "elv": -455.507813,
+            "elv": -560.507813,
             "id": "MinusField_Kakariko_3",
             "name": "Abandoned Kakariko Mine",
             "link": "Abandoned Kakariko Mine"
@@ -1669,7 +1669,7 @@
               -1987.88403,
               -3094.20898
             ],
-            "elv": -338.898102,
+            "elv": -443.898102,
             "id": "MinusField_Oasis_2",
             "name": "Abandoned Kara Kara Mine",
             "link": "Abandoned Kara Kara Mine"
@@ -1679,7 +1679,7 @@
               2167.80298,
               -3467.79492
             ],
-            "elv": -275.770691,
+            "elv": -380.770691,
             "id": "MinusField_Rito_1",
             "name": "Abandoned Hebra Mine",
             "link": "Abandoned Hebra Mine"
@@ -1689,7 +1689,7 @@
               -3605.92212,
               2966.97803
             ],
-            "elv": -200,
+            "elv": -305,
             "id": "MinusField_Taura",
             "name": "Abandoned Lurelin Mine",
             "link": "Abandoned Lurelin Mine"
@@ -1699,7 +1699,7 @@
               1715.30896,
               3968.79712
             ],
-            "elv": -200,
+            "elv": -305,
             "id": "MinusField_UMiiVillage",
             "name": "Abandoned Tarrey Mine",
             "link": "Abandoned Tarrey Mine"
@@ -1709,7 +1709,7 @@
               935.924622,
               3170.45801
             ],
-            "elv": -571.280884,
+            "elv": -676.280884,
             "id": "MinusField_WhiteZora",
             "name": "Abandoned Lanayru Mine",
             "link": "Abandoned Lanayru Mine"
@@ -1724,7 +1724,7 @@
               -728.294983,
               -4785.71289
             ],
-            "elv": -1109.30701,
+            "elv": -1214.30701,
             "id": "MinusField_AagetoMt",
             "name": "Agaat Canyon Mine",
             "link": "Agaat Canyon Mine"
@@ -1734,7 +1734,7 @@
               -3734.84595,
               3728.74902
             ],
-            "elv": -501.286804,
+            "elv": -606.286804,
             "id": "MinusField_CresiaPeninsula",
             "name": "Cresia Pit Mine",
             "link": "Cresia Pit Mine"
@@ -1744,7 +1744,7 @@
               -3276.34912,
               3152.5271
             ],
-            "elv": -603.760681,
+            "elv": -708.760681,
             "id": "MinusField_DasukidaMt",
             "name": "Dunsel Canyon Mine",
             "link": "Dunsel Canyon Mine"
@@ -1754,7 +1754,7 @@
               -3737.15991,
               -4098.50684
             ],
-            "elv": -424.053589,
+            "elv": -529.053589,
             "id": "MinusField_DesertGrave",
             "name": "Gerudo Underground Cemetery",
             "link": "Gerudo Underground Cemetery"
@@ -1764,7 +1764,7 @@
               -2088.69409,
               -1801.62
             ],
-            "elv": -497.250397,
+            "elv": -602.250366,
             "id": "MinusField_FenaMt",
             "name": "Nabooru Canyon Mine",
             "link": "Nabooru Canyon Mine"
@@ -1774,7 +1774,7 @@
               2433.00293,
               -114.678703
             ],
-            "elv": -527.806519,
+            "elv": -632.806519,
             "id": "MinusField_ForestColosseum",
             "name": "Forest Coliseum",
             "link": "Forest Coliseum"
@@ -1784,7 +1784,7 @@
               -31.5325909,
               3294.28809
             ],
-            "elv": -735.199524,
+            "elv": -840.199524,
             "id": "MinusField_GibururuMt",
             "name": "Ruto Canyon Mine",
             "link": "Ruto Canyon Mine"
@@ -1794,7 +1794,7 @@
               -2779.30005,
               1936.36694
             ],
-            "elv": -748.60907,
+            "elv": -853.60907,
             "id": "MinusField_GimpoMt",
             "name": "Floria Canyon Mine",
             "link": "Floria Canyon Mine"
@@ -1804,7 +1804,7 @@
               -3504.12598,
               2589.26001
             ],
-            "elv": -524.282288,
+            "elv": -629.282288,
             "id": "MinusField_GobyLake",
             "name": "Ancient Observation Deck",
             "link": "Ancient Observation Deck"
@@ -1814,7 +1814,7 @@
               -2483.17407,
               2511.98511
             ],
-            "elv": -397.226807,
+            "elv": -502.226807,
             "id": "MinusField_HimeidaMt",
             "name": "Meda Canyon Mine",
             "link": "Meda Canyon Mine"
@@ -1824,7 +1824,7 @@
               -2200.72607,
               2367.63892
             ],
-            "elv": -491.716888,
+            "elv": -596.716919,
             "id": "MinusField_JijigegeMt",
             "name": "Rozudo Canyon Mine",
             "link": "Rozudo Canyon Mine"
@@ -1834,7 +1834,7 @@
               -2601.31201,
               -970.561218
             ],
-            "elv": -577.272278,
+            "elv": -682.272278,
             "id": "MinusField_KapporeMt",
             "name": "Faloraa Canyon Mine",
             "link": "Faloraa Canyon Mine"
@@ -1844,7 +1844,7 @@
               -2556.25806,
               905.984924
             ],
-            "elv": -361.803986,
+            "elv": -466.803986,
             "id": "MinusField_KazuryuLake",
             "name": "Dracozu Altar",
             "link": "Dracozu Altar"
@@ -1854,7 +1854,7 @@
               -1403.86206,
               2934.79004
             ],
-            "elv": -733.880493,
+            "elv": -838.880493,
             "id": "MinusField_KimarikaMt",
             "name": "Canyon of Awakening Mine",
             "link": "Canyon of Awakening Mine"
@@ -1864,7 +1864,7 @@
               785.143005,
               -2687.19507
             ],
-            "elv": -677.705811,
+            "elv": -782.705811,
             "id": "MinusField_KutiffMt",
             "name": "Rhoam Canyon Mine",
             "link": "Rhoam Canyon Mine"
@@ -1874,7 +1874,7 @@
               3564.73511,
               4661.56592
             ],
-            "elv": -295.469788,
+            "elv": -400.469788,
             "id": "MinusField_LomeiIsland",
             "name": "Lomei Depths Labyrinth",
             "link": "Lomei Depths Labyrinth"
@@ -1884,7 +1884,7 @@
               3433.97192,
               -814.745728
             ],
-            "elv": -577.252075,
+            "elv": -682.252075,
             "id": "MinusField_LomeiNorth",
             "name": "North Lomei Depths Labyrinth",
             "link": "North Lomei Depths Labyrinth"
@@ -1894,7 +1894,7 @@
               -3579.20093,
               -1795
             ],
-            "elv": -433.278992,
+            "elv": -538.278992,
             "id": "MinusField_LomeiSouth",
             "name": "South Lomei Depths Labyrinth",
             "link": "South Lomei Depths Labyrinth"
@@ -1904,7 +1904,7 @@
               504.071411,
               3780.85596
             ],
-            "elv": -930.766602,
+            "elv": -1035.7666,
             "id": "MinusField_MemeMt",
             "name": "Ploymus Canyon Mine",
             "link": "Ploymus Canyon Mine"
@@ -1914,7 +1914,7 @@
               -1911.83301,
               4222.83008
             ],
-            "elv": -698.381104,
+            "elv": -803.381104,
             "id": "MinusField_MizemakuMt",
             "name": "Walnot Canyon Mine",
             "link": "Walnot Canyon Mine"
@@ -1924,7 +1924,7 @@
               2043.72205,
               3682.95093
             ],
-            "elv": -554.460693,
+            "elv": -659.460693,
             "id": "MinusField_MoriMt",
             "name": "Ulri Canyon Mine",
             "link": "Ulri Canyon Mine"
@@ -1934,7 +1934,7 @@
               -3603.86206,
               -1390.61694
             ],
-            "elv": -811.965698,
+            "elv": -916.965698,
             "id": "MinusField_MorudaMt",
             "name": "Daval Canyon Mine",
             "link": "Daval Canyon Mine"
@@ -1944,7 +1944,7 @@
               -3363.46094,
               -1380.50098
             ],
-            "elv": -846.772583,
+            "elv": -951.772583,
             "id": "MinusField_MorugaMt",
             "name": "Granajh Canyon Mine",
             "link": "Granajh Canyon Mine"
@@ -1954,7 +1954,7 @@
               -2513.85498,
               3328.71509
             ],
-            "elv": -671.6073,
+            "elv": -776.6073,
             "id": "MinusField_PongagaMt",
             "name": "Ebon Canyon Mine",
             "link": "Ebon Canyon Mine"
@@ -1964,7 +1964,7 @@
               2583.93091,
               -561.293884
             ],
-            "elv": -738.167297,
+            "elv": -843.167297,
             "id": "MinusField_RirimukuMt",
             "name": "Drena Canyon Mine",
             "link": "Drena Canyon Mine"
@@ -1974,7 +1974,7 @@
               -1668.45996,
               3888.823
             ],
-            "elv": -759.906982,
+            "elv": -864.906982,
             "id": "MinusField_RokomakuMt",
             "name": "Madorna Canyon Mine",
             "link": "Madorna Canyon Mine"
@@ -1984,7 +1984,7 @@
               210.050598,
               -962.376221
             ],
-            "elv": -487.971313,
+            "elv": -592.971313,
             "id": "MinusField_SaiMt",
             "name": "Gustaf Canyon Mine",
             "link": "Gustaf Canyon Mine"
@@ -1994,7 +1994,7 @@
               -2672.87207,
               2500.49097
             ],
-            "elv": -627.570923,
+            "elv": -732.570923,
             "id": "MinusField_TerumeMt",
             "name": "Taran Canyon Mine",
             "link": "Taran Canyon Mine"
@@ -2004,7 +2004,7 @@
               -2174.23193,
               868.68457
             ],
-            "elv": -465.196014,
+            "elv": -570.196045,
             "id": "ZonauCentralShrine",
             "name": "Construct Factory",
             "link": "Construct Factory"
@@ -2014,7 +2014,7 @@
               -2431.67407,
               706.112488
             ],
-            "elv": -418.562897,
+            "elv": -523.562866,
             "id": "ZonauSatelliteShrine_LeftArm",
             "name": "Left-Arm Depot",
             "link": "Left-Arm Depot"
@@ -2024,7 +2024,7 @@
               -2292.63501,
               1016.37097
             ],
-            "elv": -427.776001,
+            "elv": -532.776001,
             "id": "ZonauSatelliteShrine_LeftLeg",
             "name": "Left-Leg Depot",
             "link": "Left-Leg Depot"
@@ -2034,7 +2034,7 @@
               -2111.55298,
               569.083618
             ],
-            "elv": -403.402496,
+            "elv": -508.402496,
             "id": "ZonauSatelliteShrine_RightArm",
             "name": "Right-Arm Depot",
             "link": "Right-Arm Depot"
@@ -2044,7 +2044,7 @@
               -2116.552,
               1143.63794
             ],
-            "elv": -334.580414,
+            "elv": -439.580414,
             "id": "ZonauSatelliteShrine_RightLeg",
             "name": "Right-Leg Depot",
             "link": "Right-Leg Depot"
@@ -2054,7 +2054,7 @@
               3465.21997,
               -4342.76416
             ],
-            "elv": -815.119629,
+            "elv": -920.119629,
             "id": "MinusField_KingfisherSpa",
             "name": "Sherfin\u0027s Lavafalls",
             "link": "Sherfin\u0027s Lavafalls"
@@ -2064,7 +2064,7 @@
               2714.68091,
               -4083.87305
             ],
-            "elv": -457.620514,
+            "elv": -562.620483,
             "id": "MinusField_KumSpa",
             "name": "Sturnida Lavafalls",
             "link": "Sturnida Lavafalls"
@@ -2074,7 +2074,7 @@
               -3684.94702,
               -4619.01318
             ],
-            "elv": -424.413513,
+            "elv": -529.413513,
             "id": "MinusField_GerudoFossil",
             "name": "Gerudo Dark Skeleton",
             "link": "Gerudo Dark Skeleton"
@@ -2084,7 +2084,7 @@
               3635.71509,
               -3850.53003
             ],
-            "elv": -835.445801,
+            "elv": -940.445801,
             "id": "MinusField_HeburaFossil",
             "name": "Hebra Dark Skeleton",
             "link": "Hebra Dark Skeleton"
@@ -2094,7 +2094,7 @@
               3707.104,
               1518.05603
             ],
-            "elv": -563.034912,
+            "elv": -668.034912,
             "id": "MinusField_OrdinFossil",
             "name": "Eldin Dark Skeleton",
             "link": "Eldin Dark Skeleton"
@@ -2104,7 +2104,7 @@
               -367.005798,
               -2288.01294
             ],
-            "elv": -788.075012,
+            "elv": -893.075012,
             "id": "MinusField_PoponMt",
             "name": "Blupee Burrow",
             "link": "Blupee Burrow"
@@ -2114,7 +2114,7 @@
               -1088.78296,
               -2119.93091
             ],
-            "elv": -339.134308,
+            "elv": -444.134308,
             "id": "MinusField_BarakkPlain",
             "name": "Dalite Grove",
             "link": "Dalite Grove"
@@ -2124,7 +2124,7 @@
               -2056.677,
               3219.90601
             ],
-            "elv": -489.19809,
+            "elv": -594.19812,
             "id": "MinusField_BiginaTrees",
             "name": "Ginner Grove",
             "link": "Ginner Grove"
@@ -2134,7 +2134,7 @@
               -2102.29907,
               2019.71802
             ],
-            "elv": -495.817596,
+            "elv": -600.817627,
             "id": "MinusField_BuibuiTrees",
             "name": "Bubinga Grove",
             "link": "Bubinga Grove"
@@ -2144,7 +2144,7 @@
               -2027.68201,
               3832.08496
             ],
-            "elv": -352.722504,
+            "elv": -457.722504,
             "id": "MinusField_ExpaTrees",
             "name": "Retsam Grove",
             "link": "Retsam Grove"
@@ -2154,7 +2154,7 @@
               -1680.38403,
               -945.203613
             ],
-            "elv": -564.200623,
+            "elv": -669.200623,
             "id": "MinusField_FairyForest",
             "name": "Grove of Spirits",
             "link": "Grove of Spirits"
@@ -2164,7 +2164,7 @@
               3079.28003,
               3358.71899
             ],
-            "elv": -499.198486,
+            "elv": -604.198486,
             "id": "MinusField_GibogaHill",
             "name": "Rok Grove",
             "link": "Rok Grove"
@@ -2174,7 +2174,7 @@
               1544.44995,
               1042.21399
             ],
-            "elv": -527.154297,
+            "elv": -632.154297,
             "id": "MinusField_KiyanbaTrees",
             "name": "Minshi Grove",
             "link": "Minshi Grove"
@@ -2184,7 +2184,7 @@
               2100,
               405.67691
             ],
-            "elv": -454.685211,
+            "elv": -559.685181,
             "id": "MinusField_KorokForest",
             "name": "Korok Grove",
             "link": "Korok Grove"
@@ -2194,7 +2194,7 @@
               -2187.14209,
               3114.30688
             ],
-            "elv": -467.284607,
+            "elv": -572.284607,
             "id": "MinusField_MiddleTrees",
             "name": "Midla Grove",
             "link": "Midla Grove"
@@ -2204,7 +2204,7 @@
               -3539.60693,
               -343.456299
             ],
-            "elv": -469.146301,
+            "elv": -574.146301,
             "id": "MinusField_NezuppoTrees",
             "name": "Pappetto Grove",
             "link": "Pappetto Grove"
@@ -2214,7 +2214,7 @@
               259.8237,
               553.468201
             ],
-            "elv": -504.828796,
+            "elv": -609.828796,
             "id": "MinusField_OngiForest",
             "name": "Applean Grove",
             "link": "Applean Grove"
@@ -2224,7 +2224,7 @@
               -2391.83911,
               1943.20203
             ],
-            "elv": -489.571503,
+            "elv": -594.571533,
             "id": "MinusField_RiaroTrees",
             "name": "Hickaly Grove",
             "link": "Hickaly Grove"
@@ -2234,7 +2234,7 @@
               -151.716995,
               -1165.38501
             ],
-            "elv": -496.360992,
+            "elv": -601.360962,
             "id": "MinusField_ShinikkyoForest",
             "name": "Giant\u0027s Grove",
             "link": "Giant\u0027s Grove"
@@ -2244,7 +2244,7 @@
               171.555603,
               2618.51489
             ],
-            "elv": -525.622192,
+            "elv": -630.622192,
             "id": "MinusField_TagonaTrees",
             "name": "Tabahl Grove",
             "link": "Tabahl Grove"
@@ -2254,7 +2254,7 @@
               -1544.12097,
               -383.364899
             ],
-            "elv": -410.203888,
+            "elv": -515.203857,
             "id": "MinusField_ZifForest",
             "name": "Grove of Time",
             "link": "Grove of Time"
@@ -2264,7 +2264,7 @@
               -2488.26001,
               903.536072
             ],
-            "elv": -252.989807,
+            "elv": -357.989807,
             "id": "MinusField_BraveFountain",
             "name": "Wellspring of Courage",
             "link": "Wellspring of Courage"
@@ -2274,7 +2274,7 @@
               2562.80298,
               3733.14307
             ],
-            "elv": -246.087997,
+            "elv": -351.088013,
             "id": "MinusField_PowerFountain",
             "name": "Wellspring of Power",
             "link": "Wellspring of Power"
@@ -2284,7 +2284,7 @@
               -1898.03503,
               -1098.55505
             ],
-            "elv": -639.30719,
+            "elv": -744.30719,
             "id": "MinusField_StartPoint",
             "name": "Secret Spring of Revival",
             "link": "Secret Spring of Revival"
@@ -2294,7 +2294,7 @@
               1041.27197,
               -249.218201
             ],
-            "elv": -1441.88501,
+            "elv": -1546.88501,
             "id": "MinusField_GanondorfArea",
             "name": "Gloom\u0027s Lair",
             "link": "Gloom\u0027s Lair"
@@ -2304,7 +2304,7 @@
               921.272522,
               -249.218201
             ],
-            "elv": -2371.88501,
+            "elv": -2476.88501,
             "id": "MinusField_GanondorfEnd",
             "name": "Gloom\u0027s Origin",
             "link": "Gloom\u0027s Origin"
@@ -2314,7 +2314,7 @@
               1007.82397,
               -243.453506
             ],
-            "elv": -747.801697,
+            "elv": -852.801697,
             "id": "MinusField_GanondorfEntrance",
             "name": "Gloom\u0027s Approach",
             "link": "Gloom\u0027s Approach"
@@ -2324,7 +2324,7 @@
               876.272522,
               -344.218201
             ],
-            "elv": -1181.88501,
+            "elv": -1286.88501,
             "id": "MinusField_OpeningField",
             "name": "Forgotten Foundation",
             "link": "Forgotten Foundation"
@@ -2334,7 +2334,7 @@
               1046.31799,
               -271.614014
             ],
-            "elv": -1221.08398,
+            "elv": -1326.08398,
             "id": "MinusField_OpeningFieldEnd",
             "name": "Imprisoning Chamber",
             "link": "Imprisoning Chamber"
@@ -2350,7 +2350,7 @@
               -1701.12805,
               -734.542297
             ],
-            "elv": -320.653015,
+            "elv": -425.653015,
             "id": "MinusField_BluePrintShrine_2",
             "name": "Great Abandoned Central Mine",
             "link": "Great Abandoned Central Mine"
@@ -2360,7 +2360,7 @@
               -2786.22998,
               -3807.33301
             ],
-            "elv": -283.525085,
+            "elv": -388.525085,
             "id": "MinusField_Gerudo_1",
             "name": "Abandoned Gerudo Mine",
             "link": "Abandoned Gerudo Mine"
@@ -2370,7 +2370,7 @@
               2295.28906,
               1642.18604
             ],
-            "elv": -634.672607,
+            "elv": -739.672607,
             "id": "MinusField_Goron_1",
             "name": "Abandoned Eldin Mine",
             "link": "Abandoned Eldin Mine"
@@ -2380,7 +2380,7 @@
               -2387.50098,
               3581.18311
             ],
-            "elv": -390.978485,
+            "elv": -495.978485,
             "id": "MinusField_Hateno_2",
             "name": "Abandoned Hateno Mine",
             "link": "Abandoned Hateno Mine"
@@ -2390,7 +2390,7 @@
               -1299.06604,
               1818.74695
             ],
-            "elv": -460.927612,
+            "elv": -565.927612,
             "id": "MinusField_Kakariko",
             "name": "Abandoned Kakariko Mine",
             "link": "Abandoned Kakariko Mine"
@@ -2400,7 +2400,7 @@
               -2311.03589,
               -3171.49292
             ],
-            "elv": -369.976013,
+            "elv": -474.976013,
             "id": "MinusField_Oasis",
             "name": "Abandoned Kara Kara Mine",
             "link": "Abandoned Kara Kara Mine"
@@ -2410,7 +2410,7 @@
               2079.57202,
               -3479.31812
             ],
-            "elv": -291.919586,
+            "elv": -396.919586,
             "id": "MinusField_Rito_2",
             "name": "Abandoned Hebra Mine",
             "link": "Abandoned Hebra Mine"
@@ -2420,7 +2420,7 @@
               -3479.95898,
               2964.54102
             ],
-            "elv": -247.981293,
+            "elv": -352.981293,
             "id": "MinusField_Taura_1",
             "name": "Abandoned Lurelin Mine",
             "link": "Abandoned Lurelin Mine"
@@ -2430,7 +2430,7 @@
               1722.29004,
               3966.28589
             ],
-            "elv": -200,
+            "elv": -305,
             "id": "MinusField_UMiiVillage_1",
             "name": "Abandoned Tarrey Mine",
             "link": "Abandoned Tarrey Mine"
@@ -2440,7 +2440,7 @@
               719.360413,
               3293.82007
             ],
-            "elv": -373.077515,
+            "elv": -478.077515,
             "id": "MinusField_WhiteZora_3",
             "name": "Abandoned Lanayru Mine",
             "link": "Abandoned Lanayru Mine"
@@ -2456,7 +2456,7 @@
               1565.59302,
               3306.67505
             ],
-            "elv": -404.429688,
+            "elv": -509.429688,
             "id": "MinusField_AkkareZhai_1",
             "name": "Ancient Underground Fortress",
             "link": "Ancient Underground Fortress"
@@ -2466,7 +2466,7 @@
               -1204.94995,
               -1151.50195
             ],
-            "elv": -271.187714,
+            "elv": -376.187714,
             "id": "MinusField_AncientColosseum",
             "name": "Floating Coliseum",
             "link": "Floating Coliseum"
@@ -2476,7 +2476,7 @@
               3079.55811,
               328.125
             ],
-            "elv": -356.859497,
+            "elv": -461.859497,
             "id": "MinusField_BlindForest_1",
             "name": "Gleeok Den",
             "link": "Gleeok Den"
@@ -2486,7 +2486,7 @@
               -3565.68091,
               4562.70215
             ],
-            "elv": -248.723801,
+            "elv": -353.723816,
             "id": "MinusField_Cohorint_1",
             "name": "Lone Island Coliseum",
             "link": "Lone Island Coliseum"
@@ -2496,7 +2496,7 @@
               381.126099,
               1154.07495
             ],
-            "elv": -417.177399,
+            "elv": -522.177368,
             "id": "MinusField_GashamahiMt",
             "name": "Crenel Canyon Mine",
             "link": "Crenel Canyon Mine"
@@ -2506,7 +2506,7 @@
               -738.785583,
               -4175.15723
             ],
-            "elv": -957.918091,
+            "elv": -1062.91809,
             "id": "MinusField_GerudoSummit",
             "name": "Gerudo Canyon Mine",
             "link": "Gerudo Canyon Mine"
@@ -2516,7 +2516,7 @@
               -3637.854,
               2557.28296
             ],
-            "elv": -410.18399,
+            "elv": -515.18396,
             "id": "MinusField_GobyMt_1",
             "name": "Tuft Canyon Mine",
             "link": "Tuft Canyon Mine"
@@ -2526,7 +2526,7 @@
               -1838.04895,
               2242.47412
             ],
-            "elv": -250.728394,
+            "elv": -355.728394,
             "id": "MinusField_HatenoGate_1",
             "name": "Secluded Coliseum",
             "link": "Secluded Coliseum"
@@ -2536,7 +2536,7 @@
               1407.27905,
               -3810.88306
             ],
-            "elv": -471.993408,
+            "elv": -576.993408,
             "id": "MinusField_HawkMt",
             "name": "Cuho Canyon Mine",
             "link": "Cuho Canyon Mine"
@@ -2546,7 +2546,7 @@
               2861.43188,
               -2740.86011
             ],
-            "elv": -861.936584,
+            "elv": -966.936584,
             "id": "MinusField_HeburaPeak_1",
             "name": "Hebra Canyon Mine",
             "link": "Hebra Canyon Mine"
@@ -2556,7 +2556,7 @@
               -2193.83691,
               -1293.43799
             ],
-            "elv": -499.165588,
+            "elv": -604.165588,
             "id": "MinusField_HyliaMt",
             "name": "Hylia Canyon Mine",
             "link": "Hylia Canyon Mine"
@@ -2566,7 +2566,7 @@
               2359.26392,
               -3322.18506
             ],
-            "elv": -670.295227,
+            "elv": -775.295227,
             "id": "MinusField_KasuraMt",
             "name": "Corvash Canyon Mine",
             "link": "Corvash Canyon Mine"
@@ -2576,7 +2576,7 @@
               1372.73999,
               -2010.68994
             ],
-            "elv": -599.641785,
+            "elv": -704.641785,
             "id": "MinusField_KikinosaMt_1",
             "name": "Lindor Canyon Mine",
             "link": "Lindor Canyon Mine"
@@ -2586,7 +2586,7 @@
               -599.754089,
               -1063.896
             ],
-            "elv": -385.851196,
+            "elv": -490.851196,
             "id": "MinusField_KinshoiMt_1",
             "name": "Daphnes Canyon Mine",
             "link": "Daphnes Canyon Mine"
@@ -2596,7 +2596,7 @@
               -1379.16895,
               4003.33789
             ],
-            "elv": -637.65332,
+            "elv": -742.65332,
             "id": "MinusField_LiveMountain",
             "name": "Lanayru Canyon Mine",
             "link": "Lanayru Canyon Mine"
@@ -2606,7 +2606,7 @@
               3146.44995,
               2143.05591
             ],
-            "elv": -628.644287,
+            "elv": -733.644287,
             "id": "MinusField_LizardLake_1",
             "name": "Scorching Coliseum",
             "link": "Scorching Coliseum"
@@ -2616,7 +2616,7 @@
               2077.70801,
               4589.88477
             ],
-            "elv": -181.298996,
+            "elv": -286.299011,
             "id": "MinusField_MacusePeninsula_1",
             "name": "Rist Mine",
             "link": "Rist Mine"
@@ -2626,7 +2626,7 @@
               -3849.56592,
               -4313.42188
             ],
-            "elv": -257.533112,
+            "elv": -362.533112,
             "id": "MinusField_SouthGerudoLegacy_1",
             "name": "Desert Coliseum",
             "link": "Desert Coliseum"
@@ -2636,7 +2636,7 @@
               -1850.06299,
               1294.52698
             ],
-            "elv": -580.185913,
+            "elv": -685.185913,
             "id": "MinusField_TwinsMountain",
             "name": "Dueling Canyons Mine",
             "link": "Dueling Canyons Mine"
@@ -2646,7 +2646,7 @@
               3612,
               -3398.88794
             ],
-            "elv": -704.622314,
+            "elv": -809.622314,
             "id": "MinusField_FlamingoSpa",
             "name": "Goflam\u0027s Lavafalls",
             "link": "Goflam\u0027s Lavafalls"
@@ -2656,7 +2656,7 @@
               -2340,
               2234
             ],
-            "elv": -450.51001,
+            "elv": -555.51001,
             "id": "MinusField_HimeidaSpa_1",
             "name": "Meda Lavafalls",
             "link": "Meda Lavafalls"
@@ -2666,7 +2666,7 @@
               -830.915527,
               455.988403
             ],
-            "elv": -351.111115,
+            "elv": -456.111115,
             "id": "MinusField_AncientTimeShrine",
             "name": "Plains Bargainer Statue",
             "link": "Plains Bargainer Statue"
@@ -2676,7 +2676,7 @@
               -1829.06299,
               -732.698181
             ],
-            "elv": -353.511414,
+            "elv": -458.511414,
             "id": "MinusField_BluePrintShrine_3",
             "name": "Great Abandoned Central Mine",
             "link": "Great Abandoned Central Mine"
@@ -2686,7 +2686,7 @@
               3493.06299,
               3253.87305
             ],
-            "elv": -214.272903,
+            "elv": -319.272888,
             "id": "MinusField_DokuroPond",
             "name": "Akkala House of Bones",
             "link": "Akkala House of Bones"
@@ -2696,7 +2696,7 @@
               -2885.2439,
               -3806.9519
             ],
-            "elv": -276.520599,
+            "elv": -381.520599,
             "id": "MinusField_Gerudo_3",
             "name": "Abandoned Gerudo Mine",
             "link": "Abandoned Gerudo Mine"
@@ -2706,7 +2706,7 @@
               2345.87207,
               1637.46204
             ],
-            "elv": -637.456177,
+            "elv": -742.456177,
             "id": "MinusField_Goron_2",
             "name": "Abandoned Eldin Mine",
             "link": "Abandoned Eldin Mine"
@@ -2716,7 +2716,7 @@
               -2228.45703,
               3548.31812
             ],
-            "elv": -379.640503,
+            "elv": -484.640503,
             "id": "MinusField_Hateno",
             "name": "Abandoned Hateno Mine",
             "link": "Abandoned Hateno Mine"
@@ -2726,7 +2726,7 @@
               -1229.94604,
               1828.02295
             ],
-            "elv": -416.833191,
+            "elv": -521.833191,
             "id": "MinusField_Kakariko_2",
             "name": "Abandoned Kakariko Mine",
             "link": "Abandoned Kakariko Mine"
@@ -2736,7 +2736,7 @@
               2660.65991,
               -1026.323
             ],
-            "elv": -266.87439,
+            "elv": -371.87439,
             "id": "MinusField_KingValley_1",
             "name": "Cliff Bargainer Statue",
             "link": "Cliff Bargainer Statue"
@@ -2746,7 +2746,7 @@
               -2426.70605,
               -3218.25806
             ],
-            "elv": -317.199493,
+            "elv": -422.199493,
             "id": "MinusField_Oasis_1",
             "name": "Abandoned Kara Kara Mine",
             "link": "Abandoned Kara Kara Mine"
@@ -2756,7 +2756,7 @@
               1852.85706,
               -3460.74805
             ],
-            "elv": -211.617905,
+            "elv": -316.61792,
             "id": "MinusField_Rito_3",
             "name": "Abandoned Hebra Mine",
             "link": "Abandoned Hebra Mine"
@@ -2766,7 +2766,7 @@
               -3422.90991,
               2902.3689
             ],
-            "elv": -244.230392,
+            "elv": -349.230408,
             "id": "MinusField_Taura_3",
             "name": "Abandoned Lurelin Mine",
             "link": "Abandoned Lurelin Mine"
@@ -2776,7 +2776,7 @@
               1627.75598,
               3967.43994
             ],
-            "elv": -448.595001,
+            "elv": -553.594971,
             "id": "MinusField_UMiiVillage_3",
             "name": "Abandoned Tarrey Mine",
             "link": "Abandoned Tarrey Mine"
@@ -2786,7 +2786,7 @@
               611.38739,
               3302.38794
             ],
-            "elv": -373.077515,
+            "elv": -478.077515,
             "id": "MinusField_WhiteZora_1",
             "name": "Abandoned Lanayru Mine",
             "link": "Abandoned Lanayru Mine"
@@ -2796,7 +2796,7 @@
               -1272.76196,
               3836.83594
             ],
-            "elv": -414.015015,
+            "elv": -519.015015,
             "id": "MinusField_WiseFountain",
             "name": "Wellspring of Wisdom",
             "link": "Wellspring of Wisdom"
@@ -2811,7 +2811,7 @@
               1523.05005,
               3310.28491
             ],
-            "elv": -372.744293,
+            "elv": -477.744293,
             "id": "MinusField_AkkareZhai",
             "name": "Ancient Underground Fortress",
             "link": "Ancient Underground Fortress"
@@ -2821,7 +2821,7 @@
               -1239.05298,
               -1151.85596
             ],
-            "elv": -275.520599,
+            "elv": -380.520599,
             "id": "MinusField_AncientColosseum_1",
             "name": "Floating Coliseum",
             "link": "Floating Coliseum"
@@ -2831,7 +2831,7 @@
               3111.24194,
               330.971802
             ],
-            "elv": -352.614685,
+            "elv": -457.614685,
             "id": "MinusField_BlindForest",
             "name": "Gleeok Den",
             "link": "Gleeok Den"
@@ -2841,7 +2841,7 @@
               -3603.58203,
               4563.06201
             ],
-            "elv": -243.303207,
+            "elv": -348.303223,
             "id": "MinusField_Cohorint",
             "name": "Lone Island Coliseum",
             "link": "Lone Island Coliseum"
@@ -2851,7 +2851,7 @@
               414.823608,
               1165.19397
             ],
-            "elv": -427.9935,
+            "elv": -532.99353,
             "id": "MinusField_GashamahiMt_1",
             "name": "Crenel Canyon Mine",
             "link": "Crenel Canyon Mine"
@@ -2861,7 +2861,7 @@
               -710.392517,
               -4174.18311
             ],
-            "elv": -963.593872,
+            "elv": -1068.59387,
             "id": "MinusField_GerudoSummit_1",
             "name": "Gerudo Canyon Mine",
             "link": "Gerudo Canyon Mine"
@@ -2871,7 +2871,7 @@
               -3611.3811,
               2557.08398
             ],
-            "elv": -410.255005,
+            "elv": -515.255005,
             "id": "MinusField_GobyMt",
             "name": "Tuft Canyon Mine",
             "link": "Tuft Canyon Mine"
@@ -2881,7 +2881,7 @@
               -1877.87,
               2242.27197
             ],
-            "elv": -239.902802,
+            "elv": -344.902802,
             "id": "MinusField_HatenoGate",
             "name": "Secluded Coliseum",
             "link": "Secluded Coliseum"
@@ -2891,7 +2891,7 @@
               1364.33899,
               -3790.79199
             ],
-            "elv": -506.025604,
+            "elv": -611.025635,
             "id": "MinusField_HawkMt_1",
             "name": "Cuho Canyon Mine",
             "link": "Cuho Canyon Mine"
@@ -2901,7 +2901,7 @@
               2897.86597,
               -2766.56689
             ],
-            "elv": -769.546814,
+            "elv": -874.546814,
             "id": "MinusField_HeburaPeak",
             "name": "Hebra Canyon Mine",
             "link": "Hebra Canyon Mine"
@@ -2911,7 +2911,7 @@
               -2229.19995,
               -1290.349
             ],
-            "elv": -505.500305,
+            "elv": -610.500305,
             "id": "MinusField_HyliaMt_1",
             "name": "Hylia Canyon Mine",
             "link": "Hylia Canyon Mine"
@@ -2921,7 +2921,7 @@
               2329.33008,
               -3336.83398
             ],
-            "elv": -675.951294,
+            "elv": -780.951294,
             "id": "MinusField_KasuraMt_1",
             "name": "Corvash Canyon Mine",
             "link": "Corvash Canyon Mine"
@@ -2931,7 +2931,7 @@
               1326.71704,
               -2006.37402
             ],
-            "elv": -605.510925,
+            "elv": -710.510925,
             "id": "MinusField_KikinosaMt",
             "name": "Lindor Canyon Mine",
             "link": "Lindor Canyon Mine"
@@ -2941,7 +2941,7 @@
               -573.932312,
               -1065.37903
             ],
-            "elv": -376.392212,
+            "elv": -481.392212,
             "id": "MinusField_KinshoiMt",
             "name": "Daphnes Canyon Mine",
             "link": "Daphnes Canyon Mine"
@@ -2951,7 +2951,7 @@
               -1360.37805,
               3964.36011
             ],
-            "elv": -430.098206,
+            "elv": -535.098206,
             "id": "MinusField_LiveMountain_1",
             "name": "Lanayru Canyon Mine",
             "link": "Lanayru Canyon Mine"
@@ -2961,7 +2961,7 @@
               3173.77197,
               2142.92603
             ],
-            "elv": -609.041199,
+            "elv": -714.041199,
             "id": "MinusField_LizardLake",
             "name": "Scorching Coliseum",
             "link": "Scorching Coliseum"
@@ -2971,7 +2971,7 @@
               2143.27905,
               4579.93896
             ],
-            "elv": -181.298996,
+            "elv": -286.299011,
             "id": "MinusField_MacusePeninsula",
             "name": "Rist Mine",
             "link": "Rist Mine"
@@ -2981,7 +2981,7 @@
               -3802.06689,
               -4314.00098
             ],
-            "elv": -256.151703,
+            "elv": -361.151703,
             "id": "MinusField_SouthGerudoLegacy",
             "name": "Desert Coliseum",
             "link": "Desert Coliseum"
@@ -2991,7 +2991,7 @@
               -1824.40698,
               1291.70105
             ],
-            "elv": -657.24823,
+            "elv": -762.24823,
             "id": "MinusField_TwinsMountain_1",
             "name": "Dueling Canyons Mine",
             "link": "Dueling Canyons Mine"
@@ -3001,7 +3001,7 @@
               3575,
               -3399.854
             ],
-            "elv": -706.004395,
+            "elv": -811.004395,
             "id": "MinusField_FlamingoSpa_1",
             "name": "Goflam\u0027s Lavafalls",
             "link": "Goflam\u0027s Lavafalls"
@@ -3011,7 +3011,7 @@
               -2366,
               2253
             ],
-            "elv": -450,
+            "elv": -555,
             "id": "MinusField_HimeidaSpa",
             "name": "Meda Lavafalls",
             "link": "Meda Lavafalls"
@@ -3021,7 +3021,7 @@
               -807.168091,
               457.06131
             ],
-            "elv": -338.703308,
+            "elv": -443.703308,
             "id": "MinusField_AncientTimeShrine_1",
             "name": "Plains Bargainer Statue",
             "link": "Plains Bargainer Statue"
@@ -3031,7 +3031,7 @@
               -1861.14697,
               -730.763672
             ],
-            "elv": -299.088715,
+            "elv": -404.088715,
             "id": "MinusField_BluePrintShrine",
             "name": "Great Abandoned Central Mine",
             "link": "Great Abandoned Central Mine"
@@ -3041,7 +3041,7 @@
               3458.82495,
               3253.96289
             ],
-            "elv": -214.272903,
+            "elv": -319.272888,
             "id": "MinusField_DokuroPond_1",
             "name": "Akkala House of Bones",
             "link": "Akkala House of Bones"
@@ -3051,7 +3051,7 @@
               -2889.51709,
               -3815.90796
             ],
-            "elv": -277.064514,
+            "elv": -382.064514,
             "id": "MinusField_Gerudo",
             "name": "Abandoned Gerudo Mine",
             "link": "Abandoned Gerudo Mine"
@@ -3061,7 +3061,7 @@
               2363.86694,
               1649.13403
             ],
-            "elv": -643.67688,
+            "elv": -748.67688,
             "id": "MinusField_Goron",
             "name": "Abandoned Eldin Mine",
             "link": "Abandoned Eldin Mine"
@@ -3071,7 +3071,7 @@
               -2237.18994,
               3548.60889
             ],
-            "elv": -371.723785,
+            "elv": -476.723785,
             "id": "MinusField_Hateno_1",
             "name": "Abandoned Hateno Mine",
             "link": "Abandoned Hateno Mine"
@@ -3081,7 +3081,7 @@
               -1197.85596,
               1823.92004
             ],
-            "elv": -416.609802,
+            "elv": -521.609802,
             "id": "MinusField_Kakariko_1",
             "name": "Abandoned Kakariko Mine",
             "link": "Abandoned Kakariko Mine"
@@ -3091,7 +3091,7 @@
               2679.13989,
               -1034.04504
             ],
-            "elv": -132.378906,
+            "elv": -237.378906,
             "id": "MinusField_KingValley",
             "name": "Cliff Bargainer Statue",
             "link": "Cliff Bargainer Statue"
@@ -3101,7 +3101,7 @@
               -2462.62109,
               -3226.56201
             ],
-            "elv": -292.872986,
+            "elv": -397.872986,
             "id": "MinusField_Oasis_3",
             "name": "Abandoned Kara Kara Mine",
             "link": "Abandoned Kara Kara Mine"
@@ -3111,7 +3111,7 @@
               1862.20105,
               -3457.40405
             ],
-            "elv": -210.161194,
+            "elv": -315.161194,
             "id": "MinusField_Rito",
             "name": "Abandoned Hebra Mine",
             "link": "Abandoned Hebra Mine"
@@ -3121,7 +3121,7 @@
               -3388.32104,
               2899.82202
             ],
-            "elv": -239.455597,
+            "elv": -344.455597,
             "id": "MinusField_Taura_2",
             "name": "Abandoned Lurelin Mine",
             "link": "Abandoned Lurelin Mine"
@@ -3131,7 +3131,7 @@
               1618.93506,
               3966.71997
             ],
-            "elv": -448.009308,
+            "elv": -553.009277,
             "id": "MinusField_UMiiVillage_2",
             "name": "Abandoned Tarrey Mine",
             "link": "Abandoned Tarrey Mine"
@@ -3141,7 +3141,7 @@
               577.841187,
               3295.01611
             ],
-            "elv": -488.618286,
+            "elv": -593.618286,
             "id": "MinusField_WhiteZora_2",
             "name": "Abandoned Lanayru Mine",
             "link": "Abandoned Lanayru Mine"
@@ -3151,7 +3151,7 @@
               -1283.13794,
               3859.91211
             ],
-            "elv": -711.170776,
+            "elv": -816.170776,
             "id": "MinusField_WiseFountain_1",
             "name": "Wellspring of Wisdom",
             "link": "Wellspring of Wisdom"

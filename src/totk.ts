@@ -34,18 +34,23 @@ window.onload = async () => {
 
   const map = ZDMap.create({
     directory: "totk",
-    wikiContributionPage: "Tears of the Kingdom",
+    gameTitle: "Tears of the Kingdom",
     mapSizePixels: 36096,
     mapSizeCoords: 12032,
     tileSizePixels: 564,
-    center: [-1220, 500],
+    center: [101, -255],
   });
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const sky = map.addMapLayer("Sky", "sky");
-  const surface = map.addMapLayer("Surface", "surface");
+  const sky = map.addMapLayer("Sky", "sky", "sky-selected", false);
+  const surface = map.addMapLayer(
+    "Surface",
+    "surface",
+    "surface-selected",
+    true
+  );
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const depths = map.addMapLayer("Depths", "depths");
-  map.addControls();
+  const depths = map.addMapLayer("Depths", "depths", "depths-selected", false);
+  map.addControls(["User-Contributed", "Paths"]);
   map.addLegend(
     [
       legendItem("Tower", "tower", 20, 26),
@@ -61,6 +66,7 @@ window.onload = async () => {
       legendItem("Korok Seed", "korok", 27, 27),
       legendItem("Dragon Tear", "tear", 31, 36),
       legendItem("Zonai Relief", "relief", 27, 27),
+      legendItem("Hudson Sign", "hudsonsign", 24, 24),
     ],
     "Collectibles"
   );
@@ -85,6 +91,8 @@ window.onload = async () => {
       legendItem("Bargainer Statue", "bargainer", 29, 29),
       legendItem("Other Shops", "othershops", 29, 29),
       legendItem("Great Fairy", "fountain", 36, 36),
+      legendItem("Cooking Pot", "pot", 36, 36),
+      legendItem("Goddess Statue", "statue", 36, 36),
     ],
     "Locations"
   );
@@ -99,33 +107,16 @@ window.onload = async () => {
   map.addLegend([legendItem("Treasure Chest", "treasure", 27, 21)], "Treasure");
   map.addLegend(
     [
-      legendItem("Flux Construct", "skull", 36, 36),
-      legendItem("Frox", "skull", 36, 36),
-      legendItem("Gleeok", "skull", 36, 36),
+      legendItem("Flux Construct", "square", 36, 36),
       legendItem("Hinox", "skull", 36, 36),
+      legendItem("Stone Talus", "ore", 36, 36),
+      legendItem("Frox", "skull", 36, 36),
+      legendItem("Gleeok", "gleeok", 30, 30),
       legendItem("Lynel", "lynel", 29, 30),
+      legendItem("Molduga", "skull", 36, 36),
     ],
     "Bosses"
   );
-
-  function addBotwJson(categories: Schema.Category[]): void {
-    for (const category of categories) {
-      if (category.name != "Subregion") {
-        continue;
-      }
-      surface.addCategory(
-        category.name,
-        category.layers.map((l) => {
-          // For markers imported from botw, cut the coordinates in half to match totk's coordinate system
-          for (const m of l.markers) {
-            m.coords[0] = Math.floor(m.coords[0] / 2);
-            m.coords[1] = Math.floor(m.coords[1] / 2);
-          }
-          return Layer.fromJSON(l, category.source, "totk", map.wiki);
-        })
-      );
-    }
-  }
 
   function addJson(layer: MapLayer, path: string): Promise<void> {
     return fetch(`${import.meta.env.BASE_URL}totk/markers/${path}`)
@@ -135,7 +126,14 @@ window.onload = async () => {
           layer.addCategory(
             category.name,
             category.layers.map((l) =>
-              Layer.fromJSON(l, category.source, "totk", map.wiki)
+              Layer.fromJSON(
+                l,
+                category.name,
+                category.link,
+                category.source,
+                "totk",
+                map.wiki
+              )
             )
           );
         }
@@ -161,14 +159,24 @@ window.onload = async () => {
             mapLayer.addCategory(
               category.name,
               category.layers.map((l) =>
-                Layer.fromJSON(l, category.source, "totk", map.wiki)
+                Layer.fromJSON(
+                  l,
+                  category.name,
+                  category.link,
+                  category.source,
+                  "totk",
+                  map.wiki
+                )
               )
             );
           }
         })
-        .catch((ex) =>
-          console.log(`Error parsing JSON from page: ${wikiSubpage}\n${ex}`)
-        )
+        .catch((ex) => {
+          map.showNotification(
+            `User-contributed markers from ${wikiSubpage} were unable to load due to a formatting error.`
+          );
+          console.log(`Error parsing JSON from page: ${wikiSubpage}\n${ex}`);
+        })
     );
   }
 
@@ -182,6 +190,7 @@ window.onload = async () => {
     iconHeight: number,
     minZoom: number
   ): Promise<void> {
+    const ctrs: { [key: string]: number } = {};
     return (
       map.wiki
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -195,7 +204,7 @@ window.onload = async () => {
           const wikiRegex = /<p>([\s\S]*),\n?<\/p>/g;
           const res = wikiRegex.exec(markers);
           markers = res ? res[1] : "";
-          const layer = `{
+          const layer: Schema.Layer = JSON.parse(`{
   "minZoom": ${minZoom},
   "icon": {
       "url": "${iconUrl}.png",
@@ -205,30 +214,48 @@ window.onload = async () => {
   "markers": [
     ${markers}
   ]
-}`;
+}`);
+          layer.markers.forEach((m) => {
+            m.tags = ["User-Contributed"];
+            if (ctrs[m.id] == undefined) {
+              ctrs[m.id] = 1;
+            } else {
+              m.id = `${m.id}_${ctrs[m.id]++}`;
+            }
+          });
+
           mapLayer.addCategory(categoryName, [
-            Layer.fromJSON(JSON.parse(layer), infoSource, "totk", map.wiki),
+            Layer.fromJSON(
+              layer,
+              categoryName,
+              undefined,
+              infoSource,
+              "totk",
+              map.wiki
+            ),
           ]);
         })
-        .catch((ex) =>
-          console.log(`Error parsing JSON from page: ${wikiSubpage}\n${ex}`)
-        )
+        .catch((ex) => {
+          map.showNotification(
+            `User-contributed markers from ${wikiSubpage} were unable to load due to a formatting error.`
+          );
+          console.log(`Error parsing JSON from page: ${wikiSubpage}\n${ex}`);
+        })
     );
   }
 
   await Promise.allSettled([
-    fetch(`${import.meta.env.BASE_URL}botw/markers/locations.json`)
-      .then((r) => r.json())
-      .then(addBotwJson)
-      .catch((ex) => console.log(ex)),
     addJson(surface, "surface/seeds.json"),
     addJson(surface, "surface/locations.json"),
     addJson(surface, "surface/treasure.json"),
+    addJson(surface, "surface/objects.json"),
     addJson(sky, "sky/seeds.json"),
     addJson(sky, "sky/locations.json"),
     addJson(sky, "sky/treasure.json"),
+    addJson(sky, "sky/objects.json"),
     addJson(depths, "depths/locations.json"),
     addJson(depths, "depths/treasure.json"),
+    addJson(depths, "depths/objects.json"),
     addWikiJson(surface, "Surface Categories"),
     addWikiJson(sky, "Sky Categories"),
     addWikiJson(depths, "Depths Categories"),
