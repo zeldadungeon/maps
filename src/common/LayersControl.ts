@@ -61,9 +61,15 @@ export class LayersControl extends Control {
         l.layer.show();
         DomUtil.addClass(l.button, "bar-selected");
         this.onLayerSelectedHandlers.forEach((h) => h(l.layer));
+        //Use enabledIcon if it exists
+        if (l.layer.enabledIconUrl) {
+          l.button.style.backgroundImage = `url('${l.layer.enabledIconUrl}')`;
+        }
       } else {
         l.layer.hide();
         DomUtil.removeClass(l.button, "bar-selected");
+        //Use normal icon
+        l.button.style.backgroundImage = `url('${l.layer.iconUrl}')`;
       }
     }
   }

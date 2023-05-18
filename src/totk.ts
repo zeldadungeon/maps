@@ -28,9 +28,16 @@ window.onload = async () => {
     tileSizePixels: 564,
     center: [101, -255],
   });
-  const sky = map.addMapLayer("Sky", "sky", false);
-  const surface = map.addMapLayer("Surface", "surface");
-  const depths = map.addMapLayer("Depths", "depths", false);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const sky = map.addMapLayer("Sky", "sky", "sky-selected", false);
+  const surface = map.addMapLayer(
+    "Surface",
+    "surface",
+    "surface-selected",
+    true
+  );
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const depths = map.addMapLayer("Depths", "depths", "depths-selected", false);
   map.addControls(["User-Contributed", "Paths"]);
   map.addLegend([
     legendItem("Tower", "tower", 20, 26),
