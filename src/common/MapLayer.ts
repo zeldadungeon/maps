@@ -193,9 +193,12 @@ export class MapLayer extends LayerGroup {
 
   public updateZoom(zoom: number): void {
     this.currentZoom = zoom;
-    Object.values(this.categories).forEach((c) =>
-      c.forEach((l) => this.updateLayerVisibility(l))
-    );
+    for (const category of Object.values(this.categories)) {
+      for (const layer of category) {
+        layer.updateZoom(zoom);
+        this.updateLayerVisibility(layer);
+      }
+    }
   }
 
   // TODO refactor

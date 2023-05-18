@@ -1685,21 +1685,11 @@
           },
           {
             "coords": [
-              -1924.37402,
-              1756.5
-            ],
-            "elv": 53.982193,
-            "id": "FaronHatago000",
-            "name": "Dueling Peaks Stable",
-            "link": "Dueling Peaks Stable"
-          },
-          {
-            "coords": [
               -1925.35999,
               1760.78101
             ],
             "elv": 26.2843018,
-            "id": "FaronHatago0001",
+            "id": "FaronHatago000",
             "name": "Dueling Peaks Stable",
             "link": "Dueling Peaks Stable"
           },
@@ -1755,21 +1745,21 @@
           },
           {
             "coords": [
-              678.562073,
-              -1293.83997
-            ],
-            "elv": 83.7129974,
-            "id": "NewHyruleWestHatago",
-            "name": "New Serenne Stable",
-            "link": "New Serenne Stable"
-          },
-          {
-            "coords": [
               724,
               -1361
             ],
+            "zoomAdjustedCoords": {
+              "0": [
+                678.562073,
+                -1293.83997
+              ],
+              "1": [
+                678.562073,
+                -1293.83997
+              ]
+            },
             "elv": 86.5,
-            "id": "NewHyruleWestHatago1",
+            "id": "NewHyruleWestHatago",
             "name": "New Serenne Stable",
             "link": "New Serenne Stable"
           },
@@ -1810,16 +1800,6 @@
             ],
             "elv": 277.022614,
             "id": "TabantaHatago",
-            "name": "Snowfield Stable",
-            "link": "Snowfield Stable"
-          },
-          {
-            "coords": [
-              2565.62891,
-              -1654.22998
-            ],
-            "elv": 242.931793,
-            "id": "TabantaHatago1",
             "name": "Snowfield Stable",
             "link": "Snowfield Stable"
           },
@@ -1892,31 +1872,11 @@
           },
           {
             "coords": [
-              -2940.52295,
-              -3858.95996
-            ],
-            "elv": 33.3000031,
-            "id": "Gerudo",
-            "name": "Gerudo Town",
-            "link": "Gerudo Town"
-          },
-          {
-            "coords": [
-              -2942,
-              -3866
-            ],
-            "elv": 11.6548004,
-            "id": "Gerudo1",
-            "name": "Gerudo Town",
-            "link": "Gerudo Town"
-          },
-          {
-            "coords": [
               -2926.19702,
               -3844.5
             ],
             "elv": 44.1688995,
-            "id": "Gerudo2",
+            "id": "Gerudo",
             "name": "Gerudo Town",
             "link": "Gerudo Town"
           },

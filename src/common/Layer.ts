@@ -3,6 +3,8 @@ import { Icon, LayerGroup } from "leaflet";
 import { WikiConnector } from "./WikiConnector";
 import { ZDMarker } from "./ZDMarker";
 
+type ZoomHandler = (zoom: number) => void;
+
 export enum Visibility {
   Off,
   On,
@@ -17,6 +19,7 @@ export class Layer extends LayerGroup {
   public maxZoom = Number.MAX_VALUE;
   public visibility = Visibility.Default;
   public markers!: ZDMarker[]; // BUGBUG refactor to avoid having to suppress null checking
+  private zoomHandlers = <ZoomHandler[]>[];
 
   private constructor(public name: string, public infoSource: string) {
     super();
@@ -53,6 +56,18 @@ export class Layer extends LayerGroup {
     layer.markers = json.markers.map((m) => ZDMarker.fromJSON(m, layer, wiki));
 
     return layer;
+  }
+
+  // called by ZDMarker to register zoom handlers
+  public onZoom(handler: ZoomHandler): void {
+    this.zoomHandlers.push(handler);
+  }
+
+  // called by MapLayer (which is called by ZDMap) to activate zoom handlers
+  public updateZoom(zoom: number): void {
+    for (const handler of this.zoomHandlers) {
+      handler(zoom);
+    }
   }
 
   public getIconUrl(): string {

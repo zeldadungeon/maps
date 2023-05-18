@@ -1,5 +1,5 @@
 import * as Schema from "./JSONSchema";
-import { DivIcon, Marker, Polyline } from "leaflet";
+import { DivIcon, LatLngTuple, Marker, Polyline } from "leaflet";
 import { Layer } from "./Layer";
 import { MarkerContainer } from "./MarkerContainer";
 import { WikiConnector } from "./WikiConnector";
@@ -11,6 +11,8 @@ export class ZDMarker extends Marker {
   public tags: string[];
   public layer: Layer;
   public tileContainers = <MarkerContainer[]>[]; // TODO get rid of this. Let MapLayer handle it.
+  private zoomAdjustedCoords?: { [zoom: number]: LatLngTuple };
+  private originalLatLng: LatLngTuple;
   private path?: L.Polyline;
   private popup?: ZDPopup;
 
@@ -31,6 +33,9 @@ export class ZDMarker extends Marker {
     this.name = json.name ?? layer.name;
     this.tags = json.tags ?? [];
     this.layer = layer;
+    this.zoomAdjustedCoords = json.zoomAdjustedCoords;
+    this.originalLatLng = json.coords;
+    this.layer.onZoom(this.adjustCoordsForZoom.bind(this));
   }
 
   public static fromJSON(
@@ -131,6 +136,12 @@ export class ZDMarker extends Marker {
       if (this.path) {
         this.layer.removeLayer(this.path);
       }
+    }
+  }
+
+  public adjustCoordsForZoom(zoom: number): void {
+    if (this.zoomAdjustedCoords != undefined) {
+      this.setLatLng(this.zoomAdjustedCoords[zoom] ?? this.originalLatLng);
     }
   }
 

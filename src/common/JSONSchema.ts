@@ -18,6 +18,7 @@ export interface Layer {
 
 export interface Marker {
   coords: LatLngTuple;
+  zoomAdjustedCoords?: { [zoom: number]: LatLngTuple };
   elv?: number;
   id: string;
   name: string;
