@@ -9,6 +9,7 @@ export class MapLayer extends LayerGroup {
   public tileLayer: TileLayer;
   public markerLayer: LayerGroup;
   public iconUrl: string;
+  public enabledIconUrl?: string;
   private categories = <{ [key: string]: Layer[] }>{};
   private tileMarkerContainers: MarkerContainer[][][] = [];
   private taggedMarkerContainers = <{ [key: string]: MarkerContainer }>{};
@@ -17,7 +18,8 @@ export class MapLayer extends LayerGroup {
   public constructor(
     private map: ZDMap,
     public layerName: string,
-    tilePath: string | undefined,
+    layerId: string | undefined,
+    layerIdEnabled: string | undefined,
     private tileSize: number,
     private maxZoom: number,
     bounds: L.LatLngBounds
@@ -25,10 +27,13 @@ export class MapLayer extends LayerGroup {
     super();
     this.iconUrl = `${import.meta.env.BASE_URL}${
       map.directory
-    }/icons/${tilePath}.png`;
-    tilePath = tilePath ? `tiles/${tilePath}` : "tiles";
+    }/icons/${layerId}.png`;
+    this.enabledIconUrl = `${import.meta.env.BASE_URL}${
+      map.directory
+    }/icons/${layerIdEnabled}.png`;
+    layerId = layerId ? `tiles/${layerId}` : "tiles";
     this.tileLayer = new TileLayer(
-      `${import.meta.env.BASE_URL}${map.directory}/${tilePath}/{z}/{x}_{y}.jpg`,
+      `${import.meta.env.BASE_URL}${map.directory}/${layerId}/{z}/{x}_{y}.jpg`,
       {
         tileSize: tileSize,
         minZoom: 0,
