@@ -31,9 +31,9 @@
       {
         "minZoom": 4,
         "icon": {
-          "url": "skull.png",
-          "width": 36,
-          "height": 36
+          "url": "hinox.svg",
+          "width": 25,
+          "height": 25
         },
         "markers": [
           {

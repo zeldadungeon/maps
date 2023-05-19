@@ -108,7 +108,7 @@ window.onload = async () => {
   map.addLegend(
     [
       legendItem("Flux Construct", "square", 36, 36),
-      legendItem("Hinox", "skull", 36, 36),
+      legendItem("Hinox", "hinox.svg", 25, 25),
       legendItem("Stone Talus", "ore", 36, 36),
       legendItem("Frox", "frox.svg", 25, 25),
       legendItem("Gleeok", "gleeok.svg", 25, 25),
