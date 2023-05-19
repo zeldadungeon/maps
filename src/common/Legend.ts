@@ -136,8 +136,9 @@ export class Legend extends Control {
     );
     const groupBody = DomUtil.create("ul", "zd-legend-group__body", groupDiv);
     if (!this.bottom) {
-      groupHeader.classList.add("toggelable");
+      groupHeaderDropdown.classList.add("toggelable");
     }
+    groupHeaderTitle.classList.add("toggelable");
     groupHeaderTitle.innerText = category.group || "Undefined Group";
     groupHeaderTitle.style.textAlign = "center";
     groupHeaderTitle.style.fontWeight = "bold";
@@ -145,6 +146,46 @@ export class Legend extends Control {
     //Add group to group array
     this.groupUlArr.push(groupUl);
     DomUtil.addClass(groupHeaderDropdown, "toggled-on");
+    //Add clickable title to disable/enable all categories in group
+    DomEvent.addListener(groupHeaderTitle, "click", () => {
+      //Check if any category in group is selected
+      if (
+        this.categories.some(
+          (c) =>
+            DomUtil.hasClass(c.li, "selected") &&
+            c.category.group === category.group
+        )
+      ) {
+        //Deselect all categories in group
+        this.categories.forEach((c) => {
+          if (c.category.group === category.group) {
+            DomUtil.removeClass(c.li, "selected");
+            this.mapLayers.forEach((l) => l.hideCategory(c.category.name));
+          }
+        });
+      } else {
+        //Hide everything
+        if (DomUtil.hasClass(this.all, "selected")) {
+          DomUtil.removeClass(this.all, "selected");
+          this.categories.forEach((c) => {
+            if (!DomUtil.hasClass(c.li, "selected")) {
+              this.mapLayers.forEach((l) => l.hideCategory(c.category.name));
+            }
+          });
+        }
+        //Select all categories in group
+        this.categories.forEach((c) => {
+          if (c.category.group === category.group) {
+            DomUtil.addClass(c.li, "selected");
+            this.mapLayers.forEach((l) => l.showCategory(c.category.name));
+          }
+        });
+
+        //Deselect all and none buttons
+        DomUtil.removeClass(this.all, "selected");
+        DomUtil.removeClass(this.none, "selected");
+      }
+    });
     //Add click event to group for dropdown functionality
     if (!this.bottom) {
       DomEvent.addListener(groupHeaderDropdown, "click", () => {
@@ -160,45 +201,6 @@ export class Legend extends Control {
           DomUtil.addClass(groupHeaderDropdown, "toggled-on");
           groupHeaderDropdown.innerText = " ▼";
           groupBody.style.display = "block";
-        }
-      });
-      DomEvent.addListener(groupHeaderTitle, "click", () => {
-        //Check if any category in group is selected
-        if (
-          this.categories.some(
-            (c) =>
-              DomUtil.hasClass(c.li, "selected") &&
-              c.category.group === category.group
-          )
-        ) {
-          //Deselect all categories in group
-          this.categories.forEach((c) => {
-            if (c.category.group === category.group) {
-              DomUtil.removeClass(c.li, "selected");
-              this.mapLayers.forEach((l) => l.hideCategory(c.category.name));
-            }
-          });
-        } else {
-          //Hide everything
-          if (DomUtil.hasClass(this.all, "selected")) {
-            DomUtil.removeClass(this.all, "selected");
-            this.categories.forEach((c) => {
-              if (!DomUtil.hasClass(c.li, "selected")) {
-                this.mapLayers.forEach((l) => l.hideCategory(c.category.name));
-              }
-            });
-          }
-          //Select all categories in group
-          this.categories.forEach((c) => {
-            if (c.category.group === category.group) {
-              DomUtil.addClass(c.li, "selected");
-              this.mapLayers.forEach((l) => l.showCategory(c.category.name));
-            }
-          });
-
-          //Deselect all and none buttons
-          DomUtil.removeClass(this.all, "selected");
-          DomUtil.removeClass(this.none, "selected");
         }
       });
     }
