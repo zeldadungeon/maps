@@ -1529,5 +1529,91 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Gloom Hands",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 4,
+        "icon": {
+          "url": "skull.png",
+          "width": 36,
+          "height": 36
+        },
+        "markers": [
+          {
+            "coords": [
+              -3706.87891,
+              -4528.90576
+            ],
+            "elv": -480.728485,
+            "id": "GloomHands_D00",
+            "name": "Gloom Hands",
+            "link": "Gloom Hands"
+          },
+          {
+            "coords": [
+              3612.29907,
+              -3823.82397
+            ],
+            "elv": -886.065979,
+            "id": "GloomHands_D01",
+            "name": "Gloom Hands",
+            "link": "Gloom Hands"
+          },
+          {
+            "coords": [
+              708.628418,
+              -248.148697
+            ],
+            "elv": -1243.35999,
+            "id": "GloomHands_D02",
+            "name": "Gloom Hands",
+            "link": "Gloom Hands"
+          },
+          {
+            "coords": [
+              1993.552,
+              772.710693
+            ],
+            "elv": -623.614014,
+            "id": "GloomHands_D03",
+            "name": "Gloom Hands",
+            "link": "Gloom Hands"
+          },
+          {
+            "coords": [
+              3734.69409,
+              1589.48901
+            ],
+            "elv": -550.690918,
+            "id": "GloomHands_D04",
+            "name": "Gloom Hands",
+            "link": "Gloom Hands"
+          },
+          {
+            "coords": [
+              614.5625,
+              4650.48291
+            ],
+            "elv": -722.796875,
+            "id": "GloomHands_D05",
+            "name": "Gloom Hands",
+            "link": "Gloom Hands"
+          },
+          {
+            "coords": [
+              2192.07202,
+              411.391815
+            ],
+            "elv": -586.777222,
+            "id": "GloomHands_D06",
+            "name": "Gloom Hands",
+            "link": "Gloom Hands"
+          }
+        ]
+      }
+    ]
   }
 ]

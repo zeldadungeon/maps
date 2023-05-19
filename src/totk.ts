@@ -76,6 +76,7 @@ window.onload = async () => {
     legendItem("Gleeok", "gleeok", 30, 30),
     legendItem("Lynel", "lynel", 29, 30),
     legendItem("Molduga", "skull", 36, 36),
+    legendItem("Gloom Hands", "skull", 36, 36),
   ]);
 
   function addJson(layer: MapLayer, path: string): Promise<void> {
