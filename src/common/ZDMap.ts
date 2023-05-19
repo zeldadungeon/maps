@@ -270,6 +270,7 @@ export class ZDMap extends Map {
     if (params.m === marker.id || params.id === marker.id) {
       this.focusOn(marker, layer);
     }
+    marker.handleZoom(this.getZoom());
   }
 
   public navigateToMarkerById(id: string): void {
