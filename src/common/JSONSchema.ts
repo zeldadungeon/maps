@@ -13,6 +13,7 @@ export interface Layer {
   minZoom?: number;
   maxZoom?: number;
   icon?: { url: string; width: number; height: number };
+  showLabelForZoomLevel?: number;
   markers: Marker[];
 }
 

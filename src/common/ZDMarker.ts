@@ -1,5 +1,5 @@
 import * as Schema from "./JSONSchema";
-import { DivIcon, LatLngTuple, Marker, Polyline } from "leaflet";
+import { DivIcon, LatLngTuple, Marker, PointTuple, Polyline } from "leaflet";
 import { Layer } from "./Layer";
 import { MarkerContainer } from "./MarkerContainer";
 import { WikiConnector } from "./WikiConnector";
@@ -12,6 +12,8 @@ export class ZDMarker extends Marker {
   public layer: Layer;
   public tileContainers = <MarkerContainer[]>[]; // TODO get rid of this. Let MapLayer handle it.
   private zoomAdjustedCoords?: { [zoom: number]: LatLngTuple };
+  private showLabelForZoomLevel?: number;
+  private labelOffset?: number;
   private originalLatLng: LatLngTuple;
   private path?: L.Polyline;
   private popup?: ZDPopup;
@@ -34,8 +36,12 @@ export class ZDMarker extends Marker {
     this.tags = json.tags ?? [];
     this.layer = layer;
     this.zoomAdjustedCoords = json.zoomAdjustedCoords;
+    if (layer.showLabelForZoomLevel != undefined) {
+      this.showLabelForZoomLevel = layer.showLabelForZoomLevel;
+      this.labelOffset = (<PointTuple>layer.icon?.options.iconSize)[1];
+    }
     this.originalLatLng = json.coords;
-    this.layer.onZoom(this.adjustCoordsForZoom.bind(this));
+    this.layer.onZoom(this.handleZoom.bind(this));
   }
 
   public static fromJSON(
@@ -139,9 +145,22 @@ export class ZDMarker extends Marker {
     }
   }
 
-  public adjustCoordsForZoom(zoom: number): void {
+  public handleZoom(zoom: number): void {
     if (this.zoomAdjustedCoords != undefined) {
       this.setLatLng(this.zoomAdjustedCoords[zoom] ?? this.originalLatLng);
+    }
+
+    if (this.showLabelForZoomLevel != undefined) {
+      if (this.showLabelForZoomLevel <= zoom) {
+        this.bindTooltip(this.name, {
+          permanent: true,
+          direction: "center",
+          className: "zd-location-label zd-location-label--with-icon",
+          offset: [0, this.labelOffset ?? 0],
+        });
+      } else {
+        this.unbindTooltip();
+      }
     }
   }
 

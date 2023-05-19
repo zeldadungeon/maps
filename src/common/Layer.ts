@@ -13,6 +13,7 @@ export enum Visibility {
 
 export class Layer extends LayerGroup {
   public icon?: L.Icon;
+  public showLabelForZoomLevel?: number;
   public link?: string;
 
   public minZoom = 0;
@@ -49,6 +50,7 @@ export class Layer extends LayerGroup {
       }
     }
 
+    layer.showLabelForZoomLevel = json.showLabelForZoomLevel;
     layer.link = json.link ?? categoryLink;
 
     if (json.minZoom != undefined) {
