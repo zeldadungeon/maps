@@ -8,6 +8,13 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
 
+@font-face {
+  font-family: "OpenSansBold";
+  font-style: bold;
+  font-weight: 300;
+  src: url("https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN7rgOUuhs.ttf");
+}
+
 /// Stroke font-character
 /// @param  {Integer} $stroke - Stroke width
 /// @param  {Color}   $color  - Stroke color
@@ -354,7 +361,7 @@ body {
   color: #e1d698;
   //Adds an outline to the text to make it stand out better
   margin: 0px 0px 0px 0px;
-  font-family: HyliaSerif, "Linux Libertine", "Georgia", "Times", serif;
+  font-family: "HyliaSerif", "OpenSansBold", "Open Sans", sans-serif;
   font-weight: lighter !important;
 }
 
@@ -451,7 +458,7 @@ body {
 }
 
 .zd-popup__title {
-  font-family: HyliaSerif, "Linux Libertine", "Georgia", "Times", serif;
+  font-family: "HyliaSerif", "OpenSansBold", "Open Sans", sans-serif;
   font-weight: lighter;
 }
 
