@@ -144,7 +144,7 @@ export class Legend extends Control {
     groupHeaderDropdown.innerText = "▼";
     //Add group to group array
     this.groupUlArr.push(groupUl);
-    DomUtil.addClass(groupUl, "toggled-on");
+    DomUtil.addClass(groupHeaderDropdown, "toggled-on");
     //Add click event to group for dropdown functionality
     if (!this.bottom) {
       DomEvent.addListener(groupHeaderDropdown, "click", () => {
@@ -154,21 +154,51 @@ export class Legend extends Control {
           DomUtil.removeClass(groupHeaderDropdown, "toggled-on");
           groupHeaderDropdown.innerText = "▶";
           //Display: none, for all categories in group
+          groupBody.style.display = "none";
+        } else {
+          //Toggle group on
+          DomUtil.addClass(groupHeaderDropdown, "toggled-on");
+          groupHeaderDropdown.innerText = " ▼";
+          groupBody.style.display = "block";
+        }
+      });
+      DomEvent.addListener(groupHeaderTitle, "click", () => {
+        //Check if any category in group is selected
+        if (
+          this.categories.some(
+            (c) =>
+              DomUtil.hasClass(c.li, "selected") &&
+              c.category.group === category.group
+          )
+        ) {
+          //Deselect all categories in group
           this.categories.forEach((c) => {
             if (c.category.group === category.group) {
-              c.li.style.display = "none";
+              DomUtil.removeClass(c.li, "selected");
+              this.mapLayers.forEach((l) => l.hideCategory(c.category.name));
             }
           });
         } else {
-          //Toggle group on
-          DomUtil.addClass(groupUl, "toggled-on");
-          groupHeaderDropdown.innerText = " ▼";
-          //Show all categories in group and remove css display none
+          //Hide everything
+          if (DomUtil.hasClass(this.all, "selected")) {
+            DomUtil.removeClass(this.all, "selected");
+            this.categories.forEach((c) => {
+              if (!DomUtil.hasClass(c.li, "selected")) {
+                this.mapLayers.forEach((l) => l.hideCategory(c.category.name));
+              }
+            });
+          }
+          //Select all categories in group
           this.categories.forEach((c) => {
             if (c.category.group === category.group) {
-              c.li.style.display = "";
+              DomUtil.addClass(c.li, "selected");
+              this.mapLayers.forEach((l) => l.showCategory(c.category.name));
             }
           });
+
+          //Deselect all and none buttons
+          DomUtil.removeClass(this.all, "selected");
+          DomUtil.removeClass(this.none, "selected");
         }
       });
     }
