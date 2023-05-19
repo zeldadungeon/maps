@@ -75,6 +75,7 @@ window.onload = async () => {
       legendItem("Other Shops", "othershops", 29, 29),
       legendItem("Great Fairy", "fountain", 36, 36),
       legendItem("Goddess Statue", "statue", 36, 36),
+      legendItem("Cooking Pot", "pot", 36, 36),
     ],
     "Services"
   );
@@ -89,8 +90,8 @@ window.onload = async () => {
   );
   map.addLegend(
     [
-      legendItem("Cooking Pot", "pot", 36, 36),
       legendItem("Hudson Sign", "hundsonsign.svg", 24, 24),
+      legendItem("Minigames", "minigame.svg", 30, 30),
     ],
     "Other"
   );
