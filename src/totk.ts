@@ -111,9 +111,9 @@ window.onload = async () => {
       legendItem("Hinox", "skull", 36, 36),
       legendItem("Stone Talus", "ore", 36, 36),
       legendItem("Frox", "skull", 36, 36),
-      legendItem("Gleeok", "gleeok", 30, 30),
+      legendItem("Gleeok", "gleeok.svg", 25, 25),
       legendItem("Lynel", "lynel", 29, 30),
-      legendItem("Molduga", "skull", 36, 36),
+      legendItem("Molduga", "molduga.svg", 25, 25),
     ],
     "Bosses"
   );
