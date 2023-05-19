@@ -1,5 +1,6 @@
 import { createMpaPlugin, createPages } from "vite-plugin-virtual-mpa";
 import { defineConfig, normalizePath } from "vite";
+import path from "path";
 
 const pages = createPages([
   {
@@ -53,4 +54,9 @@ export default defineConfig(({ command, mode, ssrBuild }) => ({
       pages,
     }),
   ],
+  resolve: {
+    alias: {
+      "@fonts": path.resolve(__dirname, "src", "fonts"),
+    },
+  },
 }));
