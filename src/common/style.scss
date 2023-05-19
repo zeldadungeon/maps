@@ -48,13 +48,6 @@ body {
 
 /* CONTROLS */
 
-.group-text {
-  color: #e1d698;
-  //Adds an outline to the text to make it stand out better
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
-
 .toggelable {
   cursor: pointer;
   box-sizing: border-box;
@@ -71,8 +64,10 @@ body {
 }
 
 .selected {
-  background-color: rgba(0, 0, 0, 0.7);
-  border: 1px solid white;
+  // background-color: rgba(0, 0, 0, 0.7);
+  // border: 1px solid white;
+  text-decoration: none !important;
+  color: rgba($color: #000000, $alpha: 1) !important;
 }
 
 .leaflet-control a:hover,
@@ -99,7 +94,7 @@ body {
 .zd-control__content,
 .zd-legend,
 .zd-toast {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   color: white;
 }
 
@@ -124,7 +119,7 @@ body {
 
 .zd-control__content,
 .zd-legend {
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 .zd-control__content {
@@ -222,7 +217,7 @@ body {
 .zd-legend--landscape {
   display: none;
   height: 100%;
-  width: 220px;
+  width: 400px;
   overflow: auto;
 }
 
@@ -246,15 +241,11 @@ body {
 
 .zd-legend__categories {
   list-style: none;
-  margin: auto;
+  margin: 0;
   padding: 5px;
-}
-
-.zd-legend-group-ul {
-  list-style: none;
-  margin: auto;
-  padding: 0 0 0 0;
-  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .zd-legend--portrait .zd-legend__categories {
@@ -294,19 +285,19 @@ body {
   display: flex;
 }
 
-.zd-legend--portrait .zd-legend-group-ul {
-  margin: 5px;
-}
-
 .zd-legend__all,
 .zd-legend__none,
 .zd-legend__category {
-  height: 30px;
+  height: 35px;
+  flex-grow: 1;
+  color: rgba($color: #000000, $alpha: 0.5);
 }
 
 .zd-legend__all,
 .zd-legend__none {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-basis: 0;
   flex-grow: 1;
 }
@@ -325,8 +316,53 @@ body {
 .zd-legend__category {
   /*    margin: -10px 0;
     padding: 5px 0;*/
-  padding-left: 50px;
   background-repeat: no-repeat;
+  color: rgba($color: #000000, $alpha: 0.5);
+  // text-decoration: line-through;
+  display: flex;
+  align-items: center;
+}
+
+.zd-legend__category-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+/* LEGEND GROUPS */
+.zd-legend--portrait .zd-legend-group-ul {
+  margin: 5px;
+}
+
+.zd-legend-group {
+  list-style: none;
+  margin: 0px 0px 0px 5px;
+  padding: 0;
+}
+
+.zd-legend-group__header {
+  display: flex;
+  flex-direction: row;
+}
+
+.zd-legend-group__title,
+.zd-legend-group__dropdown {
+  color: #e1d698;
+  //Adds an outline to the text to make it stand out better
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  margin: 0px 0px 0px 0px;
+}
+
+.zd-legend-group__dropdown {
+  margin-left: 5px;
+}
+
+.zd-legend-group__body {
+  column-count: 2;
+  list-style: none;
+  padding: 0;
 }
 
 /* LOCATION TEXT LABELS */

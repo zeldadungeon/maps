@@ -87,8 +87,6 @@ window.onload = async () => {
     ],
     "Colectibles"
   );
-  map.addLegend([], "Loot");
-  map.addLegend([legendItem("Main Quest", "mainquest", 42, 25)], "Quests");
   map.addLegend(
     [
       legendItem("Cooking Pot", "pot", 36, 36),
@@ -98,6 +96,7 @@ window.onload = async () => {
   );
   map.addLegend(
     [
+      legendItem("Main Quest", "mainquest", 42, 25),
       legendItem("Shrine Quest", "shrinequest", 25, 29),
       legendItem("Side Quest", "sidequest", 27, 21),
       legendItem("Side Adventure", "adventure", 20, 24),

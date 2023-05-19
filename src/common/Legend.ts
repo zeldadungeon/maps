@@ -10,7 +10,7 @@ interface LegendItem {
 export class Legend extends Control {
   private container: HTMLElement;
   private categoryList: HTMLElement;
-  private categoryGroupULArr: HTMLElement[] = [];
+  private groupUlArr: HTMLElement[] = [];
   private all: HTMLElement;
   private none: HTMLElement;
   private allNoneUL: HTMLElement;
@@ -55,7 +55,7 @@ export class Legend extends Control {
       this.container
     );
     this.categoryList = DomUtil.create(
-      "ul",
+      "li",
       "zd-legend__categories",
       this.container
     );
@@ -116,30 +116,43 @@ export class Legend extends Control {
   }
 
   public addGroup(category: ICategory): void {
-    const groupUl = DomUtil.create(
-      "ul",
-      "zd-legend-group-ul",
-      this.categoryList
+    const groupUl = DomUtil.create("ul", "zd-legend-group", this.categoryList);
+    const groupLi = DomUtil.create("li", "zd-legend-group__li", groupUl);
+    const groupDiv = DomUtil.create("div", "zd-legend-group__div", groupLi);
+    const groupHeader = DomUtil.create(
+      "div",
+      "zd-legend-group__header",
+      groupDiv
     );
-    const groupHeaderLi = DomUtil.create("li", "zd-legend__group", groupUl);
+    const groupHeaderTitle = DomUtil.create(
+      "p",
+      "zd-legend-group__title",
+      groupHeader
+    );
+    const groupHeaderDropdown = DomUtil.create(
+      "p",
+      "zd-legend-group__dropdown",
+      groupHeader
+    );
+    const groupBody = DomUtil.create("ul", "zd-legend-group__body", groupDiv);
     if (!this.bottom) {
-      groupHeaderLi.classList.add("toggelable");
+      groupHeader.classList.add("toggelable");
     }
-    groupHeaderLi.innerText = category.group + " ▼";
-    groupHeaderLi.style.textAlign = "center";
-    groupHeaderLi.style.fontWeight = "bold";
-    groupHeaderLi.classList.add("group-text");
+    groupHeaderTitle.innerText = category.group || "Undefined Group";
+    groupHeaderTitle.style.textAlign = "center";
+    groupHeaderTitle.style.fontWeight = "bold";
+    groupHeaderDropdown.innerText = "▼";
     //Add group to group array
-    this.categoryGroupULArr.push(groupUl);
+    this.groupUlArr.push(groupUl);
     DomUtil.addClass(groupUl, "toggled-on");
-    //Add click event to group
+    //Add click event to group for dropdown functionality
     if (!this.bottom) {
-      DomEvent.addListener(groupHeaderLi, "click", () => {
+      DomEvent.addListener(groupHeaderDropdown, "click", () => {
         //Check if group is selected
-        if (DomUtil.hasClass(groupUl, "toggled-on")) {
+        if (DomUtil.hasClass(groupHeaderDropdown, "toggled-on")) {
           //Toggle group off
-          DomUtil.removeClass(groupUl, "toggled-on");
-          groupHeaderLi.innerText = category.group + " ▶";
+          DomUtil.removeClass(groupHeaderDropdown, "toggled-on");
+          groupHeaderDropdown.innerText = "▶";
           //Display: none, for all categories in group
           this.categories.forEach((c) => {
             if (c.category.group === category.group) {
@@ -149,7 +162,7 @@ export class Legend extends Control {
         } else {
           //Toggle group on
           DomUtil.addClass(groupUl, "toggled-on");
-          groupHeaderLi.innerText = category.group + " ▼";
+          groupHeaderDropdown.innerText = " ▼";
           //Show all categories in group and remove css display none
           this.categories.forEach((c) => {
             if (c.category.group === category.group) {
@@ -173,11 +186,24 @@ export class Legend extends Control {
     }
 
     // make it
-    const li = DomUtil.create("li", "zd-legend__category selectable");
+    const div = DomUtil.create(
+      "li",
+      "zd-legend__category-div",
+      this.categoryList
+    );
+    const icon = DomUtil.create("img", "zd-legend__icon", div);
+    const li = DomUtil.create("div", "zd-legend__category selectable", div);
     li.innerText = category.name;
-    li.style.backgroundImage = `url(${category.iconUrl})`;
-    li.style.backgroundPosition = `${(50 - category.iconWidth) / 2}px center`;
-    li.style.backgroundSize = `${category.iconWidth}px`;
+    icon.src = category.iconUrl;
+    //Set size of image container, make sure they all share the same centre
+    const iconSize = 35;
+    icon.style.width = iconSize + "px";
+    icon.style.height = iconSize + "px";
+    //Scale image using transform scale to get proper size without changing border size
+    icon.style.transform = `scale(${category.iconWidth / iconSize}, ${
+      category.iconHeight / iconSize
+    })`;
+
     this.categories.push({ category, li });
 
     // activate it
@@ -211,13 +237,16 @@ export class Legend extends Control {
     //Check if group is defined
     if (group != undefined) {
       //Add category to group
-      this.categoryGroupULArr.forEach((g) => {
-        if (g.innerText.includes(group)) {
-          g.appendChild(li);
+      this.groupUlArr.forEach((g) => {
+        if (
+          g.getElementsByClassName("zd-legend-group__title")[0].innerHTML ===
+          group
+        ) {
+          g.getElementsByClassName("zd-legend-group__body")[0].appendChild(div);
         }
       });
     } else {
-      this.categoryList.appendChild(li);
+      this.categoryList.appendChild(div);
     }
   }
 
