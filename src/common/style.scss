@@ -3,7 +3,7 @@
 // Custom HyliaSerif font from https://artsyomni.com/hyliaserif
 @font-face {
   font-family: HyliaSerif;
-  src: url(public/fonts/HyliaSerif-v0.009/HyliaSerifBetav0-009/HyliaSerifBeta-Regular.otf);
+  src: url(/fonts/HyliaSerif-v0.009/HyliaSerifBetav0-009/HyliaSerifBeta-Regular.otf);
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
@@ -76,7 +76,7 @@ body {
   // background-color: rgba(0, 0, 0, 0.7);
   // border: 1px solid white;
   text-decoration: none !important;
-  color: rgba($color: #000000, $alpha: 1) !important;
+  color: rgba($color: #ffffff, $alpha: 1) !important;
 }
 
 .leaflet-control a:hover,
@@ -300,7 +300,6 @@ body {
 .zd-legend__category {
   height: 35px;
   flex-grow: 1;
-  color: rgba($color: #000000, $alpha: 0.5);
 }
 
 .zd-legend__all,
@@ -327,7 +326,7 @@ body {
   /*    margin: -10px 0;
     padding: 5px 0;*/
   background-repeat: no-repeat;
-  color: rgba($color: #000000, $alpha: 0.5);
+  color: rgba($color: #ffffff, $alpha: 0.5);
   // text-decoration: line-through;
   display: flex;
   align-items: center;
