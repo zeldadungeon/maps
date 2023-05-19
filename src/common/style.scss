@@ -6,6 +6,8 @@
   src: url(public/fonts/HyliaSerif-v0.009/HyliaSerifBetav0-009/HyliaSerifBeta-Regular.otf);
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
 /// Stroke font-character
 /// @param  {Integer} $stroke - Stroke width
 /// @param  {Color}   $color  - Stroke color
@@ -78,6 +80,7 @@ body {
 
 .zd-control {
   position: relative;
+  font-family: "Open Sans", sans-serif;
 }
 
 .leaflet-touch .leaflet-control-layers {
@@ -350,9 +353,9 @@ body {
 .zd-legend-group__dropdown {
   color: #e1d698;
   //Adds an outline to the text to make it stand out better
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
   margin: 0px 0px 0px 0px;
+  font-family: HyliaSerif, "Linux Libertine", "Georgia", "Times", serif;
+  font-weight: lighter !important;
 }
 
 .zd-legend-group__dropdown {
