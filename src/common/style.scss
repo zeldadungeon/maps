@@ -217,7 +217,7 @@ body {
 .zd-legend--landscape {
   display: none;
   height: 100%;
-  width: 400px;
+  width: 350px;
   overflow: auto;
 }
 
@@ -249,8 +249,8 @@ body {
 }
 
 .zd-legend--portrait .zd-legend__categories {
-  padding: 0px;
   height: 0px;
+  padding: 5px 0px 0px 0px;
   overflow: scroll;
   transition: height 0.2s;
   display: flex;
