@@ -2789,7 +2789,8 @@
     "source": "summary",
     "layers": [
       {
-        "minZoom": 5,
+        "minZoom": 1,
+        "showLabelForZoomLevel": 6,
         "icon": {
           "url": "chasm.png",
           "width": 25,
@@ -3165,7 +3166,8 @@
     "source": "summary",
     "layers": [
       {
-        "minZoom": 5,
+        "minZoom": 3,
+        "showLabelForZoomLevel": 6,
         "icon": {
           "url": "cave.png",
           "width": 25,
@@ -5071,7 +5073,8 @@
     "source": "summary",
     "layers": [
       {
-        "minZoom": 5,
+        "minZoom": 3,
+        "showLabelForZoomLevel": 6,
         "icon": {
           "url": "well.png",
           "width": 25,
