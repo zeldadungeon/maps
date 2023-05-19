@@ -42,6 +42,11 @@ export class Layer extends LayerGroup {
         }`, // TODO find a better way to get directory
         iconSize: [json.icon.width, json.icon.height],
       });
+      //Check if icon is svg
+      if (json.icon.url.endsWith(".svg")) {
+        //Add svg class
+        layer.icon.options.className = "zd-marker-icon-svg";
+      }
     }
 
     layer.link = json.link ?? categoryLink;

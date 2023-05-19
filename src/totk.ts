@@ -13,23 +13,23 @@ window.onload = async () => {
     iconHeight: number,
     group?: string
   ): ICategory {
-    //Check if the group is defined
-    if (group) {
+    //Check if svg exists
+    if (iconName.slice(-3) == "svg") {
       return {
         name,
-        iconUrl: `${import.meta.env.BASE_URL}totk/icons/${iconName}.png`,
+        iconUrl: `${import.meta.env.BASE_URL}totk/icons/${iconName}`,
         iconWidth,
         iconHeight,
         group,
       };
-    } else {
-      return {
-        name,
-        iconUrl: `${import.meta.env.BASE_URL}totk/icons/${iconName}.png`,
-        iconWidth,
-        iconHeight,
-      };
     }
+    return {
+      name,
+      iconUrl: `${import.meta.env.BASE_URL}totk/icons/${iconName}.png`,
+      iconWidth,
+      iconHeight,
+      group,
+    };
   }
 
   const map = ZDMap.create({
@@ -90,7 +90,7 @@ window.onload = async () => {
   map.addLegend(
     [
       legendItem("Cooking Pot", "pot", 36, 36),
-      legendItem("Hudson Sign", "hudsonsign", 24, 24),
+      legendItem("Hudson Sign", "sign-hanging-solid.svg", 24, 24),
     ],
     "Other"
   );

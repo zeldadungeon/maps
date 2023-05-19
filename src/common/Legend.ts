@@ -223,7 +223,14 @@ export class Legend extends Control {
       "zd-legend__category-div",
       this.categoryList
     );
-    const icon = DomUtil.create("img", "zd-legend__icon", div);
+    const icon = DomUtil.create("img", "", div);
+    //Check if URL ends in .png or .svg
+    if (category.iconUrl.endsWith(".svg")) {
+      DomUtil.addClass(icon, "zd-legend__icon__svg");
+    } else {
+      DomUtil.addClass(icon, "zd-legend__icon");
+    }
+
     const li = DomUtil.create("div", "zd-legend__category selectable", div);
     li.innerText = category.name;
     icon.src = category.iconUrl;

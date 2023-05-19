@@ -1489,7 +1489,7 @@
       {
         "minZoom": 5,
         "icon": {
-          "url": "hudsonsign.png",
+          "url": "sign-hanging-solid.svg",
           "width": 24,
           "height": 24
         },

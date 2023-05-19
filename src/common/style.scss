@@ -339,6 +339,14 @@ body {
   align-items: center;
 }
 
+//Target color for svg #e6e61d
+//https://codepen.io/sosuke/pen/Pjoqqp
+.zd-legend__icon__svg,
+.zd-marker-icon-svg {
+  filter: invert(90%) sepia(51%) saturate(731%) hue-rotate(359deg)
+    brightness(89%) contrast(104%);
+}
+
 /* LEGEND GROUPS */
 .zd-legend--portrait .zd-legend-group-ul {
   margin: 5px;
