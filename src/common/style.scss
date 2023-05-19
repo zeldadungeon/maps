@@ -3,7 +3,7 @@
 // Custom HyliaSerif font from https://artsyomni.com/hyliaserif
 @font-face {
   font-family: HyliaSerif;
-  src: url(/fonts/HyliaSerif-v0.009/HyliaSerifBetav0-009/HyliaSerifBeta-Regular.otf);
+  src: url(@fonts/HyliaSerif-v0.009/HyliaSerifBetav0-009/HyliaSerifBeta-Regular.otf);
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
@@ -339,12 +339,14 @@ body {
   align-items: center;
 }
 
-//Target color for svg #e6e61d
+//Changes color from black to target color for svg #e6e61d, and adds a black drop shadow
 //https://codepen.io/sosuke/pen/Pjoqqp
 .zd-legend__icon__svg,
 .zd-marker-icon-svg {
   filter: invert(90%) sepia(51%) saturate(731%) hue-rotate(359deg)
-    brightness(89%) contrast(104%);
+    brightness(89%) contrast(104%) drop-shadow(-1px -1px 0px #000000)
+    drop-shadow(2px -1px 0px #000000) drop-shadow(2px 2px 0px #000000)
+    drop-shadow(-1px 2px 0px #000000);
 }
 
 //Fix SVG alignement with the custom fonts

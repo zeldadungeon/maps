@@ -90,7 +90,7 @@ window.onload = async () => {
   map.addLegend(
     [
       legendItem("Cooking Pot", "pot", 36, 36),
-      legendItem("Hudson Sign", "sign-hanging-solid.svg", 24, 24),
+      legendItem("Hudson Sign", "hundsonsign.svg", 24, 24),
     ],
     "Other"
   );
