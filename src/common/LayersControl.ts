@@ -44,6 +44,10 @@ export class LayersControl extends Control {
       );
 
       this.layers.push({ layer, button });
+      //Check whether this layer is currently visible, if so select it
+      if (layer.hasLayer(layer.tileLayer)) {
+        this.selectLayer(layer.layerName);
+      }
     }
   }
 
