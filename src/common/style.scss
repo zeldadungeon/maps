@@ -347,6 +347,11 @@ body {
     brightness(89%) contrast(104%);
 }
 
+//Fix SVG alignement with the custom fonts
+.svg-inline--fa {
+  vertical-align: -0.1em;
+}
+
 /* LEGEND GROUPS */
 .zd-legend--portrait .zd-legend-group-ul {
   margin: 5px;
