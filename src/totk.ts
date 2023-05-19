@@ -97,7 +97,7 @@ window.onload = async () => {
   );
   map.addLegend(
     [
-      legendItem("Main Quest", "mainquest", 42, 25),
+      legendItem("Main Quest", "mainquest", 35, 23),
       legendItem("Shrine Quest", "shrinequest", 25, 29),
       legendItem("Side Quest", "sidequest", 27, 21),
       legendItem("Side Adventure", "adventure", 20, 24),
