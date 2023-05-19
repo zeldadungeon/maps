@@ -70,6 +70,7 @@ body {
   cursor: pointer;
   box-sizing: border-box;
   transition: background-color 0.2s;
+  color: rgba($color: #ffffff, $alpha: 0.5);
 }
 
 .selected {
@@ -326,7 +327,6 @@ body {
   /*    margin: -10px 0;
     padding: 5px 0;*/
   background-repeat: no-repeat;
-  color: rgba($color: #ffffff, $alpha: 0.5);
   // text-decoration: line-through;
   display: flex;
   align-items: center;
