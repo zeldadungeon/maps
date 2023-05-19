@@ -206,7 +206,7 @@ body {
 .zd-legend--landscape {
   display: none;
   height: 100%;
-  width: 220px;
+  width: 230px;
   overflow: auto;
 }
 
@@ -227,7 +227,7 @@ body {
 
 .zd-legend__categories {
   list-style: none;
-  margin: auto;
+  width: 100%;
   padding: 5px;
 }
 
@@ -347,7 +347,7 @@ body {
 }
 
 .internal-link {
-  border-bottom: 1px dashed black;
+  border-bottom: 1px dashed white;
   cursor: pointer;
 }
 
@@ -360,7 +360,7 @@ body {
   font-weight: lighter;
 }
 
-//Forum link
+//Wiki link
 .zd-popup a {
   color: #0096ff;
 }
