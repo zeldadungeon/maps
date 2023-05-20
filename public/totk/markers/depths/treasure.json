@@ -1,7 +1,7 @@
 [
   {
     "name": "Treasure Chest",
-    "source": "summary",
+    "source": "mapns",
     "layers": [
       {
         "minZoom": 5,
