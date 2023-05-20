@@ -819,7 +819,8 @@
     "source": "summary",
     "layers": [
       {
-        "minZoom": 5,
+        "minZoom": 3,
+        "showLabelForZoomLevel": 6,
         "icon": {
           "url": "cave.png",
           "width": 25,

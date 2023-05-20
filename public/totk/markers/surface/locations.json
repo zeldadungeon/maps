@@ -1832,6 +1832,16 @@
             "id": "HorseStableBranchOffice_BaseCamp",
             "name": "Mini Stable",
             "link": "Mini Stable"
+          },
+          {
+            "coords": [
+              -1663.96301,
+              -1693.16101
+            ],
+            "elv": 11.1569977,
+            "id": "HorseStableBranchOffice_Gerudo",
+            "name": "Mini Stable",
+            "link": "Mini Stable"
           }
         ]
       }
@@ -6355,16 +6365,6 @@
           },
           {
             "coords": [
-              -1663.96301,
-              -1693.16101
-            ],
-            "elv": 11.1569977,
-            "id": "HorseStableBranchOffice_Gerudo",
-            "name": "Mini Stable",
-            "link": "Mini Stable"
-          },
-          {
-            "coords": [
               -2518.48096,
               -37.4074707
             ],
@@ -7032,46 +7032,6 @@
             "id": "PowerFountain",
             "name": "Spring of Power",
             "link": "Spring of Power"
-          },
-          {
-            "coords": [
-              -2179.93311,
-              1767.62305
-            ],
-            "elv": 1.0530014,
-            "id": "WeaponCureSpring_DressFairy_00",
-            "name": "Great Fairy Fountain",
-            "link": "Great Fairy Fountain"
-          },
-          {
-            "coords": [
-              2994.86597,
-              -1460.47095
-            ],
-            "elv": 301.810211,
-            "id": "WeaponCureSpring_DressFairy_01",
-            "name": "Great Fairy Fountain",
-            "link": "Great Fairy Fountain"
-          },
-          {
-            "coords": [
-              -1231.13306,
-              -1556.87097
-            ],
-            "elv": 76.5090942,
-            "id": "WeaponCureSpring_DressFairy_02",
-            "name": "Great Fairy Fountain",
-            "link": "Great Fairy Fountain"
-          },
-          {
-            "coords": [
-              1386.47595,
-              915.687317
-            ],
-            "elv": 81.6587067,
-            "id": "WeaponCureSpring",
-            "name": "Great Fairy Fountain",
-            "link": "Great Fairy Fountain"
           },
           {
             "coords": [
@@ -8082,36 +8042,6 @@
             "id": "ArafuraPlain",
             "name": "Fural Plain",
             "link": "Fural Plain"
-          },
-          {
-            "coords": [
-              731.051514,
-              493.021515
-            ],
-            "elv": 42.3701935,
-            "id": "ArmorOfLambda_01",
-            "name": "Powerful Outfit",
-            "link": "Powerful Outfit"
-          },
-          {
-            "coords": [
-              642.031311,
-              -1188.45801
-            ],
-            "elv": 72.8231964,
-            "id": "ArmorOfLambda_04",
-            "name": "Climbing Outfit",
-            "link": "Climbing Outfit"
-          },
-          {
-            "coords": [
-              -1046.14099,
-              -71.4892273
-            ],
-            "elv": 20.3396988,
-            "id": "ArmorOfLambda_07",
-            "name": "Shock-Resistant Outfit",
-            "link": "Shock-Resistant Outfit"
           },
           {
             "coords": [
@@ -12198,6 +12128,61 @@
             "id": "YamariRiver_3",
             "name": "Squabble River",
             "link": "Squabble River"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Great Fairy",
+    "layers": [
+      {
+        "minZoom": 4,
+        "icon": {
+          "url": "fountain.png",
+          "width": 36,
+          "height": 36
+        },
+        "markers": [
+          {
+            "coords": [
+              -2179.93311,
+              1767.62305
+            ],
+            "elv": 1.0530014,
+            "id": "WeaponCureSpring_DressFairy_00",
+            "name": "Great Fairy Fountain",
+            "link": "Great Fairy Fountain"
+          },
+          {
+            "coords": [
+              2994.86597,
+              -1460.47095
+            ],
+            "elv": 301.810211,
+            "id": "WeaponCureSpring_DressFairy_01",
+            "name": "Great Fairy Fountain",
+            "link": "Great Fairy Fountain"
+          },
+          {
+            "coords": [
+              -1231.13306,
+              -1556.87097
+            ],
+            "elv": 76.5090942,
+            "id": "WeaponCureSpring_DressFairy_02",
+            "name": "Great Fairy Fountain",
+            "link": "Great Fairy Fountain"
+          },
+          {
+            "coords": [
+              1386.47595,
+              915.687317
+            ],
+            "elv": 81.6587067,
+            "id": "WeaponCureSpring",
+            "name": "Great Fairy Fountain",
+            "link": "Great Fairy Fountain"
           }
         ]
       }
