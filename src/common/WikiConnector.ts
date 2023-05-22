@@ -328,6 +328,7 @@ export class WikiConnector {
       this.showNotification(
         "An error occurred while saving completion information. Please refresh the page, ensure you are logged in, and try again."
       );
+      throw ex;
     }
   }
 
