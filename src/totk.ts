@@ -40,8 +40,8 @@ window.onload = async () => {
   const depths = map.addMapLayer("Depths", "depths", "depths-selected", false);
   map.addControls(["User-Contributed", "Paths"]);
   map.addLegend([
-    legendItem("Tower", "tower", 20, 26),
-    legendItem("Shrine", "shrine", 27, 29),
+    legendItem("Skyview Tower", "tower", 20, 26),
+    legendItem("Shrine of Light", "shrine", 27, 29),
     legendItem("Lightroot", "lightroot", 27, 24),
     legendItem("Tech Lab", "lab", 28, 24),
     legendItem("Korok Seed", "korok", 27, 27),
