@@ -3411,7 +3411,7 @@
     ]
   },
   {
-    "name": "Gloom Hands",
+    "name": "Gloom Spawn",
     "source": "summary",
     "layers": [
       {
@@ -3428,9 +3428,9 @@
               -3392.7229
             ],
             "elv": 45.302002,
-            "id": "GloomHands_G00",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G00",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3438,9 +3438,9 @@
               -3308.68896
             ],
             "elv": 23.0453033,
-            "id": "GloomHands_G01",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G01",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3448,9 +3448,9 @@
               -3212.64795
             ],
             "elv": 27.3406067,
-            "id": "GloomHands_G02",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G02",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3458,9 +3458,9 @@
               -2266.34302
             ],
             "elv": 132.040497,
-            "id": "GloomHands_G03",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G03",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3468,9 +3468,9 @@
               -2118.92993
             ],
             "elv": 134.983704,
-            "id": "GloomHands_G04",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G04",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3478,9 +3478,9 @@
               -1781.05896
             ],
             "elv": 106.971497,
-            "id": "GloomHands_G05",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G05",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3488,9 +3488,9 @@
               -1292.34302
             ],
             "elv": 86.3439941,
-            "id": "GloomHands_G06",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G06",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3498,9 +3498,9 @@
               -1240.53601
             ],
             "elv": 67.4965057,
-            "id": "GloomHands_G07",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G07",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3508,9 +3508,9 @@
               -825.104919
             ],
             "elv": 240,
-            "id": "GloomHands_G08",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G08",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3518,9 +3518,9 @@
               -264.193298
             ],
             "elv": 142.721893,
-            "id": "GloomHands_G09",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G09",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3528,9 +3528,9 @@
               -501.487915
             ],
             "elv": 21.0810013,
-            "id": "GloomHands_G10",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G10",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3538,9 +3538,9 @@
               -207.162704
             ],
             "elv": 24.4494934,
-            "id": "GloomHands_G11",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G11",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3548,9 +3548,9 @@
               -750.949829
             ],
             "elv": 22.0537033,
-            "id": "GloomHands_G12",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G12",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3558,9 +3558,9 @@
               -416.759186
             ],
             "elv": 28.2021942,
-            "id": "GloomHands_G13",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G13",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3568,9 +3568,9 @@
               -365.595886
             ],
             "elv": 21.8414001,
-            "id": "GloomHands_G14",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G14",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3578,9 +3578,9 @@
               126.583504
             ],
             "elv": 31.8628998,
-            "id": "GloomHands_G15",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G15",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3588,9 +3588,9 @@
               682.277771
             ],
             "elv": 74.009903,
-            "id": "GloomHands_G16",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G16",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3598,9 +3598,9 @@
               765.71521
             ],
             "elv": 75.6732941,
-            "id": "GloomHands_G17",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G17",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3608,9 +3608,9 @@
               412.912109
             ],
             "elv": 9.99199677,
-            "id": "GloomHands_G18",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G18",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3618,9 +3618,9 @@
               456.724091
             ],
             "elv": 9.99199677,
-            "id": "GloomHands_G19",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G19",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3628,9 +3628,9 @@
               267.542999
             ],
             "elv": 10.0042038,
-            "id": "GloomHands_G20",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G20",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3638,9 +3638,9 @@
               872.446411
             ],
             "elv": 1.83509827,
-            "id": "GloomHands_G21",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G21",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3648,9 +3648,9 @@
               1497.46594
             ],
             "elv": 394.068115,
-            "id": "GloomHands_G22",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G22",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3658,9 +3658,9 @@
               1130.31702
             ],
             "elv": 69.8737946,
-            "id": "GloomHands_G23",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G23",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3668,9 +3668,9 @@
               1765.61804
             ],
             "elv": 147.553406,
-            "id": "GloomHands_G24",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G24",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3678,9 +3678,9 @@
               1399.01404
             ],
             "elv": 150.603195,
-            "id": "GloomHands_G25",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G25",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3688,9 +3688,9 @@
               2729.99194
             ],
             "elv": 241.535889,
-            "id": "GloomHands_G26",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G26",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3698,9 +3698,9 @@
               2551.78101
             ],
             "elv": 67.8074951,
-            "id": "GloomHands_G27",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G27",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3708,9 +3708,9 @@
               2867.36401
             ],
             "elv": 17.1780014,
-            "id": "GloomHands_G28",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G28",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3718,9 +3718,9 @@
               3288.98511
             ],
             "elv": 1.53029633,
-            "id": "GloomHands_G29",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G29",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3728,9 +3728,9 @@
               3646.56299
             ],
             "elv": 2.31549835,
-            "id": "GloomHands_G30",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G30",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3738,9 +3738,9 @@
               3332.33594
             ],
             "elv": 413.573425,
-            "id": "GloomHands_G31",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G31",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3748,9 +3748,9 @@
               3223.2981
             ],
             "elv": 159.91449,
-            "id": "GloomHands_G32",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G32",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3758,9 +3758,9 @@
               3271.92603
             ],
             "elv": 162.479614,
-            "id": "GloomHands_G33",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G33",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3768,9 +3768,9 @@
               3224.91089
             ],
             "elv": 171.956207,
-            "id": "GloomHands_G34",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G34",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3778,9 +3778,9 @@
               4655
             ],
             "elv": 50.4969025,
-            "id": "GloomHands_G35",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G35",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3788,9 +3788,9 @@
               4030.13989
             ],
             "elv": 400.570801,
-            "id": "GloomHands_G36",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G36",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3798,9 +3798,9 @@
               -1796.05396
             ],
             "elv": 72.053299,
-            "id": "GloomHands_G37",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G37",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3808,9 +3808,9 @@
               -618.389404
             ],
             "elv": 21.7739029,
-            "id": "GloomHands_G38",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G38",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3818,9 +3818,9 @@
               -86.4068604
             ],
             "elv": 28.0016937,
-            "id": "GloomHands_G39",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G39",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3828,9 +3828,9 @@
               -2957.5249
             ],
             "elv": 10.3620987,
-            "id": "GloomHands_G40",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G40",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           },
           {
             "coords": [
@@ -3838,9 +3838,9 @@
               -1798.422
             ],
             "elv": 134.857101,
-            "id": "GloomHands_G41",
-            "name": "Gloom Hands",
-            "link": "Gloom Hands"
+            "id": "GloomSpawn_G41",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
           }
         ]
       }
