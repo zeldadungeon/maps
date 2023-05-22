@@ -7015,16 +7015,6 @@
           },
           {
             "coords": [
-              3218.70996,
-              4296.05518
-            ],
-            "elv": 149.640305,
-            "id": "MaronSpring",
-            "name": "Malanya Spring",
-            "link": "Malanya Spring"
-          },
-          {
-            "coords": [
               2672.13696,
               3756.12598
             ],
@@ -12183,6 +12173,26 @@
             "id": "WeaponCureSpring",
             "name": "Great Fairy Fountain",
             "link": "Great Fairy Fountain"
+          }
+        ]
+      },
+      {
+        "minZoom": 4,
+        "icon": {
+          "url": "horsegod.png",
+          "width": 36,
+          "height": 36
+        },
+        "markers": [
+          {
+            "coords": [
+              3218.70996,
+              4296.05518
+            ],
+            "elv": 149.640305,
+            "id": "MaronSpring",
+            "name": "Malanya Spring",
+            "link": "Malanya Spring"
           }
         ]
       }
