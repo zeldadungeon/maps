@@ -63,7 +63,7 @@
     ]
   },
   {
-    "name": "Tower",
+    "name": "Skyview Tower",
     "source": "summary",
     "layers": [
       {
@@ -228,7 +228,7 @@
     ]
   },
   {
-    "name": "Shrine",
+    "name": "Shrine of Light",
     "source": "mapns",
     "layers": [
       {
