@@ -15,10 +15,6 @@ import { LayersControl } from "./LayersControl";
 import { Legend } from "./Legend";
 import { LocalStorage } from "./LocalStorage";
 import { MapLayer } from "./MapLayer";
-import {
-  ObjectsControl,
-  Options as ObjectsControlOptions,
-} from "./ObjectsControl";
 import { ToastControl } from "./ToastControl";
 import { ZDControl } from "./ZDControl";
 import { ZDMarker } from "./ZDMarker";
@@ -203,33 +199,11 @@ export class ZDMap extends Map {
     return layer;
   }
 
-  public addControls(
-    tags: string[] = [],
-    objectCategories: ObjectsControlOptions[] = []
-  ): void {
-    // Search
-    const searchControl = this.initializeSearchControl();
-
-    // Objects
-    const objectControls: ObjectsControl[] = [];
-    if (objectCategories.length > 0) {
-      for (const cat of objectCategories) {
-        cat.icon = `${import.meta.env.BASE_URL}${this.directory}/icons/${
-          cat.icon
-        }.png`;
-        objectControls.push(
-          new ObjectsControl(cat, (selectedObjects) =>
-            this.layers.forEach((l) => l.updateSelectedObjects(selectedObjects))
-          ).addTo(this)
-        );
-      }
-    }
-
-    // Settings
+  public addControls(tags: string[] = []): void {
     tags.push("Completed");
+    const searchControl = this.initializeSearchControl();
     const settingsControl = this.initializeSettingsControl(tags);
 
-    // Layers
     if (this.layers.length > 1) {
       this.layersControl = new LayersControl({
         position: "topleft",
@@ -243,7 +217,6 @@ export class ZDMap extends Map {
       );
     }
 
-    // Zoom
     new Control.Zoom({
       position: "topleft",
     }).addTo(this);
@@ -251,27 +224,10 @@ export class ZDMap extends Map {
     // When one control opens, close the others
     searchControl.onOpen(() => {
       settingsControl.close();
-      for (const objectControl of objectControls) {
-        objectControl.close();
-      }
     });
     settingsControl.onOpen(() => {
       searchControl.close();
-      for (const objectControl of objectControls) {
-        objectControl.close();
-      }
     });
-    for (const objectControl of objectControls) {
-      objectControl.onOpen(() => {
-        searchControl.close();
-        settingsControl.close();
-        for (const otherObjectControl of objectControls) {
-          if (otherObjectControl != objectControl) {
-            otherObjectControl.close();
-          }
-        }
-      });
-    }
 
     this.toastControl.addTo(this);
   }
@@ -342,9 +298,8 @@ export class ZDMap extends Map {
     const results = DomUtil.create("ul", "zd-search__results", searchContent);
     DomEvent.disableScrollPropagation(results);
 
-    const searchControl = new ZDControl({
-      icon: "fa-search",
-      title: "Search",
+    const searchControl = ZDControl.create({
+      icon: "search",
       content: searchContent,
     }).addTo(this);
 
@@ -480,9 +435,8 @@ export class ZDMap extends Map {
       }
     });
 
-    return new ZDControl({
-      icon: "fa-cog",
-      title: "Settings",
+    return ZDControl.create({
+      icon: "cog",
       content: settingsContent,
     }).addTo(this);
   }

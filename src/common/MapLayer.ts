@@ -1,21 +1,18 @@
 import { Layer, Visibility } from "./Layer";
-import { CircleMarker, LayerGroup } from "leaflet";
+import { LayerGroup } from "leaflet";
 import { MarkerContainer } from "./MarkerContainer";
 import { TileLayer } from "leaflet";
 import { ZDMap } from "./ZDMap";
 import { ZDMarker } from "./ZDMarker";
-import { ObjectCategory } from "./JSONSchema";
-import "leaflet.markercluster";
 
 export class MapLayer extends LayerGroup {
   public tileLayer: TileLayer;
   public markerLayer: LayerGroup;
   public iconUrl: string;
   public enabledIconUrl?: string;
-  private categories: Record<string, Layer[]> = {};
+  private categories = <{ [key: string]: Layer[] }>{};
   private tileMarkerContainers: MarkerContainer[][][] = [];
-  private taggedMarkerContainers: Record<string, MarkerContainer> = {};
-  private objectGroups: Record<string, LayerGroup> = {};
+  private taggedMarkerContainers = <{ [key: string]: MarkerContainer }>{};
   private currentZoom = 0;
 
   public constructor(
@@ -205,34 +202,6 @@ export class MapLayer extends LayerGroup {
       for (const layer of category) {
         layer.updateZoom(zoom);
         this.updateLayerVisibility(layer);
-      }
-    }
-  }
-
-  public addObjects(objects: ObjectCategory[]): void {
-    for (const category of objects) {
-      const h = 1 + Math.random() * 360;
-      const s = 100;
-      const l = 50;
-      const hsl = "hsl(" + h + "," + s + "%," + l + "%)";
-      const layerGroup = new window.L.MarkerClusterGroup({
-        // TODO iconCreateFunction: cluster => L.
-      });
-      this.objectGroups[category.name] = layerGroup;
-      for (const coords of category.markerCoords) {
-        new CircleMarker(coords, { color: hsl, radius: 5 })
-          .bindTooltip(category.name)
-          .addTo(layerGroup);
-      }
-    }
-  }
-
-  public updateSelectedObjects(selectedObjects: Record<string, boolean>): void {
-    for (const groupName of Object.keys(this.objectGroups)) {
-      if (selectedObjects[groupName]) {
-        this.markerLayer.addLayer(this.objectGroups[groupName]);
-      } else {
-        this.markerLayer.removeLayer(this.objectGroups[groupName]);
       }
     }
   }

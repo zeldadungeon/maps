@@ -27,8 +27,3 @@ export interface Marker {
   path?: LatLngTuple[];
   tags?: string[];
 }
-
-export interface ObjectCategory {
-  name: string;
-  markerCoords: LatLngTuple[];
-}

@@ -6,7 +6,6 @@ const OPEN_CLASS = "zd-control__content--open";
 
 export interface Options extends L.ControlOptions {
   icon: string;
-  title: string;
   content: HTMLElement;
 }
 
@@ -15,24 +14,17 @@ export interface Options extends L.ControlOptions {
  */
 export class ZDControl extends Control {
   private container: HTMLElement;
-  protected content: HTMLElement;
+  private content: HTMLElement;
   private onOpenHandlers = <EventHandler[]>[];
   private onClosedHandlers = <EventHandler[]>[];
 
-  public constructor(options: Options) {
-    super({ ...options, position: "topleft" });
+  private constructor(options: Options) {
+    super(options);
 
     this.container = DomUtil.create("div", "zd-control");
 
     const button = DomUtil.create("div", "zd-control__button", this.container);
-    if (options.icon.startsWith("fa-")) {
-      DomUtil.create("i", `fa ${options.icon}`, button);
-    } else {
-      button.style.backgroundImage = `url('${options.icon}')`;
-      button.style.backgroundSize = "contain";
-      button.style.backgroundRepeat = "no-repeat";
-    }
-    button.title = options.title;
+    DomUtil.create("i", `fa fa-${options.icon}`, button);
     DomEvent.disableClickPropagation(button);
     if (!Browser.touch) {
       DomEvent.disableScrollPropagation(button);
@@ -40,12 +32,20 @@ export class ZDControl extends Control {
 
     this.content = DomUtil.create("div", "zd-control__content", this.container);
     DomEvent.disableClickPropagation(this.content);
-    DomEvent.disableScrollPropagation(this.content);
+    if (!Browser.touch) {
+      DomEvent.disableScrollPropagation(this.content);
+    }
     this.content.appendChild(options.content);
 
     DomEvent.addListener(button, "click", () =>
       DomUtil.hasClass(this.content, OPEN_CLASS) ? this.close() : this.open()
     );
+  }
+
+  public static create(options: Options): ZDControl {
+    options.position = "topleft"; // only topleft is supported for now
+
+    return new ZDControl(options);
   }
 
   public onAdd(_map: L.Map): HTMLElement {
