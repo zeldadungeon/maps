@@ -101,6 +101,7 @@ window.onload = async () => {
                   "Swift Carrot",
                   "Endura Carrot",
                   "Fortified Pumpkin",
+                  "Sun Pumpkin",
                   "Swift Violet",
                   "Mighty Thistle",
                   "Armoranth",
@@ -157,7 +158,6 @@ window.onload = async () => {
                   "Icy Prime Meat",
                   "Frozen Bird Thigh",
                   "Hard-Boiled Egg",
-                  "Sun Pumpkin",
                 ],
               },
               {
@@ -330,7 +330,7 @@ window.onload = async () => {
               },
               {
                 groupName: "Gloom Recovery",
-                objectNames: ["Sundelion"],
+                objectNames: ["Sun Pumpkin", "Sundelion"],
               },
               {
                 groupName: "Gloom Resistance",
