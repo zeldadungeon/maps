@@ -257,12 +257,12 @@ window.onload = async () => {
                 ],
               },
               {
-                groupName: "Max Stamina Up",
-                objectNames: [
-                  "Endura Shroom",
-                  "Endura Carrot",
-                  "Tireless Frog",
-                ],
+                groupName: "Gloom Recovery",
+                objectNames: ["Sundelion"],
+              },
+              {
+                groupName: "Gloom Resistance",
+                objectNames: [],
               },
               {
                 groupName: "Stamina Recovery",
@@ -277,7 +277,15 @@ window.onload = async () => {
                 ],
               },
               {
-                groupName: "Fireproof",
+                groupName: "Max Stamina Up",
+                objectNames: [
+                  "Endura Shroom",
+                  "Endura Carrot",
+                  "Tireless Frog",
+                ],
+              },
+              {
+                groupName: "Flame Guard",
                 objectNames: ["Smotherwing Butterfly", "Fireproof Lizard"],
               },
               {
@@ -302,25 +310,13 @@ window.onload = async () => {
                 ],
               },
               {
-                groupName: "Electricity Resistance",
+                groupName: "Shock Resistance",
                 objectNames: [
                   "Zapshroom",
                   "Electric Safflina",
                   "Voltfin Trout",
                   "Thunderwing Butterfly",
                   "Electric Darner",
-                ],
-              },
-              {
-                groupName: "Defense Up",
-                objectNames: [
-                  "Ironshroom",
-                  "Fortified Pumpkin",
-                  "Armoranth",
-                  "Armored Carp",
-                  "Armored Porgy",
-                  "Ironshell Crab",
-                  "Rugged Rhino Beetle",
                 ],
               },
               {
@@ -336,16 +332,28 @@ window.onload = async () => {
                 ],
               },
               {
-                groupName: "Attack Up in Heat",
+                groupName: "Hot Weather Attack",
                 objectNames: ["Fire Fruit"],
               },
               {
-                groupName: "Attack Up in Cold",
+                groupName: "Cold Weather Attack",
                 objectNames: ["Ice Fruit"],
               },
               {
-                groupName: "Attack Up in Thunderstorms",
+                groupName: "Stormy Weather Attack",
                 objectNames: ["Shock Fruit"],
+              },
+              {
+                groupName: "Defense Up",
+                objectNames: [
+                  "Ironshroom",
+                  "Fortified Pumpkin",
+                  "Armoranth",
+                  "Armored Carp",
+                  "Armored Porgy",
+                  "Ironshell Crab",
+                  "Rugged Rhino Beetle",
+                ],
               },
               {
                 groupName: "Speed Up",
@@ -367,7 +375,7 @@ window.onload = async () => {
                 objectNames: ["Sticky Frog", "Sticky Lizard"],
               },
               {
-                groupName: "Stealth",
+                groupName: "Stealth Up",
                 objectNames: [
                   "Silent Shroom",
                   "Blue Nightshade",
@@ -377,15 +385,7 @@ window.onload = async () => {
                 ],
               },
               {
-                groupName: "Gloom Protection",
-                objectNames: [],
-              },
-              {
-                groupName: "Gloom Recovery",
-                objectNames: ["Sundelion"],
-              },
-              {
-                groupName: "Glow Effect",
+                groupName: "Glow",
                 objectNames: ["Brightcap", "Glowing Cave Fish", "Deep Firefly"],
               },
             ],
