@@ -1,5 +1,5 @@
 import { Layer, Visibility } from "./Layer";
-import { CircleMarker, LayerGroup } from "leaflet";
+import { CircleMarker, DivIcon, LayerGroup, Point } from "leaflet";
 import { MarkerContainer } from "./MarkerContainer";
 import { TileLayer } from "leaflet";
 import { ZDMap } from "./ZDMap";
@@ -215,8 +215,21 @@ export class MapLayer extends LayerGroup {
       const s = 100;
       const l = 50;
       const hsl = "hsl(" + h + "," + s + "%," + l + "%)";
+      const hsla = "hsla(" + h + "," + s + "%," + l + "%, .6)";
       const layerGroup = new window.L.MarkerClusterGroup({
-        // TODO iconCreateFunction: cluster => L.
+        iconCreateFunction: (cluster) => {
+          const childCount = cluster.getChildCount();
+          const className = `zd-marker-cluster zd-marker-cluster--${
+            childCount < 10 ? "small" : childCount < 100 ? "medium" : "large"
+          }`;
+          const iconSize = childCount < 10 ? 40 : childCount < 100 ? 50 : 60;
+
+          return new DivIcon({
+            html: `<div title="${category.name}" style="background-color: ${hsla};"><div style="background-color: ${hsla};"><span>${childCount} <span aria-label="markers"></span></span></div></div>`,
+            className,
+            iconSize: new Point(iconSize, iconSize),
+          });
+        },
       });
       this.objectGroups[category.name] = layerGroup;
       for (const coords of category.markerCoords) {
