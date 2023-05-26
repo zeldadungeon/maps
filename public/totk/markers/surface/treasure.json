@@ -1413,16 +1413,6 @@
           },
           {
             "coords": [
-              1833.20496,
-              -3459.61304
-            ],
-            "elv": 156.158997,
-            "id": "Treasure0287",
-            "name": "Arrow x 5",
-            "link": "Arrow"
-          },
-          {
-            "coords": [
               1885.85498,
               -3434.75708
             ],
@@ -1433,26 +1423,6 @@
           },
           {
             "coords": [
-              1885.86206,
-              -3434.74194
-            ],
-            "elv": 146.059006,
-            "id": "Treasure0289",
-            "name": "Arrow x 5",
-            "link": "Arrow"
-          },
-          {
-            "coords": [
-              1848,
-              -3497
-            ],
-            "elv": 155.169006,
-            "id": "Treasure0290",
-            "name": "Purple Rupee",
-            "link": "Purple Rupee"
-          },
-          {
-            "coords": [
               1847.96399,
               -3497.01196
             ],
@@ -1460,16 +1430,6 @@
             "id": "Treasure0291",
             "name": "Purple Rupee",
             "link": "Purple Rupee"
-          },
-          {
-            "coords": [
-              1754.92102,
-              -3568.25293
-            ],
-            "elv": 163.117188,
-            "id": "Treasure0292",
-            "name": "Opal",
-            "link": "Opal"
           },
           {
             "coords": [
@@ -8570,6 +8530,96 @@
             "id": "Treasure1302",
             "name": "Royal Halberd",
             "link": "Royal Halberd"
+          },
+          {
+            "coords": [
+              -3635.01001,
+              -4534.73291
+            ],
+            "elv": -4.20149994,
+            "id": "Treasure1319",
+            "name": "Topaz",
+            "link": "Topaz"
+          },
+          {
+            "coords": [
+              -3613.302,
+              -4513.9502
+            ],
+            "elv": -16.335083,
+            "id": "Treasure1320",
+            "name": "Large Zonai Charge",
+            "link": "Large Zonai Charge"
+          },
+          {
+            "coords": [
+              -3665.35498,
+              -4685.52002
+            ],
+            "elv": -5.134552,
+            "id": "Treasure1321",
+            "name": "Mighty Zonaite Shield",
+            "link": "Mighty Zonaite Shield"
+          },
+          {
+            "coords": [
+              -3585.729,
+              -4535.50781
+            ],
+            "elv": 64.0289001,
+            "id": "Treasure1322",
+            "name": "Diamond",
+            "link": "Diamond"
+          },
+          {
+            "coords": [
+              -3594.28198,
+              -4377.97314
+            ],
+            "elv": 81.3488007,
+            "id": "Treasure1323",
+            "name": "Radiant Shield",
+            "link": "Radiant Shield"
+          },
+          {
+            "coords": [
+              -3683.96899,
+              -4560.19092
+            ],
+            "elv": 115.101898,
+            "id": "Treasure1324",
+            "name": "Topaz",
+            "link": "Topaz"
+          },
+          {
+            "coords": [
+              -3609.66797,
+              -4517.13623
+            ],
+            "elv": 178.871307,
+            "id": "Treasure1325",
+            "name": "Mirror x 3",
+            "link": "Mirror"
+          },
+          {
+            "coords": [
+              -3717.44189,
+              -4620.78418
+            ],
+            "elv": 7.66490173,
+            "id": "Treasure1326",
+            "name": "Mighty Construct Bow",
+            "link": "Mighty Construct Bow"
+          },
+          {
+            "coords": [
+              -3492.16699,
+              -4418.9292
+            ],
+            "elv": 28.7510986,
+            "id": "Treasure1327",
+            "name": "Flame Emitter",
+            "link": "Flame Emitter"
           }
         ]
       }
