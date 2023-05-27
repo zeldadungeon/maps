@@ -1,7 +1,7 @@
 [
   {
     "name": "Treasure Chest",
-    "source": "summary",
+    "source": "mapns",
     "layers": [
       {
         "minZoom": 5,
@@ -248,8 +248,8 @@
             ],
             "elv": 227.011688,
             "id": "Treasure0170",
-            "name": "Traveler\u0027s Shield",
-            "link": "Traveler\u0027s Shield"
+            "name": "Spiky Shield",
+            "link": "Spiky Shield"
           },
           {
             "coords": [
@@ -288,8 +288,8 @@
             ],
             "elv": -57.0888481,
             "id": "Treasure0174",
-            "name": "Soldier\u2019s Bow",
-            "link": "Soldier\u2019s Bow"
+            "name": "Soldier\u0027s Bow",
+            "link": "Soldier\u0027s Bow"
           },
           {
             "coords": [
@@ -358,8 +358,8 @@
             ],
             "elv": 104.5793,
             "id": "Treasure0181",
-            "name": "Soldier\u2019s Shield",
-            "link": "Soldier\u2019s Shield"
+            "name": "Soldier\u0027s Shield",
+            "link": "Soldier\u0027s Shield"
           },
           {
             "coords": [
@@ -408,8 +408,8 @@
             ],
             "elv": 39.2138062,
             "id": "Treasure0186",
-            "name": "Soldier\u2019s Bow",
-            "link": "Soldier\u2019s Bow"
+            "name": "Soldier\u0027s Bow",
+            "link": "Soldier\u0027s Bow"
           },
           {
             "coords": [
@@ -488,8 +488,8 @@
             ],
             "elv": 64.777298,
             "id": "Treasure0194",
-            "name": "Wooden Stick",
-            "link": "Wooden Stick"
+            "name": "Spiky Club",
+            "link": "Spiky Club"
           },
           {
             "coords": [
@@ -598,8 +598,8 @@
             ],
             "elv": 144.861099,
             "id": "Treasure0205",
-            "name": "Strong Zonaite Spear",
-            "link": "Strong Zonaite Spear"
+            "name": "Captain II Spear",
+            "link": "Captain II Spear"
           },
           {
             "coords": [
@@ -788,8 +788,8 @@
             ],
             "elv": 419.993408,
             "id": "Treasure0224",
-            "name": "Soldier\u2019s Bow",
-            "link": "Soldier\u2019s Bow"
+            "name": "Soldier\u0027s Bow",
+            "link": "Soldier\u0027s Bow"
           },
           {
             "coords": [
@@ -1088,8 +1088,8 @@
             ],
             "elv": 364.299988,
             "id": "Treasure0254",
-            "name": "Sturdy Wooden Stick",
-            "link": "Sturdy Wooden Stick"
+            "name": "Blue-Maned Lynel Reaper",
+            "link": "Blue-Maned Lynel Reaper"
           },
           {
             "coords": [
@@ -1188,8 +1188,8 @@
             ],
             "elv": 259.060089,
             "id": "Treasure0264",
-            "name": "Thick Stick",
-            "link": "Thick Stick"
+            "name": "Spiked-Iron-Ball Hammer",
+            "link": "Spiked-Iron-Ball Hammer"
           },
           {
             "coords": [
@@ -1208,8 +1208,8 @@
             ],
             "elv": 513.353088,
             "id": "Treasure0266",
-            "name": "Gnarled Thick Stick",
-            "link": "Gnarled Thick Stick"
+            "name": "Ice-Breath Lizal Blade",
+            "link": "Ice-Breath Lizal Blade"
           },
           {
             "coords": [
@@ -1358,8 +1358,8 @@
             ],
             "elv": 217.851501,
             "id": "Treasure0281",
-            "name": "Soldier\u2019s Bow",
-            "link": "Soldier\u2019s Bow"
+            "name": "Soldier\u0027s Bow",
+            "link": "Soldier\u0027s Bow"
           },
           {
             "coords": [
@@ -1368,8 +1368,8 @@
             ],
             "elv": 180.040009,
             "id": "Treasure0282",
-            "name": "Traveler\u0027s Sword",
-            "link": "Traveler\u0027s Sword"
+            "name": "Lizal Reaper",
+            "link": "Lizal Reaper"
           },
           {
             "coords": [
@@ -1413,16 +1413,6 @@
           },
           {
             "coords": [
-              1833.20496,
-              -3459.61304
-            ],
-            "elv": 156.158997,
-            "id": "Treasure0287",
-            "name": "Arrow x 5",
-            "link": "Arrow"
-          },
-          {
-            "coords": [
               1885.85498,
               -3434.75708
             ],
@@ -1433,26 +1423,6 @@
           },
           {
             "coords": [
-              1885.86206,
-              -3434.74194
-            ],
-            "elv": 146.059006,
-            "id": "Treasure0289",
-            "name": "Arrow x 5",
-            "link": "Arrow"
-          },
-          {
-            "coords": [
-              1848,
-              -3497
-            ],
-            "elv": 155.169006,
-            "id": "Treasure0290",
-            "name": "Purple Rupee",
-            "link": "Purple Rupee"
-          },
-          {
-            "coords": [
               1847.96399,
               -3497.01196
             ],
@@ -1460,16 +1430,6 @@
             "id": "Treasure0291",
             "name": "Purple Rupee",
             "link": "Purple Rupee"
-          },
-          {
-            "coords": [
-              1754.92102,
-              -3568.25293
-            ],
-            "elv": 163.117188,
-            "id": "Treasure0292",
-            "name": "Opal",
-            "link": "Opal"
           },
           {
             "coords": [
@@ -1828,8 +1788,8 @@
             ],
             "elv": 317.223694,
             "id": "Treasure0328",
-            "name": "Feathered Edge",
-            "link": "Feathered Edge"
+            "name": "Lizal Reaper",
+            "link": "Lizal Reaper"
           },
           {
             "coords": [
@@ -1838,8 +1798,8 @@
             ],
             "elv": 237.540009,
             "id": "Treasure0329",
-            "name": "Thick Stick",
-            "link": "Thick Stick"
+            "name": "Lizal Blade",
+            "link": "Lizal Blade"
           },
           {
             "coords": [
@@ -1848,8 +1808,8 @@
             ],
             "elv": 251.972992,
             "id": "Treasure0330",
-            "name": "Thick Stick",
-            "link": "Thick Stick"
+            "name": "Spiked-Iron-Ball Hammer",
+            "link": "Spiked-Iron-Ball Hammer"
           },
           {
             "coords": [
@@ -2008,8 +1968,8 @@
             ],
             "elv": -7.51326752,
             "id": "Treasure0346",
-            "name": "Gerudo Claymore",
-            "link": "Gerudo Claymore"
+            "name": "Spiked-Iron-Ball Hammer",
+            "link": "Spiked-Iron-Ball Hammer"
           },
           {
             "coords": [
@@ -2078,8 +2038,8 @@
             ],
             "elv": 256.484314,
             "id": "Treasure0353",
-            "name": "Sturdy Thick Stick",
-            "link": "Sturdy Thick Stick"
+            "name": "Hinox Hammer",
+            "link": "Hinox Hammer"
           },
           {
             "coords": [
@@ -2148,8 +2108,8 @@
             ],
             "elv": -31.1249084,
             "id": "Treasure0360",
-            "name": "Soldier\u2019s Bow",
-            "link": "Soldier\u2019s Bow"
+            "name": "Soldier\u0027s Bow",
+            "link": "Soldier\u0027s Bow"
           },
           {
             "coords": [
@@ -2158,8 +2118,8 @@
             ],
             "elv": -62.063839,
             "id": "Treasure0361",
-            "name": "Soldier\u2019s Shield",
-            "link": "Soldier\u2019s Shield"
+            "name": "Soldier\u0027s Shield",
+            "link": "Soldier\u0027s Shield"
           },
           {
             "coords": [
@@ -2198,8 +2158,8 @@
             ],
             "elv": 142.322693,
             "id": "Treasure0365",
-            "name": "Wooden Stick",
-            "link": "Wooden Stick"
+            "name": "Lizal Reaper",
+            "link": "Lizal Reaper"
           },
           {
             "coords": [
@@ -2428,8 +2388,8 @@
             ],
             "elv": 145.772202,
             "id": "Treasure0388",
-            "name": "Sturdy Wooden Stick",
-            "link": "Sturdy Wooden Stick"
+            "name": "Stone Two-Handed Axe",
+            "link": "Stone Two-Handed Axe"
           },
           {
             "coords": [
@@ -2708,8 +2668,8 @@
             ],
             "elv": 105.803894,
             "id": "Treasure0416",
-            "name": "Soldier\u2019s Shield",
-            "link": "Soldier\u2019s Shield"
+            "name": "Soldier\u0027s Shield",
+            "link": "Soldier\u0027s Shield"
           },
           {
             "coords": [
@@ -2768,8 +2728,8 @@
             ],
             "elv": 48.1968994,
             "id": "Treasure0422",
-            "name": "Soldier\u2019s Bow",
-            "link": "Soldier\u2019s Bow"
+            "name": "Soldier\u0027s Bow",
+            "link": "Soldier\u0027s Bow"
           },
           {
             "coords": [
@@ -2838,8 +2798,8 @@
             ],
             "elv": 14.4689026,
             "id": "Treasure0429",
-            "name": "Soldier\u2019s Bow",
-            "link": "Soldier\u2019s Bow"
+            "name": "Soldier\u0027s Bow",
+            "link": "Soldier\u0027s Bow"
           },
           {
             "coords": [
@@ -2858,8 +2818,8 @@
             ],
             "elv": 72.532196,
             "id": "Treasure0431",
-            "name": "Soldier\u2019s Bow",
-            "link": "Soldier\u2019s Bow"
+            "name": "Soldier\u0027s Bow",
+            "link": "Soldier\u0027s Bow"
           },
           {
             "coords": [
@@ -2868,8 +2828,8 @@
             ],
             "elv": 41.3161011,
             "id": "Treasure0432",
-            "name": "Soldier\u2019s Shield",
-            "link": "Soldier\u2019s Shield"
+            "name": "Soldier\u0027s Shield",
+            "link": "Soldier\u0027s Shield"
           },
           {
             "coords": [
@@ -3078,8 +3038,8 @@
             ],
             "elv": 23.6329956,
             "id": "Treasure0453",
-            "name": "Long Stick",
-            "link": "Long Stick"
+            "name": "Moblin Spear",
+            "link": "Moblin Spear"
           },
           {
             "coords": [
@@ -3158,8 +3118,8 @@
             ],
             "elv": 89.6609039,
             "id": "Treasure0461",
-            "name": "Thick Stick",
-            "link": "Thick Stick"
+            "name": "Hinox Hammer",
+            "link": "Hinox Hammer"
           },
           {
             "coords": [
@@ -3258,8 +3218,8 @@
             ],
             "elv": 36.9311066,
             "id": "Treasure0471",
-            "name": "Soldier\u2019s Bow",
-            "link": "Soldier\u2019s Bow"
+            "name": "Soldier\u0027s Bow",
+            "link": "Soldier\u0027s Bow"
           },
           {
             "coords": [
@@ -3348,8 +3308,8 @@
             ],
             "elv": 22.6176987,
             "id": "Treasure0480",
-            "name": "Throwing Spear",
-            "link": "Throwing Spear"
+            "name": "Bomb-Barrel Spear",
+            "link": "Bomb-Barrel Spear"
           },
           {
             "coords": [
@@ -3478,8 +3438,8 @@
             ],
             "elv": 245.878113,
             "id": "Treasure0493",
-            "name": "Wooden Stick",
-            "link": "Wooden Stick"
+            "name": "Spiked-Iron-Ball Hammer",
+            "link": "Spiked-Iron-Ball Hammer"
           },
           {
             "coords": [
@@ -3568,8 +3528,8 @@
             ],
             "elv": 91.1056061,
             "id": "Treasure0502",
-            "name": "Soldier\u2019s Bow",
-            "link": "Soldier\u2019s Bow"
+            "name": "Soldier\u0027s Bow",
+            "link": "Soldier\u0027s Bow"
           },
           {
             "coords": [
@@ -3638,8 +3598,8 @@
             ],
             "elv": 24.1972046,
             "id": "Treasure0509",
-            "name": "Sturdy Wooden Stick",
-            "link": "Sturdy Wooden Stick"
+            "name": "Hinox Hammer",
+            "link": "Hinox Hammer"
           },
           {
             "coords": [
@@ -3838,8 +3798,8 @@
             ],
             "elv": 49.2852936,
             "id": "Treasure0529",
-            "name": "Soldier\u2019s Shield",
-            "link": "Soldier\u2019s Shield"
+            "name": "Soldier\u0027s Shield",
+            "link": "Soldier\u0027s Shield"
           },
           {
             "coords": [
@@ -3898,8 +3858,8 @@
             ],
             "elv": 30.7406006,
             "id": "Treasure0535",
-            "name": "Sturdy Long Stick",
-            "link": "Sturdy Long Stick"
+            "name": "Spiked-Iron-Ball Sledge",
+            "link": "Spiked-Iron-Ball Sledge"
           },
           {
             "coords": [
@@ -3958,8 +3918,8 @@
             ],
             "elv": 10.1110001,
             "id": "Treasure0541",
-            "name": "Throwing Spear",
-            "link": "Throwing Spear"
+            "name": "Bomb-Barrel Spear",
+            "link": "Bomb-Barrel Spear"
           },
           {
             "coords": [
@@ -4178,8 +4138,8 @@
             ],
             "elv": 404.249695,
             "id": "Treasure0563",
-            "name": "Soldier\u0027s Spear",
-            "link": "Soldier\u0027s Spear"
+            "name": "Spiny-Bone Spear",
+            "link": "Spiny-Bone Spear"
           },
           {
             "coords": [
@@ -4238,8 +4198,8 @@
             ],
             "elv": 352.036285,
             "id": "Treasure0569",
-            "name": "Sturdy Thick Stick",
-            "link": "Sturdy Thick Stick"
+            "name": "Spiked-Iron-Ball Hammer",
+            "link": "Spiked-Iron-Ball Hammer"
           },
           {
             "coords": [
@@ -4268,8 +4228,8 @@
             ],
             "elv": 379.334015,
             "id": "Treasure0572",
-            "name": "Soldier\u0027s Broadsword",
-            "link": "Soldier\u0027s Broadsword"
+            "name": "Lizal Reaper",
+            "link": "Lizal Reaper"
           },
           {
             "coords": [
@@ -4288,8 +4248,8 @@
             ],
             "elv": 352.453705,
             "id": "Treasure0574",
-            "name": "Traveler\u0027s Claymore",
-            "link": "Traveler\u0027s Claymore"
+            "name": "Lizal Blade",
+            "link": "Lizal Blade"
           },
           {
             "coords": [
@@ -4298,8 +4258,8 @@
             ],
             "elv": 62.9515076,
             "id": "Treasure0575",
-            "name": "Soldier\u0027s Spear",
-            "link": "Soldier\u0027s Spear"
+            "name": "Lizal Spear",
+            "link": "Lizal Spear"
           },
           {
             "coords": [
@@ -4388,8 +4348,8 @@
             ],
             "elv": 9.64980316,
             "id": "Treasure0584",
-            "name": "Soldier\u2019s Bow",
-            "link": "Soldier\u2019s Bow"
+            "name": "Soldier\u0027s Bow",
+            "link": "Soldier\u0027s Bow"
           },
           {
             "coords": [
@@ -4668,8 +4628,8 @@
             ],
             "elv": 188.565491,
             "id": "Treasure0612",
-            "name": "Sturdy Thick Stick",
-            "link": "Sturdy Thick Stick"
+            "name": "Blue Lizal Blade",
+            "link": "Blue Lizal Blade"
           },
           {
             "coords": [
@@ -4958,8 +4918,8 @@
             ],
             "elv": 526.613525,
             "id": "Treasure0641",
-            "name": "Cobble Crusher",
-            "link": "Cobble Crusher"
+            "name": "Spiked-Iron-Ball Hammer",
+            "link": "Spiked-Iron-Ball Hammer"
           },
           {
             "coords": [
@@ -5008,8 +4968,8 @@
             ],
             "elv": 160.376892,
             "id": "Treasure0646",
-            "name": "Soldier\u2019s Bow",
-            "link": "Soldier\u2019s Bow"
+            "name": "Soldier\u0027s Bow",
+            "link": "Soldier\u0027s Bow"
           },
           {
             "coords": [
@@ -5238,8 +5198,8 @@
             ],
             "elv": 163.681488,
             "id": "Treasure0669",
-            "name": "Soldier\u2019s Shield",
-            "link": "Soldier\u2019s Shield"
+            "name": "Topaz Shield",
+            "link": "Topaz Shield"
           },
           {
             "coords": [
@@ -5628,8 +5588,8 @@
             ],
             "elv": 201.264099,
             "id": "Treasure0708",
-            "name": "Throwing Spear",
-            "link": "Throwing Spear"
+            "name": "Bomb-Barrel Spear",
+            "link": "Bomb-Barrel Spear"
           },
           {
             "coords": [
@@ -5658,8 +5618,8 @@
             ],
             "elv": 445.159119,
             "id": "Treasure0711",
-            "name": "Boomerang",
-            "link": "Boomerang"
+            "name": "Lynel Reaper",
+            "link": "Lynel Reaper"
           },
           {
             "coords": [
@@ -5708,8 +5668,8 @@
             ],
             "elv": 45.3892975,
             "id": "Treasure0716",
-            "name": "Gnarled Thick Stick",
-            "link": "Gnarled Thick Stick"
+            "name": "Spiked-Iron-Ball Hammer",
+            "link": "Spiked-Iron-Ball Hammer"
           },
           {
             "coords": [
@@ -5768,8 +5728,8 @@
             ],
             "elv": 121.128204,
             "id": "Treasure0722",
-            "name": "Sturdy Wooden Stick",
-            "link": "Sturdy Wooden Stick"
+            "name": "Blue Boko Reaper",
+            "link": "Blue Boko Reaper"
           },
           {
             "coords": [
@@ -5838,8 +5798,8 @@
             ],
             "elv": 203.690796,
             "id": "Treasure0729",
-            "name": "Gnarled Thick Stick",
-            "link": "Gnarled Thick Stick"
+            "name": "Spiked-Iron-Ball Hammer",
+            "link": "Spiked-Iron-Ball Hammer"
           },
           {
             "coords": [
@@ -6028,8 +5988,8 @@
             ],
             "elv": 30.6174011,
             "id": "Treasure0748",
-            "name": "Knight\u0027s Claymore",
-            "link": "Knight\u0027s Claymore"
+            "name": "Blue Hinox Hammer",
+            "link": "Blue Hinox Hammer"
           },
           {
             "coords": [
@@ -6158,8 +6118,8 @@
             ],
             "elv": 332.432892,
             "id": "Treasure0761",
-            "name": "Sturdy Wooden Stick",
-            "link": "Sturdy Wooden Stick"
+            "name": "Lynel Reaper",
+            "link": "Lynel Reaper"
           },
           {
             "coords": [
@@ -6308,8 +6268,8 @@
             ],
             "elv": 65.5751038,
             "id": "Treasure0776",
-            "name": "Giant Boomerang",
-            "link": "Giant Boomerang"
+            "name": "Wing Boomerang",
+            "link": "Wing Boomerang"
           },
           {
             "coords": [
@@ -6338,8 +6298,8 @@
             ],
             "elv": 291.923187,
             "id": "Treasure1079",
-            "name": "Knight\u0027s Claymore",
-            "link": "Knight\u0027s Claymore"
+            "name": "Fire-Breath Lizal Blade",
+            "link": "Fire-Breath Lizal Blade"
           },
           {
             "coords": [
@@ -6408,8 +6368,8 @@
             ],
             "elv": 13.5217972,
             "id": "Treasure1086",
-            "name": "Traveler\u0027s Claymore",
-            "link": "Traveler\u0027s Claymore"
+            "name": "Boulder Hammer",
+            "link": "Boulder Hammer"
           },
           {
             "coords": [
@@ -6468,8 +6428,8 @@
             ],
             "elv": 140.713593,
             "id": "Treasure1092",
-            "name": "Eightfold Longblade\u000E\u0001\u0004\u0002\uCD29",
-            "link": "Eightfold Longblade\u000E\u0001\u0004\u0002\uCD29"
+            "name": "Eightfold Longblade",
+            "link": "Eightfold Longblade"
           },
           {
             "coords": [
@@ -6508,8 +6468,8 @@
             ],
             "elv": 167.577606,
             "id": "Treasure1096",
-            "name": "Sturdy Long Stick",
-            "link": "Sturdy Long Stick"
+            "name": "Strong-Long-Stick Stick",
+            "link": "Strong-Long-Stick Stick"
           },
           {
             "coords": [
@@ -6668,8 +6628,8 @@
             ],
             "elv": 84.5700989,
             "id": "Treasure1112",
-            "name": "Soldier\u0027s Spear",
-            "link": "Soldier\u0027s Spear"
+            "name": "Blue Lizal Spear",
+            "link": "Blue Lizal Spear"
           },
           {
             "coords": [
@@ -6748,8 +6708,8 @@
             ],
             "elv": 0.5,
             "id": "Treasure1120",
-            "name": "Soldier\u2019s Shield",
-            "link": "Soldier\u2019s Shield"
+            "name": "Soldier\u0027s Shield",
+            "link": "Soldier\u0027s Shield"
           },
           {
             "coords": [
@@ -6798,8 +6758,8 @@
             ],
             "elv": 307.330811,
             "id": "Treasure1125",
-            "name": "Soldier\u0027s Spear",
-            "link": "Soldier\u0027s Spear"
+            "name": "Soldier\u0027s-Broadsword Spear",
+            "link": "Soldier\u0027s-Broadsword Spear"
           },
           {
             "coords": [
@@ -6808,8 +6768,8 @@
             ],
             "elv": 293.490906,
             "id": "Treasure1126",
-            "name": "Sturdy Long Stick",
-            "link": "Sturdy Long Stick"
+            "name": "Guard\u0027s-Sword Stick",
+            "link": "Guard\u0027s-Sword Stick"
           },
           {
             "coords": [
@@ -6858,8 +6818,8 @@
             ],
             "elv": -53.2603912,
             "id": "Treasure1131",
-            "name": "Knight\u0027s Halberd",
-            "link": "Knight\u0027s Halberd"
+            "name": "Knight\u0027s-Halberd Halberd",
+            "link": "Knight\u0027s-Halberd Halberd"
           },
           {
             "coords": [
@@ -6938,8 +6898,8 @@
             ],
             "elv": -28.5750122,
             "id": "Treasure1139",
-            "name": "Soldier\u2019s Shield",
-            "link": "Soldier\u2019s Shield"
+            "name": "Soldier\u0027s Shield",
+            "link": "Soldier\u0027s Shield"
           },
           {
             "coords": [
@@ -6948,8 +6908,8 @@
             ],
             "elv": 32.3556976,
             "id": "Treasure1140",
-            "name": "Traveler\u0027s Spear",
-            "link": "Traveler\u0027s Spear"
+            "name": "Spiky Spear",
+            "link": "Spiky Spear"
           },
           {
             "coords": [
@@ -7038,8 +6998,8 @@
             ],
             "elv": 428.963684,
             "id": "Treasure1149",
-            "name": "Soldier\u0027s Spear",
-            "link": "Soldier\u0027s Spear"
+            "name": "Cobble-Crusher Spear",
+            "link": "Cobble-Crusher Spear"
           },
           {
             "coords": [
@@ -7458,8 +7418,8 @@
             ],
             "elv": 5.50060272,
             "id": "Treasure1191",
-            "name": "Gerudo Spear",
-            "link": "Gerudo Spear"
+            "name": "Knight\u0027s-Claymore Spear",
+            "link": "Knight\u0027s-Claymore Spear"
           },
           {
             "coords": [
@@ -7468,8 +7428,8 @@
             ],
             "elv": -9.06503296,
             "id": "Treasure1192",
-            "name": "Gerudo Spear",
-            "link": "Gerudo Spear"
+            "name": "Soldier\u0027s-Claymore Spear",
+            "link": "Soldier\u0027s-Claymore Spear"
           },
           {
             "coords": [
@@ -7688,8 +7648,8 @@
             ],
             "elv": 76.0361938,
             "id": "Treasure1214",
-            "name": "Throwing Spear",
-            "link": "Throwing Spear"
+            "name": "Bomb-Barrel Spear",
+            "link": "Bomb-Barrel Spear"
           },
           {
             "coords": [
@@ -7708,8 +7668,8 @@
             ],
             "elv": 75.2736969,
             "id": "Treasure1216",
-            "name": "Royal Halberd",
-            "link": "Royal Halberd"
+            "name": "Knight\u0027s-Broadsword Halberd",
+            "link": "Knight\u0027s-Broadsword Halberd"
           },
           {
             "coords": [
@@ -7728,8 +7688,8 @@
             ],
             "elv": 22.4564972,
             "id": "Treasure1218",
-            "name": "Soldier\u0027s Spear",
-            "link": "Soldier\u0027s Spear"
+            "name": "Eightfold-Blade Spear",
+            "link": "Eightfold-Blade Spear"
           },
           {
             "coords": [
@@ -7768,8 +7728,8 @@
             ],
             "elv": 367.303986,
             "id": "Treasure1222",
-            "name": "Long Stick",
-            "link": "Long Stick"
+            "name": "Soldier\u0027s-Spear Stick",
+            "link": "Soldier\u0027s-Spear Stick"
           },
           {
             "coords": [
@@ -7798,8 +7758,8 @@
             ],
             "elv": 250.915588,
             "id": "Treasure1225",
-            "name": "Feathered Spear",
-            "link": "Feathered Spear"
+            "name": "Soldier\u0027s-Claymore Spear",
+            "link": "Soldier\u0027s-Claymore Spear"
           },
           {
             "coords": [
@@ -7828,8 +7788,8 @@
             ],
             "elv": 52.5713959,
             "id": "Treasure1228",
-            "name": "Sturdy Long Stick",
-            "link": "Sturdy Long Stick"
+            "name": "Lizal Spear",
+            "link": "Lizal Spear"
           },
           {
             "coords": [
@@ -7858,8 +7818,8 @@
             ],
             "elv": 72.9087067,
             "id": "Treasure1231",
-            "name": "Gnarled Long Stick",
-            "link": "Gnarled Long Stick"
+            "name": "Soldier\u0027s-Claymore Stick",
+            "link": "Soldier\u0027s-Claymore Stick"
           },
           {
             "coords": [
@@ -7888,8 +7848,8 @@
             ],
             "elv": 16.4626999,
             "id": "Treasure1234",
-            "name": "Gerudo Spear",
-            "link": "Gerudo Spear"
+            "name": "Knight\u0027s-Claymore Spear",
+            "link": "Knight\u0027s-Claymore Spear"
           },
           {
             "coords": [
@@ -7918,8 +7878,8 @@
             ],
             "elv": 114.642899,
             "id": "Treasure1237",
-            "name": "Soldier\u0027s Spear",
-            "link": "Soldier\u0027s Spear"
+            "name": "Knight\u0027s-Claymore Spear",
+            "link": "Knight\u0027s-Claymore Spear"
           },
           {
             "coords": [
@@ -7948,8 +7908,8 @@
             ],
             "elv": 146.753006,
             "id": "Treasure1240",
-            "name": "Royal Halberd",
-            "link": "Royal Halberd"
+            "name": "Soldier\u0027s-Spear Halberd",
+            "link": "Soldier\u0027s-Spear Halberd"
           },
           {
             "coords": [
@@ -8008,8 +7968,8 @@
             ],
             "elv": 24.726593,
             "id": "Treasure1246",
-            "name": "Knight\u0027s Halberd",
-            "link": "Knight\u0027s Halberd"
+            "name": "Eightfold-Blade Halberd",
+            "link": "Eightfold-Blade Halberd"
           },
           {
             "coords": [
@@ -8048,8 +8008,8 @@
             ],
             "elv": 30.5762024,
             "id": "Treasure1250",
-            "name": "Soldier\u2019s Shield",
-            "link": "Soldier\u2019s Shield"
+            "name": "Soldier\u0027s Shield",
+            "link": "Soldier\u0027s Shield"
           },
           {
             "coords": [
@@ -8078,8 +8038,8 @@
             ],
             "elv": 22.0656967,
             "id": "Treasure1253",
-            "name": "Soldier\u0027s Spear",
-            "link": "Soldier\u0027s Spear"
+            "name": "Soldier\u0027s-Spear Spear",
+            "link": "Soldier\u0027s-Spear Spear"
           },
           {
             "coords": [
@@ -8208,8 +8168,8 @@
             ],
             "elv": 85.610199,
             "id": "Treasure1266",
-            "name": "Throwing Spear",
-            "link": "Throwing Spear"
+            "name": "Bomb-Barrel Spear",
+            "link": "Bomb-Barrel Spear"
           },
           {
             "coords": [
@@ -8218,8 +8178,8 @@
             ],
             "elv": 69.2700043,
             "id": "Treasure1267",
-            "name": "Soldier\u0027s Spear",
-            "link": "Soldier\u0027s Spear"
+            "name": "Soldier\u0027s-Broadsword Spear",
+            "link": "Soldier\u0027s-Broadsword Spear"
           },
           {
             "coords": [
@@ -8368,8 +8328,8 @@
             ],
             "elv": 128.931702,
             "id": "Treasure1282",
-            "name": "Soldier\u2019s Shield",
-            "link": "Soldier\u2019s Shield"
+            "name": "Soldier\u0027s Shield",
+            "link": "Soldier\u0027s Shield"
           },
           {
             "coords": [
@@ -8570,6 +8530,96 @@
             "id": "Treasure1302",
             "name": "Royal Halberd",
             "link": "Royal Halberd"
+          },
+          {
+            "coords": [
+              -3635.01001,
+              -4534.73291
+            ],
+            "elv": -4.20149994,
+            "id": "Treasure1319",
+            "name": "Topaz",
+            "link": "Topaz"
+          },
+          {
+            "coords": [
+              -3613.302,
+              -4513.9502
+            ],
+            "elv": -16.335083,
+            "id": "Treasure1320",
+            "name": "Large Zonai Charge",
+            "link": "Large Zonai Charge"
+          },
+          {
+            "coords": [
+              -3665.35498,
+              -4685.52002
+            ],
+            "elv": -5.134552,
+            "id": "Treasure1321",
+            "name": "Mighty Zonaite Shield",
+            "link": "Mighty Zonaite Shield"
+          },
+          {
+            "coords": [
+              -3585.729,
+              -4535.50781
+            ],
+            "elv": 64.0289001,
+            "id": "Treasure1322",
+            "name": "Diamond",
+            "link": "Diamond"
+          },
+          {
+            "coords": [
+              -3594.28198,
+              -4377.97314
+            ],
+            "elv": 81.3488007,
+            "id": "Treasure1323",
+            "name": "Radiant Shield",
+            "link": "Radiant Shield"
+          },
+          {
+            "coords": [
+              -3683.96899,
+              -4560.19092
+            ],
+            "elv": 115.101898,
+            "id": "Treasure1324",
+            "name": "Topaz",
+            "link": "Topaz"
+          },
+          {
+            "coords": [
+              -3609.66797,
+              -4517.13623
+            ],
+            "elv": 178.871307,
+            "id": "Treasure1325",
+            "name": "Mirror x 3",
+            "link": "Mirror"
+          },
+          {
+            "coords": [
+              -3717.44189,
+              -4620.78418
+            ],
+            "elv": 7.66490173,
+            "id": "Treasure1326",
+            "name": "Mighty Construct Bow",
+            "link": "Mighty Construct Bow"
+          },
+          {
+            "coords": [
+              -3492.16699,
+              -4418.9292
+            ],
+            "elv": 28.7510986,
+            "id": "Treasure1327",
+            "name": "Flame Emitter",
+            "link": "Flame Emitter"
           }
         ]
       }

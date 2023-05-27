@@ -1,7 +1,7 @@
 [
   {
     "name": "Treasure Chest",
-    "source": "summary",
+    "source": "mapns",
     "layers": [
       {
         "minZoom": 5,
@@ -198,8 +198,8 @@
             ],
             "elv": 973.902954,
             "id": "Treasure0018",
-            "name": "Zonaite Spear",
-            "link": "Zonaite Spear"
+            "name": "Soldier II Spear",
+            "link": "Soldier II Spear"
           },
           {
             "coords": [
@@ -278,8 +278,8 @@
             ],
             "elv": 1295.84497,
             "id": "Treasure0026",
-            "name": "Strong Zonaite Spear",
-            "link": "Strong Zonaite Spear"
+            "name": "Soldier III Spear",
+            "link": "Soldier III Spear"
           },
           {
             "coords": [
@@ -298,8 +298,8 @@
             ],
             "elv": 1331.95605,
             "id": "Treasure0028",
-            "name": "Strong Zonaite Sword",
-            "link": "Strong Zonaite Sword"
+            "name": "Soldier II Reaper",
+            "link": "Soldier II Reaper"
           },
           {
             "coords": [
@@ -328,8 +328,8 @@
             ],
             "elv": 1507.02795,
             "id": "Treasure0031",
-            "name": "Strong Zonaite Sword",
-            "link": "Strong Zonaite Sword"
+            "name": "Captain II Reaper",
+            "link": "Captain II Reaper"
           },
           {
             "coords": [
@@ -728,8 +728,8 @@
             ],
             "elv": 1085,
             "id": "Treasure0071",
-            "name": "Mighty Zonaite Longsword",
-            "link": "Mighty Zonaite Longsword"
+            "name": "Soldier III Blade",
+            "link": "Soldier III Blade"
           },
           {
             "coords": [
@@ -738,8 +738,8 @@
             ],
             "elv": 1085,
             "id": "Treasure0072",
-            "name": "Mighty Zonaite Spear",
-            "link": "Mighty Zonaite Spear"
+            "name": "Soldier III Spear",
+            "link": "Soldier III Spear"
           },
           {
             "coords": [
@@ -768,8 +768,8 @@
             ],
             "elv": 1085,
             "id": "Treasure0075",
-            "name": "Mighty Zonaite Sword",
-            "link": "Mighty Zonaite Sword"
+            "name": "Soldier III Reaper",
+            "link": "Soldier III Reaper"
           },
           {
             "coords": [
@@ -838,8 +838,8 @@
             ],
             "elv": 1379.95105,
             "id": "Treasure0082",
-            "name": "Wooden Stick",
-            "link": "Wooden Stick"
+            "name": "Soldier Reaper",
+            "link": "Soldier Reaper"
           },
           {
             "coords": [
@@ -1018,8 +1018,8 @@
             ],
             "elv": 1202.5,
             "id": "Treasure0100",
-            "name": "Strong Zonaite Longsword",
-            "link": "Strong Zonaite Longsword"
+            "name": "Soldier II Blade",
+            "link": "Soldier II Blade"
           },
           {
             "coords": [
@@ -1048,8 +1048,8 @@
             ],
             "elv": 1207.552,
             "id": "Treasure0103",
-            "name": "Strong Zonaite Spear",
-            "link": "Strong Zonaite Spear"
+            "name": "Soldier II Spear",
+            "link": "Soldier II Spear"
           },
           {
             "coords": [
@@ -1058,8 +1058,8 @@
             ],
             "elv": 1455.22095,
             "id": "Treasure0104",
-            "name": "Strong Zonaite Longsword",
-            "link": "Strong Zonaite Longsword"
+            "name": "Soldier III Blade",
+            "link": "Soldier III Blade"
           },
           {
             "coords": [
@@ -1068,8 +1068,8 @@
             ],
             "elv": 1280.948,
             "id": "Treasure0105",
-            "name": "Strong Zonaite Spear",
-            "link": "Strong Zonaite Spear"
+            "name": "Captain II Spear",
+            "link": "Captain II Spear"
           },
           {
             "coords": [
@@ -1480,6 +1480,166 @@
             "id": "Treasure0146",
             "name": "Large Zonai Charge",
             "link": "Large Zonai Charge"
+          },
+          {
+            "coords": [
+              577.333374,
+              3280.31689
+            ],
+            "elv": 1789.39502,
+            "id": "Treasure1303",
+            "name": "Zora Shield",
+            "link": "Zora Shield"
+          },
+          {
+            "coords": [
+              643.041687,
+              3524.92993
+            ],
+            "elv": 1809.87805,
+            "id": "Treasure1304",
+            "name": "Large Zonai Charge",
+            "link": "Large Zonai Charge"
+          },
+          {
+            "coords": [
+              751.994019,
+              3498.95093
+            ],
+            "elv": 1787.39197,
+            "id": "Treasure1305",
+            "name": "Opal",
+            "link": "Opal"
+          },
+          {
+            "coords": [
+              672.060303,
+              3310.81104
+            ],
+            "elv": 1714.89502,
+            "id": "Treasure1306",
+            "name": "Sapphire",
+            "link": "Sapphire"
+          },
+          {
+            "coords": [
+              819.225891,
+              3441.74097
+            ],
+            "elv": 1775.84302,
+            "id": "Treasure1307",
+            "name": "Arrow x 5",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              715.535828,
+              3379.2959
+            ],
+            "elv": 1719.84204,
+            "id": "Treasure1308",
+            "name": "Large Zonaite",
+            "link": "Large Zonaite"
+          },
+          {
+            "coords": [
+              2901.56494,
+              -2828
+            ],
+            "elv": 1482.53406,
+            "id": "Treasure1309",
+            "name": "Sapphire",
+            "link": "Sapphire"
+          },
+          {
+            "coords": [
+              3104.59595,
+              -2890.75
+            ],
+            "elv": 1482.43396,
+            "id": "Treasure1310",
+            "name": "Ruby",
+            "link": "Ruby"
+          },
+          {
+            "coords": [
+              3066,
+              -2830.5
+            ],
+            "elv": 1518.43396,
+            "id": "Treasure1311",
+            "name": "Zonaite Shield",
+            "link": "Zonaite Shield"
+          },
+          {
+            "coords": [
+              2965.37207,
+              -2716.64893
+            ],
+            "elv": 1484.36804,
+            "id": "Treasure1312",
+            "name": "Strong Construct Bow",
+            "link": "Strong Construct Bow"
+          },
+          {
+            "coords": [
+              3097,
+              -2888.5
+            ],
+            "elv": 1518.43396,
+            "id": "Treasure1313",
+            "name": "Opal",
+            "link": "Opal"
+          },
+          {
+            "coords": [
+              3067,
+              -2859.5
+            ],
+            "elv": 1482.43396,
+            "id": "Treasure1314",
+            "name": "Soldier Blade",
+            "link": "Soldier Blade"
+          },
+          {
+            "coords": [
+              2976.86792,
+              -3002.63599
+            ],
+            "elv": 1512.06299,
+            "id": "Treasure1315",
+            "name": "Large Zonaite",
+            "link": "Large Zonaite"
+          },
+          {
+            "coords": [
+              3089.48096,
+              -2882.2981
+            ],
+            "elv": 1539.36694,
+            "id": "Treasure1316",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              2928.5,
+              -2870
+            ],
+            "elv": 1518.43396,
+            "id": "Treasure1317",
+            "name": "Soldier II Spear",
+            "link": "Soldier II Spear"
+          },
+          {
+            "coords": [
+              2966.29004,
+              -2891.02905
+            ],
+            "elv": 1504.43506,
+            "id": "Treasure1318",
+            "name": "Captain I Reaper",
+            "link": "Captain I Reaper"
           }
         ]
       }

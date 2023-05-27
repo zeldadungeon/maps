@@ -1,7 +1,7 @@
 [
   {
     "name": "Treasure Chest",
-    "source": "summary",
+    "source": "mapns",
     "layers": [
       {
         "minZoom": 5,
@@ -988,8 +988,8 @@
             ],
             "elv": -493.008606,
             "id": "Treasure0874",
-            "name": "Mighty Zonaite Sword",
-            "link": "Mighty Zonaite Sword"
+            "name": "Captain III Reaper",
+            "link": "Captain III Reaper"
           },
           {
             "coords": [
@@ -2198,8 +2198,8 @@
             ],
             "elv": -492.529694,
             "id": "Treasure0995",
-            "name": "Mighty Zonaite Spear",
-            "link": "Mighty Zonaite Spear"
+            "name": "Soldier III Spear",
+            "link": "Soldier III Spear"
           },
           {
             "coords": [
@@ -2218,8 +2218,8 @@
             ],
             "elv": -510.029907,
             "id": "Treasure0997",
-            "name": "Mighty Zonaite Sword",
-            "link": "Mighty Zonaite Sword"
+            "name": "Soldier III Reaper",
+            "link": "Soldier III Reaper"
           },
           {
             "coords": [
@@ -2228,8 +2228,8 @@
             ],
             "elv": -510.029907,
             "id": "Treasure0998",
-            "name": "Mighty Zonaite Longsword",
-            "link": "Mighty Zonaite Longsword"
+            "name": "Soldier III Blade",
+            "link": "Soldier III Blade"
           },
           {
             "coords": [
@@ -2258,8 +2258,8 @@
             ],
             "elv": -681.781494,
             "id": "Treasure1001",
-            "name": "Mighty Zonaite Sword",
-            "link": "Mighty Zonaite Sword"
+            "name": "Soldier III Reaper",
+            "link": "Soldier III Reaper"
           },
           {
             "coords": [
@@ -2268,8 +2268,8 @@
             ],
             "elv": -681.781372,
             "id": "Treasure1002",
-            "name": "Mighty Zonaite Longsword",
-            "link": "Mighty Zonaite Longsword"
+            "name": "Soldier III Blade",
+            "link": "Soldier III Blade"
           },
           {
             "coords": [
@@ -2278,8 +2278,8 @@
             ],
             "elv": -681.781494,
             "id": "Treasure1003",
-            "name": "Mighty Zonaite Spear",
-            "link": "Mighty Zonaite Spear"
+            "name": "Soldier III Spear",
+            "link": "Soldier III Spear"
           },
           {
             "coords": [
@@ -2938,8 +2938,8 @@
             ],
             "elv": -445.470001,
             "id": "Treasure1069",
-            "name": "Mighty Zonaite Spear",
-            "link": "Mighty Zonaite Spear"
+            "name": "Soldier III Spear",
+            "link": "Soldier III Spear"
           },
           {
             "coords": [
@@ -2948,8 +2948,8 @@
             ],
             "elv": -400.470001,
             "id": "Treasure1070",
-            "name": "Mighty Zonaite Longsword",
-            "link": "Mighty Zonaite Longsword"
+            "name": "Soldier III Blade",
+            "link": "Soldier III Blade"
           },
           {
             "coords": [
@@ -2958,8 +2958,8 @@
             ],
             "elv": -440.470001,
             "id": "Treasure1071",
-            "name": "Mighty Zonaite Sword",
-            "link": "Mighty Zonaite Sword"
+            "name": "Soldier III Reaper",
+            "link": "Soldier III Reaper"
           },
           {
             "coords": [
@@ -3010,6 +3010,136 @@
             "id": "Treasure1076",
             "name": "Midna\u0027s Helmet",
             "link": "Midna\u0027s Helmet"
+          },
+          {
+            "coords": [
+              2872.20996,
+              1342.04395
+            ],
+            "elv": -785.044373,
+            "id": "Treasure1328",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              2614.25,
+              1313.75
+            ],
+            "elv": -784.518616,
+            "id": "Treasure1329",
+            "name": "Diamond",
+            "link": "Diamond"
+          },
+          {
+            "coords": [
+              2933.03101,
+              1299.93994
+            ],
+            "elv": -799.362183,
+            "id": "Treasure1330",
+            "name": "Strong Zonaite Longsword",
+            "link": "Strong Zonaite Longsword"
+          },
+          {
+            "coords": [
+              2947.1731,
+              1295.698
+            ],
+            "elv": -754.513489,
+            "id": "Treasure1331",
+            "name": "Soldier II Reaper",
+            "link": "Soldier II Reaper"
+          },
+          {
+            "coords": [
+              2914.5271,
+              1286.271
+            ],
+            "elv": -692.507019,
+            "id": "Treasure1332",
+            "name": "Large Zonai Charge",
+            "link": "Large Zonai Charge"
+          },
+          {
+            "coords": [
+              3059.75,
+              1356.75
+            ],
+            "elv": -767.5,
+            "id": "Treasure1333",
+            "name": "Zonaite x 3",
+            "link": "Zonaite"
+          },
+          {
+            "coords": [
+              2896.17212,
+              1415.16504
+            ],
+            "elv": -753.870789,
+            "id": "Treasure1334",
+            "name": "Strong Zonaite Shield",
+            "link": "Strong Zonaite Shield"
+          },
+          {
+            "coords": [
+              3064.86499,
+              1395.82202
+            ],
+            "elv": -786.294617,
+            "id": "Treasure1335",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              2797.75,
+              1360.49402
+            ],
+            "elv": -755,
+            "id": "Treasure1336",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              2829.2439,
+              1359.90601
+            ],
+            "elv": -705.035217,
+            "id": "Treasure1337",
+            "name": "Ruby",
+            "link": "Ruby"
+          },
+          {
+            "coords": [
+              2833.52295,
+              1377.51697
+            ],
+            "elv": -712.608093,
+            "id": "Treasure1338",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              2860.5,
+              1352
+            ],
+            "elv": -806.179016,
+            "id": "Treasure1339",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              2682.76196,
+              1176.46899
+            ],
+            "elv": -727.503906,
+            "id": "Treasure1340",
+            "name": "Arrow x 10",
+            "link": "Arrow"
           }
         ]
       }

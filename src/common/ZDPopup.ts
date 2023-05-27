@@ -187,7 +187,14 @@ export class ZDPopup extends Popup {
     } else if (this.myOptions.infoSource === "mapns") {
       this.myOptions.wiki
         .getMapPageContent(this.myOptions.id)
-        .then(this.loadContent.bind(this));
+        .then(this.loadContent.bind(this))
+        .catch((reason) => {
+          if (reason == "missingtitle") {
+            this.myOptions.wiki
+              .getPageSummary(linkParts[0])
+              .then(this.loadContent.bind(this));
+          }
+        });
     } else if (this.myOptions.infoSource === "mappage") {
       this.loadContentFromMapPage(linkParts[0], linkParts[1]);
     } else if (this.myOptions.infoSource) {

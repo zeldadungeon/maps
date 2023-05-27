@@ -1,4 +1,5 @@
 @import "leaflet/dist/leaflet.css";
+@import "leaflet.markercluster/dist/MarkerCluster.css";
 
 // Custom HyliaSerif font from https://artsyomni.com/hyliaserif
 @font-face {
@@ -73,11 +74,35 @@ body {
   color: rgba($color: #ffffff, $alpha: 0.5);
 }
 
+.selectable-text {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.selectable-text {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.5);
+}
+
 .selected {
-  // background-color: rgba(0, 0, 0, 0.7);
-  // border: 1px solid white;
   text-decoration: none !important;
   color: rgba($color: #ffffff, $alpha: 1) !important;
+}
+
+.selected-text {
+  color: white;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.selected-text {
+  color: white;
+}
+
+.hidden {
+  display: none !important;
 }
 
 .leaflet-control a:hover,
@@ -144,6 +169,15 @@ body {
 
 .zd-control__content--open {
   width: 300px;
+  padding: 0 5px;
+}
+
+.zd-control__content h3 {
+  margin: 0;
+}
+
+.zd-search {
+  margin: 0 -5px;
 }
 
 .zd-search__searchbox {
@@ -184,6 +218,39 @@ body {
   width: 50px;
   text-align: center;
 }
+
+.zd-tabs {
+  display: flex;
+  width: 100%;
+}
+
+.zd-tabs__tab {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.zd-object-groups-list {
+  list-style-type: none;
+  margin-top: 0;
+  padding-left: 2em;
+}
+
+.zd-object-group {
+  position: relative;
+}
+
+.zd-object-group__dropdown {
+  position: absolute;
+  left: -1.5em;
+  cursor: pointer;
+}
+
+.zd-objects-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* TOAST */
 
 .zd-toast-container {
   max-width: 100%;
@@ -420,6 +487,68 @@ body {
   font-size: 14px;
 }
 
+/* MARKERS */
+
+.zd-marker-cluster > div {
+  background-clip: padding-box;
+  overflow: hidden;
+}
+
+.zd-marker-cluster > div > div {
+  margin-left: 5px;
+  margin-top: 5px;
+  text-align: center;
+  font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.zd-marker-cluster--small > div {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.zd-marker-cluster--small > div > div {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.zd-marker-cluster--small > div > div > span {
+  line-height: 30px;
+}
+
+.zd-marker-cluster--medium > div {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.zd-marker-cluster--medium > div > div {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.zd-marker-cluster--medium > div > div > span {
+  line-height: 40px;
+}
+
+.zd-marker-cluster--large > div {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.zd-marker-cluster--large div > div {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.zd-marker-cluster--large > div > div > span {
+  line-height: 50px;
+}
+
 /* POPUPS */
 
 .zd-popup__loading-indicator {
@@ -469,7 +598,7 @@ body {
 }
 
 .internal-link {
-  border-bottom: 1px dashed black;
+  border-bottom: 1px dashed white;
   cursor: pointer;
 }
 
@@ -482,7 +611,7 @@ body {
   font-weight: lighter;
 }
 
-//Forum link
+//Wiki link
 .zd-popup a {
   color: #0096ff;
 }

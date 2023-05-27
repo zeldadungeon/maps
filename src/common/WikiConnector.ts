@@ -81,9 +81,13 @@ export class WikiConnector {
   }
 
   public async getPageContent(pageTitle: string): Promise<string> {
-    const response = await this.query<ParseResponse>(
+    const response = await this.query<ParseResponse | ErrorResponse>(
       `action=parse&page=${encodeURIComponent(pageTitle)}`
     );
+
+    if (responseIsError(response)) {
+      throw response.error.code;
+    }
 
     return response?.parse?.text["*"] || "";
   }
@@ -324,6 +328,7 @@ export class WikiConnector {
       this.showNotification(
         "An error occurred while saving completion information. Please refresh the page, ensure you are logged in, and try again."
       );
+      throw ex;
     }
   }
 

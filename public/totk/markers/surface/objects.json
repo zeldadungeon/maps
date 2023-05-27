@@ -3409,5 +3409,441 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Gloom Spawn",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 4,
+        "icon": {
+          "url": "skull.png",
+          "width": 36,
+          "height": 36
+        },
+        "markers": [
+          {
+            "coords": [
+              -2024.39001,
+              -3392.7229
+            ],
+            "elv": 45.302002,
+            "id": "GloomSpawn_G00",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              -2195.02905,
+              -3308.68896
+            ],
+            "elv": 23.0453033,
+            "id": "GloomSpawn_G01",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              -2003.04199,
+              -3212.64795
+            ],
+            "elv": 27.3406067,
+            "id": "GloomSpawn_G02",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              326.266907,
+              -2266.34302
+            ],
+            "elv": 132.040497,
+            "id": "GloomSpawn_G03",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              338.966705,
+              -2118.92993
+            ],
+            "elv": 134.983704,
+            "id": "GloomSpawn_G04",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              1682.36096,
+              -1781.05896
+            ],
+            "elv": 106.971497,
+            "id": "GloomSpawn_G05",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              -1633.18994,
+              -1292.34302
+            ],
+            "elv": 86.3439941,
+            "id": "GloomSpawn_G06",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              -2548.06689,
+              -1240.53601
+            ],
+            "elv": 67.4965057,
+            "id": "GloomSpawn_G07",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              3559.99902,
+              -825.104919
+            ],
+            "elv": 240,
+            "id": "GloomSpawn_G08",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              2205.43311,
+              -264.193298
+            ],
+            "elv": 142.721893,
+            "id": "GloomSpawn_G09",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              1013.52802,
+              -501.487915
+            ],
+            "elv": 21.0810013,
+            "id": "GloomSpawn_G10",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              1199.97205,
+              -207.162704
+            ],
+            "elv": 24.4494934,
+            "id": "GloomSpawn_G11",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              -328.161591,
+              -750.949829
+            ],
+            "elv": 22.0537033,
+            "id": "GloomSpawn_G12",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              -1296.40295,
+              -416.759186
+            ],
+            "elv": 28.2021942,
+            "id": "GloomSpawn_G13",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              -1901.99597,
+              -365.595886
+            ],
+            "elv": 21.8414001,
+            "id": "GloomSpawn_G14",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              953.935791,
+              126.583504
+            ],
+            "elv": 31.8628998,
+            "id": "GloomSpawn_G15",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              753.875488,
+              682.277771
+            ],
+            "elv": 74.009903,
+            "id": "GloomSpawn_G16",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              750.967529,
+              765.71521
+            ],
+            "elv": 75.6732941,
+            "id": "GloomSpawn_G17",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              -1868.65002,
+              412.912109
+            ],
+            "elv": 9.99199677,
+            "id": "GloomSpawn_G18",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              -1953.27002,
+              456.724091
+            ],
+            "elv": 9.99199677,
+            "id": "GloomSpawn_G19",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              -1946.99304,
+              267.542999
+            ],
+            "elv": 10.0042038,
+            "id": "GloomSpawn_G20",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              -3849.46289,
+              872.446411
+            ],
+            "elv": 1.83509827,
+            "id": "GloomSpawn_G21",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              2824.16504,
+              1497.46594
+            ],
+            "elv": 394.068115,
+            "id": "GloomSpawn_G22",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              -772.963501,
+              1130.31702
+            ],
+            "elv": 69.8737946,
+            "id": "GloomSpawn_G23",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              -3681.427,
+              1765.61804
+            ],
+            "elv": 147.553406,
+            "id": "GloomSpawn_G24",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              -3203.63501,
+              1399.01404
+            ],
+            "elv": 150.603195,
+            "id": "GloomSpawn_G25",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              1868.08997,
+              2729.99194
+            ],
+            "elv": 241.535889,
+            "id": "GloomSpawn_G26",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              236.389603,
+              2551.78101
+            ],
+            "elv": 67.8074951,
+            "id": "GloomSpawn_G27",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              -2071.49902,
+              2867.36401
+            ],
+            "elv": 17.1780014,
+            "id": "GloomSpawn_G28",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              3228.81299,
+              3288.98511
+            ],
+            "elv": 1.53029633,
+            "id": "GloomSpawn_G29",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              2513.17896,
+              3646.56299
+            ],
+            "elv": 2.31549835,
+            "id": "GloomSpawn_G30",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              1521.81006,
+              3332.33594
+            ],
+            "elv": 413.573425,
+            "id": "GloomSpawn_G31",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              -1190.61804,
+              3223.2981
+            ],
+            "elv": 159.91449,
+            "id": "GloomSpawn_G32",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              -1258.93103,
+              3271.92603
+            ],
+            "elv": 162.479614,
+            "id": "GloomSpawn_G33",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              -1273.71594,
+              3224.91089
+            ],
+            "elv": 171.956207,
+            "id": "GloomSpawn_G34",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              3660,
+              4655
+            ],
+            "elv": 50.4969025,
+            "id": "GloomSpawn_G35",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              -1411.34802,
+              4030.13989
+            ],
+            "elv": 400.570801,
+            "id": "GloomSpawn_G36",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              -3501.802,
+              -1796.05396
+            ],
+            "elv": 72.053299,
+            "id": "GloomSpawn_G37",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              437.025696,
+              -618.389404
+            ],
+            "elv": 21.7739029,
+            "id": "GloomSpawn_G38",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              334.895691,
+              -86.4068604
+            ],
+            "elv": 28.0016937,
+            "id": "GloomSpawn_G39",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              -957.895325,
+              -2957.5249
+            ],
+            "elv": 10.3620987,
+            "id": "GloomSpawn_G40",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          },
+          {
+            "coords": [
+              1204.69299,
+              -1798.422
+            ],
+            "elv": 134.857101,
+            "id": "GloomSpawn_G41",
+            "name": "Gloom Spawn",
+            "link": "Gloom Spawn"
+          }
+        ]
+      }
+    ]
   }
 ]
