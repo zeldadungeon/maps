@@ -1489,7 +1489,7 @@
       {
         "minZoom": 5,
         "icon": {
-          "url": "hudsonsign.png",
+          "url": "hundsonsign.svg",
           "width": 24,
           "height": 24
         },
@@ -2153,9 +2153,9 @@
       {
         "minZoom": 4,
         "icon": {
-          "url": "skull.png",
-          "width": 36,
-          "height": 36
+          "url": "hinox.svg",
+          "width": 25,
+          "height": 25
         },
         "markers": [
           {
@@ -3135,9 +3135,9 @@
       {
         "minZoom": 4,
         "icon": {
-          "url": "gleeok.png",
-          "width": 30,
-          "height": 30
+          "url": "gleeok.svg",
+          "width": 25,
+          "height": 25
         },
         "markers": [
           {
@@ -3417,9 +3417,9 @@
       {
         "minZoom": 4,
         "icon": {
-          "url": "skull.png",
-          "width": 36,
-          "height": 36
+          "url": "hand-solid.svg",
+          "width": 25,
+          "height": 25
         },
         "markers": [
           {

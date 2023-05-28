@@ -276,12 +276,17 @@ export class ZDMap extends Map {
     this.toastControl.addTo(this);
   }
 
-  public addLegend(categories: ICategory[] = []): void {
-    this.legend = Legend.createPortrait(this.layers).addTo(this);
-    this.legendLandscape = Legend.createLandscape(this.layers).addTo(this);
+  public addLegend(categories: ICategory[] = [], group?: string): void {
+    //Check if the Legend does not exist
+    if (this.legend === undefined) {
+      this.legend = Legend.createPortrait(this.layers).addTo(this);
+    }
+    if (this.legendLandscape === undefined) {
+      this.legendLandscape = Legend.createLandscape(this.layers).addTo(this);
+    }
     for (const category of categories) {
-      this.legend.addCategory(category);
-      this.legendLandscape.addCategory(category);
+      this.legend.addCategory(category, group);
+      this.legendLandscape.addCategory(category, group);
     }
   }
 

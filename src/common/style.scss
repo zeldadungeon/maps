@@ -4,7 +4,16 @@
 // Custom HyliaSerif font from https://artsyomni.com/hyliaserif
 @font-face {
   font-family: HyliaSerif;
-  src: url("@fonts/HyliaSerif-v0.009/HyliaSerifBetav0-009/HyliaSerifBeta-Regular.otf");
+  src: url(@fonts/HyliaSerif-v0.009/HyliaSerifBetav0-009/HyliaSerifBeta-Regular.otf);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+@font-face {
+  font-family: "OpenSansBold";
+  font-style: bold;
+  font-weight: 300;
+  src: url("https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN7rgOUuhs.ttf");
 }
 
 /// Stroke font-character
@@ -49,10 +58,25 @@ body {
 
 /* CONTROLS */
 
+.toggelable {
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: background-color 0.2s;
+}
+
+.toggled-on {
+}
+
 .selectable {
   cursor: pointer;
   box-sizing: border-box;
   transition: background-color 0.2s;
+  color: rgba($color: #ffffff, $alpha: 0.5);
+}
+
+.selectable-text {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .selectable-text {
@@ -61,8 +85,16 @@ body {
 }
 
 .selected {
-  background-color: rgba(0, 0, 0, 0.7);
-  border: 1px solid white;
+  text-decoration: none !important;
+  color: rgba($color: #ffffff, $alpha: 1) !important;
+}
+
+.selected-text {
+  color: white;
+}
+
+.hidden {
+  display: none !important;
 }
 
 .selected-text {
@@ -81,6 +113,7 @@ body {
 
 .zd-control {
   position: relative;
+  font-family: "Open Sans", sans-serif;
 }
 
 .leaflet-touch .leaflet-control-layers {
@@ -97,7 +130,7 @@ body {
 .zd-control__content,
 .zd-legend,
 .zd-toast {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.75);
   color: white;
 }
 
@@ -122,7 +155,7 @@ body {
 
 .zd-control__content,
 .zd-legend {
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 .zd-control__content {
@@ -241,34 +274,51 @@ body {
   max-height: 40%;
 }
 
-.leaflet-right .zd-legend {
+.leaflet-right .zd-legend__wrapper {
   margin-right: 0;
 }
 
-.leaflet-top .zd-legend {
+.leaflet-top .zd-legend__wrapper {
   margin-top: 0;
 }
 
-.leaflet-bottom .zd-legend {
+.leaflet-bottom .zd-legend__wrapper {
   margin-bottom: 0;
 }
 
 .zd-legend--portrait {
-  width: 100%;
+  width: 100vw;
   text-align: center;
   overflow: hidden;
 }
 
 .zd-legend--landscape {
   display: none;
+  width: 0px;
   height: 100%;
-  width: 230px;
-  overflow: auto;
+  transition: width 0.2s;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.zd-legend--landscape.zd-legend-open {
+  width: 375px;
+}
+
+.zd-legend__wrapper {
+  position: relative;
+  height: 100%;
 }
 
 @media screen and (orientation: landscape) and (min-width: 768px) {
   .zd-legend--landscape {
     display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .zd-legend__close {
+    display: flex !important;
   }
 
   .zd-legend--portrait {
@@ -279,50 +329,163 @@ body {
 .zd-legend__header {
   margin: 0;
   width: 100%;
+  cursor: pointer;
 }
 
 .zd-legend__categories {
   list-style: none;
-  width: 100%;
+  margin: 0;
   padding: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .zd-legend--portrait .zd-legend__categories {
-  padding: 0px;
   height: 0px;
-  overflow: scroll;
+  padding: 0px 0px 0px 0px;
+  overflow: hidden;
   transition: height 0.2s;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .zd-legend--portrait .zd-legend__categories--show {
+  display: flex;
   height: 190px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 5px 0px 0px 0px;
 }
 
-.zd-legend--portrait li {
-  display: inline-block;
-  width: 180px;
-  box-sizing: border-box;
-  text-align: left;
+.zd-legend--portrait .zd-legend-allNoneUl {
+  height: 0px;
+  margin: 0px;
+}
+
+.zd-legend--portrait .zd-legend-allNoneUl--show {
+  display: flex;
+}
+
+.zd-legend--portrait .zd-legend__categories {
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.zd-legend--portrait ul ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.zd-legend--portrait ul ul li {
+  display: flex;
 }
 
 .zd-legend__all,
 .zd-legend__none,
 .zd-legend__category {
-  height: 30px;
+  height: 35px;
+  flex-grow: 1;
 }
 
 .zd-legend__all,
 .zd-legend__none {
-  display: inline-block;
-  width: 50%;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.zd-legend-allNoneUl {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  margin-top: 1em;
+  justify-content: center;
 }
 
 .zd-legend__category {
   /*    margin: -10px 0;
     padding: 5px 0;*/
-  padding-left: 50px;
   background-repeat: no-repeat;
+  // text-decoration: line-through;
+  display: flex;
+  align-items: center;
+}
+
+.zd-legend__category-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+//Changes color from black to target color for svg #e6e61d, and adds a black drop shadow
+//https://codepen.io/sosuke/pen/Pjoqqp
+.zd-legend__icon__svg,
+.zd-marker-icon-svg {
+  filter: invert(90%) sepia(51%) saturate(731%) hue-rotate(359deg)
+    brightness(89%) contrast(104%) drop-shadow(-1px -1px 0px #000000)
+    drop-shadow(1px -1px 0px #000000) drop-shadow(1px 1px 0px #000000)
+    drop-shadow(-1px 1px 0px #000000);
+}
+
+//Fix SVG alignement with the custom fonts
+.svg-inline--fa {
+  vertical-align: -0.1em;
+}
+
+/* LEGEND GROUPS */
+.zd-legend--portrait .zd-legend-group-ul {
+  margin: 5px;
+}
+
+.zd-legend-group {
+  list-style: none;
+  margin: 0px 0px 0px 5px;
+  padding: 0;
+}
+
+.zd-legend-group__header {
+  display: flex;
+  flex-direction: row;
+}
+
+.zd-legend-group__title,
+.zd-legend-group__dropdown {
+  color: #e1d698;
+  //Adds an outline to the text to make it stand out better
+  margin: 0px 0px 0px 0px;
+  font-family: "HyliaSerif", "OpenSansBold", "Open Sans", sans-serif;
+  font-weight: lighter !important;
+  filter: drop-shadow(-1px -1px 0px #000000) drop-shadow(1px -1px 0px #000000)
+    drop-shadow(1px 1px 0px #000000) drop-shadow(-1px 1px 0px #000000);
+}
+
+.zd-legend-group__dropdown {
+  margin-left: 5px;
+}
+
+.zd-legend-group__body {
+  column-count: 2;
+  list-style: none;
+  padding: 0;
+}
+
+.zd-legend__categories {
+}
+
+.zd-legend__close {
+  background-color: rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  //Center text
+  display: none;
+  justify-content: center;
+  align-items: center;
 }
 
 /* LOCATION TEXT LABELS */
@@ -474,7 +637,7 @@ body {
 }
 
 .zd-popup__title {
-  font-family: HyliaSerif, "Linux Libertine", "Georgia", "Times", serif;
+  font-family: "HyliaSerif", "OpenSansBold", "Open Sans", sans-serif;
   font-weight: lighter;
 }
 
