@@ -542,7 +542,7 @@ window.onload = async () => {
       legendItem("Gleeok", "gleeok.svg", 25, 25),
       legendItem("Lynel", "lynel", 29, 30),
       legendItem("Molduga", "molduga.svg", 25, 25),
-      legendItem("Gloom Spawn", "skull", 36, 36),
+      legendItem("Gloom Spawn", "hand-solid.svg", 25, 25),
     ],
     "Bosses"
   );
