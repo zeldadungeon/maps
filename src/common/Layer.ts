@@ -85,6 +85,10 @@ export class Layer extends LayerGroup {
     return (this.icon && (<L.PointTuple>this.icon.options.iconSize)[0]) || 0;
   }
 
+  public getIconHeight(): number {
+    return (this.icon && (<L.PointTuple>this.icon.options.iconSize)[1]) || 0;
+  }
+
   public getMinZoom(): number {
     return this.minZoom;
   }

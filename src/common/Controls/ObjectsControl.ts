@@ -1,5 +1,5 @@
 import { DomEvent, DomUtil } from "leaflet";
-import { ZDControl } from "./ZDControl";
+import { ControlPane } from "./ControlPane";
 
 export interface ObjectGroup {
   groupName: string;
@@ -26,7 +26,7 @@ interface TabAndContent {
  * Control that allows the user to show different categories of additional objects on the map,
  * separate from the markers which are controlled by the Legend
  */
-export class ObjectsControl extends ZDControl {
+export class ObjectsControl extends ControlPane {
   private selectedObjects: { [key: string]: boolean } = {};
 
   private objectElements: { [key: string]: HTMLElement[] } = {};
@@ -40,49 +40,49 @@ export class ObjectsControl extends ZDControl {
     super({
       icon: options.icon,
       title: options.title,
-      content: DomUtil.create("div"),
     });
 
-    DomUtil.create("h3", "zd-control__title", this.content).innerText =
+    DomUtil.create("h3", "zd-control__title", this.container).innerText =
       options.title;
 
-    const tabContainer = DomUtil.create("div", "zd-tabs", this.content);
+    const tabContainer = DomUtil.create("ul", "zd-tabs", this.container);
     const groupingTabsAndContents: TabAndContent[] = [];
     for (const grouping of options.groupings) {
-      const tab = DomUtil.create(
-        "div",
-        "zd-tabs__tab selectable",
-        tabContainer
-      );
+      const tab = DomUtil.create("li", "zd-tab selectable", tabContainer);
       tab.innerText = grouping.groupingName;
 
       const content = DomUtil.create(
         "ul",
-        "zd-object-groups-list hidden",
-        this.content
+        "zd-legend__categories hideable",
+        this.container
       );
       for (const group of grouping.groups) {
-        const groupListItem = DomUtil.create("li", "zd-object-group", content);
-        const groupListDropdown = DomUtil.create(
+        const groupListItem = DomUtil.create("li", "zd-legend-group", content);
+        const groupListItemHeader = DomUtil.create(
           "div",
-          "zd-object-group__dropdown",
+          "zd-legend-group__header",
           groupListItem
+        );
+        const groupListDropdown = DomUtil.create(
+          "p",
+          "zd-legend-group__dropdown toggleable",
+          groupListItemHeader
         );
         groupListDropdown.innerText = "▶";
         const groupName = DomUtil.create(
-          "div",
-          "selectable-text",
-          groupListItem
+          "p",
+          "zd-legend-group__title toggleable",
+          groupListItemHeader
         );
         groupName.innerText = group.groupName;
         DomEvent.addListener(groupName, "click", () => {
-          if (DomUtil.hasClass(groupName, "selected-text")) {
-            DomUtil.removeClass(groupName, "selected-text");
+          if (DomUtil.hasClass(groupName, "toggled-on")) {
+            DomUtil.removeClass(groupName, "toggled-on");
           } else {
-            DomUtil.addClass(groupName, "selected-text");
+            DomUtil.addClass(groupName, "toggled-on");
           }
           for (const objectName of group.objectNames) {
-            if (DomUtil.hasClass(groupName, "selected-text")) {
+            if (DomUtil.hasClass(groupName, "toggled-on")) {
               this.selectObject(objectName);
             } else {
               this.deselectObject(objectName);
@@ -92,13 +92,13 @@ export class ObjectsControl extends ZDControl {
 
         const groupObjects = DomUtil.create(
           "ul",
-          "zd-objects-list hidden",
+          "zd-legend-group__body",
           groupListItem
         );
         for (const objectName of group.objectNames) {
           const objectNameListItem = DomUtil.create(
             "li",
-            "zd-object selectable-text",
+            "zd-object selectable",
             groupObjects
           );
           objectNameListItem.innerText = objectName;
@@ -109,7 +109,7 @@ export class ObjectsControl extends ZDControl {
           this.objectElements[objectName].push(objectNameListItem);
 
           DomEvent.addListener(objectNameListItem, "click", () => {
-            if (DomUtil.hasClass(objectNameListItem, "selected-text")) {
+            if (DomUtil.hasClass(objectNameListItem, "selected")) {
               this.deselectObject(objectName);
             } else {
               this.selectObject(objectName);
@@ -119,10 +119,10 @@ export class ObjectsControl extends ZDControl {
 
         DomEvent.addListener(groupListDropdown, "click", () => {
           if (groupListDropdown.innerText == "▶") {
-            DomUtil.removeClass(groupObjects, "hidden");
+            DomUtil.addClass(groupObjects, "visible");
             groupListDropdown.innerText = "▼";
           } else {
-            DomUtil.addClass(groupObjects, "hidden");
+            DomUtil.removeClass(groupObjects, "visible");
             groupListDropdown.innerText = "▶";
           }
         });
@@ -132,10 +132,10 @@ export class ObjectsControl extends ZDControl {
         if (!DomUtil.hasClass(tab, "selected")) {
           for (const groupingTabAndContent of groupingTabsAndContents) {
             DomUtil.removeClass(groupingTabAndContent.tab, "selected");
-            DomUtil.addClass(groupingTabAndContent.content, "hidden");
+            DomUtil.removeClass(groupingTabAndContent.content, "visible");
           }
           DomUtil.addClass(tab, "selected");
-          DomUtil.removeClass(content, "hidden");
+          DomUtil.addClass(content, "visible");
           // TODO save to settingsStore
         }
       });
@@ -144,13 +144,13 @@ export class ObjectsControl extends ZDControl {
 
     // TODO load from settingsStore
     DomUtil.addClass(groupingTabsAndContents[0].tab, "selected");
-    DomUtil.removeClass(groupingTabsAndContents[0].content, "hidden");
+    DomUtil.addClass(groupingTabsAndContents[0].content, "visible");
   }
 
   private selectObject(objectName: string): void {
     this.selectedObjects[objectName] = true;
     for (const element of this.objectElements[objectName]) {
-      DomUtil.addClass(element, "selected-text");
+      DomUtil.addClass(element, "selected");
     }
     this.onSelectionChanged(this.selectedObjects);
   }
@@ -158,7 +158,7 @@ export class ObjectsControl extends ZDControl {
   private deselectObject(objectName: string): void {
     this.selectedObjects[objectName] = false;
     for (const element of this.objectElements[objectName]) {
-      DomUtil.removeClass(element, "selected-text");
+      DomUtil.removeClass(element, "selected");
     }
     this.onSelectionChanged(this.selectedObjects);
   }

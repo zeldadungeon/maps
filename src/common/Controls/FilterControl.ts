@@ -1,110 +1,50 @@
-import { Control, DomEvent, DomUtil } from "leaflet";
-import { ICategory } from "./ICategory";
-import { MapLayer } from "./MapLayer";
+import { DomEvent, DomUtil } from "leaflet";
+import { ControlPane } from "./ControlPane";
+import { ICategory } from "../ICategory";
+import { MapLayer } from "../MapLayer";
+import { faFilter } from "@fortawesome/free-solid-svg-icons/faFilter";
+import { library } from "@fortawesome/fontawesome-svg-core";
+
+library.add(faFilter);
 
 interface LegendItem {
   category: ICategory;
   li: HTMLElement;
 }
 
-export class Legend extends Control {
-  private container: HTMLElement;
-  private wrapper: HTMLElement;
+/**
+ * Control that allows the user to filter which location markers are visible
+ */
+export class FilterControl extends ControlPane {
   private categoryList: HTMLElement;
-  private groupUlArr: HTMLElement[] = [];
+  private groupLiArr: HTMLElement[] = [];
   private all: HTMLElement;
   private none: HTMLElement;
   private allNoneUL: HTMLElement;
   private categories = <LegendItem[]>[];
 
-  private bottom = false;
+  public constructor(private mapLayers: MapLayer[]) {
+    super({
+      icon: "fa-filter",
+      title: "Filter",
+    });
 
-  private constructor(
-    private mapLayers: MapLayer[],
-    options?: L.ControlOptions
-  ) {
-    super(options);
-    const bottom = options && options.position === "bottomright";
+    DomUtil.create("h3", "zd-control__title", this.container).innerText =
+      "Filter Markers";
 
-    this.wrapper = DomUtil.create("div", "zd-legend__wrapper");
-
-    this.container = DomUtil.create(
-      "div",
-      `zd-control zd-legend zd-legend--${bottom ? "portrait" : "landscape"}`,
-      this.wrapper
-    );
-
-    DomEvent.disableClickPropagation(this.container);
-    DomEvent.disableScrollPropagation(this.container);
-
-    if (bottom) {
-      this.bottom = true;
-      const header = DomUtil.create("h3", "zd-legend__header", this.container);
-      header.innerText = "Show Categories";
-      DomEvent.addListener(header, "click", () => {
-        if (
-          DomUtil.hasClass(this.categoryList, "zd-legend__categories--show")
-        ) {
-          DomUtil.removeClass(this.categoryList, "zd-legend__categories--show");
-          DomUtil.removeClass(this.allNoneUL, "zd-legend-allNoneUl--show");
-        } else {
-          DomUtil.addClass(this.categoryList, "zd-legend__categories--show");
-          DomUtil.addClass(this.allNoneUL, "zd-legend-allNoneUl--show");
-        }
-      });
-    }
-
-    if (!bottom) {
-      DomUtil.addClass(this.container, "zd-legend-open");
-      //Add button to close legend
-      const closeButton = DomUtil.create(
-        "div",
-        "zd-legend__close",
-        this.wrapper
-      );
-      closeButton.innerText = "▶";
-      closeButton.style.position = "absolute";
-      closeButton.style.top = "15px"; // Same as allNone
-      closeButton.style.left = "-25px";
-      closeButton.style.overflow = "visible";
-      this.wrapper.style.overflow = "visible";
-      closeButton.style.width = "25px";
-      closeButton.style.height = "40px";
-      DomEvent.disableClickPropagation(closeButton);
-      //Add click event listener
-      DomEvent.addListener(closeButton, "click", () => {
-        //If zd-legend-open
-        if (DomUtil.hasClass(this.container, "zd-legend-open")) {
-          DomUtil.removeClass(this.container, "zd-legend-open");
-          closeButton.innerText = "◀";
-        } else {
-          DomUtil.addClass(this.container, "zd-legend-open");
-          closeButton.innerText = "▶";
-        }
-      });
-    }
-
-    this.allNoneUL = DomUtil.create(
-      "ul",
-      "zd-legend-allNoneUl",
-      this.container
-    );
+    this.allNoneUL = DomUtil.create("ul", "zd-tabs", this.container);
     this.categoryList = DomUtil.create(
-      "li",
+      "ul",
       "zd-legend__categories",
       this.container
     );
     this.all = DomUtil.create(
       "li",
-      "zd-legend__all selectable selected",
+      "zd-tab selectable selected",
       this.allNoneUL
     );
     this.all.innerText = "All";
-    this.none = DomUtil.create(
-      "li",
-      "zd-legend__none selectable",
-      this.allNoneUL
-    );
+    this.none = DomUtil.create("li", "zd-tab selectable", this.allNoneUL);
     this.none.innerText = "None";
 
     DomEvent.addListener(this.all, "click", () => {
@@ -132,56 +72,39 @@ export class Legend extends Control {
     });
   }
 
-  public static createPortrait(mapLayers: MapLayer[]): Legend {
-    return new Legend(mapLayers, {
-      position: "bottomright",
-    });
-  }
-
-  public static createLandscape(mapLayers: MapLayer[]): Legend {
-    return new Legend(mapLayers);
-  }
-
-  public onAdd(_map: L.Map): HTMLElement {
-    return this.wrapper;
-  }
-
-  public onRemove(_map: L.Map): void {
-    // doesn't happen
-  }
-
   public addGroup(category: ICategory | null): void {
     //Check if group defined
-    const groupUl = DomUtil.create("ul", "zd-legend-group", this.categoryList);
+    const groupLi = DomUtil.create("li", "zd-legend-group", this.categoryList);
     if (category === null) {
-      groupUl.classList.add("null-group");
+      groupLi.classList.add("null-group");
     }
-    const groupLi = DomUtil.create("li", "zd-legend-group__li", groupUl);
     const groupDiv = DomUtil.create("div", "zd-legend-group__div", groupLi);
     const groupHeader = DomUtil.create(
       "div",
       "zd-legend-group__header",
       groupDiv
     );
-    const groupHeaderTitle = DomUtil.create(
-      "p",
-      "zd-legend-group__title",
-      groupHeader
-    );
     const groupHeaderDropdown = DomUtil.create(
       "p",
       "zd-legend-group__dropdown",
       groupHeader
     );
-    const groupBody = DomUtil.create("ul", "zd-legend-group__body", groupDiv);
+    const groupHeaderTitle = DomUtil.create(
+      "p",
+      "zd-legend-group__title",
+      groupHeader
+    );
+    const groupBody = DomUtil.create(
+      "ul",
+      "zd-legend-group__body visible",
+      groupDiv
+    );
     //Add group to group array
-    this.groupUlArr.push(groupUl);
+    this.groupLiArr.push(groupLi);
 
-    if (!this.bottom) {
-      groupHeaderDropdown.classList.add("toggelable");
-    }
+    groupHeaderDropdown.classList.add("toggleable");
     if (category !== null) {
-      groupHeaderTitle.classList.add("toggelable");
+      groupHeaderTitle.classList.add("toggleable");
       groupHeaderTitle.innerText = category.group || "Undefined Group";
       groupHeaderTitle.style.textAlign = "center";
       groupHeaderTitle.style.fontWeight = "bold";
@@ -228,25 +151,23 @@ export class Legend extends Control {
         }
       });
       //Add click event to group for dropdown functionality
-      if (!this.bottom) {
-        DomEvent.addListener(groupHeaderDropdown, "click", () => {
-          //Check if group is selected
-          if (DomUtil.hasClass(groupHeaderDropdown, "toggled-on")) {
-            //Toggle group off
-            DomUtil.removeClass(groupHeaderDropdown, "toggled-on");
-            groupHeaderDropdown.innerText = "▶";
-            //Display: none, for all categories in group
-            groupBody.style.display = "none";
-          } else {
-            //Toggle group on
-            DomUtil.addClass(groupHeaderDropdown, "toggled-on");
-            groupHeaderDropdown.innerText = " ▼";
-            groupBody.style.display = "block";
-          }
-        });
-      }
+      DomEvent.addListener(groupHeaderDropdown, "click", () => {
+        //Check if group is selected
+        if (DomUtil.hasClass(groupHeaderDropdown, "toggled-on")) {
+          //Toggle group off
+          DomUtil.removeClass(groupHeaderDropdown, "toggled-on");
+          groupHeaderDropdown.innerText = "▶";
+          DomUtil.removeClass(groupBody, "visible");
+        } else {
+          //Toggle group on
+          DomUtil.addClass(groupHeaderDropdown, "toggled-on");
+          groupHeaderDropdown.innerText = " ▼";
+          DomUtil.addClass(groupBody, "visible");
+        }
+      });
     }
   }
+
   public addCategory(category: ICategory, group?: string): void {
     //Check if group is defined
     if (group != undefined) {
@@ -259,7 +180,7 @@ export class Legend extends Control {
       }
     } else {
       //Check if null group already exists
-      if (!this.groupUlArr.some((g) => DomUtil.hasClass(g, "null-group"))) {
+      if (!this.groupLiArr.some((g) => DomUtil.hasClass(g, "null-group"))) {
         //Create null group
         this.addGroup(null);
       }
@@ -324,7 +245,7 @@ export class Legend extends Control {
     //Check if group is defined
     if (group != undefined) {
       //Add category to group
-      this.groupUlArr.forEach((g) => {
+      this.groupLiArr.forEach((g) => {
         if (
           g.getElementsByClassName("zd-legend-group__title")[0].innerHTML ===
           group
@@ -334,7 +255,7 @@ export class Legend extends Control {
       });
     } else {
       //Add category to null group
-      this.groupUlArr.forEach((g) => {
+      this.groupLiArr.forEach((g) => {
         if (DomUtil.hasClass(g, "null-group")) {
           g.getElementsByClassName("zd-legend-group__body")[0].appendChild(div);
         }

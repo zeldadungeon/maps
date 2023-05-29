@@ -172,6 +172,10 @@ export class ZDMarker extends Marker {
     return this.layer.getIconWidth();
   }
 
+  public getIconHeight(): number {
+    return this.layer.getIconHeight();
+  }
+
   public getMinZoom(): number {
     return this.layer.getMinZoom();
   }

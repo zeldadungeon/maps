@@ -1,36 +1,27 @@
 import * as ZDCRS from "./ZDCRS";
-import {
-  Control,
-  DomEvent,
-  DomUtil,
-  LatLngBounds,
-  Map,
-  Marker,
-  Point,
-} from "leaflet";
-import { dom, library } from "@fortawesome/fontawesome-svg-core";
-import { Dialog } from "./Dialog";
-import { ICategory } from "./ICategory";
-import { LayersControl } from "./LayersControl";
-import { Legend } from "./Legend";
-import { LocalStorage } from "./LocalStorage";
-import { MapLayer } from "./MapLayer";
+import { LatLngBounds, Map, Marker, Point } from "leaflet";
 import {
   ObjectsControl,
   Options as ObjectsControlOptions,
-} from "./ObjectsControl";
-import { ToastControl } from "./ToastControl";
-import { ZDControl } from "./ZDControl";
-import { ZDMarker } from "./ZDMarker";
-import { WikiConnector } from "./WikiConnector";
-import { faCog } from "@fortawesome/free-solid-svg-icons/faCog";
-import { faSearch } from "@fortawesome/free-solid-svg-icons/faSearch";
+} from "./Controls/ObjectsControl";
+import { ControlDock } from "./Controls/ControlDock";
+import { dom } from "@fortawesome/fontawesome-svg-core";
+import { Dialog } from "./Dialog";
+import { FilterControl } from "./Controls/FilterControl";
+import { ICategory } from "./ICategory";
+import { LayersControl } from "./Controls/LayersControl";
+import { MapLayer } from "./MapLayer";
 import { params } from "./QueryParameters";
+import { SearchControl } from "./Controls/SearchControl";
+import { SettingsControl } from "./Controls/SettingsControl";
+import { ToastControl } from "./ToastControl";
+import { WikiConnector } from "./WikiConnector";
+import { ZDMarker } from "./ZDMarker";
+import { ZoomControl } from "./Controls/ZoomControl";
 import markerIconUrl from "leaflet/dist/images/marker-icon.png";
 import markerIconRetinaUrl from "leaflet/dist/images/marker-icon-2x.png";
 import markerShadowUrl from "leaflet/dist/images/marker-shadow.png";
 
-library.add(faSearch, faCog);
 dom.watch();
 
 export interface ZDMapOptions extends L.MapOptions {
@@ -47,13 +38,11 @@ export interface ZDMapOptions extends L.MapOptions {
 export class ZDMap extends Map {
   // BUGBUG refactor to avoid having to suppress null checking
   public wiki!: WikiConnector;
-  private settingsStore!: LocalStorage;
-  private legend?: Legend;
-  private legendLandscape?: Legend;
   private layers = <MapLayer[]>[];
+  private filterControl?: FilterControl;
+  private settingsControl?: SettingsControl;
   private layersControl?: LayersControl;
   private toastControl = new ToastControl();
-  private loginFn!: (username: string) => void;
 
   private constructor(
     element: string | HTMLElement,
@@ -104,8 +93,8 @@ export class ZDMap extends Map {
     );
     options.maxBounds = bounds.pad(0.5);
 
-    options.zoomControl = false; // adding it later, below our own controls
-    options.attributionControl = false; // would like to keep this but breaks bottom legend. maybe find a better place to put it later
+    options.zoomControl = false; // using a custom zoom control instead
+    options.attributionControl = false;
 
     const map = new ZDMap(
       "map",
@@ -116,7 +105,6 @@ export class ZDMap extends Map {
     );
     map.getContainer().classList.add(`zd-map-${options.directory}`);
 
-    map.settingsStore = LocalStorage.getStore(options.directory, "settings");
     const dialog = new Dialog(map);
     map.wiki = new WikiConnector(
       options.directory,
@@ -125,15 +113,12 @@ export class ZDMap extends Map {
       map.toastControl.showNotification.bind(map.toastControl)
     );
 
-    map.on("zoom", (_) => {
-      map.layers.forEach((l) => l.updateZoom(map.getZoom()));
-    });
-
     map.on("moveend", function () {
       map.updateUrl();
     });
 
     map.on("zoomend", function () {
+      map.layers.forEach((l) => l.updateZoom(map.getZoom()));
       map.updateUrl();
     });
 
@@ -207,94 +192,82 @@ export class ZDMap extends Map {
     tags: string[] = [],
     objectCategories: ObjectsControlOptions[] = []
   ): void {
+    const controls = new ControlDock();
+    controls.addTo(this);
+
     // Search
-    const searchControl = this.initializeSearchControl();
+    controls.addControl(
+      new SearchControl(this.layers, (m, l) => this.focusOn(m, l))
+    );
+
+    // Filter
+    this.filterControl = new FilterControl(this.layers);
+    controls.addControl(this.filterControl);
 
     // Objects
-    const objectControls: ObjectsControl[] = [];
     if (objectCategories.length > 0) {
       for (const cat of objectCategories) {
         cat.icon = `${import.meta.env.BASE_URL}${this.directory}/icons/${
           cat.icon
         }.png`;
-        objectControls.push(
+        controls.addControl(
           new ObjectsControl(cat, (selectedObjects) =>
             this.layers.forEach((l) => l.updateSelectedObjects(selectedObjects))
-          ).addTo(this)
+          )
         );
       }
     }
 
     // Settings
     tags.push("Completed");
-    const settingsControl = this.initializeSettingsControl(tags);
+    this.settingsControl = new SettingsControl(
+      this.wiki,
+      this.directory,
+      this.layers,
+      tags
+    );
+    controls.addControl(this.settingsControl);
 
     // Layers
     if (this.layers.length > 1) {
       this.layersControl = new LayersControl({
-        position: "topleft",
         layers: this.layers,
-      }).addTo(this);
+      });
       if (params.l != undefined) {
         this.layersControl.selectLayer(params.l);
       }
       this.layersControl.onLayerSelected((layer) =>
         this.updateUrlLayer(layer.layerName)
       );
+      controls.addLayers(this.layersControl);
     }
 
     // Zoom
-    new Control.Zoom({
-      position: "topleft",
-    }).addTo(this);
-
-    // When one control opens, close the others
-    searchControl.onOpen(() => {
-      settingsControl.close();
-      for (const objectControl of objectControls) {
-        objectControl.close();
-      }
+    const zoomControl = new ZoomControl({
+      minZoom: this.getMinZoom(),
+      maxZoom: this.getMaxZoom(),
+      initialZoom: this.getZoom(),
+      zoomIn: () => this.zoomIn(),
+      zoomOut: () => this.zoomOut(),
     });
-    settingsControl.onOpen(() => {
-      searchControl.close();
-      for (const objectControl of objectControls) {
-        objectControl.close();
-      }
+    controls.addZoom(zoomControl);
+    this.on("zoomend zoomlevelschange", (_) => {
+      zoomControl.setZoom(this.getZoom());
     });
-    for (const objectControl of objectControls) {
-      objectControl.onOpen(() => {
-        searchControl.close();
-        settingsControl.close();
-        for (const otherObjectControl of objectControls) {
-          if (otherObjectControl != objectControl) {
-            otherObjectControl.close();
-          }
-        }
-      });
-    }
 
     this.toastControl.addTo(this);
   }
 
   public addLegend(categories: ICategory[] = [], group?: string): void {
-    //Check if the Legend does not exist
-    if (this.legend === undefined) {
-      this.legend = Legend.createPortrait(this.layers).addTo(this);
-    }
-    if (this.legendLandscape === undefined) {
-      this.legendLandscape = Legend.createLandscape(this.layers).addTo(this);
-    }
     for (const category of categories) {
-      this.legend.addCategory(category, group);
-      this.legendLandscape.addCategory(category, group);
+      this.filterControl?.addCategory(category, group);
     }
   }
 
   public async initializeWikiConnector(): Promise<void> {
     await this.wiki.getLoggedInUser();
-
-    if (this.loginFn && this.wiki.user) {
-      this.loginFn(this.wiki.user.name);
+    if (this.settingsControl && this.wiki.user) {
+      this.settingsControl.login(this.wiki.user.name);
     }
 
     // load marker completion from wiki into marker layers
@@ -337,164 +310,8 @@ export class ZDMap extends Map {
     this.toastControl.showNotification(message);
   }
 
-  private initializeSearchControl(): ZDControl {
-    const searchContent = DomUtil.create("div", "zd-search");
-    const searchBox = <HTMLInputElement>(
-      DomUtil.create("input", "zd-search__searchbox", searchContent)
-    );
-    searchBox.setAttribute("type", "text");
-    searchBox.setAttribute("placeholder", "Search");
-    const results = DomUtil.create("ul", "zd-search__results", searchContent);
-    DomEvent.disableScrollPropagation(results);
-
-    const searchControl = new ZDControl({
-      icon: "fa-search",
-      title: "Search",
-      content: searchContent,
-    }).addTo(this);
-
-    let searchVal = "";
-    DomEvent.addListener(searchBox, "input", (e) => {
-      DomUtil.empty(results);
-      const searchStr = searchBox.value;
-      // length > 2 and either value changed or on focus
-      if (
-        searchStr &&
-        searchStr.length > 2 &&
-        (searchVal !== searchStr || e.type === "focus")
-      ) {
-        // regex (escape regex chars)
-        const searchRegex = new RegExp(
-          searchStr.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&"),
-          "i"
-        );
-        this.layers.forEach((layer) => {
-          layer.findMarkers(searchRegex).forEach((m: ZDMarker) => {
-            const result = DomUtil.create("li", "zd-search__result", results);
-            result.innerText = m.name;
-            result.style.backgroundImage = `url(${m.getIconUrl()})`;
-            result.style.backgroundPosition = `${
-              (50 - m.getIconWidth()) / 2
-            }px center`;
-            DomEvent.addListener(result, "click", () => {
-              searchControl.close();
-              this.focusOn(m, layer);
-            });
-          });
-        });
-      }
-      // save current value
-      searchVal = searchStr || "";
-    });
-
-    searchControl.onOpen(() => {
-      searchBox.focus();
-    });
-
-    searchControl.onClosed(() => {
-      searchBox.blur();
-    });
-
-    return searchControl;
-  }
-
-  private initializeSettingsControl(tags: string[]): ZDControl {
-    const settingsContent = DomUtil.create("table", "zd-settings");
-    const userRow = DomUtil.create(
-      "tr",
-      "zd-settings__setting",
-      settingsContent
-    );
-    const userCell = DomUtil.create("td", "", userRow);
-    userCell.setAttribute("colspan", "3");
-    const loginButton = DomUtil.create("div", "selectable", userCell);
-    loginButton.innerText = "Login";
-    DomEvent.addListener(loginButton, "click", () => {
-      this.wiki.login();
-    });
-
-    this.loginFn = (username: string) => {
-      DomUtil.empty(userCell);
-      const logoutButton = DomUtil.create("div", "selectable", userCell);
-      logoutButton.style.cssFloat = "right";
-      logoutButton.innerText = "Logout";
-      DomEvent.addListener(logoutButton, "click", () => {
-        this.wiki.logout();
-      });
-      const usernameLabel = DomUtil.create("div", "", userCell);
-      usernameLabel.innerText = username;
-    };
-
-    tags.forEach((tag) => {
-      const row = DomUtil.create("tr", "zd-settings__setting", settingsContent);
-      const show = DomUtil.create("td", "zd-settings__button selectable", row);
-      show.innerText = "Show";
-      const hide = DomUtil.create("td", "zd-settings__button selectable", row);
-      hide.innerText = "Hide";
-      const label = DomUtil.create("th", "zd-settings__label", row);
-      label.innerText = tag;
-
-      const settingValue = this.settingsStore.getItem<boolean>(`show-${tag}`);
-      if (
-        settingValue === false ||
-        (tag === "Completed" && settingValue !== true) // Completed is hidden by default
-      ) {
-        DomUtil.addClass(hide, "selected");
-      } else {
-        this.layers.forEach((l) => l.showTaggedMarkers(tag));
-        DomUtil.addClass(show, "selected");
-      }
-
-      DomEvent.addListener(show, "click", () => {
-        if (!DomUtil.hasClass(show, "selected")) {
-          DomUtil.removeClass(hide, "selected");
-          DomUtil.addClass(show, "selected");
-          this.layers.forEach((l) => l.showTaggedMarkers(tag));
-          this.settingsStore.setItem(`show-${tag}`, true);
-        }
-      });
-      DomEvent.addListener(hide, "click", () => {
-        if (!DomUtil.hasClass(hide, "selected")) {
-          DomUtil.removeClass(show, "selected");
-          DomUtil.addClass(hide, "selected");
-          this.layers.forEach((l) => l.hideTaggedMarkers(tag));
-          this.settingsStore.setItem(`show-${tag}`, false);
-        }
-      });
-    });
-    const clearCompletionDataRow = DomUtil.create(
-      "tr",
-      "zd-settings__setting",
-      settingsContent
-    );
-    const clearCompletionData = DomUtil.create(
-      "td",
-      "selectable",
-      clearCompletionDataRow
-    );
-    clearCompletionData.setAttribute("colspan", "3");
-    clearCompletionData.innerText = "Clear completion data";
-    DomEvent.addListener(clearCompletionData, "click", () => {
-      if (
-        confirm(
-          "This will reset all pins that you've marked completed. Are you sure?"
-        )
-      ) {
-        this.wiki.clearCompletion();
-        this.layers.forEach((l) => l.clearTaggedMarkers("Completed"));
-      }
-    });
-
-    return new ZDControl({
-      icon: "fa-cog",
-      title: "Settings",
-      content: settingsContent,
-    }).addTo(this);
-  }
-
   private focusOn(marker: ZDMarker, layer: MapLayer): void {
-    this.legend?.reset();
-    this.legendLandscape?.reset();
+    this.filterControl?.reset();
     this.layersControl?.selectLayer(layer.layerName);
     this.setView(
       marker.getLatLng(),

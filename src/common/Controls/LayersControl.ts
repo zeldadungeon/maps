@@ -1,33 +1,34 @@
-import { Browser, Control, DomEvent, DomUtil } from "leaflet";
-import { MapLayer } from "./MapLayer";
+import { Browser, DomEvent, DomUtil } from "leaflet";
+import { MapLayer } from "../MapLayer";
 
 type LayerControlEventHandler = (layer: MapLayer) => void;
 
-export interface Options extends L.ControlOptions {
+export interface Options {
   layers: MapLayer[];
 }
 
 interface LayerAndButton {
   layer: MapLayer;
-  button: HTMLAnchorElement;
+  button: HTMLElement;
 }
 
 /**
  * Set of controls for toggling which layer is visible
  */
-export class LayersControl extends Control {
+export class LayersControl {
   private container: HTMLElement;
   private layers: LayerAndButton[] = [];
   private onLayerSelectedHandlers = <LayerControlEventHandler[]>[];
 
   public constructor(options: Options) {
-    super(options);
-
-    this.container = DomUtil.create("div", "leaflet-bar");
+    this.container = DomUtil.create("div", "zd-control__button-group");
 
     for (const layer of options.layers) {
-      const button = DomUtil.create("a", "", this.container);
-      button.href = "#";
+      const button = DomUtil.create(
+        "div",
+        "zd-control__button",
+        this.container
+      );
       button.style.backgroundImage = `url('${layer.iconUrl}')`;
       button.style.backgroundSize = "contain";
       button.style.backgroundRepeat = "no-repeat";
@@ -51,12 +52,8 @@ export class LayersControl extends Control {
     }
   }
 
-  public onAdd(_map: L.Map): HTMLElement {
+  public getButtons(): HTMLElement {
     return this.container;
-  }
-
-  public onRemove(_map: L.Map): void {
-    // doesn't happen
   }
 
   public selectLayer(layerName: string): void {
