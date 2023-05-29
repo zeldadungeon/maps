@@ -202,7 +202,7 @@ export class ZDMap extends Map {
 
     // Filter
     this.filterControl = new FilterControl(this.layers);
-    controls.addControl(this.filterControl);
+    controls.addControl(this.filterControl, true);
 
     // Objects
     if (objectCategories.length > 0) {

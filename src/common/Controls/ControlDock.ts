@@ -41,8 +41,10 @@ export class ControlDock extends Control {
     // doesn't happen
   }
 
-  public addControl(control: ControlPane): void {
+  public addControl(control: ControlPane, initShow = false): void {
     this.controls.push(control);
+
+    // Add button
     const button = control.getButton();
     this.group1.appendChild(button);
     DomEvent.addListener(button, "click", () => {
@@ -50,17 +52,16 @@ export class ControlDock extends Control {
         control.close();
         DomUtil.removeClass(this.paneContainer, "visible");
       } else {
-        for (const otherControl of this.controls) {
-          if (otherControl != control) {
-            otherControl.close();
-          }
-        }
-        control.open();
-
-        DomUtil.addClass(this.paneContainer, "visible");
+        this.showControl(control);
       }
     });
+
+    // Add content pane
     this.paneContainer.appendChild(control.getPane());
+
+    if (initShow) {
+      this.showControl(control);
+    }
   }
 
   public addLayers(layers: LayersControl): void {
@@ -69,5 +70,16 @@ export class ControlDock extends Control {
 
   public addZoom(zoom: ZoomControl): void {
     this.group2.appendChild(zoom.getButtons());
+  }
+
+  private showControl(control: ControlPane): void {
+    for (const otherControl of this.controls) {
+      if (otherControl != control) {
+        otherControl.close();
+      }
+    }
+    control.open();
+
+    DomUtil.addClass(this.paneContainer, "visible");
   }
 }
