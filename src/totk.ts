@@ -484,11 +484,36 @@ window.onload = async () => {
       legendItem("Shrine of Light", "shrine", 27, 29),
       legendItem("Lightroot", "lightroot", 27, 24),
       legendItem("Tech Lab", "lab", 28, 24),
-      legendItem("Device Dispenser", "dispenser", 36, 36),
+      legendItem("Dungeon", "windtemple", 23, 27),
+      legendItem("Other Travel Gate", "start", 28, 28),
+    ],
+    "Travel Gates"
+  );
+  map.addLegend(
+    [
+      legendItem("Main Quest", "mainquest", 35, 23),
+      legendItem("Side Adventure", "adventure", 20, 24),
+      legendItem("Shrine Quest", "shrinequest", 25, 29),
+      legendItem("Side Quest", "sidequest", 27, 21),
+      legendItem("Quest Objective", "objective", 13, 13),
+      legendItem("Dragon Tear", "tear", 31, 36),
+      legendItem("Zonai Relief", "relief", 27, 27),
+    ],
+    "Quests"
+  );
+  map.addLegend(
+    [
+      legendItem("Korok Seed", "korok", 27, 27),
+      legendItem("Treasure Chest", "treasure", 27, 21),
+    ],
+    "Colectibles"
+  );
+  map.addLegend(
+    [
+      legendItem("Village", "village", 29, 29),
       legendItem("Chasm", "chasm", 25, 26),
       legendItem("Cave", "cave", 25, 26),
       legendItem("Well", "well", 25, 26),
-      legendItem("Village", "village", 29, 29),
     ],
     "Locations"
   );
@@ -501,19 +526,11 @@ window.onload = async () => {
       legendItem("Bargainer Statue", "bargainer", 29, 29),
       legendItem("Other Shops", "othershops", 29, 29),
       legendItem("Great Fairy", "fountain", 36, 36),
+      legendItem("Device Dispenser", "dispenser", 36, 36),
       legendItem("Goddess Statue", "statue", 36, 36),
       legendItem("Cooking Pot", "pot", 36, 36),
     ],
     "Services"
-  );
-  map.addLegend(
-    [
-      legendItem("Dragon Tear", "tear", 31, 36),
-      legendItem("Korok Seed", "korok", 27, 27),
-      legendItem("Zonai Relief", "relief", 27, 27),
-      legendItem("Treasure Chest", "treasure", 27, 21),
-    ],
-    "Colectibles"
   );
   map.addLegend(
     [
@@ -522,16 +539,6 @@ window.onload = async () => {
       legendItem("Cherry Tree", "cherry-blossom.svg", 25, 25),
     ],
     "Other"
-  );
-  map.addLegend(
-    [
-      legendItem("Main Quest", "mainquest", 35, 23),
-      legendItem("Shrine Quest", "shrinequest", 25, 29),
-      legendItem("Side Quest", "sidequest", 27, 21),
-      legendItem("Side Adventure", "adventure", 20, 24),
-      legendItem("Quest Objective", "objective", 13, 13),
-    ],
-    "Quests"
   );
   map.addLegend(
     [
