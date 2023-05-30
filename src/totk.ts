@@ -690,17 +690,9 @@ window.onload = async () => {
   }
 
   await Promise.allSettled([
-    addJson(surface, "surface/seeds.json"),
     addJson(surface, "surface/locations.json"),
-    addJson(surface, "surface/treasure.json"),
-    addJson(surface, "surface/objects.json"),
-    addJson(sky, "sky/seeds.json"),
     addJson(sky, "sky/locations.json"),
-    addJson(sky, "sky/treasure.json"),
-    addJson(sky, "sky/objects.json"),
     addJson(depths, "depths/locations.json"),
-    addJson(depths, "depths/treasure.json"),
-    addJson(depths, "depths/objects.json"),
     addWikiJson(surface, "Surface Categories"),
     addWikiJson(sky, "Sky Categories"),
     addWikiJson(depths, "Depths Categories"),
