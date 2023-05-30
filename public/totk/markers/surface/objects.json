@@ -1311,59 +1311,11 @@
           },
           {
             "coords": [
-              -2029.73999,
-              -820.769104
-            ],
-            "elv": 120.460999,
-            "id": "GoddessStatue_G04"
-          },
-          {
-            "coords": [
-              -2032.35498,
-              -820.187073
-            ],
-            "elv": 120.460999,
-            "id": "GoddessStatue_G05"
-          },
-          {
-            "coords": [
-              -2034.31799,
-              -822.300415
-            ],
-            "elv": 120.460999,
-            "id": "GoddessStatue_G06"
-          },
-          {
-            "coords": [
-              -2033.70496,
-              -825.322815
-            ],
-            "elv": 120.460999,
-            "id": "GoddessStatue_G07"
-          },
-          {
-            "coords": [
-              -2031.15698,
-              -826.458984
-            ],
-            "elv": 120.460999,
-            "id": "GoddessStatue_G08"
-          },
-          {
-            "coords": [
-              -2028.90002,
-              -824.97998
-            ],
-            "elv": 120.460999,
-            "id": "GoddessStatue_G09"
-          },
-          {
-            "coords": [
               2179.84595,
               415.736786
             ],
             "elv": 153.732513,
-            "id": "GoddessStatue_G10"
+            "id": "GoddessStatue_G04"
           },
           {
             "coords": [
@@ -1371,7 +1323,7 @@
               1722.24597
             ],
             "elv": 394.170288,
-            "id": "GoddessStatue_G11"
+            "id": "GoddessStatue_G05"
           },
           {
             "coords": [
@@ -1379,7 +1331,7 @@
               1840.12097
             ],
             "elv": 113.538696,
-            "id": "GoddessStatue_G12"
+            "id": "GoddessStatue_G06"
           },
           {
             "coords": [
@@ -1387,7 +1339,7 @@
               2923.35693
             ],
             "elv": 1.24819946,
-            "id": "GoddessStatue_G13"
+            "id": "GoddessStatue_G07"
           },
           {
             "coords": [
@@ -1395,7 +1347,7 @@
               3966.26709
             ],
             "elv": 128.841599,
-            "id": "GoddessStatue_G14"
+            "id": "GoddessStatue_G08"
           },
           {
             "coords": [
@@ -1403,7 +1355,7 @@
               3316.89111
             ],
             "elv": 151.044098,
-            "id": "GoddessStatue_G15"
+            "id": "GoddessStatue_G09"
           },
           {
             "coords": [
@@ -1411,7 +1363,7 @@
               3439.16406
             ],
             "elv": 131.020203,
-            "id": "GoddessStatue_G16"
+            "id": "GoddessStatue_G10"
           },
           {
             "coords": [
@@ -1419,7 +1371,7 @@
               4262.7251
             ],
             "elv": 105.856796,
-            "id": "GoddessStatue_G17"
+            "id": "GoddessStatue_G11"
           },
           {
             "coords": [
@@ -1427,7 +1379,7 @@
               -1057.92102
             ],
             "elv": -84.2338181,
-            "id": "GoddessStatue_G18"
+            "id": "GoddessStatue_G12"
           },
           {
             "coords": [
@@ -1435,15 +1387,7 @@
               874.841797
             ],
             "elv": 20.3414993,
-            "id": "GoddessStatue_G19"
-          },
-          {
-            "coords": [
-              -2358.99805,
-              874.841797
-            ],
-            "elv": 20.3414993,
-            "id": "GoddessStatue_G20"
+            "id": "GoddessStatue_G13"
           },
           {
             "coords": [
@@ -1451,15 +1395,7 @@
               3760.55103
             ],
             "elv": 6.15619659,
-            "id": "GoddessStatue_G21"
-          },
-          {
-            "coords": [
-              2679.37402,
-              3760.55103
-            ],
-            "elv": 6.15619659,
-            "id": "GoddessStatue_G22"
+            "id": "GoddessStatue_G14"
           },
           {
             "coords": [
@@ -1467,15 +1403,7 @@
               3910.7749
             ],
             "elv": 469.68927,
-            "id": "GoddessStatue_G23"
-          },
-          {
-            "coords": [
-              -1328.29797,
-              3910.7749
-            ],
-            "elv": 469.68927,
-            "id": "GoddessStatue_G24"
+            "id": "GoddessStatue_G15"
           }
         ]
       }
@@ -1489,7 +1417,7 @@
       {
         "minZoom": 5,
         "icon": {
-          "url": "hundsonsign.svg",
+          "url": "hudsonsign.png",
           "width": 24,
           "height": 24
         },
@@ -3239,6 +3167,62 @@
             "id": "Gleeok_G09",
             "name": "Thunder Gleeok",
             "link": "Thunder Gleeok"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Molduga",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 4,
+        "icon": {
+          "url": "skull.png",
+          "width": 36,
+          "height": 36
+        },
+        "markers": [
+          {
+            "coords": [
+              -2800.4209,
+              -4797.125
+            ],
+            "elv": 28.2052002,
+            "id": "Molduga_G00",
+            "name": "Molduga",
+            "link": "Molduga"
+          },
+          {
+            "coords": [
+              -2589.12012,
+              -4029
+            ],
+            "elv": 43.9035034,
+            "id": "Molduga_G01",
+            "name": "Molduga",
+            "link": "Molduga"
+          },
+          {
+            "coords": [
+              -3315.89502,
+              -3323.2019
+            ],
+            "elv": 16.3724976,
+            "id": "Molduga_G02",
+            "name": "Molduga",
+            "link": "Molduga"
+          },
+          {
+            "coords": [
+              -3268.04199,
+              -2401.00293
+            ],
+            "elv": 23.0765991,
+            "id": "Molduga_G03",
+            "name": "Molduga",
+            "link": "Molduga"
           }
         ]
       }
