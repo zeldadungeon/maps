@@ -8,7 +8,7 @@ export class ToastControl extends Control {
 
   public constructor() {
     super({
-      position: "bottomleft",
+      position: "topright",
     });
 
     this.container = DomUtil.create("div", "zd-toast-container");

@@ -59,7 +59,6 @@ body {
 /* CONTROLS */
 
 .zd-controls {
-  height: 100vh;
   display: flex;
   font-family: "Open Sans", sans-serif;
 }
@@ -73,28 +72,29 @@ body {
 }
 
 .zd-controls__dock {
-  height: 100vh;
-  width: 40px;
   background: black;
   display: flex;
-  flex-direction: column;
 }
 
 .zd-controls__dock__group {
-  flex-direction: column;
+  display: flex;
   flex: 1;
 }
 
 .zd-controls__dock__group:nth-child(2) {
-  display: flex;
   justify-content: center;
+}
+
+.zd-controls__dock__group:nth-child(3) {
+  justify-content: end;
+}
+
+.zd-control__button-group {
+  display: flex;
 }
 
 .zd-control__button {
   margin: 5px;
-  padding-top: 2px;
-  width: 30px;
-  height: 28px;
   line-height: 30px;
   font-size: 22px;
   text-align: center;
@@ -105,27 +105,14 @@ body {
   cursor: pointer;
 }
 
-.zd-control__button.selected {
-  border-right: 5px solid white;
-}
-
 .zd-controls__pane-container {
-  width: 0;
-  height: 100%;
   overflow: hidden;
-  background: rgba(0, 0, 0, 0.7);
-  transition: width 0.2s;
-}
-
-.zd-controls__pane-container.visible {
-  width: calc(100vw - 40px);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .zd-control__pane {
   display: none;
   margin: 5px;
-  width: calc(100vw - 50px);
-  height: 100%;
   color: white;
 }
 
@@ -134,13 +121,119 @@ body {
   flex-direction: column;
 }
 
-@media screen and (min-width: 768px) {
+.zd-control__pane h3 {
+  font-size: 14px;
+}
+
+@media (orientation: landscape) {
+  .zd-controls {
+    height: 100dvh;
+  }
+
+  .zd-controls__dock {
+    height: 100dvh;
+    width: 40px;
+    flex-direction: column;
+  }
+
+  .zd-controls__dock__group {
+    flex-direction: column;
+  }
+
+  .zd-control__button-group {
+    flex-direction: column;
+  }
+
+  .zd-control__button {
+    padding-top: 2px;
+    width: 30px;
+    height: 28px;
+  }
+
+  .zd-control__button.selected {
+    border-right: 5px solid white;
+  }
+
+  .zd-controls__pane-container {
+    width: 0;
+    height: 100%;
+    transition: width 0.2s;
+  }
+
   .zd-controls__pane-container.visible {
-    width: 330px;
+    width: calc(100vw - 40px);
   }
 
   .zd-control__pane {
-    width: 320px;
+    width: calc(100vw - 50px);
+    height: 100%;
+  }
+
+  @media (min-width: 768px) {
+    .zd-controls__pane-container.visible {
+      width: 330px;
+    }
+
+    .zd-control__pane {
+      width: 320px;
+    }
+  }
+}
+
+@media (orientation: portrait) {
+  .zd-controls {
+    flex-direction: column-reverse;
+    width: 100dvw;
+  }
+
+  .zd-controls__dock {
+    height: 40px;
+    width: 100dvw;
+    flex-direction: row;
+  }
+
+  .zd-controls__dock__group {
+    flex-direction: row;
+  }
+
+  .zd-control__button-group {
+    flex-direction: row;
+  }
+
+  .zd-control__button {
+    padding-left: 2px;
+    width: 28px;
+    height: 30px;
+  }
+
+  .zd-control__button.selected {
+    margin-top: 0;
+    border-top: 5px solid white;
+  }
+
+  .zd-controls__pane-container {
+    width: 100%;
+    height: 0;
+    transition: height 0.2s;
+  }
+
+  .zd-controls__pane-container.visible {
+    height: calc(100dvh - 40px);
+  }
+
+  .zd-control__pane {
+    width: 100%;
+    height: calc(100dvh - 50px);
+  }
+
+  @media (min-height: 600px) {
+    .zd-controls__pane-container.visible {
+      height: calc(50dvh - 40px);
+    }
+
+    .zd-control__pane {
+      height: calc(50dvh - 50px);
+    }
   }
 }
 
@@ -197,6 +290,10 @@ body {
   overflow-y: auto;
 }
 
+.zd-legend-group {
+  margin-top: 1em;
+}
+
 .zd-legend-group__header {
   display: flex;
   flex-direction: row;
@@ -208,6 +305,7 @@ body {
   //Adds an outline to the text to make it stand out better
   margin: 0px 0px 0px 0px;
   font-family: "HyliaSerif", "OpenSansBold", "Open Sans", sans-serif;
+  font-size: 14px;
   font-weight: lighter !important;
   filter: drop-shadow(-1px -1px 0px #000000) drop-shadow(1px -1px 0px #000000)
     drop-shadow(1px 1px 0px #000000) drop-shadow(-1px 1px 0px #000000);
@@ -266,14 +364,13 @@ body {
 
 .selectable {
   cursor: pointer;
-  box-sizing: border-box;
-  transition: background-color 0.2s;
-  color: rgba($color: #ffffff, $alpha: 0.5);
+  transition: color 0.2s;
+  color: rgba($color: #ffffff, $alpha: 0.7);
 }
 
 .selected {
-  text-decoration: none !important;
   color: rgba($color: #ffffff, $alpha: 1) !important;
+  text-decoration: underline;
 }
 
 /* SETTINGS CONTROL */
@@ -306,7 +403,6 @@ body {
 }
 
 .zd-toast {
-  width: 100%;
   margin: 1em;
   padding: 1em;
   background-color: rgba(0, 0, 0, 0.75);

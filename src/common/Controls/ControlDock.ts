@@ -59,7 +59,7 @@ export class ControlDock extends Control {
     // Add content pane
     this.paneContainer.appendChild(control.getPane());
 
-    if (initShow) {
+    if (initShow && window.innerWidth >= 768) {
       this.showControl(control);
     }
   }
