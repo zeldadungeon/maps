@@ -534,7 +534,7 @@ window.onload = async () => {
   );
   map.addLegend(
     [
-      legendItem("Hudson Sign", "hundsonsign.svg", 24, 24),
+      legendItem("Hudson Sign", "hudsonsign.svg", 24, 24),
       legendItem("Minigames", "minigame.svg", 30, 30),
       legendItem("Cherry Tree", "cherry-blossom.svg", 25, 25),
     ],

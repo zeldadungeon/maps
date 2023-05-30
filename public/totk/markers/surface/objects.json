@@ -1417,7 +1417,7 @@
       {
         "minZoom": 5,
         "icon": {
-          "url": "hudsonsign.png",
+          "url": "hudsonsign.svg",
           "width": 24,
           "height": 24
         },
@@ -3179,9 +3179,9 @@
       {
         "minZoom": 4,
         "icon": {
-          "url": "skull.png",
-          "width": 36,
-          "height": 36
+          "url": "molduga.svg",
+          "width": 25,
+          "height": 25
         },
         "markers": [
           {
