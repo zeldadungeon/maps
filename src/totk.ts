@@ -561,7 +561,7 @@ window.onload = async () => {
     "Bosses"
   );
 
-  const jsonVer = 1;
+  const jsonVer = 2;
 
   function addJson(layer: MapLayer, path: string): Promise<void> {
     return fetch(`${import.meta.env.BASE_URL}totk/markers/${path}?v=${jsonVer}`)
