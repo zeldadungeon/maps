@@ -505,6 +505,11 @@ window.onload = async () => {
     [
       legendItem("Korok Seed", "korok", 27, 27),
       legendItem("Treasure Chest", "treasure", 27, 21),
+      legendItem("Sage's Will", "sageswill", 27, 21),
+      legendItem("Old Map", "oldmap", 27, 21),
+      legendItem("Armor", "treasurearmor", 27, 21),
+      legendItem("Unique Weapon", "treasureweapon", 27, 21),
+      legendItem("Yiga Schematic", "schematic", 27, 21),
     ],
     "Colectibles"
   );
@@ -524,6 +529,7 @@ window.onload = async () => {
       legendItem("General Store", "general", 29, 29),
       legendItem("Armor Shop", "armor", 29, 29),
       legendItem("Bargainer Statue", "bargainer", 29, 29),
+      legendItem("Koltin Balloon", "monster", 29, 29),
       legendItem("Other Shops", "othershops", 29, 29),
       legendItem("Great Fairy", "fountain", 36, 36),
       legendItem("Device Dispenser", "dispenser", 36, 36),
@@ -550,6 +556,7 @@ window.onload = async () => {
       legendItem("Lynel", "lynel", 29, 30),
       legendItem("Molduga", "molduga.svg", 25, 25),
       legendItem("Gloom Spawn", "hand-solid.svg", 25, 25),
+      legendItem("Dungeon Boss", "skull", 36, 36),
     ],
     "Bosses"
   );
