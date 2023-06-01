@@ -12,7 +12,7 @@ export class ControlPane {
   protected container: HTMLElement;
   private button: HTMLElement;
 
-  public constructor(options: Options) {
+  protected constructor(options: Options) {
     this.button = DomUtil.create("div", "zd-control__button");
     if (options.icon.startsWith("fa-")) {
       DomUtil.create("i", `fa ${options.icon}`, this.button);

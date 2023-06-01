@@ -1,6 +1,7 @@
-import { Browser, Control, DomEvent, DomUtil } from "leaflet";
+import { Control, DomEvent, DomUtil } from "leaflet";
 import { ControlPane } from "./ControlPane";
-import { LayersControl } from "common/Controls/LayersControl";
+import { LayersControl } from "./LayersControl";
+import { LocalStorage } from "../LocalStorage";
 import { ZoomControl } from "./ZoomControl";
 
 /**
@@ -14,7 +15,7 @@ export class ControlDock extends Control {
   private paneContainer: HTMLElement;
   private controls: ControlPane[] = [];
 
-  public constructor() {
+  public constructor(private settingsStore: LocalStorage) {
     super({
       position: "bottomleft",
     });
@@ -51,15 +52,21 @@ export class ControlDock extends Control {
       if (DomUtil.hasClass(button, "selected")) {
         control.close();
         DomUtil.removeClass(this.paneContainer, "visible");
+        this.settingsStore.setItem("OpenControlPane", "None");
       } else {
         this.showControl(control);
+        this.settingsStore.setItem("OpenControlPane", button.title);
       }
     });
 
     // Add content pane
     this.paneContainer.appendChild(control.getPane());
 
-    if (initShow && window.innerWidth >= 768) {
+    const initOpenControlPane = this.settingsStore.getItem("OpenControlPane");
+    if (
+      initOpenControlPane === button.title ||
+      (initOpenControlPane == undefined && initShow && window.innerWidth >= 768)
+    ) {
       this.showControl(control);
     }
   }

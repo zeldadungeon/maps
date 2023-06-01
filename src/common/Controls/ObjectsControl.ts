@@ -1,5 +1,6 @@
 import { DomEvent, DomUtil } from "leaflet";
 import { ControlPane } from "./ControlPane";
+import { LocalStorage } from "../LocalStorage";
 
 export interface ObjectGroup {
   groupName: string;
@@ -33,6 +34,7 @@ export class ObjectsControl extends ControlPane {
 
   public constructor(
     options: Options,
+    private settingsStore: LocalStorage,
     private onSelectionChanged: (selectedObjects: {
       [key: string]: boolean;
     }) => void
@@ -42,6 +44,13 @@ export class ObjectsControl extends ControlPane {
       title: options.title,
     });
 
+    const visibleGroups = <string[]>(
+      (settingsStore.getItem("Objects-VisibleGroups") ?? [])
+    );
+    const initSelected = <string[]>(
+      (settingsStore.getItem("Objects-Selected") ?? [])
+    );
+
     DomUtil.create("h3", "zd-control__title", this.container).innerText =
       options.title;
 
@@ -50,25 +59,64 @@ export class ObjectsControl extends ControlPane {
     for (const grouping of options.groupings) {
       const tab = DomUtil.create("li", "zd-tab selectable", tabContainer);
       tab.innerText = grouping.groupingName;
+      DomEvent.addListener(tab, "click", () => {
+        if (!DomUtil.hasClass(tab, "selected")) {
+          for (const groupingTabAndContent of groupingTabsAndContents) {
+            DomUtil.removeClass(groupingTabAndContent.tab, "selected");
+            DomUtil.removeClass(groupingTabAndContent.content, "visible");
+          }
+          DomUtil.addClass(tab, "selected");
+          DomUtil.addClass(content, "visible");
+          settingsStore.setItem("Objects-SelectedTab", grouping.groupingName);
+        }
+      });
 
       const content = DomUtil.create(
         "ul",
         "zd-legend__categories hideable",
         this.container
       );
+
+      const initTab = settingsStore.getItem("Objects-SelectedTab");
+      if (
+        initTab === grouping.groupingName ||
+        (initTab == undefined && grouping === options.groupings[0]) // open the first one by default
+      ) {
+        DomUtil.addClass(tab, "selected");
+        DomUtil.addClass(content, "visible");
+      }
+
       for (const group of grouping.groups) {
+        const initVisible = visibleGroups.includes(group.groupName);
         const groupListItem = DomUtil.create("li", "zd-legend-group", content);
+
         const groupListItemHeader = DomUtil.create(
           "div",
           "zd-legend-group__header",
           groupListItem
         );
+
         const groupListDropdown = DomUtil.create(
           "p",
           "zd-legend-group__dropdown toggleable",
           groupListItemHeader
         );
-        groupListDropdown.innerText = "▶";
+        DomEvent.addListener(groupListDropdown, "click", () => {
+          if (groupListDropdown.innerText == "▶") {
+            DomUtil.addClass(groupObjects, "visible");
+            groupListDropdown.innerText = "▼";
+            visibleGroups.push(group.groupName);
+          } else {
+            DomUtil.removeClass(groupObjects, "visible");
+            groupListDropdown.innerText = "▶";
+            const index = visibleGroups.indexOf(group.groupName, 0);
+            if (index != -1) {
+              visibleGroups.splice(index, 1);
+            }
+          }
+          settingsStore.setItem("Objects-VisibleGroups", visibleGroups);
+        });
+
         const groupName = DomUtil.create(
           "p",
           "zd-legend-group__title toggleable",
@@ -95,6 +143,14 @@ export class ObjectsControl extends ControlPane {
           "zd-legend-group__body",
           groupListItem
         );
+
+        if (initVisible) {
+          groupListDropdown.innerText = "▼";
+          DomUtil.addClass(groupObjects, "visible");
+        } else {
+          groupListDropdown.innerText = "▶";
+        }
+
         for (const objectName of group.objectNames) {
           const objectNameListItem = DomUtil.create(
             "li",
@@ -108,6 +164,11 @@ export class ObjectsControl extends ControlPane {
           }
           this.objectElements[objectName].push(objectNameListItem);
 
+          if (initSelected.includes(objectName)) {
+            this.selectObject(objectName, false);
+            DomUtil.addClass(groupName, "toggled-on");
+          }
+
           DomEvent.addListener(objectNameListItem, "click", () => {
             if (DomUtil.hasClass(objectNameListItem, "selected")) {
               this.deselectObject(objectName);
@@ -116,49 +177,36 @@ export class ObjectsControl extends ControlPane {
             }
           });
         }
-
-        DomEvent.addListener(groupListDropdown, "click", () => {
-          if (groupListDropdown.innerText == "▶") {
-            DomUtil.addClass(groupObjects, "visible");
-            groupListDropdown.innerText = "▼";
-          } else {
-            DomUtil.removeClass(groupObjects, "visible");
-            groupListDropdown.innerText = "▶";
-          }
-        });
       }
 
-      DomEvent.addListener(tab, "click", () => {
-        if (!DomUtil.hasClass(tab, "selected")) {
-          for (const groupingTabAndContent of groupingTabsAndContents) {
-            DomUtil.removeClass(groupingTabAndContent.tab, "selected");
-            DomUtil.removeClass(groupingTabAndContent.content, "visible");
-          }
-          DomUtil.addClass(tab, "selected");
-          DomUtil.addClass(content, "visible");
-          // TODO save to settingsStore
-        }
-      });
       groupingTabsAndContents.push({ tab, content });
     }
-
-    // TODO load from settingsStore
-    DomUtil.addClass(groupingTabsAndContents[0].tab, "selected");
-    DomUtil.addClass(groupingTabsAndContents[0].content, "visible");
   }
 
-  private selectObject(objectName: string): void {
+  private selectObject(objectName: string, save = true): void {
     this.selectedObjects[objectName] = true;
     for (const element of this.objectElements[objectName]) {
       DomUtil.addClass(element, "selected");
     }
+    if (save) {
+      this.settingsStore.setItem(
+        "Objects-Selected",
+        Object.keys(this.selectedObjects).filter((k) => this.selectedObjects[k])
+      );
+    }
     this.onSelectionChanged(this.selectedObjects);
   }
 
-  private deselectObject(objectName: string): void {
+  private deselectObject(objectName: string, save = true): void {
     this.selectedObjects[objectName] = false;
     for (const element of this.objectElements[objectName]) {
       DomUtil.removeClass(element, "selected");
+    }
+    if (save) {
+      this.settingsStore.setItem(
+        "Objects-Selected",
+        Object.keys(this.selectedObjects).filter((k) => this.selectedObjects[k])
+      );
     }
     this.onSelectionChanged(this.selectedObjects);
   }

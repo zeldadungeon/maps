@@ -1,6 +1,7 @@
 import { DomEvent, DomUtil } from "leaflet";
 import { ControlPane } from "./ControlPane";
 import { ICategory } from "../ICategory";
+import { LocalStorage } from "../LocalStorage";
 import { MapLayer } from "../MapLayer";
 import { faFilter } from "@fortawesome/free-solid-svg-icons/faFilter";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -11,6 +12,8 @@ interface LegendItem {
   category: ICategory;
   li: HTMLElement;
 }
+
+type SelectedCategoriesSetting = undefined | "All" | "None" | string[];
 
 /**
  * Control that allows the user to filter which location markers are visible
@@ -23,11 +26,18 @@ export class FilterControl extends ControlPane {
   private allNoneUL: HTMLElement;
   private categories = <LegendItem[]>[];
 
-  public constructor(private mapLayers: MapLayer[]) {
+  public constructor(
+    private mapLayers: MapLayer[],
+    private settingsStore: LocalStorage
+  ) {
     super({
       icon: "fa-filter",
       title: "Filter",
     });
+
+    const selectedCategories = <SelectedCategoriesSetting>(
+      settingsStore.getItem("Filter-Selected")
+    );
 
     DomUtil.create("h3", "zd-control__title", this.container).innerText =
       "Filter Markers";
@@ -38,41 +48,36 @@ export class FilterControl extends ControlPane {
       "zd-legend__categories",
       this.container
     );
-    this.all = DomUtil.create(
-      "li",
-      "zd-tab selectable selected",
-      this.allNoneUL
-    );
+    this.all = DomUtil.create("li", "zd-tab selectable", this.allNoneUL);
     this.all.innerText = "All";
     this.none = DomUtil.create("li", "zd-tab selectable", this.allNoneUL);
     this.none.innerText = "None";
 
+    if (selectedCategories == undefined || selectedCategories === "All") {
+      // this is the initial state, so don't need to call showAll(), just set the All button's class.
+      DomUtil.addClass(this.all, "selected");
+    } else if (selectedCategories === "None") {
+      this.showNone();
+    }
+
     DomEvent.addListener(this.all, "click", () => {
-      if (!DomUtil.hasClass(this.all, "selected")) {
-        DomUtil.addClass(this.all, "selected");
-        DomUtil.removeClass(this.none, "selected");
-        this.categories.forEach((c) => {
-          DomUtil.removeClass(c.li, "selected");
-          this.mapLayers.forEach((l) =>
-            l.resetCategoryVisibility(c.category.name)
-          );
-        });
-      }
+      this.showAll();
+      settingsStore.setItem("Filter-Selected", "All");
     });
 
     DomEvent.addListener(this.none, "click", () => {
-      if (!DomUtil.hasClass(this.none, "selected")) {
-        DomUtil.addClass(this.none, "selected");
-        DomUtil.removeClass(this.all, "selected");
-        this.categories.forEach((c) => {
-          DomUtil.removeClass(c.li, "selected");
-          this.mapLayers.forEach((l) => l.hideCategory(c.category.name));
-        });
-      }
+      this.showNone();
+      settingsStore.setItem("Filter-Selected", "None");
     });
   }
 
   public addGroup(category: ICategory | null): void {
+    const hiddenGroups = <string[]>(
+      (this.settingsStore.getItem("Filter-Collapsed") ?? [])
+    );
+    const initHidden =
+      category?.group != undefined && hiddenGroups.includes(category.group);
+
     //Check if group defined
     const groupLi = DomUtil.create("li", "zd-legend-group", this.categoryList);
     if (category === null) {
@@ -94,11 +99,10 @@ export class FilterControl extends ControlPane {
       "zd-legend-group__title",
       groupHeader
     );
-    const groupBody = DomUtil.create(
-      "ul",
-      "zd-legend-group__body visible",
-      groupDiv
-    );
+    const groupBody = DomUtil.create("ul", "zd-legend-group__body", groupDiv);
+    if (!initHidden) {
+      DomUtil.addClass(groupBody, "visible");
+    }
     //Add group to group array
     this.groupLiArr.push(groupLi);
 
@@ -108,8 +112,12 @@ export class FilterControl extends ControlPane {
       groupHeaderTitle.innerText = category.group || "Undefined Group";
       groupHeaderTitle.style.textAlign = "center";
       groupHeaderTitle.style.fontWeight = "bold";
-      groupHeaderDropdown.innerText = "▼";
-      DomUtil.addClass(groupHeaderDropdown, "toggled-on");
+      if (!initHidden) {
+        groupHeaderDropdown.innerText = "▼";
+        DomUtil.addClass(groupHeaderDropdown, "toggled-on");
+      } else {
+        groupHeaderDropdown.innerText = "▶";
+      }
       //Add clickable title to disable/enable all categories in group
       DomEvent.addListener(groupHeaderTitle, "click", () => {
         //Check if any category in group is selected
@@ -127,6 +135,13 @@ export class FilterControl extends ControlPane {
               this.mapLayers.forEach((l) => l.hideCategory(c.category.name));
             }
           });
+
+          //If no categories are selected now, select None
+          if (
+            !this.categories.some((c) => DomUtil.hasClass(c.li, "selected"))
+          ) {
+            DomUtil.addClass(this.none, "selected");
+          }
         } else {
           //Hide everything
           if (DomUtil.hasClass(this.all, "selected")) {
@@ -149,6 +164,8 @@ export class FilterControl extends ControlPane {
           DomUtil.removeClass(this.all, "selected");
           DomUtil.removeClass(this.none, "selected");
         }
+
+        this.saveCategorySelection();
       });
       //Add click event to group for dropdown functionality
       DomEvent.addListener(groupHeaderDropdown, "click", () => {
@@ -158,17 +175,32 @@ export class FilterControl extends ControlPane {
           DomUtil.removeClass(groupHeaderDropdown, "toggled-on");
           groupHeaderDropdown.innerText = "▶";
           DomUtil.removeClass(groupBody, "visible");
+          if (category.group != undefined) {
+            hiddenGroups.push(category.group);
+            this.settingsStore.setItem("Filter-Collapsed", hiddenGroups);
+          }
         } else {
           //Toggle group on
           DomUtil.addClass(groupHeaderDropdown, "toggled-on");
           groupHeaderDropdown.innerText = " ▼";
           DomUtil.addClass(groupBody, "visible");
+          if (category.group != undefined) {
+            const groupIndex = hiddenGroups.indexOf(category.group, 0);
+            if (groupIndex != -1) {
+              hiddenGroups.splice(groupIndex, 1);
+              this.settingsStore.setItem("Filter-Collapsed", hiddenGroups);
+            }
+          }
         }
       });
     }
   }
 
   public addCategory(category: ICategory, group?: string): void {
+    const selectedCategories = <SelectedCategoriesSetting>(
+      this.settingsStore.getItem("Filter-Selected")
+    );
+
     //Check if group is defined
     if (group != undefined) {
       //Set this category group
@@ -214,6 +246,17 @@ export class FilterControl extends ControlPane {
 
     this.categories.push({ category, li });
 
+    // initialize it
+    if (
+      Array.isArray(selectedCategories) &&
+      selectedCategories.includes(category.name)
+    ) {
+      DomUtil.addClass(li, "selected");
+      this.mapLayers.forEach((l) => l.categoryStartsVisible(category.name));
+    } else if (selectedCategories !== "All") {
+      this.mapLayers.forEach((l) => l.categoryStartsHidden(category.name));
+    }
+
     // activate it
     DomEvent.addListener(li, "click", () => {
       if (DomUtil.hasClass(li, "selected")) {
@@ -239,6 +282,8 @@ export class FilterControl extends ControlPane {
         }
         DomUtil.removeClass(this.none, "selected");
       }
+
+      this.saveCategorySelection();
     });
 
     // insert it
@@ -264,6 +309,45 @@ export class FilterControl extends ControlPane {
   }
 
   public reset(): void {
-    this.all.click();
+    this.showAll();
+  }
+
+  private showAll(): void {
+    if (!DomUtil.hasClass(this.all, "selected")) {
+      DomUtil.addClass(this.all, "selected");
+      DomUtil.removeClass(this.none, "selected");
+      this.categories.forEach((c) => {
+        DomUtil.removeClass(c.li, "selected");
+        this.mapLayers.forEach((l) =>
+          l.resetCategoryVisibility(c.category.name)
+        );
+      });
+    }
+  }
+
+  private showNone(): void {
+    if (!DomUtil.hasClass(this.none, "selected")) {
+      DomUtil.addClass(this.none, "selected");
+      DomUtil.removeClass(this.all, "selected");
+      this.categories.forEach((c) => {
+        DomUtil.removeClass(c.li, "selected");
+        this.mapLayers.forEach((l) => l.hideCategory(c.category.name));
+      });
+    }
+  }
+
+  private saveCategorySelection(): void {
+    if (DomUtil.hasClass(this.all, "selected")) {
+      this.settingsStore.setItem("Filter-Selected", "All");
+    } else if (DomUtil.hasClass(this.none, "selected")) {
+      this.settingsStore.setItem("Filter-Selected", "None");
+    } else {
+      this.settingsStore.setItem(
+        "Filter-Selected",
+        this.categories
+          .filter((c) => DomUtil.hasClass(c.li, "selected"))
+          .map((c) => c.category.name)
+      );
+    }
   }
 }

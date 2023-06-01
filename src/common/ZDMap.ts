@@ -10,6 +10,7 @@ import { Dialog } from "./Dialog";
 import { FilterControl } from "./Controls/FilterControl";
 import { ICategory } from "./ICategory";
 import { LayersControl } from "./Controls/LayersControl";
+import { LocalStorage } from "./LocalStorage";
 import { MapLayer } from "./MapLayer";
 import { params } from "./QueryParameters";
 import { SearchControl } from "./Controls/SearchControl";
@@ -192,7 +193,8 @@ export class ZDMap extends Map {
     tags: string[] = [],
     objectCategories: ObjectsControlOptions[] = []
   ): void {
-    const controls = new ControlDock();
+    const settingsStore = LocalStorage.getStore(this.directory, "settings");
+    const controls = new ControlDock(settingsStore);
     controls.addTo(this);
 
     // Search
@@ -201,7 +203,7 @@ export class ZDMap extends Map {
     );
 
     // Filter
-    this.filterControl = new FilterControl(this.layers);
+    this.filterControl = new FilterControl(this.layers, settingsStore);
     controls.addControl(this.filterControl, true);
 
     // Objects
@@ -211,7 +213,7 @@ export class ZDMap extends Map {
           cat.icon
         }.png`;
         controls.addControl(
-          new ObjectsControl(cat, (selectedObjects) =>
+          new ObjectsControl(cat, settingsStore, (selectedObjects) =>
             this.layers.forEach((l) => l.updateSelectedObjects(selectedObjects))
           )
         );
@@ -222,7 +224,7 @@ export class ZDMap extends Map {
     tags.push("Completed");
     this.settingsControl = new SettingsControl(
       this.wiki,
-      this.directory,
+      settingsStore,
       this.layers,
       tags
     );

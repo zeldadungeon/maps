@@ -16,7 +16,7 @@ export class SettingsControl extends ControlPane {
 
   public constructor(
     private wiki: WikiConnector,
-    directory: string,
+    settingsStore: LocalStorage,
     layers: MapLayer[],
     tags: string[]
   ) {
@@ -24,8 +24,6 @@ export class SettingsControl extends ControlPane {
       icon: "fa-cog",
       title: "Settings",
     });
-
-    const settingsStore = LocalStorage.getStore(directory, "settings");
 
     DomUtil.create("h3", "zd-control__title", this.container).innerText =
       "Settings";

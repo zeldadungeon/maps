@@ -1,10 +1,11 @@
 import { Layer, Visibility } from "./Layer";
 import { CircleMarker, DivIcon, LayerGroup, Point } from "leaflet";
+import { LocalStorage } from "./LocalStorage";
 import { MarkerContainer } from "./MarkerContainer";
+import { ObjectCategory } from "./JSONSchema";
 import { TileLayer } from "leaflet";
 import { ZDMap } from "./ZDMap";
 import { ZDMarker } from "./ZDMarker";
-import { ObjectCategory } from "./JSONSchema";
 import "leaflet.markercluster";
 
 export class MapLayer extends LayerGroup {
@@ -13,10 +14,12 @@ export class MapLayer extends LayerGroup {
   public iconUrl: string;
   public enabledIconUrl?: string;
   private categories: Record<string, Layer[]> = {};
+  private initialCategoryState: Record<string, Visibility> = {};
   private tileMarkerContainers: MarkerContainer[][][] = [];
   private taggedMarkerContainers: Record<string, MarkerContainer> = {};
   private objectGroups: Record<string, LayerGroup> = {};
   private currentZoom = 0;
+  private selectedObjects: string[];
 
   public constructor(
     private map: ZDMap,
@@ -28,6 +31,8 @@ export class MapLayer extends LayerGroup {
     bounds: L.LatLngBounds
   ) {
     super();
+    const settingsStore = LocalStorage.getStore(this.map.directory, "settings");
+    this.selectedObjects = settingsStore.getItem("Objects-Selected");
     this.iconUrl = `${import.meta.env.BASE_URL}${
       map.directory
     }/icons/${layerId}.png`;
@@ -79,6 +84,11 @@ export class MapLayer extends LayerGroup {
   public addCategory(categoryName: string, layers: Layer[]): void {
     this.categories[categoryName] = layers;
     layers.forEach((l) => {
+      if (this.initialCategoryState[categoryName] === Visibility.On) {
+        l.forceShow();
+      } else if (this.initialCategoryState[categoryName] === Visibility.Off) {
+        l.forceHide();
+      }
       this.updateLayerVisibility(l);
       l.markers.forEach((m) => {
         this.addMarker(m, this.map.project(m.getLatLng(), 0));
@@ -174,6 +184,14 @@ export class MapLayer extends LayerGroup {
     container?.getMarkers().forEach(this.updateMarkerVisibility.bind(this));
   }
 
+  public categoryStartsVisible(categoryName: string): void {
+    this.initialCategoryState[categoryName] = Visibility.On;
+  }
+
+  public categoryStartsHidden(categoryName: string): void {
+    this.initialCategoryState[categoryName] = Visibility.Off;
+  }
+
   public showCategory(categoryName: string): void {
     this.categories[categoryName]?.forEach((l) => {
       l.forceShow();
@@ -236,6 +254,9 @@ export class MapLayer extends LayerGroup {
         new CircleMarker(coords, { color: hsl, radius: 5 })
           .bindTooltip(category.name)
           .addTo(layerGroup);
+      }
+      if (this.selectedObjects.includes(category.name)) {
+        this.markerLayer.addLayer(layerGroup);
       }
     }
   }
