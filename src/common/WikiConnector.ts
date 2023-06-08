@@ -284,7 +284,8 @@ export class WikiConnector {
 
   public async setCompletion(markers: string[]): Promise<void> {
     return this.postWithRetry(
-      `action=map_setcompletion&map=${this.mapid}&markers=${
+      `action=map_setcompletion&map=${this.mapid}`,
+      `markers=${
         markers.map((m) => m.replace(",", "%252C")).join(",") || "clear"
       }`
     );
@@ -294,10 +295,13 @@ export class WikiConnector {
     return this.callApi<ResponseType>(query);
   }
 
-  private async postWithRetry<ResponseType>(query: string): Promise<void> {
+  private async postWithRetry<ResponseType>(
+    query: string,
+    body: string | undefined = undefined
+  ): Promise<void> {
     try {
       if (this.csrf) {
-        const response1 = await this.post<ResponseType>(query);
+        const response1 = await this.post<ResponseType>(query, body);
         if (!responseIsError(response1)) {
           return;
         }
@@ -314,7 +318,7 @@ export class WikiConnector {
       }
 
       await this.getToken();
-      const response2 = await this.post<ResponseType>(query);
+      const response2 = await this.post<ResponseType>(query, body);
       if (responseIsError(response2)) {
         if (response2.error.code === "readonly") {
           this.showDialog(
@@ -333,14 +337,17 @@ export class WikiConnector {
   }
 
   private async post<ResponseType>(
-    query: string
+    query: string,
+    body: string | undefined = undefined
   ): Promise<ResponseType | ErrorResponse> {
     return this.callApi<ResponseType | ErrorResponse>(query, {
       method: "POST",
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",
       },
-      body: `token=${encodeURIComponent(this.csrf || "")}`, // TODO refactor token handling to ensure it is not undefined here
+      body: `token=${encodeURIComponent(this.csrf || "")}${
+        body ? `&${body}` : ""
+      }`, // TODO refactor token handling to ensure it is not undefined here
     });
   }
 
