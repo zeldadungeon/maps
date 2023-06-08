@@ -253,7 +253,10 @@ export class FilterControl extends ControlPane {
     ) {
       DomUtil.addClass(li, "selected");
       this.mapLayers.forEach((l) => l.categoryStartsVisible(category.name));
-    } else if (selectedCategories !== "All") {
+    } else if (
+      selectedCategories !== undefined &&
+      selectedCategories !== "All"
+    ) {
       this.mapLayers.forEach((l) => l.categoryStartsHidden(category.name));
     }
 
