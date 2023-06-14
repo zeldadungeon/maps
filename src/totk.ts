@@ -496,7 +496,7 @@ window.onload = async () => {
       legendItem("Shrine Quest", "shrinequest", 25, 29),
       legendItem("Side Quest", "sidequest", 27, 21),
       legendItem("Quest Objective", "objective", 13, 13),
-      legendItem("Dragon Tear", "tear", 31, 36),
+      legendItem("Dragon's Tear", "tear", 31, 36),
       legendItem("Zonai Relief", "relief", 27, 27),
     ],
     "Quests"
