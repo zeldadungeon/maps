@@ -1,5 +1,5 @@
 import * as ZDCRS from "./ZDCRS";
-import { LatLngBounds, Map, Marker, Point } from "leaflet";
+import { LatLngBounds, Map, Point } from "leaflet";
 import {
   ObjectsControl,
   Options as ObjectsControlOptions,
@@ -19,9 +19,7 @@ import { ToastControl } from "./ToastControl";
 import { WikiConnector } from "./WikiConnector";
 import { ZDMarker } from "./ZDMarker";
 import { ZoomControl } from "./Controls/ZoomControl";
-import markerIconUrl from "leaflet/dist/images/marker-icon.png";
-import markerIconRetinaUrl from "leaflet/dist/images/marker-icon-2x.png";
-import markerShadowUrl from "leaflet/dist/images/marker-shadow.png";
+import { ZDHandler } from "./Handlers/ZDHandler";
 
 dom.watch();
 
@@ -123,42 +121,9 @@ export class ZDMap extends Map {
       map.updateUrl();
     });
 
-    const tempMarker = new Marker([0, 0], { draggable: true }).bindPopup("");
-    if (import.meta.env.PROD) {
-      // Fix Vite not resolving icon url from node_modules/leaflet/dist
-      tempMarker.getIcon().options.iconUrl = markerIconUrl;
-      tempMarker.getIcon().options.iconRetinaUrl = markerIconRetinaUrl;
-      tempMarker.getIcon().options.shadowUrl = markerShadowUrl;
-    }
-    const wikiContributeLink = `<a target="_blank" href="https://zeldadungeon.net/wiki/Zelda Dungeon:${options.gameTitle} Map">Contribute Marker</a>`;
     map.on("click", (e) => {
       console.log(e.latlng);
       map.panTo(e.latlng);
-      // for now, enable temp marker for totk
-      if (options.directory === "totk") {
-        tempMarker
-          .setLatLng(e.latlng)
-          .addTo(map)
-          .setPopupContent(
-            `{{Pin|${Math.round(e.latlng.lng)}|${Math.round(
-              e.latlng.lat
-            )}||&lt;name&gt;}}<br />${wikiContributeLink}`
-          )
-          .openPopup();
-      }
-    });
-    tempMarker.on("drag", (e) => {
-      const latlng = tempMarker.getLatLng();
-      tempMarker
-        .setPopupContent(
-          `{{Pin|${Math.round(latlng.lng)}|${Math.round(
-            latlng.lat
-          )}||&lt;name&gt;}}<br />${wikiContributeLink}`
-        )
-        .openPopup();
-    });
-    tempMarker.on("click", (e) => {
-      tempMarker.removeFrom(map);
     });
 
     return map;
@@ -191,7 +156,8 @@ export class ZDMap extends Map {
 
   public addControls(
     tags: string[] = [],
-    objectCategories: ObjectsControlOptions[] = []
+    objectCategories: ObjectsControlOptions[] = [],
+    handlers: ZDHandler[] = []
   ): void {
     const settingsStore = LocalStorage.getStore(this.directory, "settings");
     const controls = new ControlDock(settingsStore);
@@ -226,7 +192,8 @@ export class ZDMap extends Map {
       this.wiki,
       settingsStore,
       this.layers,
-      tags
+      tags,
+      handlers
     );
     controls.addControl(this.settingsControl);
 
