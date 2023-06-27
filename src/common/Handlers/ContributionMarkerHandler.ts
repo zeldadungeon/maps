@@ -42,7 +42,6 @@ export class ContributionMarkerHandler extends ZDHandler {
   }
 
   private displayMarker(e: LeafletMouseEvent) {
-    console.log("display marker");
     this.setPopupContent(e.latlng);
     this.contributionMarker.setLatLng(e.latlng).addTo(this.map).openPopup();
   }
