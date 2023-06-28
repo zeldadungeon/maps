@@ -710,7 +710,7 @@ window.onload = async () => {
     addWiki(depths, "Wiki", "Depths Markers", "temp", "flag", 25, 28, 2),
   ]);
 
-  await map.initializeWikiConnector();
+  await map.initializeWikiConnector().catch((ex) => console.log(ex));
 
   await Promise.allSettled([
     addObjects(surface, "surface/materials.json"),
