@@ -6,6 +6,7 @@ Published maps:
 
 - https://www.zeldadungeon.net/breath-of-the-wild-interactive-map
 - https://www.zeldadungeon.net/links-awakening-interactive-map
+- https://www.zeldadungeon.net/tears-of-the-kingdom-interactive-map
 
 ## Contributing
 
