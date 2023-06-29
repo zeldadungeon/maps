@@ -11,7 +11,7 @@ export class ContributionMarkerHandler extends ZDHandler {
     draggable: true,
   }).bindPopup("");
   constructor(protected map: ZDMap, private zdMapOptions: ZDMapOptions) {
-    super(map);
+    super();
     if (import.meta.env.PROD) {
       // Fix Vite not resolving icon url from node_modules/leaflet/dist
       this.contributionMarker.getIcon().options.iconUrl = markerIconUrl;
