@@ -3,7 +3,8 @@ import * as Schema from "./common/JSONSchema";
 import { ICategory } from "./common/ICategory";
 import { Layer } from "./common/Layer";
 import { MapLayer } from "./common/MapLayer";
-import { ZDMap } from "./common/ZDMap";
+import { ZDMap, ZDMapOptions } from "./common/ZDMap";
+import { ContributionMarkerHandler } from "./common/Handlers/ContributionMarkerHandler";
 
 window.onload = async () => {
   function legendItem(
@@ -32,14 +33,16 @@ window.onload = async () => {
     };
   }
 
-  const map = ZDMap.create({
+  const options: ZDMapOptions = {
     directory: "totk",
     gameTitle: "Tears of the Kingdom",
     mapSizePixels: 36096,
     mapSizeCoords: 12032,
     tileSizePixels: 564,
     center: [101, -255],
-  });
+  };
+
+  const map = ZDMap.create(options);
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const sky = map.addMapLayer("Sky", "sky", "sky-selected", false);
   const surface = map.addMapLayer(
@@ -476,7 +479,8 @@ window.onload = async () => {
           },
         ],
       },
-    ]
+    ],
+    [new ContributionMarkerHandler(map, options)]
   );
   map.addLegend(
     [

@@ -5,8 +5,65 @@ import { MapLayer } from "../MapLayer";
 import { LocalStorage } from "../LocalStorage";
 import { faCog } from "@fortawesome/free-solid-svg-icons/faCog";
 import { library } from "@fortawesome/fontawesome-svg-core";
+import { ZDHandler } from "common/Handlers/ZDHandler";
 
 library.add(faCog);
+
+type ToggleableSettingsRowConfig = {
+  settingsContent: HTMLTableElement;
+  onText: string;
+  offText: string;
+  tag: string;
+  settingsStore: LocalStorage;
+  settingsStoreKey: string;
+  offByDefault: boolean;
+  handleToggleOn: () => void;
+  handleToggleOff: () => void;
+};
+function createToggleableSettingsRow({
+  settingsContent,
+  onText,
+  offText,
+  tag,
+  settingsStore,
+  settingsStoreKey,
+  offByDefault,
+  handleToggleOn,
+  handleToggleOff,
+}: ToggleableSettingsRowConfig) {
+  const row = DomUtil.create("tr", "zd-settings__setting", settingsContent);
+  const on = DomUtil.create("td", "zd-settings__button selectable", row);
+  on.innerText = onText;
+  const off = DomUtil.create("td", "zd-settings__button selectable", row);
+  off.innerText = offText;
+  const label = DomUtil.create("th", "zd-settings__label", row);
+  label.innerText = tag;
+
+  const settingValue = settingsStore.getItem<boolean>(settingsStoreKey);
+  if (settingValue === false || (offByDefault && settingValue !== true)) {
+    DomUtil.addClass(off, "selected");
+  } else {
+    handleToggleOn();
+    DomUtil.addClass(on, "selected");
+  }
+
+  DomEvent.addListener(on, "click", () => {
+    if (!DomUtil.hasClass(on, "selected")) {
+      DomUtil.removeClass(off, "selected");
+      DomUtil.addClass(on, "selected");
+      handleToggleOn();
+      settingsStore.setItem(settingsStoreKey, true);
+    }
+  });
+  DomEvent.addListener(off, "click", () => {
+    if (!DomUtil.hasClass(off, "selected")) {
+      DomUtil.removeClass(on, "selected");
+      DomUtil.addClass(off, "selected");
+      handleToggleOff();
+      settingsStore.setItem(settingsStoreKey, false);
+    }
+  });
+}
 
 /**
  * Settings control
@@ -18,7 +75,8 @@ export class SettingsControl extends ControlPane {
     private wiki: WikiConnector,
     settingsStore: LocalStorage,
     layers: MapLayer[],
-    tags: string[]
+    tags: string[],
+    handlers: ZDHandler[]
   ) {
     super({
       icon: "fa-cog",
@@ -47,40 +105,36 @@ export class SettingsControl extends ControlPane {
     });
 
     tags.forEach((tag) => {
-      const row = DomUtil.create("tr", "zd-settings__setting", settingsContent);
-      const show = DomUtil.create("td", "zd-settings__button selectable", row);
-      show.innerText = "Show";
-      const hide = DomUtil.create("td", "zd-settings__button selectable", row);
-      hide.innerText = "Hide";
-      const label = DomUtil.create("th", "zd-settings__label", row);
-      label.innerText = tag;
-
-      const settingValue = settingsStore.getItem<boolean>(`show-${tag}`);
-      if (
-        settingValue === false ||
-        (tag === "Completed" && settingValue !== true) // Completed is hidden by default
-      ) {
-        DomUtil.addClass(hide, "selected");
-      } else {
+      const handleToggleOn = () =>
         layers.forEach((l) => l.showTaggedMarkers(tag));
-        DomUtil.addClass(show, "selected");
-      }
-
-      DomEvent.addListener(show, "click", () => {
-        if (!DomUtil.hasClass(show, "selected")) {
-          DomUtil.removeClass(hide, "selected");
-          DomUtil.addClass(show, "selected");
-          layers.forEach((l) => l.showTaggedMarkers(tag));
-          settingsStore.setItem(`show-${tag}`, true);
-        }
+      const handleToggleOff = () =>
+        layers.forEach((l) => l.hideTaggedMarkers(tag));
+      createToggleableSettingsRow({
+        settingsContent,
+        onText: "Show",
+        offText: "Hide",
+        tag,
+        settingsStore,
+        settingsStoreKey: `show-${tag}`,
+        offByDefault: tag === "Completed",
+        handleToggleOn,
+        handleToggleOff,
       });
-      DomEvent.addListener(hide, "click", () => {
-        if (!DomUtil.hasClass(hide, "selected")) {
-          DomUtil.removeClass(show, "selected");
-          DomUtil.addClass(hide, "selected");
-          layers.forEach((l) => l.hideTaggedMarkers(tag));
-          settingsStore.setItem(`show-${tag}`, false);
-        }
+    });
+
+    handlers.forEach((handler) => {
+      const handleToggleOn = () => handler.enable();
+      const handleToggleOff = () => handler.disable();
+      createToggleableSettingsRow({
+        settingsContent,
+        onText: "Enable",
+        offText: "Disable",
+        tag: handler.name,
+        settingsStore,
+        settingsStoreKey: `enable-${handler.name}`,
+        offByDefault: false,
+        handleToggleOn,
+        handleToggleOff,
       });
     });
     const clearCompletionDataRow = DomUtil.create(
