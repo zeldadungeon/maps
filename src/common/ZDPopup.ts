@@ -4,16 +4,25 @@ import { WikiConnector } from "./WikiConnector";
 import { faCheck } from "@fortawesome/free-solid-svg-icons/faCheck";
 import { faCircleNotch } from "@fortawesome/free-solid-svg-icons/faCircleNotch";
 import { faEdit } from "@fortawesome/free-solid-svg-icons/faEdit";
+import { faExclamationCircle } from "@fortawesome/free-solid-svg-icons/faExclamationCircle";
 import { faLink } from "@fortawesome/free-solid-svg-icons/faLink";
 import { faUndo } from "@fortawesome/free-solid-svg-icons/faUndo";
 
-library.add(faCheck, faUndo, faEdit, faLink, faCircleNotch);
+library.add(
+  faCheck,
+  faUndo,
+  faEdit,
+  faLink,
+  faCircleNotch,
+  faExclamationCircle
+);
 dom.watch();
 
 enum ContentState {
   Initial,
   Loading,
   Loaded,
+  Error,
 }
 
 export interface Options extends L.PopupOptions {
@@ -167,16 +176,13 @@ export class ZDPopup extends Popup {
       return;
     }
 
-    this.startLoading();
-
     const linkParts =
       this.myOptions.link && this.myOptions.link !== ""
         ? this.myOptions.link.split("#")
         : [];
     if (this.myOptions.infoSource === "summary") {
-      this.myOptions.wiki
-        .getPageSummary(linkParts[0])
-        .then(this.loadContent.bind(this));
+      const query = this.myOptions.wiki.getPageSummary(linkParts[0]);
+      this.loadContentFromQuery(query);
     } else if (this.myOptions.infoSource === "section") {
       this.loadContentFromSection(
         linkParts[0],
@@ -185,22 +191,23 @@ export class ZDPopup extends Popup {
           : linkParts[1] || "summary"
       );
     } else if (this.myOptions.infoSource === "mapns") {
-      this.myOptions.wiki
+      const query = this.myOptions.wiki
         .getMapPageContent(this.myOptions.id)
-        .then(this.loadContent.bind(this))
         .catch((reason) => {
           if (reason == "missingtitle") {
-            this.myOptions.wiki
-              .getPageSummary(linkParts[0])
-              .then(this.loadContent.bind(this));
+            return this.myOptions.wiki.getPageSummary(linkParts[0]);
+          } else {
+            throw reason;
           }
         });
+      this.loadContentFromQuery(query);
     } else if (this.myOptions.infoSource === "mappage") {
       this.loadContentFromMapPage(linkParts[0], linkParts[1]);
     } else if (this.myOptions.infoSource) {
-      this.myOptions.wiki
-        .getPageSummary(this.myOptions.infoSource)
-        .then(this.loadContent.bind(this));
+      const query = this.myOptions.wiki.getPageSummary(
+        this.myOptions.infoSource
+      );
+      this.loadContentFromQuery(query);
     }
   }
 
@@ -217,7 +224,7 @@ export class ZDPopup extends Popup {
     const textToParse = encodeURIComponent(
       `{{#vardefine:gsize|300}}{{#vardefine:galign|left}}{{#vardefine:gpad|0}}{{#vardefine:square|false}}{{#lst:${pageTitle}|${sectionName}}}`
     );
-    this.myOptions.wiki
+    const query = this.myOptions.wiki
       .query<any>( // eslint-disable-line @typescript-eslint/no-explicit-any
         `action=parse&prop=text&contentmodel=wikitext&text=${textToParse}`
       )
@@ -231,8 +238,9 @@ export class ZDPopup extends Popup {
             ">Create this article</a>"
           );
         }
-        this.loadContent(content);
+        return content;
       });
+    this.loadContentFromQuery(query);
   }
 
   // TODO deprecate (migrate botw quests and stables)
@@ -241,29 +249,39 @@ export class ZDPopup extends Popup {
     let fullPageTitle = subpage
       ? `Map:${pageTitle}/${subpage}`
       : `Map:${pageTitle}`;
-    this.myOptions.wiki
+    const query = this.myOptions.wiki
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       .query<any>(`action=parse&page=${encodeURIComponent(fullPageTitle)}`)
       .then((result) => {
         // TODO move result parsing to WikiConnector and add typing
         const content = result.parse && result.parse.text["*"];
         if (content && !(<string>content).includes("redirectMsg")) {
-          this.loadContent(content);
+          return content;
         } else {
           // fall back to subpage
           fullPageTitle = subpage
             ? `${pageTitle}/Map/${subpage}`
             : `${pageTitle}/Map`;
-          this.myOptions.wiki
-            // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            .query<any>(
-              `action=parse&page=${encodeURIComponent(fullPageTitle)}`
-            )
-            .then((result) => {
-              this.loadContent((result.parse && result.parse.text["*"]) || "");
-            });
+          return (
+            this.myOptions.wiki
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
+              .query<any>(
+                `action=parse&page=${encodeURIComponent(fullPageTitle)}`
+              )
+              .then((result) => {
+                return (result.parse && result.parse.text["*"]) || "";
+              })
+          );
         }
       });
+    this.loadContentFromQuery(query);
+  }
+
+  private loadContentFromQuery(query: Promise<string>): Promise<void> {
+    this.startLoading();
+    return query
+      .then(this.loadContent.bind(this))
+      .catch(this.showError.bind(this));
   }
 
   private startLoading(): void {
@@ -290,5 +308,15 @@ export class ZDPopup extends Popup {
     }
     this.setContent(this.container); // force it to resize and recenter
     this.contentState = ContentState.Loaded;
+  }
+
+  private showError(ex: Error): void {
+    console.log(ex);
+    this.contentState = ContentState.Error;
+    DomUtil.empty(this.body);
+    const error = DomUtil.create("div", "zd-popup__error-indicator", this.body);
+    DomUtil.create("i", "fas fa-exclamation-circle fa-3x fa-fw", error);
+    const message = DomUtil.create("p", "", this.body);
+    message.innerHTML = "Failed to load content";
   }
 }
