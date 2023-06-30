@@ -69,11 +69,7 @@ export class ZDMarker extends Marker {
         marker.complete();
       });
       marker.popup.on("uncomplete", () => {
-        const tag = marker.tags.indexOf("Completed");
-        if (tag > -1) {
-          marker.tags.splice(tag, 1);
-        }
-        marker.fire("uncompleted");
+        marker.clearCompletion();
       });
       marker.bindPopup(marker.popup);
       marker.on("popupopen", () => {
@@ -103,9 +99,19 @@ export class ZDMarker extends Marker {
     this.tileContainers.push(container);
   }
 
+  // @override
+  public setOpacity(opacity: number) {
+    super.setOpacity(opacity);
+    if (this.hasPath()) {
+      this.path?.setStyle({ opacity });
+    }
+    return this;
+  }
+
   public complete(): void {
     this.tags.push("Completed");
     this.popup?.markCompleted();
+    this.setOpacity(0.5);
     this.fire("completed");
   }
 
@@ -115,6 +121,7 @@ export class ZDMarker extends Marker {
       this.tags.splice(tag, 1);
     }
     this.popup?.markUncompleted();
+    this.setOpacity(1);
     this.fire("uncompleted");
   }
 
