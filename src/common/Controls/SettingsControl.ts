@@ -1,5 +1,6 @@
 import { DomEvent, DomUtil } from "leaflet";
 import { ControlPane } from "./ControlPane";
+import { ControlDock } from "./ControlDock";
 import { WikiConnector } from "../WikiConnector";
 import { MapLayer } from "../MapLayer";
 import { LocalStorage } from "../LocalStorage";
@@ -19,6 +20,7 @@ type ToggleableSettingsRowConfig = {
   offByDefault: boolean;
   handleToggleOn: () => void;
   handleToggleOff: () => void;
+  toggleOffOnLoadFalse: boolean;
 };
 function createToggleableSettingsRow({
   settingsContent,
@@ -30,6 +32,7 @@ function createToggleableSettingsRow({
   offByDefault,
   handleToggleOn,
   handleToggleOff,
+  toggleOffOnLoadFalse,
 }: ToggleableSettingsRowConfig) {
   const row = DomUtil.create("tr", "zd-settings__setting", settingsContent);
   const on = DomUtil.create("td", "zd-settings__button selectable", row);
@@ -40,6 +43,9 @@ function createToggleableSettingsRow({
   label.innerText = tag;
 
   const settingValue = settingsStore.getItem<boolean>(settingsStoreKey);
+  if (settingValue === false && toggleOffOnLoadFalse) {
+    handleToggleOff();
+  }
   if (settingValue === false || (offByDefault && settingValue !== true)) {
     DomUtil.addClass(off, "selected");
   } else {
@@ -76,7 +82,8 @@ export class SettingsControl extends ControlPane {
     settingsStore: LocalStorage,
     layers: MapLayer[],
     tags: string[],
-    handlers: ZDHandler[]
+    handlers: ZDHandler[],
+    controls: ControlDock
   ) {
     super({
       icon: "fa-cog",
@@ -119,6 +126,7 @@ export class SettingsControl extends ControlPane {
         offByDefault: tag === "Completed",
         handleToggleOn,
         handleToggleOff,
+        toggleOffOnLoadFalse: false,
       });
     });
 
@@ -135,7 +143,20 @@ export class SettingsControl extends ControlPane {
         offByDefault: false,
         handleToggleOn,
         handleToggleOff,
+        toggleOffOnLoadFalse: false,
       });
+    });
+    createToggleableSettingsRow({
+      settingsContent,
+      onText: "Left",
+      offText: "Right",
+      tag: "Controls Position",
+      settingsStore,
+      settingsStoreKey: "controls-on-left",
+      offByDefault: false,
+      handleToggleOn: () => controls.setPosition("bottomleft"),
+      handleToggleOff: () => controls.setPosition("bottomright"),
+      toggleOffOnLoadFalse: true,
     });
     const clearCompletionDataRow = DomUtil.create(
       "tr",

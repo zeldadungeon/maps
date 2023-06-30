@@ -193,7 +193,8 @@ export class ZDMap extends Map {
       settingsStore,
       this.layers,
       tags,
-      handlers
+      handlers,
+      controls
     );
     controls.addControl(this.settingsControl);
 
