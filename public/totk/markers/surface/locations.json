@@ -528,7 +528,7 @@
     },
     {
         "name": "Cave",
-        "source": "summary",
+        "source": "mapns",
         "layers": [
             {
                 "minZoom": 3,
