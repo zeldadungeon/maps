@@ -1,4 +1,4 @@
-import { Control, DomEvent, DomUtil } from "leaflet";
+import { Control, ControlPosition, DomEvent, DomUtil } from "leaflet";
 import { ControlPane } from "./ControlPane";
 import { LayersControl } from "./LayersControl";
 import { LocalStorage } from "../LocalStorage";
@@ -9,6 +9,7 @@ import { ZoomControl } from "./ZoomControl";
  */
 export class ControlDock extends Control {
   private container: HTMLElement;
+  private dock: HTMLElement;
   private group1: HTMLElement;
   private group2: HTMLElement;
   private group3: HTMLElement;
@@ -21,10 +22,10 @@ export class ControlDock extends Control {
     });
 
     this.container = DomUtil.create("aside", "zd-controls");
-    const dock = DomUtil.create("div", "zd-controls__dock", this.container);
-    this.group1 = DomUtil.create("div", "zd-controls__dock__group", dock);
-    this.group2 = DomUtil.create("div", "zd-controls__dock__group", dock);
-    this.group3 = DomUtil.create("div", "zd-controls__dock__group", dock);
+    this.dock = DomUtil.create("div", "zd-controls__dock", this.container);
+    this.group1 = DomUtil.create("div", "zd-controls__dock__group", this.dock);
+    this.group2 = DomUtil.create("div", "zd-controls__dock__group", this.dock);
+    this.group3 = DomUtil.create("div", "zd-controls__dock__group", this.dock);
     this.paneContainer = DomUtil.create(
       "div",
       "zd-controls__pane-container",
@@ -77,6 +78,22 @@ export class ControlDock extends Control {
 
   public addZoom(zoom: ZoomControl): void {
     this.group2.appendChild(zoom.getButtons());
+  }
+
+  // @override
+  public setPosition(position: ControlPosition): this {
+    super.setPosition(position);
+    switch (position) {
+      case "bottomleft":
+      case "topleft":
+        this.container.insertBefore(this.dock, this.paneContainer);
+        break;
+      case "bottomright":
+      case "topright":
+        this.container.insertBefore(this.paneContainer, this.dock);
+        break;
+    }
+    return this;
   }
 
   private showControl(control: ControlPane): void {
