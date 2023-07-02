@@ -12,7 +12,7 @@
             {
                 "icon": {"url": "watertemple.png", "width": 23, "height": 27},
                 "markers": [
-                    {"coords": [771.629028, 3357.43604], "elv": 1633.36804, "id": "LargeDungeonWater1", "name": "Water Temple", "link": "Water Temple (Tears of the Kingdom"}
+                    {"coords": [771.629028, 3357.43604], "elv": 1633.36804, "id": "LargeDungeonWater1", "name": "Water Temple", "link": "Water Temple (Tears of the Kingdom)"}
                 ]
             }
         ]
