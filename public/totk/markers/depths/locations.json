@@ -206,7 +206,7 @@
     },
     {
         "name": "Chasm",
-        "source": "summary",
+        "source": "mapns",
         "layers": [
             {
                 "minZoom": 1,
