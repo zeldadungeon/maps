@@ -479,7 +479,7 @@
     },
     {
         "name": "Chasm",
-        "source": "summary",
+        "source": "mapns",
         "layers": [
             {
                 "minZoom": 1,
@@ -528,7 +528,7 @@
     },
     {
         "name": "Cave",
-        "source": "summary",
+        "source": "mapns",
         "layers": [
             {
                 "minZoom": 3,
