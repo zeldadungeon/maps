@@ -515,7 +515,7 @@ window.onload = async () => {
       legendItem("Unique Weapon", "treasureweapon", 27, 21),
       legendItem("Yiga Schematic", "schematic", 27, 21),
     ],
-    "Colectibles"
+    "Collectibles"
   );
   map.addLegend(
     [
