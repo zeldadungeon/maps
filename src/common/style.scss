@@ -406,11 +406,39 @@ body {
   width: 500px;
 }
 
+.leaflet-right .leaflet-control.zd-toast-container {
+  margin-right: 0;
+}
+
+.leaflet-top .leaflet-control.zd-toast-container {
+  margin-top: 0;
+}
+
 .zd-toast {
   margin: 1em;
   padding: 1em;
   background-color: rgba(0, 0, 0, 0.75);
   color: white;
+}
+
+.zd-toast--sticky {
+  margin: 0;
+}
+
+.zd-toast--link {
+  cursor: pointer;
+}
+
+@media (orientation: portrait) {
+  .zd-toast-container {
+    width: 100dvw;
+  }
+}
+
+@media (orientation: landscape) {
+  .zd-toast-container {
+    max-width: calc(100vw - 370px);
+  }
 }
 
 /* LOCATION TEXT LABELS */

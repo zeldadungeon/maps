@@ -226,6 +226,16 @@ export class ZDMap extends Map {
     });
 
     this.toastControl.addTo(this);
+
+    const now = Date.now();
+    if (now < Date.parse("2023-07-22T11:00Z")) {
+      this.toastControl.showStickyNotification(
+        now < Date.parse("2023-07-15T17:00Z")
+          ? "Tune in to the Zelda Dungeon Marathon charity stream event starting July 15th"
+          : "Tune in to the Zelda Dungeon Marathon charity stream event happening now!",
+        "https://www.zeldadungeon.net/marathon"
+      );
+    }
   }
 
   public addLegend(categories: ICategory[] = [], group?: string): void {
