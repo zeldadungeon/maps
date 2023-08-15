@@ -566,10 +566,8 @@ window.onload = async () => {
     "Bosses"
   );
 
-  const jsonVer = 2;
-
   function addJson(layer: MapLayer, path: string): Promise<void> {
-    return fetch(`${import.meta.env.BASE_URL}totk/markers/${path}?v=${jsonVer}`)
+    return fetch(`${import.meta.env.BASE_URL}totk/markers/${path}`)
       .then((r) => r.json())
       .then((categories: Schema.Category[]) => {
         for (const category of categories) {
@@ -695,7 +693,7 @@ window.onload = async () => {
   }
 
   function addObjects(layer: MapLayer, path: string) {
-    return fetch(`${import.meta.env.BASE_URL}totk/markers/${path}?v=${jsonVer}`)
+    return fetch(`${import.meta.env.BASE_URL}totk/markers/${path}`)
       .then((r) => r.json())
       .then((groups: Schema.ObjectCategory[]) => {
         layer.addObjects(groups);
