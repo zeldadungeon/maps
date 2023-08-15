@@ -8,3 +8,7 @@ dist
 # Intermediate outputs
 src/**/*.js
 src/**/*.js.map
+
+# TotK generated JSON
+public/totk/markers/**/markers.json
+public/totk/markers/**/objects.json

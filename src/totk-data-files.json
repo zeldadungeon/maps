@@ -1,0 +1,12 @@
+{
+  "markers": {
+    "depths": "depths/markers.json?1bf43a7f",
+    "surface": "surface/markers.json?d1918965",
+    "sky": "sky/markers.json?a981ac41"
+  },
+  "objects": {
+    "depths": "depths/objects.json?016fd62c",
+    "surface": "surface/objects.json?1f111117",
+    "sky": "sky/objects.json?6316e4cb"
+  }
+}

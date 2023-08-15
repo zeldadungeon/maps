@@ -1,5 +1,6 @@
 import "./common/style.scss";
 import * as Schema from "./common/JSONSchema";
+import * as DataFiles from "./totk-data-files.json";
 import { ICategory } from "./common/ICategory";
 import { Layer } from "./common/Layer";
 import { MapLayer } from "./common/MapLayer";
@@ -703,9 +704,9 @@ window.onload = async () => {
   }
 
   await Promise.allSettled([
-    addJson(surface, "surface/locations.json"),
-    addJson(sky, "sky/locations.json"),
-    addJson(depths, "depths/locations.json"),
+    addJson(surface, DataFiles.markers.surface),
+    addJson(sky, DataFiles.markers.sky),
+    addJson(depths, DataFiles.markers.depths),
     addWikiJson(surface, "Surface Categories"),
     addWikiJson(sky, "Sky Categories"),
     addWikiJson(depths, "Depths Categories"),
@@ -717,8 +718,8 @@ window.onload = async () => {
   await map.initializeWikiConnector().catch((ex) => console.log(ex));
 
   await Promise.allSettled([
-    addObjects(surface, "surface/materials.json"),
-    addObjects(sky, "sky/materials.json"),
-    addObjects(depths, "depths/materials.json"),
+    addObjects(surface, DataFiles.objects.surface),
+    addObjects(sky, DataFiles.objects.sky),
+    addObjects(depths, DataFiles.objects.depths),
   ]);
 };
