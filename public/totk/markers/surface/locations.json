@@ -300,16 +300,16 @@
                 "minZoom": 5,
                 "icon": {"url": "inn.png", "width": 29, "height": 29},
                 "markers": [
-                    {"coords": [-2889.08594, -3850.25293], "elv": 95, "id": "ShopInn_Gerudo", "name": "Inn", "link": "Inn"},
-                    {"coords": [2424.02197, 1682.04895], "elv": 384.241394, "id": "ShopInn_Goron", "name": "Inn", "link": "Inn"},
-                    {"coords": [-2111.20898, 3473.24805], "elv": 142.285202, "id": "ShopInn_Hateno", "name": "Inn", "link": "Inn"},
-                    {"coords": [-1021.77197, 1835.56897], "elv": 135, "id": "ShopInn_Kakariko", "name": "Inn", "link": "Inn"},
-                    {"coords": [2171.22412, 410.871094], "elv": 154.625885, "id": "ShopInn_Korok", "name": "Inn", "link": "Inn"},
-                    {"coords": [-2609.9021, -3268.25], "elv": 95, "id": "ShopInn_Oasis", "name": "Inn", "link": "Inn"},
-                    {"coords": [1852.53503, -3612.09106], "elv": 184.03421, "id": "ShopInn_Rito", "name": "Inn", "link": "Inn"},
-                    {"coords": [1596.01501, 3999.54102], "elv": 129.926804, "id": "ShopInn_UMiiVillage", "name": "Inn", "link": "Inn"},
-                    {"coords": [-3437.03101, 2944.61401], "elv": 29.6549072, "id": "ShopInn_Uotori", "name": "Inn", "link": "Inn"},
-                    {"coords": [508.531891, 3296.22803], "elv": 140.862, "id": "ShopInn_Zora", "name": "Inn", "link": "Inn"}
+                    {"coords": [-2889.08594, -3850.25293], "elv": 95, "id": "ShopInn_Gerudo", "name": "Hotel Oasis", "link": "Hotel Oasis"},
+                    {"coords": [2424.02197, 1682.04895], "elv": 384.241394, "id": "ShopInn_Goron", "name": "Rollin' Inn", "link": "Rollin' Inn"},
+                    {"coords": [-2111.20898, 3473.24805], "elv": 142.285202, "id": "ShopInn_Hateno", "name": "The Great Ton Pu Inn", "link": "The Great Ton Pu Inn"},
+                    {"coords": [-1021.77197, 1835.56897], "elv": 135, "id": "ShopInn_Kakariko", "name": "Shuteye Inn", "link": "Shuteye Inn"},
+                    {"coords": [2171.22412, 410.871094], "elv": 154.625885, "id": "ShopInn_Korok", "name": "Inn", "link": "Pepp"},
+                    {"coords": [-2609.9021, -3268.25], "elv": 95, "id": "ShopInn_Oasis", "name": "Inn", "link": "Kara Kara Bazaar Inn"},
+                    {"coords": [1852.53503, -3612.09106], "elv": 184.03421, "id": "ShopInn_Rito", "name": "Swallow's Roost", "link": "Swallow's Roost"},
+                    {"coords": [1596.01501, 3999.54102], "elv": 129.926804, "id": "ShopInn_UMiiVillage", "name": "Inn", "link": "Tarrey Town Inn"},
+                    {"coords": [-3437.03101, 2944.61401], "elv": 29.6549072, "id": "ShopInn_Uotori", "name": "Fishing Resort", "link": "Fishing Resort"},
+                    {"coords": [508.531891, 3296.22803], "elv": 140.862, "id": "ShopInn_Zora", "name": "Seabed Inn", "link": "Seabed Inn"}
                 ]
             }
         ]
@@ -322,24 +322,24 @@
                 "minZoom": 5,
                 "icon": {"url": "general.png", "width": 29, "height": 29},
                 "markers": [
-                    {"coords": [76.5611115, -205.766998], "elv": 20.3703003, "id": "ShopGeneral_BaseCamp", "name": "General Store", "link": "General Store"},
-                    {"coords": [-2936.28809, -3821.89404], "elv": 94.991806, "id": "ShopGeneral_Gerudo", "name": "General Store", "link": "General Store"},
-                    {"coords": [-2903.61499, -3848.65698], "elv": 94.9851074, "id": "ShopGeneral_Gerudo1", "name": "General Store", "link": "General Store"},
-                    {"coords": [-2913.24805, -3857.54492], "elv": 95, "id": "ShopGeneral_Gerudo2", "name": "General Store", "link": "General Store"},
-                    {"coords": [-2878.63306, -3823.01807], "elv": 94.9956055, "id": "ShopGeneral_Gerudo3", "name": "General Store", "link": "General Store"},
-                    {"coords": [-2925.89502, -3819.99194], "elv": 94.9810944, "id": "ShopGeneral_Gerudo4", "name": "General Store", "link": "General Store"},
-                    {"coords": [2463.48901, 1683.57996], "elv": 385.818909, "id": "ShopGeneral_Goron", "name": "General Store", "link": "General Store"},
-                    {"coords": [-2171.56299, 3360.78101], "elv": 133.589798, "id": "ShopGeneral_Hateno", "name": "General Store", "link": "General Store"},
-                    {"coords": [-1041.00195, 1825.85803], "elv": 130.653702, "id": "ShopGeneral_Kakariko", "name": "General Store", "link": "General Store"},
-                    {"coords": [-1029.26404, 1794.48303], "elv": 130.035507, "id": "ShopGeneral_Kakariko1", "name": "General Store", "link": "General Store"},
-                    {"coords": [2173.99805, 431.808105], "elv": 153.358185, "id": "ShopGeneral_Korok", "name": "General Store", "link": "General Store"},
-                    {"coords": [-2604.25, -3262.25], "elv": 95, "id": "ShopGeneral_Oasis", "name": "General Store", "link": "General Store"},
-                    {"coords": [-2564.52588, -3277.98901], "elv": 95, "id": "ShopGeneral_Oasis1", "name": "General Store", "link": "General Store"},
-                    {"coords": [-2535.99512, -3274.01196], "elv": 95, "id": "ShopGeneral_Oasis2", "name": "General Store", "link": "General Store"},
-                    {"coords": [1820.45605, -3644.61304], "elv": 184.877991, "id": "ShopGeneral_Rito", "name": "General Store", "link": "General Store"},
-                    {"coords": [1634.14697, 4005.82104], "elv": 129.076004, "id": "ShopGeneral_UMiiVillage", "name": "General Store", "link": "General Store"},
-                    {"coords": [-3493.90894, 2959.35596], "elv": 1.84870148, "id": "ShopGeneral_Uotori", "name": "General Store", "link": "General Store"},
-                    {"coords": [490.742889, 3322.85107], "elv": 140.462006, "id": "ShopGeneral_Zora", "name": "General Store", "link": "General Store"}
+                    {"coords": [76.5611115, -205.766998], "elv": 20.3703003, "id": "ShopGeneral_BaseCamp", "name": "General Store", "link": "Lookout Landing General Store"},
+                    {"coords": [-2936.28809, -3821.89404], "elv": 94.991806, "id": "ShopGeneral_Gerudo", "name": "General Store", "link": "Spera"},
+                    {"coords": [-2903.61499, -3848.65698], "elv": 94.9851074, "id": "ShopGeneral_Gerudo1", "name": "General Store", "link": "Estan"},
+                    {"coords": [-2913.24805, -3857.54492], "elv": 95, "id": "ShopGeneral_Gerudo2", "name": "General Store", "link": "Danda"},
+                    {"coords": [-2878.63306, -3823.01807], "elv": 94.9956055, "id": "ShopGeneral_Gerudo3", "name": "General Store", "link": "Lorn"},
+                    {"coords": [-2925.89502, -3819.99194], "elv": 94.9810944, "id": "ShopGeneral_Gerudo4", "name": "General Store", "link": "Ardin"},
+                    {"coords": [2463.48901, 1683.57996], "elv": 385.818909, "id": "ShopGeneral_Goron", "name": "Goron Gusto Shop", "link": "Goron Gusto Shop"},
+                    {"coords": [-2171.56299, 3360.78101], "elv": 133.589798, "id": "ShopGeneral_Hateno", "name": "East Wind", "link": "East Wind"},
+                    {"coords": [-1041.00195, 1825.85803], "elv": 130.653702, "id": "ShopGeneral_Kakariko", "name": "The Curious Quiver", "link": "The Curious Quiver"},
+                    {"coords": [-1029.26404, 1794.48303], "elv": 130.035507, "id": "ShopGeneral_Kakariko1", "name": "High Spirits Produce", "link": "High Spirits Produce"},
+                    {"coords": [2173.99805, 431.808105], "elv": 153.358185, "id": "ShopGeneral_Korok", "name": "General Shoppe & Spore Store", "link": "General Shoppe"},
+                    {"coords": [-2604.25, -3262.25], "elv": 95, "id": "ShopGeneral_Oasis", "name": "General Store", "link": "Kara Kara Bazaar General Store"},
+                    {"coords": [-2564.52588, -3277.98901], "elv": 95, "id": "ShopGeneral_Oasis1", "name": "General Store", "link": "Emri"},
+                    {"coords": [-2535.99512, -3274.01196], "elv": 95, "id": "ShopGeneral_Oasis2", "name": "General Store", "link": "Maike"},
+                    {"coords": [1820.45605, -3644.61304], "elv": 184.877991, "id": "ShopGeneral_Rito", "name": "The Slippery Falcon", "link": "The Slippery Falcon"},
+                    {"coords": [1634.14697, 4005.82104], "elv": 129.076004, "id": "ShopGeneral_UMiiVillage", "name": "General Store", "link": "Fyson"},
+                    {"coords": [-3493.90894, 2959.35596], "elv": 1.84870148, "id": "ShopGeneral_Uotori", "name": "General Store", "link": "Lurelin General Store"},
+                    {"coords": [490.742889, 3322.85107], "elv": 140.462006, "id": "ShopGeneral_Zora", "name": "Coral Reef", "link": "Coral Reef"}
                 ]
             }
         ]
@@ -352,12 +352,12 @@
                 "minZoom": 5,
                 "icon": {"url": "armor.png", "width": 29, "height": 29},
                 "markers": [
-                    {"coords": [86.8024521, -205.7668], "elv": 20.3703003, "id": "ShopArmor_BaseCamp", "name": "Armor Shop", "link": "Armor Shop"},
-                    {"coords": [-2552, -3275.5], "elv": 95, "id": "ShopArmor_Gerudo", "name": "Armor Shop", "link": "Armor Shop"},
-                    {"coords": [2409.20093, 1642.86902], "elv": 385.157806, "id": "ShopArmor_Goron", "name": "Armor Shop", "link": "Armor Shop"},
-                    {"coords": [-2127.875, 3356.95288], "elv": 133.589798, "id": "ShopArmor_Hateno", "name": "Armor Shop", "link": "Armor Shop"},
-                    {"coords": [-981.323486, 1854.68604], "elv": 134.381805, "id": "ShopArmor_Kakariko", "name": "Armor Shop", "link": "Armor Shop"},
-                    {"coords": [1787.28503, -3631.48999], "elv": 187.218292, "id": "ShopArmor_Rito", "name": "Armor Shop", "link": "Armor Shop"}
+                    {"coords": [86.8024521, -205.7668], "elv": 20.3703003, "id": "ShopArmor_BaseCamp", "name": "Armor Shop", "link": "Lookout Landing General Store"},
+                    {"coords": [-2552, -3275.5], "elv": 95, "id": "ShopArmor_Gerudo", "name": "Armor Shop", "link": "Saula"},
+                    {"coords": [2409.20093, 1642.86902], "elv": 385.157806, "id": "ShopArmor_Goron", "name": "Ripped and Shredded", "link": "Ripped and Shredded"},
+                    {"coords": [-2127.875, 3356.95288], "elv": 133.589798, "id": "ShopArmor_Hateno", "name": "Ventest Clothing Botique", "link": "Ventest Clothing Botique"},
+                    {"coords": [-981.323486, 1854.68604], "elv": 134.381805, "id": "ShopArmor_Kakariko", "name": "Enchanted", "link": "Enchanted"},
+                    {"coords": [1787.28503, -3631.48999], "elv": 187.218292, "id": "ShopArmor_Rito", "name": "Brazen Beak", "link": "Brazen Beak"}
                 ]
             }
         ]
@@ -383,21 +383,21 @@
                 "minZoom": 5,
                 "icon": {"url": "jewelry.png", "width": 29, "height": 29},
                 "markers": [
-                    {"coords": [-2877.07007, -3836.802], "elv": 95, "id": "ShopJewelry_Gerudo", "name": "Jewelry Shop", "link": "Jewelry Shop"}
+                    {"coords": [-2877.07007, -3836.802], "elv": 95, "id": "ShopJewelry_Gerudo", "name": "Starlight Memories", "link": "Starlight Memories"}
                 ]
             },
             {
                 "minZoom": 5,
                 "icon": {"url": "dye.png", "width": 29, "height": 29},
                 "markers": [
-                    {"coords": [-2152.26001, 3403.98608], "elv": 133.589798, "id": "ShopDye_Hateno", "name": "Dye Shop", "link": "Dye Shop"}
+                    {"coords": [-2152.26001, 3403.98608], "elv": 133.589798, "id": "ShopDye_Hateno", "name": "Kochi Dye Shop", "link": "Kochi Dye Shop"}
                 ]
             },
             {
                 "minZoom": 5,
                 "icon": {"url": "bar.png", "width": 29, "height": 29},
                 "markers": [
-                    {"coords": [-2857.13794, -3856.77808], "elv": 48.7274017, "id": "Bar", "name": "Canteen", "link": "Canteen"}
+                    {"coords": [-2857.13794, -3856.77808], "elv": 48.7274017, "id": "Bar", "name": "The Noble Canteen", "link": "The Noble Canteen"}
                 ]
             },
             {
