@@ -10,5 +10,6 @@ src/**/*.js
 src/**/*.js.map
 
 # TotK generated JSON
+src/totk-data-files.json
 public/totk/markers/**/markers.json
 public/totk/markers/**/objects.json

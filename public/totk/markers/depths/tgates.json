@@ -1,0 +1,1262 @@
+[
+  {
+    "name": "Dungeon",
+    "source": "summary",
+    "layers": [
+      {
+        "icon": {
+          "url": "firetemple.png",
+          "width": 23,
+          "height": 27
+        },
+        "markers": [
+          {
+            "coords": [
+              2847,
+              1457
+            ],
+            "elv": -854.5,
+            "id": "LargeDungeonFire",
+            "name": "Fire Temple",
+            "link": "Fire Temple (Tears of the Kingdom)"
+          }
+        ]
+      },
+      {
+        "icon": {
+          "url": "spirittemple.png",
+          "width": 23,
+          "height": 27
+        },
+        "markers": [
+          {
+            "coords": [
+              -3170.39893,
+              1418.69202
+            ],
+            "elv": -618.599915,
+            "id": "LargeDungeonSoul",
+            "name": "Spirit Temple",
+            "link": "Spirit Temple (Tears of the Kingdom)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lightroot",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 1,
+        "icon": {
+          "url": "lightroot.png",
+          "width": 27,
+          "height": 24
+        },
+        "markers": [
+          {
+            "coords": [
+              -1008.14301,
+              343.389313
+            ],
+            "elv": -488.813202,
+            "id": "CheckPoint000",
+            "name": "Stakijat Lightroot",
+            "link": "Stakijat Lightroot"
+          },
+          {
+            "coords": [
+              2877.125,
+              4346.97607
+            ],
+            "elv": -628.641296,
+            "id": "CheckPoint001",
+            "name": "Ui-ihcoj Lightroot",
+            "link": "Ui-ihcoj Lightroot"
+          },
+          {
+            "coords": [
+              2596.93188,
+              2368.05298
+            ],
+            "elv": -969.341614,
+            "id": "CheckPoint002",
+            "name": "Mustis Lightroot",
+            "link": "Mustis Lightroot"
+          },
+          {
+            "coords": [
+              1616.86804,
+              -3077.60107
+            ],
+            "elv": -707.500122,
+            "id": "CheckPoint003",
+            "name": "Kawumoro Lightroot",
+            "link": "Kawumoro Lightroot"
+          },
+          {
+            "coords": [
+              -867.5,
+              -705.5
+            ],
+            "elv": -501.471588,
+            "id": "CheckPoint004",
+            "name": "Nihcayam Lightroot",
+            "link": "Nihcayam Lightroot"
+          },
+          {
+            "coords": [
+              2134.18701,
+              406.868988
+            ],
+            "elv": -612.687622,
+            "id": "CheckPoint005",
+            "name": "Rikonasum Lightroot",
+            "link": "Rikonasum Lightroot"
+          },
+          {
+            "coords": [
+              823.948792,
+              757.464172
+            ],
+            "elv": -552.30127,
+            "id": "CheckPoint006",
+            "name": "Zi-ner Lightroot",
+            "link": "Zi-ner Lightroot"
+          },
+          {
+            "coords": [
+              2385.5,
+              -3353.5
+            ],
+            "elv": -823.125122,
+            "id": "CheckPoint007",
+            "name": "Worihas Lightroot",
+            "link": "Worihas Lightroot"
+          },
+          {
+            "coords": [
+              -1363.84998,
+              -3406.30005
+            ],
+            "elv": -800.332275,
+            "id": "CheckPoint008",
+            "name": "Umamustor Lightroot",
+            "link": "Umamustor Lightroot"
+          },
+          {
+            "coords": [
+              -1512.44104,
+              -4638.18799
+            ],
+            "elv": -911.250122,
+            "id": "CheckPoint009",
+            "name": "Stamayam Lightroot",
+            "link": "Stamayam Lightroot"
+          },
+          {
+            "coords": [
+              1169.73596,
+              -177.854996
+            ],
+            "elv": -535.885132,
+            "id": "CheckPoint010",
+            "name": "Camobatures Lightroot",
+            "link": "Camobatures Lightroot"
+          },
+          {
+            "coords": [
+              419.852386,
+              3298.18799
+            ],
+            "elv": -769.754578,
+            "id": "CheckPoint011",
+            "name": "Kawagom Lightroot",
+            "link": "Kawagom Lightroot"
+          },
+          {
+            "coords": [
+              -2181.75195,
+              3469.76489
+            ],
+            "elv": -615.135803,
+            "id": "CheckPoint012",
+            "name": "Kimnaz Lightroot",
+            "link": "Kimnaz Lightroot"
+          },
+          {
+            "coords": [
+              -2277.3999,
+              867.5
+            ],
+            "elv": -576.848267,
+            "id": "CheckPoint013",
+            "name": "Muokuij Lightroot",
+            "link": "Muokuij Lightroot"
+          },
+          {
+            "coords": [
+              851.997314,
+              -3538.89502
+            ],
+            "elv": -596.663574,
+            "id": "CheckPoint014",
+            "name": "Koro-nui Lightroot",
+            "link": "Koro-nui Lightroot"
+          },
+          {
+            "coords": [
+              -2963.25806,
+              -3882.91211
+            ],
+            "elv": -454.864594,
+            "id": "CheckPoint016",
+            "name": "Gonatoyros Lightroot",
+            "link": "Gonatoyros Lightroot"
+          },
+          {
+            "coords": [
+              3733,
+              1269
+            ],
+            "elv": -573.937622,
+            "id": "CheckPoint017",
+            "name": "Kayam Lightroot",
+            "link": "Kayam Lightroot"
+          },
+          {
+            "coords": [
+              2115,
+              4512
+            ],
+            "elv": -473.787598,
+            "id": "CheckPoint018",
+            "name": "Kimimeg Lightroot",
+            "link": "Kimimeg Lightroot"
+          },
+          {
+            "coords": [
+              2642.46094,
+              -1637.52795
+            ],
+            "elv": -706.184326,
+            "id": "CheckPoint019",
+            "name": "Muihcoro Lightroot",
+            "link": "Muihcoro Lightroot"
+          },
+          {
+            "coords": [
+              756.718994,
+              -1415.61499
+            ],
+            "elv": -558.750122,
+            "id": "CheckPoint020",
+            "name": "Kawakanis Lightroot",
+            "link": "Kawakanis Lightroot"
+          },
+          {
+            "coords": [
+              2879.80493,
+              -4537.85986
+            ],
+            "elv": -728.125122,
+            "id": "CheckPoint021",
+            "name": "Nupisoyuat Lightroot",
+            "link": "Nupisoyuat Lightroot"
+          },
+          {
+            "coords": [
+              -251.975998,
+              915.732971
+            ],
+            "elv": -502.079803,
+            "id": "CheckPoint022",
+            "name": "Korakut Lightroot",
+            "link": "Korakut Lightroot"
+          },
+          {
+            "coords": [
+              2792.88501,
+              697.560974
+            ],
+            "elv": -691.937622,
+            "id": "CheckPoint023",
+            "name": "Uukukis Lightroot",
+            "link": "Uukukis Lightroot"
+          },
+          {
+            "coords": [
+              -3343.33496,
+              -2439.82593
+            ],
+            "elv": -485.510101,
+            "id": "CheckPoint024",
+            "name": "Amakawis Lightroot",
+            "link": "Amakawis Lightroot"
+          },
+          {
+            "coords": [
+              -214.528,
+              -3487.427
+            ],
+            "elv": -536.439941,
+            "id": "CheckPoint025",
+            "name": "Kawakarut Lightroot",
+            "link": "Kawakarut Lightroot"
+          },
+          {
+            "coords": [
+              -1616.15601,
+              -1442.39502
+            ],
+            "elv": -558.701111,
+            "id": "CheckPoint026",
+            "name": "Kogoir Lightroot",
+            "link": "Kogoir Lightroot"
+          },
+          {
+            "coords": [
+              -2177.37598,
+              4232.81982
+            ],
+            "elv": -542.109009,
+            "id": "CheckPoint027",
+            "name": "Kimimadena Lightroot",
+            "link": "Kimimadena Lightroot"
+          },
+          {
+            "coords": [
+              2602.31909,
+              -1167.90503
+            ],
+            "elv": -371.019287,
+            "id": "CheckPoint028",
+            "name": "Yisuayam Lightroot",
+            "link": "Yisuayam Lightroot"
+          },
+          {
+            "coords": [
+              423,
+              -878.5
+            ],
+            "elv": -517.93219,
+            "id": "CheckPoint029",
+            "name": "Gadohsi Lightroot",
+            "link": "Gadohsi Lightroot"
+          },
+          {
+            "coords": [
+              2088.81396,
+              -1106.73999
+            ],
+            "elv": -574.417114,
+            "id": "CheckPoint030",
+            "name": "Uoyoyuik Lightroot",
+            "link": "Uoyoyuik Lightroot"
+          },
+          {
+            "coords": [
+              1281.37195,
+              1063.05798
+            ],
+            "elv": -516.125122,
+            "id": "CheckPoint031",
+            "name": "Uihcoke Lightroot",
+            "link": "Uihcoke Lightroot"
+          },
+          {
+            "coords": [
+              -2186.44995,
+              -1080.70496
+            ],
+            "elv": -581.949341,
+            "id": "CheckPoint032",
+            "name": "Koradat Lightroot",
+            "link": "Koradat Lightroot"
+          },
+          {
+            "coords": [
+              -3624.78809,
+              -3728.64209
+            ],
+            "elv": -514.906372,
+            "id": "CheckPoint033",
+            "name": "Gataharak Lightroot",
+            "link": "Gataharak Lightroot"
+          },
+          {
+            "coords": [
+              1246.84595,
+              2568.26807
+            ],
+            "elv": -621.063721,
+            "id": "CheckPoint035",
+            "name": "Anonisik Lightroot",
+            "link": "Anonisik Lightroot"
+          },
+          {
+            "coords": [
+              3678,
+              -1403.5
+            ],
+            "elv": -733.088318,
+            "id": "CheckPoint036",
+            "name": "U-nazohso Lightroot",
+            "link": "U-nazohso Lightroot"
+          },
+          {
+            "coords": [
+              97.8768005,
+              -4154.08887
+            ],
+            "elv": -510.064606,
+            "id": "CheckPoint037",
+            "name": "Sasag Lightroot",
+            "link": "Sasag Lightroot"
+          },
+          {
+            "coords": [
+              -2237.68604,
+              -2656.33105
+            ],
+            "elv": -508.636108,
+            "id": "CheckPoint039",
+            "name": "Kimakarut Lightroot",
+            "link": "Kimakarut Lightroot"
+          },
+          {
+            "coords": [
+              1806.59998,
+              -3652.5
+            ],
+            "elv": -437.625092,
+            "id": "CheckPoint040",
+            "name": "Sikatag Lightroot",
+            "link": "Sikatag Lightroot"
+          },
+          {
+            "coords": [
+              578.27948,
+              3785.35107
+            ],
+            "elv": -946.796997,
+            "id": "CheckPoint041",
+            "name": "A-nehi Lightroot",
+            "link": "A-nehi Lightroot"
+          },
+          {
+            "coords": [
+              -1351.75403,
+              -1423.25
+            ],
+            "elv": -538.215332,
+            "id": "CheckPoint042",
+            "name": "Mu-ustust Lightroot",
+            "link": "Mu-ustust Lightroot"
+          },
+          {
+            "coords": [
+              3357.71704,
+              3431.06689
+            ],
+            "elv": -541.227905,
+            "id": "CheckPoint044",
+            "name": "Sikutamak Lightroot",
+            "link": "Sikutamak Lightroot"
+          },
+          {
+            "coords": [
+              1084.276,
+              221.115097
+            ],
+            "elv": -494.875092,
+            "id": "CheckPoint046",
+            "name": "Apapes Lightroot",
+            "link": "Apapes Lightroot"
+          },
+          {
+            "coords": [
+              -2511.38599,
+              -3291.198
+            ],
+            "elv": -496.281891,
+            "id": "CheckPoint047",
+            "name": "Tatayam Lightroot",
+            "link": "Tatayam Lightroot"
+          },
+          {
+            "coords": [
+              -433.137512,
+              -785
+            ],
+            "elv": -490.125092,
+            "id": "CheckPoint048",
+            "name": "Iayusus Lightroot",
+            "link": "Iayusus Lightroot"
+          },
+          {
+            "coords": [
+              -215.832199,
+              3886.34912
+            ],
+            "elv": -629.250122,
+            "id": "CheckPoint049",
+            "name": "Kegopa Lightroot",
+            "link": "Kegopa Lightroot"
+          },
+          {
+            "coords": [
+              1442.5,
+              3304
+            ],
+            "elv": -810.820007,
+            "id": "CheckPoint051",
+            "name": "Niuzimod Lightroot",
+            "link": "Niuzimod Lightroot"
+          },
+          {
+            "coords": [
+              2735.14209,
+              -396.575012
+            ],
+            "elv": -745.750122,
+            "id": "CheckPoint053",
+            "name": "Nikakik Lightroot",
+            "link": "Nikakik Lightroot"
+          },
+          {
+            "coords": [
+              3276.021,
+              2400.56689
+            ],
+            "elv": -865.192017,
+            "id": "CheckPoint054",
+            "name": "Katijabis Lightroot",
+            "link": "Katijabis Lightroot"
+          },
+          {
+            "coords": [
+              -3358.20801,
+              670.979675
+            ],
+            "elv": -504.303192,
+            "id": "CheckPoint056",
+            "name": "Kohsustu Lightroot",
+            "link": "Kohsustu Lightroot"
+          },
+          {
+            "coords": [
+              -1672.60706,
+              4267.47217
+            ],
+            "elv": -649.200317,
+            "id": "CheckPoint057",
+            "name": "Siakij Lightroot",
+            "link": "Siakij Lightroot"
+          },
+          {
+            "coords": [
+              -2928.5271,
+              -1531.172
+            ],
+            "elv": -751.612976,
+            "id": "CheckPoint058",
+            "name": "Kawatik Lightroot",
+            "link": "Kawatik Lightroot"
+          },
+          {
+            "coords": [
+              -359.5,
+              -1921.5
+            ],
+            "elv": -656.182312,
+            "id": "CheckPoint059",
+            "name": "Napanos Lightroot",
+            "link": "Napanos Lightroot"
+          },
+          {
+            "coords": [
+              2510.51001,
+              1763.00598
+            ],
+            "elv": -739.80249,
+            "id": "CheckPoint064",
+            "name": "Cugukaram Lightroot",
+            "link": "Cugukaram Lightroot"
+          },
+          {
+            "coords": [
+              1170,
+              -2529
+            ],
+            "elv": -643.661377,
+            "id": "CheckPoint065",
+            "name": "Tikanur Lightroot",
+            "link": "Tikanur Lightroot"
+          },
+          {
+            "coords": [
+              1989.20398,
+              -4057.83496
+            ],
+            "elv": -695.220276,
+            "id": "CheckPoint067",
+            "name": "So-oaw Lightroot",
+            "link": "So-oaw Lightroot"
+          },
+          {
+            "coords": [
+              -1551.15295,
+              -708.251526
+            ],
+            "elv": -537.687622,
+            "id": "CheckPoint068",
+            "name": "Nogukoyk Lightroot",
+            "link": "Nogukoyk Lightroot"
+          },
+          {
+            "coords": [
+              2200.5,
+              -2317.5
+            ],
+            "elv": -801.485596,
+            "id": "CheckPoint070",
+            "name": "Aduon Lightroot",
+            "link": "Aduon Lightroot"
+          },
+          {
+            "coords": [
+              3568.96411,
+              -3508.26392
+            ],
+            "elv": -847.267029,
+            "id": "CheckPoint072",
+            "name": "Muotue Lightroot",
+            "link": "Muotue Lightroot"
+          },
+          {
+            "coords": [
+              2843.02295,
+              1842.177
+            ],
+            "elv": -858.950195,
+            "id": "CheckPoint073",
+            "name": "Misisi Lightroot",
+            "link": "Misisi Lightroot"
+          },
+          {
+            "coords": [
+              1825,
+              3060.80811
+            ],
+            "elv": -683.397278,
+            "id": "CheckPoint074",
+            "name": "Gedihcayam Lightroot",
+            "link": "Gedihcayam Lightroot"
+          },
+          {
+            "coords": [
+              -672.305725,
+              -4469.55078
+            ],
+            "elv": -969.437622,
+            "id": "CheckPoint075",
+            "name": "Mustuto Lightroot",
+            "link": "Mustuto Lightroot"
+          },
+          {
+            "coords": [
+              -2544.04199,
+              1218.91895
+            ],
+            "elv": -632.562622,
+            "id": "CheckPoint076",
+            "name": "Sijotu Lightroot",
+            "link": "Sijotu Lightroot"
+          },
+          {
+            "coords": [
+              -1559,
+              -178.5
+            ],
+            "elv": -494.152496,
+            "id": "CheckPoint077",
+            "name": "Nuzimak Lightroot",
+            "link": "Nuzimak Lightroot"
+          },
+          {
+            "coords": [
+              -1769.60901,
+              -2525.12695
+            ],
+            "elv": -734.09613,
+            "id": "CheckPoint078",
+            "name": "Kawiraus Lightroot",
+            "link": "Kawiraus Lightroot"
+          },
+          {
+            "coords": [
+              -1852.41895,
+              -2037.14404
+            ],
+            "elv": -525.061035,
+            "id": "CheckPoint079",
+            "name": "Jadukakar Lightroot",
+            "link": "Jadukakar Lightroot"
+          },
+          {
+            "coords": [
+              1321.74805,
+              4166.81592
+            ],
+            "elv": -694.035889,
+            "id": "CheckPoint080",
+            "name": "Kawikatisar Lightroot",
+            "link": "Kawikatisar Lightroot"
+          },
+          {
+            "coords": [
+              -1482.46106,
+              3525.23511
+            ],
+            "elv": -632.783997,
+            "id": "CheckPoint081",
+            "name": "Usukaz Lightroot",
+            "link": "Usukaz Lightroot"
+          },
+          {
+            "coords": [
+              330.448486,
+              1201.39197
+            ],
+            "elv": -595.062622,
+            "id": "CheckPoint084",
+            "name": "Nojoj Lightroot",
+            "link": "Nojoj Lightroot"
+          },
+          {
+            "coords": [
+              -3269.48193,
+              2825.33008
+            ],
+            "elv": -547.062622,
+            "id": "CheckPoint085",
+            "name": "Mimufis Lightroot",
+            "link": "Mimufis Lightroot"
+          },
+          {
+            "coords": [
+              3713.84204,
+              -4389.60205
+            ],
+            "elv": -723.222229,
+            "id": "CheckPoint086",
+            "name": "Kato Lightroot",
+            "link": "Kato Lightroot"
+          },
+          {
+            "coords": [
+              -3086,
+              -4681
+            ],
+            "elv": -524.229736,
+            "id": "CheckPoint087",
+            "name": "Gonatoyrim Lightroot",
+            "link": "Gonatoyrim Lightroot"
+          },
+          {
+            "coords": [
+              3639.02905,
+              2864.625
+            ],
+            "elv": -705.687622,
+            "id": "CheckPoint088",
+            "name": "Tayamik Lightroot",
+            "link": "Tayamik Lightroot"
+          },
+          {
+            "coords": [
+              2758,
+              2961
+            ],
+            "elv": -983.986877,
+            "id": "CheckPoint089",
+            "name": "Kisomom Lightroot",
+            "link": "Kisomom Lightroot"
+          },
+          {
+            "coords": [
+              3732,
+              4654.5
+            ],
+            "elv": -400.469788,
+            "id": "CheckPoint090",
+            "name": "Kuhsagi Lightroot",
+            "link": "Kuhsagi Lightroot"
+          },
+          {
+            "coords": [
+              1196.20203,
+              -1829.349
+            ],
+            "elv": -743.625122,
+            "id": "CheckPoint091",
+            "name": "Nabahi-ikat Lightroot",
+            "link": "Nabahi-ikat Lightroot"
+          },
+          {
+            "coords": [
+              -2518.54907,
+              102.546501
+            ],
+            "elv": -434.682098,
+            "id": "CheckPoint092",
+            "name": "Amo-ne Lightroot",
+            "link": "Amo-ne Lightroot"
+          },
+          {
+            "coords": [
+              -612.31958,
+              4413.19092
+            ],
+            "elv": -534.062195,
+            "id": "CheckPoint094",
+            "name": "Kuzimoy Lightroot",
+            "link": "Kuzimoy Lightroot"
+          },
+          {
+            "coords": [
+              -2059.05005,
+              3728.45898
+            ],
+            "elv": -686.062622,
+            "id": "CheckPoint095",
+            "name": "Kisihayam Lightroot",
+            "link": "Kisihayam Lightroot"
+          },
+          {
+            "coords": [
+              -3497.96411,
+              -1795
+            ],
+            "elv": -477.529694,
+            "id": "CheckPoint096",
+            "name": "Sisustom Lightroot",
+            "link": "Sisustom Lightroot"
+          },
+          {
+            "coords": [
+              149.690308,
+              2276.45801
+            ],
+            "elv": -521.78479,
+            "id": "CheckPoint097",
+            "name": "Sekioam Lightroot",
+            "link": "Sekioam Lightroot"
+          },
+          {
+            "coords": [
+              1903.64001,
+              2679.82788
+            ],
+            "elv": -708.963379,
+            "id": "CheckPoint098",
+            "name": "Nipahsom Lightroot",
+            "link": "Nipahsom Lightroot"
+          },
+          {
+            "coords": [
+              -874.937073,
+              -2138.11011
+            ],
+            "elv": -563.223389,
+            "id": "CheckPoint100",
+            "name": "Muzasu Lightroot",
+            "link": "Muzasu Lightroot"
+          },
+          {
+            "coords": [
+              508,
+              2918.25
+            ],
+            "elv": -815.822083,
+            "id": "CheckPoint101",
+            "name": "Uinoj Lightroot",
+            "link": "Uinoj Lightroot"
+          },
+          {
+            "coords": [
+              3181.12793,
+              1835.06799
+            ],
+            "elv": -858.437622,
+            "id": "CheckPoint102",
+            "name": "Katoij Lightroot",
+            "link": "Katoij Lightroot"
+          },
+          {
+            "coords": [
+              1139.88,
+              -3951.65991
+            ],
+            "elv": -572.377563,
+            "id": "CheckPoint103",
+            "name": "Kataki Lightroot",
+            "link": "Kataki Lightroot"
+          },
+          {
+            "coords": [
+              -3005.5,
+              -3211
+            ],
+            "elv": -491.350586,
+            "id": "CheckPoint104",
+            "name": "Mihcihc Lightroot",
+            "link": "Mihcihc Lightroot"
+          },
+          {
+            "coords": [
+              1892.53406,
+              355.422394
+            ],
+            "elv": -646.356323,
+            "id": "CheckPoint106",
+            "name": "Sijnin Lightroot",
+            "link": "Sijnin Lightroot"
+          },
+          {
+            "coords": [
+              -2378.50488,
+              2303.24097
+            ],
+            "elv": -638.100403,
+            "id": "CheckPoint107",
+            "name": "Yikot Lightroot",
+            "link": "Yikot Lightroot"
+          },
+          {
+            "coords": [
+              2321.10791,
+              166.846298
+            ],
+            "elv": -646.288208,
+            "id": "CheckPoint108",
+            "name": "Ramobnukas Lightroot",
+            "link": "Ramobnukas Lightroot"
+          },
+          {
+            "coords": [
+              3100.82593,
+              -2998.43799
+            ],
+            "elv": -1026.89526,
+            "id": "CheckPoint111",
+            "name": "Mu-ufatur Lightroot",
+            "link": "Mu-ufatur Lightroot"
+          },
+          {
+            "coords": [
+              -1088.35303,
+              2755.96899
+            ],
+            "elv": -569.937622,
+            "id": "CheckPoint112",
+            "name": "Migo-o Lightroot",
+            "link": "Migo-o Lightroot"
+          },
+          {
+            "coords": [
+              -1185.89404,
+              3346.26709
+            ],
+            "elv": -630.500122,
+            "id": "CheckPoint113",
+            "name": "Uogoj Lightroot",
+            "link": "Uogoj Lightroot"
+          },
+          {
+            "coords": [
+              -3711.5481,
+              4630.28516
+            ],
+            "elv": -526.498657,
+            "id": "CheckPoint114",
+            "name": "Ni-iraram Lightroot",
+            "link": "Ni-iraram Lightroot"
+          },
+          {
+            "coords": [
+              2211.11304,
+              622.491699
+            ],
+            "elv": -632.185913,
+            "id": "CheckPoint115",
+            "name": "Eknupup Lightroot",
+            "link": "Eknupup Lightroot"
+          },
+          {
+            "coords": [
+              -3209.47412,
+              3092.99707
+            ],
+            "elv": -644.937622,
+            "id": "CheckPoint116",
+            "name": "Kotimab Lightroot",
+            "link": "Kotimab Lightroot"
+          },
+          {
+            "coords": [
+              -3826,
+              -4158
+            ],
+            "elv": -499.062592,
+            "id": "CheckPoint118",
+            "name": "Kasari Lightroot",
+            "link": "Kasari Lightroot"
+          },
+          {
+            "coords": [
+              -510.343994,
+              2360.32495
+            ],
+            "elv": -609.799194,
+            "id": "CheckPoint119",
+            "name": "Takaruk Lightroot",
+            "link": "Takaruk Lightroot"
+          },
+          {
+            "coords": [
+              -2052.08911,
+              350.121399
+            ],
+            "elv": -491.969299,
+            "id": "CheckPoint120",
+            "name": "Busus Lightroot",
+            "link": "Busus Lightroot"
+          },
+          {
+            "coords": [
+              -1944.99402,
+              1563.41504
+            ],
+            "elv": -484.528198,
+            "id": "CheckPoint122",
+            "name": "Sohse Lightroot",
+            "link": "Sohse Lightroot"
+          },
+          {
+            "coords": [
+              469.214508,
+              333.763
+            ],
+            "elv": -500.147095,
+            "id": "CheckPoint123",
+            "name": "Oyimay Lightroot",
+            "link": "Oyimay Lightroot"
+          },
+          {
+            "coords": [
+              -1115.66895,
+              -73.9161301
+            ],
+            "elv": -492.338806,
+            "id": "CheckPoint124",
+            "name": "Netinet Lightroot",
+            "link": "Netinet Lightroot"
+          },
+          {
+            "coords": [
+              3534.5,
+              -849.82312
+            ],
+            "elv": -636.781311,
+            "id": "CheckPoint125",
+            "name": "Ikatoayam Lightroot",
+            "link": "Ikatoayam Lightroot"
+          },
+          {
+            "coords": [
+              630.22998,
+              -2846.07007
+            ],
+            "elv": -642.375122,
+            "id": "CheckPoint126",
+            "name": "Sikurukam Lightroot",
+            "link": "Sikurukam Lightroot"
+          },
+          {
+            "coords": [
+              2300.49292,
+              3840.9939
+            ],
+            "elv": -508.365387,
+            "id": "CheckPoint129",
+            "name": "Akinatanis Lightroot",
+            "link": "Akinatanis Lightroot"
+          },
+          {
+            "coords": [
+              -1903.98999,
+              930.071472
+            ],
+            "elv": -480.687897,
+            "id": "CheckPoint130",
+            "name": "Uisihcoj Lightroot",
+            "link": "Uisihcoj Lightroot"
+          },
+          {
+            "coords": [
+              -3524,
+              -564
+            ],
+            "elv": -595.062622,
+            "id": "CheckPoint131",
+            "name": "Nikohsi Lightroot",
+            "link": "Nikohsi Lightroot"
+          },
+          {
+            "coords": [
+              3354.16895,
+              -2558.53198
+            ],
+            "elv": -710.625122,
+            "id": "CheckPoint132",
+            "name": "Narusis Lightroot",
+            "link": "Narusis Lightroot"
+          },
+          {
+            "coords": [
+              1549.85803,
+              -595.155884
+            ],
+            "elv": -619.74939,
+            "id": "CheckPoint133",
+            "name": "Netamnet Lightroot",
+            "link": "Netamnet Lightroot"
+          },
+          {
+            "coords": [
+              1219.19995,
+              3811.51294
+            ],
+            "elv": -557.187622,
+            "id": "CheckPoint134",
+            "name": "Agihi-ihcoj Lightroot",
+            "link": "Agihi-ihcoj Lightroot"
+          },
+          {
+            "coords": [
+              -1052.745,
+              1769.31299
+            ],
+            "elv": -629.066772,
+            "id": "CheckPoint135",
+            "name": "Arusakam Lightroot",
+            "link": "Arusakam Lightroot"
+          },
+          {
+            "coords": [
+              450.976013,
+              -204.283005
+            ],
+            "elv": -492.943787,
+            "id": "CheckPoint136",
+            "name": "Sinonoyk Lightroot",
+            "link": "Sinonoyk Lightroot"
+          },
+          {
+            "coords": [
+              1640.44104,
+              1799.97302
+            ],
+            "elv": -769.933411,
+            "id": "CheckPoint137",
+            "name": "Kawamit Lightroot",
+            "link": "Kawamit Lightroot"
+          },
+          {
+            "coords": [
+              18.1596394,
+              1742.84094
+            ],
+            "elv": -480.278809,
+            "id": "CheckPoint138",
+            "name": "Uasnoj Lightroot",
+            "link": "Uasnoj Lightroot"
+          },
+          {
+            "coords": [
+              3264,
+              4663.5
+            ],
+            "elv": -473.812592,
+            "id": "CheckPoint139",
+            "name": "Kawisar Lightroot",
+            "link": "Kawisar Lightroot"
+          },
+          {
+            "coords": [
+              -2142.15308,
+              -4168.95996
+            ],
+            "elv": -508.252197,
+            "id": "CheckPoint140",
+            "name": "Rasinaduk Lightroot",
+            "link": "Rasinaduk Lightroot"
+          },
+          {
+            "coords": [
+              -3577.53589,
+              1514.28796
+            ],
+            "elv": -550.35498,
+            "id": "CheckPoint141",
+            "name": "U-u-ujoj Lightroot",
+            "link": "U-u-ujoj Lightroot"
+          },
+          {
+            "coords": [
+              -372,
+              -240.485107
+            ],
+            "elv": -498.624115,
+            "id": "CheckPoint142",
+            "name": "Nisoij Lightroot",
+            "link": "Nisoij Lightroot"
+          },
+          {
+            "coords": [
+              827.288025,
+              4497.35107
+            ],
+            "elv": -556.13562,
+            "id": "CheckPoint143",
+            "name": "Sisinatag Lightroot",
+            "link": "Sisinatag Lightroot"
+          },
+          {
+            "coords": [
+              -778.903687,
+              1180.71106
+            ],
+            "elv": -520.59021,
+            "id": "CheckPoint144",
+            "name": "Korom Lightroot",
+            "link": "Korom Lightroot"
+          },
+          {
+            "coords": [
+              3483.68896,
+              394.152313
+            ],
+            "elv": -615.250122,
+            "id": "CheckPoint147",
+            "name": "Katenim Lightroot",
+            "link": "Katenim Lightroot"
+          }
+        ]
+      }
+    ]
+  }
+]

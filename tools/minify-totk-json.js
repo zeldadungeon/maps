@@ -19,9 +19,38 @@ const fs = require("fs");
 const markersRoot = "public/totk/markers/";
 const inputs = {
   markers: {
-    depths: ["locations.json"],
-    surface: ["locations.json"],
-    sky: ["locations.json"],
+    depths: [
+      "caves.json",
+      "chests.json",
+      "dispensers.json",
+      "labels.json",
+      "locations.json",
+      "othermarkers.json",
+      "services.json",
+      "tgates.json",
+    ],
+    surface: [
+      "caves.json",
+      "chests.json",
+      "dispensers.json",
+      "koroks.json",
+      "labels.json",
+      "othermarkers.json",
+      "quests.json",
+      "services.json",
+      "tgates.json",
+    ],
+    sky: [
+      "caves.json",
+      "chests.json",
+      "dispensers.json",
+      "koroks.json",
+      "labels.json",
+      "othermarkers.json",
+      "quests.json",
+      "services.json",
+      "tgates.json",
+    ],
   },
   objects: {
     depths: ["materials.json"],

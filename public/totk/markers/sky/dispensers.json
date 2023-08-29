@@ -1,0 +1,268 @@
+[
+  {
+    "name": "Device Dispenser",
+    "source": "mapns",
+    "layers": [
+      {
+        "minZoom": 2,
+        "icon": {
+          "url": "dispenser.png",
+          "width": 36,
+          "height": 36
+        },
+        "markers": [
+          {
+            "coords": [
+              -3331.83594,
+              1104.48096
+            ],
+            "elv": 827.964417,
+            "id": "RBox_Field_K",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          },
+          {
+            "coords": [
+              -3239.02393,
+              1390.92102
+            ],
+            "elv": 417.46228,
+            "id": "RBox_Field_J_02",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          },
+          {
+            "coords": [
+              636.958679,
+              3430.19995
+            ],
+            "elv": 1316.59998,
+            "id": "RBox_Field_C",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          },
+          {
+            "coords": [
+              1542.74402,
+              3755.34302
+            ],
+            "elv": 1157.479,
+            "id": "RBox_Field_L",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          },
+          {
+            "coords": [
+              2076.31299,
+              4557.78711
+            ],
+            "elv": 1154.60095,
+            "id": "RBox_Field_Q",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          },
+          {
+            "coords": [
+              -1585.25,
+              -1212.88696
+            ],
+            "elv": 1007.427,
+            "id": "RBox_Field_D_02",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          },
+          {
+            "coords": [
+              1221.95398,
+              1983.38501
+            ],
+            "elv": 1250.68298,
+            "id": "RBox_Field_F",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          },
+          {
+            "coords": [
+              -2151.28003,
+              1344.17297
+            ],
+            "elv": 584.979492,
+            "id": "RBox_Field_J",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          },
+          {
+            "coords": [
+              -1718.797,
+              2320.98999
+            ],
+            "elv": 1485.18994,
+            "id": "RBox_Field_T",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          },
+          {
+            "coords": [
+              -2958.55688,
+              2851.89404
+            ],
+            "elv": 1211.604,
+            "id": "RBox_Field_K_02",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          },
+          {
+            "coords": [
+              -373.696289,
+              -3457.10107
+            ],
+            "elv": 1943.49512,
+            "id": "RBox_Field_I",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          },
+          {
+            "coords": [
+              -2019.26196,
+              -1771.54102
+            ],
+            "elv": 1148.479,
+            "id": "RBox_Field_H",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          },
+          {
+            "coords": [
+              3371.39404,
+              -1705.07996
+            ],
+            "elv": 948.479004,
+            "id": "RBox_Field_E_02",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          },
+          {
+            "coords": [
+              2821.77197,
+              443.356415
+            ],
+            "elv": 1820.479,
+            "id": "RBox_Field_M",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          },
+          {
+            "coords": [
+              1981.922,
+              215.118103
+            ],
+            "elv": 754.686523,
+            "id": "RBox_Field_M_02",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          },
+          {
+            "coords": [
+              781.661316,
+              -2370.5459
+            ],
+            "elv": 611.079407,
+            "id": "RBox_Field_D",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          },
+          {
+            "coords": [
+              -1096.44604,
+              1778.38098
+            ],
+            "elv": 917.69397,
+            "id": "RBox_Field_R",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          },
+          {
+            "coords": [
+              -805.631409,
+              4510.59912
+            ],
+            "elv": 1116.70398,
+            "id": "RBox_Field_G",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          },
+          {
+            "coords": [
+              -1029.63098,
+              4675.31299
+            ],
+            "elv": 1789.479,
+            "id": "RBox_Field_N",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          },
+          {
+            "coords": [
+              2766.93994,
+              -3803.229
+            ],
+            "elv": 702.336182,
+            "id": "RBox_Field_E",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          },
+          {
+            "coords": [
+              393.579987,
+              -3455.31201
+            ],
+            "elv": 1694.55298,
+            "id": "RBox_Field_I_02",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          },
+          {
+            "coords": [
+              1066.37598,
+              -3612.14502
+            ],
+            "elv": 1656.08398,
+            "id": "RBox_Field_S",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          },
+          {
+            "coords": [
+              502.278412,
+              2915.65698
+            ],
+            "elv": 950.860962,
+            "id": "RBox_Field_G_02",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          },
+          {
+            "coords": [
+              -1686.18506,
+              435.444305
+            ],
+            "elv": 1442.82104,
+            "id": "RBox_Field_A",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          },
+          {
+            "coords": [
+              -1259.54004,
+              769.09198
+            ],
+            "elv": 1579.45898,
+            "id": "RBox_Field_B",
+            "name": "Device Dispenser",
+            "link": "Device Dispenser"
+          }
+        ]
+      }
+    ]
+  }
+]

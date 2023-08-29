@@ -1,0 +1,1230 @@
+[
+  {
+    "name": "Stable",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 2,
+        "icon": {
+          "url": "stable.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              1143.51294,
+              2613.33203
+            ],
+            "elv": 148.788696,
+            "id": "DeathMountainHatago",
+            "name": "Foothill Stable",
+            "link": "Foothill Stable"
+          },
+          {
+            "coords": [
+              -1925.35999,
+              1760.78101
+            ],
+            "elv": 26.2843018,
+            "id": "FaronHatago000",
+            "name": "Dueling Peaks Stable",
+            "link": "Dueling Peaks Stable"
+          },
+          {
+            "coords": [
+              -3537.83911,
+              1552.02295
+            ],
+            "elv": 105.5625,
+            "id": "FaronHatago001",
+            "name": "Lakeside Stable",
+            "link": "Lakeside Stable"
+          },
+          {
+            "coords": [
+              -3450.88306,
+              529.600098
+            ],
+            "elv": 95.5581055,
+            "id": "FaronHatago002",
+            "name": "Highland Stable",
+            "link": "Highland Stable"
+          },
+          {
+            "coords": [
+              1135.33899,
+              1062.30298
+            ],
+            "elv": 66.9584045,
+            "id": "ForestHatago",
+            "name": "Woodland Stable",
+            "link": "Woodland Stable"
+          },
+          {
+            "coords": [
+              -2225.76489,
+              -2803.81201
+            ],
+            "elv": 73.5856934,
+            "id": "GerudoHatago",
+            "name": "Gerudo Canyon Stable",
+            "link": "Gerudo Canyon Stable"
+          },
+          {
+            "coords": [
+              -1269.01099,
+              -1449.49304
+            ],
+            "elv": 76.4190063,
+            "id": "HyruleDepthHatago",
+            "name": "Outskirt Stable",
+            "link": "Outskirt Stable"
+          },
+          {
+            "coords": [
+              724,
+              -1361
+            ],
+            "zoomAdjustedCoords": {
+              "0": [
+                678.562073,
+                -1293.83997
+              ],
+              "1": [
+                678.562073,
+                -1293.83997
+              ]
+            },
+            "elv": 86.5,
+            "id": "NewHyruleWestHatago",
+            "name": "New Serenne Stable",
+            "link": "New Serenne Stable"
+          },
+          {
+            "coords": [
+              -173.672302,
+              888.061584
+            ],
+            "elv": 70.9656982,
+            "id": "NorthHatelHatago",
+            "name": "Wetland Stable",
+            "link": "Wetland Stable"
+          },
+          {
+            "coords": [
+              -1095.297,
+              339.232391
+            ],
+            "elv": 40.3125,
+            "id": "RiverSideHatago",
+            "name": "Riverside Stable",
+            "link": "Riverside Stable"
+          },
+          {
+            "coords": [
+              547.598022,
+              -2931.56812
+            ],
+            "elv": 214.162292,
+            "id": "TabantaBridgeHatago",
+            "name": "Tabantha Bridge Stable",
+            "link": "Tabantha Bridge Stable"
+          },
+          {
+            "coords": [
+              2572.15601,
+              -1654.88306
+            ],
+            "elv": 277.022614,
+            "id": "TabantaHatago",
+            "name": "Snowfield Stable",
+            "link": "Snowfield Stable"
+          },
+          {
+            "coords": [
+              2745.64307,
+              4230.52197
+            ],
+            "elv": 170.289612,
+            "id": "TamourHatago",
+            "name": "East Akkala Stable",
+            "link": "East Akkala Stable"
+          },
+          {
+            "coords": [
+              1691.448,
+              3148.67603
+            ],
+            "elv": 233.639801,
+            "id": "TamurulHatago_02",
+            "name": "South Akkala Stable",
+            "link": "South Akkala Stable"
+          },
+          {
+            "coords": [
+              52.3064613,
+              -248.697006
+            ],
+            "elv": 19.5106964,
+            "id": "HorseStableBranchOffice_BaseCamp",
+            "name": "Mini Stable",
+            "link": "Mini Stable"
+          },
+          {
+            "coords": [
+              -1663.96301,
+              -1693.16101
+            ],
+            "elv": 11.1569977,
+            "id": "HorseStableBranchOffice_Gerudo",
+            "name": "Mini Stable",
+            "link": "Mini Stable"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Village",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 1,
+        "maxZoom": 4,
+        "icon": {
+          "url": "village.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              101.6017,
+              -254.119904
+            ],
+            "elv": 18.446701,
+            "id": "City_BaseCamp",
+            "name": "Lookout Landing",
+            "link": "Lookout Landing"
+          },
+          {
+            "coords": [
+              2140,
+              419
+            ],
+            "elv": -105,
+            "id": "Cokiri",
+            "name": "Korok Forest",
+            "link": "Korok Forest"
+          },
+          {
+            "coords": [
+              -2926.19702,
+              -3844.5
+            ],
+            "elv": 44.1688995,
+            "id": "Gerudo",
+            "name": "Gerudo Town",
+            "link": "Gerudo Town"
+          },
+          {
+            "coords": [
+              2440,
+              1657.25195
+            ],
+            "elv": 340.630188,
+            "id": "Goron",
+            "name": "Goron City",
+            "link": "Goron City"
+          },
+          {
+            "coords": [
+              -2089.91699,
+              3545.02905
+            ],
+            "elv": 232.034393,
+            "id": "Hateno",
+            "name": "Hateno Village",
+            "link": "Hateno Village"
+          },
+          {
+            "coords": [
+              -988.039124,
+              1817.43005
+            ],
+            "elv": 119.4552,
+            "id": "Kakariko",
+            "name": "Kakariko Village",
+            "link": "Kakariko Village"
+          },
+          {
+            "coords": [
+              1799.81604,
+              -3620.76489
+            ],
+            "elv": 103.671997,
+            "id": "Rito",
+            "name": "Rito Village",
+            "link": "Rito Village"
+          },
+          {
+            "coords": [
+              -3473.62891,
+              3007.31006
+            ],
+            "elv": 37.4978943,
+            "id": "Taura",
+            "name": "Lurelin Village",
+            "link": "Lurelin Village"
+          },
+          {
+            "coords": [
+              1611.18005,
+              3965.63892
+            ],
+            "elv": 128.237106,
+            "id": "UMiiVillage",
+            "name": "Tarrey Town",
+            "link": "Tarrey Town"
+          },
+          {
+            "coords": [
+              545.105713,
+              3330.60693
+            ],
+            "elv": 137.662003,
+            "id": "WhiteZora",
+            "name": "Zora's Domain",
+            "link": "Zora's Domain"
+          }
+        ]
+      },
+      {
+        "minZoom": 2,
+        "icon": {
+          "url": "building.png",
+          "width": 20,
+          "height": 20
+        },
+        "markers": [
+          {
+            "coords": [
+              -1353.27295,
+              -3611.61108
+            ],
+            "elv": 331.268585,
+            "id": "Assassin",
+            "name": "Yiga Clan Hideout",
+            "link": "Yiga Clan Hideout"
+          },
+          {
+            "coords": [
+              1973.85205,
+              1657.88599
+            ],
+            "elv": 273.496887,
+            "id": "SouthMine",
+            "name": "Southern Mine",
+            "link": "Southern Mine"
+          },
+          {
+            "coords": [
+              1611.93604,
+              3723.72803
+            ],
+            "elv": 114.230896,
+            "id": "UMiiVillage_JobField",
+            "name": "Hudson Construction Site",
+            "link": "Hudson Construction Site"
+          },
+          {
+            "coords": [
+              2289.99194,
+              -3852.72803
+            ],
+            "elv": -9.67725372,
+            "id": "ValleyVillage",
+            "name": "Flight Range",
+            "link": "Flight Range"
+          },
+          {
+            "coords": [
+              1549,
+              1750.5
+            ],
+            "elv": 285.5,
+            "id": "EldinRestaurants",
+            "name": "Bedrock Bistro",
+            "link": "Bedrock Bistro"
+          },
+          {
+            "coords": [
+              2293.1521,
+              -1387.69604
+            ],
+            "elv": -105,
+            "id": "KingValley2",
+            "name": "Forgotten Temple",
+            "link": "Forgotten Temple"
+          },
+          {
+            "coords": [
+              2821.68408,
+              1608.08899
+            ],
+            "elv": 431.5,
+            "id": "Mine",
+            "name": "YunoboCo HQ",
+            "link": "YunoboCo HQ"
+          },
+          {
+            "coords": [
+              -2556,
+              -3237
+            ],
+            "zoomAdjustedCoords": {
+              "0": [
+                -2556,
+                -3237
+              ],
+              "1": [
+                -2556,
+                -3237
+              ],
+              "3": [
+                -2556,
+                -3237
+              ],
+              "4": [
+                -2556,
+                -3237
+              ],
+              "5": [
+                -2556,
+                -3237
+              ],
+              "6": [
+                -2556,
+                -3237
+              ],
+              "2": [
+                -2540,
+                -3225
+              ]
+            },
+            "elv": -105,
+            "id": "Oasis",
+            "name": "Kara Kara Bazaar",
+            "link": "Kara Kara Bazaar"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Inn",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "inn.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              -2889.08594,
+              -3850.25293
+            ],
+            "elv": 95,
+            "id": "ShopInn_Gerudo",
+            "name": "Hotel Oasis",
+            "link": "Hotel Oasis"
+          },
+          {
+            "coords": [
+              2424.02197,
+              1682.04895
+            ],
+            "elv": 384.241394,
+            "id": "ShopInn_Goron",
+            "name": "Rollin' Inn",
+            "link": "Rollin' Inn"
+          },
+          {
+            "coords": [
+              -2111.20898,
+              3473.24805
+            ],
+            "elv": 142.285202,
+            "id": "ShopInn_Hateno",
+            "name": "The Great Ton Pu Inn",
+            "link": "The Great Ton Pu Inn"
+          },
+          {
+            "coords": [
+              -1021.77197,
+              1835.56897
+            ],
+            "elv": 135,
+            "id": "ShopInn_Kakariko",
+            "name": "Shuteye Inn",
+            "link": "Shuteye Inn"
+          },
+          {
+            "coords": [
+              2171.22412,
+              410.871094
+            ],
+            "elv": 154.625885,
+            "id": "ShopInn_Korok",
+            "name": "Inn",
+            "link": "Pepp"
+          },
+          {
+            "coords": [
+              -2609.9021,
+              -3268.25
+            ],
+            "elv": 95,
+            "id": "ShopInn_Oasis",
+            "name": "Inn",
+            "link": "Kara Kara Bazaar Inn"
+          },
+          {
+            "coords": [
+              1852.53503,
+              -3612.09106
+            ],
+            "elv": 184.03421,
+            "id": "ShopInn_Rito",
+            "name": "Swallow's Roost",
+            "link": "Swallow's Roost"
+          },
+          {
+            "coords": [
+              1596.01501,
+              3999.54102
+            ],
+            "elv": 129.926804,
+            "id": "ShopInn_UMiiVillage",
+            "name": "Inn",
+            "link": "Tarrey Town Inn"
+          },
+          {
+            "coords": [
+              -3437.03101,
+              2944.61401
+            ],
+            "elv": 29.6549072,
+            "id": "ShopInn_Uotori",
+            "name": "Fishing Resort",
+            "link": "Fishing Resort"
+          },
+          {
+            "coords": [
+              508.531891,
+              3296.22803
+            ],
+            "elv": 140.862,
+            "id": "ShopInn_Zora",
+            "name": "Seabed Inn",
+            "link": "Seabed Inn"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "General Store",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "general.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              76.5611115,
+              -205.766998
+            ],
+            "elv": 20.3703003,
+            "id": "ShopGeneral_BaseCamp",
+            "name": "General Store",
+            "link": "Lookout Landing General Store"
+          },
+          {
+            "coords": [
+              -2936.28809,
+              -3821.89404
+            ],
+            "elv": 94.991806,
+            "id": "ShopGeneral_Gerudo",
+            "name": "General Store",
+            "link": "Spera"
+          },
+          {
+            "coords": [
+              -2903.61499,
+              -3848.65698
+            ],
+            "elv": 94.9851074,
+            "id": "ShopGeneral_Gerudo1",
+            "name": "General Store",
+            "link": "Estan"
+          },
+          {
+            "coords": [
+              -2913.24805,
+              -3857.54492
+            ],
+            "elv": 95,
+            "id": "ShopGeneral_Gerudo2",
+            "name": "General Store",
+            "link": "Danda"
+          },
+          {
+            "coords": [
+              -2878.63306,
+              -3823.01807
+            ],
+            "elv": 94.9956055,
+            "id": "ShopGeneral_Gerudo3",
+            "name": "General Store",
+            "link": "Lorn"
+          },
+          {
+            "coords": [
+              -2925.89502,
+              -3819.99194
+            ],
+            "elv": 94.9810944,
+            "id": "ShopGeneral_Gerudo4",
+            "name": "General Store",
+            "link": "Ardin"
+          },
+          {
+            "coords": [
+              2463.48901,
+              1683.57996
+            ],
+            "elv": 385.818909,
+            "id": "ShopGeneral_Goron",
+            "name": "Goron Gusto Shop",
+            "link": "Goron Gusto Shop"
+          },
+          {
+            "coords": [
+              -2171.56299,
+              3360.78101
+            ],
+            "elv": 133.589798,
+            "id": "ShopGeneral_Hateno",
+            "name": "East Wind",
+            "link": "East Wind"
+          },
+          {
+            "coords": [
+              -1041.00195,
+              1825.85803
+            ],
+            "elv": 130.653702,
+            "id": "ShopGeneral_Kakariko",
+            "name": "The Curious Quiver",
+            "link": "The Curious Quiver"
+          },
+          {
+            "coords": [
+              -1029.26404,
+              1794.48303
+            ],
+            "elv": 130.035507,
+            "id": "ShopGeneral_Kakariko1",
+            "name": "High Spirits Produce",
+            "link": "High Spirits Produce"
+          },
+          {
+            "coords": [
+              2173.99805,
+              431.808105
+            ],
+            "elv": 153.358185,
+            "id": "ShopGeneral_Korok",
+            "name": "General Shoppe & Spore Store",
+            "link": "General Shoppe"
+          },
+          {
+            "coords": [
+              -2604.25,
+              -3262.25
+            ],
+            "elv": 95,
+            "id": "ShopGeneral_Oasis",
+            "name": "General Store",
+            "link": "Kara Kara Bazaar General Store"
+          },
+          {
+            "coords": [
+              -2564.52588,
+              -3277.98901
+            ],
+            "elv": 95,
+            "id": "ShopGeneral_Oasis1",
+            "name": "General Store",
+            "link": "Emri"
+          },
+          {
+            "coords": [
+              -2535.99512,
+              -3274.01196
+            ],
+            "elv": 95,
+            "id": "ShopGeneral_Oasis2",
+            "name": "General Store",
+            "link": "Maike"
+          },
+          {
+            "coords": [
+              1820.45605,
+              -3644.61304
+            ],
+            "elv": 184.877991,
+            "id": "ShopGeneral_Rito",
+            "name": "The Slippery Falcon",
+            "link": "The Slippery Falcon"
+          },
+          {
+            "coords": [
+              1634.14697,
+              4005.82104
+            ],
+            "elv": 129.076004,
+            "id": "ShopGeneral_UMiiVillage",
+            "name": "General Store",
+            "link": "Fyson"
+          },
+          {
+            "coords": [
+              -3493.90894,
+              2959.35596
+            ],
+            "elv": 1.84870148,
+            "id": "ShopGeneral_Uotori",
+            "name": "General Store",
+            "link": "Lurelin General Store"
+          },
+          {
+            "coords": [
+              490.742889,
+              3322.85107
+            ],
+            "elv": 140.462006,
+            "id": "ShopGeneral_Zora",
+            "name": "Coral Reef",
+            "link": "Coral Reef"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Armor Shop",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "armor.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              86.8024521,
+              -205.7668
+            ],
+            "elv": 20.3703003,
+            "id": "ShopArmor_BaseCamp",
+            "name": "Armor Shop",
+            "link": "Lookout Landing General Store"
+          },
+          {
+            "coords": [
+              -2552,
+              -3275.5
+            ],
+            "elv": 95,
+            "id": "ShopArmor_Gerudo",
+            "name": "Armor Shop",
+            "link": "Saula"
+          },
+          {
+            "coords": [
+              2409.20093,
+              1642.86902
+            ],
+            "elv": 385.157806,
+            "id": "ShopArmor_Goron",
+            "name": "Ripped and Shredded",
+            "link": "Ripped and Shredded"
+          },
+          {
+            "coords": [
+              -2127.875,
+              3356.95288
+            ],
+            "elv": 133.589798,
+            "id": "ShopArmor_Hateno",
+            "name": "Ventest Clothing Botique",
+            "link": "Ventest Clothing Botique"
+          },
+          {
+            "coords": [
+              -981.323486,
+              1854.68604
+            ],
+            "elv": 134.381805,
+            "id": "ShopArmor_Kakariko",
+            "name": "Enchanted",
+            "link": "Enchanted"
+          },
+          {
+            "coords": [
+              1787.28503,
+              -3631.48999
+            ],
+            "elv": 187.218292,
+            "id": "ShopArmor_Rito",
+            "name": "Brazen Beak",
+            "link": "Brazen Beak"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bargainer Statue",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 2,
+        "icon": {
+          "url": "bargainer.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              155.253601,
+              -251.263107
+            ],
+            "elv": 21.1843033,
+            "id": "SmallDemonStatue",
+            "name": "Bargainer Statue",
+            "link": "Bargainer Statue"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Other Shops",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "jewelry.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              -2877.07007,
+              -3836.802
+            ],
+            "elv": 95,
+            "id": "ShopJewelry_Gerudo",
+            "name": "Starlight Memories",
+            "link": "Starlight Memories"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "dye.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              -2152.26001,
+              3403.98608
+            ],
+            "elv": 133.589798,
+            "id": "ShopDye_Hateno",
+            "name": "Kochi Dye Shop",
+            "link": "Kochi Dye Shop"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "bar.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              -2857.13794,
+              -3856.77808
+            ],
+            "elv": 48.7274017,
+            "id": "Bar",
+            "name": "The Noble Canteen",
+            "link": "The Noble Canteen"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "battery.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              191.854507,
+              -219.204102
+            ],
+            "elv": 38.6401062,
+            "id": "BatteryExchangeShop_01",
+            "name": "Crystal Refinery",
+            "link": "Crystal Refinery"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "cook.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              -3409.98096,
+              2895.14502
+            ],
+            "elv": 11.7966995,
+            "id": "CookingShop",
+            "name": "Restaurant",
+            "link": "Restaurant"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "monster.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              1653.42896,
+              3960.15698
+            ],
+            "elv": 129.093002,
+            "id": "FigureGallery",
+            "name": "Monster Gallery",
+            "link": "Monster Gallery"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "school.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              -1974.68396,
+              3366.68408
+            ],
+            "elv": 142.773697,
+            "id": "HatenoSchool",
+            "name": "Hateno School",
+            "link": "Hateno School"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "milk.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              -2094.63696,
+              3619.2229
+            ],
+            "elv": 178.281311,
+            "id": "HatenoFarm",
+            "name": "Hateno Pasture",
+            "link": "Hateno Pasture"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "survey.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              -956.115417,
+              1828.79602
+            ],
+            "elv": 116.843796,
+            "id": "InvestigatingGroupBase",
+            "name": "Zonai Survey Team Base",
+            "link": "Zonai Survey Team Base"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "shopetc.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              1679.448,
+              3744.29907
+            ],
+            "elv": 93.1914978,
+            "id": "Circuit_Ichikara",
+            "name": "Tarrey Town Race",
+            "link": "Tarrey Town Race"
+          },
+          {
+            "coords": [
+              -3689.60303,
+              2977.98291
+            ],
+            "elv": 2.38960266,
+            "id": "Circuit_Uotori",
+            "name": "Lurelin Water Rally",
+            "link": "Lurelin Water Rally"
+          },
+          {
+            "coords": [
+              -2882.5,
+              -3902
+            ],
+            "elv": 95,
+            "id": "RentalZarashiShop_Gerudo",
+            "name": "Sand-Seal Rental Shop",
+            "link": "Sand-Seal Rental Shop"
+          },
+          {
+            "coords": [
+              -2925.5,
+              -3770
+            ],
+            "elv": 95,
+            "id": "RentalZarashiShop_Gerudo1",
+            "name": "Sand-Seal Rental Shop",
+            "link": "Sand-Seal Rental Shop"
+          },
+          {
+            "coords": [
+              -2325.0249,
+              -2995.2251
+            ],
+            "elv": 0,
+            "id": "RentalZarashiShop_GerudoDesert",
+            "name": "Sand-Seal Rental Shop",
+            "link": "Sand-Seal Rental Shop"
+          },
+          {
+            "coords": [
+              1637,
+              3995
+            ],
+            "elv": 130.216904,
+            "id": "ScrapShop",
+            "name": "Break-a-Part Shop",
+            "link": "Break-a-Part Shop"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "shoptreasure.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              -3377.71191,
+              2969.91797
+            ],
+            "elv": 30.3560944,
+            "id": "TreasureBoxShop",
+            "name": "Lucky Treasure Shop",
+            "link": "Lucky Treasure Shop"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "newspaper.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              1757.58496,
+              -3255.84106
+            ],
+            "elv": 151.601807,
+            "id": "NewspaperCompany",
+            "name": "Lucky Clover Gazette",
+            "link": "Lucky Clover Gazette"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "house.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              1379.922,
+              4208.19922
+            ],
+            "elv": 208.448212,
+            "id": "PlayerHouse",
+            "name": "Link's House",
+            "link": "Link's House"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Great Fairy",
+    "layers": [
+      {
+        "minZoom": 4,
+        "icon": {
+          "url": "fountain.png",
+          "width": 36,
+          "height": 36
+        },
+        "markers": [
+          {
+            "coords": [
+              -2179.93311,
+              1767.62305
+            ],
+            "elv": 1.0530014,
+            "id": "WeaponCureSpring_DressFairy_00",
+            "name": "Great Fairy Fountain",
+            "link": "Great Fairy Fountain"
+          },
+          {
+            "coords": [
+              2994.86597,
+              -1460.47095
+            ],
+            "elv": 301.810211,
+            "id": "WeaponCureSpring_DressFairy_01",
+            "name": "Great Fairy Fountain",
+            "link": "Great Fairy Fountain"
+          },
+          {
+            "coords": [
+              -1231.13306,
+              -1556.87097
+            ],
+            "elv": 76.5090942,
+            "id": "WeaponCureSpring_DressFairy_02",
+            "name": "Great Fairy Fountain",
+            "link": "Great Fairy Fountain"
+          },
+          {
+            "coords": [
+              1386.47595,
+              915.687317
+            ],
+            "elv": 81.6587067,
+            "id": "WeaponCureSpring",
+            "name": "Great Fairy Fountain",
+            "link": "Great Fairy Fountain"
+          }
+        ]
+      },
+      {
+        "minZoom": 4,
+        "icon": {
+          "url": "horsegod.png",
+          "width": 36,
+          "height": 36
+        },
+        "markers": [
+          {
+            "coords": [
+              3218.70996,
+              4296.05518
+            ],
+            "elv": 149.640305,
+            "id": "MaronSpring",
+            "name": "Malanya Spring",
+            "link": "Malanya Spring"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Cave",
+    "source": "mapns",
+    "layers": [
+      {
+        "minZoom": 3,
+        "showLabelForZoomLevel": 6,
+        "icon": {
+          "url": "cave.png",
+          "width": 25,
+          "height": 26
+        },
+        "markers": [
+          {
+            "coords": [
+              -1449.099,
+              711.581421
+            ],
+            "elv": 1486.06201,
+            "id": "Cave_CentralHyrule_0011",
+            "name": "Bottomless Cave",
+            "link": "Bottomless Cave"
+          },
+          {
+            "coords": [
+              -1358.02502,
+              739.095703
+            ],
+            "elv": 1542.75903,
+            "id": "Cave_CentralHyrule_00111",
+            "name": "Bottomless Cave",
+            "link": "Bottomless Cave"
+          },
+          {
+            "coords": [
+              -1638.81104,
+              632.279785
+            ],
+            "elv": 1483.91895,
+            "id": "Cave_CentralHyrule_0013",
+            "name": "Pit Cave",
+            "link": "Pit Cave"
+          },
+          {
+            "coords": [
+              -1624.505,
+              587.419128
+            ],
+            "elv": 1443.04297,
+            "id": "Cave_CentralHyrule_00131",
+            "name": "Pit Cave",
+            "link": "Pit Cave"
+          },
+          {
+            "coords": [
+              -1633.77295,
+              170.516602
+            ],
+            "elv": 1377.81494,
+            "id": "Cave_CentralHyrule_0017",
+            "name": "Pondside Cave",
+            "link": "Pondside Cave"
+          },
+          {
+            "coords": [
+              -1557.83801,
+              260.154694
+            ],
+            "elv": 1361.72705,
+            "id": "Cave_CentralHyrule_00171",
+            "name": "Pondside Cave",
+            "link": "Pondside Cave"
+          },
+          {
+            "coords": [
+              -1631.64697,
+              380.059998
+            ],
+            "elv": 1411.65002,
+            "id": "Cave_CentralHyrule_0019",
+            "name": "Mining Cave",
+            "link": "Mining Cave"
+          },
+          {
+            "coords": [
+              -1625.62195,
+              489.663391
+            ],
+            "elv": 1368.25,
+            "id": "Cave_CentralHyrule_00191",
+            "name": "Mining Cave",
+            "link": "Mining Cave"
+          }
+        ]
+      }
+    ]
+  }
+]

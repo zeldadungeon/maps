@@ -1,0 +1,1555 @@
+[
+  {
+    "name": "Location",
+    "layers": [
+      {
+        "minZoom": 1,
+        "maxZoom": 1,
+        "markers": [
+          {
+            "coords": [
+              -1715,
+              -856.544373
+            ],
+            "elv": -434.767914,
+            "id": "MinusField_BluePrintShrine_1",
+            "name": "Great Abandoned Central Mine",
+            "link": "Great Abandoned Central Mine"
+          },
+          {
+            "coords": [
+              -2719.52588,
+              -3834.43311
+            ],
+            "elv": -491.523285,
+            "id": "MinusField_Gerudo_2",
+            "name": "Abandoned Gerudo Mine",
+            "link": "Abandoned Gerudo Mine"
+          },
+          {
+            "coords": [
+              2052.23706,
+              1684.58899
+            ],
+            "elv": -751.070129,
+            "id": "MinusField_Goron_3",
+            "name": "Abandoned Eldin Mine",
+            "link": "Abandoned Eldin Mine"
+          },
+          {
+            "coords": [
+              -2509.51196,
+              3555.0249
+            ],
+            "elv": -456.694092,
+            "id": "MinusField_Hateno_3",
+            "name": "Abandoned Hateno Mine",
+            "link": "Abandoned Hateno Mine"
+          },
+          {
+            "coords": [
+              -1406.13403,
+              1816.76501
+            ],
+            "elv": -560.507813,
+            "id": "MinusField_Kakariko_3",
+            "name": "Abandoned Kakariko Mine",
+            "link": "Abandoned Kakariko Mine"
+          },
+          {
+            "coords": [
+              -1987.88403,
+              -3094.20898
+            ],
+            "elv": -443.898102,
+            "id": "MinusField_Oasis_2",
+            "name": "Abandoned Kara Kara Mine",
+            "link": "Abandoned Kara Kara Mine"
+          },
+          {
+            "coords": [
+              2167.80298,
+              -3467.79492
+            ],
+            "elv": -380.770691,
+            "id": "MinusField_Rito_1",
+            "name": "Abandoned Hebra Mine",
+            "link": "Abandoned Hebra Mine"
+          },
+          {
+            "coords": [
+              -3605.92212,
+              2966.97803
+            ],
+            "elv": -305,
+            "id": "MinusField_Taura",
+            "name": "Abandoned Lurelin Mine",
+            "link": "Abandoned Lurelin Mine"
+          },
+          {
+            "coords": [
+              1715.30896,
+              3968.79712
+            ],
+            "elv": -305,
+            "id": "MinusField_UMiiVillage",
+            "name": "Abandoned Tarrey Mine",
+            "link": "Abandoned Tarrey Mine"
+          },
+          {
+            "coords": [
+              935.924622,
+              3170.45801
+            ],
+            "elv": -676.280884,
+            "id": "MinusField_WhiteZora",
+            "name": "Abandoned Lanayru Mine",
+            "link": "Abandoned Lanayru Mine"
+          }
+        ]
+      },
+      {
+        "minZoom": 4,
+        "markers": [
+          {
+            "coords": [
+              -728.294983,
+              -4785.71289
+            ],
+            "elv": -1214.30701,
+            "id": "MinusField_AagetoMt",
+            "name": "Agaat Canyon Mine",
+            "link": "Agaat Canyon Mine"
+          },
+          {
+            "coords": [
+              -3734.84595,
+              3728.74902
+            ],
+            "elv": -606.286804,
+            "id": "MinusField_CresiaPeninsula",
+            "name": "Cresia Pit Mine",
+            "link": "Cresia Pit Mine"
+          },
+          {
+            "coords": [
+              -3276.34912,
+              3152.5271
+            ],
+            "elv": -708.760681,
+            "id": "MinusField_DasukidaMt",
+            "name": "Dunsel Canyon Mine",
+            "link": "Dunsel Canyon Mine"
+          },
+          {
+            "coords": [
+              -3737.15991,
+              -4098.50684
+            ],
+            "elv": -529.053589,
+            "id": "MinusField_DesertGrave",
+            "name": "Gerudo Underground Cemetery",
+            "link": "Gerudo Underground Cemetery"
+          },
+          {
+            "coords": [
+              -2088.69409,
+              -1801.62
+            ],
+            "elv": -602.250366,
+            "id": "MinusField_FenaMt",
+            "name": "Nabooru Canyon Mine",
+            "link": "Nabooru Canyon Mine"
+          },
+          {
+            "coords": [
+              2433.00293,
+              -114.678703
+            ],
+            "elv": -632.806519,
+            "id": "MinusField_ForestColosseum",
+            "name": "Forest Coliseum",
+            "link": "Forest Coliseum"
+          },
+          {
+            "coords": [
+              -31.5325909,
+              3294.28809
+            ],
+            "elv": -840.199524,
+            "id": "MinusField_GibururuMt",
+            "name": "Ruto Canyon Mine",
+            "link": "Ruto Canyon Mine"
+          },
+          {
+            "coords": [
+              -2779.30005,
+              1936.36694
+            ],
+            "elv": -853.60907,
+            "id": "MinusField_GimpoMt",
+            "name": "Floria Canyon Mine",
+            "link": "Floria Canyon Mine"
+          },
+          {
+            "coords": [
+              -3504.12598,
+              2589.26001
+            ],
+            "elv": -629.282288,
+            "id": "MinusField_GobyLake",
+            "name": "Ancient Observation Deck",
+            "link": "Ancient Observation Deck"
+          },
+          {
+            "coords": [
+              -2483.17407,
+              2511.98511
+            ],
+            "elv": -502.226807,
+            "id": "MinusField_HimeidaMt",
+            "name": "Meda Canyon Mine",
+            "link": "Meda Canyon Mine"
+          },
+          {
+            "coords": [
+              -2200.72607,
+              2367.63892
+            ],
+            "elv": -596.716919,
+            "id": "MinusField_JijigegeMt",
+            "name": "Rozudo Canyon Mine",
+            "link": "Rozudo Canyon Mine"
+          },
+          {
+            "coords": [
+              -2601.31201,
+              -970.561218
+            ],
+            "elv": -682.272278,
+            "id": "MinusField_KapporeMt",
+            "name": "Faloraa Canyon Mine",
+            "link": "Faloraa Canyon Mine"
+          },
+          {
+            "coords": [
+              -2556.25806,
+              905.984924
+            ],
+            "elv": -466.803986,
+            "id": "MinusField_KazuryuLake",
+            "name": "Dracozu Altar",
+            "link": "Dracozu Altar"
+          },
+          {
+            "coords": [
+              -1403.86206,
+              2934.79004
+            ],
+            "elv": -838.880493,
+            "id": "MinusField_KimarikaMt",
+            "name": "Canyon of Awakening Mine",
+            "link": "Canyon of Awakening Mine"
+          },
+          {
+            "coords": [
+              785.143005,
+              -2687.19507
+            ],
+            "elv": -782.705811,
+            "id": "MinusField_KutiffMt",
+            "name": "Rhoam Canyon Mine",
+            "link": "Rhoam Canyon Mine"
+          },
+          {
+            "coords": [
+              3564.73511,
+              4661.56592
+            ],
+            "elv": -400.469788,
+            "id": "MinusField_LomeiIsland",
+            "name": "Lomei Depths Labyrinth",
+            "link": "Lomei Depths Labyrinth"
+          },
+          {
+            "coords": [
+              3433.97192,
+              -814.745728
+            ],
+            "elv": -682.252075,
+            "id": "MinusField_LomeiNorth",
+            "name": "North Lomei Depths Labyrinth",
+            "link": "North Lomei Depths Labyrinth"
+          },
+          {
+            "coords": [
+              -3579.20093,
+              -1795
+            ],
+            "elv": -538.278992,
+            "id": "MinusField_LomeiSouth",
+            "name": "South Lomei Depths Labyrinth",
+            "link": "South Lomei Depths Labyrinth"
+          },
+          {
+            "coords": [
+              504.071411,
+              3780.85596
+            ],
+            "elv": -1035.7666,
+            "id": "MinusField_MemeMt",
+            "name": "Ploymus Canyon Mine",
+            "link": "Ploymus Canyon Mine"
+          },
+          {
+            "coords": [
+              -1911.83301,
+              4222.83008
+            ],
+            "elv": -803.381104,
+            "id": "MinusField_MizemakuMt",
+            "name": "Walnot Canyon Mine",
+            "link": "Walnot Canyon Mine"
+          },
+          {
+            "coords": [
+              2043.72205,
+              3682.95093
+            ],
+            "elv": -659.460693,
+            "id": "MinusField_MoriMt",
+            "name": "Ulri Canyon Mine",
+            "link": "Ulri Canyon Mine"
+          },
+          {
+            "coords": [
+              -3603.86206,
+              -1390.61694
+            ],
+            "elv": -916.965698,
+            "id": "MinusField_MorudaMt",
+            "name": "Daval Canyon Mine",
+            "link": "Daval Canyon Mine"
+          },
+          {
+            "coords": [
+              -3363.46094,
+              -1380.50098
+            ],
+            "elv": -951.772583,
+            "id": "MinusField_MorugaMt",
+            "name": "Granajh Canyon Mine",
+            "link": "Granajh Canyon Mine"
+          },
+          {
+            "coords": [
+              -2513.85498,
+              3328.71509
+            ],
+            "elv": -776.6073,
+            "id": "MinusField_PongagaMt",
+            "name": "Ebon Canyon Mine",
+            "link": "Ebon Canyon Mine"
+          },
+          {
+            "coords": [
+              2583.93091,
+              -561.293884
+            ],
+            "elv": -843.167297,
+            "id": "MinusField_RirimukuMt",
+            "name": "Drena Canyon Mine",
+            "link": "Drena Canyon Mine"
+          },
+          {
+            "coords": [
+              -1668.45996,
+              3888.823
+            ],
+            "elv": -864.906982,
+            "id": "MinusField_RokomakuMt",
+            "name": "Madorna Canyon Mine",
+            "link": "Madorna Canyon Mine"
+          },
+          {
+            "coords": [
+              210.050598,
+              -962.376221
+            ],
+            "elv": -592.971313,
+            "id": "MinusField_SaiMt",
+            "name": "Gustaf Canyon Mine",
+            "link": "Gustaf Canyon Mine"
+          },
+          {
+            "coords": [
+              -2672.87207,
+              2500.49097
+            ],
+            "elv": -732.570923,
+            "id": "MinusField_TerumeMt",
+            "name": "Taran Canyon Mine",
+            "link": "Taran Canyon Mine"
+          },
+          {
+            "coords": [
+              -2174.23193,
+              868.68457
+            ],
+            "elv": -570.196045,
+            "id": "ZonauCentralShrine",
+            "name": "Construct Factory",
+            "link": "Construct Factory"
+          },
+          {
+            "coords": [
+              -2431.67407,
+              706.112488
+            ],
+            "elv": -523.562866,
+            "id": "ZonauSatelliteShrine_LeftArm",
+            "name": "Left-Arm Depot",
+            "link": "Left-Arm Depot"
+          },
+          {
+            "coords": [
+              -2292.63501,
+              1016.37097
+            ],
+            "elv": -532.776001,
+            "id": "ZonauSatelliteShrine_LeftLeg",
+            "name": "Left-Leg Depot",
+            "link": "Left-Leg Depot"
+          },
+          {
+            "coords": [
+              -2111.55298,
+              569.083618
+            ],
+            "elv": -508.402496,
+            "id": "ZonauSatelliteShrine_RightArm",
+            "name": "Right-Arm Depot",
+            "link": "Right-Arm Depot"
+          },
+          {
+            "coords": [
+              -2116.552,
+              1143.63794
+            ],
+            "elv": -439.580414,
+            "id": "ZonauSatelliteShrine_RightLeg",
+            "name": "Right-Leg Depot",
+            "link": "Right-Leg Depot"
+          },
+          {
+            "coords": [
+              3465.21997,
+              -4342.76416
+            ],
+            "elv": -920.119629,
+            "id": "MinusField_KingfisherSpa",
+            "name": "Sherfin's Lavafalls",
+            "link": "Sherfin's Lavafalls"
+          },
+          {
+            "coords": [
+              2714.68091,
+              -4083.87305
+            ],
+            "elv": -562.620483,
+            "id": "MinusField_KumSpa",
+            "name": "Sturnida Lavafalls",
+            "link": "Sturnida Lavafalls"
+          },
+          {
+            "coords": [
+              -3684.94702,
+              -4619.01318
+            ],
+            "elv": -529.413513,
+            "id": "MinusField_GerudoFossil",
+            "name": "Gerudo Dark Skeleton",
+            "link": "Gerudo Dark Skeleton"
+          },
+          {
+            "coords": [
+              3635.71509,
+              -3850.53003
+            ],
+            "elv": -940.445801,
+            "id": "MinusField_HeburaFossil",
+            "name": "Hebra Dark Skeleton",
+            "link": "Hebra Dark Skeleton"
+          },
+          {
+            "coords": [
+              3707.104,
+              1518.05603
+            ],
+            "elv": -668.034912,
+            "id": "MinusField_OrdinFossil",
+            "name": "Eldin Dark Skeleton",
+            "link": "Eldin Dark Skeleton"
+          },
+          {
+            "coords": [
+              -367.005798,
+              -2288.01294
+            ],
+            "elv": -893.075012,
+            "id": "MinusField_PoponMt",
+            "name": "Blupee Burrow",
+            "link": "Blupee Burrow"
+          },
+          {
+            "coords": [
+              -1088.78296,
+              -2119.93091
+            ],
+            "elv": -444.134308,
+            "id": "MinusField_BarakkPlain",
+            "name": "Dalite Grove",
+            "link": "Dalite Grove"
+          },
+          {
+            "coords": [
+              -2056.677,
+              3219.90601
+            ],
+            "elv": -594.19812,
+            "id": "MinusField_BiginaTrees",
+            "name": "Ginner Grove",
+            "link": "Ginner Grove"
+          },
+          {
+            "coords": [
+              -2102.29907,
+              2019.71802
+            ],
+            "elv": -600.817627,
+            "id": "MinusField_BuibuiTrees",
+            "name": "Bubinga Grove",
+            "link": "Bubinga Grove"
+          },
+          {
+            "coords": [
+              -2027.68201,
+              3832.08496
+            ],
+            "elv": -457.722504,
+            "id": "MinusField_ExpaTrees",
+            "name": "Retsam Grove",
+            "link": "Retsam Grove"
+          },
+          {
+            "coords": [
+              -1680.38403,
+              -945.203613
+            ],
+            "elv": -669.200623,
+            "id": "MinusField_FairyForest",
+            "name": "Grove of Spirits",
+            "link": "Grove of Spirits"
+          },
+          {
+            "coords": [
+              3079.28003,
+              3358.71899
+            ],
+            "elv": -604.198486,
+            "id": "MinusField_GibogaHill",
+            "name": "Rok Grove",
+            "link": "Rok Grove"
+          },
+          {
+            "coords": [
+              1544.44995,
+              1042.21399
+            ],
+            "elv": -632.154297,
+            "id": "MinusField_KiyanbaTrees",
+            "name": "Minshi Grove",
+            "link": "Minshi Grove"
+          },
+          {
+            "coords": [
+              2100,
+              405.67691
+            ],
+            "elv": -559.685181,
+            "id": "MinusField_KorokForest",
+            "name": "Korok Grove",
+            "link": "Korok Grove"
+          },
+          {
+            "coords": [
+              -2187.14209,
+              3114.30688
+            ],
+            "elv": -572.284607,
+            "id": "MinusField_MiddleTrees",
+            "name": "Midla Grove",
+            "link": "Midla Grove"
+          },
+          {
+            "coords": [
+              -3539.60693,
+              -343.456299
+            ],
+            "elv": -574.146301,
+            "id": "MinusField_NezuppoTrees",
+            "name": "Pappetto Grove",
+            "link": "Pappetto Grove"
+          },
+          {
+            "coords": [
+              259.8237,
+              553.468201
+            ],
+            "elv": -609.828796,
+            "id": "MinusField_OngiForest",
+            "name": "Applean Grove",
+            "link": "Applean Grove"
+          },
+          {
+            "coords": [
+              -2391.83911,
+              1943.20203
+            ],
+            "elv": -594.571533,
+            "id": "MinusField_RiaroTrees",
+            "name": "Hickaly Grove",
+            "link": "Hickaly Grove"
+          },
+          {
+            "coords": [
+              -151.716995,
+              -1165.38501
+            ],
+            "elv": -601.360962,
+            "id": "MinusField_ShinikkyoForest",
+            "name": "Giant's Grove",
+            "link": "Giant's Grove"
+          },
+          {
+            "coords": [
+              171.555603,
+              2618.51489
+            ],
+            "elv": -630.622192,
+            "id": "MinusField_TagonaTrees",
+            "name": "Tabahl Grove",
+            "link": "Tabahl Grove"
+          },
+          {
+            "coords": [
+              -1544.12097,
+              -383.364899
+            ],
+            "elv": -515.203857,
+            "id": "MinusField_ZifForest",
+            "name": "Grove of Time",
+            "link": "Grove of Time"
+          },
+          {
+            "coords": [
+              -2488.26001,
+              903.536072
+            ],
+            "elv": -357.989807,
+            "id": "MinusField_BraveFountain",
+            "name": "Wellspring of Courage",
+            "link": "Wellspring of Courage"
+          },
+          {
+            "coords": [
+              2562.80298,
+              3733.14307
+            ],
+            "elv": -351.088013,
+            "id": "MinusField_PowerFountain",
+            "name": "Wellspring of Power",
+            "link": "Wellspring of Power"
+          },
+          {
+            "coords": [
+              -1898.03503,
+              -1098.55505
+            ],
+            "elv": -744.30719,
+            "id": "MinusField_StartPoint",
+            "name": "Secret Spring of Revival",
+            "link": "Secret Spring of Revival"
+          },
+          {
+            "coords": [
+              1041.27197,
+              -249.218201
+            ],
+            "elv": -1546.88501,
+            "id": "MinusField_GanondorfArea",
+            "name": "Gloom's Lair",
+            "link": "Gloom's Lair"
+          },
+          {
+            "coords": [
+              921.272522,
+              -249.218201
+            ],
+            "elv": -2476.88501,
+            "id": "MinusField_GanondorfEnd",
+            "name": "Gloom's Origin",
+            "link": "Gloom's Origin"
+          },
+          {
+            "coords": [
+              1007.82397,
+              -243.453506
+            ],
+            "elv": -852.801697,
+            "id": "MinusField_GanondorfEntrance",
+            "name": "Gloom's Approach",
+            "link": "Gloom's Approach"
+          },
+          {
+            "coords": [
+              876.272522,
+              -344.218201
+            ],
+            "elv": -1286.88501,
+            "id": "MinusField_OpeningField",
+            "name": "Forgotten Foundation",
+            "link": "Forgotten Foundation"
+          },
+          {
+            "coords": [
+              1046.31799,
+              -271.614014
+            ],
+            "elv": -1326.08398,
+            "id": "MinusField_OpeningFieldEnd",
+            "name": "Imprisoning Chamber",
+            "link": "Imprisoning Chamber"
+          }
+        ]
+      },
+      {
+        "minZoom": 2,
+        "maxZoom": 3,
+        "markers": [
+          {
+            "coords": [
+              -1701.12805,
+              -734.542297
+            ],
+            "elv": -425.653015,
+            "id": "MinusField_BluePrintShrine_2",
+            "name": "Great Abandoned Central Mine",
+            "link": "Great Abandoned Central Mine"
+          },
+          {
+            "coords": [
+              -2786.22998,
+              -3807.33301
+            ],
+            "elv": -388.525085,
+            "id": "MinusField_Gerudo_1",
+            "name": "Abandoned Gerudo Mine",
+            "link": "Abandoned Gerudo Mine"
+          },
+          {
+            "coords": [
+              2295.28906,
+              1642.18604
+            ],
+            "elv": -739.672607,
+            "id": "MinusField_Goron_1",
+            "name": "Abandoned Eldin Mine",
+            "link": "Abandoned Eldin Mine"
+          },
+          {
+            "coords": [
+              -2387.50098,
+              3581.18311
+            ],
+            "elv": -495.978485,
+            "id": "MinusField_Hateno_2",
+            "name": "Abandoned Hateno Mine",
+            "link": "Abandoned Hateno Mine"
+          },
+          {
+            "coords": [
+              -1299.06604,
+              1818.74695
+            ],
+            "elv": -565.927612,
+            "id": "MinusField_Kakariko",
+            "name": "Abandoned Kakariko Mine",
+            "link": "Abandoned Kakariko Mine"
+          },
+          {
+            "coords": [
+              -2311.03589,
+              -3171.49292
+            ],
+            "elv": -474.976013,
+            "id": "MinusField_Oasis",
+            "name": "Abandoned Kara Kara Mine",
+            "link": "Abandoned Kara Kara Mine"
+          },
+          {
+            "coords": [
+              2079.57202,
+              -3479.31812
+            ],
+            "elv": -396.919586,
+            "id": "MinusField_Rito_2",
+            "name": "Abandoned Hebra Mine",
+            "link": "Abandoned Hebra Mine"
+          },
+          {
+            "coords": [
+              -3479.95898,
+              2964.54102
+            ],
+            "elv": -352.981293,
+            "id": "MinusField_Taura_1",
+            "name": "Abandoned Lurelin Mine",
+            "link": "Abandoned Lurelin Mine"
+          },
+          {
+            "coords": [
+              1722.29004,
+              3966.28589
+            ],
+            "elv": -305,
+            "id": "MinusField_UMiiVillage_1",
+            "name": "Abandoned Tarrey Mine",
+            "link": "Abandoned Tarrey Mine"
+          },
+          {
+            "coords": [
+              719.360413,
+              3293.82007
+            ],
+            "elv": -478.077515,
+            "id": "MinusField_WhiteZora_3",
+            "name": "Abandoned Lanayru Mine",
+            "link": "Abandoned Lanayru Mine"
+          }
+        ]
+      },
+      {
+        "minZoom": 4,
+        "maxZoom": 4,
+        "markers": [
+          {
+            "coords": [
+              1565.59302,
+              3306.67505
+            ],
+            "elv": -509.429688,
+            "id": "MinusField_AkkareZhai_1",
+            "name": "Ancient Underground Fortress",
+            "link": "Ancient Underground Fortress"
+          },
+          {
+            "coords": [
+              -1204.94995,
+              -1151.50195
+            ],
+            "elv": -376.187714,
+            "id": "MinusField_AncientColosseum",
+            "name": "Floating Coliseum",
+            "link": "Floating Coliseum"
+          },
+          {
+            "coords": [
+              3079.55811,
+              328.125
+            ],
+            "elv": -461.859497,
+            "id": "MinusField_BlindForest_1",
+            "name": "Gleeok Den",
+            "link": "Gleeok Den"
+          },
+          {
+            "coords": [
+              -3565.68091,
+              4562.70215
+            ],
+            "elv": -353.723816,
+            "id": "MinusField_Cohorint_1",
+            "name": "Lone Island Coliseum",
+            "link": "Lone Island Coliseum"
+          },
+          {
+            "coords": [
+              381.126099,
+              1154.07495
+            ],
+            "elv": -522.177368,
+            "id": "MinusField_GashamahiMt",
+            "name": "Crenel Canyon Mine",
+            "link": "Crenel Canyon Mine"
+          },
+          {
+            "coords": [
+              -738.785583,
+              -4175.15723
+            ],
+            "elv": -1062.91809,
+            "id": "MinusField_GerudoSummit",
+            "name": "Gerudo Canyon Mine",
+            "link": "Gerudo Canyon Mine"
+          },
+          {
+            "coords": [
+              -3637.854,
+              2557.28296
+            ],
+            "elv": -515.18396,
+            "id": "MinusField_GobyMt_1",
+            "name": "Tuft Canyon Mine",
+            "link": "Tuft Canyon Mine"
+          },
+          {
+            "coords": [
+              -1838.04895,
+              2242.47412
+            ],
+            "elv": -355.728394,
+            "id": "MinusField_HatenoGate_1",
+            "name": "Secluded Coliseum",
+            "link": "Secluded Coliseum"
+          },
+          {
+            "coords": [
+              1407.27905,
+              -3810.88306
+            ],
+            "elv": -576.993408,
+            "id": "MinusField_HawkMt",
+            "name": "Cuho Canyon Mine",
+            "link": "Cuho Canyon Mine"
+          },
+          {
+            "coords": [
+              2861.43188,
+              -2740.86011
+            ],
+            "elv": -966.936584,
+            "id": "MinusField_HeburaPeak_1",
+            "name": "Hebra Canyon Mine",
+            "link": "Hebra Canyon Mine"
+          },
+          {
+            "coords": [
+              -2193.83691,
+              -1293.43799
+            ],
+            "elv": -604.165588,
+            "id": "MinusField_HyliaMt",
+            "name": "Hylia Canyon Mine",
+            "link": "Hylia Canyon Mine"
+          },
+          {
+            "coords": [
+              2359.26392,
+              -3322.18506
+            ],
+            "elv": -775.295227,
+            "id": "MinusField_KasuraMt",
+            "name": "Corvash Canyon Mine",
+            "link": "Corvash Canyon Mine"
+          },
+          {
+            "coords": [
+              1372.73999,
+              -2010.68994
+            ],
+            "elv": -704.641785,
+            "id": "MinusField_KikinosaMt_1",
+            "name": "Lindor Canyon Mine",
+            "link": "Lindor Canyon Mine"
+          },
+          {
+            "coords": [
+              -599.754089,
+              -1063.896
+            ],
+            "elv": -490.851196,
+            "id": "MinusField_KinshoiMt_1",
+            "name": "Daphnes Canyon Mine",
+            "link": "Daphnes Canyon Mine"
+          },
+          {
+            "coords": [
+              -1379.16895,
+              4003.33789
+            ],
+            "elv": -742.65332,
+            "id": "MinusField_LiveMountain",
+            "name": "Lanayru Canyon Mine",
+            "link": "Lanayru Canyon Mine"
+          },
+          {
+            "coords": [
+              3146.44995,
+              2143.05591
+            ],
+            "elv": -733.644287,
+            "id": "MinusField_LizardLake_1",
+            "name": "Scorching Coliseum",
+            "link": "Scorching Coliseum"
+          },
+          {
+            "coords": [
+              2077.70801,
+              4589.88477
+            ],
+            "elv": -286.299011,
+            "id": "MinusField_MacusePeninsula_1",
+            "name": "Rist Mine",
+            "link": "Rist Mine"
+          },
+          {
+            "coords": [
+              -3849.56592,
+              -4313.42188
+            ],
+            "elv": -362.533112,
+            "id": "MinusField_SouthGerudoLegacy_1",
+            "name": "Desert Coliseum",
+            "link": "Desert Coliseum"
+          },
+          {
+            "coords": [
+              -1850.06299,
+              1294.52698
+            ],
+            "elv": -685.185913,
+            "id": "MinusField_TwinsMountain",
+            "name": "Dueling Canyons Mine",
+            "link": "Dueling Canyons Mine"
+          },
+          {
+            "coords": [
+              3612,
+              -3398.88794
+            ],
+            "elv": -809.622314,
+            "id": "MinusField_FlamingoSpa",
+            "name": "Goflam's Lavafalls",
+            "link": "Goflam's Lavafalls"
+          },
+          {
+            "coords": [
+              -2340,
+              2234
+            ],
+            "elv": -555.51001,
+            "id": "MinusField_HimeidaSpa_1",
+            "name": "Meda Lavafalls",
+            "link": "Meda Lavafalls"
+          },
+          {
+            "coords": [
+              -830.915527,
+              455.988403
+            ],
+            "elv": -456.111115,
+            "id": "MinusField_AncientTimeShrine",
+            "name": "Plains Bargainer Statue",
+            "link": "Plains Bargainer Statue"
+          },
+          {
+            "coords": [
+              -1829.06299,
+              -732.698181
+            ],
+            "elv": -458.511414,
+            "id": "MinusField_BluePrintShrine_3",
+            "name": "Great Abandoned Central Mine",
+            "link": "Great Abandoned Central Mine"
+          },
+          {
+            "coords": [
+              3493.06299,
+              3253.87305
+            ],
+            "elv": -319.272888,
+            "id": "MinusField_DokuroPond",
+            "name": "Akkala House of Bones",
+            "link": "Akkala House of Bones"
+          },
+          {
+            "coords": [
+              -2885.2439,
+              -3806.9519
+            ],
+            "elv": -381.520599,
+            "id": "MinusField_Gerudo_3",
+            "name": "Abandoned Gerudo Mine",
+            "link": "Abandoned Gerudo Mine"
+          },
+          {
+            "coords": [
+              2345.87207,
+              1637.46204
+            ],
+            "elv": -742.456177,
+            "id": "MinusField_Goron_2",
+            "name": "Abandoned Eldin Mine",
+            "link": "Abandoned Eldin Mine"
+          },
+          {
+            "coords": [
+              -2228.45703,
+              3548.31812
+            ],
+            "elv": -484.640503,
+            "id": "MinusField_Hateno",
+            "name": "Abandoned Hateno Mine",
+            "link": "Abandoned Hateno Mine"
+          },
+          {
+            "coords": [
+              -1229.94604,
+              1828.02295
+            ],
+            "elv": -521.833191,
+            "id": "MinusField_Kakariko_2",
+            "name": "Abandoned Kakariko Mine",
+            "link": "Abandoned Kakariko Mine"
+          },
+          {
+            "coords": [
+              2660.65991,
+              -1026.323
+            ],
+            "elv": -371.87439,
+            "id": "MinusField_KingValley_1",
+            "name": "Cliff Bargainer Statue",
+            "link": "Cliff Bargainer Statue"
+          },
+          {
+            "coords": [
+              -2426.70605,
+              -3218.25806
+            ],
+            "elv": -422.199493,
+            "id": "MinusField_Oasis_1",
+            "name": "Abandoned Kara Kara Mine",
+            "link": "Abandoned Kara Kara Mine"
+          },
+          {
+            "coords": [
+              1852.85706,
+              -3460.74805
+            ],
+            "elv": -316.61792,
+            "id": "MinusField_Rito_3",
+            "name": "Abandoned Hebra Mine",
+            "link": "Abandoned Hebra Mine"
+          },
+          {
+            "coords": [
+              -3422.90991,
+              2902.3689
+            ],
+            "elv": -349.230408,
+            "id": "MinusField_Taura_3",
+            "name": "Abandoned Lurelin Mine",
+            "link": "Abandoned Lurelin Mine"
+          },
+          {
+            "coords": [
+              1627.75598,
+              3967.43994
+            ],
+            "elv": -553.594971,
+            "id": "MinusField_UMiiVillage_3",
+            "name": "Abandoned Tarrey Mine",
+            "link": "Abandoned Tarrey Mine"
+          },
+          {
+            "coords": [
+              611.38739,
+              3302.38794
+            ],
+            "elv": -478.077515,
+            "id": "MinusField_WhiteZora_1",
+            "name": "Abandoned Lanayru Mine",
+            "link": "Abandoned Lanayru Mine"
+          },
+          {
+            "coords": [
+              -1272.76196,
+              3836.83594
+            ],
+            "elv": -519.015015,
+            "id": "MinusField_WiseFountain",
+            "name": "Wellspring of Wisdom",
+            "link": "Wellspring of Wisdom"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "markers": [
+          {
+            "coords": [
+              1523.05005,
+              3310.28491
+            ],
+            "elv": -477.744293,
+            "id": "MinusField_AkkareZhai",
+            "name": "Ancient Underground Fortress",
+            "link": "Ancient Underground Fortress"
+          },
+          {
+            "coords": [
+              -1239.05298,
+              -1151.85596
+            ],
+            "elv": -380.520599,
+            "id": "MinusField_AncientColosseum_1",
+            "name": "Floating Coliseum",
+            "link": "Floating Coliseum"
+          },
+          {
+            "coords": [
+              3111.24194,
+              330.971802
+            ],
+            "elv": -457.614685,
+            "id": "MinusField_BlindForest",
+            "name": "Gleeok Den",
+            "link": "Gleeok Den"
+          },
+          {
+            "coords": [
+              -3603.58203,
+              4563.06201
+            ],
+            "elv": -348.303223,
+            "id": "MinusField_Cohorint",
+            "name": "Lone Island Coliseum",
+            "link": "Lone Island Coliseum"
+          },
+          {
+            "coords": [
+              414.823608,
+              1165.19397
+            ],
+            "elv": -532.99353,
+            "id": "MinusField_GashamahiMt_1",
+            "name": "Crenel Canyon Mine",
+            "link": "Crenel Canyon Mine"
+          },
+          {
+            "coords": [
+              -710.392517,
+              -4174.18311
+            ],
+            "elv": -1068.59387,
+            "id": "MinusField_GerudoSummit_1",
+            "name": "Gerudo Canyon Mine",
+            "link": "Gerudo Canyon Mine"
+          },
+          {
+            "coords": [
+              -3611.3811,
+              2557.08398
+            ],
+            "elv": -515.255005,
+            "id": "MinusField_GobyMt",
+            "name": "Tuft Canyon Mine",
+            "link": "Tuft Canyon Mine"
+          },
+          {
+            "coords": [
+              -1877.87,
+              2242.27197
+            ],
+            "elv": -344.902802,
+            "id": "MinusField_HatenoGate",
+            "name": "Secluded Coliseum",
+            "link": "Secluded Coliseum"
+          },
+          {
+            "coords": [
+              1364.33899,
+              -3790.79199
+            ],
+            "elv": -611.025635,
+            "id": "MinusField_HawkMt_1",
+            "name": "Cuho Canyon Mine",
+            "link": "Cuho Canyon Mine"
+          },
+          {
+            "coords": [
+              2897.86597,
+              -2766.56689
+            ],
+            "elv": -874.546814,
+            "id": "MinusField_HeburaPeak",
+            "name": "Hebra Canyon Mine",
+            "link": "Hebra Canyon Mine"
+          },
+          {
+            "coords": [
+              -2229.19995,
+              -1290.349
+            ],
+            "elv": -610.500305,
+            "id": "MinusField_HyliaMt_1",
+            "name": "Hylia Canyon Mine",
+            "link": "Hylia Canyon Mine"
+          },
+          {
+            "coords": [
+              2329.33008,
+              -3336.83398
+            ],
+            "elv": -780.951294,
+            "id": "MinusField_KasuraMt_1",
+            "name": "Corvash Canyon Mine",
+            "link": "Corvash Canyon Mine"
+          },
+          {
+            "coords": [
+              1326.71704,
+              -2006.37402
+            ],
+            "elv": -710.510925,
+            "id": "MinusField_KikinosaMt",
+            "name": "Lindor Canyon Mine",
+            "link": "Lindor Canyon Mine"
+          },
+          {
+            "coords": [
+              -573.932312,
+              -1065.37903
+            ],
+            "elv": -481.392212,
+            "id": "MinusField_KinshoiMt",
+            "name": "Daphnes Canyon Mine",
+            "link": "Daphnes Canyon Mine"
+          },
+          {
+            "coords": [
+              -1360.37805,
+              3964.36011
+            ],
+            "elv": -535.098206,
+            "id": "MinusField_LiveMountain_1",
+            "name": "Lanayru Canyon Mine",
+            "link": "Lanayru Canyon Mine"
+          },
+          {
+            "coords": [
+              3173.77197,
+              2142.92603
+            ],
+            "elv": -714.041199,
+            "id": "MinusField_LizardLake",
+            "name": "Scorching Coliseum",
+            "link": "Scorching Coliseum"
+          },
+          {
+            "coords": [
+              2143.27905,
+              4579.93896
+            ],
+            "elv": -286.299011,
+            "id": "MinusField_MacusePeninsula",
+            "name": "Rist Mine",
+            "link": "Rist Mine"
+          },
+          {
+            "coords": [
+              -3802.06689,
+              -4314.00098
+            ],
+            "elv": -361.151703,
+            "id": "MinusField_SouthGerudoLegacy",
+            "name": "Desert Coliseum",
+            "link": "Desert Coliseum"
+          },
+          {
+            "coords": [
+              -1824.40698,
+              1291.70105
+            ],
+            "elv": -762.24823,
+            "id": "MinusField_TwinsMountain_1",
+            "name": "Dueling Canyons Mine",
+            "link": "Dueling Canyons Mine"
+          },
+          {
+            "coords": [
+              3575,
+              -3399.854
+            ],
+            "elv": -811.004395,
+            "id": "MinusField_FlamingoSpa_1",
+            "name": "Goflam's Lavafalls",
+            "link": "Goflam's Lavafalls"
+          },
+          {
+            "coords": [
+              -2366,
+              2253
+            ],
+            "elv": -555,
+            "id": "MinusField_HimeidaSpa",
+            "name": "Meda Lavafalls",
+            "link": "Meda Lavafalls"
+          },
+          {
+            "coords": [
+              -807.168091,
+              457.06131
+            ],
+            "elv": -443.703308,
+            "id": "MinusField_AncientTimeShrine_1",
+            "name": "Plains Bargainer Statue",
+            "link": "Plains Bargainer Statue"
+          },
+          {
+            "coords": [
+              -1861.14697,
+              -730.763672
+            ],
+            "elv": -404.088715,
+            "id": "MinusField_BluePrintShrine",
+            "name": "Great Abandoned Central Mine",
+            "link": "Great Abandoned Central Mine"
+          },
+          {
+            "coords": [
+              3458.82495,
+              3253.96289
+            ],
+            "elv": -319.272888,
+            "id": "MinusField_DokuroPond_1",
+            "name": "Akkala House of Bones",
+            "link": "Akkala House of Bones"
+          },
+          {
+            "coords": [
+              -2889.51709,
+              -3815.90796
+            ],
+            "elv": -382.064514,
+            "id": "MinusField_Gerudo",
+            "name": "Abandoned Gerudo Mine",
+            "link": "Abandoned Gerudo Mine"
+          },
+          {
+            "coords": [
+              2363.86694,
+              1649.13403
+            ],
+            "elv": -748.67688,
+            "id": "MinusField_Goron",
+            "name": "Abandoned Eldin Mine",
+            "link": "Abandoned Eldin Mine"
+          },
+          {
+            "coords": [
+              -2237.18994,
+              3548.60889
+            ],
+            "elv": -476.723785,
+            "id": "MinusField_Hateno_1",
+            "name": "Abandoned Hateno Mine",
+            "link": "Abandoned Hateno Mine"
+          },
+          {
+            "coords": [
+              -1197.85596,
+              1823.92004
+            ],
+            "elv": -521.609802,
+            "id": "MinusField_Kakariko_1",
+            "name": "Abandoned Kakariko Mine",
+            "link": "Abandoned Kakariko Mine"
+          },
+          {
+            "coords": [
+              2679.13989,
+              -1034.04504
+            ],
+            "elv": -237.378906,
+            "id": "MinusField_KingValley",
+            "name": "Cliff Bargainer Statue",
+            "link": "Cliff Bargainer Statue"
+          },
+          {
+            "coords": [
+              -2462.62109,
+              -3226.56201
+            ],
+            "elv": -397.872986,
+            "id": "MinusField_Oasis_3",
+            "name": "Abandoned Kara Kara Mine",
+            "link": "Abandoned Kara Kara Mine"
+          },
+          {
+            "coords": [
+              1862.20105,
+              -3457.40405
+            ],
+            "elv": -315.161194,
+            "id": "MinusField_Rito",
+            "name": "Abandoned Hebra Mine",
+            "link": "Abandoned Hebra Mine"
+          },
+          {
+            "coords": [
+              -3388.32104,
+              2899.82202
+            ],
+            "elv": -344.455597,
+            "id": "MinusField_Taura_2",
+            "name": "Abandoned Lurelin Mine",
+            "link": "Abandoned Lurelin Mine"
+          },
+          {
+            "coords": [
+              1618.93506,
+              3966.71997
+            ],
+            "elv": -553.009277,
+            "id": "MinusField_UMiiVillage_2",
+            "name": "Abandoned Tarrey Mine",
+            "link": "Abandoned Tarrey Mine"
+          },
+          {
+            "coords": [
+              577.841187,
+              3295.01611
+            ],
+            "elv": -593.618286,
+            "id": "MinusField_WhiteZora_2",
+            "name": "Abandoned Lanayru Mine",
+            "link": "Abandoned Lanayru Mine"
+          },
+          {
+            "coords": [
+              -1283.13794,
+              3859.91211
+            ],
+            "elv": -816.170776,
+            "id": "MinusField_WiseFountain_1",
+            "name": "Wellspring of Wisdom",
+            "link": "Wellspring of Wisdom"
+          }
+        ]
+      }
+    ]
+  }
+]
