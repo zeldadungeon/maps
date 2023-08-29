@@ -515,7 +515,7 @@ window.onload = async () => {
       legendItem("Armor", "treasurearmor", 27, 21),
       legendItem("Unique Weapon", "treasureweapon", 27, 21),
       legendItem("Yiga Schematic", "schematic", 27, 21),
-      legendItem("Zonaite Deposit", "zonaite", 27, 21),
+      legendItem("Large Zonaite Deposit", "zonaite", 27, 21),
     ],
     "Collectibles"
   );
