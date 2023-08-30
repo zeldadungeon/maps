@@ -1,0 +1,379 @@
+[
+  {
+    "name": "Chasm",
+    "source": "mapns",
+    "layers": [
+      {
+        "minZoom": 1,
+        "showLabelForZoomLevel": 6,
+        "icon": {
+          "url": "chasm.png",
+          "width": 25,
+          "height": 26
+        },
+        "markers": [
+          {
+            "coords": [
+              -3067.73804,
+              -2491.19312
+            ],
+            "elv": 6.23989868,
+            "id": "Cave_GerudoDesert_0043D",
+            "name": "East Gerudo Chasm",
+            "link": "East Gerudo Chasm"
+          },
+          {
+            "coords": [
+              1126.02405,
+              -2644.2439
+            ],
+            "elv": 142.631699,
+            "id": "Cave_HyruleRidge_0004D",
+            "name": "Hyrule Ridge Chasm",
+            "link": "Hyrule Ridge Chasm"
+          },
+          {
+            "coords": [
+              162.054794,
+              1726.91699
+            ],
+            "elv": -4.81410217,
+            "id": "Cave_Lanayru_0050D",
+            "name": "Lanayru Wetlands Chasm",
+            "link": "Lanayru Wetlands Chasm"
+          },
+          {
+            "coords": [
+              441.587189,
+              3271.55005
+            ],
+            "elv": -20.6940002,
+            "id": "Cave_Lanayru_0063D",
+            "name": "Chasm Under Zora's Domain",
+            "link": "Chasm Under Zora's Domain"
+          },
+          {
+            "coords": [
+              3441.88306,
+              3246.81592
+            ],
+            "elv": -43.1066818,
+            "id": "DeepHole_AkkareSkullD",
+            "name": "Skull Lake Chasm",
+            "link": "Skull Lake Chasm"
+          },
+          {
+            "coords": [
+              -1333.44299,
+              -3430.18188
+            ],
+            "elv": 279.693115,
+            "id": "DeepHole_B-6_AssasisnBossD",
+            "name": "Yiga Clan Hideout Chasm",
+            "link": "Yiga Clan Hideout Chasm"
+          },
+          {
+            "coords": [
+              -1859.86902,
+              -3685.62793
+            ],
+            "elv": 33.6060944,
+            "id": "DeepHole_B-6_TowerD",
+            "name": "Birida Lookout Chasm",
+            "link": "Birida Lookout Chasm"
+          },
+          {
+            "coords": [
+              1307.87305,
+              4707.78223
+            ],
+            "elv": 119.228699,
+            "id": "DeepHole_ChikurunD",
+            "name": "Tingel Island Chasm",
+            "link": "Tingel Island Chasm"
+          },
+          {
+            "coords": [
+              2193.41211,
+              418.008606
+            ],
+            "elv": 143.688797,
+            "id": "DeepHole_CokiriD",
+            "name": "Deku Tree Chasm",
+            "link": "Deku Tree Chasm"
+          },
+          {
+            "coords": [
+              2602.5,
+              2534.5
+            ],
+            "elv": 643.5,
+            "id": "DeepHole_DeathMountainD",
+            "name": "Death Mountain Chasm",
+            "link": "Death Mountain Chasm"
+          },
+          {
+            "coords": [
+              -2396.66309,
+              1304.99597
+            ],
+            "elv": 62.2823029,
+            "id": "DeepHole_FironeD",
+            "name": "Tobio's Hollow Chasm",
+            "link": "Tobio's Hollow Chasm"
+          },
+          {
+            "coords": [
+              -1992.97498,
+              -452.5
+            ],
+            "elv": 67.2785034,
+            "id": "DeepHole_FirstLandEastD",
+            "name": "Great Plateau East Chasm",
+            "link": "Great Plateau East Chasm"
+          },
+          {
+            "coords": [
+              -1509.74695,
+              -664.93103
+            ],
+            "elv": 49.4942017,
+            "id": "DeepHole_FirstLandNorthD",
+            "name": "Great Plateau North Chasm",
+            "link": "Great Plateau North Chasm"
+          },
+          {
+            "coords": [
+              -2317.50488,
+              -932.831177
+            ],
+            "elv": 163.537506,
+            "id": "DeepHole_FirstLandSouthD",
+            "name": "Great Plateau South Chasm",
+            "link": "Great Plateau South Chasm"
+          },
+          {
+            "coords": [
+              -1992.55298,
+              -1431.69202
+            ],
+            "elv": 225.815186,
+            "id": "DeepHole_FirstLandWestD",
+            "name": "Great Plateau West Chasm",
+            "link": "Great Plateau West Chasm"
+          },
+          {
+            "coords": [
+              -3461.7561,
+              -1794.91895
+            ],
+            "elv": 44.3601074,
+            "id": "DeepHole_GerudoMazeD",
+            "name": "South Lomei Chasm",
+            "link": "South Lomei Chasm"
+          },
+          {
+            "coords": [
+              -637.663513,
+              -4203.36182
+            ],
+            "elv": 643.078918,
+            "id": "DeepHole_GerudoSummitD",
+            "name": "Gerudo Summit Chasm",
+            "link": "Gerudo Summit Chasm"
+          },
+          {
+            "coords": [
+              2180.88403,
+              4029.55298
+            ],
+            "elv": -96.1790924,
+            "id": "DeepHole_HigakkareD",
+            "name": "East Akkala Plains Chasm",
+            "link": "East Akkala Plains Chasm"
+          },
+          {
+            "coords": [
+              -2380.70093,
+              2513.71411
+            ],
+            "elv": 131.286697,
+            "id": "DeepHole_HimeidaMtD",
+            "name": "Meda Mountain Chasm",
+            "link": "Meda Mountain Chasm"
+          },
+          {
+            "coords": [
+              1012.17297,
+              -254
+            ],
+            "elv": -210,
+            "id": "DeepHole_HyruleCastleD",
+            "name": "Hyrule Castle Chasm",
+            "link": "Hyrule Castle Chasm"
+          },
+          {
+            "coords": [
+              882.159973,
+              169.987793
+            ],
+            "elv": -48.1749992,
+            "id": "DeepHole_HyruleCastleEastD",
+            "name": "Hyrule Castle Moat East Chasm",
+            "link": "Hyrule Castle Moat East Chasm"
+          },
+          {
+            "coords": [
+              666.79248,
+              -922.606873
+            ],
+            "elv": -9.47884369,
+            "id": "DeepHole_HyruleCastleWestD",
+            "name": "Hyrule Castle Moat West Chasm",
+            "link": "Hyrule Castle Moat West Chasm"
+          },
+          {
+            "coords": [
+              -2598.02295,
+              -332
+            ],
+            "elv": -51.8229485,
+            "id": "DeepHole_HyruleLakeD",
+            "name": "Lake Hylia Chasm",
+            "link": "Lake Hylia Chasm"
+          },
+          {
+            "coords": [
+              -299.580597,
+              -255.025696
+            ],
+            "elv": -1.53179932,
+            "id": "DeepHole_HyrulePlainsD",
+            "name": "Hyrule Field Chasm",
+            "link": "Hyrule Field Chasm"
+          },
+          {
+            "coords": [
+              1722.35205,
+              -456.876312
+            ],
+            "elv": 169.3862,
+            "id": "DeepHole_ImeruMtD",
+            "name": "Elma Knolls Chasm",
+            "link": "Elma Knolls Chasm"
+          },
+          {
+            "coords": [
+              -846.128418,
+              1974.48804
+            ],
+            "elv": 115.505005,
+            "id": "DeepHole_Kakariko_EastHillD",
+            "name": "East Hill Chasm",
+            "link": "East Hill Chasm"
+          },
+          {
+            "coords": [
+              1668.099,
+              1059.42798
+            ],
+            "elv": 149.873993,
+            "id": "DeepHole_KiyanbaTreesD",
+            "name": "Minshi Woods Chasm",
+            "link": "Minshi Woods Chasm"
+          },
+          {
+            "coords": [
+              3697.46802,
+              4655
+            ],
+            "elv": 26.5,
+            "id": "DeepHole_LomeiIslandD",
+            "name": "Lomei Labyrinth Chasm",
+            "link": "Lomei Labyrinth Chasm"
+          },
+          {
+            "coords": [
+              1286.68701,
+              3296.86011
+            ],
+            "elv": 124.952103,
+            "id": "DeepHole_MinakkareD",
+            "name": "South Akkala Plains Chasm",
+            "link": "South Akkala Plains Chasm"
+          },
+          {
+            "coords": [
+              2983.78003,
+              -71.0354004
+            ],
+            "elv": 126.931305,
+            "id": "DeepHole_RirimukuMtD",
+            "name": "Drenan Highlands Chasm",
+            "link": "Drenan Highlands Chasm"
+          },
+          {
+            "coords": [
+              1803.078,
+              -3571.25098
+            ],
+            "elv": 119.044601,
+            "id": "DeepHole_RitoD",
+            "name": "Rito Village Chasm",
+            "link": "Rito Village Chasm"
+          },
+          {
+            "coords": [
+              -3459.29492,
+              4507.12207
+            ],
+            "elv": -17.0577393,
+            "id": "DeepHole_SaihatenoD",
+            "name": "Eventide Island Chasm",
+            "link": "Eventide Island Chasm"
+          },
+          {
+            "coords": [
+              -2118.77002,
+              221.942001
+            ],
+            "elv": -2.11650085,
+            "id": "DeepHole_SanaePlateauD",
+            "name": "Hills of Baumer Chasm",
+            "link": "Hills of Baumer Chasm"
+          },
+          {
+            "coords": [
+              3534.69897,
+              -814.48291
+            ],
+            "elv": 220.197815,
+            "id": "DeepHole_TabantaMazeD",
+            "name": "North Lomei Chasm",
+            "link": "North Lomei Chasm"
+          },
+          {
+            "coords": [
+              -1343.98096,
+              3604.58911
+            ],
+            "elv": 118.139496,
+            "id": "DeepHole_YuaSnowD",
+            "name": "Naydra Snowfield Chasm",
+            "link": "Naydra Snowfield Chasm"
+          },
+          {
+            "coords": [
+              -1657.80603,
+              -127.971802
+            ],
+            "elv": -31.9857864,
+            "id": "DeepHole_ZifForestD",
+            "name": "Forest of Time Chasm",
+            "link": "Forest of Time Chasm"
+          }
+        ]
+      }
+    ]
+  }
+]

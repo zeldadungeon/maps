@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Dragon's Tear",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 1,
+        "icon": {
+          "url": "tear.png",
+          "width": 31,
+          "height": 36
+        },
+        "markers": [
+          {
+            "coords": [
+              966.086609,
+              -1412.526
+            ],
+            "elv": 124.675293,
+            "id": "DragonTears01",
+            "name": "Dragon's Tear",
+            "link": "Dragon's Tear"
+          },
+          {
+            "coords": [
+              1888.54004,
+              -2551.32007
+            ],
+            "elv": 320.117004,
+            "id": "DragonTears02",
+            "name": "Dragon's Tear",
+            "link": "Dragon's Tear"
+          },
+          {
+            "coords": [
+              737.593384,
+              1828.32703
+            ],
+            "elv": 90.4089966,
+            "id": "DragonTears03",
+            "name": "Dragon's Tear",
+            "link": "Dragon's Tear"
+          },
+          {
+            "coords": [
+              -1309.22205,
+              694.62793
+            ],
+            "elv": 54.0630035,
+            "id": "DragonTears04",
+            "name": "Dragon's Tear",
+            "link": "Dragon's Tear"
+          },
+          {
+            "coords": [
+              -1699.68701,
+              -3178.36499
+            ],
+            "elv": 419.820007,
+            "id": "DragonTears05",
+            "name": "Dragon's Tear",
+            "link": "Dragon's Tear"
+          },
+          {
+            "coords": [
+              -77.055687,
+              -3096.33398
+            ],
+            "elv": 212.021698,
+            "id": "DragonTears06",
+            "name": "Dragon's Tear",
+            "link": "Dragon's Tear"
+          },
+          {
+            "coords": [
+              -3566.44995,
+              3325.72803
+            ],
+            "elv": 5.58399963,
+            "id": "DragonTears07",
+            "name": "Dragon's Tear",
+            "link": "Dragon's Tear"
+          },
+          {
+            "coords": [
+              3621.79004,
+              -1863.68604
+            ],
+            "elv": 237.623505,
+            "id": "DragonTears08",
+            "name": "Dragon's Tear",
+            "link": "Dragon's Tear"
+          },
+          {
+            "coords": [
+              -304.990997,
+              4467.70215
+            ],
+            "elv": 75.8339996,
+            "id": "DragonTears09",
+            "name": "Dragon's Tear",
+            "link": "Dragon's Tear"
+          },
+          {
+            "coords": [
+              -2682.97192,
+              -649.326782
+            ],
+            "elv": 69.2290039,
+            "id": "DragonTears10",
+            "name": "Dragon's Tear",
+            "link": "Dragon's Tear"
+          },
+          {
+            "coords": [
+              2951.68994,
+              892.029175
+            ],
+            "elv": 363.450989,
+            "id": "DragonTears11",
+            "name": "Dragon's Tear",
+            "link": "Dragon's Tear"
+          },
+          {
+            "coords": [
+              2144.08691,
+              4534.67676
+            ],
+            "elv": 1.50119781,
+            "id": "DragonTears12",
+            "name": "Dragon's Tear",
+            "link": "Dragon's Tear"
+          }
+        ]
+      }
+    ]
+  }
+]

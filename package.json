@@ -5,8 +5,9 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "stage": "tsc && vite build --mode staging",
+    "minify-json": "node tools/minify-totk-json.js",
+    "build": "node tools/minify-totk-json.js && tsc && vite build",
+    "stage": "node tools/minify-totk-json.js && tsc && vite build --mode staging",
     "preview": "vite preview",
     "format": "prettier --check .",
     "lint": "eslint -c .eslintrc.js --ext .ts ./src",

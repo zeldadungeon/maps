@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Bargainer Statue",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 2,
+        "icon": {
+          "url": "bargainer.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              -1899.245,
+              -775.906311
+            ],
+            "zoomAdjustedCoords": {
+              "0": [
+                -1956.87097,
+                -756.469971
+              ],
+              "1": [
+                -1956.87097,
+                -756.469971
+              ],
+              "2": [
+                -1899.245,
+                -775.906311
+              ],
+              "3": [
+                -1899.245,
+                -775.906311
+              ],
+              "4": [
+                -1899.245,
+                -775.906311
+              ],
+              "5": [
+                -1899.245,
+                -775.906311
+              ],
+              "6": [
+                -1899.245,
+                -775.906311
+              ]
+            },
+            "elv": -557.461792,
+            "id": "DemonStatue_00",
+            "name": "Bargainer Statue",
+            "link": "Bargainer Statue"
+          },
+          {
+            "coords": [
+              -796.506287,
+              458.316193
+            ],
+            "elv": -469.959015,
+            "id": "DemonStatue_01",
+            "name": "Bargainer Statue",
+            "link": "Bargainer Statue"
+          },
+          {
+            "coords": [
+              2690.37305,
+              -1032.64697
+            ],
+            "elv": -266.246796,
+            "id": "DemonStatue_02",
+            "name": "Bargainer Statue",
+            "link": "Bargainer Statue"
+          },
+          {
+            "coords": [
+              -1333.93005,
+              3850.771
+            ],
+            "zoomAdjustedCoords": {
+              "3": [
+                -1333.70203,
+                3849.98511
+              ],
+              "4": [
+                -1333.70203,
+                3849.98511
+              ]
+            },
+            "elv": -850.759521,
+            "id": "DemonStatue_03",
+            "name": "Bargainer Statue",
+            "link": "Bargainer Statue"
+          },
+          {
+            "coords": [
+              -2398.97607,
+              883.004883
+            ],
+            "elv": -386.016388,
+            "id": "DemonStatue_04",
+            "name": "Bargainer Statue",
+            "link": "Bargainer Statue"
+          },
+          {
+            "coords": [
+              2604.20288,
+              3702.1499
+            ],
+            "elv": -411.649902,
+            "id": "DemonStatue_05",
+            "name": "Bargainer Statue",
+            "link": "Bargainer Statue"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "General Store",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 2,
+        "icon": {
+          "url": "general.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              -3375.74707,
+              1356.91296
+            ],
+            "elv": -736.973816,
+            "id": "ForgeShopGolem",
+            "name": "Smithing Construct",
+            "link": "Smithing Construct"
+          },
+          {
+            "coords": [
+              -2960.99292,
+              -3810.27197
+            ],
+            "zoomAdjustedCoords": {
+              "0": [
+                -3062.6001,
+                -3810.48999
+              ],
+              "1": [
+                -3062.6001,
+                -3810.48999
+              ]
+            },
+            "elv": -487.393097,
+            "id": "SmeltShopGolem_01",
+            "name": "Forge Construct",
+            "link": "Forge Construct"
+          },
+          {
+            "coords": [
+              -2515.12695,
+              -3190.32007
+            ],
+            "elv": -475.160004,
+            "id": "SmeltShopGolem_02",
+            "name": "Forge Construct",
+            "link": "Forge Construct"
+          },
+          {
+            "coords": [
+              556.71228,
+              3243.86597
+            ],
+            "elv": -749.922424,
+            "id": "SmeltShopGolem_03",
+            "name": "Forge Construct",
+            "link": "Forge Construct"
+          },
+          {
+            "coords": [
+              1917.104,
+              -3463.40405
+            ],
+            "zoomAdjustedCoords": {
+              "0": [
+                1846.76599,
+                -3423.90698
+              ],
+              "1": [
+                1846.76599,
+                -3423.90698
+              ]
+            },
+            "elv": -416.521912,
+            "id": "SmeltShopGolem_04",
+            "name": "Forge Construct",
+            "link": "Forge Construct"
+          },
+          {
+            "coords": [
+              2382.51489,
+              1697.77002
+            ],
+            "zoomAdjustedCoords": {
+              "0": [
+                2279.71704,
+                1675.63
+              ],
+              "1": [
+                2279.71704,
+                1675.63
+              ]
+            },
+            "elv": -823.848999,
+            "id": "SmeltShopGolem_05",
+            "name": "Forge Construct",
+            "link": "Forge Construct"
+          },
+          {
+            "coords": [
+              1557.18298,
+              3957.39795
+            ],
+            "zoomAdjustedCoords": {
+              "0": [
+                1400.948,
+                3968.26294
+              ],
+              "1": [
+                1400.948,
+                3968.26294
+              ]
+            },
+            "elv": -575.833008,
+            "id": "SmeltShopGolem_06",
+            "name": "Forge Construct",
+            "link": "Forge Construct"
+          },
+          {
+            "coords": [
+              -1178.61499,
+              1767.34497
+            ],
+            "elv": -628.655029,
+            "id": "SmeltShopGolem_07",
+            "name": "Forge Construct",
+            "link": "Forge Construct"
+          },
+          {
+            "coords": [
+              -2185.28906,
+              3526.71997
+            ],
+            "elv": -587.5,
+            "id": "SmeltShopGolem_08",
+            "name": "Forge Construct",
+            "link": "Forge Construct"
+          },
+          {
+            "coords": [
+              -3379.31104,
+              2952.72998
+            ],
+            "elv": -452.531006,
+            "id": "SmeltShopGolem_09",
+            "name": "Forge Construct",
+            "link": "Forge Construct"
+          },
+          {
+            "coords": [
+              -1935.36096,
+              -856.231201
+            ],
+            "zoomAdjustedCoords": {
+              "2": [
+                -1935.36096,
+                -856.231201
+              ],
+              "3": [
+                -1935.36096,
+                -856.231201
+              ],
+              "4": [
+                -1935.36096,
+                -856.231201
+              ],
+              "5": [
+                -1935.36096,
+                -856.231201
+              ],
+              "6": [
+                -1935.36096,
+                -856.231201
+              ],
+              "0": [
+                -1970,
+                -856.203003
+              ],
+              "1": [
+                -1970,
+                -856.203003
+              ]
+            },
+            "elv": -522.529602,
+            "id": "SmeltShopGolem_10",
+            "name": "Forge Construct",
+            "link": "Forge Construct"
+          }
+        ]
+      }
+    ]
+  }
+]

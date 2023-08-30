@@ -1,0 +1,54 @@
+[
+  {
+    "name": "General Store",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "general.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              -1685.69604,
+              470.04071
+            ],
+            "elv": 1371.31799,
+            "id": "SmeltShopGolem_00",
+            "name": "Forge Construct",
+            "link": "Forge Construct"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Other Shops",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "battery.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
+          {
+            "coords": [
+              -1651.34399,
+              357.168396
+            ],
+            "elv": 2305.96191,
+            "id": "BatteryExchangeShop_00",
+            "name": "Crystal Refinery",
+            "link": "Crystal Refinery"
+          }
+        ]
+      }
+    ]
+  }
+]

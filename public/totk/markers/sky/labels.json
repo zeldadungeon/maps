@@ -1,0 +1,555 @@
+[
+  {
+    "name": "Location",
+    "layers": [
+      {
+        "minZoom": 0,
+        "maxZoom": 1,
+        "markers": [
+          {
+            "coords": [
+              2088.80908,
+              1978.94897
+            ],
+            "elv": 1895,
+            "id": "MapRegion_Eldin_Sky",
+            "name": "Eldin Sky",
+            "link": "Eldin Sky"
+          },
+          {
+            "coords": [
+              -2825.31592,
+              969.328186
+            ],
+            "elv": 895,
+            "id": "MapRegion_Firone_Sky",
+            "name": "Faron Sky",
+            "link": "Faron Sky"
+          },
+          {
+            "coords": [
+              -2759.06494,
+              -3624.86792
+            ],
+            "elv": 1895,
+            "id": "MapRegion_Gerudo_Sky",
+            "name": "Gerudo Sky",
+            "link": "Gerudo Sky"
+          },
+          {
+            "coords": [
+              -1964.22803,
+              2642.646
+            ],
+            "elv": 1895,
+            "id": "MapRegion_Hateru_Sky",
+            "name": "Necluda Sky",
+            "link": "Necluda Sky"
+          },
+          {
+            "coords": [
+              2442.13599,
+              -3357.823
+            ],
+            "elv": 895,
+            "id": "MapRegion_Hebura_Sky",
+            "name": "Hebra Sky",
+            "link": "Hebra Sky"
+          },
+          {
+            "coords": [
+              77.9341965,
+              -247.977493
+            ],
+            "elv": 1895,
+            "id": "MapRegion_HyrulePrairie_Sky",
+            "name": "Central Hyrule Sky",
+            "link": "Central Hyrule Sky"
+          },
+          {
+            "coords": [
+              -499.824188,
+              3174.93311
+            ],
+            "elv": 1895,
+            "id": "MapRegion_Lanayru_Sky",
+            "name": "Lanayru Sky",
+            "link": "Lanayru Sky"
+          },
+          {
+            "coords": [
+              2575.97803,
+              3950.05908
+            ],
+            "elv": 1895,
+            "id": "MapRegion_Tamul_Sky",
+            "name": "Akkala Sky",
+            "link": "Akkala Sky"
+          }
+        ]
+      },
+      {
+        "minZoom": 2,
+        "maxZoom": 3,
+        "markers": [
+          {
+            "coords": [
+              -1259.854,
+              394.47699
+            ],
+            "elv": 1832.45703,
+            "id": "BeginningIsland",
+            "name": "Great Sky Island",
+            "link": "Great Sky Island"
+          },
+          {
+            "coords": [
+              3215,
+              -3156
+            ],
+            "elv": 1895,
+            "id": "Rito_SkyHighIsland",
+            "name": "Rising Island Chain",
+            "link": "Rising Island Chain"
+          },
+          {
+            "coords": [
+              2705.5,
+              1777
+            ],
+            "elv": 1895,
+            "id": "SkyIslands_Eldin01",
+            "name": "Eldin Sky Archipelago",
+            "link": "Eldin Sky Archipelago"
+          },
+          {
+            "coords": [
+              798.7323,
+              1924.84094
+            ],
+            "elv": 1895,
+            "id": "SkyIslands_Eldin02",
+            "name": "South Eldin Sky Archipelago",
+            "link": "South Eldin Sky Archipelago"
+          },
+          {
+            "coords": [
+              -2751.13208,
+              -68.0329895
+            ],
+            "elv": 895,
+            "id": "SkyIslands_Firone01",
+            "name": "Faron Sky Archipelago",
+            "link": "Faron Sky Archipelago"
+          },
+          {
+            "coords": [
+              -2346.83594,
+              1295.38696
+            ],
+            "elv": 1896.62903,
+            "id": "SkyIslands_Firone02",
+            "name": "West Necluda Sky Archipelago",
+            "link": "West Necluda Sky Archipelago"
+          },
+          {
+            "coords": [
+              -2316.17505,
+              -1866.29797
+            ],
+            "elv": 1895,
+            "id": "SkyIslands_Gerudo01",
+            "name": "East Gerudo Sky Archipelago",
+            "link": "East Gerudo Sky Archipelago"
+          },
+          {
+            "coords": [
+              -607.929199,
+              -3573.16089
+            ],
+            "elv": 1895,
+            "id": "SkyIslands_Gerudo02",
+            "name": "North Gerudo Sky Archipelago",
+            "link": "North Gerudo Sky Archipelago"
+          },
+          {
+            "coords": [
+              -2270.68311,
+              2540.85791
+            ],
+            "elv": 1895,
+            "id": "SkyIslands_Hateru01",
+            "name": "Necluda Sky Archipelago",
+            "link": "Necluda Sky Archipelago"
+          },
+          {
+            "coords": [
+              -3751.43799,
+              2559.24609
+            ],
+            "elv": 895,
+            "id": "SkyIslands_Hateru02",
+            "name": "South Necluda Sky Archipelago",
+            "link": "South Necluda Sky Archipelago"
+          },
+          {
+            "coords": [
+              3171.40088,
+              -1729.46802
+            ],
+            "elv": 1895,
+            "id": "SkyIslands_Hebra02",
+            "name": "East Hebra Sky Archipelago",
+            "link": "East Hebra Sky Archipelago"
+          },
+          {
+            "coords": [
+              2019.06006,
+              -3136.99194
+            ],
+            "elv": 1895,
+            "id": "SkyIslands_Hebra03",
+            "name": "South Hebra Sky Archipelago",
+            "link": "South Hebra Sky Archipelago"
+          },
+          {
+            "coords": [
+              2300,
+              -3845.8479
+            ],
+            "elv": 1895,
+            "id": "SkyIslands_Hebra04",
+            "name": "West Hebra Sky Archipelago",
+            "link": "West Hebra Sky Archipelago"
+          },
+          {
+            "coords": [
+              -92.0400085,
+              131.830994
+            ],
+            "elv": 1949.729,
+            "id": "SkyIslands_Hyrule01",
+            "name": "Central Hyrule Sky Archipelago",
+            "link": "Central Hyrule Sky Archipelago"
+          },
+          {
+            "coords": [
+              -864.054016,
+              1795.11694
+            ],
+            "elv": 1895,
+            "id": "SkyIslands_Hyrule02",
+            "name": "North Necluda Sky Archipelago",
+            "link": "North Necluda Sky Archipelago"
+          },
+          {
+            "coords": [
+              -1380,
+              -901.231018
+            ],
+            "elv": 1895,
+            "id": "SkyIslands_Hyrule03",
+            "name": "South Hyrule Sky Archipelago",
+            "link": "South Hyrule Sky Archipelago"
+          },
+          {
+            "coords": [
+              2354.2981,
+              349.932098
+            ],
+            "elv": 1895,
+            "id": "SkyIslands_Hyrule04",
+            "name": "North Hyrule Sky Archipelago",
+            "link": "North Hyrule Sky Archipelago"
+          },
+          {
+            "coords": [
+              -538.689514,
+              -2292.01611
+            ],
+            "elv": 895,
+            "id": "SkyIslands_Hyrule05",
+            "name": "West Hyrule Sky Archipelago",
+            "link": "West Hyrule Sky Archipelago"
+          },
+          {
+            "coords": [
+              -1254.57202,
+              4368.396
+            ],
+            "elv": 1895,
+            "id": "SkyIslands_Lanayru02",
+            "name": "South Lanayru Sky Archipelago",
+            "link": "South Lanayru Sky Archipelago"
+          },
+          {
+            "coords": [
+              83.1964417,
+              3010.07202
+            ],
+            "elv": 1895,
+            "id": "SkyIslands_Lanayru03",
+            "name": "Lanayru Sky Archipelago",
+            "link": "Lanayru Sky Archipelago"
+          },
+          {
+            "coords": [
+              558.388123,
+              -2942.51904
+            ],
+            "elv": 1895,
+            "id": "SkyIslands_Tabanta01",
+            "name": "Tabantha Sky Archipelago",
+            "link": "Tabantha Sky Archipelago"
+          },
+          {
+            "coords": [
+              1333.85999,
+              -3600.50391
+            ],
+            "elv": 1895,
+            "id": "SkyIslands_Tabanta02",
+            "name": "North Tabantha Sky Archipelago",
+            "link": "North Tabantha Sky Archipelago"
+          },
+          {
+            "coords": [
+              1688.58606,
+              3738.98706
+            ],
+            "elv": 1895,
+            "id": "SkyIslands_Tamul01",
+            "name": "Sokkala Sky Archipelago",
+            "link": "Sokkala Sky Archipelago"
+          },
+          {
+            "coords": [
+              2998.64697,
+              3703.70996
+            ],
+            "elv": 1745,
+            "id": "SkyIslands_Tamul02",
+            "name": "North Akkala Sky Archipelago",
+            "link": "North Akkala Sky Archipelago"
+          },
+          {
+            "coords": [
+              -3064.65796,
+              911.687988
+            ],
+            "elv": 1895,
+            "id": "ZonauThunderSkyIsland",
+            "name": "Thunderhead Isles",
+            "link": "Thunderhead Isles"
+          }
+        ]
+      },
+      {
+        "minZoom": 4,
+        "markers": [
+          {
+            "coords": [
+              -800.345215,
+              453.459412
+            ],
+            "elv": 1556.55005,
+            "id": "AncientTimeShrine",
+            "name": "Temple of Time",
+            "link": "Temple of Time"
+          },
+          {
+            "coords": [
+              535.5,
+              3520.25
+            ],
+            "elv": 1895,
+            "id": "EX_LowGravityIsland",
+            "name": "Wellspring Island",
+            "link": "Wellspring Island"
+          },
+          {
+            "coords": [
+              2129.32593,
+              4603.17383
+            ],
+            "elv": 1302.53101,
+            "id": "SkyIsland0004",
+            "name": "Sky Mine",
+            "link": "Sky Mine"
+          },
+          {
+            "coords": [
+              1032,
+              -3607.17407
+            ],
+            "elv": 1895,
+            "id": "SkyIsland0009",
+            "name": "Lightcast Island",
+            "link": "Lightcast Island"
+          },
+          {
+            "coords": [
+              3370,
+              -825
+            ],
+            "elv": 1185,
+            "id": "SkyIsland0012",
+            "name": "North Lomei Castle Top Floor",
+            "link": "North Lomei Castle Top Floor"
+          },
+          {
+            "coords": [
+              -3605.5,
+              -1795
+            ],
+            "elv": 1185.61597,
+            "id": "SkyIsland0013",
+            "name": "South Lomei Castle Top Floor",
+            "link": "South Lomei Castle Top Floor"
+          },
+          {
+            "coords": [
+              3789.02808,
+              4656.19922
+            ],
+            "elv": 1008.29004,
+            "id": "SkyIsland0014",
+            "name": "Lomei Sky Labyrinth",
+            "link": "Lomei Sky Labyrinth"
+          },
+          {
+            "coords": [
+              -3380.75,
+              1460
+            ],
+            "elv": 1895,
+            "id": "ZonauTriedForceSkyIsland",
+            "name": "Dragonhead Island",
+            "link": "Dragonhead Island"
+          },
+          {
+            "coords": [
+              535.534119,
+              4077.05493
+            ],
+            "elv": 896,
+            "id": "Zora_FishIsland",
+            "name": "Floating Scales Island",
+            "link": "Floating Scales Island"
+          }
+        ]
+      },
+      {
+        "minZoom": 4,
+        "maxZoom": 4,
+        "markers": [
+          {
+            "coords": [
+              728,
+              -2265.99609
+            ],
+            "elv": 1895,
+            "id": "SkyIsland0001",
+            "name": "Courage Island",
+            "link": "Courage Island"
+          },
+          {
+            "coords": [
+              1915,
+              204.553802
+            ],
+            "elv": 1984.6499,
+            "id": "SkyIsland0002_1",
+            "name": "Bravery Island",
+            "link": "Bravery Island"
+          },
+          {
+            "coords": [
+              -906.612122,
+              4562.08008
+            ],
+            "elv": 1619.021,
+            "id": "SkyIsland0003_1",
+            "name": "Valor Island",
+            "link": "Valor Island"
+          },
+          {
+            "coords": [
+              -1879,
+              2349.04395
+            ],
+            "elv": 10895,
+            "id": "SkyIsland0010_1",
+            "name": "Zonaite Forge Island",
+            "link": "Zonaite Forge Island"
+          },
+          {
+            "coords": [
+              -264,
+              -3488
+            ],
+            "elv": 1895,
+            "id": "SkyIsland0011_1",
+            "name": "Starview Island",
+            "link": "Starview Island"
+          }
+        ]
+      },
+      {
+        "minZoom": 5,
+        "markers": [
+          {
+            "coords": [
+              745,
+              -2265.99609
+            ],
+            "elv": 1895,
+            "id": "SkyIsland0001_1",
+            "name": "Courage Island",
+            "link": "Courage Island"
+          },
+          {
+            "coords": [
+              1937,
+              206.705994
+            ],
+            "elv": 1984.6499,
+            "id": "SkyIsland0002",
+            "name": "Bravery Island",
+            "link": "Bravery Island"
+          },
+          {
+            "coords": [
+              -919.46167,
+              4579.10986
+            ],
+            "elv": 2619.021,
+            "id": "SkyIsland0003",
+            "name": "Valor Island",
+            "link": "Valor Island"
+          },
+          {
+            "coords": [
+              -1869.34998,
+              2349.01904
+            ],
+            "elv": 10894.9902,
+            "id": "SkyIsland0010",
+            "name": "Zonaite Forge Island",
+            "link": "Zonaite Forge Island"
+          },
+          {
+            "coords": [
+              -317,
+              -3488.5
+            ],
+            "elv": 1906.71497,
+            "id": "SkyIsland0011",
+            "name": "Starview Island",
+            "link": "Starview Island"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,3196 @@
+[
+  {
+    "name": "Treasure Chest",
+    "source": "mapns",
+    "layers": [
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "treasure.png",
+          "width": 27,
+          "height": 21
+        },
+        "markers": [
+          {
+            "coords": [
+              3490.89111,
+              -4250.2041
+            ],
+            "elv": -792.934021,
+            "id": "Treasure0777",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -602.180786,
+              -4727.76318
+            ],
+            "elv": -1102.71558,
+            "id": "Treasure0779",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -447.258209,
+              -4227.60791
+            ],
+            "elv": -898.335083,
+            "id": "Treasure0781",
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
+          },
+          {
+            "coords": [
+              -879.365479,
+              -4892.33203
+            ],
+            "elv": -1084.2074,
+            "id": "Treasure0782",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              -1837.67102,
+              -4615.85693
+            ],
+            "elv": -466.603912,
+            "id": "Treasure0783",
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
+          },
+          {
+            "coords": [
+              -2034.37305,
+              -4222.98779
+            ],
+            "elv": -491.894592,
+            "id": "Treasure0784",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              -1798.17395,
+              -4171.34277
+            ],
+            "elv": -653.743286,
+            "id": "Treasure0785",
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
+          },
+          {
+            "coords": [
+              -1583.32898,
+              -4722.76318
+            ],
+            "elv": -799.296021,
+            "id": "Treasure0786",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              -2809.15503,
+              -4105.56885
+            ],
+            "elv": -487.923096,
+            "id": "Treasure0787",
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
+          },
+          {
+            "coords": [
+              3572.13599,
+              -3393.43799
+            ],
+            "elv": -781.838013,
+            "id": "Treasure0790",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              2125.05493,
+              -3808.29395
+            ],
+            "elv": -582.912476,
+            "id": "Treasure0792",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              2913.06812,
+              -3073.14209
+            ],
+            "elv": -810.861511,
+            "id": "Treasure0793",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              1918.62695,
+              -3466.66504
+            ],
+            "elv": -348.360779,
+            "id": "Treasure0795",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              1507.86304,
+              -3569.73999
+            ],
+            "elv": -583.790527,
+            "id": "Treasure0796",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              1601.82202,
+              -3202.55493
+            ],
+            "elv": -617.360413,
+            "id": "Treasure0797",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              167.695206,
+              -3603.63892
+            ],
+            "elv": -416.285889,
+            "id": "Treasure0798",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              915.319824,
+              -3357.17896
+            ],
+            "elv": -587.002075,
+            "id": "Treasure0799",
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
+          },
+          {
+            "coords": [
+              -543.746704,
+              -3145.03003
+            ],
+            "elv": -625.951172,
+            "id": "Treasure0800",
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
+          },
+          {
+            "coords": [
+              -1200.48303,
+              -4005.61597
+            ],
+            "elv": -926.271179,
+            "id": "Treasure0801",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              -1435.81799,
+              -3342.46606
+            ],
+            "elv": -885.320984,
+            "id": "Treasure0802",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              -981.170227,
+              -3374.68799
+            ],
+            "elv": -1027.55408,
+            "id": "Treasure0803",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              -3067.14209,
+              -3908.88599
+            ],
+            "elv": -489.290192,
+            "id": "Treasure0805",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -2441.41699,
+              -3201.90796
+            ],
+            "elv": -440.380188,
+            "id": "Treasure0806",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -2555.69409,
+              -3509.23389
+            ],
+            "elv": -478.581512,
+            "id": "Treasure0807",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              -2096.96997,
+              -3131.03906
+            ],
+            "elv": -467.930115,
+            "id": "Treasure0808",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              -2943.36401,
+              -3347.62793
+            ],
+            "elv": -472.640808,
+            "id": "Treasure0809",
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
+          },
+          {
+            "coords": [
+              -2701.30591,
+              -3257.28394
+            ],
+            "elv": -493.870087,
+            "id": "Treasure0810",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              -3463.29199,
+              -3991.57202
+            ],
+            "elv": -479.247986,
+            "id": "Treasure0811",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              1332.15796,
+              -2510.13794
+            ],
+            "elv": -600.350708,
+            "id": "Treasure0813",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              805.898376,
+              -2682.21997
+            ],
+            "elv": -739.424988,
+            "id": "Treasure0814",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              700.717529,
+              -2373.83301
+            ],
+            "elv": -546.620789,
+            "id": "Treasure0815",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              311.225494,
+              -2561.7439
+            ],
+            "elv": -600.231506,
+            "id": "Treasure0816",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              -411.103607,
+              -2286.16089
+            ],
+            "elv": -799.263916,
+            "id": "Treasure0817",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -1942.28503,
+              -3058.28003
+            ],
+            "elv": -652.015076,
+            "id": "Treasure0819",
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
+          },
+          {
+            "coords": [
+              -2354.84009,
+              -2952.07104
+            ],
+            "elv": -467.417786,
+            "id": "Treasure0820",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              -2881.85596,
+              -2035.03601
+            ],
+            "elv": -705.374878,
+            "id": "Treasure0821",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              -2929.81396,
+              -2424.26611
+            ],
+            "elv": -467.898285,
+            "id": "Treasure0822",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              3698.34302,
+              -1526.17896
+            ],
+            "elv": -677.773376,
+            "id": "Treasure0823",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              2856.02393,
+              -1592.42004
+            ],
+            "elv": -690.543091,
+            "id": "Treasure0824",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              2312.06006,
+              -1141.53101
+            ],
+            "elv": -556.869019,
+            "id": "Treasure0825",
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
+          },
+          {
+            "coords": [
+              1803.77905,
+              -1131.41003
+            ],
+            "elv": -547.561035,
+            "id": "Treasure0827",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              220.677505,
+              -1201.11694
+            ],
+            "elv": -452.111206,
+            "id": "Treasure0828",
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
+          },
+          {
+            "coords": [
+              -204.441406,
+              -1146.80798
+            ],
+            "elv": -480.471893,
+            "id": "Treasure0829",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -1855.75,
+              -1100.45203
+            ],
+            "elv": -574.938293,
+            "id": "Treasure0831",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -985.5354,
+              -1498.74597
+            ],
+            "elv": -473.650085,
+            "id": "Treasure0832",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              -2137.13989,
+              -1814.58899
+            ],
+            "elv": -529.728271,
+            "id": "Treasure0834",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -2334.28809,
+              -1883.16797
+            ],
+            "elv": -441.852112,
+            "id": "Treasure0835",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              -2354.08203,
+              -1712.75806
+            ],
+            "elv": -437.526093,
+            "id": "Treasure0836",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              -2703.34595,
+              -1586.41296
+            ],
+            "elv": -600.874268,
+            "id": "Treasure0837",
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
+          },
+          {
+            "coords": [
+              -3400.323,
+              -1382.69202
+            ],
+            "elv": -895.2052,
+            "id": "Treasure0838",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -3613.12695,
+              -1422.81604
+            ],
+            "elv": -859.794312,
+            "id": "Treasure0839",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -3846.60303,
+              -1697.57495
+            ],
+            "elv": -615.341003,
+            "id": "Treasure0840",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              3128.28491,
+              -373.893494
+            ],
+            "elv": -548.664063,
+            "id": "Treasure0841",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              2569.729,
+              -566.90863
+            ],
+            "elv": -803.30658,
+            "id": "Treasure0842",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              1357.18201,
+              -972.7995
+            ],
+            "elv": -550.450073,
+            "id": "Treasure0843",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              248.881607,
+              -977.925415
+            ],
+            "elv": -526.386841,
+            "id": "Treasure0844",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              407.428711,
+              -715.487488
+            ],
+            "elv": -469.479309,
+            "id": "Treasure0845",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              -6.74428988,
+              -505.537598
+            ],
+            "elv": -464.809113,
+            "id": "Treasure0846",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              136.689606,
+              -61.6907005
+            ],
+            "elv": -465.208405,
+            "id": "Treasure0847",
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
+          },
+          {
+            "coords": [
+              -338.828613,
+              -761.614075
+            ],
+            "elv": -472.235596,
+            "id": "Treasure0848",
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
+          },
+          {
+            "coords": [
+              -147.779999,
+              -804.607178
+            ],
+            "elv": -501.647491,
+            "id": "Treasure0849",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              -577.852722,
+              -264.284912
+            ],
+            "elv": -465.775909,
+            "id": "Treasure0850",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              -870.57428,
+              -542.878296
+            ],
+            "elv": -468.90741,
+            "id": "Treasure0851",
+            "name": "Brightbloom Seed x 5",
+            "link": "Brightbloom Seed"
+          },
+          {
+            "coords": [
+              -1695.86694,
+              -962.557007
+            ],
+            "elv": -531.625854,
+            "id": "Treasure0852",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -1575.87195,
+              -374.128998
+            ],
+            "elv": -472.179596,
+            "id": "Treasure0853",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -1920.47998,
+              -799.434021
+            ],
+            "elv": -466.237305,
+            "id": "Treasure0854",
+            "name": "Large Zonaite",
+            "link": "Large Zonaite"
+          },
+          {
+            "coords": [
+              -1872.026,
+              -745.675293
+            ],
+            "elv": -658.800415,
+            "id": "Treasure0855",
+            "name": "Large Zonaite",
+            "link": "Large Zonaite"
+          },
+          {
+            "coords": [
+              -1683.33801,
+              -658.618225
+            ],
+            "elv": -517.171143,
+            "id": "Treasure0856",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              -1438.224,
+              -254.996902
+            ],
+            "elv": -465.163696,
+            "id": "Treasure0857",
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
+          },
+          {
+            "coords": [
+              -1036.68201,
+              5.34397984
+            ],
+            "elv": -464.990906,
+            "id": "Treasure0858",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              -1801.94702,
+              0.745970011
+            ],
+            "elv": -516.227539,
+            "id": "Treasure0859",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              -1597.026,
+              -465.886902
+            ],
+            "elv": -462.37439,
+            "id": "Treasure0860",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              -2569.10596,
+              -950.176086
+            ],
+            "elv": -606.787476,
+            "id": "Treasure0861",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -3560.39307,
+              -371.181488
+            ],
+            "elv": -474.81131,
+            "id": "Treasure0862",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              3736.55396,
+              398.277588
+            ],
+            "elv": -525.807983,
+            "id": "Treasure0863",
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
+          },
+          {
+            "coords": [
+              3338.33105,
+              825.883606
+            ],
+            "elv": -640.789429,
+            "id": "Treasure0864",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              1862.40405,
+              124.728699
+            ],
+            "elv": -623.947998,
+            "id": "Treasure0865",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              1010.01001,
+              752.065491
+            ],
+            "elv": -490.265015,
+            "id": "Treasure0866",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              281.179413,
+              555.20697
+            ],
+            "elv": -470.973907,
+            "id": "Treasure0867",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              237.1987,
+              976.006287
+            ],
+            "elv": -492.755096,
+            "id": "Treasure0868",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              -43.5769691,
+              685.048279
+            ],
+            "elv": -478.814087,
+            "id": "Treasure0869",
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
+          },
+          {
+            "coords": [
+              -1375.328,
+              371.81131
+            ],
+            "elv": -461.063812,
+            "id": "Treasure0870",
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
+          },
+          {
+            "coords": [
+              -2562.81006,
+              908.918884
+            ],
+            "elv": -454.852997,
+            "id": "Treasure0871",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -2179.31006,
+              547.410889
+            ],
+            "elv": -526.967896,
+            "id": "Treasure0872",
+            "name": "Large Zonaite",
+            "link": "Large Zonaite"
+          },
+          {
+            "coords": [
+              -2133.20703,
+              863.005615
+            ],
+            "elv": -493.008606,
+            "id": "Treasure0873",
+            "name": "Mighty Zonaite Shield",
+            "link": "Mighty Zonaite Shield"
+          },
+          {
+            "coords": [
+              -2133.16699,
+              873.073975
+            ],
+            "elv": -493.008606,
+            "id": "Treasure0874",
+            "name": "Captain III Reaper",
+            "link": "Captain III Reaper"
+          },
+          {
+            "coords": [
+              -2799.28589,
+              743.170471
+            ],
+            "elv": -455.368713,
+            "id": "Treasure0875",
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
+          },
+          {
+            "coords": [
+              2120.5,
+              1479.5
+            ],
+            "elv": -769.204224,
+            "id": "Treasure0877",
+            "name": "Zonai Charge",
+            "link": "Zonai Charge"
+          },
+          {
+            "coords": [
+              2735.32788,
+              1888.17004
+            ],
+            "elv": -840.133179,
+            "id": "Treasure0878",
+            "name": "Strong Construct Bow",
+            "link": "Strong Construct Bow"
+          },
+          {
+            "coords": [
+              2968.73096,
+              1833.104
+            ],
+            "elv": -781.343811,
+            "id": "Treasure0879",
+            "name": "Zonai Charge",
+            "link": "Zonai Charge"
+          },
+          {
+            "coords": [
+              2313.05908,
+              1929.51196
+            ],
+            "elv": -811.396729,
+            "id": "Treasure0880",
+            "name": "Zonai Charge",
+            "link": "Zonai Charge"
+          },
+          {
+            "coords": [
+              3005.85889,
+              1610.28894
+            ],
+            "elv": -823.670288,
+            "id": "Treasure0881",
+            "name": "Zonaite Shield",
+            "link": "Zonaite Shield"
+          },
+          {
+            "coords": [
+              2827.86011,
+              1729.43604
+            ],
+            "elv": -810.101929,
+            "id": "Treasure0882",
+            "name": "Arrow x 5",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              2837.90308,
+              1611.70801
+            ],
+            "elv": -840.318481,
+            "id": "Treasure0883",
+            "name": "Strong Construct Bow",
+            "link": "Strong Construct Bow"
+          },
+          {
+            "coords": [
+              2348.12598,
+              1626.60803
+            ],
+            "elv": -823.594788,
+            "id": "Treasure0884",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              2244.84302,
+              1372.12305
+            ],
+            "elv": -845.170471,
+            "id": "Treasure0885",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              113.086304,
+              1354.39502
+            ],
+            "elv": -478.555511,
+            "id": "Treasure0888",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              -526.81543,
+              1088.38196
+            ],
+            "elv": -457.779907,
+            "id": "Treasure0889",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              -2123.77905,
+              1137.43103
+            ],
+            "elv": -438.107788,
+            "id": "Treasure0890",
+            "name": "Zonaite x 3",
+            "link": "Zonaite"
+          },
+          {
+            "coords": [
+              -1297.85901,
+              1827.41797
+            ],
+            "elv": -615.363098,
+            "id": "Treasure0892",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -2385.50098,
+              1945.03003
+            ],
+            "elv": -491.047791,
+            "id": "Treasure0893",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -2808.08301,
+              1912.06702
+            ],
+            "elv": -792.667786,
+            "id": "Treasure0894",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -3612.88208,
+              1265.776
+            ],
+            "elv": -451.047089,
+            "id": "Treasure0895",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              3019.82104,
+              1965.80701
+            ],
+            "elv": -825.292175,
+            "id": "Treasure0896",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              2207.42603,
+              2669.33594
+            ],
+            "elv": -907.615295,
+            "id": "Treasure0897",
+            "name": "Strong Construct Bow",
+            "link": "Strong Construct Bow"
+          },
+          {
+            "coords": [
+              2116.02197,
+              2085.12793
+            ],
+            "elv": -817.325012,
+            "id": "Treasure0898",
+            "name": "Zonai Charge",
+            "link": "Zonai Charge"
+          },
+          {
+            "coords": [
+              1539.43701,
+              2380.46899
+            ],
+            "elv": -595.707397,
+            "id": "Treasure0899",
+            "name": "Soldier's Claymore",
+            "link": "Soldier's Claymore"
+          },
+          {
+            "coords": [
+              1559,
+              2373
+            ],
+            "elv": -600.650696,
+            "id": "Treasure0900",
+            "name": "Soldier's Broadsword",
+            "link": "Soldier's Broadsword"
+          },
+          {
+            "coords": [
+              1741.31897,
+              2510.9021
+            ],
+            "elv": -600.974609,
+            "id": "Treasure0901",
+            "name": "Soldier's Spear",
+            "link": "Soldier's Spear"
+          },
+          {
+            "coords": [
+              1411.19995,
+              2528.49194
+            ],
+            "elv": -631.062988,
+            "id": "Treasure0902",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              410.084198,
+              2504.21411
+            ],
+            "elv": -595.752441,
+            "id": "Treasure0904",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              4.62407017,
+              2593.39111
+            ],
+            "elv": -586.249512,
+            "id": "Treasure0905",
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
+          },
+          {
+            "coords": [
+              -626.625977,
+              2776.021
+            ],
+            "elv": -575.120728,
+            "id": "Treasure0906",
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
+          },
+          {
+            "coords": [
+              -1399.68298,
+              2965.42798
+            ],
+            "elv": -764.571228,
+            "id": "Treasure0907",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -2328.05908,
+              2302.16309
+            ],
+            "elv": -580.448608,
+            "id": "Treasure0908",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -2177.61499,
+              2157.51611
+            ],
+            "elv": -479.329193,
+            "id": "Treasure0909",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -2196.71411,
+              2390.76001
+            ],
+            "elv": -555.578491,
+            "id": "Treasure0910",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -2485.59399,
+              2510.92993
+            ],
+            "elv": -648.618774,
+            "id": "Treasure0911",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -2678.09692,
+              2501.23999
+            ],
+            "elv": -662.599976,
+            "id": "Treasure0912",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -2972.78003,
+              2583.29492
+            ],
+            "elv": -621.968079,
+            "id": "Treasure0913",
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
+          },
+          {
+            "coords": [
+              -3552.47412,
+              2550.02002
+            ],
+            "elv": -565.941772,
+            "id": "Treasure0914",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -3362.4939,
+              2959.82202
+            ],
+            "elv": -404.747986,
+            "id": "Treasure0916",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -3873.24097,
+              2279.78589
+            ],
+            "elv": -464.25,
+            "id": "Treasure0917",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              -3860.51196,
+              2821.34595
+            ],
+            "elv": -447.781311,
+            "id": "Treasure0918",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              3078.17212,
+              3355.18799
+            ],
+            "elv": -508.93161,
+            "id": "Treasure0919",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              3280.81201,
+              3262.00098
+            ],
+            "elv": -444.601105,
+            "id": "Treasure0920",
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
+          },
+          {
+            "coords": [
+              2082.45801,
+              3680.33301
+            ],
+            "elv": -602.179504,
+            "id": "Treasure0921",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              1520.34705,
+              4022.55103
+            ],
+            "elv": -581.449219,
+            "id": "Treasure0922",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              1202.03296,
+              3270.64111
+            ],
+            "elv": -655.780273,
+            "id": "Treasure0924",
+            "name": "Giant Brightbloom Seed x 5",
+            "link": "Giant Brightbloom Seed"
+          },
+          {
+            "coords": [
+              1112.72803,
+              3033.2041
+            ],
+            "elv": -722.860413,
+            "id": "Treasure0925",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              1314.27295,
+              3874.80688
+            ],
+            "elv": -684.908081,
+            "id": "Treasure0926",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              448.460114,
+              3804.14893
+            ],
+            "elv": -954.118713,
+            "id": "Treasure0927",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              535.186584,
+              3189.77197
+            ],
+            "elv": -749.412476,
+            "id": "Treasure0928",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              962.492615,
+              3454.36401
+            ],
+            "elv": -846.218079,
+            "id": "Treasure0929",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              -58.2225609,
+              3308.3999
+            ],
+            "elv": -697.834229,
+            "id": "Treasure0930",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -60.8895416,
+              3707.40601
+            ],
+            "elv": -731.324524,
+            "id": "Treasure0931",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              -1364.62903,
+              3967.43506
+            ],
+            "elv": -899.235291,
+            "id": "Treasure0932",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -1682.01001,
+              3855.99902
+            ],
+            "elv": -779.436584,
+            "id": "Treasure0933",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -2200.96289,
+              3135.37598
+            ],
+            "elv": -506.328094,
+            "id": "Treasure0934",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -2047.02795,
+              3197.77588
+            ],
+            "elv": -520.713989,
+            "id": "Treasure0935",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -2497.021,
+              3318.82593
+            ],
+            "elv": -710.24823,
+            "id": "Treasure0937",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -2085.79199,
+              3564.48096
+            ],
+            "elv": -574.133789,
+            "id": "Treasure0938",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -3318.53491,
+              3122.13892
+            ],
+            "elv": -635.566284,
+            "id": "Treasure0940",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -3298.93799,
+              3597.18408
+            ],
+            "elv": -673.399475,
+            "id": "Treasure0941",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              741.445313,
+              4040.45288
+            ],
+            "elv": -670.606689,
+            "id": "Treasure0944",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              -1959.93103,
+              4248.09521
+            ],
+            "elv": -750.444275,
+            "id": "Treasure0945",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -2429.99292,
+              4161.896
+            ],
+            "elv": -452.604889,
+            "id": "Treasure0946",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              -2374.89111,
+              4659.47998
+            ],
+            "elv": -493.819305,
+            "id": "Treasure0947",
+            "name": "Sundelion",
+            "link": "Sundelion"
+          },
+          {
+            "coords": [
+              3074.63501,
+              -4360.14502
+            ],
+            "elv": -838.400024,
+            "id": "Treasure0948",
+            "name": "Huge Crystallized Charge",
+            "link": "Huge Crystallized Charge"
+          },
+          {
+            "coords": [
+              -991.977478,
+              -4458.71191
+            ],
+            "elv": -861.234985,
+            "id": "Treasure0949",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -2172.5061,
+              -4546.16797
+            ],
+            "elv": -489.238098,
+            "id": "Treasure0951",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -3738.93994,
+              -4102.58105
+            ],
+            "elv": -463.7052,
+            "id": "Treasure0954",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              3097.60791,
+              -3709.15601
+            ],
+            "elv": -782.218079,
+            "id": "Treasure0955",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              1851.06897,
+              -3497.71899
+            ],
+            "elv": -416.194885,
+            "id": "Treasure0957",
+            "name": "Huge Crystallized Charge",
+            "link": "Huge Crystallized Charge"
+          },
+          {
+            "coords": [
+              1849.10303,
+              -3497.20093
+            ],
+            "elv": -416.194885,
+            "id": "Treasure0958",
+            "name": "Diamond",
+            "link": "Diamond"
+          },
+          {
+            "coords": [
+              665.210815,
+              -3382.26709
+            ],
+            "elv": -618.661316,
+            "id": "Treasure0959",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -871.538513,
+              -3593.78101
+            ],
+            "elv": -1031.29443,
+            "id": "Treasure0961",
+            "name": "Huge Crystallized Charge",
+            "link": "Huge Crystallized Charge"
+          },
+          {
+            "coords": [
+              -224.291306,
+              -3404.77808
+            ],
+            "elv": -481.951294,
+            "id": "Treasure0962",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -1578.89697,
+              -3074.62598
+            ],
+            "elv": -913.089111,
+            "id": "Treasure0964",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -2914.70508,
+              -3841.98706
+            ],
+            "elv": -487.354095,
+            "id": "Treasure0966",
+            "name": "Huge Crystallized Charge",
+            "link": "Huge Crystallized Charge"
+          },
+          {
+            "coords": [
+              -3777.95996,
+              -3262.45605
+            ],
+            "elv": -494.358612,
+            "id": "Treasure0967",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              3294.51392,
+              -2255.80298
+            ],
+            "elv": -1019.10211,
+            "id": "Treasure0969",
+            "name": "Huge Crystallized Charge",
+            "link": "Huge Crystallized Charge"
+          },
+          {
+            "coords": [
+              2920.35107,
+              -2865.41992
+            ],
+            "elv": -931.414001,
+            "id": "Treasure0970",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              901.90387,
+              -2820.48901
+            ],
+            "elv": -565.384521,
+            "id": "Treasure0972",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -110.565903,
+              -2678.771
+            ],
+            "elv": -651.439697,
+            "id": "Treasure0974",
+            "name": "Huge Crystallized Charge",
+            "link": "Huge Crystallized Charge"
+          },
+          {
+            "coords": [
+              -780.524414,
+              -2743.73389
+            ],
+            "elv": -544.049988,
+            "id": "Treasure0975",
+            "name": "Huge Crystallized Charge",
+            "link": "Huge Crystallized Charge"
+          },
+          {
+            "coords": [
+              -2880.4519,
+              -2695.52295
+            ],
+            "elv": -467.313385,
+            "id": "Treasure0976",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -3485.29712,
+              -2411.92505
+            ],
+            "elv": -393.731293,
+            "id": "Treasure0978",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              3105.979,
+              -1749.37695
+            ],
+            "elv": -679.250183,
+            "id": "Treasure0980",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              2095.82397,
+              -1901.28101
+            ],
+            "elv": -681.6875,
+            "id": "Treasure0982",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              2028.28003,
+              -1191.69299
+            ],
+            "elv": -548.230957,
+            "id": "Treasure0984",
+            "name": "Huge Crystallized Charge",
+            "link": "Huge Crystallized Charge"
+          },
+          {
+            "coords": [
+              1497.19202,
+              -1334.26404
+            ],
+            "elv": -597.416199,
+            "id": "Treasure0985",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              244.627594,
+              -1621.18604
+            ],
+            "elv": -482.323395,
+            "id": "Treasure0987",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -734.98761,
+              -1854.67297
+            ],
+            "elv": -526.599976,
+            "id": "Treasure0989",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -2610.64795,
+              -1226.87805
+            ],
+            "elv": -479.76239,
+            "id": "Treasure0992",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -3462.5,
+              -1823.98999
+            ],
+            "elv": -492.529694,
+            "id": "Treasure0995",
+            "name": "Soldier III Spear",
+            "link": "Soldier III Spear"
+          },
+          {
+            "coords": [
+              -3470,
+              -1779.03796
+            ],
+            "elv": -492.529907,
+            "id": "Treasure0996",
+            "name": "Zonaite Bow",
+            "link": "Zonaite Bow"
+          },
+          {
+            "coords": [
+              -3412.5,
+              -1780
+            ],
+            "elv": -510.029907,
+            "id": "Treasure0997",
+            "name": "Soldier III Reaper",
+            "link": "Soldier III Reaper"
+          },
+          {
+            "coords": [
+              -3512.5,
+              -1810
+            ],
+            "elv": -510.029907,
+            "id": "Treasure0998",
+            "name": "Soldier III Blade",
+            "link": "Soldier III Blade"
+          },
+          {
+            "coords": [
+              -3608.42603,
+              -1129.96594
+            ],
+            "elv": -837.762573,
+            "id": "Treasure0999",
+            "name": "Huge Crystallized Charge",
+            "link": "Huge Crystallized Charge"
+          },
+          {
+            "coords": [
+              3589.3999,
+              -794.750427
+            ],
+            "elv": -681.781494,
+            "id": "Treasure1001",
+            "name": "Soldier III Reaper",
+            "link": "Soldier III Reaper"
+          },
+          {
+            "coords": [
+              3514.3999,
+              -869.749878
+            ],
+            "elv": -681.781372,
+            "id": "Treasure1002",
+            "name": "Soldier III Blade",
+            "link": "Soldier III Blade"
+          },
+          {
+            "coords": [
+              3479.3999,
+              -834.749573
+            ],
+            "elv": -681.781494,
+            "id": "Treasure1003",
+            "name": "Soldier III Spear",
+            "link": "Soldier III Spear"
+          },
+          {
+            "coords": [
+              3514.3999,
+              -759.749878
+            ],
+            "elv": -681.781372,
+            "id": "Treasure1004",
+            "name": "Zonaite Bow",
+            "link": "Zonaite Bow"
+          },
+          {
+            "coords": [
+              1774.06494,
+              -398.030701
+            ],
+            "elv": -622.78302,
+            "id": "Treasure1006",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              781.260193,
+              -253.350601
+            ],
+            "elv": -1215.45996,
+            "id": "Treasure1008",
+            "name": "Bomb Flower x 10",
+            "link": "Bomb Flower"
+          },
+          {
+            "coords": [
+              -1934.65796,
+              -815.267578
+            ],
+            "elv": -520.180603,
+            "id": "Treasure1009",
+            "name": "Huge Crystallized Charge",
+            "link": "Huge Crystallized Charge"
+          },
+          {
+            "coords": [
+              3696.66211,
+              621.5271
+            ],
+            "elv": -539.687988,
+            "id": "Treasure1011",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              2869.89502,
+              129.874603
+            ],
+            "elv": -633.808105,
+            "id": "Treasure1013",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -2240.14795,
+              1034.36304
+            ],
+            "elv": -517.500244,
+            "id": "Treasure1015",
+            "name": "Large Zonaite",
+            "link": "Large Zonaite"
+          },
+          {
+            "coords": [
+              -2492.96899,
+              698.998779
+            ],
+            "elv": -501.871704,
+            "id": "Treasure1016",
+            "name": "Steering Stick x 5",
+            "link": "Steering Stick"
+          },
+          {
+            "coords": [
+              -2410.96704,
+              709.264587
+            ],
+            "elv": -516.519409,
+            "id": "Treasure1017",
+            "name": "Zonaite x 3",
+            "link": "Zonaite"
+          },
+          {
+            "coords": [
+              -2170.10303,
+              248.764603
+            ],
+            "elv": -486,
+            "id": "Treasure1018",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -3671.99512,
+              415.603485
+            ],
+            "elv": -498.228912,
+            "id": "Treasure1020",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              3024.18506,
+              1842.15405
+            ],
+            "elv": -836.541382,
+            "id": "Treasure1022",
+            "name": "Zonai Charge",
+            "link": "Zonai Charge"
+          },
+          {
+            "coords": [
+              2724.5769,
+              1673.83496
+            ],
+            "elv": -845.173584,
+            "id": "Treasure1023",
+            "name": "Large Zonaite",
+            "link": "Large Zonaite"
+          },
+          {
+            "coords": [
+              2679.77295,
+              1936.12805
+            ],
+            "elv": -869.510803,
+            "id": "Treasure1024",
+            "name": "Zonaite Shield",
+            "link": "Zonaite Shield"
+          },
+          {
+            "coords": [
+              2445.66797,
+              1982.12598
+            ],
+            "elv": -878.178528,
+            "id": "Treasure1025",
+            "name": "Rusty Shield",
+            "link": "Rusty Shield"
+          },
+          {
+            "coords": [
+              2706.8479,
+              1547.57996
+            ],
+            "elv": -842.270874,
+            "id": "Treasure1026",
+            "name": "Arrow x 5",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              2493.76099,
+              1913.50598
+            ],
+            "elv": -847.885193,
+            "id": "Treasure1027",
+            "name": "Zonai Charge",
+            "link": "Zonai Charge"
+          },
+          {
+            "coords": [
+              2752.20801,
+              1934.28406
+            ],
+            "elv": -849.03302,
+            "id": "Treasure1028",
+            "name": "Zonai Charge",
+            "link": "Zonai Charge"
+          },
+          {
+            "coords": [
+              2714.5,
+              1793
+            ],
+            "elv": -842.207214,
+            "id": "Treasure1029",
+            "name": "Zonai Charge",
+            "link": "Zonai Charge"
+          },
+          {
+            "coords": [
+              2772.5,
+              1768.73303
+            ],
+            "elv": -841.639221,
+            "id": "Treasure1030",
+            "name": "Zonai Charge",
+            "link": "Zonai Charge"
+          },
+          {
+            "coords": [
+              691.56189,
+              1541.23706
+            ],
+            "elv": -438.759888,
+            "id": "Treasure1031",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              598.827881,
+              1170.31299
+            ],
+            "elv": -408.212097,
+            "id": "Treasure1033",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -83.6299362,
+              1656.22498
+            ],
+            "elv": -458.615814,
+            "id": "Treasure1035",
+            "name": "Huge Crystallized Charge",
+            "link": "Huge Crystallized Charge"
+          },
+          {
+            "coords": [
+              -494.958496,
+              991.397522
+            ],
+            "elv": -468.868988,
+            "id": "Treasure1036",
+            "name": "Huge Crystallized Charge",
+            "link": "Huge Crystallized Charge"
+          },
+          {
+            "coords": [
+              -1164.42896,
+              1823.23499
+            ],
+            "elv": -628.859802,
+            "id": "Treasure1037",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              2617.93994,
+              2059.15698
+            ],
+            "elv": -920.461182,
+            "id": "Treasure1039",
+            "name": "Arrow x 5",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              2629.62598,
+              1998.28601
+            ],
+            "elv": -900.284607,
+            "id": "Treasure1040",
+            "name": "Construct Bow",
+            "link": "Construct Bow"
+          },
+          {
+            "coords": [
+              2501.45996,
+              2078.16895
+            ],
+            "elv": -959.265625,
+            "id": "Treasure1041",
+            "name": "Ruby",
+            "link": "Ruby"
+          },
+          {
+            "coords": [
+              1577.80505,
+              2669.09302
+            ],
+            "elv": -591.281372,
+            "id": "Treasure1042",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              623.956299,
+              2889.08594
+            ],
+            "elv": -790.400024,
+            "id": "Treasure1044",
+            "name": "Huge Crystallized Charge",
+            "link": "Huge Crystallized Charge"
+          },
+          {
+            "coords": [
+              -544.774414,
+              2544.44092
+            ],
+            "elv": -475.6203,
+            "id": "Treasure1045",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -649.284912,
+              2194.42212
+            ],
+            "elv": -593.799194,
+            "id": "Treasure1047",
+            "name": "Huge Crystallized Charge",
+            "link": "Huge Crystallized Charge"
+          },
+          {
+            "coords": [
+              -1627.39001,
+              2079.55493
+            ],
+            "elv": -463.685211,
+            "id": "Treasure1049",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -2572.37988,
+              2965.19604
+            ],
+            "elv": -507.126007,
+            "id": "Treasure1051",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -3416.15796,
+              2908.37598
+            ],
+            "elv": -452.734894,
+            "id": "Treasure1053",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              3699.08789,
+              3274.77197
+            ],
+            "elv": -660.168091,
+            "id": "Treasure1055",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              2279.86401,
+              3607.33203
+            ],
+            "elv": -477.59549,
+            "id": "Treasure1057",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              1694.45996,
+              3723.16504
+            ],
+            "elv": -539.400024,
+            "id": "Treasure1059",
+            "name": "Huge Crystallized Charge",
+            "link": "Huge Crystallized Charge"
+          },
+          {
+            "coords": [
+              574.831909,
+              3296.96997
+            ],
+            "elv": -749.883423,
+            "id": "Treasure1060",
+            "name": "Huge Crystallized Charge",
+            "link": "Huge Crystallized Charge"
+          },
+          {
+            "coords": [
+              -571.378174,
+              3620.26807
+            ],
+            "elv": -454.799988,
+            "id": "Treasure1061",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -1445.677,
+              3263.82202
+            ],
+            "elv": -657.265076,
+            "id": "Treasure1063",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              -2215.94995,
+              3575.55493
+            ],
+            "elv": -587.803589,
+            "id": "Treasure1065",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              3214.07495,
+              4113.08984
+            ],
+            "elv": -610.507996,
+            "id": "Treasure1066",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              3697,
+              4610.78223
+            ],
+            "elv": -445.470001,
+            "id": "Treasure1069",
+            "name": "Soldier III Spear",
+            "link": "Soldier III Spear"
+          },
+          {
+            "coords": [
+              3624.5,
+              4654.8999
+            ],
+            "elv": -400.470001,
+            "id": "Treasure1070",
+            "name": "Soldier III Blade",
+            "link": "Soldier III Blade"
+          },
+          {
+            "coords": [
+              3752,
+              4654.8999
+            ],
+            "elv": -440.470001,
+            "id": "Treasure1071",
+            "name": "Soldier III Reaper",
+            "link": "Soldier III Reaper"
+          },
+          {
+            "coords": [
+              3697,
+              4698.92285
+            ],
+            "elv": -445.470001,
+            "id": "Treasure1072",
+            "name": "Zonaite Bow",
+            "link": "Zonaite Bow"
+          },
+          {
+            "coords": [
+              3674.5,
+              4627.3999
+            ],
+            "elv": -415.470001,
+            "id": "Treasure1073",
+            "name": "Large Zonaite",
+            "link": "Large Zonaite"
+          },
+          {
+            "coords": [
+              639.328796,
+              4411.44482
+            ],
+            "elv": -708.625,
+            "id": "Treasure1074",
+            "name": "Large Crystallized Charge",
+            "link": "Large Crystallized Charge"
+          },
+          {
+            "coords": [
+              2872.20996,
+              1342.04395
+            ],
+            "elv": -785.044373,
+            "id": "Treasure1328",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              2614.25,
+              1313.75
+            ],
+            "elv": -784.518616,
+            "id": "Treasure1329",
+            "name": "Diamond",
+            "link": "Diamond"
+          },
+          {
+            "coords": [
+              2933.03101,
+              1299.93994
+            ],
+            "elv": -799.362183,
+            "id": "Treasure1330",
+            "name": "Strong Zonaite Longsword",
+            "link": "Strong Zonaite Longsword"
+          },
+          {
+            "coords": [
+              2947.1731,
+              1295.698
+            ],
+            "elv": -754.513489,
+            "id": "Treasure1331",
+            "name": "Soldier II Reaper",
+            "link": "Soldier II Reaper"
+          },
+          {
+            "coords": [
+              2914.5271,
+              1286.271
+            ],
+            "elv": -692.507019,
+            "id": "Treasure1332",
+            "name": "Large Zonai Charge",
+            "link": "Large Zonai Charge"
+          },
+          {
+            "coords": [
+              3059.75,
+              1356.75
+            ],
+            "elv": -767.5,
+            "id": "Treasure1333",
+            "name": "Zonaite x 3",
+            "link": "Zonaite"
+          },
+          {
+            "coords": [
+              2896.17212,
+              1415.16504
+            ],
+            "elv": -753.870789,
+            "id": "Treasure1334",
+            "name": "Strong Zonaite Shield",
+            "link": "Strong Zonaite Shield"
+          },
+          {
+            "coords": [
+              3064.86499,
+              1395.82202
+            ],
+            "elv": -786.294617,
+            "id": "Treasure1335",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              2797.75,
+              1360.49402
+            ],
+            "elv": -755,
+            "id": "Treasure1336",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              2829.2439,
+              1359.90601
+            ],
+            "elv": -705.035217,
+            "id": "Treasure1337",
+            "name": "Ruby",
+            "link": "Ruby"
+          },
+          {
+            "coords": [
+              2833.52295,
+              1377.51697
+            ],
+            "elv": -712.608093,
+            "id": "Treasure1338",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              2860.5,
+              1352
+            ],
+            "elv": -806.179016,
+            "id": "Treasure1339",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              2682.76196,
+              1176.46899
+            ],
+            "elv": -727.503906,
+            "id": "Treasure1340",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Armor",
+    "source": "mapns",
+    "layers": [
+      {
+        "minZoom": 3,
+        "icon": {
+          "url": "treasurearmor.png",
+          "width": 27,
+          "height": 21
+        },
+        "markers": [
+          {
+            "coords": [
+              2801.00488,
+              -4079.21289
+            ],
+            "elv": -449.94281,
+            "id": "Treasure0778",
+            "name": "Cap of Time",
+            "link": "Cap of Time"
+          },
+          {
+            "coords": [
+              -698.365173,
+              -4180.4209
+            ],
+            "elv": -1121.29004,
+            "id": "Treasure0780",
+            "name": "Trousers of Time",
+            "link": "Trousers of Time"
+          },
+          {
+            "coords": [
+              -3719.52002,
+              -4879.21094
+            ],
+            "elv": -458.158997,
+            "id": "Treasure0788",
+            "name": "Tunic of the Wild",
+            "link": "Tunic of the Wild"
+          },
+          {
+            "coords": [
+              3724.56299,
+              -3955.02808
+            ],
+            "elv": -857.660889,
+            "id": "Treasure0789",
+            "name": "Cap of the Wild",
+            "link": "Cap of the Wild"
+          },
+          {
+            "coords": [
+              2312.85889,
+              -3353.28809
+            ],
+            "elv": -812.182617,
+            "id": "Treasure0791",
+            "name": "Trousers of the Hero",
+            "link": "Trousers of the Hero"
+          },
+          {
+            "coords": [
+              1344.09497,
+              -3788.98193
+            ],
+            "elv": -681.757019,
+            "id": "Treasure0794",
+            "name": "Tunic of the Wind",
+            "link": "Tunic of the Wind"
+          },
+          {
+            "coords": [
+              -2476.90601,
+              -3231.46411
+            ],
+            "elv": -475.125702,
+            "id": "Treasure0804",
+            "name": "Miner's Mask",
+            "link": "Miner's Mask"
+          },
+          {
+            "coords": [
+              1309.06396,
+              -2001.29395
+            ],
+            "elv": -714.77771,
+            "id": "Treasure0826",
+            "name": "Tunic of Time",
+            "link": "Tunic of Time"
+          },
+          {
+            "coords": [
+              -557.202271,
+              -1077.17395
+            ],
+            "elv": -513.55719,
+            "id": "Treasure0830",
+            "name": "Miner's Top",
+            "link": "Miner's Top"
+          },
+          {
+            "coords": [
+              -2249.98096,
+              -1287.48499
+            ],
+            "elv": -707.15271,
+            "id": "Treasure0833",
+            "name": "Miner's Trousers",
+            "link": "Miner's Trousers"
+          },
+          {
+            "coords": [
+              3722.9021,
+              1674.82898
+            ],
+            "elv": -560.935669,
+            "id": "Treasure0876",
+            "name": "Trousers of the Wild",
+            "link": "Trousers of the Wild"
+          },
+          {
+            "coords": [
+              1407.86597,
+              1021.021
+            ],
+            "elv": -542.752991,
+            "id": "Treasure0886",
+            "name": "Tunic of the Sky",
+            "link": "Tunic of the Sky"
+          },
+          {
+            "coords": [
+              425.654114,
+              1164.56299
+            ],
+            "elv": -579.795654,
+            "id": "Treasure0887",
+            "name": "Trousers of the Sky",
+            "link": "Trousers of the Sky"
+          },
+          {
+            "coords": [
+              -1812.71204,
+              1284.54602
+            ],
+            "elv": -784.019226,
+            "id": "Treasure0891",
+            "name": "Tunic of the Hero",
+            "link": "Tunic of the Hero"
+          },
+          {
+            "coords": [
+              -3602.30103,
+              2519.53589
+            ],
+            "elv": -625.945374,
+            "id": "Treasure0915",
+            "name": "Cap of the Hero",
+            "link": "Cap of the Hero"
+          },
+          {
+            "coords": [
+              1507,
+              3319.5
+            ],
+            "elv": -855.926514,
+            "id": "Treasure0923",
+            "name": "Trousers of Twilight",
+            "link": "Trousers of Twilight"
+          },
+          {
+            "coords": [
+              -1985.37598,
+              3821.58301
+            ],
+            "elv": -631.67981,
+            "id": "Treasure0936",
+            "name": "Cap of the Sky",
+            "link": "Cap of the Sky"
+          },
+          {
+            "coords": [
+              -3613.24097,
+              3794.23706
+            ],
+            "elv": -445.394897,
+            "id": "Treasure0939",
+            "name": "Trousers of the Wind",
+            "link": "Trousers of the Wind"
+          },
+          {
+            "coords": [
+              2170.07104,
+              4516.28906
+            ],
+            "elv": -453.739594,
+            "id": "Treasure0942",
+            "name": "Tunic of Twilight",
+            "link": "Tunic of Twilight"
+          },
+          {
+            "coords": [
+              620.708618,
+              4655.28906
+            ],
+            "elv": -722.25592,
+            "id": "Treasure0943",
+            "name": "Cap of the Wind",
+            "link": "Cap of the Wind"
+          },
+          {
+            "coords": [
+              -3782.03809,
+              -4310.56299
+            ],
+            "elv": -479.207001,
+            "id": "Treasure0953",
+            "name": "Sheik's Mask",
+            "link": "Sheik's Mask"
+          },
+          {
+            "coords": [
+              -1263.45605,
+              -1151.84595
+            ],
+            "elv": -498.540588,
+            "id": "Treasure0991",
+            "name": "Majora's Mask",
+            "link": "Majora's Mask"
+          },
+          {
+            "coords": [
+              -3462.5,
+              -1795
+            ],
+            "elv": -527.717712,
+            "id": "Treasure0994",
+            "name": "Evil Spirit Mask",
+            "link": "Evil Spirit Mask"
+          },
+          {
+            "coords": [
+              3534.3999,
+              -814.75
+            ],
+            "elv": -686.969299,
+            "id": "Treasure1000",
+            "name": "Evil Spirit Greaves",
+            "link": "Evil Spirit Greaves"
+          },
+          {
+            "coords": [
+              2380.10596,
+              -147.621902
+            ],
+            "elv": -621.039978,
+            "id": "Treasure1005",
+            "name": "Korok Mask",
+            "link": "Korok Mask"
+          },
+          {
+            "coords": [
+              3123.77197,
+              263.652008
+            ],
+            "elv": -622.713501,
+            "id": "Treasure1010",
+            "name": "Cap of Twilight",
+            "link": "Cap of Twilight"
+          },
+          {
+            "coords": [
+              3183.37207,
+              2143.552
+            ],
+            "elv": -837.871216,
+            "id": "Treasure1038",
+            "name": "Zant's Helmet",
+            "link": "Zant's Helmet"
+          },
+          {
+            "coords": [
+              -1901.15295,
+              2243.09497
+            ],
+            "elv": -466.982788,
+            "id": "Treasure1048",
+            "name": "Ravio's Hood",
+            "link": "Ravio's Hood"
+          },
+          {
+            "coords": [
+              3697,
+              4654.8999
+            ],
+            "elv": -450.657898,
+            "id": "Treasure1068",
+            "name": "Evil Spirit Armor",
+            "link": "Evil Spirit Armor"
+          },
+          {
+            "coords": [
+              -3619.8479,
+              4562.77002
+            ],
+            "elv": -471.30661,
+            "id": "Treasure1076",
+            "name": "Midna's Helmet",
+            "link": "Midna's Helmet"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Unique Weapon",
+    "source": "mapns",
+    "layers": [
+      {
+        "minZoom": 3,
+        "icon": {
+          "url": "treasureweapon.png",
+          "width": 27,
+          "height": 21
+        },
+        "markers": [
+          {
+            "coords": [
+              2917.99609,
+              -2736.66089
+            ],
+            "elv": -1119.63208,
+            "id": "Treasure0812",
+            "name": "Sea-Breeze Boomerang",
+            "link": "Sea-Breeze Boomerang"
+          },
+          {
+            "coords": [
+              -1128.87805,
+              -2048.1189
+            ],
+            "elv": -545.850098,
+            "id": "Treasure0818",
+            "name": "Sword of the Hero",
+            "link": "Sword of the Hero"
+          },
+          {
+            "coords": [
+              253.654602,
+              2667.56299
+            ],
+            "elv": -558.718994,
+            "id": "Treasure0903",
+            "name": "Sea-Breeze Shield",
+            "link": "Sea-Breeze Shield"
+          },
+          {
+            "coords": [
+              3446.48096,
+              3239.77905
+            ],
+            "elv": -429.647888,
+            "id": "Treasure1054",
+            "name": "Biggoron's Sword",
+            "link": "Biggoron's Sword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Yiga Schematic",
+    "source": "mapns",
+    "layers": [
+      {
+        "minZoom": 3,
+        "icon": {
+          "url": "schematic.png",
+          "width": 27,
+          "height": 21
+        },
+        "markers": [
+          {
+            "coords": [
+              -993.509583,
+              -4457.42578
+            ],
+            "elv": -861.266785,
+            "id": "Treasure0950",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              -2170.88696,
+              -4547.34424
+            ],
+            "elv": -489.238098,
+            "id": "Treasure0952",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              3099.57788,
+              -3709.50195
+            ],
+            "elv": -782.218079,
+            "id": "Treasure0956",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              665.86322,
+              -3380.37695
+            ],
+            "elv": -618.661316,
+            "id": "Treasure0960",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              -222.321701,
+              -3404.43091
+            ],
+            "elv": -481.951294,
+            "id": "Treasure0963",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              -1580.83801,
+              -3075.11011
+            ],
+            "elv": -913.089111,
+            "id": "Treasure0965",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              -3779.93408,
+              -3262.13306
+            ],
+            "elv": -494.358612,
+            "id": "Treasure0968",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              2918.62109,
+              -2864.41602
+            ],
+            "elv": -931.414001,
+            "id": "Treasure0971",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              901.297485,
+              -2822.39502
+            ],
+            "elv": -565.384521,
+            "id": "Treasure0973",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              -2881.98389,
+              -2694.23706
+            ],
+            "elv": -467.313385,
+            "id": "Treasure0977",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              -3484.71191,
+              -2410.01196
+            ],
+            "elv": -393.731293,
+            "id": "Treasure0979",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              3106.32202,
+              -1751.34705
+            ],
+            "elv": -679.250183,
+            "id": "Treasure0981",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              2095.20093,
+              -1903.18201
+            ],
+            "elv": -681.6875,
+            "id": "Treasure0983",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              1497.64197,
+              -1332.31494
+            ],
+            "elv": -597.416199,
+            "id": "Treasure0986",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              246.597198,
+              -1621.53406
+            ],
+            "elv": -482.355194,
+            "id": "Treasure0988",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              -736.473877,
+              -1856.01099
+            ],
+            "elv": -526.599976,
+            "id": "Treasure0990",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              -2610.99609,
+              -1224.90796
+            ],
+            "elv": -479.76239,
+            "id": "Treasure0993",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              1776.06201,
+              -398.125793
+            ],
+            "elv": -622.78302,
+            "id": "Treasure1007",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              3698.66211,
+              621.5271
+            ],
+            "elv": -539.678101,
+            "id": "Treasure1012",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              2868.26709,
+              131.035995
+            ],
+            "elv": -633.808105,
+            "id": "Treasure1014",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              -2171.39697,
+              247.240295
+            ],
+            "elv": -486,
+            "id": "Treasure1019",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              -3672.58789,
+              417.513214
+            ],
+            "elv": -498.228912,
+            "id": "Treasure1021",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              691.909119,
+              1539.26794
+            ],
+            "elv": -438.759888,
+            "id": "Treasure1032",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              599.643311,
+              1168.48596
+            ],
+            "elv": -408.212097,
+            "id": "Treasure1034",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              1577.81702,
+              2667.09302
+            ],
+            "elv": -591.281372,
+            "id": "Treasure1043",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              -545.101624,
+              2542.46802
+            ],
+            "elv": -475.623413,
+            "id": "Treasure1046",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              -1626.48206,
+              2077.77197
+            ],
+            "elv": -463.685211,
+            "id": "Treasure1050",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              -2571.79395,
+              2963.28394
+            ],
+            "elv": -507.157806,
+            "id": "Treasure1052",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              3697.08789,
+              3274.77197
+            ],
+            "elv": -660.168091,
+            "id": "Treasure1056",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              2281.19092,
+              3605.83594
+            ],
+            "elv": -477.598602,
+            "id": "Treasure1058",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              -570.470215,
+              3618.48608
+            ],
+            "elv": -454.799988,
+            "id": "Treasure1062",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              -1446.42004,
+              3261.96509
+            ],
+            "elv": -657.255371,
+            "id": "Treasure1064",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              3215.61792,
+              4111.81787
+            ],
+            "elv": -610.507996,
+            "id": "Treasure1067",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          },
+          {
+            "coords": [
+              637.94342,
+              4412.88721
+            ],
+            "elv": -708.625,
+            "id": "Treasure1075",
+            "name": "Yiga Schematic",
+            "link": "Yiga Schematic"
+          }
+        ]
+      }
+    ]
+  }
+]

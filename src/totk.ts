@@ -1,5 +1,6 @@
 import "./common/style.scss";
 import * as Schema from "./common/JSONSchema";
+import * as DataFiles from "./totk-data-files.json";
 import { ICategory } from "./common/ICategory";
 import { Layer } from "./common/Layer";
 import { MapLayer } from "./common/MapLayer";
@@ -514,6 +515,7 @@ window.onload = async () => {
       legendItem("Armor", "treasurearmor", 27, 21),
       legendItem("Unique Weapon", "treasureweapon", 27, 21),
       legendItem("Yiga Schematic", "schematic", 27, 21),
+      legendItem("Large Zonaite Deposit", "zonaite", 27, 21),
     ],
     "Collectibles"
   );
@@ -565,10 +567,8 @@ window.onload = async () => {
     "Bosses"
   );
 
-  const jsonVer = 2;
-
   function addJson(layer: MapLayer, path: string): Promise<void> {
-    return fetch(`${import.meta.env.BASE_URL}totk/markers/${path}?v=${jsonVer}`)
+    return fetch(`${import.meta.env.BASE_URL}totk/markers/${path}`)
       .then((r) => r.json())
       .then((categories: Schema.Category[]) => {
         for (const category of categories) {
@@ -694,7 +694,7 @@ window.onload = async () => {
   }
 
   function addObjects(layer: MapLayer, path: string) {
-    return fetch(`${import.meta.env.BASE_URL}totk/markers/${path}?v=${jsonVer}`)
+    return fetch(`${import.meta.env.BASE_URL}totk/markers/${path}`)
       .then((r) => r.json())
       .then((groups: Schema.ObjectCategory[]) => {
         layer.addObjects(groups);
@@ -703,9 +703,9 @@ window.onload = async () => {
   }
 
   await Promise.allSettled([
-    addJson(surface, "surface/locations.json"),
-    addJson(sky, "sky/locations.json"),
-    addJson(depths, "depths/locations.json"),
+    addJson(surface, DataFiles.markers.surface),
+    addJson(sky, DataFiles.markers.sky),
+    addJson(depths, DataFiles.markers.depths),
     addWikiJson(surface, "Surface Categories"),
     addWikiJson(sky, "Sky Categories"),
     addWikiJson(depths, "Depths Categories"),
@@ -717,8 +717,8 @@ window.onload = async () => {
   await map.initializeWikiConnector().catch((ex) => console.log(ex));
 
   await Promise.allSettled([
-    addObjects(surface, "surface/materials.json"),
-    addObjects(sky, "sky/materials.json"),
-    addObjects(depths, "depths/materials.json"),
+    addObjects(surface, DataFiles.objects.surface),
+    addObjects(sky, DataFiles.objects.sky),
+    addObjects(depths, DataFiles.objects.depths),
   ]);
 };

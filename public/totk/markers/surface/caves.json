@@ -1,0 +1,2883 @@
+[
+  {
+    "name": "Chasm",
+    "source": "mapns",
+    "layers": [
+      {
+        "minZoom": 1,
+        "showLabelForZoomLevel": 6,
+        "icon": {
+          "url": "chasm.png",
+          "width": 25,
+          "height": 26
+        },
+        "markers": [
+          {
+            "coords": [
+              -3067.73804,
+              -2491.19312
+            ],
+            "elv": 6.23989868,
+            "id": "Cave_GerudoDesert_0043",
+            "name": "East Gerudo Chasm",
+            "link": "East Gerudo Chasm"
+          },
+          {
+            "coords": [
+              1126.02405,
+              -2644.2439
+            ],
+            "elv": 142.631699,
+            "id": "Cave_HyruleRidge_0004",
+            "name": "Hyrule Ridge Chasm",
+            "link": "Hyrule Ridge Chasm"
+          },
+          {
+            "coords": [
+              162.054794,
+              1726.91699
+            ],
+            "elv": -4.81410217,
+            "id": "Cave_Lanayru_0050",
+            "name": "Lanayru Wetlands Chasm",
+            "link": "Lanayru Wetlands Chasm"
+          },
+          {
+            "coords": [
+              441.587189,
+              3271.55005
+            ],
+            "elv": -20.6940002,
+            "id": "Cave_Lanayru_0063",
+            "name": "Chasm Under Zora's Domain",
+            "link": "Chasm Under Zora's Domain"
+          },
+          {
+            "coords": [
+              3441.88306,
+              3246.81592
+            ],
+            "elv": -43.1066818,
+            "id": "DeepHole_AkkareSkull",
+            "name": "Skull Lake Chasm",
+            "link": "Skull Lake Chasm"
+          },
+          {
+            "coords": [
+              -1333.44299,
+              -3430.18188
+            ],
+            "elv": 279.693115,
+            "id": "DeepHole_B-6_AssasisnBoss",
+            "name": "Yiga Clan Hideout Chasm",
+            "link": "Yiga Clan Hideout Chasm"
+          },
+          {
+            "coords": [
+              -1859.86902,
+              -3685.62793
+            ],
+            "elv": 33.6060944,
+            "id": "DeepHole_B-6_Tower",
+            "name": "Birida Lookout Chasm",
+            "link": "Birida Lookout Chasm"
+          },
+          {
+            "coords": [
+              1307.87305,
+              4707.78223
+            ],
+            "elv": 119.228699,
+            "id": "DeepHole_Chikurun",
+            "name": "Tingel Island Chasm",
+            "link": "Tingel Island Chasm"
+          },
+          {
+            "coords": [
+              2193.41211,
+              418.008606
+            ],
+            "elv": 143.688797,
+            "id": "DeepHole_Cokiri",
+            "name": "Deku Tree Chasm",
+            "link": "Deku Tree Chasm"
+          },
+          {
+            "coords": [
+              2602.5,
+              2534.5
+            ],
+            "elv": 643.5,
+            "id": "DeepHole_DeathMountain",
+            "name": "Death Mountain Chasm",
+            "link": "Death Mountain Chasm"
+          },
+          {
+            "coords": [
+              -2396.66309,
+              1304.99597
+            ],
+            "elv": 62.2823029,
+            "id": "DeepHole_Firone",
+            "name": "Tobio's Hollow Chasm",
+            "link": "Tobio's Hollow Chasm"
+          },
+          {
+            "coords": [
+              -1992.97498,
+              -452.5
+            ],
+            "elv": 67.2785034,
+            "id": "DeepHole_FirstLandEast",
+            "name": "Great Plateau East Chasm",
+            "link": "Great Plateau East Chasm"
+          },
+          {
+            "coords": [
+              -1509.74695,
+              -664.93103
+            ],
+            "elv": 49.4942017,
+            "id": "DeepHole_FirstLandNorth",
+            "name": "Great Plateau North Chasm",
+            "link": "Great Plateau North Chasm"
+          },
+          {
+            "coords": [
+              -2317.50488,
+              -932.831177
+            ],
+            "elv": 163.537506,
+            "id": "DeepHole_FirstLandSouth",
+            "name": "Great Plateau South Chasm",
+            "link": "Great Plateau South Chasm"
+          },
+          {
+            "coords": [
+              -1992.55298,
+              -1431.69202
+            ],
+            "elv": 225.815186,
+            "id": "DeepHole_FirstLandWest",
+            "name": "Great Plateau West Chasm",
+            "link": "Great Plateau West Chasm"
+          },
+          {
+            "coords": [
+              -3461.7561,
+              -1794.91895
+            ],
+            "elv": 44.3601074,
+            "id": "DeepHole_GerudoMaze",
+            "name": "South Lomei Chasm",
+            "link": "South Lomei Chasm"
+          },
+          {
+            "coords": [
+              -637.663513,
+              -4203.36182
+            ],
+            "elv": 643.078918,
+            "id": "DeepHole_GerudoSummit",
+            "name": "Gerudo Summit Chasm",
+            "link": "Gerudo Summit Chasm"
+          },
+          {
+            "coords": [
+              2180.88403,
+              4029.55298
+            ],
+            "elv": -96.1790924,
+            "id": "DeepHole_Higakkare",
+            "name": "East Akkala Plains Chasm",
+            "link": "East Akkala Plains Chasm"
+          },
+          {
+            "coords": [
+              -2380.70093,
+              2513.71411
+            ],
+            "elv": 131.286697,
+            "id": "DeepHole_HimeidaMt",
+            "name": "Meda Mountain Chasm",
+            "link": "Meda Mountain Chasm"
+          },
+          {
+            "coords": [
+              1012.17297,
+              -254
+            ],
+            "elv": -210,
+            "id": "DeepHole_HyruleCastle",
+            "name": "Hyrule Castle Chasm",
+            "link": "Hyrule Castle Chasm"
+          },
+          {
+            "coords": [
+              882.159973,
+              169.987793
+            ],
+            "elv": -48.1749992,
+            "id": "DeepHole_HyruleCastleEast",
+            "name": "Hyrule Castle Moat East Chasm",
+            "link": "Hyrule Castle Moat East Chasm"
+          },
+          {
+            "coords": [
+              666.79248,
+              -922.606873
+            ],
+            "elv": -9.47884369,
+            "id": "DeepHole_HyruleCastleWest",
+            "name": "Hyrule Castle Moat West Chasm",
+            "link": "Hyrule Castle Moat West Chasm"
+          },
+          {
+            "coords": [
+              -2598.02295,
+              -332
+            ],
+            "elv": -51.8229485,
+            "id": "DeepHole_HyruleLake",
+            "name": "Lake Hylia Chasm",
+            "link": "Lake Hylia Chasm"
+          },
+          {
+            "coords": [
+              -299.580597,
+              -255.025696
+            ],
+            "elv": -1.53179932,
+            "id": "DeepHole_HyrulePlains",
+            "name": "Hyrule Field Chasm",
+            "link": "Hyrule Field Chasm"
+          },
+          {
+            "coords": [
+              1722.35205,
+              -456.876312
+            ],
+            "elv": 169.3862,
+            "id": "DeepHole_ImeruMt",
+            "name": "Elma Knolls Chasm",
+            "link": "Elma Knolls Chasm"
+          },
+          {
+            "coords": [
+              -846.128418,
+              1974.48804
+            ],
+            "elv": 115.505005,
+            "id": "DeepHole_Kakariko_EastHill",
+            "name": "East Hill Chasm",
+            "link": "East Hill Chasm"
+          },
+          {
+            "coords": [
+              1668.099,
+              1059.42798
+            ],
+            "elv": 149.873993,
+            "id": "DeepHole_KiyanbaTrees",
+            "name": "Minshi Woods Chasm",
+            "link": "Minshi Woods Chasm"
+          },
+          {
+            "coords": [
+              3697.46802,
+              4655
+            ],
+            "elv": 26.5,
+            "id": "DeepHole_LomeiIsland",
+            "name": "Lomei Labyrinth Chasm",
+            "link": "Lomei Labyrinth Chasm"
+          },
+          {
+            "coords": [
+              1286.68701,
+              3296.86011
+            ],
+            "elv": 124.952103,
+            "id": "DeepHole_Minakkare",
+            "name": "South Akkala Plains Chasm",
+            "link": "South Akkala Plains Chasm"
+          },
+          {
+            "coords": [
+              2983.78003,
+              -71.0354004
+            ],
+            "elv": 126.931305,
+            "id": "DeepHole_RirimukuMt",
+            "name": "Drenan Highlands Chasm",
+            "link": "Drenan Highlands Chasm"
+          },
+          {
+            "coords": [
+              1803.078,
+              -3571.25098
+            ],
+            "elv": 119.044601,
+            "id": "DeepHole_Rito",
+            "name": "Rito Village Chasm",
+            "link": "Rito Village Chasm"
+          },
+          {
+            "coords": [
+              -3459.29492,
+              4507.12207
+            ],
+            "elv": -17.0577393,
+            "id": "DeepHole_Saihateno",
+            "name": "Eventide Island Chasm",
+            "link": "Eventide Island Chasm"
+          },
+          {
+            "coords": [
+              -2118.77002,
+              221.942001
+            ],
+            "elv": -2.11650085,
+            "id": "DeepHole_SanaePlateau",
+            "name": "Hills of Baumer Chasm",
+            "link": "Hills of Baumer Chasm"
+          },
+          {
+            "coords": [
+              3534.69897,
+              -814.48291
+            ],
+            "elv": 220.197815,
+            "id": "DeepHole_TabantaMaze",
+            "name": "North Lomei Chasm",
+            "link": "North Lomei Chasm"
+          },
+          {
+            "coords": [
+              -1343.98096,
+              3604.58911
+            ],
+            "elv": 118.139496,
+            "id": "DeepHole_YuaSnow",
+            "name": "Naydra Snowfield Chasm",
+            "link": "Naydra Snowfield Chasm"
+          },
+          {
+            "coords": [
+              -1657.80603,
+              -127.971802
+            ],
+            "elv": -31.9857864,
+            "id": "DeepHole_ZifForest",
+            "name": "Forest of Time Chasm",
+            "link": "Forest of Time Chasm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cave",
+    "source": "mapns",
+    "layers": [
+      {
+        "minZoom": 3,
+        "showLabelForZoomLevel": 6,
+        "icon": {
+          "url": "cave.png",
+          "width": 25,
+          "height": 26
+        },
+        "markers": [
+          {
+            "coords": [
+              662.294983,
+              4122.229
+            ],
+            "elv": 188.178986,
+            "id": "Cave_Akkala_0000",
+            "name": "Ulria Grotto South Cave",
+            "link": "Ulria Grotto South Cave"
+          },
+          {
+            "coords": [
+              705.161682,
+              4505
+            ],
+            "elv": 96.9405975,
+            "id": "Cave_Akkala_0003",
+            "name": "Ulria Grotto East Cave",
+            "link": "Ulria Grotto East Cave"
+          },
+          {
+            "coords": [
+              774.316223,
+              4272.99023
+            ],
+            "elv": 144.851105,
+            "id": "Cave_Akkala_00031",
+            "name": "Ulria Grotto East Cave",
+            "link": "Ulria Grotto East Cave"
+          },
+          {
+            "coords": [
+              1576.42297,
+              3925.927
+            ],
+            "elv": 107.560501,
+            "id": "Cave_Akkala_0005",
+            "name": "Tarrey Town Tunnel",
+            "link": "Tarrey Town Tunnel"
+          },
+          {
+            "coords": [
+              1538.25195,
+              3678.7229
+            ],
+            "elv": 74.5108032,
+            "id": "Cave_Akkala_0007",
+            "name": "Construction Site Cave",
+            "link": "Construction Site Cave"
+          },
+          {
+            "coords": [
+              1534.08496,
+              3735.43701
+            ],
+            "elv": 81.3166962,
+            "id": "Cave_Akkala_00071",
+            "name": "Construction Site Cave",
+            "link": "Construction Site Cave"
+          },
+          {
+            "coords": [
+              1456.82397,
+              3243.71606
+            ],
+            "elv": 294.535004,
+            "id": "Cave_Akkala_0010",
+            "name": "Akkala Citadel Ruins Cave",
+            "link": "Akkala Citadel Ruins Cave"
+          },
+          {
+            "coords": [
+              3424,
+              3321.5
+            ],
+            "elv": 171.5,
+            "id": "Cave_Akkala_0011",
+            "name": "Skull Lake Cave",
+            "link": "Skull Lake Cave"
+          },
+          {
+            "coords": [
+              3584.90796,
+              4650.66992
+            ],
+            "elv": -50.5,
+            "id": "Cave_Akkala_0014",
+            "name": "North Akkala Beach Cave",
+            "link": "North Akkala Beach Cave"
+          },
+          {
+            "coords": [
+              3206.83398,
+              4645.50293
+            ],
+            "elv": 6.99440002,
+            "id": "Cave_Akkala_00141",
+            "name": "North Akkala Beach Cave",
+            "link": "North Akkala Beach Cave"
+          },
+          {
+            "coords": [
+              1492,
+              3292.5
+            ],
+            "elv": 395.064209,
+            "id": "Cave_Akkala_0017",
+            "name": "Akkala Citadel Ruins Summit Cave",
+            "link": "Akkala Citadel Ruins Summit Cave"
+          },
+          {
+            "coords": [
+              -198.862503,
+              37.3019485
+            ],
+            "elv": 19.1820984,
+            "id": "Cave_CentralHyrule_0008",
+            "name": "Ranch Ruins Cave",
+            "link": "Ranch Ruins Cave"
+          },
+          {
+            "coords": [
+              -157.9319,
+              6.00978994
+            ],
+            "elv": 31.066803,
+            "id": "Cave_CentralHyrule_00081",
+            "name": "Ranch Ruins Cave",
+            "link": "Ranch Ruins Cave"
+          },
+          {
+            "coords": [
+              -1488.37695,
+              -832.346191
+            ],
+            "elv": 27.4909058,
+            "id": "Cave_CentralHyrule_0009",
+            "name": "Great Plateau Foothill Cave",
+            "link": "Great Plateau Foothill Cave"
+          },
+          {
+            "coords": [
+              802.526428,
+              -325.666504
+            ],
+            "elv": 54.5706024,
+            "id": "Cave_CentralHyrule_0018",
+            "name": "Royal Hidden Passage",
+            "link": "Royal Hidden Passage"
+          },
+          {
+            "coords": [
+              129,
+              -254.037506
+            ],
+            "elv": 8.50170135,
+            "id": "Cave_CentralHyrule_00181",
+            "name": "Royal Hidden Passage",
+            "link": "Royal Hidden Passage"
+          },
+          {
+            "coords": [
+              767.083984,
+              -253.966705
+            ],
+            "elv": 27.8977966,
+            "id": "Cave_CentralHyrule_00182",
+            "name": "Royal Hidden Passage",
+            "link": "Royal Hidden Passage"
+          },
+          {
+            "coords": [
+              -432.062592,
+              -1111.5
+            ],
+            "elv": 23.1999969,
+            "id": "Cave_CentralHyrule_0020",
+            "name": "Ancient Tree Stump Cave",
+            "link": "Ancient Tree Stump Cave"
+          },
+          {
+            "coords": [
+              -1045.974,
+              -72.1092529
+            ],
+            "elv": 17.9356003,
+            "id": "Cave_CentralHyrule_0021",
+            "name": "Whistling Hill Cave",
+            "link": "Whistling Hill Cave"
+          },
+          {
+            "coords": [
+              127.591797,
+              -512.35907
+            ],
+            "elv": 20.8690033,
+            "id": "Cave_CentralHyrule_0022",
+            "name": "Passeri Greenbelt Cave",
+            "link": "Passeri Greenbelt Cave"
+          },
+          {
+            "coords": [
+              -1310.97705,
+              -1167.15503
+            ],
+            "elv": 22.7492981,
+            "id": "Cave_CentralHyrule_0023",
+            "name": "Coliseum Ruins Cave",
+            "link": "Coliseum Ruins Cave"
+          },
+          {
+            "coords": [
+              -256.5,
+              -1404.5
+            ],
+            "elv": -3.44000244,
+            "id": "Cave_CentralHyrule_0030",
+            "name": "Sage Temple Cave",
+            "link": "Sage Temple Cave"
+          },
+          {
+            "coords": [
+              2778.18506,
+              2767.81201
+            ],
+            "elv": 521.829529,
+            "id": "Cave_Eldin_0020",
+            "name": "Death Mountain East Tunnel",
+            "link": "Death Mountain East Tunnel"
+          },
+          {
+            "coords": [
+              2682.37598,
+              2238.60498
+            ],
+            "elv": 521.018494,
+            "id": "Cave_Eldin_0021",
+            "name": "Death Mountain West Tunnel",
+            "link": "Death Mountain West Tunnel"
+          },
+          {
+            "coords": [
+              3051.70288,
+              2373.34302
+            ],
+            "elv": 445.8396,
+            "id": "Cave_Eldin_0022",
+            "name": "Lake Darman Monster Den",
+            "link": "Lake Darman Monster Den"
+          },
+          {
+            "coords": [
+              3102.51294,
+              1554.55896
+            ],
+            "elv": 393.430908,
+            "id": "Cave_Eldin_0023",
+            "name": "Isle of Rabac Gallery",
+            "link": "Isle of Rabac Gallery"
+          },
+          {
+            "coords": [
+              2102.729,
+              1423.078
+            ],
+            "elv": 284.93219,
+            "id": "Cave_Eldin_0025",
+            "name": "Goronbi River Cave",
+            "link": "Goronbi River Cave"
+          },
+          {
+            "coords": [
+              1983.35205,
+              1800.95496
+            ],
+            "elv": 320.9151,
+            "id": "Cave_Eldin_0026",
+            "name": "Southern Mine",
+            "link": "Southern Mine"
+          },
+          {
+            "coords": [
+              2038.98401,
+              2016
+            ],
+            "elv": 421.275513,
+            "id": "Cave_Eldin_0027",
+            "name": "Gorko Tunnel",
+            "link": "Gorko Tunnel"
+          },
+          {
+            "coords": [
+              1729.56299,
+              1642.84802
+            ],
+            "elv": 279.54361,
+            "id": "Cave_Eldin_0028",
+            "name": "West Restaurant Cave",
+            "link": "West Restaurant Cave"
+          },
+          {
+            "coords": [
+              1719.953,
+              1853.95605
+            ],
+            "elv": 292.444611,
+            "id": "Cave_Eldin_0029",
+            "name": "East Restaurant Cave",
+            "link": "East Restaurant Cave"
+          },
+          {
+            "coords": [
+              3075.31909,
+              2206.31396
+            ],
+            "elv": 405.943207,
+            "id": "Cave_Eldin_0030",
+            "name": "Lizard's Burrow",
+            "link": "Lizard's Burrow"
+          },
+          {
+            "coords": [
+              1792.98303,
+              2485.38599
+            ],
+            "elv": 158.378113,
+            "id": "Cave_Eldin_0031",
+            "name": "Lake Intenoch Cave",
+            "link": "Lake Intenoch Cave"
+          },
+          {
+            "coords": [
+              2837.40405,
+              1764.65295
+            ],
+            "elv": 400.260315,
+            "id": "Cave_Eldin_0033",
+            "name": "YunoboCo HQ East Cave",
+            "link": "YunoboCo HQ East Cave"
+          },
+          {
+            "coords": [
+              2718.58691,
+              1713.88098
+            ],
+            "elv": 401.106812,
+            "id": "Cave_Eldin_0034",
+            "name": "YunoboCo HQ South Cave",
+            "link": "YunoboCo HQ South Cave"
+          },
+          {
+            "coords": [
+              2687.20898,
+              1949.90906
+            ],
+            "elv": 426.457397,
+            "id": "Cave_Eldin_0035",
+            "name": "Death Mountain Foothill Cave",
+            "link": "Death Mountain Foothill Cave"
+          },
+          {
+            "coords": [
+              1271.64502,
+              1929.5
+            ],
+            "elv": 122.270599,
+            "id": "Cave_Eldin_0037",
+            "name": "Lake Ferona Cave",
+            "link": "Lake Ferona Cave"
+          },
+          {
+            "coords": [
+              1304.573,
+              1931.94897
+            ],
+            "elv": 168.654297,
+            "id": "Cave_Eldin_00371",
+            "name": "Lake Ferona Cave",
+            "link": "Lake Ferona Cave"
+          },
+          {
+            "coords": [
+              1330.448,
+              2593.64697
+            ],
+            "elv": 151.451904,
+            "id": "Cave_Eldin_0038",
+            "name": "Cephla Lake Cave",
+            "link": "Cephla Lake Cave"
+          },
+          {
+            "coords": [
+              1520.099,
+              2275.31592
+            ],
+            "elv": 157.5,
+            "id": "Cave_Eldin_0039",
+            "name": "Foothill Monster Den",
+            "link": "Foothill Monster Den"
+          },
+          {
+            "coords": [
+              -2971.70703,
+              809.893494
+            ],
+            "elv": 11.2152023,
+            "id": "Cave_Firone_0002",
+            "name": "Floria River Upstream Excavation",
+            "link": "Floria River Upstream Excavation"
+          },
+          {
+            "coords": [
+              -3109.48096,
+              671.80481
+            ],
+            "elv": 24.3863068,
+            "id": "Cave_Firone_0008",
+            "name": "Pagos Woods Excavation Site",
+            "link": "Pagos Woods Excavation Site"
+          },
+          {
+            "coords": [
+              -2443.8501,
+              1169.63501
+            ],
+            "elv": 177.572205,
+            "id": "Cave_Firone_0009",
+            "name": "Tobio's Hollow Cave",
+            "link": "Tobio's Hollow Cave"
+          },
+          {
+            "coords": [
+              -2940.198,
+              -256.151703
+            ],
+            "elv": -18.0286102,
+            "id": "Cave_Firone_0016",
+            "name": "Cora Lakefront Cave",
+            "link": "Cora Lakefront Cave"
+          },
+          {
+            "coords": [
+              -3067.06592,
+              -171.173798
+            ],
+            "elv": -12.6957092,
+            "id": "Cave_Firone_00161",
+            "name": "Cora Lakefront Cave",
+            "link": "Cora Lakefront Cave"
+          },
+          {
+            "coords": [
+              -2981.87695,
+              568.603394
+            ],
+            "elv": 13.2258987,
+            "id": "Cave_Firone_0020",
+            "name": "Finra Woods Excavation Site",
+            "link": "Finra Woods Excavation Site"
+          },
+          {
+            "coords": [
+              -3170.90601,
+              1203.09399
+            ],
+            "elv": 25.9192963,
+            "id": "Cave_Firone_0022",
+            "name": "Sarjon Woods Cave",
+            "link": "Sarjon Woods Cave"
+          },
+          {
+            "coords": [
+              -2501.45093,
+              125.747704
+            ],
+            "elv": -89.0874481,
+            "id": "Cave_Firone_0023",
+            "name": "Lake Hylia Whirlpool Cave",
+            "link": "Lake Hylia Whirlpool Cave"
+          },
+          {
+            "coords": [
+              -2210.08008,
+              608.902283
+            ],
+            "elv": 51.3276062,
+            "id": "Cave_Firone_0024",
+            "name": "Popla Foothills Excavation Site",
+            "link": "Popla Foothills Excavation Site"
+          },
+          {
+            "coords": [
+              -3851.46899,
+              283.977997
+            ],
+            "elv": 33.5791016,
+            "id": "Cave_Firone_0029",
+            "name": "Puffer Beach Overhead Cave",
+            "link": "Puffer Beach Overhead Cave"
+          },
+          {
+            "coords": [
+              -2162.71094,
+              -1092.38098
+            ],
+            "elv": 144.189896,
+            "id": "Cave_FirstPlateau_0001",
+            "name": "River of the Dead Waterfall Cave",
+            "link": "River of the Dead Waterfall Cave"
+          },
+          {
+            "coords": [
+              -1829.55396,
+              -1061.875
+            ],
+            "elv": 142.671295,
+            "id": "Cave_FirstPlateau_0002",
+            "name": "Shrine of Resurrection",
+            "link": "Shrine of Resurrection"
+          },
+          {
+            "coords": [
+              -2698.51904,
+              -3763.2749
+            ],
+            "elv": 15.3908997,
+            "id": "Cave_GerudoDesert_0007",
+            "name": "Gerudo Sanctuary",
+            "link": "Gerudo Sanctuary"
+          },
+          {
+            "coords": [
+              -2420.75806,
+              -3763.2749
+            ],
+            "elv": 15.3908997,
+            "id": "Cave_GerudoDesert_00071",
+            "name": "Gerudo Sanctuary",
+            "link": "Gerudo Sanctuary"
+          },
+          {
+            "coords": [
+              -2650.31909,
+              -3827.18994
+            ],
+            "elv": 35.7133026,
+            "id": "Cave_GerudoDesert_0008",
+            "name": "Valley of Silent Statues",
+            "link": "Valley of Silent Statues"
+          },
+          {
+            "coords": [
+              -2939.65503,
+              -3238.81592
+            ],
+            "elv": -65.4284592,
+            "id": "Cave_GerudoDesert_0015",
+            "name": "Quicksand Lake Cave",
+            "link": "Quicksand Lake Cave"
+          },
+          {
+            "coords": [
+              -2059.61108,
+              -1967.00403
+            ],
+            "elv": 30.5133057,
+            "id": "Cave_GerudoDesert_0022",
+            "name": "Mount Nabooru Cave",
+            "link": "Mount Nabooru Cave"
+          },
+          {
+            "coords": [
+              -1961.14001,
+              -1795.80505
+            ],
+            "elv": 31.6499939,
+            "id": "Cave_GerudoDesert_00221",
+            "name": "Mount Nabooru Cave",
+            "link": "Mount Nabooru Cave"
+          },
+          {
+            "coords": [
+              -2222.54199,
+              -1527.76196
+            ],
+            "elv": -20.1014633,
+            "id": "Cave_GerudoDesert_0030",
+            "name": "Stalry Plateau Cave",
+            "link": "Stalry Plateau Cave"
+          },
+          {
+            "coords": [
+              -2808.61499,
+              -2696.0249
+            ],
+            "elv": -66.8955002,
+            "id": "Cave_GerudoDesert_0031",
+            "name": "East Gerudo Ruins Cave",
+            "link": "East Gerudo Ruins Cave"
+          },
+          {
+            "coords": [
+              -3255.36597,
+              -3679.05103
+            ],
+            "elv": -17.959343,
+            "id": "Cave_GerudoDesert_0032",
+            "name": "Central Gerudo Cave",
+            "link": "Central Gerudo Cave"
+          },
+          {
+            "coords": [
+              -2183.37891,
+              -1726.96399
+            ],
+            "elv": 5.57589722,
+            "id": "Cave_GerudoDesert_0035",
+            "name": "Mount Nabooru South Cave",
+            "link": "Mount Nabooru South Cave"
+          },
+          {
+            "coords": [
+              -2394.18188,
+              -1744.354
+            ],
+            "elv": -10.6929474,
+            "id": "Cave_GerudoDesert_0036",
+            "name": "Lower Spectacle Rock Cave",
+            "link": "Lower Spectacle Rock Cave"
+          },
+          {
+            "coords": [
+              -2395.27002,
+              -2215.90796
+            ],
+            "elv": 247.70639,
+            "id": "Cave_GerudoDesert_0037",
+            "name": "Spectacle Rock Cave",
+            "link": "Spectacle Rock Cave"
+          },
+          {
+            "coords": [
+              -3063.77905,
+              -3099.35889
+            ],
+            "elv": -51.0490685,
+            "id": "Cave_GerudoDesert_0039",
+            "name": "Ancient Prison Ruins",
+            "link": "Ancient Prison Ruins"
+          },
+          {
+            "coords": [
+              -3857.82788,
+              -2939.10205
+            ],
+            "elv": -36.5964966,
+            "id": "Cave_GerudoDesert_0040",
+            "name": "South Gerudo Cave",
+            "link": "South Gerudo Cave"
+          },
+          {
+            "coords": [
+              -1759.33398,
+              -2258.92212
+            ],
+            "elv": 56.9476013,
+            "id": "Cave_GerudoDesert_0041",
+            "name": "Koukot Plateau Cave",
+            "link": "Koukot Plateau Cave"
+          },
+          {
+            "coords": [
+              -1841.64795,
+              -2173.72705
+            ],
+            "elv": 127.087402,
+            "id": "Cave_GerudoDesert_00411",
+            "name": "Koukot Plateau Cave",
+            "link": "Koukot Plateau Cave"
+          },
+          {
+            "coords": [
+              -3626.10107,
+              -2535.54199
+            ],
+            "elv": -47.7208405,
+            "id": "Cave_GerudoDesert_0044",
+            "name": "Ancient Altar Ruins",
+            "link": "Ancient Altar Ruins"
+          },
+          {
+            "coords": [
+              -3671.56201,
+              -2518.91699
+            ],
+            "elv": -47.152359,
+            "id": "Cave_GerudoDesert_00441",
+            "name": "Ancient Altar Ruins",
+            "link": "Ancient Altar Ruins"
+          },
+          {
+            "coords": [
+              -3638.20801,
+              -2584.24097
+            ],
+            "elv": -47.4786491,
+            "id": "Cave_GerudoDesert_00442",
+            "name": "Ancient Altar Ruins",
+            "link": "Ancient Altar Ruins"
+          },
+          {
+            "coords": [
+              -3744.44702,
+              -2570.56006
+            ],
+            "elv": -50.924839,
+            "id": "Cave_GerudoDesert_00443",
+            "name": "Ancient Altar Ruins",
+            "link": "Ancient Altar Ruins"
+          },
+          {
+            "coords": [
+              -3769.1189,
+              -2530.78809
+            ],
+            "elv": -46.3194885,
+            "id": "Cave_GerudoDesert_00444",
+            "name": "Ancient Altar Ruins",
+            "link": "Ancient Altar Ruins"
+          },
+          {
+            "coords": [
+              -3758.14307,
+              -2480.56494
+            ],
+            "elv": -46.1500893,
+            "id": "Cave_GerudoDesert_00445",
+            "name": "Ancient Altar Ruins",
+            "link": "Ancient Altar Ruins"
+          },
+          {
+            "coords": [
+              -3724.84399,
+              -2521.2041
+            ],
+            "elv": -46.6157188,
+            "id": "Cave_GerudoDesert_00446",
+            "name": "Ancient Altar Ruins",
+            "link": "Ancient Altar Ruins"
+          },
+          {
+            "coords": [
+              -3681.71509,
+              -2564.69312
+            ],
+            "elv": -47.7971611,
+            "id": "Cave_GerudoDesert_00447",
+            "name": "Ancient Altar Ruins",
+            "link": "Ancient Altar Ruins"
+          },
+          {
+            "coords": [
+              -3676.729,
+              -2451.85693
+            ],
+            "elv": -46.0293617,
+            "id": "Cave_GerudoDesert_00448",
+            "name": "Ancient Altar Ruins",
+            "link": "Ancient Altar Ruins"
+          },
+          {
+            "coords": [
+              -3632.81689,
+              -2480.76294
+            ],
+            "elv": -46.0801086,
+            "id": "Cave_GerudoDesert_00449",
+            "name": "Ancient Altar Ruins",
+            "link": "Ancient Altar Ruins"
+          },
+          {
+            "coords": [
+              -3709.82007,
+              -2477.854
+            ],
+            "elv": -46.6058998,
+            "id": "Cave_GerudoDesert_004410",
+            "name": "Ancient Altar Ruins",
+            "link": "Ancient Altar Ruins"
+          },
+          {
+            "coords": [
+              -3709.31494,
+              -2604.78711
+            ],
+            "elv": -49.2448311,
+            "id": "Cave_GerudoDesert_004411",
+            "name": "Ancient Altar Ruins",
+            "link": "Ancient Altar Ruins"
+          },
+          {
+            "coords": [
+              -2693.96191,
+              -3354.93994
+            ],
+            "elv": -3.82749939,
+            "id": "Cave_GerudoDesert_0045",
+            "name": "Oasis Source",
+            "link": "Oasis Source"
+          },
+          {
+            "coords": [
+              -3875.42798,
+              -4814.3208
+            ],
+            "elv": -0.5,
+            "id": "Cave_GerudoDesert_0046",
+            "name": "Gerudo Great Skeleton",
+            "link": "Gerudo Great Skeleton"
+          },
+          {
+            "coords": [
+              -1986.13696,
+              -4673.2002
+            ],
+            "elv": 9.70349884,
+            "id": "Cave_GerudoDesert_0049",
+            "name": "West Gerudo Underground Ruins",
+            "link": "West Gerudo Underground Ruins"
+          },
+          {
+            "coords": [
+              -1819.68298,
+              -2433.91309
+            ],
+            "elv": 146.236099,
+            "id": "Cave_GerudoDesert_0050",
+            "name": "Yiga Blademaster Station",
+            "link": "Yiga Blademaster Station"
+          },
+          {
+            "coords": [
+              -2604.77002,
+              -2611.27808
+            ],
+            "elv": 112.983795,
+            "id": "Cave_GerudoDesert_0051",
+            "name": "Gerudo Canyon Mine",
+            "link": "Gerudo Canyon Mine"
+          },
+          {
+            "coords": [
+              -2402.60889,
+              -2676.71509
+            ],
+            "elv": 80.072998,
+            "id": "Cave_GerudoDesert_00511",
+            "name": "Gerudo Canyon Mine",
+            "link": "Gerudo Canyon Mine"
+          },
+          {
+            "coords": [
+              -1798.54602,
+              -2457.32788
+            ],
+            "elv": 176.786804,
+            "id": "Cave_GerudoHighlands_0002",
+            "name": "Taafei Hill Cave",
+            "link": "Taafei Hill Cave"
+          },
+          {
+            "coords": [
+              -536.552612,
+              -4384.53516
+            ],
+            "elv": 474.295715,
+            "id": "Cave_GerudoHighlands_0008",
+            "name": "Statue of the Eighth Heroine Cave",
+            "link": "Statue of the Eighth Heroine Cave"
+          },
+          {
+            "coords": [
+              -1245.38,
+              -3982.83203
+            ],
+            "elv": 427.169128,
+            "id": "Cave_GerudoHighlands_0014",
+            "name": "Meadela's Mantle Cave",
+            "link": "Meadela's Mantle Cave"
+          },
+          {
+            "coords": [
+              -726.776123,
+              -3881.6521
+            ],
+            "elv": 570.337524,
+            "id": "Cave_GerudoHighlands_0017",
+            "name": "Mystathi's Shelf Cave",
+            "link": "Mystathi's Shelf Cave"
+          },
+          {
+            "coords": [
+              -3017.77295,
+              3224.24902
+            ],
+            "elv": 59.9508972,
+            "id": "Cave_HateruEast_0000",
+            "name": "Mount Dunsel Cave",
+            "link": "Mount Dunsel Cave"
+          },
+          {
+            "coords": [
+              -3296.45898,
+              3291.35303
+            ],
+            "elv": 65.0782013,
+            "id": "Cave_HateruEast_00001",
+            "name": "Mount Dunsel Cave",
+            "link": "Mount Dunsel Cave"
+          },
+          {
+            "coords": [
+              -2611.65088,
+              1959.67896
+            ],
+            "elv": 71.6188049,
+            "id": "Cave_HateruEast_0002",
+            "name": "Mount Floria Cave",
+            "link": "Mount Floria Cave"
+          },
+          {
+            "coords": [
+              -2985.63501,
+              1789.54199
+            ],
+            "elv": 80.8739014,
+            "id": "Cave_HateruEast_00021",
+            "name": "Mount Floria Cave",
+            "link": "Mount Floria Cave"
+          },
+          {
+            "coords": [
+              -3038.77295,
+              1676.79504
+            ],
+            "elv": 164.835785,
+            "id": "Cave_HateruEast_0006",
+            "name": "Corta Lake Cave",
+            "link": "Corta Lake Cave"
+          },
+          {
+            "coords": [
+              -3111.2439,
+              1896.39905
+            ],
+            "elv": 132.528,
+            "id": "Cave_HateruEast_0007",
+            "name": "Rodai Lakefront Tunnel",
+            "link": "Rodai Lakefront Tunnel"
+          },
+          {
+            "coords": [
+              -3032.78589,
+              1958.78198
+            ],
+            "elv": 193.388611,
+            "id": "Cave_HateruEast_0008",
+            "name": "Calora Lake Cave",
+            "link": "Calora Lake Cave"
+          },
+          {
+            "coords": [
+              -3164.03394,
+              2009.62402
+            ],
+            "elv": 177.440399,
+            "id": "Cave_HateruEast_00081",
+            "name": "Calora Lake Cave",
+            "link": "Calora Lake Cave"
+          },
+          {
+            "coords": [
+              -3738.02002,
+              1813.53003
+            ],
+            "elv": 119,
+            "id": "Cave_HateruEast_0009",
+            "name": "Rassla Lake Cave",
+            "link": "Rassla Lake Cave"
+          },
+          {
+            "coords": [
+              -3781.5061,
+              4752.62988
+            ],
+            "elv": -5.79405212,
+            "id": "Cave_HateruEast_0013",
+            "name": "Eventide Island Cave",
+            "link": "Eventide Island Cave"
+          },
+          {
+            "coords": [
+              -3483.6499,
+              1446.71899
+            ],
+            "elv": 77.7727966,
+            "id": "Cave_HateruEast_0014",
+            "name": "Ubota Point Cave",
+            "link": "Ubota Point Cave"
+          },
+          {
+            "coords": [
+              -3193,
+              2454
+            ],
+            "elv": 65,
+            "id": "Cave_HateruEast_0016",
+            "name": "Atun Valley Cave",
+            "link": "Atun Valley Cave"
+          },
+          {
+            "coords": [
+              -1260,
+              1617
+            ],
+            "elv": 7.46269989,
+            "id": "Cave_HateruWest_0002",
+            "name": "Byroad to Lanayru Wetlands",
+            "link": "Byroad to Lanayru Wetlands"
+          },
+          {
+            "coords": [
+              -812.185791,
+              1587.75403
+            ],
+            "elv": 6.52359772,
+            "id": "Cave_HateruWest_00021",
+            "name": "Byroad to Lanayru Wetlands",
+            "link": "Byroad to Lanayru Wetlands"
+          },
+          {
+            "coords": [
+              -981.817017,
+              1947.48901
+            ],
+            "elv": 157.982697,
+            "id": "Cave_HateruWest_0005",
+            "name": "Kakariko Village Cave",
+            "link": "Kakariko Village Cave"
+          },
+          {
+            "coords": [
+              -1160.38306,
+              1877.43396
+            ],
+            "elv": 199.042694,
+            "id": "Cave_HateruWest_0006",
+            "name": "Cucco Hideaway",
+            "link": "Cucco Hideaway"
+          },
+          {
+            "coords": [
+              -1197.24902,
+              1373.02405
+            ],
+            "elv": 130.280807,
+            "id": "Cave_HateruWest_0008",
+            "name": "Sahasra Slope Cave",
+            "link": "Sahasra Slope Cave"
+          },
+          {
+            "coords": [
+              -1156.22302,
+              1328.35803
+            ],
+            "elv": 134.951797,
+            "id": "Cave_HateruWest_00081",
+            "name": "Sahasra Slope Cave",
+            "link": "Sahasra Slope Cave"
+          },
+          {
+            "coords": [
+              -1854.05603,
+              1194.45703
+            ],
+            "elv": 158.432709,
+            "id": "Cave_HateruWest_0011",
+            "name": "Dueling Peaks North Cave",
+            "link": "Dueling Peaks North Cave"
+          },
+          {
+            "coords": [
+              -1947.55298,
+              1183.37195
+            ],
+            "elv": 246,
+            "id": "Cave_HateruWest_0012",
+            "name": "Dueling Peaks South Cave",
+            "link": "Dueling Peaks South Cave"
+          },
+          {
+            "coords": [
+              2671.44409,
+              -4041.16089
+            ],
+            "elv": 23.7830963,
+            "id": "Cave_Hebra_0000",
+            "name": "Sturnida Springs Cave",
+            "link": "Sturnida Springs Cave"
+          },
+          {
+            "coords": [
+              3760.2041,
+              -4429.34424
+            ],
+            "elv": 223.841614,
+            "id": "Cave_Hebra_0013",
+            "name": "Icefall Foothills Cave",
+            "link": "Icefall Foothills Cave"
+          },
+          {
+            "coords": [
+              2861.25708,
+              -3930.99194
+            ],
+            "elv": -17.5262833,
+            "id": "Cave_Hebra_0015",
+            "name": "Lake Kilsie Cave",
+            "link": "Lake Kilsie Cave"
+          },
+          {
+            "coords": [
+              2510.26001,
+              -2900.15601
+            ],
+            "elv": 388.401703,
+            "id": "Cave_Hebra_0016",
+            "name": "Hebra Headspring Cave",
+            "link": "Hebra Headspring Cave"
+          },
+          {
+            "coords": [
+              3268.30005,
+              -2642.28491
+            ],
+            "elv": 249.5,
+            "id": "Cave_Hebra_0019",
+            "name": "Pikida Stonegrove Northwest Cave",
+            "link": "Pikida Stonegrove Northwest Cave"
+          },
+          {
+            "coords": [
+              3136.46094,
+              -2414.12207
+            ],
+            "elv": 373.164093,
+            "id": "Cave_Hebra_00191",
+            "name": "Pikida Stonegrove Northwest Cave",
+            "link": "Pikida Stonegrove Northwest Cave"
+          },
+          {
+            "coords": [
+              3595.48291,
+              -3814.60889
+            ],
+            "elv": 255.5,
+            "id": "Cave_Hebra_0021",
+            "name": "Hebra Great Skeleton",
+            "link": "Hebra Great Skeleton"
+          },
+          {
+            "coords": [
+              3225.75098,
+              -2995.56592
+            ],
+            "elv": 540.467712,
+            "id": "Cave_Hebra_0022",
+            "name": "Hebra Mountains Northwest Cave",
+            "link": "Hebra Mountains Northwest Cave"
+          },
+          {
+            "coords": [
+              1635.02905,
+              -3005.71899
+            ],
+            "elv": 199.838196,
+            "id": "Cave_Hebra_0023",
+            "name": "Brightcap Cave",
+            "link": "Brightcap Cave"
+          },
+          {
+            "coords": [
+              2488.37793,
+              -3559.55493
+            ],
+            "elv": 227.716003,
+            "id": "Cave_Hebra_0025",
+            "name": "Rospro Pass Cave",
+            "link": "Rospro Pass Cave"
+          },
+          {
+            "coords": [
+              2462.23999,
+              -3214.60791
+            ],
+            "elv": 346.032288,
+            "id": "Cave_Hebra_0026",
+            "name": "Talonto Peak Cave",
+            "link": "Talonto Peak Cave"
+          },
+          {
+            "coords": [
+              2499.36108,
+              -3398.43408
+            ],
+            "elv": 313.605896,
+            "id": "Cave_Hebra_0030",
+            "name": "Hebra South Summit Cave",
+            "link": "Hebra South Summit Cave"
+          },
+          {
+            "coords": [
+              2535.27905,
+              -3227.49609
+            ],
+            "elv": 442.156311,
+            "id": "Cave_Hebra_00301",
+            "name": "Hebra South Summit Cave",
+            "link": "Hebra South Summit Cave"
+          },
+          {
+            "coords": [
+              1771.91101,
+              -2840.93091
+            ],
+            "elv": 223.479889,
+            "id": "Cave_Hebra_0035",
+            "name": "Tabantha Hills Cave",
+            "link": "Tabantha Hills Cave"
+          },
+          {
+            "coords": [
+              2861.30811,
+              -1372.08997
+            ],
+            "elv": 198.222198,
+            "id": "Cave_Hebra_0036",
+            "name": "Mount Drena Foothill Cave",
+            "link": "Mount Drena Foothill Cave"
+          },
+          {
+            "coords": [
+              2276.62793,
+              -2395.83789
+            ],
+            "elv": 170,
+            "id": "Cave_Hebra_0037",
+            "name": "Kopeeki Drifts Cave",
+            "link": "Kopeeki Drifts Cave"
+          },
+          {
+            "coords": [
+              2029.47998,
+              -3958.68604
+            ],
+            "elv": 201.080597,
+            "id": "Cave_Hebra_0039",
+            "name": "West Lake Totori Cave",
+            "link": "West Lake Totori Cave"
+          },
+          {
+            "coords": [
+              3245.21802,
+              -3960.08203
+            ],
+            "elv": 237.488708,
+            "id": "Cave_Hebra_0040",
+            "name": "North Biron Snowshelf Cave",
+            "link": "North Biron Snowshelf Cave"
+          },
+          {
+            "coords": [
+              3088.21997,
+              -3555.20093
+            ],
+            "elv": 273.880707,
+            "id": "Cave_Hebra_0041",
+            "name": "East Biron Snowshelf Cave",
+            "link": "East Biron Snowshelf Cave"
+          },
+          {
+            "coords": [
+              3062.85303,
+              -3989.37109
+            ],
+            "elv": 138.833893,
+            "id": "Cave_Hebra_00411",
+            "name": "East Biron Snowshelf Cave",
+            "link": "East Biron Snowshelf Cave"
+          },
+          {
+            "coords": [
+              1389.78296,
+              676.466125
+            ],
+            "elv": 45.6692963,
+            "id": "Cave_HyruleForest_0001",
+            "name": "Rauru Hillside Cave",
+            "link": "Rauru Hillside Cave"
+          },
+          {
+            "coords": [
+              1231.93005,
+              1247.25903
+            ],
+            "elv": 26.0545959,
+            "id": "Cave_HyruleForest_0006",
+            "name": "Pico Pond Cave",
+            "link": "Pico Pond Cave"
+          },
+          {
+            "coords": [
+              2040,
+              -643.5
+            ],
+            "elv": 155,
+            "id": "Cave_HyruleForest_0007",
+            "name": "Yiga Clan Maritta Branch",
+            "link": "Yiga Clan Maritta Branch"
+          },
+          {
+            "coords": [
+              3579.34692,
+              307.130096
+            ],
+            "elv": 88,
+            "id": "Cave_HyruleForest_0008",
+            "name": "Deplian Badlands Cave",
+            "link": "Deplian Badlands Cave"
+          },
+          {
+            "coords": [
+              770.217285,
+              -1234.17798
+            ],
+            "elv": 77.9716949,
+            "id": "Cave_HyruleRidge_0000",
+            "name": "North Hyrule Plain Cave",
+            "link": "North Hyrule Plain Cave"
+          },
+          {
+            "coords": [
+              644.513672,
+              -1188.38696
+            ],
+            "elv": 72.8507996,
+            "id": "Cave_HyruleRidge_00001",
+            "name": "North Hyrule Plain Cave",
+            "link": "North Hyrule Plain Cave"
+          },
+          {
+            "coords": [
+              -804.164185,
+              -2921.85498
+            ],
+            "elv": 8.07279968,
+            "id": "Cave_HyruleRidge_0002",
+            "name": "Tamio River Downstream Cave",
+            "link": "Tamio River Downstream Cave"
+          },
+          {
+            "coords": [
+              1165.69604,
+              -1734.927
+            ],
+            "elv": 229.199585,
+            "id": "Cave_HyruleRidge_0003",
+            "name": "Lindor's Brow Cave",
+            "link": "Lindor's Brow Cave"
+          },
+          {
+            "coords": [
+              -807.570679,
+              -2198.54102
+            ],
+            "elv": 117.795898,
+            "id": "Cave_HyruleRidge_0005",
+            "name": "Satori Mountain Foothill Cave",
+            "link": "Satori Mountain Foothill Cave"
+          },
+          {
+            "coords": [
+              899.229492,
+              -2268.35107
+            ],
+            "elv": 86.6452942,
+            "id": "Cave_HyruleRidge_0006",
+            "name": "Thundra Plateau Cave",
+            "link": "Thundra Plateau Cave"
+          },
+          {
+            "coords": [
+              1631.70703,
+              -2049.12695
+            ],
+            "elv": -56.1250191,
+            "id": "Cave_HyruleRidge_0007",
+            "name": "Tanagar Canyon East Cave",
+            "link": "Tanagar Canyon East Cave"
+          },
+          {
+            "coords": [
+              -360.520996,
+              -2151.00806
+            ],
+            "elv": 276.5,
+            "id": "Cave_HyruleRidge_0008",
+            "name": "Satori Mountain Cave",
+            "link": "Satori Mountain Cave"
+          },
+          {
+            "coords": [
+              247.464203,
+              1144.71399
+            ],
+            "elv": 58.0162048,
+            "id": "Cave_Lanayru_0006",
+            "name": "Crenel Peak Cave",
+            "link": "Crenel Peak Cave"
+          },
+          {
+            "coords": [
+              296.499786,
+              1349.54895
+            ],
+            "elv": 29.321701,
+            "id": "Cave_Lanayru_00061",
+            "name": "Crenel Peak Cave",
+            "link": "Crenel Peak Cave"
+          },
+          {
+            "coords": [
+              -51.3079796,
+              3094.09692
+            ],
+            "elv": 79.5791931,
+            "id": "Cave_Lanayru_0008",
+            "name": "Luto's Channel",
+            "link": "Luto's Channel"
+          },
+          {
+            "coords": [
+              -65.9299164,
+              2909.61694
+            ],
+            "elv": 82.4868011,
+            "id": "Cave_Lanayru_0014",
+            "name": "Oren Bridge Cave",
+            "link": "Oren Bridge Cave"
+          },
+          {
+            "coords": [
+              287.428589,
+              2674.98511
+            ],
+            "elv": 89.752594,
+            "id": "Cave_Lanayru_0019",
+            "name": "Tabahl Woods Cave",
+            "link": "Tabahl Woods Cave"
+          },
+          {
+            "coords": [
+              227.0979,
+              2605.5271
+            ],
+            "elv": 76.4956055,
+            "id": "Cave_Lanayru_00191",
+            "name": "Tabahl Woods Cave",
+            "link": "Tabahl Woods Cave"
+          },
+          {
+            "coords": [
+              217.695694,
+              2679.64404
+            ],
+            "elv": 93.0299988,
+            "id": "Cave_Lanayru_00192",
+            "name": "Tabahl Woods Cave",
+            "link": "Tabahl Woods Cave"
+          },
+          {
+            "coords": [
+              142.078705,
+              2185.07788
+            ],
+            "elv": 37.8939056,
+            "id": "Cave_Lanayru_0024",
+            "name": "Bon\u00E9 Pond East Cave",
+            "link": "Bon\u00E9 Pond East Cave"
+          },
+          {
+            "coords": [
+              14.2102604,
+              2253.84399
+            ],
+            "elv": 16.618103,
+            "id": "Cave_Lanayru_00241",
+            "name": "Bon\u00E9 Pond East Cave",
+            "link": "Bon\u00E9 Pond East Cave"
+          },
+          {
+            "coords": [
+              100.1791,
+              2215.354
+            ],
+            "elv": 72.0874939,
+            "id": "Cave_Lanayru_00242",
+            "name": "Bon\u00E9 Pond East Cave",
+            "link": "Bon\u00E9 Pond East Cave"
+          },
+          {
+            "coords": [
+              108.399696,
+              2260.729
+            ],
+            "elv": 111.083893,
+            "id": "Cave_Lanayru_00243",
+            "name": "Bon\u00E9 Pond East Cave",
+            "link": "Bon\u00E9 Pond East Cave"
+          },
+          {
+            "coords": [
+              517.989319,
+              2570.0249
+            ],
+            "elv": 164.542389,
+            "id": "Cave_Lanayru_0032",
+            "name": "Upland Zorana Mountainside Cave",
+            "link": "Upland Zorana Mountainside Cave"
+          },
+          {
+            "coords": [
+              526.155884,
+              2633.56812
+            ],
+            "elv": 189.1987,
+            "id": "Cave_Lanayru_00321",
+            "name": "Upland Zorana Mountainside Cave",
+            "link": "Upland Zorana Mountainside Cave"
+          },
+          {
+            "coords": [
+              346.329498,
+              2863.63208
+            ],
+            "elv": 227.747192,
+            "id": "Cave_Lanayru_0033",
+            "name": "Upland Zorana Byroad",
+            "link": "Upland Zorana Byroad"
+          },
+          {
+            "coords": [
+              479.815613,
+              2700.302
+            ],
+            "elv": 202.494507,
+            "id": "Cave_Lanayru_00331",
+            "name": "Upland Zorana Byroad",
+            "link": "Upland Zorana Byroad"
+          },
+          {
+            "coords": [
+              -255.665497,
+              4243.96582
+            ],
+            "elv": -15.8902817,
+            "id": "Cave_Lanayru_0035",
+            "name": "Horon Lagoon Cave",
+            "link": "Horon Lagoon Cave"
+          },
+          {
+            "coords": [
+              -826.957214,
+              4473.0498
+            ],
+            "elv": 32.0549011,
+            "id": "Cave_Lanayru_0036",
+            "name": "Tarm Point Cave",
+            "link": "Tarm Point Cave"
+          },
+          {
+            "coords": [
+              253.885101,
+              2958.83203
+            ],
+            "elv": 203.037201,
+            "id": "Cave_Lanayru_0048",
+            "name": "Ralis Channel",
+            "link": "Ralis Channel"
+          },
+          {
+            "coords": [
+              170.143402,
+              2912.125
+            ],
+            "elv": 158.12851,
+            "id": "Cave_Lanayru_00481",
+            "name": "Ralis Channel",
+            "link": "Ralis Channel"
+          },
+          {
+            "coords": [
+              477.983002,
+              2850.63599
+            ],
+            "elv": 324.958893,
+            "id": "Cave_Lanayru_0049",
+            "name": "Upland Zorana Summit Cave",
+            "link": "Upland Zorana Summit Cave"
+          },
+          {
+            "coords": [
+              730.937012,
+              493.731415
+            ],
+            "elv": 41,
+            "id": "Cave_Lanayru_0052",
+            "name": "Crenel Hills Cave",
+            "link": "Crenel Hills Cave"
+          },
+          {
+            "coords": [
+              31.4968395,
+              845.923279
+            ],
+            "elv": 16.3292999,
+            "id": "Cave_Lanayru_0053",
+            "name": "Rebonae Bridge Cave",
+            "link": "Rebonae Bridge Cave"
+          },
+          {
+            "coords": [
+              419.598694,
+              3809.58203
+            ],
+            "elv": 209.44519,
+            "id": "Cave_Lanayru_0055",
+            "name": "Reservoir Lakefront Cavern",
+            "link": "Reservoir Lakefront Cavern"
+          },
+          {
+            "coords": [
+              538.586487,
+              3660.896
+            ],
+            "elv": 269.033295,
+            "id": "Cave_Lanayru_0057",
+            "name": "Ploymus Mountain Cave",
+            "link": "Ploymus Mountain Cave"
+          },
+          {
+            "coords": [
+              667.609619,
+              3147.39209
+            ],
+            "elv": 177.526886,
+            "id": "Cave_Lanayru_0060",
+            "name": "Upland Zorana Foothill Cave",
+            "link": "Upland Zorana Foothill Cave"
+          },
+          {
+            "coords": [
+              373.520111,
+              3240.99194
+            ],
+            "elv": 76.4779053,
+            "id": "Cave_Lanayru_0061",
+            "name": "Cave Under Zora's Domain",
+            "link": "Cave Under Zora's Domain"
+          },
+          {
+            "coords": [
+              -1314.64197,
+              2698.27393
+            ],
+            "elv": 111.724701,
+            "id": "Cave_LanayruMountain_0002",
+            "name": "Lanayru Road South Cave",
+            "link": "Lanayru Road South Cave"
+          },
+          {
+            "coords": [
+              -2246.28296,
+              4585.33203
+            ],
+            "elv": -1.40239716,
+            "id": "Cave_LanayruMountain_0006",
+            "name": "Mapla Point Cave",
+            "link": "Mapla Point Cave"
+          },
+          {
+            "coords": [
+              -2106.521,
+              2504.104
+            ],
+            "elv": 6.94709778,
+            "id": "Cave_LanayruMountain_0008",
+            "name": "Oakle's Navel Cave",
+            "link": "Oakle's Navel Cave"
+          },
+          {
+            "coords": [
+              -1137.78503,
+              3073.53589
+            ],
+            "elv": 92.2633057,
+            "id": "Cave_LanayruMountain_0010",
+            "name": "Lanayru Road East Cave",
+            "link": "Lanayru Road East Cave"
+          },
+          {
+            "coords": [
+              -968.392212,
+              3476.4519
+            ],
+            "elv": -7.55930328,
+            "id": "Cave_LanayruMountain_00101",
+            "name": "Lanayru Road East Cave",
+            "link": "Lanayru Road East Cave"
+          },
+          {
+            "coords": [
+              -1477.64697,
+              2492.98999
+            ],
+            "elv": 12.5273972,
+            "id": "Cave_LanayruMountain_0014",
+            "name": "Robred Dropoff Cave",
+            "link": "Robred Dropoff Cave"
+          },
+          {
+            "coords": [
+              -1738.95496,
+              4225.53613
+            ],
+            "elv": 180.5,
+            "id": "Cave_LanayruMountain_0016",
+            "name": "Walnot Mountain Cave",
+            "link": "Walnot Mountain Cave"
+          },
+          {
+            "coords": [
+              -2069.00293,
+              3933.57495
+            ],
+            "elv": 127.941605,
+            "id": "Cave_LanayruMountain_00161",
+            "name": "Walnot Mountain Cave",
+            "link": "Walnot Mountain Cave"
+          },
+          {
+            "coords": [
+              -2262.57593,
+              4213.48584
+            ],
+            "elv": 0.664901733,
+            "id": "Cave_LanayruMountain_0022",
+            "name": "Deepback Bay Cave",
+            "link": "Deepback Bay Cave"
+          },
+          {
+            "coords": [
+              -3210.81494,
+              3650.40088
+            ],
+            "elv": -5.69512939,
+            "id": "Cave_LanayruMountain_0024",
+            "name": "Cape Cales Cliffbase Cave",
+            "link": "Cape Cales Cliffbase Cave"
+          },
+          {
+            "coords": [
+              -2066.60596,
+              3757.448
+            ],
+            "elv": 214.7258,
+            "id": "Cave_LanayruMountain_0025",
+            "name": "Retsam Forest Cave",
+            "link": "Retsam Forest Cave"
+          },
+          {
+            "coords": [
+              -2026.50806,
+              3748.875
+            ],
+            "elv": 190.5,
+            "id": "Cave_LanayruMountain_00251",
+            "name": "Retsam Forest Cave",
+            "link": "Retsam Forest Cave"
+          },
+          {
+            "coords": [
+              -1689.599,
+              2243.43188
+            ],
+            "elv": 24,
+            "id": "Cave_LanayruMountain_0026",
+            "name": "Fort Hateno Cave",
+            "link": "Fort Hateno Cave"
+          },
+          {
+            "coords": [
+              1011.5,
+              -3865.5
+            ],
+            "elv": 73,
+            "id": "Cave_Tabantha_0001",
+            "name": "Gisa Crater Cave",
+            "link": "Gisa Crater Cave"
+          },
+          {
+            "coords": [
+              1090.96899,
+              -3931.09912
+            ],
+            "elv": 73.3087006,
+            "id": "Cave_Tabantha_00011",
+            "name": "Gisa Crater Cave",
+            "link": "Gisa Crater Cave"
+          },
+          {
+            "coords": [
+              449.460114,
+              -3465.12109
+            ],
+            "elv": 254.573395,
+            "id": "Cave_Tabantha_0002",
+            "name": "Ancient Columns Cave",
+            "link": "Ancient Columns Cave"
+          },
+          {
+            "coords": [
+              789.763672,
+              -3308.47192
+            ],
+            "elv": -101.377968,
+            "id": "Cave_Tabantha_0003",
+            "name": "Tanagar Canyon West Cave",
+            "link": "Tanagar Canyon West Cave"
+          },
+          {
+            "coords": [
+              -3831.13599,
+              486.932709
+            ],
+            "elv": 8.21369934,
+            "id": "Well_0043B",
+            "name": "Komo Shoreline Cave",
+            "link": "Komo Shoreline Cave"
+          },
+          {
+            "coords": [
+              608.693726,
+              3708.01904
+            ],
+            "elv": 343.502686,
+            "id": "Zora_Imperial_Palace",
+            "name": "Pristine Sanctum",
+            "link": "Pristine Sanctum"
+          },
+          {
+            "coords": [
+              583.486023,
+              3622.3269
+            ],
+            "elv": 170.002686,
+            "id": "Zora_Imperial_Palace1",
+            "name": "Pristine Sanctum",
+            "link": "Pristine Sanctum"
+          },
+          {
+            "coords": [
+              122.201797,
+              3606.64111
+            ],
+            "elv": -1.0447998,
+            "id": "ZoraZonauTerminal",
+            "name": "Ancient Zora Waterworks",
+            "link": "Ancient Zora Waterworks"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Well",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 3,
+        "showLabelForZoomLevel": 6,
+        "icon": {
+          "url": "well.png",
+          "width": 25,
+          "height": 26
+        },
+        "markers": [
+          {
+            "coords": [
+              2105.44507,
+              -3831.58398
+            ],
+            "elv": 125.703003,
+            "id": "Well_0001",
+            "name": "Dronoc's Pass Well",
+            "link": "Dronoc's Pass Well"
+          },
+          {
+            "coords": [
+              1871.80103,
+              -2358.59497
+            ],
+            "elv": 262.454712,
+            "id": "Well_0002",
+            "name": "Tabantha Village Ruins Well",
+            "link": "Tabantha Village Ruins Well"
+          },
+          {
+            "coords": [
+              1623.45605,
+              -1810.85803
+            ],
+            "elv": 91.361496,
+            "id": "Well_0003",
+            "name": "Maritta Exchange Ruins Well",
+            "link": "Maritta Exchange Ruins Well"
+          },
+          {
+            "coords": [
+              2325.90308,
+              -1069.44397
+            ],
+            "elv": 98.7077942,
+            "id": "Well_0004",
+            "name": "Rowan Plain Well",
+            "link": "Rowan Plain Well"
+          },
+          {
+            "coords": [
+              1616.19995,
+              -911.299988
+            ],
+            "elv": 90.5639038,
+            "id": "Well_0005",
+            "name": "Irch Plain Well",
+            "link": "Irch Plain Well"
+          },
+          {
+            "coords": [
+              1351.729,
+              -670.903076
+            ],
+            "elv": 72.887207,
+            "id": "Well_0006",
+            "name": "Elma Knolls Well",
+            "link": "Elma Knolls Well"
+          },
+          {
+            "coords": [
+              415.31189,
+              -1039.61401
+            ],
+            "elv": 19.1464005,
+            "id": "Well_0007",
+            "name": "Carok Bridge Well",
+            "link": "Carok Bridge Well"
+          },
+          {
+            "coords": [
+              331.207001,
+              -912.808228
+            ],
+            "elv": 4.35189819,
+            "id": "Well_0008",
+            "name": "Mount Gustaf Well",
+            "link": "Mount Gustaf Well"
+          },
+          {
+            "coords": [
+              -622.691772,
+              -1313.98804
+            ],
+            "elv": -5.62052155,
+            "id": "Well_0009",
+            "name": "Mount Daphnes Well",
+            "link": "Mount Daphnes Well"
+          },
+          {
+            "coords": [
+              -1101.61499,
+              -879.179016
+            ],
+            "elv": 6.33599854,
+            "id": "Well_0010",
+            "name": "Aquame Lake Well",
+            "link": "Aquame Lake Well"
+          },
+          {
+            "coords": [
+              -1296.73999,
+              -1460.71497
+            ],
+            "elv": 17.0618973,
+            "id": "Well_0011",
+            "name": "Outskirt Stable Well",
+            "link": "Outskirt Stable Well"
+          },
+          {
+            "coords": [
+              -1349.22803,
+              -1680.91797
+            ],
+            "elv": 106.535507,
+            "id": "Well_0012",
+            "name": "Outskirt Hill Well",
+            "link": "Outskirt Hill Well"
+          },
+          {
+            "coords": [
+              -2238.07007,
+              -1720.26001
+            ],
+            "elv": 20.6990967,
+            "id": "Well_0013",
+            "name": "Mount Nabooru Well",
+            "link": "Mount Nabooru Well"
+          },
+          {
+            "coords": [
+              1266.5,
+              662
+            ],
+            "elv": 24.6840057,
+            "id": "Well_0014",
+            "name": "Rauru Settlement Ruins Well",
+            "link": "Rauru Settlement Ruins Well"
+          },
+          {
+            "coords": [
+              547.616272,
+              62.6346703
+            ],
+            "elv": 12.6656036,
+            "id": "Well_0015",
+            "name": "Hyrule Castle Town Ruins Well",
+            "link": "Hyrule Castle Town Ruins Well"
+          },
+          {
+            "coords": [
+              -163.089096,
+              -68.0616837
+            ],
+            "elv": 9.61470032,
+            "id": "Well_0016",
+            "name": "Mabe Village Ruins Well",
+            "link": "Mabe Village Ruins Well"
+          },
+          {
+            "coords": [
+              7.59287024,
+              786.997681
+            ],
+            "elv": 15.7050018,
+            "id": "Well_0017",
+            "name": "Rebonae Bridge Well",
+            "link": "Rebonae Bridge Well"
+          },
+          {
+            "coords": [
+              -766.430115,
+              686.192688
+            ],
+            "elv": 2.38169861,
+            "id": "Well_0018",
+            "name": "Bottomless Pond Well",
+            "link": "Bottomless Pond Well"
+          },
+          {
+            "coords": [
+              -1496.90002,
+              782.5
+            ],
+            "elv": 21,
+            "id": "Well_0019",
+            "name": "South Nabi Lake Well",
+            "link": "South Nabi Lake Well"
+          },
+          {
+            "coords": [
+              -1856.79895,
+              316.515106
+            ],
+            "elv": -5.89689636,
+            "id": "Well_0020",
+            "name": "Deya Village Ruins North Well",
+            "link": "Deya Village Ruins North Well"
+          },
+          {
+            "coords": [
+              -1927.03699,
+              322.355804
+            ],
+            "elv": -4.42150116,
+            "id": "Well_0021",
+            "name": "Deya Village Ruins Well",
+            "link": "Deya Village Ruins Well"
+          },
+          {
+            "coords": [
+              -2042.95496,
+              423.499298
+            ],
+            "elv": -5.50196838,
+            "id": "Well_0022",
+            "name": "Deya Village Ruins East Well",
+            "link": "Deya Village Ruins East Well"
+          },
+          {
+            "coords": [
+              -2098.56006,
+              339.628998
+            ],
+            "elv": 12.7630997,
+            "id": "Well_0023",
+            "name": "Deya Village Ruins South Well",
+            "link": "Deya Village Ruins South Well"
+          },
+          {
+            "coords": [
+              -2127.81299,
+              316.058899
+            ],
+            "elv": 30.014801,
+            "id": "Well_0024",
+            "name": "Hills of Baumer Well",
+            "link": "Hills of Baumer Well"
+          },
+          {
+            "coords": [
+              -2100.44189,
+              594.483887
+            ],
+            "elv": 78.0140076,
+            "id": "Well_0025",
+            "name": "Popla Foothills North Well",
+            "link": "Popla Foothills North Well"
+          },
+          {
+            "coords": [
+              -2261.08301,
+              606.126587
+            ],
+            "elv": 35.7944946,
+            "id": "Well_0026",
+            "name": "Popla Foothills South Well",
+            "link": "Popla Foothills South Well"
+          },
+          {
+            "coords": [
+              169.936798,
+              1544.12695
+            ],
+            "elv": -6.28621674,
+            "id": "Well_0027",
+            "name": "Moor Garrison Ruins Well",
+            "link": "Moor Garrison Ruins Well"
+          },
+          {
+            "coords": [
+              -136.495895,
+              1435.5
+            ],
+            "elv": -5.32836914,
+            "id": "Well_0028",
+            "name": "Zauz Island Well",
+            "link": "Zauz Island Well"
+          },
+          {
+            "coords": [
+              -326.898712,
+              1529.16003
+            ],
+            "elv": -5.34732819,
+            "id": "Well_0029",
+            "name": "Goponga Village Ruins Well",
+            "link": "Goponga Village Ruins Well"
+          },
+          {
+            "coords": [
+              -397.184814,
+              1219.59595
+            ],
+            "elv": -4.80979919,
+            "id": "Well_0030",
+            "name": "Lanayru Wetlands Well",
+            "link": "Lanayru Wetlands Well"
+          },
+          {
+            "coords": [
+              -650.870422,
+              1716.448
+            ],
+            "elv": 8.50109863,
+            "id": "Well_0031",
+            "name": "Rikoka Hills Well",
+            "link": "Rikoka Hills Well"
+          },
+          {
+            "coords": [
+              175.523605,
+              2746.38696
+            ],
+            "elv": 115.029907,
+            "id": "Well_0032",
+            "name": "Tabahl Woods Well",
+            "link": "Tabahl Woods Well"
+          },
+          {
+            "coords": [
+              2310.91895,
+              3057.23389
+            ],
+            "elv": 318.927704,
+            "id": "Well_0033",
+            "name": "Shadow Hamlet Ruins Well",
+            "link": "Shadow Hamlet Ruins Well"
+          },
+          {
+            "coords": [
+              -2606.40601,
+              -3235.33789
+            ],
+            "elv": 8.42150116,
+            "id": "Well_0034",
+            "name": "Kara Kara Bazaar Well",
+            "link": "Kara Kara Bazaar Well"
+          },
+          {
+            "coords": [
+              -3378.43994,
+              2940.59009
+            ],
+            "elv": -3.88899994,
+            "id": "Well_0041",
+            "name": "Lurelin Village Well",
+            "link": "Lurelin Village Well"
+          },
+          {
+            "coords": [
+              -3553.62891,
+              1535.12097
+            ],
+            "elv": 46.8213043,
+            "id": "Well_0042",
+            "name": "Lakeside Stable Well",
+            "link": "Lakeside Stable Well"
+          },
+          {
+            "coords": [
+              -3426.698,
+              537.629028
+            ],
+            "elv": 33.9138031,
+            "id": "Well_0043",
+            "name": "Highland Stable Well",
+            "link": "Highland Stable Well"
+          },
+          {
+            "coords": [
+              2586,
+              -1679.56604
+            ],
+            "elv": 221,
+            "id": "Well_0044",
+            "name": "Snowfield Stable Well",
+            "link": "Snowfield Stable Well"
+          },
+          {
+            "coords": [
+              -2233,
+              -2820
+            ],
+            "elv": 15.9639969,
+            "id": "Well_0045",
+            "name": "Gerudo Canyon Well",
+            "link": "Gerudo Canyon Well"
+          },
+          {
+            "coords": [
+              -1126.33105,
+              365.401703
+            ],
+            "elv": -3.69429779,
+            "id": "Well_0046",
+            "name": "Riverside Stable Well",
+            "link": "Riverside Stable Well"
+          },
+          {
+            "coords": [
+              -195.319,
+              884.596985
+            ],
+            "elv": 12.3563995,
+            "id": "Well_0047",
+            "name": "Wetland Stable Well",
+            "link": "Wetland Stable Well"
+          },
+          {
+            "coords": [
+              -262.712585,
+              858.034485
+            ],
+            "elv": 12.3563995,
+            "id": "Well_0047B",
+            "name": "Wetland Stable South Well",
+            "link": "Wetland Stable South Well"
+          },
+          {
+            "coords": [
+              -1949.72998,
+              1794.70398
+            ],
+            "elv": -3.1359024,
+            "id": "Well_0048",
+            "name": "Dueling Peaks Stable Well",
+            "link": "Dueling Peaks Stable Well"
+          },
+          {
+            "coords": [
+              -2029.52905,
+              3421.87988
+            ],
+            "elv": 124.404404,
+            "id": "Well_0049",
+            "name": "Hateno Village North Well",
+            "link": "Hateno Village North Well"
+          },
+          {
+            "coords": [
+              -2050.4729,
+              3356.7561
+            ],
+            "elv": 104.457199,
+            "id": "Well_0049B",
+            "name": "Hateno Village West Well",
+            "link": "Hateno Village West Well"
+          },
+          {
+            "coords": [
+              -2152.44995,
+              3514.47803
+            ],
+            "elv": 115.432404,
+            "id": "Well_0049C",
+            "name": "Hateno Village East Well",
+            "link": "Hateno Village East Well"
+          },
+          {
+            "coords": [
+              -2211.729,
+              3384.51489
+            ],
+            "elv": 122.383499,
+            "id": "Well_0049D",
+            "name": "Hateno Village South Well",
+            "link": "Hateno Village South Well"
+          },
+          {
+            "coords": [
+              -2300.91089,
+              3301.47803
+            ],
+            "elv": 116.978302,
+            "id": "Well_0049E",
+            "name": "Zelda's Secret Well",
+            "link": "Zelda's Secret Well"
+          },
+          {
+            "coords": [
+              700.062988,
+              -1357.18396
+            ],
+            "elv": 62.0684967,
+            "id": "Well_0050",
+            "name": "New Serenne Stable Well",
+            "link": "New Serenne Stable Well"
+          },
+          {
+            "coords": [
+              -1043.55603,
+              1875.01404
+            ],
+            "elv": 110.016098,
+            "id": "Well_0051",
+            "name": "Kakariko Village Well",
+            "link": "Kakariko Village Well"
+          },
+          {
+            "coords": [
+              1154.04602,
+              1092.67395
+            ],
+            "elv": 8.5,
+            "id": "Well_0052",
+            "name": "Woodland Stable Well",
+            "link": "Woodland Stable Well"
+          },
+          {
+            "coords": [
+              134.925095,
+              -212.022705
+            ],
+            "elv": 4.98490143,
+            "id": "Well_0053",
+            "name": "Lookout Landing Well",
+            "link": "Lookout Landing Well"
+          },
+          {
+            "coords": [
+              1169.05896,
+              2617.93188
+            ],
+            "elv": 134.5,
+            "id": "Well_0054",
+            "name": "Foothill Stable Well",
+            "link": "Foothill Stable Well"
+          },
+          {
+            "coords": [
+              1587.55603,
+              3719.83203
+            ],
+            "elv": 77.6035004,
+            "id": "Well_0055",
+            "name": "Construction Site Well",
+            "link": "Construction Site Well"
+          },
+          {
+            "coords": [
+              1715.5,
+              3195
+            ],
+            "elv": 187.768005,
+            "id": "Well_0056",
+            "name": "South Akkala Stable Well",
+            "link": "South Akkala Stable Well"
+          },
+          {
+            "coords": [
+              2780.07007,
+              4232.86816
+            ],
+            "elv": 112.473007,
+            "id": "Well_0057",
+            "name": "East Akkala Stable Well",
+            "link": "East Akkala Stable Well"
+          },
+          {
+            "coords": [
+              -3387,
+              394.5
+            ],
+            "elv": 33,
+            "id": "Well_0058",
+            "name": "Haran Lakefront Well",
+            "link": "Haran Lakefront Well"
+          },
+          {
+            "coords": [
+              531.956482,
+              -2958.58691
+            ],
+            "elv": 155.955811,
+            "id": "Well_0059",
+            "name": "Tabantha Bridge Stable Well",
+            "link": "Tabantha Bridge Stable Well"
+          }
+        ]
+      }
+    ]
+  }
+]

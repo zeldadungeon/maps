@@ -1,0 +1,1706 @@
+[
+  {
+    "name": "Treasure Chest",
+    "source": "mapns",
+    "layers": [
+      {
+        "minZoom": 5,
+        "icon": {
+          "url": "treasure.png",
+          "width": 27,
+          "height": 21
+        },
+        "markers": [
+          {
+            "coords": [
+              2152.44995,
+              1497.83606
+            ],
+            "elv": 679.237793,
+            "id": "Treasure0000",
+            "name": "Zonaite Shield",
+            "link": "Zonaite Shield"
+          },
+          {
+            "coords": [
+              2480.24097,
+              1987.89905
+            ],
+            "elv": 787.674988,
+            "id": "Treasure0002",
+            "name": "Amber",
+            "link": "Amber"
+          },
+          {
+            "coords": [
+              3119.02295,
+              2098.69189
+            ],
+            "elv": 741.664185,
+            "id": "Treasure0003",
+            "name": "Zonaite Longsword",
+            "link": "Zonaite Longsword"
+          },
+          {
+            "coords": [
+              2887.40698,
+              1855.88
+            ],
+            "elv": 753.727783,
+            "id": "Treasure0004",
+            "name": "Zonaite Spear",
+            "link": "Zonaite Spear"
+          },
+          {
+            "coords": [
+              1194.521,
+              1709.77905
+            ],
+            "elv": 544.08667,
+            "id": "Treasure0005",
+            "name": "Zonaite Spear",
+            "link": "Zonaite Spear"
+          },
+          {
+            "coords": [
+              1189.07703,
+              1574.48706
+            ],
+            "elv": 519.344116,
+            "id": "Treasure0006",
+            "name": "Zonaite Sword",
+            "link": "Zonaite Sword"
+          },
+          {
+            "coords": [
+              1132.03003,
+              1684.94202
+            ],
+            "elv": 513.020813,
+            "id": "Treasure0007",
+            "name": "Zonaite Longsword",
+            "link": "Zonaite Longsword"
+          },
+          {
+            "coords": [
+              -3367.80688,
+              1041.72998
+            ],
+            "elv": 819.808472,
+            "id": "Treasure0008",
+            "name": "Big Battery",
+            "link": "Big Battery"
+          },
+          {
+            "coords": [
+              -2787.7019,
+              883.141602
+            ],
+            "elv": 728.479004,
+            "id": "Treasure0009",
+            "name": "Mighty Zonaite Spear",
+            "link": "Mighty Zonaite Spear"
+          },
+          {
+            "coords": [
+              -2994.05103,
+              913.857178
+            ],
+            "elv": 790.450684,
+            "id": "Treasure0011",
+            "name": "Topaz",
+            "link": "Topaz"
+          },
+          {
+            "coords": [
+              -3513.96411,
+              1042.71301
+            ],
+            "elv": 863.362915,
+            "id": "Treasure0012",
+            "name": "Zonaite Bow",
+            "link": "Zonaite Bow"
+          },
+          {
+            "coords": [
+              -3397.4519,
+              1311.61694
+            ],
+            "elv": 884.679626,
+            "id": "Treasure0013",
+            "name": "Shock Emitter x 3",
+            "link": "Shock Emitter"
+          },
+          {
+            "coords": [
+              -3493.69312,
+              1242.58801
+            ],
+            "elv": 847.911621,
+            "id": "Treasure0014",
+            "name": "Mighty Zonaite Shield",
+            "link": "Mighty Zonaite Shield"
+          },
+          {
+            "coords": [
+              -3286.28003,
+              1010.45599
+            ],
+            "elv": 808.887817,
+            "id": "Treasure0016",
+            "name": "Shock Emitter",
+            "link": "Shock Emitter"
+          },
+          {
+            "coords": [
+              3415.02002,
+              -3356.5769
+            ],
+            "elv": 973.902954,
+            "id": "Treasure0018",
+            "name": "Soldier II Spear",
+            "link": "Soldier II Spear"
+          },
+          {
+            "coords": [
+              3628.35107,
+              -3466.82007
+            ],
+            "elv": 1021.72705,
+            "id": "Treasure0019",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              3147.25488,
+              -3040.17212
+            ],
+            "elv": 1083.04895,
+            "id": "Treasure0020",
+            "name": "Large Zonai Charge",
+            "link": "Large Zonai Charge"
+          },
+          {
+            "coords": [
+              3398.87793,
+              -3122.84009
+            ],
+            "elv": 1294.53601,
+            "id": "Treasure0021",
+            "name": "Time Bomb x 5",
+            "link": "Time Bomb"
+          },
+          {
+            "coords": [
+              3319.00391,
+              -3259.28809
+            ],
+            "elv": 957.052979,
+            "id": "Treasure0022",
+            "name": "Portable Pot x 3",
+            "link": "Portable Pot"
+          },
+          {
+            "coords": [
+              3092.33496,
+              -2918.15601
+            ],
+            "elv": 884.053772,
+            "id": "Treasure0023",
+            "name": "Arrow x 5",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              2490.21509,
+              -2841.4021
+            ],
+            "elv": 1965.13501,
+            "id": "Treasure0024",
+            "name": "Portable Pot",
+            "link": "Portable Pot"
+          },
+          {
+            "coords": [
+              3411.87012,
+              -2541.79395
+            ],
+            "elv": 1964.88989,
+            "id": "Treasure0025",
+            "name": "Flame Emitter",
+            "link": "Flame Emitter"
+          },
+          {
+            "coords": [
+              665.148682,
+              3358.09204
+            ],
+            "elv": 1295.84497,
+            "id": "Treasure0026",
+            "name": "Soldier III Spear",
+            "link": "Soldier III Spear"
+          },
+          {
+            "coords": [
+              844.466919,
+              3415.30811
+            ],
+            "elv": 1331.95605,
+            "id": "Treasure0028",
+            "name": "Soldier II Reaper",
+            "link": "Soldier II Reaper"
+          },
+          {
+            "coords": [
+              757.728027,
+              3613.16309
+            ],
+            "elv": 1296.69397,
+            "id": "Treasure0029",
+            "name": "Hover Stone x 3",
+            "link": "Hover Stone"
+          },
+          {
+            "coords": [
+              566.728027,
+              3877.16309
+            ],
+            "elv": 1180,
+            "id": "Treasure0030",
+            "name": "Big Battery",
+            "link": "Big Battery"
+          },
+          {
+            "coords": [
+              350.227997,
+              3356.04102
+            ],
+            "elv": 1507.02795,
+            "id": "Treasure0031",
+            "name": "Captain II Reaper",
+            "link": "Captain II Reaper"
+          },
+          {
+            "coords": [
+              481.477997,
+              3559.66309
+            ],
+            "elv": 1291.84998,
+            "id": "Treasure0033",
+            "name": "Large Zonai Charge",
+            "link": "Large Zonai Charge"
+          },
+          {
+            "coords": [
+              -1739.20996,
+              -986.273621
+            ],
+            "elv": 1011.84998,
+            "id": "Treasure0038",
+            "name": "Magic Rod",
+            "link": "Magic Rod"
+          },
+          {
+            "coords": [
+              -40.348381,
+              -1226.70898
+            ],
+            "elv": 417.152222,
+            "id": "Treasure0039",
+            "name": "Large Zonaite",
+            "link": "Large Zonaite"
+          },
+          {
+            "coords": [
+              -317.059692,
+              -572.534302
+            ],
+            "elv": 412.87738,
+            "id": "Treasure0040",
+            "name": "Large Zonai Charge",
+            "link": "Large Zonai Charge"
+          },
+          {
+            "coords": [
+              -44.6948509,
+              943.648071
+            ],
+            "elv": 429.87738,
+            "id": "Treasure0041",
+            "name": "Large Zonai Charge",
+            "link": "Large Zonai Charge"
+          },
+          {
+            "coords": [
+              -182.449905,
+              590.791626
+            ],
+            "elv": 374.877411,
+            "id": "Treasure0042",
+            "name": "Large Zonai Charge",
+            "link": "Large Zonai Charge"
+          },
+          {
+            "coords": [
+              257.085999,
+              1494.22803
+            ],
+            "elv": 386.877411,
+            "id": "Treasure0043",
+            "name": "Big Battery",
+            "link": "Big Battery"
+          },
+          {
+            "coords": [
+              1081.97705,
+              -3569.125
+            ],
+            "elv": 1753.12903,
+            "id": "Treasure0055",
+            "name": "Mirror x 3",
+            "link": "Mirror"
+          },
+          {
+            "coords": [
+              1049.87805,
+              -3633.05811
+            ],
+            "elv": 1769.85205,
+            "id": "Treasure0056",
+            "name": "Star Fragment",
+            "link": "Star Fragment"
+          },
+          {
+            "coords": [
+              3522.5,
+              -787.5
+            ],
+            "elv": 1085,
+            "id": "Treasure0059",
+            "name": "Mighty Zonaite Shield",
+            "link": "Mighty Zonaite Shield"
+          },
+          {
+            "coords": [
+              3522.5,
+              -912.25
+            ],
+            "elv": 1085,
+            "id": "Treasure0060",
+            "name": "Mighty Zonaite Longsword",
+            "link": "Mighty Zonaite Longsword"
+          },
+          {
+            "coords": [
+              3622.5,
+              -803.75
+            ],
+            "elv": 1084.87903,
+            "id": "Treasure0061",
+            "name": "Mighty Zonaite Sword",
+            "link": "Mighty Zonaite Sword"
+          },
+          {
+            "coords": [
+              3547.5,
+              -912.25
+            ],
+            "elv": 1085,
+            "id": "Treasure0062",
+            "name": "Mighty Zonaite Spear",
+            "link": "Mighty Zonaite Spear"
+          },
+          {
+            "coords": [
+              3577.5,
+              -847.5
+            ],
+            "elv": 1085,
+            "id": "Treasure0063",
+            "name": "Big Battery",
+            "link": "Big Battery"
+          },
+          {
+            "coords": [
+              3535.05005,
+              -705.346924
+            ],
+            "elv": 1186.48804,
+            "id": "Treasure0064",
+            "name": "Zonaite Bow",
+            "link": "Zonaite Bow"
+          },
+          {
+            "coords": [
+              -3455.5,
+              -1795.04395
+            ],
+            "elv": 1186.56396,
+            "id": "Treasure0065",
+            "name": "Big Battery",
+            "link": "Big Battery"
+          },
+          {
+            "coords": [
+              -3560,
+              -1794.75
+            ],
+            "elv": 1022.62097,
+            "id": "Treasure0066",
+            "name": "Mighty Zonaite Shield",
+            "link": "Mighty Zonaite Shield"
+          },
+          {
+            "coords": [
+              -3490,
+              -1762.5
+            ],
+            "elv": 1060,
+            "id": "Treasure0067",
+            "name": "Zonaite Bow",
+            "link": "Zonaite Bow"
+          },
+          {
+            "coords": [
+              -3490,
+              -1827.5
+            ],
+            "elv": 1062.5,
+            "id": "Treasure0068",
+            "name": "Mighty Zonaite Longsword",
+            "link": "Mighty Zonaite Longsword"
+          },
+          {
+            "coords": [
+              -3425,
+              -1827.5
+            ],
+            "elv": 1065.00195,
+            "id": "Treasure0069",
+            "name": "Mighty Zonaite Spear",
+            "link": "Mighty Zonaite Spear"
+          },
+          {
+            "coords": [
+              -3425,
+              -1762.5
+            ],
+            "elv": 1062.5,
+            "id": "Treasure0070",
+            "name": "Mighty Zonaite Sword",
+            "link": "Mighty Zonaite Sword"
+          },
+          {
+            "coords": [
+              3622.5,
+              4602.5
+            ],
+            "elv": 1085,
+            "id": "Treasure0071",
+            "name": "Soldier III Blade",
+            "link": "Soldier III Blade"
+          },
+          {
+            "coords": [
+              3672.5,
+              4557.5
+            ],
+            "elv": 1085,
+            "id": "Treasure0072",
+            "name": "Soldier III Spear",
+            "link": "Soldier III Spear"
+          },
+          {
+            "coords": [
+              3562.5,
+              4732.5
+            ],
+            "elv": 1085,
+            "id": "Treasure0073",
+            "name": "Mighty Zonaite Shield",
+            "link": "Mighty Zonaite Shield"
+          },
+          {
+            "coords": [
+              3657.5,
+              4772.5
+            ],
+            "elv": 1085,
+            "id": "Treasure0074",
+            "name": "Zonaite Bow",
+            "link": "Zonaite Bow"
+          },
+          {
+            "coords": [
+              3717.5,
+              4692.5
+            ],
+            "elv": 1085,
+            "id": "Treasure0075",
+            "name": "Soldier III Reaper",
+            "link": "Soldier III Reaper"
+          },
+          {
+            "coords": [
+              3712,
+              4655
+            ],
+            "elv": 1064.099,
+            "id": "Treasure0076",
+            "name": "Big Battery",
+            "link": "Big Battery"
+          },
+          {
+            "coords": [
+              -1698.73499,
+              379.567596
+            ],
+            "elv": 2336.25,
+            "id": "Treasure0078",
+            "name": "Wing x 3",
+            "link": "Wing"
+          },
+          {
+            "coords": [
+              -1100.14697,
+              513.34082
+            ],
+            "elv": 1435.63501,
+            "id": "Treasure0079",
+            "name": "Wing x 3",
+            "link": "Wing"
+          },
+          {
+            "coords": [
+              -922.76709,
+              280.248199
+            ],
+            "elv": 1393.30103,
+            "id": "Treasure0080",
+            "name": "Opal",
+            "link": "Opal"
+          },
+          {
+            "coords": [
+              -1527.68604,
+              24.2987595
+            ],
+            "elv": 1408.76099,
+            "id": "Treasure0081",
+            "name": "Arrow x 5",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              -1586.40002,
+              141.785507
+            ],
+            "elv": 1379.95105,
+            "id": "Treasure0082",
+            "name": "Soldier Reaper",
+            "link": "Soldier Reaper"
+          },
+          {
+            "coords": [
+              -1450.24097,
+              130.650497
+            ],
+            "elv": 1375.40002,
+            "id": "Treasure0083",
+            "name": "Amber",
+            "link": "Amber"
+          },
+          {
+            "coords": [
+              -1627.81897,
+              314.877411
+            ],
+            "elv": 1417.672,
+            "id": "Treasure0085",
+            "name": "Energizing Elixir (2/5 wheel)",
+            "link": "Energizing Elixir"
+          },
+          {
+            "coords": [
+              -1236.37097,
+              830.376587
+            ],
+            "elv": 1596.84497,
+            "id": "Treasure0087",
+            "name": "Wing x 3",
+            "link": "Wing"
+          },
+          {
+            "coords": [
+              -1204.38,
+              738.974609
+            ],
+            "elv": 1435.34094,
+            "id": "Treasure0088",
+            "name": "Arrow x 5",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              -1377.06995,
+              758.589478
+            ],
+            "elv": 1492.67603,
+            "id": "Treasure0089",
+            "name": "Amber",
+            "link": "Amber"
+          },
+          {
+            "coords": [
+              -1369.62598,
+              768.304321
+            ],
+            "elv": 1545.35999,
+            "id": "Treasure0090",
+            "name": "Flame Emitter",
+            "link": "Flame Emitter"
+          },
+          {
+            "coords": [
+              -1418.87,
+              542.895996
+            ],
+            "elv": 1456.26599,
+            "id": "Treasure0091",
+            "name": "Fan x 3",
+            "link": "Fan"
+          },
+          {
+            "coords": [
+              -991.206421,
+              80.9542999
+            ],
+            "elv": 1419.42603,
+            "id": "Treasure0092",
+            "name": "Amber",
+            "link": "Amber"
+          },
+          {
+            "coords": [
+              -1183.83203,
+              389.254089
+            ],
+            "elv": 1474.53003,
+            "id": "Treasure0093",
+            "name": "Zonaite x 3",
+            "link": "Zonaite"
+          },
+          {
+            "coords": [
+              -1716.11804,
+              275.428497
+            ],
+            "elv": 1355.64795,
+            "id": "Treasure0094",
+            "name": "Amber",
+            "link": "Amber"
+          },
+          {
+            "coords": [
+              -1674.43994,
+              571.599121
+            ],
+            "elv": 1469.48303,
+            "id": "Treasure0095",
+            "name": "Portable Pot",
+            "link": "Portable Pot"
+          },
+          {
+            "coords": [
+              -1807.92004,
+              431.958801
+            ],
+            "elv": 1449.56604,
+            "id": "Treasure0096",
+            "name": "Zonaite",
+            "link": "Zonaite"
+          },
+          {
+            "coords": [
+              -3330.41309,
+              1320.99097
+            ],
+            "elv": 454.177429,
+            "id": "Treasure0098",
+            "name": "Mighty Zonaite Sword",
+            "link": "Mighty Zonaite Sword"
+          },
+          {
+            "coords": [
+              421.227997,
+              3604.66309
+            ],
+            "elv": 1202.5,
+            "id": "Treasure0100",
+            "name": "Soldier II Blade",
+            "link": "Soldier II Blade"
+          },
+          {
+            "coords": [
+              615.508179,
+              3632.75293
+            ],
+            "elv": 1267.50403,
+            "id": "Treasure0101",
+            "name": "Hydrant",
+            "link": "Hydrant"
+          },
+          {
+            "coords": [
+              367.375702,
+              3458.11499
+            ],
+            "elv": 1512.72705,
+            "id": "Treasure0102",
+            "name": "Opal",
+            "link": "Opal"
+          },
+          {
+            "coords": [
+              530.978027,
+              3685.16309
+            ],
+            "elv": 1207.552,
+            "id": "Treasure0103",
+            "name": "Soldier II Spear",
+            "link": "Soldier II Spear"
+          },
+          {
+            "coords": [
+              524.903992,
+              3340.698
+            ],
+            "elv": 1455.22095,
+            "id": "Treasure0104",
+            "name": "Soldier III Blade",
+            "link": "Soldier III Blade"
+          },
+          {
+            "coords": [
+              870.209717,
+              3473.77905
+            ],
+            "elv": 1280.948,
+            "id": "Treasure0105",
+            "name": "Captain II Spear",
+            "link": "Captain II Spear"
+          },
+          {
+            "coords": [
+              1147.04199,
+              2025.099
+            ],
+            "elv": 1259.25903,
+            "id": "Treasure0116",
+            "name": "Battery x 3",
+            "link": "Battery"
+          },
+          {
+            "coords": [
+              2840.57788,
+              -3869.7561
+            ],
+            "elv": 708.64679,
+            "id": "Treasure0132",
+            "name": "Flame Emitter",
+            "link": "Flame Emitter"
+          },
+          {
+            "coords": [
+              2811.3689,
+              -3889.48511
+            ],
+            "elv": 703.846802,
+            "id": "Treasure0133",
+            "name": "Balloon",
+            "link": "Balloon"
+          },
+          {
+            "coords": [
+              2465.67407,
+              -3801.66504
+            ],
+            "elv": 519.303894,
+            "id": "Treasure0134",
+            "name": "Large Zonai Charge",
+            "link": "Large Zonai Charge"
+          },
+          {
+            "coords": [
+              -1272.48901,
+              121.196198
+            ],
+            "elv": 1417.35498,
+            "id": "Treasure0139",
+            "name": "Opal",
+            "link": "Opal"
+          },
+          {
+            "coords": [
+              -1605.33496,
+              472.059601
+            ],
+            "elv": 1411.05798,
+            "id": "Treasure0140",
+            "name": "Opal",
+            "link": "Opal"
+          },
+          {
+            "coords": [
+              -1458.00305,
+              833.901978
+            ],
+            "elv": 1567.203,
+            "id": "Treasure0141",
+            "name": "Opal",
+            "link": "Opal"
+          },
+          {
+            "coords": [
+              -1444.35596,
+              853.819275
+            ],
+            "elv": 1551.75098,
+            "id": "Treasure0142",
+            "name": "Amber",
+            "link": "Amber"
+          },
+          {
+            "coords": [
+              -1613.05505,
+              501.276001
+            ],
+            "elv": 1788.85901,
+            "id": "Treasure0144",
+            "name": "Large Zonai Charge",
+            "link": "Large Zonai Charge"
+          },
+          {
+            "coords": [
+              -912.353027,
+              588.930603
+            ],
+            "elv": 1474.44897,
+            "id": "Treasure0145",
+            "name": "Large Zonaite",
+            "link": "Large Zonaite"
+          },
+          {
+            "coords": [
+              -1096.79004,
+              341.226196
+            ],
+            "elv": 1515.87598,
+            "id": "Treasure0146",
+            "name": "Large Zonai Charge",
+            "link": "Large Zonai Charge"
+          },
+          {
+            "coords": [
+              577.333374,
+              3280.31689
+            ],
+            "elv": 1789.39502,
+            "id": "Treasure1303",
+            "name": "Zora Shield",
+            "link": "Zora Shield"
+          },
+          {
+            "coords": [
+              643.041687,
+              3524.92993
+            ],
+            "elv": 1809.87805,
+            "id": "Treasure1304",
+            "name": "Large Zonai Charge",
+            "link": "Large Zonai Charge"
+          },
+          {
+            "coords": [
+              751.994019,
+              3498.95093
+            ],
+            "elv": 1787.39197,
+            "id": "Treasure1305",
+            "name": "Opal",
+            "link": "Opal"
+          },
+          {
+            "coords": [
+              672.060303,
+              3310.81104
+            ],
+            "elv": 1714.89502,
+            "id": "Treasure1306",
+            "name": "Sapphire",
+            "link": "Sapphire"
+          },
+          {
+            "coords": [
+              819.225891,
+              3441.74097
+            ],
+            "elv": 1775.84302,
+            "id": "Treasure1307",
+            "name": "Arrow x 5",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              715.535828,
+              3379.2959
+            ],
+            "elv": 1719.84204,
+            "id": "Treasure1308",
+            "name": "Large Zonaite",
+            "link": "Large Zonaite"
+          },
+          {
+            "coords": [
+              2901.56494,
+              -2828
+            ],
+            "elv": 1482.53406,
+            "id": "Treasure1309",
+            "name": "Sapphire",
+            "link": "Sapphire"
+          },
+          {
+            "coords": [
+              3104.59595,
+              -2890.75
+            ],
+            "elv": 1482.43396,
+            "id": "Treasure1310",
+            "name": "Ruby",
+            "link": "Ruby"
+          },
+          {
+            "coords": [
+              3066,
+              -2830.5
+            ],
+            "elv": 1518.43396,
+            "id": "Treasure1311",
+            "name": "Zonaite Shield",
+            "link": "Zonaite Shield"
+          },
+          {
+            "coords": [
+              2965.37207,
+              -2716.64893
+            ],
+            "elv": 1484.36804,
+            "id": "Treasure1312",
+            "name": "Strong Construct Bow",
+            "link": "Strong Construct Bow"
+          },
+          {
+            "coords": [
+              3097,
+              -2888.5
+            ],
+            "elv": 1518.43396,
+            "id": "Treasure1313",
+            "name": "Opal",
+            "link": "Opal"
+          },
+          {
+            "coords": [
+              3067,
+              -2859.5
+            ],
+            "elv": 1482.43396,
+            "id": "Treasure1314",
+            "name": "Soldier Blade",
+            "link": "Soldier Blade"
+          },
+          {
+            "coords": [
+              2976.86792,
+              -3002.63599
+            ],
+            "elv": 1512.06299,
+            "id": "Treasure1315",
+            "name": "Large Zonaite",
+            "link": "Large Zonaite"
+          },
+          {
+            "coords": [
+              3089.48096,
+              -2882.2981
+            ],
+            "elv": 1539.36694,
+            "id": "Treasure1316",
+            "name": "Arrow x 10",
+            "link": "Arrow"
+          },
+          {
+            "coords": [
+              2928.5,
+              -2870
+            ],
+            "elv": 1518.43396,
+            "id": "Treasure1317",
+            "name": "Soldier II Spear",
+            "link": "Soldier II Spear"
+          },
+          {
+            "coords": [
+              2966.29004,
+              -2891.02905
+            ],
+            "elv": 1504.43506,
+            "id": "Treasure1318",
+            "name": "Captain I Reaper",
+            "link": "Captain I Reaper"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sage's Will",
+    "source": "mapns",
+    "layers": [
+      {
+        "minZoom": 3,
+        "icon": {
+          "url": "sageswill.png",
+          "width": 27,
+          "height": 21
+        },
+        "markers": [
+          {
+            "coords": [
+              2266.85107,
+              1764.17102
+            ],
+            "elv": 828.058716,
+            "id": "Treasure0001",
+            "name": "Sage's Will",
+            "link": "Sage's Will"
+          },
+          {
+            "coords": [
+              -3306.1189,
+              967.901611
+            ],
+            "elv": 847.262878,
+            "id": "Treasure0015",
+            "name": "Sage's Will",
+            "link": "Sage's Will"
+          },
+          {
+            "coords": [
+              -3209.52588,
+              1309.21899
+            ],
+            "elv": 459.726196,
+            "id": "Treasure0017",
+            "name": "Sage's Will",
+            "link": "Sage's Will"
+          },
+          {
+            "coords": [
+              1581.70898,
+              3810.98706
+            ],
+            "elv": 1145.05896,
+            "id": "Treasure0034",
+            "name": "Sage's Will",
+            "link": "Sage's Will"
+          },
+          {
+            "coords": [
+              -1735.54895,
+              -954.141174
+            ],
+            "elv": 1006.89905,
+            "id": "Treasure0037",
+            "name": "Sage's Will",
+            "link": "Sage's Will"
+          },
+          {
+            "coords": [
+              981.563293,
+              1781.15198
+            ],
+            "elv": 1226.57996,
+            "id": "Treasure0044",
+            "name": "Sage's Will",
+            "link": "Sage's Will"
+          },
+          {
+            "coords": [
+              2151.91602,
+              -3075.427
+            ],
+            "elv": 648.50769,
+            "id": "Treasure0052",
+            "name": "Sage's Will",
+            "link": "Sage's Will"
+          },
+          {
+            "coords": [
+              1572.88696,
+              -3781.09497
+            ],
+            "elv": 1238.48499,
+            "id": "Treasure0053",
+            "name": "Sage's Will",
+            "link": "Sage's Will"
+          },
+          {
+            "coords": [
+              525,
+              2910.59399
+            ],
+            "elv": 930.439941,
+            "id": "Treasure0058",
+            "name": "Sage's Will",
+            "link": "Sage's Will"
+          },
+          {
+            "coords": [
+              633.127991,
+              3379.44995
+            ],
+            "elv": 1290.96997,
+            "id": "Treasure0106",
+            "name": "Sage's Will",
+            "link": "Sage's Will"
+          },
+          {
+            "coords": [
+              2170.81299,
+              -4470.40576
+            ],
+            "elv": 1254.10706,
+            "id": "Treasure0107",
+            "name": "Sage's Will",
+            "link": "Sage's Will"
+          },
+          {
+            "coords": [
+              -2732.08594,
+              -4447.59521
+            ],
+            "elv": 1420.33801,
+            "id": "Treasure0108",
+            "name": "Sage's Will",
+            "link": "Sage's Will"
+          },
+          {
+            "coords": [
+              -3829.07104,
+              4652.54004
+            ],
+            "elv": 1066.177,
+            "id": "Treasure0109",
+            "name": "Sage's Will",
+            "link": "Sage's Will"
+          },
+          {
+            "coords": [
+              -263.468597,
+              -3456.83105
+            ],
+            "elv": 1939.56104,
+            "id": "Treasure0120",
+            "name": "Sage's Will",
+            "link": "Sage's Will"
+          },
+          {
+            "coords": [
+              -1813.13403,
+              -1959.23206
+            ],
+            "elv": 1140.79004,
+            "id": "Treasure0121",
+            "name": "Sage's Will",
+            "link": "Sage's Will"
+          },
+          {
+            "coords": [
+              -3601.43799,
+              2552.25806
+            ],
+            "elv": 895.125,
+            "id": "Treasure0122",
+            "name": "Sage's Will",
+            "link": "Sage's Will"
+          },
+          {
+            "coords": [
+              -411.735992,
+              -2297.41309
+            ],
+            "elv": 895.125,
+            "id": "Treasure0124",
+            "name": "Sage's Will",
+            "link": "Sage's Will"
+          },
+          {
+            "coords": [
+              -2591.47705,
+              -332.642303
+            ],
+            "elv": 895.125,
+            "id": "Treasure0125",
+            "name": "Sage's Will",
+            "link": "Sage's Will"
+          },
+          {
+            "coords": [
+              -1064.56104,
+              1933.776
+            ],
+            "elv": 961.832031,
+            "id": "Treasure0126",
+            "name": "Sage's Will",
+            "link": "Sage's Will"
+          },
+          {
+            "coords": [
+              -251.774994,
+              2993.42505
+            ],
+            "elv": 895.125,
+            "id": "Treasure0138",
+            "name": "Sage's Will",
+            "link": "Sage's Will"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Old Map",
+    "source": "mapns",
+    "layers": [
+      {
+        "minZoom": 3,
+        "icon": {
+          "url": "oldmap.png",
+          "width": 27,
+          "height": 21
+        },
+        "markers": [
+          {
+            "coords": [
+              -3113.04199,
+              952.388489
+            ],
+            "elv": 757.196777,
+            "id": "Treasure0010",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              593.245972,
+              3692.78198
+            ],
+            "elv": 1245.64795,
+            "id": "Treasure0027",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              598.466675,
+              3200.15894
+            ],
+            "elv": 1417.57495,
+            "id": "Treasure0032",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              3107.87988,
+              4269.16992
+            ],
+            "elv": 784.458923,
+            "id": "Treasure0035",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              -2592.07788,
+              2159.54395
+            ],
+            "elv": 1263.35901,
+            "id": "Treasure0045",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              -20.5845203,
+              -3376.84302
+            ],
+            "elv": 2285.16797,
+            "id": "Treasure0047",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              -1809.80005,
+              -1956.28601
+            ],
+            "elv": 1167.59302,
+            "id": "Treasure0048",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              2195.6001,
+              435.191101
+            ],
+            "elv": 2244.229,
+            "id": "Treasure0049",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              -352.654602,
+              1662.93799
+            ],
+            "elv": 401.256104,
+            "id": "Treasure0050",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              2922.97803,
+              -3860.64307
+            ],
+            "elv": 748.328979,
+            "id": "Treasure0051",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              608.125488,
+              -3961.84204
+            ],
+            "elv": 1708.71802,
+            "id": "Treasure0054",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              459.374786,
+              3167.95288
+            ],
+            "elv": 936.177979,
+            "id": "Treasure0057",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              -3273.62891,
+              1126.41394
+            ],
+            "elv": 757.672607,
+            "id": "Treasure0097",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              3513.55103,
+              -3475.80005
+            ],
+            "elv": 930.902954,
+            "id": "Treasure0099",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              1794.99902,
+              3664.83105
+            ],
+            "elv": 989.375,
+            "id": "Treasure0110",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              -1399.98804,
+              -1232.50598
+            ],
+            "elv": 988.909058,
+            "id": "Treasure0111",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              -1584.34497,
+              -1456.57605
+            ],
+            "elv": 1220.97998,
+            "id": "Treasure0112",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              -1590.62305,
+              -815.706604
+            ],
+            "elv": 915.340027,
+            "id": "Treasure0113",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              -1541.99805,
+              -1347.78601
+            ],
+            "elv": 802.241272,
+            "id": "Treasure0114",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              1013.61902,
+              1810.72498
+            ],
+            "elv": 1204.83606,
+            "id": "Treasure0115",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              3434.15894,
+              3294.51001
+            ],
+            "elv": 795.125,
+            "id": "Treasure0117",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              -2190.70093,
+              1651.63098
+            ],
+            "elv": 574.409607,
+            "id": "Treasure0118",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              -1414.078,
+              2644.91089
+            ],
+            "elv": 1476.15198,
+            "id": "Treasure0119",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              3513.12598,
+              -1648.56494
+            ],
+            "elv": 965.240967,
+            "id": "Treasure0123",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              -1310.74402,
+              1765.79004
+            ],
+            "elv": 902.661987,
+            "id": "Treasure0127",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              -979.001587,
+              1851.50806
+            ],
+            "elv": 939.206055,
+            "id": "Treasure0128",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              -777.557373,
+              4752.21777
+            ],
+            "elv": 1917.33801,
+            "id": "Treasure0129",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              -869.843079,
+              4659.19092
+            ],
+            "elv": 1768.97302,
+            "id": "Treasure0130",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              2715.01709,
+              -3830.43604
+            ],
+            "elv": 545.097473,
+            "id": "Treasure0131",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              1431.37402,
+              -3437.53101
+            ],
+            "elv": 1191.21399,
+            "id": "Treasure0135",
+            "name": "Old Map",
+            "link": "Old Map"
+          },
+          {
+            "coords": [
+              466.733093,
+              -3634.9729
+            ],
+            "elv": 1671.16101,
+            "id": "Treasure0136",
+            "name": "Old Map",
+            "link": "Old Map"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Armor",
+    "source": "mapns",
+    "layers": [
+      {
+        "minZoom": 3,
+        "icon": {
+          "url": "treasurearmor.png",
+          "width": 27,
+          "height": 21
+        },
+        "markers": [
+          {
+            "coords": [
+              2025.76697,
+              4468.05811
+            ],
+            "elv": 1414.37402,
+            "id": "Treasure0036",
+            "name": "Zonaite Shin Guards",
+            "link": "Zonaite Shin Guards"
+          },
+          {
+            "coords": [
+              -1774.46997,
+              2374.18896
+            ],
+            "elv": 1489.56396,
+            "id": "Treasure0046",
+            "name": "Zonaite Waistguard",
+            "link": "Zonaite Waistguard"
+          },
+          {
+            "coords": [
+              -1631.98999,
+              361.125885
+            ],
+            "elv": 2229.2981,
+            "id": "Treasure0077",
+            "name": "Archaic Legwear",
+            "link": "Archaic Legwear"
+          },
+          {
+            "coords": [
+              -1558.29102,
+              238.497604
+            ],
+            "elv": 1364.55798,
+            "id": "Treasure0084",
+            "name": "Archaic Tunic",
+            "link": "Archaic Tunic"
+          },
+          {
+            "coords": [
+              -1338.25,
+              768.120972
+            ],
+            "elv": 1588.39502,
+            "id": "Treasure0086",
+            "name": "Archaic Warm Greaves",
+            "link": "Archaic Warm Greaves"
+          },
+          {
+            "coords": [
+              942.658875,
+              -3593.30103
+            ],
+            "elv": 1731.96106,
+            "id": "Treasure0137",
+            "name": "Zonaite Helm",
+            "link": "Zonaite Helm"
+          },
+          {
+            "coords": [
+              -765.25,
+              453.509186
+            ],
+            "elv": 1468.46704,
+            "id": "Treasure0143",
+            "name": "Ancient Hero's Aspect",
+            "link": "Ancient Hero's Aspect"
+          },
+          {
+            "coords": [
+              529.481018,
+              4094.22192
+            ],
+            "elv": 587.065186,
+            "id": "Treasure0713",
+            "name": "Zora Helm",
+            "link": "Zora Helm"
+          }
+        ]
+      }
+    ]
+  }
+]
