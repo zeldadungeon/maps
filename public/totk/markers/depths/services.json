@@ -116,13 +116,13 @@
     ]
   },
   {
-    "name": "General Store",
+    "name": "Other Shops",
     "source": "summary",
     "layers": [
       {
         "minZoom": 2,
         "icon": {
-          "url": "general.png",
+          "url": "weaponshop.png",
           "width": 29,
           "height": 29
         },
@@ -136,7 +136,23 @@
             "id": "ForgeShopGolem",
             "name": "Smithing Construct",
             "link": "Smithing Construct"
-          },
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "General Store",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 2,
+        "icon": {
+          "url": "general.png",
+          "width": 29,
+          "height": 29
+        },
+        "markers": [
           {
             "coords": [
               -2960.99292,
