@@ -224,7 +224,7 @@ export class FilterControl extends ControlPane {
       "zd-legend__category-div",
       this.categoryList
     );
-    const icon = DomUtil.create("img", "", div);
+    const icon = DomUtil.create("img", "selectable", div);
     //Check if URL ends in .png or .svg
     if (category.iconUrl.endsWith(".svg")) {
       DomUtil.addClass(icon, "zd-legend__icon__svg");
