@@ -1,7 +1,7 @@
 [
   {
     "name": "Dungeon",
-    "source": "summary",
+    "source": "section",
     "layers": [
       {
         "icon": {
@@ -18,7 +18,7 @@
             "elv": 380.461395,
             "id": "LargeDungeonHyruleCastle",
             "name": "Hyrule Castle",
-            "link": "Hyrule Castle"
+            "link": "Hyrule Castle (Breath of the Wild)#Tears of the Kingdom"
           }
         ]
       },
