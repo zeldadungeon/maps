@@ -669,7 +669,7 @@ window.onload = async () => {
       legendItem("Hudson Sign", "hudsonsign.svg", 24, 24),
       legendItem("Minigame", "minigame.svg", 30, 30),
       legendItem("Cherry Tree", "cherry-blossom.svg", 25, 25),
-      legendItem("Ascend Point", "elevator.png", 25, 25),
+      legendItem("Ascend Point", "elevator.svg", 25, 25),
     ],
     "Other"
   );

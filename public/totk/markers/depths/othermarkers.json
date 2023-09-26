@@ -1784,7 +1784,7 @@
       {
         "minZoom": 4,
         "icon": {
-          "url": "elevator.png",
+          "url": "elevator.svg",
           "width": 25,
           "height": 25
         },
