@@ -9,6 +9,7 @@ export interface ObjectGroup {
 
 export interface ObjectGrouping {
   groupingName: string;
+  groupingIcon?: string;
   groups: ObjectGroup[];
 }
 
@@ -51,20 +52,28 @@ export class ObjectsControl extends ControlPane {
       (settingsStore.getItem("Objects-Selected") ?? [])
     );
 
-    DomUtil.create("h3", "zd-control__title", this.container).innerText =
-      options.title;
+    const header = DomUtil.create("h3", "zd-control__title", this.container);
+    header.innerText = options.title;
 
     const tabContainer = DomUtil.create("ul", "zd-tabs", this.container);
     const groupingTabsAndContents: TabAndContent[] = [];
     for (const grouping of options.groupings) {
-      const tab = DomUtil.create("li", "zd-tab selectable", tabContainer);
-      tab.innerText = grouping.groupingName;
+      const tab = DomUtil.create(
+        "li",
+        "zd-tab zd-tab--button selectable",
+        tabContainer
+      );
+      tab.style.backgroundImage = `url('${import.meta.env.BASE_URL}totk/icons/${
+        grouping.groupingIcon
+      }')`;
+      tab.title = grouping.groupingName;
       DomEvent.addListener(tab, "click", () => {
         if (!DomUtil.hasClass(tab, "selected")) {
           for (const groupingTabAndContent of groupingTabsAndContents) {
             DomUtil.removeClass(groupingTabAndContent.tab, "selected");
             DomUtil.removeClass(groupingTabAndContent.content, "visible");
           }
+          header.innerText = `${options.title} - ${grouping.groupingName}`;
           DomUtil.addClass(tab, "selected");
           DomUtil.addClass(content, "visible");
           settingsStore.setItem("Objects-SelectedTab", grouping.groupingName);
@@ -82,6 +91,7 @@ export class ObjectsControl extends ControlPane {
         initTab === grouping.groupingName ||
         (initTab == undefined && grouping === options.groupings[0]) // open the first one by default
       ) {
+        header.innerText = `${options.title} - ${grouping.groupingName}`;
         DomUtil.addClass(tab, "selected");
         DomUtil.addClass(content, "visible");
       }
