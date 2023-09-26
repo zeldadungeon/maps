@@ -53,9 +53,19 @@ const inputs = {
     ],
   },
   objects: {
-    depths: ["materials.json"],
-    surface: ["materials.json"],
-    sky: ["materials.json"],
+    depths: [
+      "creatures.json",
+      "materials.json",
+      "monsters.json",
+      "treasure.json",
+    ],
+    surface: [
+      "creatures.json",
+      "materials.json",
+      "monsters.json",
+      "treasure.json",
+    ],
+    sky: ["creatures.json", "materials.json", "monsters.json", "treasure.json"],
   },
 };
 const outputs = {};
