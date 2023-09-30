@@ -269,7 +269,12 @@ export class ZDMap extends Map {
       console.log(event);
       this.navigateToMarkerById(<string>(<any>event).linkTarget);
     });
-    if (params.m === marker.id || params.id === marker.id) {
+    if (
+      params.m === marker.id ||
+      params.id === marker.id ||
+      params.m?.replace(/[_+]/g, " ") === marker.id ||
+      params.id?.replace(/[_+]/g, " ") === marker.id
+    ) {
       this.focusOn(marker, layer);
     }
     marker.handleZoom(this.getZoom());
