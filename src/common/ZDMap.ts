@@ -1,5 +1,5 @@
 import * as ZDCRS from "./ZDCRS";
-import { LatLngBounds, Map, Point } from "leaflet";
+import { LatLngBounds, Map, Marker, Point } from "leaflet";
 import {
   ObjectsControl,
   Options as ObjectsControlOptions,
@@ -111,6 +111,12 @@ export class ZDMap extends Map {
       dialog.showDialog.bind(dialog),
       map.toastControl.showNotification.bind(map.toastControl)
     );
+
+    if (params.p === "on" && options.center) {
+      const pin = new Marker(options.center).addTo(map);
+      pin.on("click", () => map.removeLayer(pin));
+      map.updateUrlPinClosed();
+    }
 
     map.on("moveend", function () {
       map.updateUrl();
@@ -322,6 +328,12 @@ export class ZDMap extends Map {
     url.searchParams.set("y", `${Math.floor(center.lng)}`);
     url.searchParams.delete("m");
     url.searchParams.delete("id");
+    history.pushState({}, "", url);
+  }
+
+  private updateUrlPinClosed() {
+    const url = new URL(window.location.toString());
+    url.searchParams.delete("p");
     history.pushState({}, "", url);
   }
 }
