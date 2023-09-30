@@ -622,7 +622,7 @@ window.onload = async () => {
       legendItem("Side Quest", "sidequest", 27, 21),
       legendItem("Quest Objective", "objective", 13, 13),
       legendItem("Dragon's Tear", "tear", 31, 36),
-      legendItem("Zonai Relief", "relief", 27, 27),
+      legendItem("Stone Tablet", "relief", 27, 27),
     ],
     "Quests"
   );
