@@ -659,6 +659,7 @@ window.onload = async () => {
       legendItem("Other Shops", "othershops", 29, 29),
       legendItem("Great Fairy", "fountain", 36, 36),
       legendItem("Device Dispenser", "dispenser", 36, 36),
+      legendItem("Travelling Merchant", "merchant", 29, 29),
       legendItem("Goddess Statue", "statue", 36, 36),
       legendItem("Cooking Pot", "pot", 36, 36),
     ],
