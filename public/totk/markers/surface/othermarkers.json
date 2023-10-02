@@ -2238,7 +2238,7 @@
   },
   {
     "name": "Hinox",
-    "source": "summary",
+    "source": "mapns",
     "layers": [
       {
         "minZoom": 4,
@@ -2654,7 +2654,7 @@
   },
   {
     "name": "Stone Talus",
-    "source": "summary",
+    "source": "mapns",
     "layers": [
       {
         "minZoom": 4,

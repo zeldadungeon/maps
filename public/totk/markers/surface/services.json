@@ -1154,6 +1154,7 @@
   },
   {
     "name": "Great Fairy",
+    "source": "summary",
     "layers": [
       {
         "minZoom": 4,

@@ -90,7 +90,6 @@
       },
       {
         "minZoom": 2,
-        "maxZoom": 3,
         "markers": [
           {
             "coords": [
