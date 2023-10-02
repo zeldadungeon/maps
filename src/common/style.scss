@@ -284,6 +284,17 @@ body {
   height: 35px;
 }
 
+.zd-tab--button {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+}
+
+.zd-tab--button.selected {
+  border-bottom: 5px solid white;
+}
+
 .zd-legend__categories {
   list-style: none;
   margin: 0;

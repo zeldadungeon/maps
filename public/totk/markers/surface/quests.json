@@ -1,7 +1,7 @@
 [
   {
     "name": "Dragon's Tear",
-    "source": "summary",
+    "source": "mapns",
     "layers": [
       {
         "minZoom": 1,
