@@ -19,7 +19,7 @@
                         "id": "Meeshy",
                         "name": "Meeshy",
                         "link": "Meeshy",
-                        "color": "64a066",
+                        "color": "#64a066",
                         "path": [
                         [
                           2401.466064,
@@ -2519,7 +2519,7 @@
                         "id": "Leekah",
                         "name": "Leekah",
                         "link": "Leekah",
-                        "color": "960c0a",
+                        "color": "#960c0a",
                         "path": [
                         [
                           -739.151794,
@@ -3079,7 +3079,7 @@
                         "id": "Mils",
                         "name": "Mils",
                         "link": "Mils",
-                        "color": "fc1c19",
+                        "color": "#fc1c19",
                         "path": [
                         [
                           51.5,
@@ -3379,7 +3379,7 @@
                         "id": "Nat",
                         "name": "Nat",
                         "link": "Nat",
-                        "color": "fd9b30",
+                        "color": "#fd9b30",
                         "path": [
                         [
                           -1362.432739,
@@ -4079,7 +4079,7 @@
                         "id": "Meghyn",
                         "name": "Meghyn",
                         "link": "Meghyn",
-                        "color": "ffff4c",
+                        "color": "#ffff4c",
                         "path": [
                         [
                           -3264.195557,
@@ -4735,7 +4735,7 @@
                         "id": "Mina",
                         "name": "Mina",
                         "link": "Mina",
-                        "color": "30fe47",
+                        "color": "#30fe47",
                         "path": [
                         [
                           1549.358276,
@@ -5155,7 +5155,7 @@
                         "id": "Tharatera",
                         "name": "Tharatera",
                         "link": "Tharatera",
-                        "color": "30fefe",
+                        "color": "#30fefe",
                         "path": [
                         [
                           2968.907227,
@@ -5527,7 +5527,7 @@
                         "id": "Pondo",
                         "name": "Pondo",
                         "link": "Pondo",
-                        "color": "4d85e2",
+                        "color": "#4d85e2",
                         "path": [
                         [
                           -1656.778198,
@@ -6127,7 +6127,7 @@
                         "id": "Mayro",
                         "name": "Mayro",
                         "link": "Mayro",
-                        "color": "0000f7",
+                        "color": "#0000f7",
                         "path": [
                         [
                           -3259.927002,
@@ -6883,7 +6883,7 @@
                         "id": "Brigo",
                         "name": "Brigo",
                         "link": "Brigo",
-                        "color": "970cf7",
+                        "color": "#970cf7",
                         "path": [
                         [
                           389.487244,
@@ -7511,7 +7511,7 @@
                         "id": "Lammz",
                         "name": "Lammz",
                         "link": "Lammz",
-                        "color": "fc1cf8",
+                        "color": "#fc1cf8",
                         "path": [
                         [
                           1646.834229,
@@ -7815,7 +7815,7 @@
                         "id": "Mimos",
                         "name": "Mimos",
                         "link": "Mimos",
-                        "color": "64a066",
+                        "color": "#64a066",
                         "path": [
                         [
                           3120.621826,
@@ -8291,7 +8291,7 @@
                         "id": "Lourda",
                         "name": "Lourda",
                         "link": "Lourda",
-                        "color": "960c0a",
+                        "color": "#960c0a",
                         "path": [
                         [
                           1764.021973,
@@ -8831,7 +8831,7 @@
                         "id": "Zyle",
                         "name": "Zyle",
                         "link": "Zyle",
-                        "color": "fc1c19",
+                        "color": "#fc1c19",
                         "path": [
                         [
                           -1336.606689,
@@ -9419,7 +9419,7 @@
                         "id": "Nembis",
                         "name": "Nembis",
                         "link": "Nembis",
-                        "color": "fd9b30",
+                        "color": "#fd9b30",
                         "path": [
                         [
                           935.994324,
@@ -10043,7 +10043,7 @@
                         "id": "Cormus",
                         "name": "Cormus",
                         "link": "Cormus",
-                        "color": "ffff4c",
+                        "color": "#ffff4c",
                         "path": [
                         [
                           627.607971,
@@ -10591,7 +10591,7 @@
                         "id": "Parga",
                         "name": "Parga",
                         "link": "Parga",
-                        "color": "30fe47",
+                        "color": "#30fe47",
                         "path": [
                         [
                           -244.546524,
@@ -10927,7 +10927,7 @@
                         "id": "Doritt",
                         "name": "Doritt",
                         "link": "Doritt",
-                        "color": "30fefe",
+                        "color": "#30fefe",
                         "path": [
                         [
                           -471.503021,
@@ -11415,7 +11415,7 @@
                         "id": "Aliza",
                         "name": "Aliza",
                         "link": "Aliza",
-                        "color": "4d85e2",
+                        "color": "#4d85e2",
                         "path": [
                         [
                           -3266.925293,
@@ -11655,7 +11655,7 @@
                         "id": "Garshon",
                         "name": "Garshon",
                         "link": "Garshon",
-                        "color": "0000f7",
+                        "color": "#0000f7",
                         "path": [
                         [
                           1185.015625,
@@ -12427,7 +12427,7 @@
                         "id": "Senia",
                         "name": "Senia",
                         "link": "Senia",
-                        "color": "970cf7",
+                        "color": "#970cf7",
                         "path": [
                         [
                           -2415.066895,
@@ -12723,7 +12723,7 @@
                         "id": "Eryck",
                         "name": "Eryck",
                         "link": "Eryck",
-                        "color": "fc1cf8",
+                        "color": "#fc1cf8",
                         "path": [
                         [
                           629.591431,
@@ -12899,7 +12899,7 @@
                         "id": "Konba",
                         "name": "Konba",
                         "link": "Konba",
-                        "color": "64a066",
+                        "color": "#64a066",
                         "path": [
                         [
                           -3241.838379,
@@ -13343,7 +13343,7 @@
                         "id": "Sango",
                         "name": "Sango",
                         "link": "Sango",
-                        "color": "960c0a",
+                        "color": "#960c0a",
                         "path": [
                         [
                           1655.5,
@@ -13511,7 +13511,7 @@
                         "id": "Lyndae",
                         "name": "Lyndae",
                         "link": "Lyndae",
-                        "color": "fc1c19",
+                        "color": "#fc1c19",
                         "path": [
                         [
                           -2965.34375,
@@ -14131,7 +14131,7 @@
                         "id": "Lecia",
                         "name": "Lecia",
                         "link": "Lecia",
-                        "color": "fd9b30",
+                        "color": "#fd9b30",
                         "path": [
                         [
                           -1641.727051,
@@ -14343,7 +14343,7 @@
                         "id": "Deenya",
                         "name": "Deenya",
                         "link": "Deenya",
-                        "color": "ffff4c",
+                        "color": "#ffff4c",
                         "path": [
                         [
                           1100.361084,
@@ -14959,7 +14959,7 @@
                         "id": "Mezer",
                         "name": "Mezer",
                         "link": "Mezer",
-                        "color": "30fe47",
+                        "color": "#30fe47",
                         "path": [
                         [
                           711.504395,
@@ -15267,7 +15267,7 @@
                         "id": "Kanny",
                         "name": "Kanny",
                         "link": "Kanny",
-                        "color": "30fefe",
+                        "color": "#30fefe",
                         "path": [
                         [
                           1647.46167,
@@ -15539,7 +15539,7 @@
                         "id": "Toma",
                         "name": "Toma",
                         "link": "Toma",
-                        "color": "4d85e2",
+                        "color": "#4d85e2",
                         "path": [
                         [
                           2618.782227,
@@ -16199,7 +16199,7 @@
                         "id": "Kyra",
                         "name": "Kyra",
                         "link": "Kyra",
-                        "color": "0000f7",
+                        "color": "#0000f7",
                         "path": [
                         [
                           1735.440552,
@@ -16491,7 +16491,7 @@
                         "id": "Chumin",
                         "name": "Chumin",
                         "link": "Chumin",
-                        "color": "970cf7",
+                        "color": "#970cf7",
                         "path": [
                         [
                           3889.49292,
@@ -16727,7 +16727,7 @@
                         "id": "Glendo",
                         "name": "Glendo",
                         "link": "Glendo",
-                        "color": "fc1cf8",
+                        "color": "#fc1cf8",
                         "path": [
                         [
                           -2935.716553,
@@ -17159,7 +17159,7 @@
                         "id": "Cambo",
                         "name": "Cambo",
                         "link": "Cambo",
-                        "color": "64a066",
+                        "color": "#64a066",
                         "path": [
                         [
                           -1352.800781,
@@ -17511,7 +17511,7 @@
                         "id": "Spoone",
                         "name": "Spoone",
                         "link": "Spoone",
-                        "color": "960c0a",
+                        "color": "#960c0a",
                         "path": [
                         [
                           1853.021973,
@@ -17835,7 +17835,7 @@
                         "id": "Boldon",
                         "name": "Boldon",
                         "link": "Boldon",
-                        "color": "fc1c19",
+                        "color": "#fc1c19",
                         "path": [
                         [
                           1718.491089,
@@ -18079,7 +18079,7 @@
                         "id": "Karsh",
                         "name": "Karsh",
                         "link": "Karsh",
-                        "color": "fd9b30",
+                        "color": "#fd9b30",
                         "path": [
                         [
                           1067.162598,
@@ -18515,7 +18515,7 @@
                         "id": "Maypin",
                         "name": "Maypin",
                         "link": "Maypin",
-                        "color": "ffff4c",
+                        "color": "#ffff4c",
                         "path": [
                         [
                           3095.991699,
@@ -18899,7 +18899,7 @@
                         "id": "Lukan",
                         "name": "Lukan",
                         "link": "Lukan",
-                        "color": "30fe47",
+                        "color": "#30fe47",
                         "path": [
                         [
                           -122.454468,
@@ -19171,7 +19171,7 @@
                         "id": "Ronn",
                         "name": "Ronn",
                         "link": "Ronn",
-                        "color": "30fefe",
+                        "color": "#30fefe",
                         "path": [
                         [
                           2593.032715,
@@ -19843,7 +19843,7 @@
                         "id": "Savelle",
                         "name": "Savelle",
                         "link": "Savelle",
-                        "color": "4d85e2",
+                        "color": "#4d85e2",
                         "path": [
                         [
                           -1921.761353,
@@ -20211,7 +20211,7 @@
                         "id": "Falmark",
                         "name": "Falmark",
                         "link": "Falmark",
-                        "color": "0000f7",
+                        "color": "#0000f7",
                         "path": [
                         [
                           4226.886719,
@@ -20707,7 +20707,7 @@
                         "id": "Pitar",
                         "name": "Pitar",
                         "link": "Pitar",
-                        "color": "970cf7",
+                        "color": "#970cf7",
                         "path": [
                         [
                           1355.934937,
@@ -20907,7 +20907,7 @@
                         "id": "Naddon",
                         "name": "Naddon",
                         "link": "Naddon",
-                        "color": "fc1cf8",
+                        "color": "#fc1cf8",
                         "path": [
                         [
                           254.106232,
@@ -21331,7 +21331,7 @@
                         "id": "Laroba",
                         "name": "Laroba",
                         "link": "Laroba",
-                        "color": "64a066",
+                        "color": "#64a066",
                         "path": [
                         [
                           893.294067,
@@ -21599,7 +21599,7 @@
                         "id": "Lonni",
                         "name": "Lonni",
                         "link": "Lonni",
-                        "color": "960c0a",
+                        "color": "#960c0a",
                         "path": [
                         [
                           -3298.631836,
@@ -22235,7 +22235,7 @@
                         "id": "Basel",
                         "name": "Basel",
                         "link": "Basel",
-                        "color": "fc1c19",
+                        "color": "#fc1c19",
                         "path": [
                         [
                           -1886.73291,
@@ -22511,7 +22511,7 @@
                         "id": "Konora",
                         "name": "Konora",
                         "link": "Konora",
-                        "color": "fd9b30",
+                        "color": "#fd9b30",
                         "path": [
                         [
                           -1848.198975,
@@ -23047,7 +23047,7 @@
                         "id": "Flavi",
                         "name": "Flavi",
                         "link": "Flavi",
-                        "color": "ffff4c",
+                        "color": "#ffff4c",
                         "path": [
                         [
                           1756.695801,
@@ -23271,7 +23271,7 @@
                         "id": "Juga",
                         "name": "Juga",
                         "link": "Juga",
-                        "color": "30fe47",
+                        "color": "#30fe47",
                         "path": [
                         [
                           58.741394,
@@ -23687,7 +23687,7 @@
                         "id": "Rex",
                         "name": "Rex",
                         "link": "Rex",
-                        "color": "30fefe",
+                        "color": "#30fefe",
                         "path": [
                         [
                           -3205.432861,
@@ -24419,7 +24419,7 @@
                         "id": "Bissi",
                         "name": "Bissi",
                         "link": "Bissi",
-                        "color": "4d85e2",
+                        "color": "#4d85e2",
                         "path": [
                         [
                           2693.211426,
@@ -24975,7 +24975,7 @@
                         "id": "Reagah",
                         "name": "Reagah",
                         "link": "Reagah",
-                        "color": "0000f7",
+                        "color": "#0000f7",
                         "path": [
                         [
                           1056.322266,
