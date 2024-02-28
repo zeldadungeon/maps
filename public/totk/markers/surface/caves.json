@@ -667,7 +667,7 @@
             "elv": 320.9151,
             "id": "Cave_Eldin_0026",
             "name": "Southern Mine",
-            "link": "Southern Mine"
+            "link": "Southern Mine (Cave)"
           },
           {
             "coords": [
@@ -677,7 +677,7 @@
             "elv": 421.275513,
             "id": "Cave_Eldin_0027",
             "name": "Gorko Tunnel",
-            "link": "Gorko Tunnel"
+            "link": "Gorko Tunnel (Cave)"
           },
           {
             "coords": [
