@@ -91,7 +91,7 @@
 {"id":"Seed745","loc":"Tabantha Great Bridge","coords":[[1148,-6426],[1170,-6037]]},
 {"id":"Seed746","loc":"Tanagar Canyon","coords":[[237,-7658],[342,-7644]]},
 {"id":"Seed749","loc":"Tama Pond","coords":[[3160,-5653],[2945,-5546]]},
-{"id":"Seed756","loc":"Ludfo's Bog","coords":[[1023,-4113],[992,-4106],[972,-4115],[1015,-4063],[1097,-4065]]},
+{"id":"Seed756","loc":"Ludfo's Bog","coords":[[1097,-4065]],[1021,-4067],[972,-4115],[992,-4106],[1023,-4113]]},
 {"id":"Seed757","loc":"Ludfo's Bog","coords":[[1168,-3929],[1248,-3970]]},
 {"id":"Seed762","loc":"Seres Scablands","coords":[[613,-5096],[552,-4918]]},
 {"id":"Seed765","loc":"Carok Bridge","coords":[[1057,-2231],[1082,-1980]]},
