@@ -87,9 +87,15 @@ export class ZDMarker extends Marker {
     }
 
     if (json.path) {
-      marker.path = new Polyline(json.path, {
-        color: "#ffffff",
-      });
+      if (json.color != undefined) {
+        marker.path = new Polyline(json.path, {
+          color: (json.color),
+            });
+      } else {
+        marker.path = new Polyline(json.path, {
+          color: "#ffffff",
+            });
+      }
     }
 
     return marker;
