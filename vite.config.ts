@@ -34,6 +34,16 @@ const pages = createPages([
     },
   },
   {
+    name: "eow",
+    filename: "eow/index.html",
+    entry: "/src/eow.ts",
+    data: {
+      title: "Echoes of Wisdom Interactive Map",
+      description:
+        "Interactive, searchable map of Hyrule with locations, descriptions, guides, and more.",
+    },
+  },
+  {
     name: "ss",
     filename: "ss/index.html",
     entry: "/src/ss.ts",

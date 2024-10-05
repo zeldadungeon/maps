@@ -132,6 +132,7 @@ export class WikiConnector {
         la: "Link%27s+Awakening",
         botw: "Breath+of+the+Wild",
         totk: "Tears+of+the+Kingdom",
+        eow: "Echoes+of+Wisdom",
       })[this.mapid]
     }+Map`;
   }
