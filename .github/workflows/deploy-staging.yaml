@@ -27,4 +27,4 @@ jobs:
           remote-user: ${{ secrets.SSH_USER }}
           private-ssh-key: ${{ secrets.SSH_KEY }}
           source-path: ./dist/
-          destination-path: public_html/maps-beta/
+          destination-path: /home/zeldadungeon/public_html/maps-beta/
