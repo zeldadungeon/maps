@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout latest code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Use Node.js 16
         uses: actions/setup-node@v2
@@ -21,10 +21,10 @@ jobs:
           npm run stage
 
       - name: Publish
-        uses: SamKirkland/FTP-Deploy-Action@4.2.0
+        uses: SamKirkland/web-deploy@v1
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist/
-          server-dir: public_html/maps-beta/
+          target-server: ${{ secrets.SSH_SERVER }}
+          remote-user: ${{ secrets.SSH_USER }}
+          private-ssh-key: ${{ secrets.SSH_KEY }}
+          source-path: ./dist/
+          destination-path: public_html/maps-beta/
