@@ -28,3 +28,4 @@ jobs:
           private-ssh-key: ${{ secrets.SSH_KEY }}
           source-path: ./dist/
           destination-path: /home/zeldadungeon/public_html/maps-beta/
+          rsync-options: --archive --no-t --compress --human-readable --progress --delete-after
