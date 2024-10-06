@@ -52,11 +52,11 @@ window.onload = async () => {
     legendItem("House", "house", 30, 20),
     legendItem("Shop", "shop", 19, 25),
     legendItem("Smoothie Shop", "shop", 19, 25),
-    legendItem("Minigame", "minigame.svg", 30, 30),
+    //legendItem("Minigame", "minigame.svg", 30, 30),
 
     legendItem("Piece of Heart", "poh", 24, 20),
-    legendItem("Might Crystal", "shell", 16, 28),
-    legendItem("Stamp", "treasure", 20, 21),
+    legendItem("Might Crystal", "might", 29, 30),
+    legendItem("Stamp", "stamp", 30, 30),
     //legendItem("Fairy Bottle", "treasure", 20, 21),
     //legendItem("Echo", "treasure", 20, 21),
 
