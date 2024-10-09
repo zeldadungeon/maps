@@ -45,30 +45,35 @@ window.onload = async () => {
   );
 
   map.addLegend([
-    legendItem("Waypoint", "waypoint", 30, 30),
     //legendItem("Still World Rift", "waypoint", 30, 30),
-    legendItem("Dungeon", "dungeon", 30, 21),
-    legendItem("Cave", "cave", 25, 26),
-    legendItem("House", "house", 30, 20),
-    legendItem("Shop", "shop", 19, 25),
-    legendItem("Smoothie Shop", "shop", 19, 25),
-    //legendItem("Minigame", "minigame.svg", 30, 30),
+    //legendItem("Dungeon", "dungeon", 30, 21),
+    legendItem("Cave", "cave", 32, 32),
+    legendItem("House", "house", 32, 32),
+    legendItem("Shop", "shop", 32, 32),
+    legendItem("Smoothie Shop", "smoothie", 32, 32),
+    legendItem("Minigame", "minigame", 32, 32),
+    legendItem("Lueburry's House", "lueburry", 32, 32),
+    legendItem("Dampé Studio", "dampe", 32, 32),
+    legendItem("Great Fairy Shrine", "gf", 32, 32),
 
-    legendItem("Piece of Heart", "poh", 24, 20),
-    legendItem("Might Crystal", "might", 29, 30),
-    legendItem("Stamp", "stamp", 30, 30),
+    legendItem("Waypoint", "waypoint", 28, 28),
+    legendItem("Piece of Heart", "poh", 32, 32),
+    legendItem("Might Crystal", "might", 32, 32),
+    legendItem("Stamp", "stamp", 32, 32),
+
     //legendItem("Fairy Bottle", "treasure", 20, 21),
     //legendItem("Echo", "treasure", 20, 21),
-
     //legendItem("Clothing", "treasure", 20, 21),
     //legendItem("Ingredient", "treasure", 20, 21),
     //legendItem("Fairy", "treasure", 20, 21),
     //legendItem("Rupees", "treasure", 20, 21),
 
-    legendItem("Main Quest", "mainquest", 42, 25),
-    legendItem("Side Quest", "sidequest", 27, 21),
+    legendItem("Main Quest", "mainquest", 25, 25),
+    legendItem("Side Quest", "sidequest", 25, 25),
+    legendItem("Main Quest Objective", "mainobjective", 32, 32),
+    legendItem("Side Quest Objective", "sideobjective", 32, 32),
+
     //legendItem("Boss", "treasure", 20, 21),
-    // other important NPCs like Great Fairy, Machine Engineer
   ]);
 
   function addWikiJson(mapLayer: MapLayer, wikiSubpage: string): Promise<void> {
