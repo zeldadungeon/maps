@@ -1,0 +1,252 @@
+[
+  {
+    "name": "Location",
+    "layers": [
+      {
+        "minZoom": 0,
+        "maxZoom": 1,
+        "markers": [
+          {
+            "coords": [
+              291.03,
+              -459
+            ],
+            "id": "LocationName_00_00",
+            "name": "Eldin Volcano",
+            "link": "Eldin Volcano"
+          },
+          {
+            "coords": [
+              -283.07,
+              447.65
+            ],
+            "id": "LocationName_00_01",
+            "name": "Faron Wetlands",
+            "link": "Faron Wetlands"
+          },
+          {
+            "coords": [
+              204.25,
+              -203
+            ],
+            "id": "LocationName_00_02",
+            "name": "Eternal Forest",
+            "link": "Eternal Forest"
+          },
+          {
+            "coords": [
+              250.59,
+              124.08
+            ],
+            "id": "LocationName_00_03",
+            "name": "Hebra Mountain",
+            "link": "Hebra Mountain"
+          },
+          {
+            "coords": [
+              -90.95,
+              -159.03
+            ],
+            "id": "LocationName_00_04",
+            "name": "Hyrule Field",
+            "link": "Hyrule Field"
+          },
+          {
+            "coords": [
+              86.56,
+              -26.46
+            ],
+            "id": "LocationName_00_05",
+            "name": "Hyrule Castle",
+            "link": "Hyrule Castle"
+          },
+          {
+            "coords": [
+              11.25,
+              157.79
+            ],
+            "id": "LocationName_00_06",
+            "name": "Eastern Hyrule Field",
+            "link": "Eastern Hyrule Field"
+          },
+          {
+            "coords": [
+              -121.28,
+              138.69
+            ],
+            "id": "LocationName_00_07",
+            "name": "Lake Hylia",
+            "link": "Lake Hylia"
+          },
+          {
+            "coords": [
+              -247.75,
+              -428.67
+            ],
+            "id": "LocationName_00_08",
+            "name": "Gerudo Desert",
+            "link": "Gerudo Desert"
+          },
+          {
+            "coords": [
+              -231.39,
+              -27.58
+            ],
+            "id": "LocationName_00_09",
+            "name": "Suthorn Prairie",
+            "link": "Suthorn Prairie"
+          },
+          {
+            "coords": [
+              -321.75,
+              91.5
+            ],
+            "id": "LocationName_00_10",
+            "name": "Suthorn Forest",
+            "link": "Suthorn Forest"
+          },
+          {
+            "coords": [
+              125.25,
+              419
+            ],
+            "id": "LocationName_00_11",
+            "name": "Jabul Waters",
+            "link": "Jabul Waters"
+          }
+        ]
+      },
+      {
+        "minZoom": 2,
+        "markers": [
+          {
+            "coords": [
+              -245.86,
+              -547.76
+            ],
+            "id": "LocationName_01_00",
+            "name": "Gerudo Town",
+            "link": "Gerudo Town"
+          },
+          {
+            "coords": [
+              -277.75,
+              -368.99
+            ],
+            "id": "LocationName_01_01",
+            "name": "Oasis",
+            "link": "Oasis"
+          },
+          {
+            "coords": [
+              -365.75,
+              -68
+            ],
+            "id": "LocationName_01_02",
+            "name": "Suthorn Village",
+            "link": "Suthorn Village"
+          },
+          {
+            "coords": [
+              -228.75,
+              485.85
+            ],
+            "id": "LocationName_01_03",
+            "name": "Scrubton",
+            "link": "Scrubton"
+          },
+          {
+            "coords": [
+              94.56,
+              455
+            ],
+            "id": "LocationName_01_04",
+            "name": "Crossflows Plaza",
+            "link": "Crossflows Plaza"
+          },
+          {
+            "coords": [
+              10.25,
+              368
+            ],
+            "id": "LocationName_01_05",
+            "name": "Seesyde Village",
+            "link": "Seesyde Village"
+          },
+          {
+            "coords": [
+              254.25,
+              389
+            ],
+            "id": "LocationName_01_06",
+            "name": "River Zora Village",
+            "link": "River Zora Village"
+          },
+          {
+            "coords": [
+              -89.75,
+              -277
+            ],
+            "id": "LocationName_01_07",
+            "name": "Hyrule Ranch",
+            "link": "Hyrule Ranch"
+          },
+          {
+            "coords": [
+              -384.05,
+              -223.07
+            ],
+            "id": "LocationName_01_08",
+            "name": "Suthorn Beach",
+            "link": "Suthorn Beach"
+          },
+          {
+            "coords": [
+              133.25,
+              -416
+            ],
+            "id": "LocationName_01_09",
+            "name": "Eldin Volcano Trail",
+            "link": "Eldin Volcano Trail"
+          },
+          {
+            "coords": [
+              46.25,
+              -27.58
+            ],
+            "id": "LocationName_01_10",
+            "name": "Hyrule Castle Town",
+            "link": "Hyrule Castle Town"
+          },
+          {
+            "coords": [
+              85.57,
+              -402.83
+            ],
+            "id": "LocationName_01_11",
+            "name": "Kakariko Village",
+            "link": "Kakariko Village"
+          },
+          {
+            "coords": [
+              -16.75,
+              429.68
+            ],
+            "id": "LocationName_01_12",
+            "name": "Zora Cove",
+            "link": "Zora Cove"
+          },
+          {
+            "coords": [
+              204.25,
+              410
+            ],
+            "id": "LocationName_01_13",
+            "name": "Zora River",
+            "link": "Zora River"
+          }
+        ]
+      }
+    ]
+  }
+]

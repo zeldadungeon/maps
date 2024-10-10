@@ -29,6 +29,7 @@ window.onload = async () => {
     directory: "eow",
     gameTitle: "Echoes of Wisdom",
     mapSizePixels: 7200,
+    mapSizeCoords: 1272,
     tileSizePixels: 450,
     center: [0, 0],
   };
@@ -76,6 +77,29 @@ window.onload = async () => {
     //legendItem("Boss", "treasure", 20, 21),
   ]);
 
+  function addJson(layer: MapLayer, path: string): Promise<void> {
+    return fetch(`${import.meta.env.BASE_URL}eow/markers/${path}`)
+      .then((r) => r.json())
+      .then((categories: Schema.Category[]) => {
+        for (const category of categories) {
+          layer.addCategory(
+            category.name,
+            category.layers.map((l) =>
+              Layer.fromJSON(
+                l,
+                category.name,
+                category.link,
+                category.source,
+                "eow",
+                map.wiki
+              )
+            )
+          );
+        }
+      })
+      .catch((ex) => console.log(ex));
+  }
+
   function addWikiJson(mapLayer: MapLayer, wikiSubpage: string): Promise<void> {
     return (
       map.wiki
@@ -115,7 +139,10 @@ window.onload = async () => {
     );
   }
 
-  await addWikiJson(overworld, "Overworld Categories");
+  await Promise.allSettled([
+    addJson(overworld, "labels.json"),
+    addWikiJson(overworld, "Overworld Categories"),
+  ]);
 
   await map.initializeWikiConnector().catch((ex) => console.log(ex));
 };
