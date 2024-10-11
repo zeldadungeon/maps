@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Smoothie Shop",
+    "source": "mapns",
+    "layers": [
+      {
+        "minZoom": 1,
+        "icon": {
+          "url": "smoothie.png",
+          "width": 32,
+          "height": 32
+        },
+        "markers": [
+          {
+            "note": "This one wasn't datamined",
+            "coords": [
+              -210,
+              521.5
+            ],
+            "id": "smoothie0",
+            "name": "Smoothie Shop",
+            "link": "Smoothie Shop"
+          },
+          {
+            "coords": [
+              52.057500000000005,
+              494.3425
+            ],
+            "id": "smoothie1",
+            "name": "Smoothie Shop",
+            "link": "Smoothie Shop"
+          },
+          {
+            "coords": [
+              -276.09749999999997,
+              -394.9325
+            ],
+            "id": "smoothie2",
+            "name": "Smoothie Shop",
+            "link": "Smoothie Shop"
+          },
+          {
+            "coords": [
+              32.01750000000004,
+              -412.4675
+            ],
+            "id": "smoothie3",
+            "name": "Smoothie Shop",
+            "link": "Smoothie Shop"
+          },
+          {
+            "coords": [
+              137.64500000000004,
+              -83.06
+            ],
+            "id": "smoothie4",
+            "name": "Smoothie Shop",
+            "link": "Smoothie Shop"
+          },
+          {
+            "coords": [
+              164.7825,
+              -438.77
+            ],
+            "id": "smoothie5",
+            "name": "Smoothie Shop",
+            "link": "Smoothie Shop"
+          },
+          {
+            "coords": [
+              290.0325,
+              55.96749999999997
+            ],
+            "id": "smoothie6",
+            "name": "Smoothie Shop",
+            "link": "Smoothie Shop"
+          }
+        ]
+      }
+    ]
+  }
+]

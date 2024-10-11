@@ -142,6 +142,7 @@ window.onload = async () => {
   await Promise.allSettled([
     addJson(overworld, "labels.json"),
     addJson(overworld, "items.json"),
+    addJson(overworld, "landmarks.json"),
     addWikiJson(overworld, "Overworld Categories"),
   ]);
 
