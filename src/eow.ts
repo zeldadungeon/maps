@@ -39,11 +39,7 @@ window.onload = async () => {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const overworld = map.addMapLayer();
 
-  map.addControls(
-    ["User-Contributed"],
-    [],
-    [new ContributionMarkerHandler(map, options)]
-  );
+  map.addControls();
 
   map.addLegend([
     //legendItem("Still World Rift", "waypoint", 30, 30),
