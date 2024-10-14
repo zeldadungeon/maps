@@ -385,8 +385,81 @@
     ]
   },
   {
+    "name": "Lueburry's House",
+    "source": "summary",
+    "link": "Lueburry's House",
+    "layers": [
+      {
+        "minZoom": 1,
+        "icon": {
+          "url": "lueburry.png",
+          "width": 32,
+          "height": 32
+        },
+        "markers": [
+          {
+            "coords": [
+              -269,
+              25
+            ],
+            "id": "Lueburry's House"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dampé Studio",
+    "source": "summary",
+    "link": "Dampé Studio",
+    "layers": [
+      {
+        "minZoom": 1,
+        "icon": {
+          "url": "dampe.png",
+          "width": 32,
+          "height": 32
+        },
+        "markers": [
+          {
+            "coords": [
+              181,
+              224
+            ],
+            "id": "Dampé Studio"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Great Fairy Shrine",
+    "source": "summary",
+    "link": "Great Fairy Shrine",
+    "layers": [
+      {
+        "minZoom": 1,
+        "icon": {
+          "url": "gf.png",
+          "width": 32,
+          "height": 32
+        },
+        "markers": [
+          {
+            "coords": [
+              -166,
+              134
+            ],
+            "id": "Great Fairy Shrine"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Smoothie Shop",
-    "source": "mapns",
+    "source": "summary",
+    "link": "Smoothie Shop",
     "layers": [
       {
         "minZoom": 1,
@@ -402,63 +475,270 @@
               -210,
               521.5
             ],
-            "id": "smoothie0",
-            "name": "Smoothie Shop",
-            "link": "Smoothie Shop"
+            "id": "smoothie0"
           },
           {
             "coords": [
               52.0575,
               494.3425
             ],
-            "id": "smoothie1",
-            "name": "Smoothie Shop",
-            "link": "Smoothie Shop"
+            "id": "smoothie1"
           },
           {
             "coords": [
               -276.0975,
               -394.9325
             ],
-            "id": "smoothie2",
-            "name": "Smoothie Shop",
-            "link": "Smoothie Shop"
+            "id": "smoothie2"
           },
           {
             "coords": [
               32.0175,
               -412.4675
             ],
-            "id": "smoothie3",
-            "name": "Smoothie Shop",
-            "link": "Smoothie Shop"
+            "id": "smoothie3"
           },
           {
             "coords": [
               137.645,
               -83.06
             ],
-            "id": "smoothie4",
-            "name": "Smoothie Shop",
-            "link": "Smoothie Shop"
+            "id": "smoothie4"
           },
           {
             "coords": [
               164.7825,
               -438.77
             ],
-            "id": "smoothie5",
-            "name": "Smoothie Shop",
-            "link": "Smoothie Shop"
+            "id": "smoothie5"
           },
           {
             "coords": [
               290.0325,
               55.9675
             ],
-            "id": "smoothie6",
-            "name": "Smoothie Shop",
-            "link": "Smoothie Shop"
+            "id": "smoothie6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shop",
+    "source": "mapns",
+    "layers": [
+      {
+        "minZoom": 2,
+        "icon": {
+          "url": "shop.png",
+          "width": 32,
+          "height": 32
+        },
+        "markers": [
+          {
+            "coords": [
+              -341,
+              -51.7475
+            ],
+            "id": "Suthorn Village Shop",
+            "name": "Suthorn Village Shop",
+            "link": "Suthorn Village Shop"
+          },
+          {
+            "coords": [
+              28,
+              385
+            ],
+            "id": "Seesyde Village Shop",
+            "name": "Seesyde Village Shop",
+            "link": "Seesyde Village Shop"
+          },
+          {
+            "coords": [
+              252,
+              351
+            ],
+            "id": "River Zora Shop",
+            "name": "River Zora Shop",
+            "link": "River Zora Shop"
+          },
+          {
+            "coords": [
+              -288,
+              -527
+            ],
+            "id": "Gerudo Shop",
+            "name": "Gerudo Shop",
+            "link": "Gerudo Shop"
+          },
+          {
+            "coords": [
+              4,
+              -7
+            ],
+            "id": "Hyrule Castle Town Shop",
+            "name": "Hyrule Castle Town Shop",
+            "link": "Hyrule Castle Town Shop"
+          },
+          {
+            "coords": [
+              62,
+              -370
+            ],
+            "id": "Kakariko Village Shop",
+            "name": "Kakariko Village Shop",
+            "link": "Kakariko Village Shop"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "House",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 2,
+        "icon": {
+          "url": "house.png",
+          "width": 32,
+          "height": 32
+        },
+        "markers": [
+          {
+            "coords": [
+              149,
+              454
+            ],
+            "id": "Lord Jabu-Jabu's Den",
+            "name": "Lord Jabu-Jabu's Den",
+            "link": "Lord Jabu-Jabu's Den"
+          },
+          {
+            "coords": [
+              -54,
+              499
+            ],
+            "id": "Sea Zora Village",
+            "name": "Sea Zora Village",
+            "link": "Sea Zora Village"
+          },
+          {
+            "coords": [
+              -264,
+              -379.9025
+            ],
+            "id": "Tough Mango Plant Lab",
+            "name": "Tough Mango Plant Lab",
+            "link": "Tough Mango Plant Lab"
+          },
+          {
+            "coords": [
+              -262,
+              -538
+            ],
+            "id": "Gerudo Palace1",
+            "name": "Gerudo Palace",
+            "link": "Gerudo Palace"
+          },
+          {
+            "coords": [
+              -258,
+              -555
+            ],
+            "id": "Gerudo Palace2",
+            "name": "Gerudo Palace",
+            "link": "Gerudo Palace"
+          },
+          {
+            "coords": [
+              -254,
+              -529
+            ],
+            "id": "Gerudo Palace3",
+            "name": "Gerudo Palace",
+            "link": "Gerudo Palace"
+          },
+          {
+            "coords": [
+              -261,
+              -568
+            ],
+            "id": "Treasury",
+            "name": "Treasury",
+            "link": "Treasury"
+          },
+          {
+            "coords": [
+              58,
+              -32.96
+            ],
+            "id": "Hyrule Castle",
+            "name": "Hyrule Castle",
+            "link": "Hyrule Castle"
+          },
+          {
+            "coords": [
+              29,
+              -59
+            ],
+            "id": "Barracks",
+            "name": "Barracks",
+            "link": "Barracks"
+          },
+          {
+            "coords": [
+              69,
+              -437.5175
+            ],
+            "id": "Slumber Dojo",
+            "name": "Slumber Dojo",
+            "link": "Slumber Dojo"
+          },
+          {
+            "coords": [
+              175,
+              -402.4475
+            ],
+            "id": "Goron City",
+            "name": "Goron City",
+            "link": "Goron City"
+          },
+          {
+            "coords": [
+              -224,
+              419.1925
+            ],
+            "id": "Deku Scrub Lockup",
+            "name": "Deku Scrub Lockup",
+            "link": "Deku Scrub Lockup"
+          },
+          {
+            "coords": [
+              -156,
+              495.595
+            ],
+            "id": "The Sweet Spot",
+            "name": "The Sweet Spot",
+            "link": "The Sweet Spot"
+          },
+          {
+            "coords": [
+              165,
+              -44.2325
+            ],
+            "id": "Northern Sanctuary",
+            "name": "Northern Sanctuary",
+            "link": "Northern Sanctuary"
+          },
+          {
+            "coords": [
+              241,
+              184.975
+            ],
+            "id": "Condé's House",
+            "name": "Condé's House",
+            "link": "Condé's House"
           }
         ]
       }
