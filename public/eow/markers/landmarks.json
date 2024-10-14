@@ -1,5 +1,390 @@
 [
   {
+    "name": "Waypoint",
+    "source": "summary",
+    "layers": [
+      {
+        "minZoom": 1,
+        "icon": {
+          "url": "waypoint.png",
+          "width": 28,
+          "height": 28
+        },
+        "markers": [
+          {
+            "coords": [
+              249,
+              -519
+            ],
+            "id": "waypoint01",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              213,
+              -541
+            ],
+            "id": "waypoint02",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              189,
+              -470
+            ],
+            "id": "waypoint03",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              160,
+              -426
+            ],
+            "id": "waypoint04",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              110,
+              -594
+            ],
+            "id": "waypoint05",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              -42,
+              -533
+            ],
+            "id": "waypoint06",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              58,
+              -401
+            ],
+            "id": "waypoint07",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              23,
+              -240
+            ],
+            "id": "waypoint08",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              -37,
+              -310
+            ],
+            "id": "waypoint09",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              -130,
+              -258
+            ],
+            "id": "waypoint10",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              -200,
+              -473
+            ],
+            "id": "waypoint11",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              -322,
+              -531
+            ],
+            "id": "waypoint12",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              -345,
+              -395
+            ],
+            "id": "waypoint13",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              -289,
+              -359
+            ],
+            "id": "waypoint14",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              -287,
+              -185
+            ],
+            "id": "waypoint15",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              -185,
+              -110
+            ],
+            "id": "waypoint16",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              -349,
+              -9
+            ],
+            "id": "waypoint17",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              -276,
+              3
+            ],
+            "id": "waypoint18",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              -281,
+              171
+            ],
+            "id": "waypoint19",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              -53,
+              -20
+            ],
+            "id": "waypoint20",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              -14,
+              151
+            ],
+            "id": "waypoint21",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              -177,
+              140
+            ],
+            "id": "waypoint22",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              -151,
+              269
+            ],
+            "id": "waypoint23",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              -376,
+              337
+            ],
+            "id": "waypoint24",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              -385,
+              544
+            ],
+            "id": "waypoint25",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              -198,
+              504
+            ],
+            "id": "waypoint26",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              -49,
+              507
+            ],
+            "id": "waypoint27",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              47,
+              329
+            ],
+            "id": "waypoint28",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              63,
+              469
+            ],
+            "id": "waypoint29",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              143,
+              482
+            ],
+            "id": "waypoint30",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              239,
+              369
+            ],
+            "id": "waypoint31",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              162,
+              229
+            ],
+            "id": "waypoint32",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              129,
+              18
+            ],
+            "id": "waypoint33",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              314,
+              -72
+            ],
+            "id": "waypoint34",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              296,
+              51
+            ],
+            "id": "waypoint35",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              219,
+              163
+            ],
+            "id": "waypoint36",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              322,
+              186
+            ],
+            "id": "waypoint37",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              322,
+              103
+            ],
+            "id": "waypoint38",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              387,
+              140
+            ],
+            "id": "waypoint39",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              175,
+              -121
+            ],
+            "id": "waypoint40",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          },
+          {
+            "coords": [
+              252,
+              -202
+            ],
+            "id": "waypoint41",
+            "name": "Waypoint",
+            "link": "Waypoint"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Smoothie Shop",
     "source": "mapns",
     "layers": [
@@ -23,7 +408,7 @@
           },
           {
             "coords": [
-              52.057500000000005,
+              52.0575,
               494.3425
             ],
             "id": "smoothie1",
@@ -32,7 +417,7 @@
           },
           {
             "coords": [
-              -276.09749999999997,
+              -276.0975,
               -394.9325
             ],
             "id": "smoothie2",
@@ -41,7 +426,7 @@
           },
           {
             "coords": [
-              32.01750000000004,
+              32.0175,
               -412.4675
             ],
             "id": "smoothie3",
@@ -50,7 +435,7 @@
           },
           {
             "coords": [
-              137.64500000000004,
+              137.645,
               -83.06
             ],
             "id": "smoothie4",
@@ -69,7 +454,7 @@
           {
             "coords": [
               290.0325,
-              55.96749999999997
+              55.9675
             ],
             "id": "smoothie6",
             "name": "Smoothie Shop",
