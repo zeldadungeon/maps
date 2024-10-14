@@ -743,5 +743,336 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Cave",
+    "source": "mapns",
+    "layers": [
+      {
+        "minZoom": 2,
+        "icon": {
+          "url": "cave.png",
+          "width": 32,
+          "height": 32
+        },
+        "markers": [
+          {
+            "coords": [-344,-250],
+            "id": "cave01"
+          },
+          {
+            "coords": [-362,
+            -169.4825],
+            "id": "Beach Cave1",
+            "name": "Beach Cave",
+            "link": "Beach Cave"
+          },
+          {
+            "coords": [-350,-127],
+            "id": "Beach Cave2",
+            "name": "Beach Cave",
+            "link": "Beach Cave"
+          },
+          {
+            "coords": [-343,-63],
+            "id": "Bottom of the Well1",
+            "name": "Bottom of the Well",
+            "link": "Bottom of the Well (Echoes of Wisdom)"
+          },
+          {
+            "coords": [-367,76],
+            "id": "cave02"
+          },
+          {
+            "coords": [-311,
+            128.6125],
+            "id": "cave03"
+          },
+          {
+            "coords": [-300,174],
+            "id": "cave04"
+          },
+          {
+            "coords": [-239,
+            181.2175],
+            "id": "Suthorn Ruins1",
+            "name": "Suthorn Ruins",
+            "link": "Suthorn Ruins"
+          },
+          {
+            "coords": [-259,151],
+            "id": "Suthorn Ruins2",
+            "name": "Suthorn Ruins",
+            "link": "Suthorn Ruins"
+          },
+          {
+            "coords": [-217,53],
+            "id": "cave05"
+          },
+          {
+            "coords": [-161,-70],
+            "id": "cave06"
+          },
+          {
+            "coords": [74,
+            193.7425],
+            "id": "Eastern Temple",
+            "name": "Eastern Temple",
+            "link": "Eastern Temple"
+          },
+          {
+            "coords": [185,403],
+            "id": "cave07"
+          },
+          {
+            "coords": [242,406],
+            "id": "cave08"
+          },
+          {
+            "coords": [-14,577],
+            "id": "cave09a"
+          },
+          {
+            "coords": [-16,594],
+            "id": "cave09b"
+          },
+          {
+            "coords": [-17,
+            293.9425],
+            "id": "cave10"
+          },
+          {
+            "coords": [-69,
+            283.9225],
+            "id": "Wrecked Ship",
+            "name": "Wrecked Ship",
+            "link": "Wrecked Ship"
+          },
+          {
+            "coords": [-215,-217],
+            "id": "cave11"
+          },
+          {
+            "coords": [-202,-433],
+            "id": "cave12a"
+          },
+          {
+            "coords": [-191,-420],
+            "id": "cave12b"
+          },
+          {
+            "coords": [-142,-465],
+            "id": "Ancestor's Cave of Rest",
+            "name": "Ancestor's Cave of Rest",
+            "link": "Ancestor's Cave of Rest"
+          },
+          {
+            "coords": [-89,-573],
+            "id": "cave13"
+          },
+          {
+            "coords": [-234,
+            -517.6775],
+            "id": "cave14"
+          },
+          {
+            "coords": [-356,
+            -362.3675],
+            "id": "cave15"
+          },
+          {
+            "coords": [-347,-456],
+            "id": "Cryptic Cavern",
+            "name": "Cryptic Cavern",
+            "link": "Cryptic Cavern"
+          },
+          {
+            "coords": [-351,
+            -431.255],
+            "id": "Gerudo Sanctum",
+            "name": "Gerudo Sanctum",
+            "link": "Gerudo Sanctum"
+          },
+          {
+            "coords": [18,-66],
+            "id": "Bottom of the Well2",
+            "name": "Bottom of the Well",
+            "link": "Bottom of the Well (Echoes of Wisdom)"
+          },
+          {
+            "coords": [36,
+            -46.7375],
+            "id": "cave16"
+          },
+          {
+            "coords": [56,
+            -171.9875],
+            "id": "cave17"
+          },
+          {
+            "coords": [114,
+            -277.1975],
+            "id": "cave18"
+          },
+          {
+            "coords": [75,-392],
+            "id": "Bottom of the Well3",
+            "name": "Bottom of the Well",
+            "link": "Bottom of the Well (Echoes of Wisdom)"
+          },
+          {
+            "coords": [-76,
+            -432.5075],
+            "id": "cave19"
+          },
+          {
+            "coords": [63,
+            -582.8075],
+            "id": "cave20"
+          },
+          {
+            "coords": [98,-607],
+            "id": "cave21"
+          },
+          {
+            "coords": [151,-333],
+            "id": "cave22"
+          },
+          {
+            "coords": [125,-476],
+            "id": "cave23a"
+          },
+          {
+            "coords": [116,-510],
+            "id": "cave23b"
+          },
+          {
+            "coords": [136,-504],
+            "id": "cave24a"
+          },
+          {
+            "coords": [137,-473],
+            "id": "cave24b"
+          },
+          {
+            "coords": [209,-448],
+            "id": "Lizalfos Burrow",
+            "name": "Lizalfos Burrow",
+            "link": "Lizalfos Burrow"
+          },
+          {
+            "coords": [219,-547],
+            "id": "Rock-Roast Quarry",
+            "name": "Rock-Roast Quarry",
+            "link": "Rock-Roast Quarry"
+          },
+          {
+            "coords": [246,
+            -457.5575],
+            "id": "Summit Cave",
+            "name": "Summit Cave",
+            "link": "Summit Cave"
+          },
+          {
+            "coords": [-293,
+            326.5075],
+            "id": "cave25a"
+          },
+          {
+            "coords": [-281,333],
+            "id": "cave25b"
+          },
+          {
+            "coords": [-345,
+            444.2425],
+            "id": "cave26a"
+          },
+          {
+            "coords": [-365,474],
+            "id": "cave26b"
+          },
+          {
+            "coords": [-322,
+            514.3825],
+            "id": "Hidden Ruins",
+            "name": "Hidden Ruins",
+            "link": "Hidden Ruins"
+          },
+          {
+            "coords": [-222,586],
+            "id": "cave27"
+          },
+          {
+            "coords": [-225,
+            434.2225],
+            "id": "Deku Scrub Lockup cave",
+            "name": "Deku Scrub Lockup",
+            "link": "Deku Scrub Lockup"
+          },
+          {
+            "coords": [192,
+            243.8425],
+            "id": "cave28"
+          },
+          {
+            "coords": [181,104],
+            "id": "cave29"
+          },
+          {
+            "coords": [174,19],
+            "id": "cave30"
+          },
+          {
+            "coords": [149,-150],
+            "id": "cave31"
+          },
+          {
+            "coords": [291,-65],
+            "id": "cave32a"
+          },
+          {
+            "coords": [307,-58],
+            "id": "cave32b"
+          },
+          {
+            "coords": [341,-11],
+            "id": "cave33"
+          },
+          {
+            "coords": [301,229],
+            "id": "cave34"
+          },
+          {
+            "coords": [251,
+            201.2575],
+            "id": "cave35a"
+          },
+          {
+            "coords": [326,191],
+            "id": "cave35b"
+          },
+          {
+            "coords": [299,94],
+            "id": "cave36"
+          },
+          {
+            "coords": [339,133],
+            "id": "cave37a"
+          },
+          {
+            "coords": [329,120],
+            "id": "cave37b"
+          },
+          {
+            "coords": [367,141],
+            "id": "cave38a"
+          },
+          {
+            "coords": [389,138],
+            "id": "cave38b"
+          }
+        ]
+      }
+    ]
   }
 ]
