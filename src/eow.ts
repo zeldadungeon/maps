@@ -39,7 +39,11 @@ window.onload = async () => {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const overworld = map.addMapLayer();
 
-  map.addControls();
+  map.addControls(
+    [],
+    [],
+    import.meta.env.PROD ? [] : [new ContributionMarkerHandler(map, options)]
+  );
 
   map.addLegend([
     legendItem("Waypoint", "waypoint", 28, 28),
