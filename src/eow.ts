@@ -100,6 +100,69 @@ window.onload = async () => {
       .catch((ex) => console.log(ex));
   }
 
+  function addWiki(
+    mapLayer: MapLayer,
+    categoryName: string,
+    wikiSubpage: string,
+    infoSource: string,
+    iconUrl: string,
+    iconWidth: number,
+    iconHeight: number,
+    minZoom: number
+  ): Promise<void> {
+    const ctrs: { [key: string]: number } = {};
+    return (
+      map.wiki
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        .query<any>(
+          `action=parse&page=${encodeURIComponent(
+            `Zelda Dungeon:Echoes of Wisdom Map/${wikiSubpage}`
+          )}`
+        )
+        .then((result) => {
+          let markers = <string>result.parse.text["*"];
+          const wikiRegex = /<p>([\s\S]*),\n?<\/p>/g;
+          const res = wikiRegex.exec(markers);
+          markers = res ? res[1] : "";
+          const layer: Schema.Layer = JSON.parse(`{
+  "minZoom": ${minZoom},
+  "icon": {
+      "url": "${iconUrl}.png",
+      "width": ${iconWidth},
+      "height": ${iconHeight}
+  },
+  "markers": [
+    ${markers}
+  ]
+}`);
+          layer.markers.forEach((m) => {
+            if (ctrs[m.id] == undefined) {
+              ctrs[m.id] = 1;
+            } else {
+              m.id = `${m.id}_${ctrs[m.id]++}`;
+            }
+          });
+
+          mapLayer.addCategory(categoryName, [
+            Layer.fromJSON(
+              layer,
+              categoryName,
+              undefined,
+              infoSource,
+              "eow",
+              map.wiki
+            ),
+          ]);
+        })
+        .catch((ex) => {
+          map.showNotification(
+            `User-contributed markers from ${wikiSubpage} were unable to load due to a formatting error.`
+          );
+          console.log(`Error parsing JSON from page: ${wikiSubpage}\n${ex}`);
+        })
+    );
+  }
+
   function addWikiJson(mapLayer: MapLayer, wikiSubpage: string): Promise<void> {
     return (
       map.wiki
@@ -143,7 +206,58 @@ window.onload = async () => {
     addJson(overworld, "labels.json"),
     addJson(overworld, "items.json"),
     addJson(overworld, "landmarks.json"),
-    addWikiJson(overworld, "Overworld Categories"),
+    addWiki(
+      overworld,
+      "Minigame",
+      "Minigames",
+      "summary",
+      "minigame",
+      32,
+      32,
+      2
+    ),
+    addWiki(overworld, "Echo", "Echoes", "summary", "echo", 25, 25, 2),
+    addWiki(
+      overworld,
+      "Main Quest",
+      "Main Quests",
+      "mapns",
+      "mainquest",
+      25,
+      25,
+      2
+    ),
+    addWiki(
+      overworld,
+      "Side Quest",
+      "Side Quests",
+      "mapns",
+      "sidequest",
+      25,
+      25,
+      2
+    ),
+    addWiki(
+      overworld,
+      "Main Quest Objective",
+      "Main Quest Objectives",
+      "mapns",
+      "mainobjective",
+      32,
+      32,
+      2
+    ),
+    addWiki(
+      overworld,
+      "Side Quest Objective",
+      "Side Quest Objectives",
+      "mapns",
+      "sideobjective",
+      32,
+      32,
+      2
+    ),
+    //addWikiJson(overworld, "Overworld Categories"),
   ]);
 
   await map.initializeWikiConnector().catch((ex) => console.log(ex));
