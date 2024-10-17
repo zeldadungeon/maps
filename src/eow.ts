@@ -42,8 +42,7 @@ window.onload = async () => {
   map.addControls();
 
   map.addLegend([
-    //legendItem("Still World Rift", "waypoint", 30, 30),
-    //legendItem("Dungeon", "dungeon", 30, 21),
+    legendItem("Waypoint", "waypoint", 28, 28),
     legendItem("Lueburry's House", "lueburry", 32, 32),
     legendItem("Dampé Studio", "dampe", 32, 32),
     legendItem("Great Fairy Shrine", "gf", 32, 32),
@@ -53,13 +52,12 @@ window.onload = async () => {
     legendItem("Cave", "cave", 32, 32),
     legendItem("Minigame", "minigame", 32, 32),
 
-    legendItem("Waypoint", "waypoint", 28, 28),
     legendItem("Piece of Heart", "poh", 32, 32),
     legendItem("Might Crystal", "might", 32, 32),
     legendItem("Stamp", "stamp", 32, 32),
+    legendItem("Echo", "echo", 25, 25),
 
     //legendItem("Fairy Bottle", "treasure", 20, 21),
-    //legendItem("Echo", "treasure", 20, 21),
     //legendItem("Clothing", "treasure", 20, 21),
     //legendItem("Ingredient", "treasure", 20, 21),
     //legendItem("Fairy", "treasure", 20, 21),
@@ -70,6 +68,8 @@ window.onload = async () => {
     legendItem("Main Quest Objective", "mainobjective", 32, 32),
     legendItem("Side Quest Objective", "sideobjective", 32, 32),
 
+    //legendItem("Still World Rift", "waypoint", 30, 30),
+    //legendItem("Dungeon", "dungeon", 30, 21),
     //legendItem("Boss", "treasure", 20, 21),
   ]);
 
