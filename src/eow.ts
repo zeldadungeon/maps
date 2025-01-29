@@ -216,7 +216,7 @@ window.onload = async () => {
       32,
       2
     ),
-    addWiki(overworld, "Echo", "Echoes", "summary", "echo", 25, 25, 2),
+    addWiki(overworld, "Echo", "Echoes", "mapns", "echo", 25, 25, 2),
     addWiki(
       overworld,
       "Main Quest",
