@@ -5,10 +5,6 @@ import { Layer } from "./common/Layer";
 import { ZDMap } from "./common/ZDMap";
 
 window.onload = async () => {
-  // function iconUrl(iconName: string) {
-  //   return `${import.meta.env.BASE_URL}botw/icons/${iconName}.png`;
-  // }
-
   function legendItem(
     name: string,
     iconName: string,
