@@ -55,7 +55,6 @@ window.onload = async () => {
       legendItem("Side Quest", "sidequest", 30, 23),
       legendItem("Memory", "memory", 30, 28),
       legendItem("Quest Objective", "objective", 20, 20),
-      // legendItem("Korok Seed", "seed", 30, 28),
     ],
     "Quests"
   );
