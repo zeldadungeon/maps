@@ -611,9 +611,24 @@ body {
   font-weight: lighter;
 }
 
-//Wiki link
+// Wiki content in popups
+
 .zd-popup a {
   color: #0096ff;
+}
+
+.zd-popup__body figure {
+  margin: 0; // fix margins on images
+}
+
+.zd-popup__body .center {
+  width: 100%;
+  text-align: center;
+}
+
+.zd-popup__body *.center * {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 //Contribute links eetc...
@@ -643,14 +658,4 @@ body {
 
 .zd-popup__footer {
   margin-bottom: 0.5em;
-}
-
-/* WIKI CONTENT */
-.center {
-  width: 100%;
-  text-align: center;
-}
-*.center * {
-  margin-left: auto;
-  margin-right: auto;
 }
