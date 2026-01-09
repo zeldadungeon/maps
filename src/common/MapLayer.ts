@@ -32,7 +32,7 @@ export class MapLayer extends LayerGroup {
   ) {
     super();
     const settingsStore = LocalStorage.getStore(this.map.directory, "settings");
-    this.selectedObjects = settingsStore.getItem("Objects-Selected");
+    this.selectedObjects = settingsStore.getItem("Objects-Selected") ?? [];
     this.iconUrl = `${import.meta.env.BASE_URL}${
       map.directory
     }/icons/${layerId}.png`;
