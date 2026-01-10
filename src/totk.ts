@@ -7,6 +7,8 @@ import { MapLayer } from "./common/MapLayer";
 import { ZDMap, ZDMapOptions } from "./common/ZDMap";
 import { ContributionMarkerHandler } from "./common/Handlers/ContributionMarkerHandler";
 
+const JSON_VER = "1";
+
 window.onload = async () => {
   function legendItem(
     name: string,
@@ -689,7 +691,9 @@ window.onload = async () => {
   );
 
   function addJson(layer: MapLayer, path: string): Promise<void> {
-    return fetch(`${import.meta.env.BASE_URL}totk/markers/${path}`)
+    return fetch(
+      `${import.meta.env.BASE_URL}totk/markers/${path}?v=${JSON_VER}`
+    )
       .then((r) => r.json())
       .then((categories: Schema.Category[]) => {
         for (const category of categories) {

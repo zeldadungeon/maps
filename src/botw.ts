@@ -4,6 +4,8 @@ import { ICategory } from "./common/ICategory";
 import { Layer } from "./common/Layer";
 import { ZDMap } from "./common/ZDMap";
 
+const JSON_VER = "1";
+
 window.onload = async () => {
   function legendItem(
     name: string,
@@ -145,14 +147,18 @@ window.onload = async () => {
   }
 
   const locations = fetch(
-    `${import.meta.env.BASE_URL}botw/markers/locations.json`
+    `${import.meta.env.BASE_URL}botw/markers/locations.json?v=${JSON_VER}`
   )
     .then((r) => r.json())
     .then(addJson);
-  const pins = fetch(`${import.meta.env.BASE_URL}botw/markers/pins.json`)
+  const pins = fetch(
+    `${import.meta.env.BASE_URL}botw/markers/pins.json?v=${JSON_VER}`
+  )
     .then((r) => r.json())
     .then(addJson);
-  const seeds = fetch(`${import.meta.env.BASE_URL}botw/markers/seeds.json`)
+  const seeds = fetch(
+    `${import.meta.env.BASE_URL}botw/markers/seeds.json?v=${JSON_VER}`
+  )
     .then((r) => {
       if (!r.ok) throw new Error(`Failed to fetch seeds.json: ${r.status}`);
       return r.json();
@@ -184,11 +190,13 @@ window.onload = async () => {
     });
 
   const treasures = fetch(
-    `${import.meta.env.BASE_URL}botw/markers/treasures.json`
+    `${import.meta.env.BASE_URL}botw/markers/treasures.json?v=${JSON_VER}`
   )
     .then((r) => r.json())
     .then(addJson);
-  const wiki = fetch(`${import.meta.env.BASE_URL}botw/markers/wiki.json`)
+  const wiki = fetch(
+    `${import.meta.env.BASE_URL}botw/markers/wiki.json?v=${JSON_VER}`
+  )
     .then((r) => r.json())
     .then(addJson);
   await Promise.allSettled([locations, pins, seeds, treasures, wiki]);

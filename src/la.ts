@@ -3,6 +3,8 @@ import * as Schema from "./common/JSONSchema";
 import { Layer } from "./common/Layer";
 import { ZDMap } from "./common/ZDMap";
 
+const JSON_VER = "1";
+
 window.onload = async () => {
   function iconUrl(iconName: string) {
     return `${import.meta.env.BASE_URL}la/icons/${iconName}.png`;
@@ -88,7 +90,9 @@ window.onload = async () => {
   }
 
   try {
-    const pins = await fetch(`${import.meta.env.BASE_URL}la/markers/pins.json`);
+    const pins = await fetch(
+      `${import.meta.env.BASE_URL}la/markers/pins.json?v=${JSON_VER}`
+    );
     addJson(await pins.json());
   } catch (ex) {
     /* fail gracefully */
