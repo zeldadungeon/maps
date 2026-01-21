@@ -35,6 +35,7 @@ const inputs = {
       "dispensers.json",
       "koroks.json",
       "labels.json",
+      "merchants.json",
       "othermarkers.json",
       "quests.json",
       "services.json",
